@@ -1,0 +1,1572 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: Startitecture.Core
+  name: Startitecture.Core
+  href: api/Startitecture.Core.html
+  commentId: N:Startitecture.Core
+  fullName: Startitecture.Core
+  nameWithType: Startitecture.Core
+- uid: Startitecture.Core.BusinessException
+  name: BusinessException
+  href: api/Startitecture.Core.BusinessException.html
+  commentId: T:Startitecture.Core.BusinessException
+  fullName: Startitecture.Core.BusinessException
+  nameWithType: BusinessException
+- uid: Startitecture.Core.BusinessException.#ctor
+  name: BusinessException()
+  href: api/Startitecture.Core.BusinessException.html#Startitecture_Core_BusinessException__ctor
+  commentId: M:Startitecture.Core.BusinessException.#ctor
+  fullName: Startitecture.Core.BusinessException.BusinessException()
+  nameWithType: BusinessException.BusinessException()
+- uid: Startitecture.Core.BusinessException.#ctor(System.Object,System.Collections.Generic.IList{System.String})
+  name: BusinessException(Object, IList<String>)
+  href: api/Startitecture.Core.BusinessException.html#Startitecture_Core_BusinessException__ctor_System_Object_System_Collections_Generic_IList_System_String__
+  commentId: M:Startitecture.Core.BusinessException.#ctor(System.Object,System.Collections.Generic.IList{System.String})
+  name.vb: BusinessException(Object, IList(Of String))
+  fullName: Startitecture.Core.BusinessException.BusinessException(System.Object, System.Collections.Generic.IList<System.String>)
+  fullName.vb: Startitecture.Core.BusinessException.BusinessException(System.Object, System.Collections.Generic.IList(Of System.String))
+  nameWithType: BusinessException.BusinessException(Object, IList<String>)
+  nameWithType.vb: BusinessException.BusinessException(Object, IList(Of String))
+- uid: Startitecture.Core.BusinessException.#ctor(System.Object,System.Collections.ObjectModel.Collection{System.String},System.Exception)
+  name: BusinessException(Object, Collection<String>, Exception)
+  href: api/Startitecture.Core.BusinessException.html#Startitecture_Core_BusinessException__ctor_System_Object_System_Collections_ObjectModel_Collection_System_String__System_Exception_
+  commentId: M:Startitecture.Core.BusinessException.#ctor(System.Object,System.Collections.ObjectModel.Collection{System.String},System.Exception)
+  name.vb: BusinessException(Object, Collection(Of String), Exception)
+  fullName: Startitecture.Core.BusinessException.BusinessException(System.Object, System.Collections.ObjectModel.Collection<System.String>, System.Exception)
+  fullName.vb: Startitecture.Core.BusinessException.BusinessException(System.Object, System.Collections.ObjectModel.Collection(Of System.String), System.Exception)
+  nameWithType: BusinessException.BusinessException(Object, Collection<String>, Exception)
+  nameWithType.vb: BusinessException.BusinessException(Object, Collection(Of String), Exception)
+- uid: Startitecture.Core.BusinessException.#ctor(System.Object,System.String)
+  name: BusinessException(Object, String)
+  href: api/Startitecture.Core.BusinessException.html#Startitecture_Core_BusinessException__ctor_System_Object_System_String_
+  commentId: M:Startitecture.Core.BusinessException.#ctor(System.Object,System.String)
+  fullName: Startitecture.Core.BusinessException.BusinessException(System.Object, System.String)
+  nameWithType: BusinessException.BusinessException(Object, String)
+- uid: Startitecture.Core.BusinessException.#ctor(System.Object,System.String,System.Exception)
+  name: BusinessException(Object, String, Exception)
+  href: api/Startitecture.Core.BusinessException.html#Startitecture_Core_BusinessException__ctor_System_Object_System_String_System_Exception_
+  commentId: M:Startitecture.Core.BusinessException.#ctor(System.Object,System.String,System.Exception)
+  fullName: Startitecture.Core.BusinessException.BusinessException(System.Object, System.String, System.Exception)
+  nameWithType: BusinessException.BusinessException(Object, String, Exception)
+- uid: Startitecture.Core.BusinessException.#ctor(System.String)
+  name: BusinessException(String)
+  href: api/Startitecture.Core.BusinessException.html#Startitecture_Core_BusinessException__ctor_System_String_
+  commentId: M:Startitecture.Core.BusinessException.#ctor(System.String)
+  fullName: Startitecture.Core.BusinessException.BusinessException(System.String)
+  nameWithType: BusinessException.BusinessException(String)
+- uid: Startitecture.Core.BusinessException.#ctor(System.String,System.Exception)
+  name: BusinessException(String, Exception)
+  href: api/Startitecture.Core.BusinessException.html#Startitecture_Core_BusinessException__ctor_System_String_System_Exception_
+  commentId: M:Startitecture.Core.BusinessException.#ctor(System.String,System.Exception)
+  fullName: Startitecture.Core.BusinessException.BusinessException(System.String, System.Exception)
+  nameWithType: BusinessException.BusinessException(String, Exception)
+- uid: Startitecture.Core.BusinessException.#ctor*
+  name: BusinessException
+  href: api/Startitecture.Core.BusinessException.html#Startitecture_Core_BusinessException__ctor_
+  commentId: Overload:Startitecture.Core.BusinessException.#ctor
+  isSpec: "True"
+  fullName: Startitecture.Core.BusinessException.BusinessException
+  nameWithType: BusinessException.BusinessException
+- uid: Startitecture.Core.BusinessException.EntityErrors
+  name: EntityErrors
+  href: api/Startitecture.Core.BusinessException.html#Startitecture_Core_BusinessException_EntityErrors
+  commentId: P:Startitecture.Core.BusinessException.EntityErrors
+  fullName: Startitecture.Core.BusinessException.EntityErrors
+  nameWithType: BusinessException.EntityErrors
+- uid: Startitecture.Core.BusinessException.EntityErrors*
+  name: EntityErrors
+  href: api/Startitecture.Core.BusinessException.html#Startitecture_Core_BusinessException_EntityErrors_
+  commentId: Overload:Startitecture.Core.BusinessException.EntityErrors
+  isSpec: "True"
+  fullName: Startitecture.Core.BusinessException.EntityErrors
+  nameWithType: BusinessException.EntityErrors
+- uid: Startitecture.Core.BusinessException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  name: GetObjectData(SerializationInfo, StreamingContext)
+  href: api/Startitecture.Core.BusinessException.html#Startitecture_Core_BusinessException_GetObjectData_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_
+  commentId: M:Startitecture.Core.BusinessException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  fullName: Startitecture.Core.BusinessException.GetObjectData(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
+  nameWithType: BusinessException.GetObjectData(SerializationInfo, StreamingContext)
+- uid: Startitecture.Core.BusinessException.GetObjectData*
+  name: GetObjectData
+  href: api/Startitecture.Core.BusinessException.html#Startitecture_Core_BusinessException_GetObjectData_
+  commentId: Overload:Startitecture.Core.BusinessException.GetObjectData
+  isSpec: "True"
+  fullName: Startitecture.Core.BusinessException.GetObjectData
+  nameWithType: BusinessException.GetObjectData
+- uid: Startitecture.Core.BusinessException.TargetEntity
+  name: TargetEntity
+  href: api/Startitecture.Core.BusinessException.html#Startitecture_Core_BusinessException_TargetEntity
+  commentId: P:Startitecture.Core.BusinessException.TargetEntity
+  fullName: Startitecture.Core.BusinessException.TargetEntity
+  nameWithType: BusinessException.TargetEntity
+- uid: Startitecture.Core.BusinessException.TargetEntity*
+  name: TargetEntity
+  href: api/Startitecture.Core.BusinessException.html#Startitecture_Core_BusinessException_TargetEntity_
+  commentId: Overload:Startitecture.Core.BusinessException.TargetEntity
+  isSpec: "True"
+  fullName: Startitecture.Core.BusinessException.TargetEntity
+  nameWithType: BusinessException.TargetEntity
+- uid: Startitecture.Core.CacheResult`1
+  name: CacheResult<TItem>
+  href: api/Startitecture.Core.CacheResult-1.html
+  commentId: T:Startitecture.Core.CacheResult`1
+  name.vb: CacheResult(Of TItem)
+  fullName: Startitecture.Core.CacheResult<TItem>
+  fullName.vb: Startitecture.Core.CacheResult(Of TItem)
+  nameWithType: CacheResult<TItem>
+  nameWithType.vb: CacheResult(Of TItem)
+- uid: Startitecture.Core.CacheResult`1.#ctor(`0,System.Boolean,System.String)
+  name: CacheResult(TItem, Boolean, String)
+  href: api/Startitecture.Core.CacheResult-1.html#Startitecture_Core_CacheResult_1__ctor__0_System_Boolean_System_String_
+  commentId: M:Startitecture.Core.CacheResult`1.#ctor(`0,System.Boolean,System.String)
+  fullName: Startitecture.Core.CacheResult<TItem>.CacheResult(TItem, System.Boolean, System.String)
+  fullName.vb: Startitecture.Core.CacheResult(Of TItem).CacheResult(TItem, System.Boolean, System.String)
+  nameWithType: CacheResult<TItem>.CacheResult(TItem, Boolean, String)
+  nameWithType.vb: CacheResult(Of TItem).CacheResult(TItem, Boolean, String)
+- uid: Startitecture.Core.CacheResult`1.#ctor*
+  name: CacheResult
+  href: api/Startitecture.Core.CacheResult-1.html#Startitecture_Core_CacheResult_1__ctor_
+  commentId: Overload:Startitecture.Core.CacheResult`1.#ctor
+  isSpec: "True"
+  fullName: Startitecture.Core.CacheResult<TItem>.CacheResult
+  fullName.vb: Startitecture.Core.CacheResult(Of TItem).CacheResult
+  nameWithType: CacheResult<TItem>.CacheResult
+  nameWithType.vb: CacheResult(Of TItem).CacheResult
+- uid: Startitecture.Core.CacheResult`1.Hit
+  name: Hit
+  href: api/Startitecture.Core.CacheResult-1.html#Startitecture_Core_CacheResult_1_Hit
+  commentId: P:Startitecture.Core.CacheResult`1.Hit
+  fullName: Startitecture.Core.CacheResult<TItem>.Hit
+  fullName.vb: Startitecture.Core.CacheResult(Of TItem).Hit
+  nameWithType: CacheResult<TItem>.Hit
+  nameWithType.vb: CacheResult(Of TItem).Hit
+- uid: Startitecture.Core.CacheResult`1.Hit*
+  name: Hit
+  href: api/Startitecture.Core.CacheResult-1.html#Startitecture_Core_CacheResult_1_Hit_
+  commentId: Overload:Startitecture.Core.CacheResult`1.Hit
+  isSpec: "True"
+  fullName: Startitecture.Core.CacheResult<TItem>.Hit
+  fullName.vb: Startitecture.Core.CacheResult(Of TItem).Hit
+  nameWithType: CacheResult<TItem>.Hit
+  nameWithType.vb: CacheResult(Of TItem).Hit
+- uid: Startitecture.Core.CacheResult`1.Item
+  name: Item
+  href: api/Startitecture.Core.CacheResult-1.html#Startitecture_Core_CacheResult_1_Item
+  commentId: P:Startitecture.Core.CacheResult`1.Item
+  fullName: Startitecture.Core.CacheResult<TItem>.Item
+  fullName.vb: Startitecture.Core.CacheResult(Of TItem).Item
+  nameWithType: CacheResult<TItem>.Item
+  nameWithType.vb: CacheResult(Of TItem).Item
+- uid: Startitecture.Core.CacheResult`1.Item*
+  name: Item
+  href: api/Startitecture.Core.CacheResult-1.html#Startitecture_Core_CacheResult_1_Item_
+  commentId: Overload:Startitecture.Core.CacheResult`1.Item
+  isSpec: "True"
+  fullName: Startitecture.Core.CacheResult<TItem>.Item
+  fullName.vb: Startitecture.Core.CacheResult(Of TItem).Item
+  nameWithType: CacheResult<TItem>.Item
+  nameWithType.vb: CacheResult(Of TItem).Item
+- uid: Startitecture.Core.CacheResult`1.Key
+  name: Key
+  href: api/Startitecture.Core.CacheResult-1.html#Startitecture_Core_CacheResult_1_Key
+  commentId: P:Startitecture.Core.CacheResult`1.Key
+  fullName: Startitecture.Core.CacheResult<TItem>.Key
+  fullName.vb: Startitecture.Core.CacheResult(Of TItem).Key
+  nameWithType: CacheResult<TItem>.Key
+  nameWithType.vb: CacheResult(Of TItem).Key
+- uid: Startitecture.Core.CacheResult`1.Key*
+  name: Key
+  href: api/Startitecture.Core.CacheResult-1.html#Startitecture_Core_CacheResult_1_Key_
+  commentId: Overload:Startitecture.Core.CacheResult`1.Key
+  isSpec: "True"
+  fullName: Startitecture.Core.CacheResult<TItem>.Key
+  fullName.vb: Startitecture.Core.CacheResult(Of TItem).Key
+  nameWithType: CacheResult<TItem>.Key
+  nameWithType.vb: CacheResult(Of TItem).Key
+- uid: Startitecture.Core.DomainException
+  name: DomainException
+  href: api/Startitecture.Core.DomainException.html
+  commentId: T:Startitecture.Core.DomainException
+  fullName: Startitecture.Core.DomainException
+  nameWithType: DomainException
+- uid: Startitecture.Core.DomainException.#ctor
+  name: DomainException()
+  href: api/Startitecture.Core.DomainException.html#Startitecture_Core_DomainException__ctor
+  commentId: M:Startitecture.Core.DomainException.#ctor
+  fullName: Startitecture.Core.DomainException.DomainException()
+  nameWithType: DomainException.DomainException()
+- uid: Startitecture.Core.DomainException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  name: DomainException(SerializationInfo, StreamingContext)
+  href: api/Startitecture.Core.DomainException.html#Startitecture_Core_DomainException__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_
+  commentId: M:Startitecture.Core.DomainException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  fullName: Startitecture.Core.DomainException.DomainException(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
+  nameWithType: DomainException.DomainException(SerializationInfo, StreamingContext)
+- uid: Startitecture.Core.DomainException.#ctor(System.String)
+  name: DomainException(String)
+  href: api/Startitecture.Core.DomainException.html#Startitecture_Core_DomainException__ctor_System_String_
+  commentId: M:Startitecture.Core.DomainException.#ctor(System.String)
+  fullName: Startitecture.Core.DomainException.DomainException(System.String)
+  nameWithType: DomainException.DomainException(String)
+- uid: Startitecture.Core.DomainException.#ctor(System.String,System.Exception)
+  name: DomainException(String, Exception)
+  href: api/Startitecture.Core.DomainException.html#Startitecture_Core_DomainException__ctor_System_String_System_Exception_
+  commentId: M:Startitecture.Core.DomainException.#ctor(System.String,System.Exception)
+  fullName: Startitecture.Core.DomainException.DomainException(System.String, System.Exception)
+  nameWithType: DomainException.DomainException(String, Exception)
+- uid: Startitecture.Core.DomainException.#ctor*
+  name: DomainException
+  href: api/Startitecture.Core.DomainException.html#Startitecture_Core_DomainException__ctor_
+  commentId: Overload:Startitecture.Core.DomainException.#ctor
+  isSpec: "True"
+  fullName: Startitecture.Core.DomainException.DomainException
+  nameWithType: DomainException.DomainException
+- uid: Startitecture.Core.DomainException.CorrelationId
+  name: CorrelationId
+  href: api/Startitecture.Core.DomainException.html#Startitecture_Core_DomainException_CorrelationId
+  commentId: P:Startitecture.Core.DomainException.CorrelationId
+  fullName: Startitecture.Core.DomainException.CorrelationId
+  nameWithType: DomainException.CorrelationId
+- uid: Startitecture.Core.DomainException.CorrelationId*
+  name: CorrelationId
+  href: api/Startitecture.Core.DomainException.html#Startitecture_Core_DomainException_CorrelationId_
+  commentId: Overload:Startitecture.Core.DomainException.CorrelationId
+  isSpec: "True"
+  fullName: Startitecture.Core.DomainException.CorrelationId
+  nameWithType: DomainException.CorrelationId
+- uid: Startitecture.Core.DomainException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  name: GetObjectData(SerializationInfo, StreamingContext)
+  href: api/Startitecture.Core.DomainException.html#Startitecture_Core_DomainException_GetObjectData_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_
+  commentId: M:Startitecture.Core.DomainException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  fullName: Startitecture.Core.DomainException.GetObjectData(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
+  nameWithType: DomainException.GetObjectData(SerializationInfo, StreamingContext)
+- uid: Startitecture.Core.DomainException.GetObjectData*
+  name: GetObjectData
+  href: api/Startitecture.Core.DomainException.html#Startitecture_Core_DomainException_GetObjectData_
+  commentId: Overload:Startitecture.Core.DomainException.GetObjectData
+  isSpec: "True"
+  fullName: Startitecture.Core.DomainException.GetObjectData
+  nameWithType: DomainException.GetObjectData
+- uid: Startitecture.Core.DoNotLogAttribute
+  name: DoNotLogAttribute
+  href: api/Startitecture.Core.DoNotLogAttribute.html
+  commentId: T:Startitecture.Core.DoNotLogAttribute
+  fullName: Startitecture.Core.DoNotLogAttribute
+  nameWithType: DoNotLogAttribute
+- uid: Startitecture.Core.Evaluate
+  name: Evaluate
+  href: api/Startitecture.Core.Evaluate.html
+  commentId: T:Startitecture.Core.Evaluate
+  fullName: Startitecture.Core.Evaluate
+  nameWithType: Evaluate
+- uid: Startitecture.Core.Evaluate.Compare*
+  name: Compare
+  href: api/Startitecture.Core.Evaluate.html#Startitecture_Core_Evaluate_Compare_
+  commentId: Overload:Startitecture.Core.Evaluate.Compare
+  isSpec: "True"
+  fullName: Startitecture.Core.Evaluate.Compare
+  nameWithType: Evaluate.Compare
+- uid: Startitecture.Core.Evaluate.Compare``1(``0,``0,System.Func{``0,System.Object}[])
+  name: Compare<T>(T, T, Func<T, Object>[])
+  href: api/Startitecture.Core.Evaluate.html#Startitecture_Core_Evaluate_Compare__1___0___0_System_Func___0_System_Object____
+  commentId: M:Startitecture.Core.Evaluate.Compare``1(``0,``0,System.Func{``0,System.Object}[])
+  name.vb: Compare(Of T)(T, T, Func(Of T, Object)())
+  fullName: Startitecture.Core.Evaluate.Compare<T>(T, T, System.Func<T, System.Object>[])
+  fullName.vb: Startitecture.Core.Evaluate.Compare(Of T)(T, T, System.Func(Of T, System.Object)())
+  nameWithType: Evaluate.Compare<T>(T, T, Func<T, Object>[])
+  nameWithType.vb: Evaluate.Compare(Of T)(T, T, Func(Of T, Object)())
+- uid: Startitecture.Core.Evaluate.Compare``1(``0,System.Object)
+  name: Compare<T>(T, Object)
+  href: api/Startitecture.Core.Evaluate.html#Startitecture_Core_Evaluate_Compare__1___0_System_Object_
+  commentId: M:Startitecture.Core.Evaluate.Compare``1(``0,System.Object)
+  name.vb: Compare(Of T)(T, Object)
+  fullName: Startitecture.Core.Evaluate.Compare<T>(T, System.Object)
+  fullName.vb: Startitecture.Core.Evaluate.Compare(Of T)(T, System.Object)
+  nameWithType: Evaluate.Compare<T>(T, Object)
+  nameWithType.vb: Evaluate.Compare(Of T)(T, Object)
+- uid: Startitecture.Core.Evaluate.Equals*
+  name: Equals
+  href: api/Startitecture.Core.Evaluate.html#Startitecture_Core_Evaluate_Equals_
+  commentId: Overload:Startitecture.Core.Evaluate.Equals
+  isSpec: "True"
+  fullName: Startitecture.Core.Evaluate.Equals
+  nameWithType: Evaluate.Equals
+- uid: Startitecture.Core.Evaluate.Equals``1(``0,``0,System.Func{``0,System.Object}[])
+  name: Equals<T>(T, T, Func<T, Object>[])
+  href: api/Startitecture.Core.Evaluate.html#Startitecture_Core_Evaluate_Equals__1___0___0_System_Func___0_System_Object____
+  commentId: M:Startitecture.Core.Evaluate.Equals``1(``0,``0,System.Func{``0,System.Object}[])
+  name.vb: Equals(Of T)(T, T, Func(Of T, Object)())
+  fullName: Startitecture.Core.Evaluate.Equals<T>(T, T, System.Func<T, System.Object>[])
+  fullName.vb: Startitecture.Core.Evaluate.Equals(Of T)(T, T, System.Func(Of T, System.Object)())
+  nameWithType: Evaluate.Equals<T>(T, T, Func<T, Object>[])
+  nameWithType.vb: Evaluate.Equals(Of T)(T, T, Func(Of T, Object)())
+- uid: Startitecture.Core.Evaluate.Equals``1(``0,System.Object)
+  name: Equals<T>(T, Object)
+  href: api/Startitecture.Core.Evaluate.html#Startitecture_Core_Evaluate_Equals__1___0_System_Object_
+  commentId: M:Startitecture.Core.Evaluate.Equals``1(``0,System.Object)
+  name.vb: Equals(Of T)(T, Object)
+  fullName: Startitecture.Core.Evaluate.Equals<T>(T, System.Object)
+  fullName.vb: Startitecture.Core.Evaluate.Equals(Of T)(T, System.Object)
+  nameWithType: Evaluate.Equals<T>(T, Object)
+  nameWithType.vb: Evaluate.Equals(Of T)(T, Object)
+- uid: Startitecture.Core.Evaluate.GenerateHashCode(System.Object[])
+  name: GenerateHashCode(Object[])
+  href: api/Startitecture.Core.Evaluate.html#Startitecture_Core_Evaluate_GenerateHashCode_System_Object___
+  commentId: M:Startitecture.Core.Evaluate.GenerateHashCode(System.Object[])
+  name.vb: GenerateHashCode(Object())
+  fullName: Startitecture.Core.Evaluate.GenerateHashCode(System.Object[])
+  fullName.vb: Startitecture.Core.Evaluate.GenerateHashCode(System.Object())
+  nameWithType: Evaluate.GenerateHashCode(Object[])
+  nameWithType.vb: Evaluate.GenerateHashCode(Object())
+- uid: Startitecture.Core.Evaluate.GenerateHashCode*
+  name: GenerateHashCode
+  href: api/Startitecture.Core.Evaluate.html#Startitecture_Core_Evaluate_GenerateHashCode_
+  commentId: Overload:Startitecture.Core.Evaluate.GenerateHashCode
+  isSpec: "True"
+  fullName: Startitecture.Core.Evaluate.GenerateHashCode
+  nameWithType: Evaluate.GenerateHashCode
+- uid: Startitecture.Core.Evaluate.GenerateHashCode``1(``0,System.Collections.Generic.IEnumerable{System.Func{``0,System.Object}})
+  name: GenerateHashCode<T>(T, IEnumerable<Func<T, Object>>)
+  href: api/Startitecture.Core.Evaluate.html#Startitecture_Core_Evaluate_GenerateHashCode__1___0_System_Collections_Generic_IEnumerable_System_Func___0_System_Object___
+  commentId: M:Startitecture.Core.Evaluate.GenerateHashCode``1(``0,System.Collections.Generic.IEnumerable{System.Func{``0,System.Object}})
+  name.vb: GenerateHashCode(Of T)(T, IEnumerable(Of Func(Of T, Object)))
+  fullName: Startitecture.Core.Evaluate.GenerateHashCode<T>(T, System.Collections.Generic.IEnumerable<System.Func<T, System.Object>>)
+  fullName.vb: Startitecture.Core.Evaluate.GenerateHashCode(Of T)(T, System.Collections.Generic.IEnumerable(Of System.Func(Of T, System.Object)))
+  nameWithType: Evaluate.GenerateHashCode<T>(T, IEnumerable<Func<T, Object>>)
+  nameWithType.vb: Evaluate.GenerateHashCode(Of T)(T, IEnumerable(Of Func(Of T, Object)))
+- uid: Startitecture.Core.Evaluate.GenerateHashCode``1(System.Collections.Generic.IEnumerable{``0})
+  name: GenerateHashCode<T>(IEnumerable<T>)
+  href: api/Startitecture.Core.Evaluate.html#Startitecture_Core_Evaluate_GenerateHashCode__1_System_Collections_Generic_IEnumerable___0__
+  commentId: M:Startitecture.Core.Evaluate.GenerateHashCode``1(System.Collections.Generic.IEnumerable{``0})
+  name.vb: GenerateHashCode(Of T)(IEnumerable(Of T))
+  fullName: Startitecture.Core.Evaluate.GenerateHashCode<T>(System.Collections.Generic.IEnumerable<T>)
+  fullName.vb: Startitecture.Core.Evaluate.GenerateHashCode(Of T)(System.Collections.Generic.IEnumerable(Of T))
+  nameWithType: Evaluate.GenerateHashCode<T>(IEnumerable<T>)
+  nameWithType.vb: Evaluate.GenerateHashCode(Of T)(IEnumerable(Of T))
+- uid: Startitecture.Core.Evaluate.GetHashCode*
+  name: GetHashCode
+  href: api/Startitecture.Core.Evaluate.html#Startitecture_Core_Evaluate_GetHashCode_
+  commentId: Overload:Startitecture.Core.Evaluate.GetHashCode
+  isSpec: "True"
+  fullName: Startitecture.Core.Evaluate.GetHashCode
+  nameWithType: Evaluate.GetHashCode
+- uid: Startitecture.Core.Evaluate.GetHashCode``1(``0)
+  name: GetHashCode<T>(T)
+  href: api/Startitecture.Core.Evaluate.html#Startitecture_Core_Evaluate_GetHashCode__1___0_
+  commentId: M:Startitecture.Core.Evaluate.GetHashCode``1(``0)
+  name.vb: GetHashCode(Of T)(T)
+  fullName: Startitecture.Core.Evaluate.GetHashCode<T>(T)
+  fullName.vb: Startitecture.Core.Evaluate.GetHashCode(Of T)(T)
+  nameWithType: Evaluate.GetHashCode<T>(T)
+  nameWithType.vb: Evaluate.GetHashCode(Of T)(T)
+- uid: Startitecture.Core.Evaluate.IsDefaultValue*
+  name: IsDefaultValue
+  href: api/Startitecture.Core.Evaluate.html#Startitecture_Core_Evaluate_IsDefaultValue_
+  commentId: Overload:Startitecture.Core.Evaluate.IsDefaultValue
+  isSpec: "True"
+  fullName: Startitecture.Core.Evaluate.IsDefaultValue
+  nameWithType: Evaluate.IsDefaultValue
+- uid: Startitecture.Core.Evaluate.IsDefaultValue``1(``0)
+  name: IsDefaultValue<T>(T)
+  href: api/Startitecture.Core.Evaluate.html#Startitecture_Core_Evaluate_IsDefaultValue__1___0_
+  commentId: M:Startitecture.Core.Evaluate.IsDefaultValue``1(``0)
+  name.vb: IsDefaultValue(Of T)(T)
+  fullName: Startitecture.Core.Evaluate.IsDefaultValue<T>(T)
+  fullName.vb: Startitecture.Core.Evaluate.IsDefaultValue(Of T)(T)
+  nameWithType: Evaluate.IsDefaultValue<T>(T)
+  nameWithType.vb: Evaluate.IsDefaultValue(Of T)(T)
+- uid: Startitecture.Core.Evaluate.IsNull*
+  name: IsNull
+  href: api/Startitecture.Core.Evaluate.html#Startitecture_Core_Evaluate_IsNull_
+  commentId: Overload:Startitecture.Core.Evaluate.IsNull
+  isSpec: "True"
+  fullName: Startitecture.Core.Evaluate.IsNull
+  nameWithType: Evaluate.IsNull
+- uid: Startitecture.Core.Evaluate.IsNull``1(``0)
+  name: IsNull<T>(T)
+  href: api/Startitecture.Core.Evaluate.html#Startitecture_Core_Evaluate_IsNull__1___0_
+  commentId: M:Startitecture.Core.Evaluate.IsNull``1(``0)
+  name.vb: IsNull(Of T)(T)
+  fullName: Startitecture.Core.Evaluate.IsNull<T>(T)
+  fullName.vb: Startitecture.Core.Evaluate.IsNull(Of T)(T)
+  nameWithType: Evaluate.IsNull<T>(T)
+  nameWithType.vb: Evaluate.IsNull(Of T)(T)
+- uid: Startitecture.Core.Evaluate.IsSet*
+  name: IsSet
+  href: api/Startitecture.Core.Evaluate.html#Startitecture_Core_Evaluate_IsSet_
+  commentId: Overload:Startitecture.Core.Evaluate.IsSet
+  isSpec: "True"
+  fullName: Startitecture.Core.Evaluate.IsSet
+  nameWithType: Evaluate.IsSet
+- uid: Startitecture.Core.Evaluate.IsSet``1(``0)
+  name: IsSet<T>(T)
+  href: api/Startitecture.Core.Evaluate.html#Startitecture_Core_Evaluate_IsSet__1___0_
+  commentId: M:Startitecture.Core.Evaluate.IsSet``1(``0)
+  name.vb: IsSet(Of T)(T)
+  fullName: Startitecture.Core.Evaluate.IsSet<T>(T)
+  fullName.vb: Startitecture.Core.Evaluate.IsSet(Of T)(T)
+  nameWithType: Evaluate.IsSet<T>(T)
+  nameWithType.vb: Evaluate.IsSet(Of T)(T)
+- uid: Startitecture.Core.Evaluate.RecursiveEquals(System.Object,System.Object)
+  name: RecursiveEquals(Object, Object)
+  href: api/Startitecture.Core.Evaluate.html#Startitecture_Core_Evaluate_RecursiveEquals_System_Object_System_Object_
+  commentId: M:Startitecture.Core.Evaluate.RecursiveEquals(System.Object,System.Object)
+  fullName: Startitecture.Core.Evaluate.RecursiveEquals(System.Object, System.Object)
+  nameWithType: Evaluate.RecursiveEquals(Object, Object)
+- uid: Startitecture.Core.Evaluate.RecursiveEquals*
+  name: RecursiveEquals
+  href: api/Startitecture.Core.Evaluate.html#Startitecture_Core_Evaluate_RecursiveEquals_
+  commentId: Overload:Startitecture.Core.Evaluate.RecursiveEquals
+  isSpec: "True"
+  fullName: Startitecture.Core.Evaluate.RecursiveEquals
+  nameWithType: Evaluate.RecursiveEquals
+- uid: Startitecture.Core.ExtensionMethods
+  name: ExtensionMethods
+  href: api/Startitecture.Core.ExtensionMethods.html
+  commentId: T:Startitecture.Core.ExtensionMethods
+  fullName: Startitecture.Core.ExtensionMethods
+  nameWithType: ExtensionMethods
+- uid: Startitecture.Core.ExtensionMethods.GetDifferences*
+  name: GetDifferences
+  href: api/Startitecture.Core.ExtensionMethods.html#Startitecture_Core_ExtensionMethods_GetDifferences_
+  commentId: Overload:Startitecture.Core.ExtensionMethods.GetDifferences
+  isSpec: "True"
+  fullName: Startitecture.Core.ExtensionMethods.GetDifferences
+  nameWithType: ExtensionMethods.GetDifferences
+- uid: Startitecture.Core.ExtensionMethods.GetDifferences``1(``0,``0,System.String[])
+  name: GetDifferences<TItem>(TItem, TItem, String[])
+  href: api/Startitecture.Core.ExtensionMethods.html#Startitecture_Core_ExtensionMethods_GetDifferences__1___0___0_System_String___
+  commentId: M:Startitecture.Core.ExtensionMethods.GetDifferences``1(``0,``0,System.String[])
+  name.vb: GetDifferences(Of TItem)(TItem, TItem, String())
+  fullName: Startitecture.Core.ExtensionMethods.GetDifferences<TItem>(TItem, TItem, System.String[])
+  fullName.vb: Startitecture.Core.ExtensionMethods.GetDifferences(Of TItem)(TItem, TItem, System.String())
+  nameWithType: ExtensionMethods.GetDifferences<TItem>(TItem, TItem, String[])
+  nameWithType.vb: ExtensionMethods.GetDifferences(Of TItem)(TItem, TItem, String())
+- uid: Startitecture.Core.ExtensionMethods.GetMember(System.Linq.Expressions.LambdaExpression)
+  name: GetMember(LambdaExpression)
+  href: api/Startitecture.Core.ExtensionMethods.html#Startitecture_Core_ExtensionMethods_GetMember_System_Linq_Expressions_LambdaExpression_
+  commentId: M:Startitecture.Core.ExtensionMethods.GetMember(System.Linq.Expressions.LambdaExpression)
+  fullName: Startitecture.Core.ExtensionMethods.GetMember(System.Linq.Expressions.LambdaExpression)
+  nameWithType: ExtensionMethods.GetMember(LambdaExpression)
+- uid: Startitecture.Core.ExtensionMethods.GetMember*
+  name: GetMember
+  href: api/Startitecture.Core.ExtensionMethods.html#Startitecture_Core_ExtensionMethods_GetMember_
+  commentId: Overload:Startitecture.Core.ExtensionMethods.GetMember
+  isSpec: "True"
+  fullName: Startitecture.Core.ExtensionMethods.GetMember
+  nameWithType: ExtensionMethods.GetMember
+- uid: Startitecture.Core.ExtensionMethods.GetOrLazyAddExisting*
+  name: GetOrLazyAddExisting
+  href: api/Startitecture.Core.ExtensionMethods.html#Startitecture_Core_ExtensionMethods_GetOrLazyAddExisting_
+  commentId: Overload:Startitecture.Core.ExtensionMethods.GetOrLazyAddExisting
+  isSpec: "True"
+  fullName: Startitecture.Core.ExtensionMethods.GetOrLazyAddExisting
+  nameWithType: ExtensionMethods.GetOrLazyAddExisting
+- uid: Startitecture.Core.ExtensionMethods.GetOrLazyAddExisting``2(System.Runtime.Caching.ObjectCache,System.Object,System.String,``0,System.Func{``0,``1},System.Runtime.Caching.CacheItemPolicy)
+  name: GetOrLazyAddExisting<TKey, TValue>(ObjectCache, Object, String, TKey, Func<TKey, TValue>, CacheItemPolicy)
+  href: api/Startitecture.Core.ExtensionMethods.html#Startitecture_Core_ExtensionMethods_GetOrLazyAddExisting__2_System_Runtime_Caching_ObjectCache_System_Object_System_String___0_System_Func___0___1__System_Runtime_Caching_CacheItemPolicy_
+  commentId: M:Startitecture.Core.ExtensionMethods.GetOrLazyAddExisting``2(System.Runtime.Caching.ObjectCache,System.Object,System.String,``0,System.Func{``0,``1},System.Runtime.Caching.CacheItemPolicy)
+  name.vb: GetOrLazyAddExisting(Of TKey, TValue)(ObjectCache, Object, String, TKey, Func(Of TKey, TValue), CacheItemPolicy)
+  fullName: Startitecture.Core.ExtensionMethods.GetOrLazyAddExisting<TKey, TValue>(System.Runtime.Caching.ObjectCache, System.Object, System.String, TKey, System.Func<TKey, TValue>, System.Runtime.Caching.CacheItemPolicy)
+  fullName.vb: Startitecture.Core.ExtensionMethods.GetOrLazyAddExisting(Of TKey, TValue)(System.Runtime.Caching.ObjectCache, System.Object, System.String, TKey, System.Func(Of TKey, TValue), System.Runtime.Caching.CacheItemPolicy)
+  nameWithType: ExtensionMethods.GetOrLazyAddExisting<TKey, TValue>(ObjectCache, Object, String, TKey, Func<TKey, TValue>, CacheItemPolicy)
+  nameWithType.vb: ExtensionMethods.GetOrLazyAddExisting(Of TKey, TValue)(ObjectCache, Object, String, TKey, Func(Of TKey, TValue), CacheItemPolicy)
+- uid: Startitecture.Core.ExtensionMethods.GetOrLazyAddExistingWithResult*
+  name: GetOrLazyAddExistingWithResult
+  href: api/Startitecture.Core.ExtensionMethods.html#Startitecture_Core_ExtensionMethods_GetOrLazyAddExistingWithResult_
+  commentId: Overload:Startitecture.Core.ExtensionMethods.GetOrLazyAddExistingWithResult
+  isSpec: "True"
+  fullName: Startitecture.Core.ExtensionMethods.GetOrLazyAddExistingWithResult
+  nameWithType: ExtensionMethods.GetOrLazyAddExistingWithResult
+- uid: Startitecture.Core.ExtensionMethods.GetOrLazyAddExistingWithResult``2(System.Runtime.Caching.ObjectCache,System.Object,System.String,``0,System.Func{``0,``1},System.Runtime.Caching.CacheItemPolicy)
+  name: GetOrLazyAddExistingWithResult<TKey, TValue>(ObjectCache, Object, String, TKey, Func<TKey, TValue>, CacheItemPolicy)
+  href: api/Startitecture.Core.ExtensionMethods.html#Startitecture_Core_ExtensionMethods_GetOrLazyAddExistingWithResult__2_System_Runtime_Caching_ObjectCache_System_Object_System_String___0_System_Func___0___1__System_Runtime_Caching_CacheItemPolicy_
+  commentId: M:Startitecture.Core.ExtensionMethods.GetOrLazyAddExistingWithResult``2(System.Runtime.Caching.ObjectCache,System.Object,System.String,``0,System.Func{``0,``1},System.Runtime.Caching.CacheItemPolicy)
+  name.vb: GetOrLazyAddExistingWithResult(Of TKey, TValue)(ObjectCache, Object, String, TKey, Func(Of TKey, TValue), CacheItemPolicy)
+  fullName: Startitecture.Core.ExtensionMethods.GetOrLazyAddExistingWithResult<TKey, TValue>(System.Runtime.Caching.ObjectCache, System.Object, System.String, TKey, System.Func<TKey, TValue>, System.Runtime.Caching.CacheItemPolicy)
+  fullName.vb: Startitecture.Core.ExtensionMethods.GetOrLazyAddExistingWithResult(Of TKey, TValue)(System.Runtime.Caching.ObjectCache, System.Object, System.String, TKey, System.Func(Of TKey, TValue), System.Runtime.Caching.CacheItemPolicy)
+  nameWithType: ExtensionMethods.GetOrLazyAddExistingWithResult<TKey, TValue>(ObjectCache, Object, String, TKey, Func<TKey, TValue>, CacheItemPolicy)
+  nameWithType.vb: ExtensionMethods.GetOrLazyAddExistingWithResult(Of TKey, TValue)(ObjectCache, Object, String, TKey, Func(Of TKey, TValue), CacheItemPolicy)
+- uid: Startitecture.Core.ExtensionMethods.GetProperty(System.Linq.Expressions.LambdaExpression)
+  name: GetProperty(LambdaExpression)
+  href: api/Startitecture.Core.ExtensionMethods.html#Startitecture_Core_ExtensionMethods_GetProperty_System_Linq_Expressions_LambdaExpression_
+  commentId: M:Startitecture.Core.ExtensionMethods.GetProperty(System.Linq.Expressions.LambdaExpression)
+  fullName: Startitecture.Core.ExtensionMethods.GetProperty(System.Linq.Expressions.LambdaExpression)
+  nameWithType: ExtensionMethods.GetProperty(LambdaExpression)
+- uid: Startitecture.Core.ExtensionMethods.GetProperty*
+  name: GetProperty
+  href: api/Startitecture.Core.ExtensionMethods.html#Startitecture_Core_ExtensionMethods_GetProperty_
+  commentId: Overload:Startitecture.Core.ExtensionMethods.GetProperty
+  isSpec: "True"
+  fullName: Startitecture.Core.ExtensionMethods.GetProperty
+  nameWithType: ExtensionMethods.GetProperty
+- uid: Startitecture.Core.ExtensionMethods.GetPropertyName(System.Linq.Expressions.LambdaExpression)
+  name: GetPropertyName(LambdaExpression)
+  href: api/Startitecture.Core.ExtensionMethods.html#Startitecture_Core_ExtensionMethods_GetPropertyName_System_Linq_Expressions_LambdaExpression_
+  commentId: M:Startitecture.Core.ExtensionMethods.GetPropertyName(System.Linq.Expressions.LambdaExpression)
+  fullName: Startitecture.Core.ExtensionMethods.GetPropertyName(System.Linq.Expressions.LambdaExpression)
+  nameWithType: ExtensionMethods.GetPropertyName(LambdaExpression)
+- uid: Startitecture.Core.ExtensionMethods.GetPropertyName*
+  name: GetPropertyName
+  href: api/Startitecture.Core.ExtensionMethods.html#Startitecture_Core_ExtensionMethods_GetPropertyName_
+  commentId: Overload:Startitecture.Core.ExtensionMethods.GetPropertyName
+  isSpec: "True"
+  fullName: Startitecture.Core.ExtensionMethods.GetPropertyName
+  nameWithType: ExtensionMethods.GetPropertyName
+- uid: Startitecture.Core.ExtensionMethods.GetPropertyValue(System.Reflection.PropertyInfo,System.Object)
+  name: GetPropertyValue(PropertyInfo, Object)
+  href: api/Startitecture.Core.ExtensionMethods.html#Startitecture_Core_ExtensionMethods_GetPropertyValue_System_Reflection_PropertyInfo_System_Object_
+  commentId: M:Startitecture.Core.ExtensionMethods.GetPropertyValue(System.Reflection.PropertyInfo,System.Object)
+  fullName: Startitecture.Core.ExtensionMethods.GetPropertyValue(System.Reflection.PropertyInfo, System.Object)
+  nameWithType: ExtensionMethods.GetPropertyValue(PropertyInfo, Object)
+- uid: Startitecture.Core.ExtensionMethods.GetPropertyValue*
+  name: GetPropertyValue
+  href: api/Startitecture.Core.ExtensionMethods.html#Startitecture_Core_ExtensionMethods_GetPropertyValue_
+  commentId: Overload:Startitecture.Core.ExtensionMethods.GetPropertyValue
+  isSpec: "True"
+  fullName: Startitecture.Core.ExtensionMethods.GetPropertyValue
+  nameWithType: ExtensionMethods.GetPropertyValue
+- uid: Startitecture.Core.ExtensionMethods.GetPropertyValue``1(``0,System.String)
+  name: GetPropertyValue<T>(T, String)
+  href: api/Startitecture.Core.ExtensionMethods.html#Startitecture_Core_ExtensionMethods_GetPropertyValue__1___0_System_String_
+  commentId: M:Startitecture.Core.ExtensionMethods.GetPropertyValue``1(``0,System.String)
+  name.vb: GetPropertyValue(Of T)(T, String)
+  fullName: Startitecture.Core.ExtensionMethods.GetPropertyValue<T>(T, System.String)
+  fullName.vb: Startitecture.Core.ExtensionMethods.GetPropertyValue(Of T)(T, System.String)
+  nameWithType: ExtensionMethods.GetPropertyValue<T>(T, String)
+  nameWithType.vb: ExtensionMethods.GetPropertyValue(Of T)(T, String)
+- uid: Startitecture.Core.ExtensionMethods.PopulateDictionary(System.Collections.IDictionary,System.Object)
+  name: PopulateDictionary(IDictionary, Object)
+  href: api/Startitecture.Core.ExtensionMethods.html#Startitecture_Core_ExtensionMethods_PopulateDictionary_System_Collections_IDictionary_System_Object_
+  commentId: M:Startitecture.Core.ExtensionMethods.PopulateDictionary(System.Collections.IDictionary,System.Object)
+  fullName: Startitecture.Core.ExtensionMethods.PopulateDictionary(System.Collections.IDictionary, System.Object)
+  nameWithType: ExtensionMethods.PopulateDictionary(IDictionary, Object)
+- uid: Startitecture.Core.ExtensionMethods.PopulateDictionary*
+  name: PopulateDictionary
+  href: api/Startitecture.Core.ExtensionMethods.html#Startitecture_Core_ExtensionMethods_PopulateDictionary_
+  commentId: Overload:Startitecture.Core.ExtensionMethods.PopulateDictionary
+  isSpec: "True"
+  fullName: Startitecture.Core.ExtensionMethods.PopulateDictionary
+  nameWithType: ExtensionMethods.PopulateDictionary
+- uid: Startitecture.Core.ExtensionMethods.ToRuntimeName(System.Type)
+  name: ToRuntimeName(Type)
+  href: api/Startitecture.Core.ExtensionMethods.html#Startitecture_Core_ExtensionMethods_ToRuntimeName_System_Type_
+  commentId: M:Startitecture.Core.ExtensionMethods.ToRuntimeName(System.Type)
+  fullName: Startitecture.Core.ExtensionMethods.ToRuntimeName(System.Type)
+  nameWithType: ExtensionMethods.ToRuntimeName(Type)
+- uid: Startitecture.Core.ExtensionMethods.ToRuntimeName*
+  name: ToRuntimeName
+  href: api/Startitecture.Core.ExtensionMethods.html#Startitecture_Core_ExtensionMethods_ToRuntimeName_
+  commentId: Overload:Startitecture.Core.ExtensionMethods.ToRuntimeName
+  isSpec: "True"
+  fullName: Startitecture.Core.ExtensionMethods.ToRuntimeName
+  nameWithType: ExtensionMethods.ToRuntimeName
+- uid: Startitecture.Core.MemoryCache`2
+  name: MemoryCache<TKey, TValue>
+  href: api/Startitecture.Core.MemoryCache-2.html
+  commentId: T:Startitecture.Core.MemoryCache`2
+  name.vb: MemoryCache(Of TKey, TValue)
+  fullName: Startitecture.Core.MemoryCache<TKey, TValue>
+  fullName.vb: Startitecture.Core.MemoryCache(Of TKey, TValue)
+  nameWithType: MemoryCache<TKey, TValue>
+  nameWithType.vb: MemoryCache(Of TKey, TValue)
+- uid: Startitecture.Core.MemoryCache`2.Dispose
+  name: Dispose()
+  href: api/Startitecture.Core.MemoryCache-2.html#Startitecture_Core_MemoryCache_2_Dispose
+  commentId: M:Startitecture.Core.MemoryCache`2.Dispose
+  fullName: Startitecture.Core.MemoryCache<TKey, TValue>.Dispose()
+  fullName.vb: Startitecture.Core.MemoryCache(Of TKey, TValue).Dispose()
+  nameWithType: MemoryCache<TKey, TValue>.Dispose()
+  nameWithType.vb: MemoryCache(Of TKey, TValue).Dispose()
+- uid: Startitecture.Core.MemoryCache`2.Dispose*
+  name: Dispose
+  href: api/Startitecture.Core.MemoryCache-2.html#Startitecture_Core_MemoryCache_2_Dispose_
+  commentId: Overload:Startitecture.Core.MemoryCache`2.Dispose
+  isSpec: "True"
+  fullName: Startitecture.Core.MemoryCache<TKey, TValue>.Dispose
+  fullName.vb: Startitecture.Core.MemoryCache(Of TKey, TValue).Dispose
+  nameWithType: MemoryCache<TKey, TValue>.Dispose
+  nameWithType.vb: MemoryCache(Of TKey, TValue).Dispose
+- uid: Startitecture.Core.MemoryCache`2.Get(`0,System.Func{`1})
+  name: Get(TKey, Func<TValue>)
+  href: api/Startitecture.Core.MemoryCache-2.html#Startitecture_Core_MemoryCache_2_Get__0_System_Func__1__
+  commentId: M:Startitecture.Core.MemoryCache`2.Get(`0,System.Func{`1})
+  name.vb: Get(TKey, Func(Of TValue))
+  fullName: Startitecture.Core.MemoryCache<TKey, TValue>.Get(TKey, System.Func<TValue>)
+  fullName.vb: Startitecture.Core.MemoryCache(Of TKey, TValue).Get(TKey, System.Func(Of TValue))
+  nameWithType: MemoryCache<TKey, TValue>.Get(TKey, Func<TValue>)
+  nameWithType.vb: MemoryCache(Of TKey, TValue).Get(TKey, Func(Of TValue))
+- uid: Startitecture.Core.MemoryCache`2.Get*
+  name: Get
+  href: api/Startitecture.Core.MemoryCache-2.html#Startitecture_Core_MemoryCache_2_Get_
+  commentId: Overload:Startitecture.Core.MemoryCache`2.Get
+  isSpec: "True"
+  fullName: Startitecture.Core.MemoryCache<TKey, TValue>.Get
+  fullName.vb: Startitecture.Core.MemoryCache(Of TKey, TValue).Get
+  nameWithType: MemoryCache<TKey, TValue>.Get
+  nameWithType.vb: MemoryCache(Of TKey, TValue).Get
+- uid: Startitecture.Core.OperationException
+  name: OperationException
+  href: api/Startitecture.Core.OperationException.html
+  commentId: T:Startitecture.Core.OperationException
+  fullName: Startitecture.Core.OperationException
+  nameWithType: OperationException
+- uid: Startitecture.Core.OperationException.#ctor
+  name: OperationException()
+  href: api/Startitecture.Core.OperationException.html#Startitecture_Core_OperationException__ctor
+  commentId: M:Startitecture.Core.OperationException.#ctor
+  fullName: Startitecture.Core.OperationException.OperationException()
+  nameWithType: OperationException.OperationException()
+- uid: Startitecture.Core.OperationException.#ctor(System.Object)
+  name: OperationException(Object)
+  href: api/Startitecture.Core.OperationException.html#Startitecture_Core_OperationException__ctor_System_Object_
+  commentId: M:Startitecture.Core.OperationException.#ctor(System.Object)
+  fullName: Startitecture.Core.OperationException.OperationException(System.Object)
+  nameWithType: OperationException.OperationException(Object)
+- uid: Startitecture.Core.OperationException.#ctor(System.Object,System.String)
+  name: OperationException(Object, String)
+  href: api/Startitecture.Core.OperationException.html#Startitecture_Core_OperationException__ctor_System_Object_System_String_
+  commentId: M:Startitecture.Core.OperationException.#ctor(System.Object,System.String)
+  fullName: Startitecture.Core.OperationException.OperationException(System.Object, System.String)
+  nameWithType: OperationException.OperationException(Object, String)
+- uid: Startitecture.Core.OperationException.#ctor(System.Object,System.String,System.Exception)
+  name: OperationException(Object, String, Exception)
+  href: api/Startitecture.Core.OperationException.html#Startitecture_Core_OperationException__ctor_System_Object_System_String_System_Exception_
+  commentId: M:Startitecture.Core.OperationException.#ctor(System.Object,System.String,System.Exception)
+  fullName: Startitecture.Core.OperationException.OperationException(System.Object, System.String, System.Exception)
+  nameWithType: OperationException.OperationException(Object, String, Exception)
+- uid: Startitecture.Core.OperationException.#ctor(System.String)
+  name: OperationException(String)
+  href: api/Startitecture.Core.OperationException.html#Startitecture_Core_OperationException__ctor_System_String_
+  commentId: M:Startitecture.Core.OperationException.#ctor(System.String)
+  fullName: Startitecture.Core.OperationException.OperationException(System.String)
+  nameWithType: OperationException.OperationException(String)
+- uid: Startitecture.Core.OperationException.#ctor(System.String,System.Exception)
+  name: OperationException(String, Exception)
+  href: api/Startitecture.Core.OperationException.html#Startitecture_Core_OperationException__ctor_System_String_System_Exception_
+  commentId: M:Startitecture.Core.OperationException.#ctor(System.String,System.Exception)
+  fullName: Startitecture.Core.OperationException.OperationException(System.String, System.Exception)
+  nameWithType: OperationException.OperationException(String, Exception)
+- uid: Startitecture.Core.OperationException.#ctor*
+  name: OperationException
+  href: api/Startitecture.Core.OperationException.html#Startitecture_Core_OperationException__ctor_
+  commentId: Overload:Startitecture.Core.OperationException.#ctor
+  isSpec: "True"
+  fullName: Startitecture.Core.OperationException.OperationException
+  nameWithType: OperationException.OperationException
+- uid: Startitecture.Core.OperationException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  name: GetObjectData(SerializationInfo, StreamingContext)
+  href: api/Startitecture.Core.OperationException.html#Startitecture_Core_OperationException_GetObjectData_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_
+  commentId: M:Startitecture.Core.OperationException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  fullName: Startitecture.Core.OperationException.GetObjectData(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
+  nameWithType: OperationException.GetObjectData(SerializationInfo, StreamingContext)
+- uid: Startitecture.Core.OperationException.GetObjectData*
+  name: GetObjectData
+  href: api/Startitecture.Core.OperationException.html#Startitecture_Core_OperationException_GetObjectData_
+  commentId: Overload:Startitecture.Core.OperationException.GetObjectData
+  isSpec: "True"
+  fullName: Startitecture.Core.OperationException.GetObjectData
+  nameWithType: OperationException.GetObjectData
+- uid: Startitecture.Core.OperationException.TargetEntity
+  name: TargetEntity
+  href: api/Startitecture.Core.OperationException.html#Startitecture_Core_OperationException_TargetEntity
+  commentId: P:Startitecture.Core.OperationException.TargetEntity
+  fullName: Startitecture.Core.OperationException.TargetEntity
+  nameWithType: OperationException.TargetEntity
+- uid: Startitecture.Core.OperationException.TargetEntity*
+  name: TargetEntity
+  href: api/Startitecture.Core.OperationException.html#Startitecture_Core_OperationException_TargetEntity_
+  commentId: Overload:Startitecture.Core.OperationException.TargetEntity
+  isSpec: "True"
+  fullName: Startitecture.Core.OperationException.TargetEntity
+  nameWithType: OperationException.TargetEntity
+- uid: Startitecture.Core.PropertyComparisonResult
+  name: PropertyComparisonResult
+  href: api/Startitecture.Core.PropertyComparisonResult.html
+  commentId: T:Startitecture.Core.PropertyComparisonResult
+  fullName: Startitecture.Core.PropertyComparisonResult
+  nameWithType: PropertyComparisonResult
+- uid: Startitecture.Core.PropertyComparisonResult.#ctor(System.String,System.Object,System.Object)
+  name: PropertyComparisonResult(String, Object, Object)
+  href: api/Startitecture.Core.PropertyComparisonResult.html#Startitecture_Core_PropertyComparisonResult__ctor_System_String_System_Object_System_Object_
+  commentId: M:Startitecture.Core.PropertyComparisonResult.#ctor(System.String,System.Object,System.Object)
+  fullName: Startitecture.Core.PropertyComparisonResult.PropertyComparisonResult(System.String, System.Object, System.Object)
+  nameWithType: PropertyComparisonResult.PropertyComparisonResult(String, Object, Object)
+- uid: Startitecture.Core.PropertyComparisonResult.#ctor*
+  name: PropertyComparisonResult
+  href: api/Startitecture.Core.PropertyComparisonResult.html#Startitecture_Core_PropertyComparisonResult__ctor_
+  commentId: Overload:Startitecture.Core.PropertyComparisonResult.#ctor
+  isSpec: "True"
+  fullName: Startitecture.Core.PropertyComparisonResult.PropertyComparisonResult
+  nameWithType: PropertyComparisonResult.PropertyComparisonResult
+- uid: Startitecture.Core.PropertyComparisonResult.Equals(Startitecture.Core.PropertyComparisonResult)
+  name: Equals(PropertyComparisonResult)
+  href: api/Startitecture.Core.PropertyComparisonResult.html#Startitecture_Core_PropertyComparisonResult_Equals_Startitecture_Core_PropertyComparisonResult_
+  commentId: M:Startitecture.Core.PropertyComparisonResult.Equals(Startitecture.Core.PropertyComparisonResult)
+  fullName: Startitecture.Core.PropertyComparisonResult.Equals(Startitecture.Core.PropertyComparisonResult)
+  nameWithType: PropertyComparisonResult.Equals(PropertyComparisonResult)
+- uid: Startitecture.Core.PropertyComparisonResult.Equals(System.Object)
+  name: Equals(Object)
+  href: api/Startitecture.Core.PropertyComparisonResult.html#Startitecture_Core_PropertyComparisonResult_Equals_System_Object_
+  commentId: M:Startitecture.Core.PropertyComparisonResult.Equals(System.Object)
+  fullName: Startitecture.Core.PropertyComparisonResult.Equals(System.Object)
+  nameWithType: PropertyComparisonResult.Equals(Object)
+- uid: Startitecture.Core.PropertyComparisonResult.Equals*
+  name: Equals
+  href: api/Startitecture.Core.PropertyComparisonResult.html#Startitecture_Core_PropertyComparisonResult_Equals_
+  commentId: Overload:Startitecture.Core.PropertyComparisonResult.Equals
+  isSpec: "True"
+  fullName: Startitecture.Core.PropertyComparisonResult.Equals
+  nameWithType: PropertyComparisonResult.Equals
+- uid: Startitecture.Core.PropertyComparisonResult.GetHashCode
+  name: GetHashCode()
+  href: api/Startitecture.Core.PropertyComparisonResult.html#Startitecture_Core_PropertyComparisonResult_GetHashCode
+  commentId: M:Startitecture.Core.PropertyComparisonResult.GetHashCode
+  fullName: Startitecture.Core.PropertyComparisonResult.GetHashCode()
+  nameWithType: PropertyComparisonResult.GetHashCode()
+- uid: Startitecture.Core.PropertyComparisonResult.GetHashCode*
+  name: GetHashCode
+  href: api/Startitecture.Core.PropertyComparisonResult.html#Startitecture_Core_PropertyComparisonResult_GetHashCode_
+  commentId: Overload:Startitecture.Core.PropertyComparisonResult.GetHashCode
+  isSpec: "True"
+  fullName: Startitecture.Core.PropertyComparisonResult.GetHashCode
+  nameWithType: PropertyComparisonResult.GetHashCode
+- uid: Startitecture.Core.PropertyComparisonResult.NewValue
+  name: NewValue
+  href: api/Startitecture.Core.PropertyComparisonResult.html#Startitecture_Core_PropertyComparisonResult_NewValue
+  commentId: P:Startitecture.Core.PropertyComparisonResult.NewValue
+  fullName: Startitecture.Core.PropertyComparisonResult.NewValue
+  nameWithType: PropertyComparisonResult.NewValue
+- uid: Startitecture.Core.PropertyComparisonResult.NewValue*
+  name: NewValue
+  href: api/Startitecture.Core.PropertyComparisonResult.html#Startitecture_Core_PropertyComparisonResult_NewValue_
+  commentId: Overload:Startitecture.Core.PropertyComparisonResult.NewValue
+  isSpec: "True"
+  fullName: Startitecture.Core.PropertyComparisonResult.NewValue
+  nameWithType: PropertyComparisonResult.NewValue
+- uid: Startitecture.Core.PropertyComparisonResult.op_Equality(Startitecture.Core.PropertyComparisonResult,Startitecture.Core.PropertyComparisonResult)
+  name: Equality(PropertyComparisonResult, PropertyComparisonResult)
+  href: api/Startitecture.Core.PropertyComparisonResult.html#Startitecture_Core_PropertyComparisonResult_op_Equality_Startitecture_Core_PropertyComparisonResult_Startitecture_Core_PropertyComparisonResult_
+  commentId: M:Startitecture.Core.PropertyComparisonResult.op_Equality(Startitecture.Core.PropertyComparisonResult,Startitecture.Core.PropertyComparisonResult)
+  fullName: Startitecture.Core.PropertyComparisonResult.Equality(Startitecture.Core.PropertyComparisonResult, Startitecture.Core.PropertyComparisonResult)
+  nameWithType: PropertyComparisonResult.Equality(PropertyComparisonResult, PropertyComparisonResult)
+- uid: Startitecture.Core.PropertyComparisonResult.op_Equality*
+  name: Equality
+  href: api/Startitecture.Core.PropertyComparisonResult.html#Startitecture_Core_PropertyComparisonResult_op_Equality_
+  commentId: Overload:Startitecture.Core.PropertyComparisonResult.op_Equality
+  isSpec: "True"
+  fullName: Startitecture.Core.PropertyComparisonResult.Equality
+  nameWithType: PropertyComparisonResult.Equality
+- uid: Startitecture.Core.PropertyComparisonResult.op_Inequality(Startitecture.Core.PropertyComparisonResult,Startitecture.Core.PropertyComparisonResult)
+  name: Inequality(PropertyComparisonResult, PropertyComparisonResult)
+  href: api/Startitecture.Core.PropertyComparisonResult.html#Startitecture_Core_PropertyComparisonResult_op_Inequality_Startitecture_Core_PropertyComparisonResult_Startitecture_Core_PropertyComparisonResult_
+  commentId: M:Startitecture.Core.PropertyComparisonResult.op_Inequality(Startitecture.Core.PropertyComparisonResult,Startitecture.Core.PropertyComparisonResult)
+  fullName: Startitecture.Core.PropertyComparisonResult.Inequality(Startitecture.Core.PropertyComparisonResult, Startitecture.Core.PropertyComparisonResult)
+  nameWithType: PropertyComparisonResult.Inequality(PropertyComparisonResult, PropertyComparisonResult)
+- uid: Startitecture.Core.PropertyComparisonResult.op_Inequality*
+  name: Inequality
+  href: api/Startitecture.Core.PropertyComparisonResult.html#Startitecture_Core_PropertyComparisonResult_op_Inequality_
+  commentId: Overload:Startitecture.Core.PropertyComparisonResult.op_Inequality
+  isSpec: "True"
+  fullName: Startitecture.Core.PropertyComparisonResult.Inequality
+  nameWithType: PropertyComparisonResult.Inequality
+- uid: Startitecture.Core.PropertyComparisonResult.OriginalValue
+  name: OriginalValue
+  href: api/Startitecture.Core.PropertyComparisonResult.html#Startitecture_Core_PropertyComparisonResult_OriginalValue
+  commentId: P:Startitecture.Core.PropertyComparisonResult.OriginalValue
+  fullName: Startitecture.Core.PropertyComparisonResult.OriginalValue
+  nameWithType: PropertyComparisonResult.OriginalValue
+- uid: Startitecture.Core.PropertyComparisonResult.OriginalValue*
+  name: OriginalValue
+  href: api/Startitecture.Core.PropertyComparisonResult.html#Startitecture_Core_PropertyComparisonResult_OriginalValue_
+  commentId: Overload:Startitecture.Core.PropertyComparisonResult.OriginalValue
+  isSpec: "True"
+  fullName: Startitecture.Core.PropertyComparisonResult.OriginalValue
+  nameWithType: PropertyComparisonResult.OriginalValue
+- uid: Startitecture.Core.PropertyComparisonResult.PropertyName
+  name: PropertyName
+  href: api/Startitecture.Core.PropertyComparisonResult.html#Startitecture_Core_PropertyComparisonResult_PropertyName
+  commentId: P:Startitecture.Core.PropertyComparisonResult.PropertyName
+  fullName: Startitecture.Core.PropertyComparisonResult.PropertyName
+  nameWithType: PropertyComparisonResult.PropertyName
+- uid: Startitecture.Core.PropertyComparisonResult.PropertyName*
+  name: PropertyName
+  href: api/Startitecture.Core.PropertyComparisonResult.html#Startitecture_Core_PropertyComparisonResult_PropertyName_
+  commentId: Overload:Startitecture.Core.PropertyComparisonResult.PropertyName
+  isSpec: "True"
+  fullName: Startitecture.Core.PropertyComparisonResult.PropertyName
+  nameWithType: PropertyComparisonResult.PropertyName
+- uid: Startitecture.Core.PropertyComparisonResult.ToString
+  name: ToString()
+  href: api/Startitecture.Core.PropertyComparisonResult.html#Startitecture_Core_PropertyComparisonResult_ToString
+  commentId: M:Startitecture.Core.PropertyComparisonResult.ToString
+  fullName: Startitecture.Core.PropertyComparisonResult.ToString()
+  nameWithType: PropertyComparisonResult.ToString()
+- uid: Startitecture.Core.PropertyComparisonResult.ToString*
+  name: ToString
+  href: api/Startitecture.Core.PropertyComparisonResult.html#Startitecture_Core_PropertyComparisonResult_ToString_
+  commentId: Overload:Startitecture.Core.PropertyComparisonResult.ToString
+  isSpec: "True"
+  fullName: Startitecture.Core.PropertyComparisonResult.ToString
+  nameWithType: PropertyComparisonResult.ToString
+- uid: Startitecture.Core.Singleton`1
+  name: Singleton<T>
+  href: api/Startitecture.Core.Singleton-1.html
+  commentId: T:Startitecture.Core.Singleton`1
+  name.vb: Singleton(Of T)
+  fullName: Startitecture.Core.Singleton<T>
+  fullName.vb: Startitecture.Core.Singleton(Of T)
+  nameWithType: Singleton<T>
+  nameWithType.vb: Singleton(Of T)
+- uid: Startitecture.Core.Singleton`1.Instance
+  name: Instance
+  href: api/Startitecture.Core.Singleton-1.html#Startitecture_Core_Singleton_1_Instance
+  commentId: P:Startitecture.Core.Singleton`1.Instance
+  fullName: Startitecture.Core.Singleton<T>.Instance
+  fullName.vb: Startitecture.Core.Singleton(Of T).Instance
+  nameWithType: Singleton<T>.Instance
+  nameWithType.vb: Singleton(Of T).Instance
+- uid: Startitecture.Core.Singleton`1.Instance*
+  name: Instance
+  href: api/Startitecture.Core.Singleton-1.html#Startitecture_Core_Singleton_1_Instance_
+  commentId: Overload:Startitecture.Core.Singleton`1.Instance
+  isSpec: "True"
+  fullName: Startitecture.Core.Singleton<T>.Instance
+  fullName.vb: Startitecture.Core.Singleton(Of T).Instance
+  nameWithType: Singleton<T>.Instance
+  nameWithType.vb: Singleton(Of T).Instance
+- uid: Startitecture.Core.TreeNode`1
+  name: TreeNode<T>
+  href: api/Startitecture.Core.TreeNode-1.html
+  commentId: T:Startitecture.Core.TreeNode`1
+  name.vb: TreeNode(Of T)
+  fullName: Startitecture.Core.TreeNode<T>
+  fullName.vb: Startitecture.Core.TreeNode(Of T)
+  nameWithType: TreeNode<T>
+  nameWithType.vb: TreeNode(Of T)
+- uid: Startitecture.Core.TreeNode`1.#ctor(`0)
+  name: TreeNode(T)
+  href: api/Startitecture.Core.TreeNode-1.html#Startitecture_Core_TreeNode_1__ctor__0_
+  commentId: M:Startitecture.Core.TreeNode`1.#ctor(`0)
+  fullName: Startitecture.Core.TreeNode<T>.TreeNode(T)
+  fullName.vb: Startitecture.Core.TreeNode(Of T).TreeNode(T)
+  nameWithType: TreeNode<T>.TreeNode(T)
+  nameWithType.vb: TreeNode(Of T).TreeNode(T)
+- uid: Startitecture.Core.TreeNode`1.#ctor*
+  name: TreeNode
+  href: api/Startitecture.Core.TreeNode-1.html#Startitecture_Core_TreeNode_1__ctor_
+  commentId: Overload:Startitecture.Core.TreeNode`1.#ctor
+  isSpec: "True"
+  fullName: Startitecture.Core.TreeNode<T>.TreeNode
+  fullName.vb: Startitecture.Core.TreeNode(Of T).TreeNode
+  nameWithType: TreeNode<T>.TreeNode
+  nameWithType.vb: TreeNode(Of T).TreeNode
+- uid: Startitecture.Core.TreeNode`1.AddChild(`0)
+  name: AddChild(T)
+  href: api/Startitecture.Core.TreeNode-1.html#Startitecture_Core_TreeNode_1_AddChild__0_
+  commentId: M:Startitecture.Core.TreeNode`1.AddChild(`0)
+  fullName: Startitecture.Core.TreeNode<T>.AddChild(T)
+  fullName.vb: Startitecture.Core.TreeNode(Of T).AddChild(T)
+  nameWithType: TreeNode<T>.AddChild(T)
+  nameWithType.vb: TreeNode(Of T).AddChild(T)
+- uid: Startitecture.Core.TreeNode`1.AddChild*
+  name: AddChild
+  href: api/Startitecture.Core.TreeNode-1.html#Startitecture_Core_TreeNode_1_AddChild_
+  commentId: Overload:Startitecture.Core.TreeNode`1.AddChild
+  isSpec: "True"
+  fullName: Startitecture.Core.TreeNode<T>.AddChild
+  fullName.vb: Startitecture.Core.TreeNode(Of T).AddChild
+  nameWithType: TreeNode<T>.AddChild
+  nameWithType.vb: TreeNode(Of T).AddChild
+- uid: Startitecture.Core.TreeNode`1.AddChildren(`0[])
+  name: AddChildren(T[])
+  href: api/Startitecture.Core.TreeNode-1.html#Startitecture_Core_TreeNode_1_AddChildren__0___
+  commentId: M:Startitecture.Core.TreeNode`1.AddChildren(`0[])
+  name.vb: AddChildren(T())
+  fullName: Startitecture.Core.TreeNode<T>.AddChildren(T[])
+  fullName.vb: Startitecture.Core.TreeNode(Of T).AddChildren(T())
+  nameWithType: TreeNode<T>.AddChildren(T[])
+  nameWithType.vb: TreeNode(Of T).AddChildren(T())
+- uid: Startitecture.Core.TreeNode`1.AddChildren*
+  name: AddChildren
+  href: api/Startitecture.Core.TreeNode-1.html#Startitecture_Core_TreeNode_1_AddChildren_
+  commentId: Overload:Startitecture.Core.TreeNode`1.AddChildren
+  isSpec: "True"
+  fullName: Startitecture.Core.TreeNode<T>.AddChildren
+  fullName.vb: Startitecture.Core.TreeNode(Of T).AddChildren
+  nameWithType: TreeNode<T>.AddChildren
+  nameWithType.vb: TreeNode(Of T).AddChildren
+- uid: Startitecture.Core.TreeNode`1.Children
+  name: Children
+  href: api/Startitecture.Core.TreeNode-1.html#Startitecture_Core_TreeNode_1_Children
+  commentId: P:Startitecture.Core.TreeNode`1.Children
+  fullName: Startitecture.Core.TreeNode<T>.Children
+  fullName.vb: Startitecture.Core.TreeNode(Of T).Children
+  nameWithType: TreeNode<T>.Children
+  nameWithType.vb: TreeNode(Of T).Children
+- uid: Startitecture.Core.TreeNode`1.Children*
+  name: Children
+  href: api/Startitecture.Core.TreeNode-1.html#Startitecture_Core_TreeNode_1_Children_
+  commentId: Overload:Startitecture.Core.TreeNode`1.Children
+  isSpec: "True"
+  fullName: Startitecture.Core.TreeNode<T>.Children
+  fullName.vb: Startitecture.Core.TreeNode(Of T).Children
+  nameWithType: TreeNode<T>.Children
+  nameWithType.vb: TreeNode(Of T).Children
+- uid: Startitecture.Core.TreeNode`1.FirstCommonAncestor(System.Collections.Generic.IEnumerable{Startitecture.Core.TreeNode{`0}})
+  name: FirstCommonAncestor(IEnumerable<TreeNode<T>>)
+  href: api/Startitecture.Core.TreeNode-1.html#Startitecture_Core_TreeNode_1_FirstCommonAncestor_System_Collections_Generic_IEnumerable_Startitecture_Core_TreeNode__0___
+  commentId: M:Startitecture.Core.TreeNode`1.FirstCommonAncestor(System.Collections.Generic.IEnumerable{Startitecture.Core.TreeNode{`0}})
+  name.vb: FirstCommonAncestor(IEnumerable(Of TreeNode(Of T)))
+  fullName: Startitecture.Core.TreeNode<T>.FirstCommonAncestor(System.Collections.Generic.IEnumerable<Startitecture.Core.TreeNode<T>>)
+  fullName.vb: Startitecture.Core.TreeNode(Of T).FirstCommonAncestor(System.Collections.Generic.IEnumerable(Of Startitecture.Core.TreeNode(Of T)))
+  nameWithType: TreeNode<T>.FirstCommonAncestor(IEnumerable<TreeNode<T>>)
+  nameWithType.vb: TreeNode(Of T).FirstCommonAncestor(IEnumerable(Of TreeNode(Of T)))
+- uid: Startitecture.Core.TreeNode`1.FirstCommonAncestor*
+  name: FirstCommonAncestor
+  href: api/Startitecture.Core.TreeNode-1.html#Startitecture_Core_TreeNode_1_FirstCommonAncestor_
+  commentId: Overload:Startitecture.Core.TreeNode`1.FirstCommonAncestor
+  isSpec: "True"
+  fullName: Startitecture.Core.TreeNode<T>.FirstCommonAncestor
+  fullName.vb: Startitecture.Core.TreeNode(Of T).FirstCommonAncestor
+  nameWithType: TreeNode<T>.FirstCommonAncestor
+  nameWithType.vb: TreeNode(Of T).FirstCommonAncestor
+- uid: Startitecture.Core.TreeNode`1.FirstOrDefault(System.Predicate{`0})
+  name: FirstOrDefault(Predicate<T>)
+  href: api/Startitecture.Core.TreeNode-1.html#Startitecture_Core_TreeNode_1_FirstOrDefault_System_Predicate__0__
+  commentId: M:Startitecture.Core.TreeNode`1.FirstOrDefault(System.Predicate{`0})
+  name.vb: FirstOrDefault(Predicate(Of T))
+  fullName: Startitecture.Core.TreeNode<T>.FirstOrDefault(System.Predicate<T>)
+  fullName.vb: Startitecture.Core.TreeNode(Of T).FirstOrDefault(System.Predicate(Of T))
+  nameWithType: TreeNode<T>.FirstOrDefault(Predicate<T>)
+  nameWithType.vb: TreeNode(Of T).FirstOrDefault(Predicate(Of T))
+- uid: Startitecture.Core.TreeNode`1.FirstOrDefault*
+  name: FirstOrDefault
+  href: api/Startitecture.Core.TreeNode-1.html#Startitecture_Core_TreeNode_1_FirstOrDefault_
+  commentId: Overload:Startitecture.Core.TreeNode`1.FirstOrDefault
+  isSpec: "True"
+  fullName: Startitecture.Core.TreeNode<T>.FirstOrDefault
+  fullName.vb: Startitecture.Core.TreeNode(Of T).FirstOrDefault
+  nameWithType: TreeNode<T>.FirstOrDefault
+  nameWithType.vb: TreeNode(Of T).FirstOrDefault
+- uid: Startitecture.Core.TreeNode`1.Flatten
+  name: Flatten()
+  href: api/Startitecture.Core.TreeNode-1.html#Startitecture_Core_TreeNode_1_Flatten
+  commentId: M:Startitecture.Core.TreeNode`1.Flatten
+  fullName: Startitecture.Core.TreeNode<T>.Flatten()
+  fullName.vb: Startitecture.Core.TreeNode(Of T).Flatten()
+  nameWithType: TreeNode<T>.Flatten()
+  nameWithType.vb: TreeNode(Of T).Flatten()
+- uid: Startitecture.Core.TreeNode`1.Flatten*
+  name: Flatten
+  href: api/Startitecture.Core.TreeNode-1.html#Startitecture_Core_TreeNode_1_Flatten_
+  commentId: Overload:Startitecture.Core.TreeNode`1.Flatten
+  isSpec: "True"
+  fullName: Startitecture.Core.TreeNode<T>.Flatten
+  fullName.vb: Startitecture.Core.TreeNode(Of T).Flatten
+  nameWithType: TreeNode<T>.Flatten
+  nameWithType.vb: TreeNode(Of T).Flatten
+- uid: Startitecture.Core.TreeNode`1.Item(System.Int32)
+  name: Item[Int32]
+  href: api/Startitecture.Core.TreeNode-1.html#Startitecture_Core_TreeNode_1_Item_System_Int32_
+  commentId: P:Startitecture.Core.TreeNode`1.Item(System.Int32)
+  name.vb: Item(Int32)
+  fullName: Startitecture.Core.TreeNode<T>.Item[System.Int32]
+  fullName.vb: Startitecture.Core.TreeNode(Of T).Item(System.Int32)
+  nameWithType: TreeNode<T>.Item[Int32]
+  nameWithType.vb: TreeNode(Of T).Item(Int32)
+- uid: Startitecture.Core.TreeNode`1.Item*
+  name: Item
+  href: api/Startitecture.Core.TreeNode-1.html#Startitecture_Core_TreeNode_1_Item_
+  commentId: Overload:Startitecture.Core.TreeNode`1.Item
+  isSpec: "True"
+  fullName: Startitecture.Core.TreeNode<T>.Item
+  fullName.vb: Startitecture.Core.TreeNode(Of T).Item
+  nameWithType: TreeNode<T>.Item
+  nameWithType.vb: TreeNode(Of T).Item
+- uid: Startitecture.Core.TreeNode`1.Parent
+  name: Parent
+  href: api/Startitecture.Core.TreeNode-1.html#Startitecture_Core_TreeNode_1_Parent
+  commentId: P:Startitecture.Core.TreeNode`1.Parent
+  fullName: Startitecture.Core.TreeNode<T>.Parent
+  fullName.vb: Startitecture.Core.TreeNode(Of T).Parent
+  nameWithType: TreeNode<T>.Parent
+  nameWithType.vb: TreeNode(Of T).Parent
+- uid: Startitecture.Core.TreeNode`1.Parent*
+  name: Parent
+  href: api/Startitecture.Core.TreeNode-1.html#Startitecture_Core_TreeNode_1_Parent_
+  commentId: Overload:Startitecture.Core.TreeNode`1.Parent
+  isSpec: "True"
+  fullName: Startitecture.Core.TreeNode<T>.Parent
+  fullName.vb: Startitecture.Core.TreeNode(Of T).Parent
+  nameWithType: TreeNode<T>.Parent
+  nameWithType.vb: TreeNode(Of T).Parent
+- uid: Startitecture.Core.TreeNode`1.RemoveChild(Startitecture.Core.TreeNode{`0})
+  name: RemoveChild(TreeNode<T>)
+  href: api/Startitecture.Core.TreeNode-1.html#Startitecture_Core_TreeNode_1_RemoveChild_Startitecture_Core_TreeNode__0__
+  commentId: M:Startitecture.Core.TreeNode`1.RemoveChild(Startitecture.Core.TreeNode{`0})
+  name.vb: RemoveChild(TreeNode(Of T))
+  fullName: Startitecture.Core.TreeNode<T>.RemoveChild(Startitecture.Core.TreeNode<T>)
+  fullName.vb: Startitecture.Core.TreeNode(Of T).RemoveChild(Startitecture.Core.TreeNode(Of T))
+  nameWithType: TreeNode<T>.RemoveChild(TreeNode<T>)
+  nameWithType.vb: TreeNode(Of T).RemoveChild(TreeNode(Of T))
+- uid: Startitecture.Core.TreeNode`1.RemoveChild*
+  name: RemoveChild
+  href: api/Startitecture.Core.TreeNode-1.html#Startitecture_Core_TreeNode_1_RemoveChild_
+  commentId: Overload:Startitecture.Core.TreeNode`1.RemoveChild
+  isSpec: "True"
+  fullName: Startitecture.Core.TreeNode<T>.RemoveChild
+  fullName.vb: Startitecture.Core.TreeNode(Of T).RemoveChild
+  nameWithType: TreeNode<T>.RemoveChild
+  nameWithType.vb: TreeNode(Of T).RemoveChild
+- uid: Startitecture.Core.TreeNode`1.ToString
+  name: ToString()
+  href: api/Startitecture.Core.TreeNode-1.html#Startitecture_Core_TreeNode_1_ToString
+  commentId: M:Startitecture.Core.TreeNode`1.ToString
+  fullName: Startitecture.Core.TreeNode<T>.ToString()
+  fullName.vb: Startitecture.Core.TreeNode(Of T).ToString()
+  nameWithType: TreeNode<T>.ToString()
+  nameWithType.vb: TreeNode(Of T).ToString()
+- uid: Startitecture.Core.TreeNode`1.ToString*
+  name: ToString
+  href: api/Startitecture.Core.TreeNode-1.html#Startitecture_Core_TreeNode_1_ToString_
+  commentId: Overload:Startitecture.Core.TreeNode`1.ToString
+  isSpec: "True"
+  fullName: Startitecture.Core.TreeNode<T>.ToString
+  fullName.vb: Startitecture.Core.TreeNode(Of T).ToString
+  nameWithType: TreeNode<T>.ToString
+  nameWithType.vb: TreeNode(Of T).ToString
+- uid: Startitecture.Core.TreeNode`1.Traverse(System.Action{`0})
+  name: Traverse(Action<T>)
+  href: api/Startitecture.Core.TreeNode-1.html#Startitecture_Core_TreeNode_1_Traverse_System_Action__0__
+  commentId: M:Startitecture.Core.TreeNode`1.Traverse(System.Action{`0})
+  name.vb: Traverse(Action(Of T))
+  fullName: Startitecture.Core.TreeNode<T>.Traverse(System.Action<T>)
+  fullName.vb: Startitecture.Core.TreeNode(Of T).Traverse(System.Action(Of T))
+  nameWithType: TreeNode<T>.Traverse(Action<T>)
+  nameWithType.vb: TreeNode(Of T).Traverse(Action(Of T))
+- uid: Startitecture.Core.TreeNode`1.Traverse*
+  name: Traverse
+  href: api/Startitecture.Core.TreeNode-1.html#Startitecture_Core_TreeNode_1_Traverse_
+  commentId: Overload:Startitecture.Core.TreeNode`1.Traverse
+  isSpec: "True"
+  fullName: Startitecture.Core.TreeNode<T>.Traverse
+  fullName.vb: Startitecture.Core.TreeNode(Of T).Traverse
+  nameWithType: TreeNode<T>.Traverse
+  nameWithType.vb: TreeNode(Of T).Traverse
+- uid: Startitecture.Core.TreeNode`1.Value
+  name: Value
+  href: api/Startitecture.Core.TreeNode-1.html#Startitecture_Core_TreeNode_1_Value
+  commentId: P:Startitecture.Core.TreeNode`1.Value
+  fullName: Startitecture.Core.TreeNode<T>.Value
+  fullName.vb: Startitecture.Core.TreeNode(Of T).Value
+  nameWithType: TreeNode<T>.Value
+  nameWithType.vb: TreeNode(Of T).Value
+- uid: Startitecture.Core.TreeNode`1.Value*
+  name: Value
+  href: api/Startitecture.Core.TreeNode-1.html#Startitecture_Core_TreeNode_1_Value_
+  commentId: Overload:Startitecture.Core.TreeNode`1.Value
+  isSpec: "True"
+  fullName: Startitecture.Core.TreeNode<T>.Value
+  fullName.vb: Startitecture.Core.TreeNode(Of T).Value
+  nameWithType: TreeNode<T>.Value
+  nameWithType.vb: TreeNode(Of T).Value
+- uid: Startitecture.Resources
+  name: Startitecture.Resources
+  href: api/Startitecture.Resources.html
+  commentId: N:Startitecture.Resources
+  fullName: Startitecture.Resources
+  nameWithType: Startitecture.Resources
+- uid: Startitecture.Resources.ErrorMessages
+  name: ErrorMessages
+  href: api/Startitecture.Resources.ErrorMessages.html
+  commentId: T:Startitecture.Resources.ErrorMessages
+  fullName: Startitecture.Resources.ErrorMessages
+  nameWithType: ErrorMessages
+- uid: Startitecture.Resources.ErrorMessages.AssemblyNotFound
+  name: AssemblyNotFound
+  href: api/Startitecture.Resources.ErrorMessages.html#Startitecture_Resources_ErrorMessages_AssemblyNotFound
+  commentId: P:Startitecture.Resources.ErrorMessages.AssemblyNotFound
+  fullName: Startitecture.Resources.ErrorMessages.AssemblyNotFound
+  nameWithType: ErrorMessages.AssemblyNotFound
+- uid: Startitecture.Resources.ErrorMessages.AssemblyNotFound*
+  name: AssemblyNotFound
+  href: api/Startitecture.Resources.ErrorMessages.html#Startitecture_Resources_ErrorMessages_AssemblyNotFound_
+  commentId: Overload:Startitecture.Resources.ErrorMessages.AssemblyNotFound
+  isSpec: "True"
+  fullName: Startitecture.Resources.ErrorMessages.AssemblyNotFound
+  nameWithType: ErrorMessages.AssemblyNotFound
+- uid: Startitecture.Resources.ErrorMessages.AttributeRequiredForType
+  name: AttributeRequiredForType
+  href: api/Startitecture.Resources.ErrorMessages.html#Startitecture_Resources_ErrorMessages_AttributeRequiredForType
+  commentId: P:Startitecture.Resources.ErrorMessages.AttributeRequiredForType
+  fullName: Startitecture.Resources.ErrorMessages.AttributeRequiredForType
+  nameWithType: ErrorMessages.AttributeRequiredForType
+- uid: Startitecture.Resources.ErrorMessages.AttributeRequiredForType*
+  name: AttributeRequiredForType
+  href: api/Startitecture.Resources.ErrorMessages.html#Startitecture_Resources_ErrorMessages_AttributeRequiredForType_
+  commentId: Overload:Startitecture.Resources.ErrorMessages.AttributeRequiredForType
+  isSpec: "True"
+  fullName: Startitecture.Resources.ErrorMessages.AttributeRequiredForType
+  nameWithType: ErrorMessages.AttributeRequiredForType
+- uid: Startitecture.Resources.ErrorMessages.BrokenPocoAttributePath
+  name: BrokenPocoAttributePath
+  href: api/Startitecture.Resources.ErrorMessages.html#Startitecture_Resources_ErrorMessages_BrokenPocoAttributePath
+  commentId: P:Startitecture.Resources.ErrorMessages.BrokenPocoAttributePath
+  fullName: Startitecture.Resources.ErrorMessages.BrokenPocoAttributePath
+  nameWithType: ErrorMessages.BrokenPocoAttributePath
+- uid: Startitecture.Resources.ErrorMessages.BrokenPocoAttributePath*
+  name: BrokenPocoAttributePath
+  href: api/Startitecture.Resources.ErrorMessages.html#Startitecture_Resources_ErrorMessages_BrokenPocoAttributePath_
+  commentId: Overload:Startitecture.Resources.ErrorMessages.BrokenPocoAttributePath
+  isSpec: "True"
+  fullName: Startitecture.Resources.ErrorMessages.BrokenPocoAttributePath
+  nameWithType: ErrorMessages.BrokenPocoAttributePath
+- uid: Startitecture.Resources.ErrorMessages.ComparisonValuesMustBeSameType
+  name: ComparisonValuesMustBeSameType
+  href: api/Startitecture.Resources.ErrorMessages.html#Startitecture_Resources_ErrorMessages_ComparisonValuesMustBeSameType
+  commentId: P:Startitecture.Resources.ErrorMessages.ComparisonValuesMustBeSameType
+  fullName: Startitecture.Resources.ErrorMessages.ComparisonValuesMustBeSameType
+  nameWithType: ErrorMessages.ComparisonValuesMustBeSameType
+- uid: Startitecture.Resources.ErrorMessages.ComparisonValuesMustBeSameType*
+  name: ComparisonValuesMustBeSameType
+  href: api/Startitecture.Resources.ErrorMessages.html#Startitecture_Resources_ErrorMessages_ComparisonValuesMustBeSameType_
+  commentId: Overload:Startitecture.Resources.ErrorMessages.ComparisonValuesMustBeSameType
+  isSpec: "True"
+  fullName: Startitecture.Resources.ErrorMessages.ComparisonValuesMustBeSameType
+  nameWithType: ErrorMessages.ComparisonValuesMustBeSameType
+- uid: Startitecture.Resources.ErrorMessages.ConnectionFactoryReturnedNullConnection
+  name: ConnectionFactoryReturnedNullConnection
+  href: api/Startitecture.Resources.ErrorMessages.html#Startitecture_Resources_ErrorMessages_ConnectionFactoryReturnedNullConnection
+  commentId: P:Startitecture.Resources.ErrorMessages.ConnectionFactoryReturnedNullConnection
+  fullName: Startitecture.Resources.ErrorMessages.ConnectionFactoryReturnedNullConnection
+  nameWithType: ErrorMessages.ConnectionFactoryReturnedNullConnection
+- uid: Startitecture.Resources.ErrorMessages.ConnectionFactoryReturnedNullConnection*
+  name: ConnectionFactoryReturnedNullConnection
+  href: api/Startitecture.Resources.ErrorMessages.html#Startitecture_Resources_ErrorMessages_ConnectionFactoryReturnedNullConnection_
+  commentId: Overload:Startitecture.Resources.ErrorMessages.ConnectionFactoryReturnedNullConnection
+  isSpec: "True"
+  fullName: Startitecture.Resources.ErrorMessages.ConnectionFactoryReturnedNullConnection
+  nameWithType: ErrorMessages.ConnectionFactoryReturnedNullConnection
+- uid: Startitecture.Resources.ErrorMessages.ConnectionTypeNotFound
+  name: ConnectionTypeNotFound
+  href: api/Startitecture.Resources.ErrorMessages.html#Startitecture_Resources_ErrorMessages_ConnectionTypeNotFound
+  commentId: P:Startitecture.Resources.ErrorMessages.ConnectionTypeNotFound
+  fullName: Startitecture.Resources.ErrorMessages.ConnectionTypeNotFound
+  nameWithType: ErrorMessages.ConnectionTypeNotFound
+- uid: Startitecture.Resources.ErrorMessages.ConnectionTypeNotFound*
+  name: ConnectionTypeNotFound
+  href: api/Startitecture.Resources.ErrorMessages.html#Startitecture_Resources_ErrorMessages_ConnectionTypeNotFound_
+  commentId: Overload:Startitecture.Resources.ErrorMessages.ConnectionTypeNotFound
+  isSpec: "True"
+  fullName: Startitecture.Resources.ErrorMessages.ConnectionTypeNotFound
+  nameWithType: ErrorMessages.ConnectionTypeNotFound
+- uid: Startitecture.Resources.ErrorMessages.ConstructorInfoDoesNotExist
+  name: ConstructorInfoDoesNotExist
+  href: api/Startitecture.Resources.ErrorMessages.html#Startitecture_Resources_ErrorMessages_ConstructorInfoDoesNotExist
+  commentId: P:Startitecture.Resources.ErrorMessages.ConstructorInfoDoesNotExist
+  fullName: Startitecture.Resources.ErrorMessages.ConstructorInfoDoesNotExist
+  nameWithType: ErrorMessages.ConstructorInfoDoesNotExist
+- uid: Startitecture.Resources.ErrorMessages.ConstructorInfoDoesNotExist*
+  name: ConstructorInfoDoesNotExist
+  href: api/Startitecture.Resources.ErrorMessages.html#Startitecture_Resources_ErrorMessages_ConstructorInfoDoesNotExist_
+  commentId: Overload:Startitecture.Resources.ErrorMessages.ConstructorInfoDoesNotExist
+  isSpec: "True"
+  fullName: Startitecture.Resources.ErrorMessages.ConstructorInfoDoesNotExist
+  nameWithType: ErrorMessages.ConstructorInfoDoesNotExist
+- uid: Startitecture.Resources.ErrorMessages.Culture
+  name: Culture
+  href: api/Startitecture.Resources.ErrorMessages.html#Startitecture_Resources_ErrorMessages_Culture
+  commentId: P:Startitecture.Resources.ErrorMessages.Culture
+  fullName: Startitecture.Resources.ErrorMessages.Culture
+  nameWithType: ErrorMessages.Culture
+- uid: Startitecture.Resources.ErrorMessages.Culture*
+  name: Culture
+  href: api/Startitecture.Resources.ErrorMessages.html#Startitecture_Resources_ErrorMessages_Culture_
+  commentId: Overload:Startitecture.Resources.ErrorMessages.Culture
+  isSpec: "True"
+  fullName: Startitecture.Resources.ErrorMessages.Culture
+  nameWithType: ErrorMessages.Culture
+- uid: Startitecture.Resources.ErrorMessages.DatabaseContextConnectionIsNotSqlConnection
+  name: DatabaseContextConnectionIsNotSqlConnection
+  href: api/Startitecture.Resources.ErrorMessages.html#Startitecture_Resources_ErrorMessages_DatabaseContextConnectionIsNotSqlConnection
+  commentId: P:Startitecture.Resources.ErrorMessages.DatabaseContextConnectionIsNotSqlConnection
+  fullName: Startitecture.Resources.ErrorMessages.DatabaseContextConnectionIsNotSqlConnection
+  nameWithType: ErrorMessages.DatabaseContextConnectionIsNotSqlConnection
+- uid: Startitecture.Resources.ErrorMessages.DatabaseContextConnectionIsNotSqlConnection*
+  name: DatabaseContextConnectionIsNotSqlConnection
+  href: api/Startitecture.Resources.ErrorMessages.html#Startitecture_Resources_ErrorMessages_DatabaseContextConnectionIsNotSqlConnection_
+  commentId: Overload:Startitecture.Resources.ErrorMessages.DatabaseContextConnectionIsNotSqlConnection
+  isSpec: "True"
+  fullName: Startitecture.Resources.ErrorMessages.DatabaseContextConnectionIsNotSqlConnection
+  nameWithType: ErrorMessages.DatabaseContextConnectionIsNotSqlConnection
+- uid: Startitecture.Resources.ErrorMessages.DataItemInsertionFailed
+  name: DataItemInsertionFailed
+  href: api/Startitecture.Resources.ErrorMessages.html#Startitecture_Resources_ErrorMessages_DataItemInsertionFailed
+  commentId: P:Startitecture.Resources.ErrorMessages.DataItemInsertionFailed
+  fullName: Startitecture.Resources.ErrorMessages.DataItemInsertionFailed
+  nameWithType: ErrorMessages.DataItemInsertionFailed
+- uid: Startitecture.Resources.ErrorMessages.DataItemInsertionFailed*
+  name: DataItemInsertionFailed
+  href: api/Startitecture.Resources.ErrorMessages.html#Startitecture_Resources_ErrorMessages_DataItemInsertionFailed_
+  commentId: Overload:Startitecture.Resources.ErrorMessages.DataItemInsertionFailed
+  isSpec: "True"
+  fullName: Startitecture.Resources.ErrorMessages.DataItemInsertionFailed
+  nameWithType: ErrorMessages.DataItemInsertionFailed
+- uid: Startitecture.Resources.ErrorMessages.DelegateCouldNotBeCreatedWithReader
+  name: DelegateCouldNotBeCreatedWithReader
+  href: api/Startitecture.Resources.ErrorMessages.html#Startitecture_Resources_ErrorMessages_DelegateCouldNotBeCreatedWithReader
+  commentId: P:Startitecture.Resources.ErrorMessages.DelegateCouldNotBeCreatedWithReader
+  fullName: Startitecture.Resources.ErrorMessages.DelegateCouldNotBeCreatedWithReader
+  nameWithType: ErrorMessages.DelegateCouldNotBeCreatedWithReader
+- uid: Startitecture.Resources.ErrorMessages.DelegateCouldNotBeCreatedWithReader*
+  name: DelegateCouldNotBeCreatedWithReader
+  href: api/Startitecture.Resources.ErrorMessages.html#Startitecture_Resources_ErrorMessages_DelegateCouldNotBeCreatedWithReader_
+  commentId: Overload:Startitecture.Resources.ErrorMessages.DelegateCouldNotBeCreatedWithReader
+  isSpec: "True"
+  fullName: Startitecture.Resources.ErrorMessages.DelegateCouldNotBeCreatedWithReader
+  nameWithType: ErrorMessages.DelegateCouldNotBeCreatedWithReader
+- uid: Startitecture.Resources.ErrorMessages.HttpWebRequestNotReturned
+  name: HttpWebRequestNotReturned
+  href: api/Startitecture.Resources.ErrorMessages.html#Startitecture_Resources_ErrorMessages_HttpWebRequestNotReturned
+  commentId: P:Startitecture.Resources.ErrorMessages.HttpWebRequestNotReturned
+  fullName: Startitecture.Resources.ErrorMessages.HttpWebRequestNotReturned
+  nameWithType: ErrorMessages.HttpWebRequestNotReturned
+- uid: Startitecture.Resources.ErrorMessages.HttpWebRequestNotReturned*
+  name: HttpWebRequestNotReturned
+  href: api/Startitecture.Resources.ErrorMessages.html#Startitecture_Resources_ErrorMessages_HttpWebRequestNotReturned_
+  commentId: Overload:Startitecture.Resources.ErrorMessages.HttpWebRequestNotReturned
+  isSpec: "True"
+  fullName: Startitecture.Resources.ErrorMessages.HttpWebRequestNotReturned
+  nameWithType: ErrorMessages.HttpWebRequestNotReturned
+- uid: Startitecture.Resources.ErrorMessages.IndexPropertiesNotSupported
+  name: IndexPropertiesNotSupported
+  href: api/Startitecture.Resources.ErrorMessages.html#Startitecture_Resources_ErrorMessages_IndexPropertiesNotSupported
+  commentId: P:Startitecture.Resources.ErrorMessages.IndexPropertiesNotSupported
+  fullName: Startitecture.Resources.ErrorMessages.IndexPropertiesNotSupported
+  nameWithType: ErrorMessages.IndexPropertiesNotSupported
+- uid: Startitecture.Resources.ErrorMessages.IndexPropertiesNotSupported*
+  name: IndexPropertiesNotSupported
+  href: api/Startitecture.Resources.ErrorMessages.html#Startitecture_Resources_ErrorMessages_IndexPropertiesNotSupported_
+  commentId: Overload:Startitecture.Resources.ErrorMessages.IndexPropertiesNotSupported
+  isSpec: "True"
+  fullName: Startitecture.Resources.ErrorMessages.IndexPropertiesNotSupported
+  nameWithType: ErrorMessages.IndexPropertiesNotSupported
+- uid: Startitecture.Resources.ErrorMessages.ItemCouldNotBeAddedToCollection
+  name: ItemCouldNotBeAddedToCollection
+  href: api/Startitecture.Resources.ErrorMessages.html#Startitecture_Resources_ErrorMessages_ItemCouldNotBeAddedToCollection
+  commentId: P:Startitecture.Resources.ErrorMessages.ItemCouldNotBeAddedToCollection
+  fullName: Startitecture.Resources.ErrorMessages.ItemCouldNotBeAddedToCollection
+  nameWithType: ErrorMessages.ItemCouldNotBeAddedToCollection
+- uid: Startitecture.Resources.ErrorMessages.ItemCouldNotBeAddedToCollection*
+  name: ItemCouldNotBeAddedToCollection
+  href: api/Startitecture.Resources.ErrorMessages.html#Startitecture_Resources_ErrorMessages_ItemCouldNotBeAddedToCollection_
+  commentId: Overload:Startitecture.Resources.ErrorMessages.ItemCouldNotBeAddedToCollection
+  isSpec: "True"
+  fullName: Startitecture.Resources.ErrorMessages.ItemCouldNotBeAddedToCollection
+  nameWithType: ErrorMessages.ItemCouldNotBeAddedToCollection
+- uid: Startitecture.Resources.ErrorMessages.MatchingKeyPropertyNotFound
+  name: MatchingKeyPropertyNotFound
+  href: api/Startitecture.Resources.ErrorMessages.html#Startitecture_Resources_ErrorMessages_MatchingKeyPropertyNotFound
+  commentId: P:Startitecture.Resources.ErrorMessages.MatchingKeyPropertyNotFound
+  fullName: Startitecture.Resources.ErrorMessages.MatchingKeyPropertyNotFound
+  nameWithType: ErrorMessages.MatchingKeyPropertyNotFound
+- uid: Startitecture.Resources.ErrorMessages.MatchingKeyPropertyNotFound*
+  name: MatchingKeyPropertyNotFound
+  href: api/Startitecture.Resources.ErrorMessages.html#Startitecture_Resources_ErrorMessages_MatchingKeyPropertyNotFound_
+  commentId: Overload:Startitecture.Resources.ErrorMessages.MatchingKeyPropertyNotFound
+  isSpec: "True"
+  fullName: Startitecture.Resources.ErrorMessages.MatchingKeyPropertyNotFound
+  nameWithType: ErrorMessages.MatchingKeyPropertyNotFound
+- uid: Startitecture.Resources.ErrorMessages.NoMatchingPropertyForRelation
+  name: NoMatchingPropertyForRelation
+  href: api/Startitecture.Resources.ErrorMessages.html#Startitecture_Resources_ErrorMessages_NoMatchingPropertyForRelation
+  commentId: P:Startitecture.Resources.ErrorMessages.NoMatchingPropertyForRelation
+  fullName: Startitecture.Resources.ErrorMessages.NoMatchingPropertyForRelation
+  nameWithType: ErrorMessages.NoMatchingPropertyForRelation
+- uid: Startitecture.Resources.ErrorMessages.NoMatchingPropertyForRelation*
+  name: NoMatchingPropertyForRelation
+  href: api/Startitecture.Resources.ErrorMessages.html#Startitecture_Resources_ErrorMessages_NoMatchingPropertyForRelation_
+  commentId: Overload:Startitecture.Resources.ErrorMessages.NoMatchingPropertyForRelation
+  isSpec: "True"
+  fullName: Startitecture.Resources.ErrorMessages.NoMatchingPropertyForRelation
+  nameWithType: ErrorMessages.NoMatchingPropertyForRelation
+- uid: Startitecture.Resources.ErrorMessages.OracleQueryMustAliasForPagedQuery
+  name: OracleQueryMustAliasForPagedQuery
+  href: api/Startitecture.Resources.ErrorMessages.html#Startitecture_Resources_ErrorMessages_OracleQueryMustAliasForPagedQuery
+  commentId: P:Startitecture.Resources.ErrorMessages.OracleQueryMustAliasForPagedQuery
+  fullName: Startitecture.Resources.ErrorMessages.OracleQueryMustAliasForPagedQuery
+  nameWithType: ErrorMessages.OracleQueryMustAliasForPagedQuery
+- uid: Startitecture.Resources.ErrorMessages.OracleQueryMustAliasForPagedQuery*
+  name: OracleQueryMustAliasForPagedQuery
+  href: api/Startitecture.Resources.ErrorMessages.html#Startitecture_Resources_ErrorMessages_OracleQueryMustAliasForPagedQuery_
+  commentId: Overload:Startitecture.Resources.ErrorMessages.OracleQueryMustAliasForPagedQuery
+  isSpec: "True"
+  fullName: Startitecture.Resources.ErrorMessages.OracleQueryMustAliasForPagedQuery
+  nameWithType: ErrorMessages.OracleQueryMustAliasForPagedQuery
+- uid: Startitecture.Resources.ErrorMessages.PagedSqlCouldNotBeParsed
+  name: PagedSqlCouldNotBeParsed
+  href: api/Startitecture.Resources.ErrorMessages.html#Startitecture_Resources_ErrorMessages_PagedSqlCouldNotBeParsed
+  commentId: P:Startitecture.Resources.ErrorMessages.PagedSqlCouldNotBeParsed
+  fullName: Startitecture.Resources.ErrorMessages.PagedSqlCouldNotBeParsed
+  nameWithType: ErrorMessages.PagedSqlCouldNotBeParsed
+- uid: Startitecture.Resources.ErrorMessages.PagedSqlCouldNotBeParsed*
+  name: PagedSqlCouldNotBeParsed
+  href: api/Startitecture.Resources.ErrorMessages.html#Startitecture_Resources_ErrorMessages_PagedSqlCouldNotBeParsed_
+  commentId: Overload:Startitecture.Resources.ErrorMessages.PagedSqlCouldNotBeParsed
+  isSpec: "True"
+  fullName: Startitecture.Resources.ErrorMessages.PagedSqlCouldNotBeParsed
+  nameWithType: ErrorMessages.PagedSqlCouldNotBeParsed
+- uid: Startitecture.Resources.ErrorMessages.ReadOnlyPropertyCannotBeWrittenTo
+  name: ReadOnlyPropertyCannotBeWrittenTo
+  href: api/Startitecture.Resources.ErrorMessages.html#Startitecture_Resources_ErrorMessages_ReadOnlyPropertyCannotBeWrittenTo
+  commentId: P:Startitecture.Resources.ErrorMessages.ReadOnlyPropertyCannotBeWrittenTo
+  fullName: Startitecture.Resources.ErrorMessages.ReadOnlyPropertyCannotBeWrittenTo
+  nameWithType: ErrorMessages.ReadOnlyPropertyCannotBeWrittenTo
+- uid: Startitecture.Resources.ErrorMessages.ReadOnlyPropertyCannotBeWrittenTo*
+  name: ReadOnlyPropertyCannotBeWrittenTo
+  href: api/Startitecture.Resources.ErrorMessages.html#Startitecture_Resources_ErrorMessages_ReadOnlyPropertyCannotBeWrittenTo_
+  commentId: Overload:Startitecture.Resources.ErrorMessages.ReadOnlyPropertyCannotBeWrittenTo
+  isSpec: "True"
+  fullName: Startitecture.Resources.ErrorMessages.ReadOnlyPropertyCannotBeWrittenTo
+  nameWithType: ErrorMessages.ReadOnlyPropertyCannotBeWrittenTo
+- uid: Startitecture.Resources.ErrorMessages.RepositoryProviderIsDisposed
+  name: RepositoryProviderIsDisposed
+  href: api/Startitecture.Resources.ErrorMessages.html#Startitecture_Resources_ErrorMessages_RepositoryProviderIsDisposed
+  commentId: P:Startitecture.Resources.ErrorMessages.RepositoryProviderIsDisposed
+  fullName: Startitecture.Resources.ErrorMessages.RepositoryProviderIsDisposed
+  nameWithType: ErrorMessages.RepositoryProviderIsDisposed
+- uid: Startitecture.Resources.ErrorMessages.RepositoryProviderIsDisposed*
+  name: RepositoryProviderIsDisposed
+  href: api/Startitecture.Resources.ErrorMessages.html#Startitecture_Resources_ErrorMessages_RepositoryProviderIsDisposed_
+  commentId: Overload:Startitecture.Resources.ErrorMessages.RepositoryProviderIsDisposed
+  isSpec: "True"
+  fullName: Startitecture.Resources.ErrorMessages.RepositoryProviderIsDisposed
+  nameWithType: ErrorMessages.RepositoryProviderIsDisposed
+- uid: Startitecture.Resources.ErrorMessages.ResourceManager
+  name: ResourceManager
+  href: api/Startitecture.Resources.ErrorMessages.html#Startitecture_Resources_ErrorMessages_ResourceManager
+  commentId: P:Startitecture.Resources.ErrorMessages.ResourceManager
+  fullName: Startitecture.Resources.ErrorMessages.ResourceManager
+  nameWithType: ErrorMessages.ResourceManager
+- uid: Startitecture.Resources.ErrorMessages.ResourceManager*
+  name: ResourceManager
+  href: api/Startitecture.Resources.ErrorMessages.html#Startitecture_Resources_ErrorMessages_ResourceManager_
+  commentId: Overload:Startitecture.Resources.ErrorMessages.ResourceManager
+  isSpec: "True"
+  fullName: Startitecture.Resources.ErrorMessages.ResourceManager
+  nameWithType: ErrorMessages.ResourceManager
+- uid: Startitecture.Resources.ErrorMessages.TypeCouldNotBeLoaded
+  name: TypeCouldNotBeLoaded
+  href: api/Startitecture.Resources.ErrorMessages.html#Startitecture_Resources_ErrorMessages_TypeCouldNotBeLoaded
+  commentId: P:Startitecture.Resources.ErrorMessages.TypeCouldNotBeLoaded
+  fullName: Startitecture.Resources.ErrorMessages.TypeCouldNotBeLoaded
+  nameWithType: ErrorMessages.TypeCouldNotBeLoaded
+- uid: Startitecture.Resources.ErrorMessages.TypeCouldNotBeLoaded*
+  name: TypeCouldNotBeLoaded
+  href: api/Startitecture.Resources.ErrorMessages.html#Startitecture_Resources_ErrorMessages_TypeCouldNotBeLoaded_
+  commentId: Overload:Startitecture.Resources.ErrorMessages.TypeCouldNotBeLoaded
+  isSpec: "True"
+  fullName: Startitecture.Resources.ErrorMessages.TypeCouldNotBeLoaded
+  nameWithType: ErrorMessages.TypeCouldNotBeLoaded
+- uid: Startitecture.Resources.ErrorMessages.UnableToSetPropertyToValue
+  name: UnableToSetPropertyToValue
+  href: api/Startitecture.Resources.ErrorMessages.html#Startitecture_Resources_ErrorMessages_UnableToSetPropertyToValue
+  commentId: P:Startitecture.Resources.ErrorMessages.UnableToSetPropertyToValue
+  fullName: Startitecture.Resources.ErrorMessages.UnableToSetPropertyToValue
+  nameWithType: ErrorMessages.UnableToSetPropertyToValue
+- uid: Startitecture.Resources.ErrorMessages.UnableToSetPropertyToValue*
+  name: UnableToSetPropertyToValue
+  href: api/Startitecture.Resources.ErrorMessages.html#Startitecture_Resources_ErrorMessages_UnableToSetPropertyToValue_
+  commentId: Overload:Startitecture.Resources.ErrorMessages.UnableToSetPropertyToValue
+  isSpec: "True"
+  fullName: Startitecture.Resources.ErrorMessages.UnableToSetPropertyToValue
+  nameWithType: ErrorMessages.UnableToSetPropertyToValue
+- uid: Startitecture.Resources.ErrorMessages.ValueCannotBeNullOrWhiteSpace
+  name: ValueCannotBeNullOrWhiteSpace
+  href: api/Startitecture.Resources.ErrorMessages.html#Startitecture_Resources_ErrorMessages_ValueCannotBeNullOrWhiteSpace
+  commentId: P:Startitecture.Resources.ErrorMessages.ValueCannotBeNullOrWhiteSpace
+  fullName: Startitecture.Resources.ErrorMessages.ValueCannotBeNullOrWhiteSpace
+  nameWithType: ErrorMessages.ValueCannotBeNullOrWhiteSpace
+- uid: Startitecture.Resources.ErrorMessages.ValueCannotBeNullOrWhiteSpace*
+  name: ValueCannotBeNullOrWhiteSpace
+  href: api/Startitecture.Resources.ErrorMessages.html#Startitecture_Resources_ErrorMessages_ValueCannotBeNullOrWhiteSpace_
+  commentId: Overload:Startitecture.Resources.ErrorMessages.ValueCannotBeNullOrWhiteSpace
+  isSpec: "True"
+  fullName: Startitecture.Resources.ErrorMessages.ValueCannotBeNullOrWhiteSpace
+  nameWithType: ErrorMessages.ValueCannotBeNullOrWhiteSpace
+- uid: Startitecture.Resources.ValidationMessages
+  name: ValidationMessages
+  href: api/Startitecture.Resources.ValidationMessages.html
+  commentId: T:Startitecture.Resources.ValidationMessages
+  fullName: Startitecture.Resources.ValidationMessages
+  nameWithType: ValidationMessages
+- uid: Startitecture.Resources.ValidationMessages.Culture
+  name: Culture
+  href: api/Startitecture.Resources.ValidationMessages.html#Startitecture_Resources_ValidationMessages_Culture
+  commentId: P:Startitecture.Resources.ValidationMessages.Culture
+  fullName: Startitecture.Resources.ValidationMessages.Culture
+  nameWithType: ValidationMessages.Culture
+- uid: Startitecture.Resources.ValidationMessages.Culture*
+  name: Culture
+  href: api/Startitecture.Resources.ValidationMessages.html#Startitecture_Resources_ValidationMessages_Culture_
+  commentId: Overload:Startitecture.Resources.ValidationMessages.Culture
+  isSpec: "True"
+  fullName: Startitecture.Resources.ValidationMessages.Culture
+  nameWithType: ValidationMessages.Culture
+- uid: Startitecture.Resources.ValidationMessages.EntityValidationFailedMultiple
+  name: EntityValidationFailedMultiple
+  href: api/Startitecture.Resources.ValidationMessages.html#Startitecture_Resources_ValidationMessages_EntityValidationFailedMultiple
+  commentId: P:Startitecture.Resources.ValidationMessages.EntityValidationFailedMultiple
+  fullName: Startitecture.Resources.ValidationMessages.EntityValidationFailedMultiple
+  nameWithType: ValidationMessages.EntityValidationFailedMultiple
+- uid: Startitecture.Resources.ValidationMessages.EntityValidationFailedMultiple*
+  name: EntityValidationFailedMultiple
+  href: api/Startitecture.Resources.ValidationMessages.html#Startitecture_Resources_ValidationMessages_EntityValidationFailedMultiple_
+  commentId: Overload:Startitecture.Resources.ValidationMessages.EntityValidationFailedMultiple
+  isSpec: "True"
+  fullName: Startitecture.Resources.ValidationMessages.EntityValidationFailedMultiple
+  nameWithType: ValidationMessages.EntityValidationFailedMultiple
+- uid: Startitecture.Resources.ValidationMessages.EntityValidationFailedSingle
+  name: EntityValidationFailedSingle
+  href: api/Startitecture.Resources.ValidationMessages.html#Startitecture_Resources_ValidationMessages_EntityValidationFailedSingle
+  commentId: P:Startitecture.Resources.ValidationMessages.EntityValidationFailedSingle
+  fullName: Startitecture.Resources.ValidationMessages.EntityValidationFailedSingle
+  nameWithType: ValidationMessages.EntityValidationFailedSingle
+- uid: Startitecture.Resources.ValidationMessages.EntityValidationFailedSingle*
+  name: EntityValidationFailedSingle
+  href: api/Startitecture.Resources.ValidationMessages.html#Startitecture_Resources_ValidationMessages_EntityValidationFailedSingle_
+  commentId: Overload:Startitecture.Resources.ValidationMessages.EntityValidationFailedSingle
+  isSpec: "True"
+  fullName: Startitecture.Resources.ValidationMessages.EntityValidationFailedSingle
+  nameWithType: ValidationMessages.EntityValidationFailedSingle
+- uid: Startitecture.Resources.ValidationMessages.PropertyMustHaveDeclaringType
+  name: PropertyMustHaveDeclaringType
+  href: api/Startitecture.Resources.ValidationMessages.html#Startitecture_Resources_ValidationMessages_PropertyMustHaveDeclaringType
+  commentId: P:Startitecture.Resources.ValidationMessages.PropertyMustHaveDeclaringType
+  fullName: Startitecture.Resources.ValidationMessages.PropertyMustHaveDeclaringType
+  nameWithType: ValidationMessages.PropertyMustHaveDeclaringType
+- uid: Startitecture.Resources.ValidationMessages.PropertyMustHaveDeclaringType*
+  name: PropertyMustHaveDeclaringType
+  href: api/Startitecture.Resources.ValidationMessages.html#Startitecture_Resources_ValidationMessages_PropertyMustHaveDeclaringType_
+  commentId: Overload:Startitecture.Resources.ValidationMessages.PropertyMustHaveDeclaringType
+  isSpec: "True"
+  fullName: Startitecture.Resources.ValidationMessages.PropertyMustHaveDeclaringType
+  nameWithType: ValidationMessages.PropertyMustHaveDeclaringType
+- uid: Startitecture.Resources.ValidationMessages.ResourceManager
+  name: ResourceManager
+  href: api/Startitecture.Resources.ValidationMessages.html#Startitecture_Resources_ValidationMessages_ResourceManager
+  commentId: P:Startitecture.Resources.ValidationMessages.ResourceManager
+  fullName: Startitecture.Resources.ValidationMessages.ResourceManager
+  nameWithType: ValidationMessages.ResourceManager
+- uid: Startitecture.Resources.ValidationMessages.ResourceManager*
+  name: ResourceManager
+  href: api/Startitecture.Resources.ValidationMessages.html#Startitecture_Resources_ValidationMessages_ResourceManager_
+  commentId: Overload:Startitecture.Resources.ValidationMessages.ResourceManager
+  isSpec: "True"
+  fullName: Startitecture.Resources.ValidationMessages.ResourceManager
+  nameWithType: ValidationMessages.ResourceManager
+- uid: Startitecture.Resources.ValidationMessages.SelectorCannotBeEvaluated
+  name: SelectorCannotBeEvaluated
+  href: api/Startitecture.Resources.ValidationMessages.html#Startitecture_Resources_ValidationMessages_SelectorCannotBeEvaluated
+  commentId: P:Startitecture.Resources.ValidationMessages.SelectorCannotBeEvaluated
+  fullName: Startitecture.Resources.ValidationMessages.SelectorCannotBeEvaluated
+  nameWithType: ValidationMessages.SelectorCannotBeEvaluated
+- uid: Startitecture.Resources.ValidationMessages.SelectorCannotBeEvaluated*
+  name: SelectorCannotBeEvaluated
+  href: api/Startitecture.Resources.ValidationMessages.html#Startitecture_Resources_ValidationMessages_SelectorCannotBeEvaluated_
+  commentId: Overload:Startitecture.Resources.ValidationMessages.SelectorCannotBeEvaluated
+  isSpec: "True"
+  fullName: Startitecture.Resources.ValidationMessages.SelectorCannotBeEvaluated
+  nameWithType: ValidationMessages.SelectorCannotBeEvaluated
+- uid: Startitecture.Resources.ValidationMessages.ServiceRoutesNotSpecified
+  name: ServiceRoutesNotSpecified
+  href: api/Startitecture.Resources.ValidationMessages.html#Startitecture_Resources_ValidationMessages_ServiceRoutesNotSpecified
+  commentId: P:Startitecture.Resources.ValidationMessages.ServiceRoutesNotSpecified
+  fullName: Startitecture.Resources.ValidationMessages.ServiceRoutesNotSpecified
+  nameWithType: ValidationMessages.ServiceRoutesNotSpecified
+- uid: Startitecture.Resources.ValidationMessages.ServiceRoutesNotSpecified*
+  name: ServiceRoutesNotSpecified
+  href: api/Startitecture.Resources.ValidationMessages.html#Startitecture_Resources_ValidationMessages_ServiceRoutesNotSpecified_
+  commentId: Overload:Startitecture.Resources.ValidationMessages.ServiceRoutesNotSpecified
+  isSpec: "True"
+  fullName: Startitecture.Resources.ValidationMessages.ServiceRoutesNotSpecified
+  nameWithType: ValidationMessages.ServiceRoutesNotSpecified
+- uid: Startitecture.Resources.ValidationMessages.SpecifyAtLeastOneParameter
+  name: SpecifyAtLeastOneParameter
+  href: api/Startitecture.Resources.ValidationMessages.html#Startitecture_Resources_ValidationMessages_SpecifyAtLeastOneParameter
+  commentId: P:Startitecture.Resources.ValidationMessages.SpecifyAtLeastOneParameter
+  fullName: Startitecture.Resources.ValidationMessages.SpecifyAtLeastOneParameter
+  nameWithType: ValidationMessages.SpecifyAtLeastOneParameter
+- uid: Startitecture.Resources.ValidationMessages.SpecifyAtLeastOneParameter*
+  name: SpecifyAtLeastOneParameter
+  href: api/Startitecture.Resources.ValidationMessages.html#Startitecture_Resources_ValidationMessages_SpecifyAtLeastOneParameter_
+  commentId: Overload:Startitecture.Resources.ValidationMessages.SpecifyAtLeastOneParameter
+  isSpec: "True"
+  fullName: Startitecture.Resources.ValidationMessages.SpecifyAtLeastOneParameter
+  nameWithType: ValidationMessages.SpecifyAtLeastOneParameter
+- uid: Startitecture.Resources.ValidationMessages.SqlParameterDoesNotMatchArguments
+  name: SqlParameterDoesNotMatchArguments
+  href: api/Startitecture.Resources.ValidationMessages.html#Startitecture_Resources_ValidationMessages_SqlParameterDoesNotMatchArguments
+  commentId: P:Startitecture.Resources.ValidationMessages.SqlParameterDoesNotMatchArguments
+  fullName: Startitecture.Resources.ValidationMessages.SqlParameterDoesNotMatchArguments
+  nameWithType: ValidationMessages.SqlParameterDoesNotMatchArguments
+- uid: Startitecture.Resources.ValidationMessages.SqlParameterDoesNotMatchArguments*
+  name: SqlParameterDoesNotMatchArguments
+  href: api/Startitecture.Resources.ValidationMessages.html#Startitecture_Resources_ValidationMessages_SqlParameterDoesNotMatchArguments_
+  commentId: Overload:Startitecture.Resources.ValidationMessages.SqlParameterDoesNotMatchArguments
+  isSpec: "True"
+  fullName: Startitecture.Resources.ValidationMessages.SqlParameterDoesNotMatchArguments
+  nameWithType: ValidationMessages.SqlParameterDoesNotMatchArguments
+- uid: Startitecture.Resources.ValidationMessages.SqlParameterHasNoMatchingValue
+  name: SqlParameterHasNoMatchingValue
+  href: api/Startitecture.Resources.ValidationMessages.html#Startitecture_Resources_ValidationMessages_SqlParameterHasNoMatchingValue
+  commentId: P:Startitecture.Resources.ValidationMessages.SqlParameterHasNoMatchingValue
+  fullName: Startitecture.Resources.ValidationMessages.SqlParameterHasNoMatchingValue
+  nameWithType: ValidationMessages.SqlParameterHasNoMatchingValue
+- uid: Startitecture.Resources.ValidationMessages.SqlParameterHasNoMatchingValue*
+  name: SqlParameterHasNoMatchingValue
+  href: api/Startitecture.Resources.ValidationMessages.html#Startitecture_Resources_ValidationMessages_SqlParameterHasNoMatchingValue_
+  commentId: Overload:Startitecture.Resources.ValidationMessages.SqlParameterHasNoMatchingValue
+  isSpec: "True"
+  fullName: Startitecture.Resources.ValidationMessages.SqlParameterHasNoMatchingValue
+  nameWithType: ValidationMessages.SqlParameterHasNoMatchingValue
+- uid: Startitecture.Resources.ValidationMessages.TypeDoesNotContainProperty
+  name: TypeDoesNotContainProperty
+  href: api/Startitecture.Resources.ValidationMessages.html#Startitecture_Resources_ValidationMessages_TypeDoesNotContainProperty
+  commentId: P:Startitecture.Resources.ValidationMessages.TypeDoesNotContainProperty
+  fullName: Startitecture.Resources.ValidationMessages.TypeDoesNotContainProperty
+  nameWithType: ValidationMessages.TypeDoesNotContainProperty
+- uid: Startitecture.Resources.ValidationMessages.TypeDoesNotContainProperty*
+  name: TypeDoesNotContainProperty
+  href: api/Startitecture.Resources.ValidationMessages.html#Startitecture_Resources_ValidationMessages_TypeDoesNotContainProperty_
+  commentId: Overload:Startitecture.Resources.ValidationMessages.TypeDoesNotContainProperty
+  isSpec: "True"
+  fullName: Startitecture.Resources.ValidationMessages.TypeDoesNotContainProperty
+  nameWithType: ValidationMessages.TypeDoesNotContainProperty
+- uid: Startitecture.Resources.ValidationMessages.ValueMustBeGreaterThanZero
+  name: ValueMustBeGreaterThanZero
+  href: api/Startitecture.Resources.ValidationMessages.html#Startitecture_Resources_ValidationMessages_ValueMustBeGreaterThanZero
+  commentId: P:Startitecture.Resources.ValidationMessages.ValueMustBeGreaterThanZero
+  fullName: Startitecture.Resources.ValidationMessages.ValueMustBeGreaterThanZero
+  nameWithType: ValidationMessages.ValueMustBeGreaterThanZero
+- uid: Startitecture.Resources.ValidationMessages.ValueMustBeGreaterThanZero*
+  name: ValueMustBeGreaterThanZero
+  href: api/Startitecture.Resources.ValidationMessages.html#Startitecture_Resources_ValidationMessages_ValueMustBeGreaterThanZero_
+  commentId: Overload:Startitecture.Resources.ValidationMessages.ValueMustBeGreaterThanZero
+  isSpec: "True"
+  fullName: Startitecture.Resources.ValidationMessages.ValueMustBeGreaterThanZero
+  nameWithType: ValidationMessages.ValueMustBeGreaterThanZero
+- uid: Startitecture.Resources.ValidationMessages.ValueMustBeZeroOrGreater
+  name: ValueMustBeZeroOrGreater
+  href: api/Startitecture.Resources.ValidationMessages.html#Startitecture_Resources_ValidationMessages_ValueMustBeZeroOrGreater
+  commentId: P:Startitecture.Resources.ValidationMessages.ValueMustBeZeroOrGreater
+  fullName: Startitecture.Resources.ValidationMessages.ValueMustBeZeroOrGreater
+  nameWithType: ValidationMessages.ValueMustBeZeroOrGreater
+- uid: Startitecture.Resources.ValidationMessages.ValueMustBeZeroOrGreater*
+  name: ValueMustBeZeroOrGreater
+  href: api/Startitecture.Resources.ValidationMessages.html#Startitecture_Resources_ValidationMessages_ValueMustBeZeroOrGreater_
+  commentId: Overload:Startitecture.Resources.ValidationMessages.ValueMustBeZeroOrGreater
+  isSpec: "True"
+  fullName: Startitecture.Resources.ValidationMessages.ValueMustBeZeroOrGreater
+  nameWithType: ValidationMessages.ValueMustBeZeroOrGreater
