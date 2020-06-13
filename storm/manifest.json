@@ -1,0 +1,2936 @@
+{
+  "homepages": [],
+  "source_base_path": "c:/Users/Derick/source/repos/storm/docs",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Common.Model.Container.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Common.Model.Container.html",
+          "hash": "/4gHnq156UedbZ0K89ovGQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Common.Model.DataSlice.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Common.Model.DataSlice.html",
+          "hash": "imYx7BzfqYWf1MGXy2iGng=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Common.Model.DataSliceInstance.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Common.Model.DataSliceInstance.html",
+          "hash": "k+vb6KESltSQ1Nycxdh2pw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Common.Model.Document.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Common.Model.Document.html",
+          "hash": "Xkw/4cniaaDaroIYwBwHZg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Common.Model.DocumentVersion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Common.Model.DocumentVersion.html",
+          "hash": "5BnZbJNn66Ic+0eJ3cN+xQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Common.Model.ExternalResource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Common.Model.ExternalResource.html",
+          "hash": "saA3UXiutZuK6J4y3KxLxw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Common.Model.Person.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Common.Model.Person.html",
+          "hash": "vZMc7grH5C7rNt2vvc1XLg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Common.Model.ResourceClassification.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Common.Model.ResourceClassification.html",
+          "hash": "7xuY1XBqxmKOmzGzyfeAKA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Common.Model.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Common.Model.html",
+          "hash": "eVnSGRJwewSJy/QjdBeoUQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Forms.Model.Field.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Forms.Model.Field.html",
+          "hash": "AGgKBUX8lK1sYvjiRm7P+Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Forms.Model.Form.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Forms.Model.Form.html",
+          "hash": "xOyII5CG25aHIsHz2gaAsQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Forms.Model.FormVersion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Forms.Model.FormVersion.html",
+          "hash": "Djc/10Qg4wcJOjR7Qb/ShA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Forms.Model.Section.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Forms.Model.Section.html",
+          "hash": "lLvxuHud5iYkCbUY1vsYMg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Forms.Model.ValueType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Forms.Model.ValueType.html",
+          "hash": "/E4WoXFWDfmMbujsUV1u6A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Forms.Model.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Forms.Model.html",
+          "hash": "iKOcssfyL+mo9VVsZON/fw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.AutoMapper.AutoMapperEntityMapper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.AutoMapper.AutoMapperEntityMapper.html",
+          "hash": "XQ/nuNFKzAuHvdCOfmHLDA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.AutoMapper.EntityMapperFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.AutoMapper.EntityMapperFactory.html",
+          "hash": "Er4CHDicyLdDWcvVAqcJJA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.AutoMapper.ExtensionMethods.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.AutoMapper.ExtensionMethods.html",
+          "hash": "N1UoYhwFhsd+CC4zhbV+pQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.AutoMapper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.AutoMapper.html",
+          "hash": "GgUZsyZ7Bh0Ci7DMRMTH/g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Common.EntityRepository-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Common.EntityRepository-2.html",
+          "hash": "wMuRPl7/OF3b/FWS+h+MDg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Common.IDatabaseContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Common.IDatabaseContext.html",
+          "hash": "oiCVorh1FzqoECvLA0kLGQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Common.IDatabaseContextProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Common.IDatabaseContextProvider.html",
+          "hash": "Hf2H90utv9PTW8YBMWGvBA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Common.IDatabaseFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Common.IDatabaseFactory.html",
+          "hash": "GzwFk5qWozcVrj4eye09fw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Common.IRepositoryAdapter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Common.IRepositoryAdapter.html",
+          "hash": "zyLbfd80JspJ4ST7iUCo3g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Common.IRepositoryAdapterFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Common.IRepositoryAdapterFactory.html",
+          "hash": "5ubUNxbVIXmawlkxiD7smA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Common.ReadOnlyRepository-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Common.ReadOnlyRepository-2.html",
+          "hash": "ErByw8nJiDTzTESRM56mUA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Common.TransactionContainer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Common.TransactionContainer.html",
+          "hash": "4WOZpzIrMGB6U6jrl9TKBw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Common.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Common.html",
+          "hash": "QHu6PIegbvHQgrkzu1hFRA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Mapper.AnsiString.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Mapper.AnsiString.html",
+          "hash": "gDp7DXia4+NEYuXeLwYD/w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Mapper.Database.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Mapper.Database.html",
+          "hash": "8Erg/GXfMDX/6eg7Pyi2cw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Mapper.DatabaseRepositoryProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Mapper.DatabaseRepositoryProvider.html",
+          "hash": "23dmPd9DKXKtXKK6uWkdHw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Mapper.DefaultDatabaseFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Mapper.DefaultDatabaseFactory.html",
+          "hash": "rXlsdWc/ERTg+dDsGEYB3w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Mapper.EntityBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Mapper.EntityBase.html",
+          "hash": "VSVqUJDVhQTRP8tim6P2Cw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Mapper.ExtensionMethods.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Mapper.ExtensionMethods.html",
+          "hash": "OHix9FaAXoKV5HRVsZ3GLQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Mapper.FlatPocoFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Mapper.FlatPocoFactory.html",
+          "hash": "AxOJOAi7OHrNmoM+KG0VHg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Mapper.IMapper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Mapper.IMapper.html",
+          "hash": "bh+ZpMHH91rt9GQZGNN9dg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Mapper.Mappers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Mapper.Mappers.html",
+          "hash": "uD7z1de2OfiUV7LCNBLUCQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Mapper.PocoDataRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Mapper.PocoDataRequest.html",
+          "hash": "Zx6BYNTwJe+cNhdzimLZHw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Mapper.PocoDelegateInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Mapper.PocoDelegateInfo.html",
+          "hash": "Lew8tg0cLsxyXyXoM0F2gQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Mapper.RaisedPocoFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Mapper.RaisedPocoFactory.html",
+          "hash": "8JdinrKlVSa94fPXPz7iAg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Mapper.StandardMapper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Mapper.StandardMapper.html",
+          "hash": "Vp8oPw95XAva1u3j0Rh7Yw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Mapper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Mapper.html",
+          "hash": "JWbRZgoSDPm4+F/LSe64IA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Model.AttributeLocation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Model.AttributeLocation.html",
+          "hash": "kHNTv2SeOl/1sVNzjEUR0Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Model.AttributeReference.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Model.AttributeReference.html",
+          "hash": "fOlavhHO/Kra1cvaLPSPEA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Model.EntityAttributeDefinition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Model.EntityAttributeDefinition.html",
+          "hash": "gVeGseU0OxaKAKevT5L1DQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Model.EntityAttributeInstance.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Model.EntityAttributeInstance.html",
+          "hash": "UBa351s6TyVC0URP4tnV9g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Model.EntityAttributeTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Model.EntityAttributeTypes.html",
+          "hash": "saz6K0NLmCs2Zz2BwsFvng=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Model.EntityDefinition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Model.EntityDefinition.html",
+          "hash": "ZuH/l2FaPw06koAD1tAFNA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Model.EntityLocation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Model.EntityLocation.html",
+          "hash": "i5NAduVmk/N0BXblZgI60A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Model.EntityReference.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Model.EntityReference.html",
+          "hash": "G9NLfnaW3dviI5DsGioXbw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Model.EntityRelation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Model.EntityRelation.html",
+          "hash": "bIpm8IX5O1VKz+7qTKU+fQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Model.EntityRelationSet-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Model.EntityRelationSet-1.html",
+          "hash": "pgvpI7OtUXBOvP/2+xT6cw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Model.EntityRelationType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Model.EntityRelationType.html",
+          "hash": "IwMyhZlFs4i+B3xrURLrdQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Model.ExtensionMethods.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Model.ExtensionMethods.html",
+          "hash": "AUpSAaiznrad9NZz6edrqQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Model.FilterType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Model.FilterType.html",
+          "hash": "9suSKpE/37wqkxopBNZRZw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Model.IEntityAggregate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Model.IEntityAggregate.html",
+          "hash": "ry9KV9vcCbBZ2aVcFqA7Ig=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Model.IEntityDefinition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Model.IEntityDefinition.html",
+          "hash": "x7k5FVm1Jsuh/CM510XaNg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Model.IEntityDefinitionProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Model.IEntityDefinitionProvider.html",
+          "hash": "ftnX65F6m+nqWDzUg/1TSQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Model.IEntityMapper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Model.IEntityMapper.html",
+          "hash": "Zb+76GDSOhqPvZDeoatRWg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Model.IEntityMapperFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Model.IEntityMapperFactory.html",
+          "hash": "Z+QK7lcS6EHIC/R+3JpGGA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Model.IEntityRelation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Model.IEntityRelation.html",
+          "hash": "sTf6wGD6wZD1FnOnZg4bvg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Model.IEntityRepository-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Model.IEntityRepository-1.html",
+          "hash": "b4fwpNH4ECRdF9Rk4NkyKg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Model.INameQualifier.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Model.INameQualifier.html",
+          "hash": "SA49hpoBxF6fF1Qi1YgCzg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Model.IQueryFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Model.IQueryFactory.html",
+          "hash": "9DmdFL76qQgxhkwvpCcw1A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Model.IReadOnlyRepository-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Model.IReadOnlyRepository-1.html",
+          "hash": "qVEb4hpzbVytDwq0RfNWag=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Model.IRepositoryProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Model.IRepositoryProvider.html",
+          "hash": "0jsRDLPfuxoceE8DyN0QBg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Model.IRepositoryProviderFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Model.IRepositoryProviderFactory.html",
+          "hash": "9HSlk7ZakthitDba7JiQKA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Model.ITransactionContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Model.ITransactionContext.html",
+          "hash": "2B77Nv9MYikKce2r9CCxhw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Model.ItemSelection-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Model.ItemSelection-1.html",
+          "hash": "MN6prINCHb/cwGCpQOUdWA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Model.LinkedSelection-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Model.LinkedSelection-1.html",
+          "hash": "XBHy5v1g9N0ndpFGkBU7nQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Model.Page-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Model.Page-1.html",
+          "hash": "lPBNcwjqXNRvV+I9nKP/Ww=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Model.QueryContext-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Model.QueryContext-1.html",
+          "hash": "PLb++kUZfJtcf1/7GvKqXg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Model.RepositoryException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Model.RepositoryException.html",
+          "hash": "iagL2k6z/EMHXUDxD/Tr1g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Model.ResolvedAttributeLocation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Model.ResolvedAttributeLocation.html",
+          "hash": "Z7K2UfHsyrC2kste5nIRBA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Model.Select.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Model.Select.html",
+          "hash": "wpLQCsTt/FsYiNN2GNvdVw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Model.SelectionLinkType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Model.SelectionLinkType.html",
+          "hash": "9UmPVAE4cI2ovt4iDJOJgA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Model.StatementOutputType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Model.StatementOutputType.html",
+          "hash": "g/bzkkDxkni+PFMNU+4avQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Model.UniqueQuery-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Model.UniqueQuery-1.html",
+          "hash": "9ERsXTCse4LNecgAFPYX6A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Model.ValueFilter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Model.ValueFilter.html",
+          "hash": "PqZf6WNFttqUPt1jx3PvdQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Model.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Model.html",
+          "hash": "JxCKGEgTEzNVcypWkQ9nuw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Schema.DataAnnotationsDefinitionProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Schema.DataAnnotationsDefinitionProvider.html",
+          "hash": "szjBwQ22slqNyGAfHGEwdQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Schema.DefinitionProviderBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Schema.DefinitionProviderBase.html",
+          "hash": "DIFkj2xJD0jw8gywmhyV7A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Schema.ExtensionMethods.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Schema.ExtensionMethods.html",
+          "hash": "tO+x10amVAk1+rkSrzzNSg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Schema.IgnoreAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Schema.IgnoreAttribute.html",
+          "hash": "UTS3BwMnzj8UI3eBwmseSA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Schema.IndexAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Schema.IndexAttribute.html",
+          "hash": "lSlvm1xXTksQy3hXwxlLUQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Schema.QualifiedName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Schema.QualifiedName.html",
+          "hash": "vMx0P0kxkEjttZEls7dkAg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Schema.RelatedEntityAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Schema.RelatedEntityAttribute.html",
+          "hash": "XREza4b4r8uU+g1iR1rZgw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Schema.RelationAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Schema.RelationAttribute.html",
+          "hash": "WfhlxfaS6MD0cPcFk9G51A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Schema.TableInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Schema.TableInfo.html",
+          "hash": "zVbW8a0djgFYQp81sOOooQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Schema.TableTypeAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Schema.TableTypeAttribute.html",
+          "hash": "DMK66vtWv42LGK9cIaRf3g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Schema.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Schema.html",
+          "hash": "Fnaz99dBkJ8d2o+HNXNvVA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Sql.DataTableLoader-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Sql.DataTableLoader-1.html",
+          "hash": "Ks4MRbptEn9HUWEzxwHBvg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Sql.IStructuredCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Sql.IStructuredCommand.html",
+          "hash": "2qd7+/AdrS2KCzGhQgzgWQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Sql.IStructuredCommandProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Sql.IStructuredCommandProvider.html",
+          "hash": "gEVaH3HFPK7HEN8h5z6t9Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Sql.IStructuredCommandProviderFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Sql.IStructuredCommandProviderFactory.html",
+          "hash": "A0xd6Jl50rSTRBW6RZYgGg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Sql.JoinClause.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Sql.JoinClause.html",
+          "hash": "eFDDM58BgZJ07On6O0sL7Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Sql.StructuredCommand-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Sql.StructuredCommand-1.html",
+          "hash": "vC4cKqG0ByAFFXk9cY6YGQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Sql.UpdateStatement-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Sql.UpdateStatement-1.html",
+          "hash": "44Xpn2Zf9o7PJirTQKHaFA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Sql.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Sql.html",
+          "hash": "SjRLOW8P0l5J9PfdOevkYw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.SqlClient.SqlClientAdapter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.SqlClient.SqlClientAdapter.html",
+          "hash": "SLLzFT5JKNWGhGEGf5Wm6Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.SqlClient.SqlClientAdapterFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.SqlClient.SqlClientAdapterFactory.html",
+          "hash": "OXPeeM3UxvxPVhFjl0fZXA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.SqlClient.SqlClientProviderFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.SqlClient.SqlClientProviderFactory.html",
+          "hash": "oUE8riE9psDjPNcUCaeWnQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.SqlClient.TableValuedCommandProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.SqlClient.TableValuedCommandProvider.html",
+          "hash": "rqq9a7ioZY94trAfiy3OeA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.SqlClient.TableValuedInsert-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.SqlClient.TableValuedInsert-1.html",
+          "hash": "jHlYG8rCfYFbhNNM3fRh8w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.SqlClient.TableValuedMerge-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.SqlClient.TableValuedMerge-1.html",
+          "hash": "jwou5Pdx779HmsDD/ciBxQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.SqlClient.TransactSqlQualifier.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.SqlClient.TransactSqlQualifier.html",
+          "hash": "6b65bMyc3K1D03m4Xrznyg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.SqlClient.TransactSqlQueryFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.SqlClient.TransactSqlQueryFactory.html",
+          "hash": "3VxkVeed2y/SbwECn3uKHA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.SqlClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.SqlClient.html",
+          "hash": "BA6sZ0ob7lGWR818vW0DWQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Testing.Entities.AggregateEventCompletionRow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Testing.Entities.AggregateEventCompletionRow.html",
+          "hash": "DE+pT0ai33zrRn5aUWt0Zg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Testing.Entities.AggregateEventStartRow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Testing.Entities.AggregateEventStartRow.html",
+          "hash": "6IaKNr7uC2E8pawfvV673Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Testing.Entities.AggregateOptionRow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Testing.Entities.AggregateOptionRow.html",
+          "hash": "8HdlRTBEYj1JQ3Lw3rn0ag=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Testing.Entities.AggregateOptionTypeRow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Testing.Entities.AggregateOptionTypeRow.html",
+          "hash": "YWNAQFg6CJpPKwoo424uWw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Testing.Entities.AggregateSubmissionRow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Testing.Entities.AggregateSubmissionRow.html",
+          "hash": "xh7JoKLGKuV3AYBYTPFN0w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Testing.Entities.AssociationRow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Testing.Entities.AssociationRow.html",
+          "hash": "6sDEw0Cx0LrK74va0fC40Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Testing.Entities.CategoryAttributeRow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Testing.Entities.CategoryAttributeRow.html",
+          "hash": "mwGEcZp4VhlJEou7N+Mkpg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Testing.Entities.ChildRaisedRow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Testing.Entities.ChildRaisedRow.html",
+          "hash": "VkUqyCn0DMsR2A17J7uVLA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Testing.Entities.ChildRow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Testing.Entities.ChildRow.html",
+          "hash": "f3uey7v1qHgACccWkmLD7w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Testing.Entities.ComplexFlatRow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Testing.Entities.ComplexFlatRow.html",
+          "hash": "PNrRWmy0yab/h6gNyJX+1g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Testing.Entities.ComplexRaisedRow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Testing.Entities.ComplexRaisedRow.html",
+          "hash": "xeCE6XKkl5lIEuBTUKQTkw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Testing.Entities.CurrentAggregateSubmissionRow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Testing.Entities.CurrentAggregateSubmissionRow.html",
+          "hash": "Ra1MKslFSUAfDCrmpd/gog=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Testing.Entities.DataRow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Testing.Entities.DataRow.html",
+          "hash": "PEmgd3JN82cPL6tXXmVgRg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Testing.Entities.DateElementRow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Testing.Entities.DateElementRow.html",
+          "hash": "4Lr8WktlXySxz/YMUJAPFQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Testing.Entities.DependencyRow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Testing.Entities.DependencyRow.html",
+          "hash": "TkWY4N620eXSL+HDFwdO7w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Testing.Entities.DependentRow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Testing.Entities.DependentRow.html",
+          "hash": "WQyzze2XBbC5av8peUZ5gg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Testing.Entities.DomainAggregateRow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Testing.Entities.DomainAggregateRow.html",
+          "hash": "VYvVSEjAMUfFwsc8nWvH1A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Testing.Entities.DomainIdentityRow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Testing.Entities.DomainIdentityRow.html",
+          "hash": "PhC1wDf1G3dOxfgNVreboA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Testing.Entities.FakeRelatedRow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Testing.Entities.FakeRelatedRow.html",
+          "hash": "Nw1qXv/fcAkLdN1ILiaazg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Testing.Entities.FieldRow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Testing.Entities.FieldRow.html",
+          "hash": "qKt80wE6XFHQBeicuKfJwg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Testing.Entities.FieldValueElementRow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Testing.Entities.FieldValueElementRow.html",
+          "hash": "2Z+KV20gOug3t2xhz7jMpA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Testing.Entities.FieldValueRow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Testing.Entities.FieldValueRow.html",
+          "hash": "caqMrYrRnoZ01nYS5IFzug=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Testing.Entities.FlagAttributeRow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Testing.Entities.FlagAttributeRow.html",
+          "hash": "ukIeTQFftUkaYuTLlwyxrg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Testing.Entities.FloatElementRow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Testing.Entities.FloatElementRow.html",
+          "hash": "1Bf7iwXJ8T6BpInhNYMVeA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Testing.Entities.GenericSubmissionRow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Testing.Entities.GenericSubmissionRow.html",
+          "hash": "IFsR6HewKE7gdtQufVTPhw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Testing.Entities.GenericSubmissionValueRow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Testing.Entities.GenericSubmissionValueRow.html",
+          "hash": "lVBMKn9RU1dIAuhKCryt4A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Testing.Entities.Instance.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Testing.Entities.Instance.html",
+          "hash": "E88tmZcwdv7V5IcXDSHY0w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Testing.Entities.InstanceExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Testing.Entities.InstanceExtension.html",
+          "hash": "8XZ1cZip0jMc/aTlwkw3dg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Testing.Entities.InstanceSection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Testing.Entities.InstanceSection.html",
+          "hash": "r2/fiVX1mKFToTs80hFi2Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Testing.Entities.IntegerElementRow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Testing.Entities.IntegerElementRow.html",
+          "hash": "tA18FP/Dqz+VxS5f3xJZsA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Testing.Entities.MoneyElementRow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Testing.Entities.MoneyElementRow.html",
+          "hash": "EAccoPi1wFeE8W95f4xI+w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Testing.Entities.MultiReferenceRow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Testing.Entities.MultiReferenceRow.html",
+          "hash": "OtVUZQGmKw8kzM+UBsvLAw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Testing.Entities.OtherAggregateRow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Testing.Entities.OtherAggregateRow.html",
+          "hash": "N97bWdYNL7jtm9k/1AHBJQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Testing.Entities.OverriddenColumnNameRow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Testing.Entities.OverriddenColumnNameRow.html",
+          "hash": "yHvl5ukFgavs82tTCF/8KA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Testing.Entities.RaisedOverriddenColumnNameRow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Testing.Entities.RaisedOverriddenColumnNameRow.html",
+          "hash": "DQqyk27HfzVcvqQi3h19XA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Testing.Entities.RefactorLogRow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Testing.Entities.RefactorLogRow.html",
+          "hash": "J3j7kj/3Tk2o3pBU+8tNSA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Testing.Entities.RelatedRow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Testing.Entities.RelatedRow.html",
+          "hash": "SM8oylNqZhYJ81/B4Y+E8w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Testing.Entities.SubChildRow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Testing.Entities.SubChildRow.html",
+          "hash": "YHDabeFCNeF/jR1BSaGXbA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Testing.Entities.SubContainerRow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Testing.Entities.SubContainerRow.html",
+          "hash": "evOCwipCvoUYm6mbYFrD9A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Testing.Entities.SubDataRow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Testing.Entities.SubDataRow.html",
+          "hash": "Pfyz4i8kLNcuRM7cY0gg4g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Testing.Entities.SubRow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Testing.Entities.SubRow.html",
+          "hash": "HEmwf7EvgrJdiHc1MGqn6A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Testing.Entities.SubSubRow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Testing.Entities.SubSubRow.html",
+          "hash": "e19wD6ss3dLH5qu+isnf5g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Testing.Entities.TableTypes.FieldTableTypeRow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Testing.Entities.TableTypes.FieldTableTypeRow.html",
+          "hash": "MAAY+3ldOxnszDkxcHE9Xw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Testing.Entities.TableTypes.FieldValueElementTableTypeRow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Testing.Entities.TableTypes.FieldValueElementTableTypeRow.html",
+          "hash": "oPIYuQTpXQG2zYGW9WIdGw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Testing.Entities.TableTypes.FieldValueTableTypeRow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Testing.Entities.TableTypes.FieldValueTableTypeRow.html",
+          "hash": "Rlq1et7M1NK+M5RAGG9LKA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Testing.Entities.TableTypes.GenericSubmissionValueTableTypeRow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Testing.Entities.TableTypes.GenericSubmissionValueTableTypeRow.html",
+          "hash": "gFvtrHEgecPPOAlbar6gxg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Testing.Entities.TableTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Testing.Entities.TableTypes.html",
+          "hash": "SzEFuMlAN8ysmkWGFjCmvw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Testing.Entities.Template.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Testing.Entities.Template.html",
+          "hash": "4cYlSTtaV6ZPmInS1cVJ3g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Testing.Entities.TemplateRow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Testing.Entities.TemplateRow.html",
+          "hash": "BhsUP0af2KFlU0VjLMfO1Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Testing.Entities.TemplateSection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Testing.Entities.TemplateSection.html",
+          "hash": "Uiw3sn+r9khbUlYI6nbRjw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Testing.Entities.TemplateVersion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Testing.Entities.TemplateVersion.html",
+          "hash": "8FXrL1aDUd9VT7X/3YEWQg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Testing.Entities.TextElementRow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Testing.Entities.TextElementRow.html",
+          "hash": "OImJ0+q9DrTVzWvbuk2onw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Testing.Entities.TopContainerRow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Testing.Entities.TopContainerRow.html",
+          "hash": "kNWI9iUSPVHsBTYXLaHe6w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Testing.Entities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Testing.Entities.html",
+          "hash": "s4x2TNc79+ozJDTI9cz8kQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Testing.Model.ChildEntity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Testing.Model.ChildEntity.html",
+          "hash": "f+NMSxovh9/4/G1oISFn6A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Testing.Model.ComplexEntity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Testing.Model.ComplexEntity.html",
+          "hash": "q8eTgDW0A15RPbgIGARy6A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Testing.Model.CreatedBy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Testing.Model.CreatedBy.html",
+          "hash": "0ThAmCmHNQhivts62s5H4A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Testing.Model.DependencyEntity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Testing.Model.DependencyEntity.html",
+          "hash": "0v/RlvfUpGWpj+NFkBNRkg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Testing.Model.DependentEntity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Testing.Model.DependentEntity.html",
+          "hash": "8kxnL30M5qYoeVoLaPrsPw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Testing.Model.Document.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Testing.Model.Document.html",
+          "hash": "zE0zYN/nfN3vfgTap6mUQQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Testing.Model.DocumentVersion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Testing.Model.DocumentVersion.html",
+          "hash": "OziWq/MS0PtsxNoell73pg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Testing.Model.DomainIdentity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Testing.Model.DomainIdentity.html",
+          "hash": "fQhq8TcGRi28GqtsKbbPCw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Testing.Model.FakeEnumeration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Testing.Model.FakeEnumeration.html",
+          "hash": "S37wr5MJnkFA1XxYf0ZIYw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Testing.Model.FakeOtherEnumeration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Testing.Model.FakeOtherEnumeration.html",
+          "hash": "tfgDfLrTVpjfQzy4fOCSCQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Testing.Model.Field.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Testing.Model.Field.html",
+          "hash": "50b7tCPWAUVedmVkv+h1Fg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Testing.Model.FieldValue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Testing.Model.FieldValue.html",
+          "hash": "jQ1TzMZXl0i0hgs/qzJ9Nw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Testing.Model.FieldValueElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Testing.Model.FieldValueElement.html",
+          "hash": "zzetA33yOidxbKgat92W0Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Testing.Model.FieldsMessages.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Testing.Model.FieldsMessages.html",
+          "hash": "Bkp5jzJox6J5OlD+IYYDJA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Testing.Model.GenericSubmission.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Testing.Model.GenericSubmission.html",
+          "hash": "88erFYgY8+ItVKF78Na0Iw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Testing.Model.ModifiedBy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Testing.Model.ModifiedBy.html",
+          "hash": "dnCsKmxgA39aov+wc2eS5w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Testing.Model.MultiReferenceEntity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Testing.Model.MultiReferenceEntity.html",
+          "hash": "KM9sGckceL+oqfPtQ2iwVA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Testing.Model.SubEntity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Testing.Model.SubEntity.html",
+          "hash": "agW/Wg1B6Gd+6WRQEOJ2ww=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Testing.Model.SubSubEntity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Testing.Model.SubSubEntity.html",
+          "hash": "xthjeCGj4fWVhsHEJX8OWA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Testing.Model.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Testing.Model.html",
+          "hash": "592KkWifjfEXzyL8vB+rLw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Testing.Moq.ExtensionMethods.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Testing.Moq.ExtensionMethods.html",
+          "hash": "s4H5m49fNIaq6i0t0QQ1DA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Testing.Moq.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Testing.Moq.html",
+          "hash": "81G0Mx7HvFDmH5tV7sKPjA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Platform.Entities.ContainerRow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Platform.Entities.ContainerRow.html",
+          "hash": "puyMWpzjBEbAxBZ2fTVyww=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Platform.Entities.DataSliceInstanceRow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Platform.Entities.DataSliceInstanceRow.html",
+          "hash": "3bFlPpK5pExyv5De2EWhlg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Platform.Entities.DataSliceRow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Platform.Entities.DataSliceRow.html",
+          "hash": "Mxv9/AgUO715iqUO80D5Vw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Platform.Entities.DocumentRow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Platform.Entities.DocumentRow.html",
+          "hash": "hOt/ie9HTYSfJkw2DBOHQg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Platform.Entities.DocumentVersionRow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Platform.Entities.DocumentVersionRow.html",
+          "hash": "RLdZzBE+URqsCSiNq19DQA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Platform.Entities.ExternalResourceRow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Platform.Entities.ExternalResourceRow.html",
+          "hash": "WK6dDYdIKGrX+3u1ncp4Xw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Platform.Entities.Forms.CurrencyValueItemRow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Platform.Entities.Forms.CurrencyValueItemRow.html",
+          "hash": "4LbgxTDt7NbarpSTbpXyKw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Platform.Entities.Forms.DateValueItemRow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Platform.Entities.Forms.DateValueItemRow.html",
+          "hash": "4e6iHAmnwhapigdwGZ9jKQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Platform.Entities.Forms.DiscreteValueItemRow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Platform.Entities.Forms.DiscreteValueItemRow.html",
+          "hash": "E7vcJ4p95DsY2Qn82dv54A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Platform.Entities.Forms.DocumentValueItemRow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Platform.Entities.Forms.DocumentValueItemRow.html",
+          "hash": "SrP5+HgcRqXjjU1oeqOuJA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Platform.Entities.Forms.FieldInstanceRow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Platform.Entities.Forms.FieldInstanceRow.html",
+          "hash": "hPyv8G6JIGQxELWD6+IxEg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Platform.Entities.Forms.FieldPlacementRow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Platform.Entities.Forms.FieldPlacementRow.html",
+          "hash": "ZFiSyYvBNSC/rCSmbt5R0Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Platform.Entities.Forms.FieldRow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Platform.Entities.Forms.FieldRow.html",
+          "hash": "4Iat+xBwPkV6B/4bw+BGqA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Platform.Entities.Forms.FieldTypeRow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Platform.Entities.Forms.FieldTypeRow.html",
+          "hash": "/KK7LBaogWiLTpGn+4FRuA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Platform.Entities.Forms.FieldValueItemRow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Platform.Entities.Forms.FieldValueItemRow.html",
+          "hash": "wkkG5hAdb6nWgx+4SOaVRg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Platform.Entities.Forms.FieldValueRow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Platform.Entities.Forms.FieldValueRow.html",
+          "hash": "OF+J0ZJbwSdoDxVT4s6afQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Platform.Entities.Forms.FloatingValueItemRow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Platform.Entities.Forms.FloatingValueItemRow.html",
+          "hash": "1C+is/ycvYXoeKS48JRnNQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Platform.Entities.Forms.FormRow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Platform.Entities.Forms.FormRow.html",
+          "hash": "AcRISkhezw+PyOXikoscBQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Platform.Entities.Forms.FormSubmissionRow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Platform.Entities.Forms.FormSubmissionRow.html",
+          "hash": "Btc4nutrHSGPbKtbQXSZ8Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Platform.Entities.Forms.FormVersionRow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Platform.Entities.Forms.FormVersionRow.html",
+          "hash": "jYYHzZ91KG7oQqwCGohsig=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Platform.Entities.Forms.LayoutAreaRow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Platform.Entities.Forms.LayoutAreaRow.html",
+          "hash": "xz7y1NCKmma+aDXa5qXL5Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Platform.Entities.Forms.PageRow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Platform.Entities.Forms.PageRow.html",
+          "hash": "DAWae5E38Z8ka/GPc8O+Jg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Platform.Entities.Forms.ReferenceValueItemRow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Platform.Entities.Forms.ReferenceValueItemRow.html",
+          "hash": "fkdN+x3PS3E/3cXq0OA6AQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Platform.Entities.Forms.SectionRow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Platform.Entities.Forms.SectionRow.html",
+          "hash": "k9Rtdydm1NNFQYQ+8UEr3Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Platform.Entities.Forms.TextValueItemRow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Platform.Entities.Forms.TextValueItemRow.html",
+          "hash": "Rxo9U5wcLXgRa5VWBrC2MA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Platform.Entities.Forms.ValueTypeRow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Platform.Entities.Forms.ValueTypeRow.html",
+          "hash": "yNApHhypccHR+oK3yqwuuw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Platform.Entities.Forms.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Platform.Entities.Forms.html",
+          "hash": "DxTILVsNojJvCA9Menp6AA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Platform.Entities.PersonRow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Platform.Entities.PersonRow.html",
+          "hash": "cI0FjPFFBhIoTwh1VWznaw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Platform.Entities.ResourceAttachmentRow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Platform.Entities.ResourceAttachmentRow.html",
+          "hash": "hL+zs7l2FEHt36qfmU0v9Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Platform.Entities.ResourceClassificationRow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Platform.Entities.ResourceClassificationRow.html",
+          "hash": "C2Qr+qbpgmR89XA5liDLfw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Platform.Entities.Workflow.AttachmentRow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Platform.Entities.Workflow.AttachmentRow.html",
+          "hash": "hjOj3Xp6xW20AmEZY3JmYw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Platform.Entities.Workflow.DeadlineTypeRow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Platform.Entities.Workflow.DeadlineTypeRow.html",
+          "hash": "6Qk8nDTNv/x4oMGJ+cLPlQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Platform.Entities.Workflow.DocumentAttachmentRow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Platform.Entities.Workflow.DocumentAttachmentRow.html",
+          "hash": "B23fOz5gN8tKYvgxyOBuaQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Platform.Entities.Workflow.FormPhaseInstanceRow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Platform.Entities.Workflow.FormPhaseInstanceRow.html",
+          "hash": "XsgAO5KvAoTBtXfIgrR8Eg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Platform.Entities.Workflow.PhaseActionDeadlineRow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Platform.Entities.Workflow.PhaseActionDeadlineRow.html",
+          "hash": "pqPzlCijsOd5sztdy6ANrw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Platform.Entities.Workflow.PhaseSignatureOptionRow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Platform.Entities.Workflow.PhaseSignatureOptionRow.html",
+          "hash": "X/zth/4Fnqc+hJXdH1pA4w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Platform.Entities.Workflow.PhaseStateRow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Platform.Entities.Workflow.PhaseStateRow.html",
+          "hash": "GnMfnLPe2DrF3YIckUb8xA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Platform.Entities.Workflow.PhaseTypeRow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Platform.Entities.Workflow.PhaseTypeRow.html",
+          "hash": "Mt8heN7Y6BpHHI3uXUYm2w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Platform.Entities.Workflow.ProcessPhaseRow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Platform.Entities.Workflow.ProcessPhaseRow.html",
+          "hash": "62I6na148KCDmYkYtSdyug=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Platform.Entities.Workflow.ProcessRow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Platform.Entities.Workflow.ProcessRow.html",
+          "hash": "2F8/9rK1riylQrZNgd7+Bg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Platform.Entities.Workflow.ProcessVersionRow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Platform.Entities.Workflow.ProcessVersionRow.html",
+          "hash": "3AzkZMkwk6ZCsBgWzL4jzA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Platform.Entities.Workflow.RejectionBehaviorRow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Platform.Entities.Workflow.RejectionBehaviorRow.html",
+          "hash": "9A98oljvQbzhLzZ1nDxSkQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Platform.Entities.Workflow.RoutingTypeRow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Platform.Entities.Workflow.RoutingTypeRow.html",
+          "hash": "E3fmDD+6I3/SgiYNFS53XQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Platform.Entities.Workflow.SignatureTypeRow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Platform.Entities.Workflow.SignatureTypeRow.html",
+          "hash": "hCVyu/HLFJQgTByRgD3yXw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Platform.Entities.Workflow.WorkflowFormSubmissionRow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Platform.Entities.Workflow.WorkflowFormSubmissionRow.html",
+          "hash": "Ht86ZowGd9j+Irti1hop3A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Platform.Entities.Workflow.WorkflowInstanceRow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Platform.Entities.Workflow.WorkflowInstanceRow.html",
+          "hash": "dbWfz1hsulHBlJTQuFXMbQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Platform.Entities.Workflow.WorkflowPhaseInstanceRow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Platform.Entities.Workflow.WorkflowPhaseInstanceRow.html",
+          "hash": "WdhmlYnjVZ27QFyCNcYXgg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Platform.Entities.Workflow.WorkflowStateRow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Platform.Entities.Workflow.WorkflowStateRow.html",
+          "hash": "42668GqXRGNPCCzpotgIVQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Platform.Entities.Workflow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Platform.Entities.Workflow.html",
+          "hash": "8TFgmCn3tJ1kTJ6ueyHA/w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Platform.Entities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Platform.Entities.html",
+          "hash": "fHmaU9cuhNppQ7hSh7v6nQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "iisZlrXceEwVLfRtUkiG+Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "CYusf4C3PzRTcOlz8k+Y2w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "m5V8SdQ7+Lng2Q3X/FY6sg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "gB8AESyvNru97tzIZofEEg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "ychhQHbzi4E9sA0z1VVHlg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "+rHUkRZHZRi5gd1aTU6lJA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 3,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 234,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: last post processor info is null.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

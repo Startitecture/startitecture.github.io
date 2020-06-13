@@ -1,0 +1,602 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class DataRow
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class DataRow
+   ">
+    <meta name="generator" content="docfx 2.52.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Startitecture.Orm.Testing.Entities.DataRow">
+  
+  
+  <h1 id="Startitecture_Orm_Testing_Entities_DataRow" data-uid="Startitecture.Orm.Testing.Entities.DataRow" class="text-break">Class DataRow
+  </h1>
+  <div class="markdown level0 summary"><p>The fake raised data row.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">DataRow</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="Startitecture.Orm.Model.ITransactionContext.html">ITransactionContext</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Startitecture.Orm.Testing.Entities.html">Startitecture.Orm.Testing.Entities</a></h6>
+  <h6><strong>Assembly</strong>: Startitecture.Orm.Testing.Entities.dll</h6>
+  <h5 id="Startitecture_Orm_Testing_Entities_DataRow_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Table(&quot;FakeData&quot;, Schema = &quot;dbo&quot;)]
+public class DataRow : ITransactionContext</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://startitecture.visualstudio.com/_git/storm?path=Startitecture.Orm.Testing.Entities/DataRow.cs&amp;version=GBmaster&amp;line=96">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Testing_Entities_DataRow_AnotherColumn_" data-uid="Startitecture.Orm.Testing.Entities.DataRow.AnotherColumn*"></a>
+  <h4 id="Startitecture_Orm_Testing_Entities_DataRow_AnotherColumn" data-uid="Startitecture.Orm.Testing.Entities.DataRow.AnotherColumn">AnotherColumn</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the another column.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Column]
+public string AnotherColumn { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://startitecture.visualstudio.com/_git/storm?path=Startitecture.Orm.Testing.Entities/DataRow.cs&amp;version=GBmaster&amp;line=90">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Testing_Entities_DataRow_AnotherValueColumn_" data-uid="Startitecture.Orm.Testing.Entities.DataRow.AnotherValueColumn*"></a>
+  <h4 id="Startitecture_Orm_Testing_Entities_DataRow_AnotherValueColumn" data-uid="Startitecture.Orm.Testing.Entities.DataRow.AnotherValueColumn">AnotherValueColumn</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the another value column.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Column]
+public int AnotherValueColumn { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://startitecture.visualstudio.com/_git/storm?path=Startitecture.Orm.Testing.Entities/DataRow.cs&amp;version=GBmaster&amp;line=52">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Testing_Entities_DataRow_DependencyEntity_" data-uid="Startitecture.Orm.Testing.Entities.DataRow.DependencyEntity*"></a>
+  <h4 id="Startitecture_Orm_Testing_Entities_DataRow_DependencyEntity" data-uid="Startitecture.Orm.Testing.Entities.DataRow.DependencyEntity">DependencyEntity</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the related dependency.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DependencyRow DependencyEntity { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Testing.Entities.DependencyRow.html">DependencyRow</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://startitecture.visualstudio.com/_git/storm?path=Startitecture.Orm.Testing.Entities/DataRow.cs&amp;version=GBmaster&amp;line=64">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Testing_Entities_DataRow_FakeDataId_" data-uid="Startitecture.Orm.Testing.Entities.DataRow.FakeDataId*"></a>
+  <h4 id="Startitecture_Orm_Testing_Entities_DataRow_FakeDataId" data-uid="Startitecture.Orm.Testing.Entities.DataRow.FakeDataId">FakeDataId</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the fake data id.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Column(&quot;FakeRowId&quot;)]
+[Key]
+[DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+public int FakeDataId { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://startitecture.visualstudio.com/_git/storm?path=Startitecture.Orm.Testing.Entities/DataRow.cs&amp;version=GBmaster&amp;line=72">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Testing_Entities_DataRow_NormalColumn_" data-uid="Startitecture.Orm.Testing.Entities.DataRow.NormalColumn*"></a>
+  <h4 id="Startitecture_Orm_Testing_Entities_DataRow_NormalColumn" data-uid="Startitecture.Orm.Testing.Entities.DataRow.NormalColumn">NormalColumn</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the normal column.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Column]
+public string NormalColumn { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://startitecture.visualstudio.com/_git/storm?path=Startitecture.Orm.Testing.Entities/DataRow.cs&amp;version=GBmaster&amp;line=78">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Testing_Entities_DataRow_NullableColumn_" data-uid="Startitecture.Orm.Testing.Entities.DataRow.NullableColumn*"></a>
+  <h4 id="Startitecture_Orm_Testing_Entities_DataRow_NullableColumn" data-uid="Startitecture.Orm.Testing.Entities.DataRow.NullableColumn">NullableColumn</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the nullable column.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Column]
+public string NullableColumn { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://startitecture.visualstudio.com/_git/storm?path=Startitecture.Orm.Testing.Entities/DataRow.cs&amp;version=GBmaster&amp;line=102">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Testing_Entities_DataRow_NullableValueColumn_" data-uid="Startitecture.Orm.Testing.Entities.DataRow.NullableValueColumn*"></a>
+  <h4 id="Startitecture_Orm_Testing_Entities_DataRow_NullableValueColumn" data-uid="Startitecture.Orm.Testing.Entities.DataRow.NullableValueColumn">NullableValueColumn</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the nullable value column.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Column]
+public int? NullableValueColumn { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://startitecture.visualstudio.com/_git/storm?path=Startitecture.Orm.Testing.Entities/DataRow.cs&amp;version=GBmaster&amp;line=34">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Testing_Entities_DataRow_OtherAlias_" data-uid="Startitecture.Orm.Testing.Entities.DataRow.OtherAlias*"></a>
+  <h4 id="Startitecture_Orm_Testing_Entities_DataRow_OtherAlias" data-uid="Startitecture.Orm.Testing.Entities.DataRow.OtherAlias">OtherAlias</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the other alias.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public FakeRelatedRow OtherAlias { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Testing.Entities.FakeRelatedRow.html">FakeRelatedRow</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://startitecture.visualstudio.com/_git/storm?path=Startitecture.Orm.Testing.Entities/DataRow.cs&amp;version=GBmaster&amp;line=58">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Testing_Entities_DataRow_ParentFakeDataId_" data-uid="Startitecture.Orm.Testing.Entities.DataRow.ParentFakeDataId*"></a>
+  <h4 id="Startitecture_Orm_Testing_Entities_DataRow_ParentFakeDataId" data-uid="Startitecture.Orm.Testing.Entities.DataRow.ParentFakeDataId">ParentFakeDataId</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the fake sub data id.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[RelatedEntity(typeof(SubDataRow))]
+public int? ParentFakeDataId { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://startitecture.visualstudio.com/_git/storm?path=Startitecture.Orm.Testing.Entities/DataRow.cs&amp;version=GBmaster&amp;line=28">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Testing_Entities_DataRow_Related_" data-uid="Startitecture.Orm.Testing.Entities.DataRow.Related*"></a>
+  <h4 id="Startitecture_Orm_Testing_Entities_DataRow_Related" data-uid="Startitecture.Orm.Testing.Entities.DataRow.Related">Related</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the fake related row.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public FakeRelatedRow Related { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Testing.Entities.FakeRelatedRow.html">FakeRelatedRow</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://startitecture.visualstudio.com/_git/storm?path=Startitecture.Orm.Testing.Entities/DataRow.cs&amp;version=GBmaster&amp;line=46">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Testing_Entities_DataRow_RelatedAlias_" data-uid="Startitecture.Orm.Testing.Entities.DataRow.RelatedAlias*"></a>
+  <h4 id="Startitecture_Orm_Testing_Entities_DataRow_RelatedAlias" data-uid="Startitecture.Orm.Testing.Entities.DataRow.RelatedAlias">RelatedAlias</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the related alias.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public FakeRelatedRow RelatedAlias { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Testing.Entities.FakeRelatedRow.html">FakeRelatedRow</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://startitecture.visualstudio.com/_git/storm?path=Startitecture.Orm.Testing.Entities/DataRow.cs&amp;version=GBmaster&amp;line=40">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Testing_Entities_DataRow_RelatedDependency_" data-uid="Startitecture.Orm.Testing.Entities.DataRow.RelatedDependency*"></a>
+  <h4 id="Startitecture_Orm_Testing_Entities_DataRow_RelatedDependency" data-uid="Startitecture.Orm.Testing.Entities.DataRow.RelatedDependency">RelatedDependency</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the related dependency.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DependencyRow RelatedDependency { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Testing.Entities.DependencyRow.html">DependencyRow</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://startitecture.visualstudio.com/_git/storm?path=Startitecture.Orm.Testing.Entities/DataRow.cs&amp;version=GBmaster&amp;line=108">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Testing_Entities_DataRow_TransactionProvider_" data-uid="Startitecture.Orm.Testing.Entities.DataRow.TransactionProvider*"></a>
+  <h4 id="Startitecture_Orm_Testing_Entities_DataRow_TransactionProvider" data-uid="Startitecture.Orm.Testing.Entities.DataRow.TransactionProvider">TransactionProvider</h4>
+  <div class="markdown level1 summary"><p>Gets the transaction provider.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IRepositoryProvider TransactionProvider { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Model.IRepositoryProvider.html">IRepositoryProvider</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://startitecture.visualstudio.com/_git/storm?path=Startitecture.Orm.Testing.Entities/DataRow.cs&amp;version=GBmaster&amp;line=84">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Testing_Entities_DataRow_ValueColumn_" data-uid="Startitecture.Orm.Testing.Entities.DataRow.ValueColumn*"></a>
+  <h4 id="Startitecture_Orm_Testing_Entities_DataRow_ValueColumn" data-uid="Startitecture.Orm.Testing.Entities.DataRow.ValueColumn">ValueColumn</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the value column.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Column]
+public int ValueColumn { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://startitecture.visualstudio.com/_git/storm?path=Startitecture.Orm.Testing.Entities/DataRow.cs&amp;version=GBmaster&amp;line=116">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Testing_Entities_DataRow_SetTransactionProvider_" data-uid="Startitecture.Orm.Testing.Entities.DataRow.SetTransactionProvider*"></a>
+  <h4 id="Startitecture_Orm_Testing_Entities_DataRow_SetTransactionProvider_Startitecture_Orm_Model_IRepositoryProvider_" data-uid="Startitecture.Orm.Testing.Entities.DataRow.SetTransactionProvider(Startitecture.Orm.Model.IRepositoryProvider)">SetTransactionProvider(IRepositoryProvider)</h4>
+  <div class="markdown level1 summary"><p>The set transaction provider.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetTransactionProvider(IRepositoryProvider repositoryProvider)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Model.IRepositoryProvider.html">IRepositoryProvider</a></td>
+        <td><span class="parametername">repositoryProvider</span></td>
+        <td><p>The repository provider.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="Startitecture.Orm.Model.ITransactionContext.html">ITransactionContext</a>
+  </div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="Startitecture.Orm.Testing.Moq.ExtensionMethods.html#Startitecture_Orm_Testing_Moq_ExtensionMethods_MockDataReader__1___0_System_Collections_Generic_IEnumerable_Startitecture_Orm_Model_EntityAttributeDefinition__">ExtensionMethods.MockDataReader&lt;T&gt;(T, IEnumerable&lt;EntityAttributeDefinition&gt;)</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://startitecture.visualstudio.com/_git/storm?path=Startitecture.Orm.Testing.Entities/DataRow.cs&amp;version=GBmaster&amp;line=22" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

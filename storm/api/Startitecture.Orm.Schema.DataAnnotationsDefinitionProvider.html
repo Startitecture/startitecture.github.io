@@ -1,0 +1,770 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class DataAnnotationsDefinitionProvider
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class DataAnnotationsDefinitionProvider
+   ">
+    <meta name="generator" content="docfx 2.52.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Startitecture.Orm.Schema.DataAnnotationsDefinitionProvider">
+  
+  
+  <h1 id="Startitecture_Orm_Schema_DataAnnotationsDefinitionProvider" data-uid="Startitecture.Orm.Schema.DataAnnotationsDefinitionProvider" class="text-break">Class DataAnnotationsDefinitionProvider
+  </h1>
+  <div class="markdown level0 summary"><p>The data annotations definition provider.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="Startitecture.Orm.Schema.DefinitionProviderBase.html">DefinitionProviderBase</a></div>
+    <div class="level2"><span class="xref">DataAnnotationsDefinitionProvider</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="Startitecture.Orm.Model.IEntityDefinitionProvider.html">IEntityDefinitionProvider</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Startitecture.Orm.Schema.DefinitionProviderBase.html#Startitecture_Orm_Schema_DefinitionProviderBase_Resolve__1">DefinitionProviderBase.Resolve&lt;TItem&gt;()</a>
+    </div>
+    <div>
+      <a class="xref" href="Startitecture.Orm.Schema.DefinitionProviderBase.html#Startitecture_Orm_Schema_DefinitionProviderBase_Resolve_System_Type_">DefinitionProviderBase.Resolve(Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="Startitecture.Orm.Schema.DefinitionProviderBase.html#Startitecture_Orm_Schema_DefinitionProviderBase_GetEntityLocation_Startitecture_Orm_Model_EntityReference_">DefinitionProviderBase.GetEntityLocation(EntityReference)</a>
+    </div>
+    <div>
+      <a class="xref" href="Startitecture.Orm.Schema.DefinitionProviderBase.html#Startitecture_Orm_Schema_DefinitionProviderBase_ResolveDefinitions_System_Type_">DefinitionProviderBase.ResolveDefinitions(Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="Startitecture.Orm.Schema.DefinitionProviderBase.html#Startitecture_Orm_Schema_DefinitionProviderBase_GetEntityLocationByReference_Startitecture_Orm_Model_EntityReference_">DefinitionProviderBase.GetEntityLocationByReference(EntityReference)</a>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Startitecture.Orm.Schema.html">Startitecture.Orm.Schema</a></h6>
+  <h6><strong>Assembly</strong>: Startitecture.Orm.Schema.dll</h6>
+  <h5 id="Startitecture_Orm_Schema_DataAnnotationsDefinitionProvider_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class DataAnnotationsDefinitionProvider : DefinitionProviderBase, IEntityDefinitionProvider</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://startitecture.visualstudio.com/_git/storm?path=Startitecture.Orm.Schema/DataAnnotationsDefinitionProvider.cs&amp;version=GBmaster&amp;line=191">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Schema_DataAnnotationsDefinitionProvider_GetAttributes_" data-uid="Startitecture.Orm.Schema.DataAnnotationsDefinitionProvider.GetAttributes*"></a>
+  <h4 id="Startitecture_Orm_Schema_DataAnnotationsDefinitionProvider_GetAttributes_System_Type_" data-uid="Startitecture.Orm.Schema.DataAnnotationsDefinitionProvider.GetAttributes(System.Type)">GetAttributes(Type)</h4>
+  <div class="markdown level1 summary"><p>Gets the attribute references for the <code data-dev-comment-type="paramref" class="paramref">entityType</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override IEnumerable&lt;AttributeReference&gt; GetAttributes([NotNull] Type entityType)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Type</span></td>
+        <td><span class="parametername">entityType</span></td>
+        <td><p>The entity type.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Startitecture.Orm.Model.AttributeReference.html">AttributeReference</a>&gt;</td>
+        <td><p>An <span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span> of attribute references for the <code data-dev-comment-type="paramref" class="paramref">entityType</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Startitecture.Orm.Schema.DefinitionProviderBase.html#Startitecture_Orm_Schema_DefinitionProviderBase_GetAttributes_System_Type_">DefinitionProviderBase.GetAttributes(Type)</a></div>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://startitecture.visualstudio.com/_git/storm?path=Startitecture.Orm.Schema/DataAnnotationsDefinitionProvider.cs&amp;version=GBmaster&amp;line=135">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Schema_DataAnnotationsDefinitionProvider_GetDirectPropertyInfos_" data-uid="Startitecture.Orm.Schema.DataAnnotationsDefinitionProvider.GetDirectPropertyInfos*"></a>
+  <h4 id="Startitecture_Orm_Schema_DataAnnotationsDefinitionProvider_GetDirectPropertyInfos_System_Collections_Generic_IEnumerable_System_Reflection_PropertyInfo__" data-uid="Startitecture.Orm.Schema.DataAnnotationsDefinitionProvider.GetDirectPropertyInfos(System.Collections.Generic.IEnumerable{System.Reflection.PropertyInfo})">GetDirectPropertyInfos(IEnumerable&lt;PropertyInfo&gt;)</h4>
+  <div class="markdown level1 summary"><p>Gets the direct properties of the entity. These are columns directly on the entity itself.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override IEnumerable&lt;PropertyInfo&gt; GetDirectPropertyInfos(IEnumerable&lt;PropertyInfo&gt; entityProperties)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Reflection.PropertyInfo</span>&gt;</td>
+        <td><span class="parametername">entityProperties</span></td>
+        <td><p>The entity properties.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Reflection.PropertyInfo</span>&gt;</td>
+        <td><p>An <span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span> of <span class="xref">System.Reflection.PropertyInfo</span> items.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Startitecture.Orm.Schema.DefinitionProviderBase.html#Startitecture_Orm_Schema_DefinitionProviderBase_GetDirectPropertyInfos_System_Collections_Generic_IEnumerable_System_Reflection_PropertyInfo__">DefinitionProviderBase.GetDirectPropertyInfos(IEnumerable&lt;PropertyInfo&gt;)</a></div>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://startitecture.visualstudio.com/_git/storm?path=Startitecture.Orm.Schema/DataAnnotationsDefinitionProvider.cs&amp;version=GBmaster&amp;line=93">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Schema_DataAnnotationsDefinitionProvider_GetEntityQualifiedName_" data-uid="Startitecture.Orm.Schema.DataAnnotationsDefinitionProvider.GetEntityQualifiedName*"></a>
+  <h4 id="Startitecture_Orm_Schema_DataAnnotationsDefinitionProvider_GetEntityQualifiedName_System_Type_" data-uid="Startitecture.Orm.Schema.DataAnnotationsDefinitionProvider.GetEntityQualifiedName(System.Type)">GetEntityQualifiedName(Type)</h4>
+  <div class="markdown level1 summary"><p>Gets the entity qualified name for the specified <code data-dev-comment-type="paramref" class="paramref">entityType</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override QualifiedName GetEntityQualifiedName([NotNull] Type entityType)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Type</span></td>
+        <td><span class="parametername">entityType</span></td>
+        <td><p>The entity type.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Schema.QualifiedName.html">QualifiedName</a></td>
+        <td><p>The qualified name as a <span class="xref">System.String</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Startitecture.Orm.Schema.DefinitionProviderBase.html#Startitecture_Orm_Schema_DefinitionProviderBase_GetEntityQualifiedName_System_Type_">DefinitionProviderBase.GetEntityQualifiedName(Type)</a></div>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://startitecture.visualstudio.com/_git/storm?path=Startitecture.Orm.Schema/DataAnnotationsDefinitionProvider.cs&amp;version=GBmaster&amp;line=32">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Schema_DataAnnotationsDefinitionProvider_GetEntityReference_" data-uid="Startitecture.Orm.Schema.DataAnnotationsDefinitionProvider.GetEntityReference*"></a>
+  <h4 id="Startitecture_Orm_Schema_DataAnnotationsDefinitionProvider_GetEntityReference_System_Linq_Expressions_LambdaExpression_" data-uid="Startitecture.Orm.Schema.DataAnnotationsDefinitionProvider.GetEntityReference(System.Linq.Expressions.LambdaExpression)">GetEntityReference(LambdaExpression)</h4>
+  <div class="markdown level1 summary"><p>Gets an entity reference from the specified <code data-dev-comment-type="paramref" class="paramref">attributeExpression</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override EntityReference GetEntityReference(LambdaExpression attributeExpression)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Linq.Expressions.LambdaExpression</span></td>
+        <td><span class="parametername">attributeExpression</span></td>
+        <td><p>The attribute expression.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Model.EntityReference.html">EntityReference</a></td>
+        <td><p>An <a class="xref" href="Startitecture.Orm.Model.EntityReference.html">EntityReference</a> based on the <code data-dev-comment-type="paramref" class="paramref">attributeExpression</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Startitecture.Orm.Schema.DefinitionProviderBase.html#Startitecture_Orm_Schema_DefinitionProviderBase_GetEntityReference_System_Linq_Expressions_LambdaExpression_">DefinitionProviderBase.GetEntityReference(LambdaExpression)</a></div>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://startitecture.visualstudio.com/_git/storm?path=Startitecture.Orm.Schema/DataAnnotationsDefinitionProvider.cs&amp;version=GBmaster&amp;line=72">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Schema_DataAnnotationsDefinitionProvider_GetEntityReference_" data-uid="Startitecture.Orm.Schema.DataAnnotationsDefinitionProvider.GetEntityReference*"></a>
+  <h4 id="Startitecture_Orm_Schema_DataAnnotationsDefinitionProvider_GetEntityReference_System_Reflection_PropertyInfo_" data-uid="Startitecture.Orm.Schema.DataAnnotationsDefinitionProvider.GetEntityReference(System.Reflection.PropertyInfo)">GetEntityReference(PropertyInfo)</h4>
+  <div class="markdown level1 summary"><p>Gets the entity reference for the specified <code data-dev-comment-type="paramref" class="paramref">propertyInfo</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override EntityReference GetEntityReference([NotNull] PropertyInfo propertyInfo)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Reflection.PropertyInfo</span></td>
+        <td><span class="parametername">propertyInfo</span></td>
+        <td><p>The property info.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Model.EntityReference.html">EntityReference</a></td>
+        <td><p>An <a class="xref" href="Startitecture.Orm.Model.EntityReference.html">EntityReference</a> for the <code data-dev-comment-type="paramref" class="paramref">propertyInfo</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Startitecture.Orm.Schema.DefinitionProviderBase.html#Startitecture_Orm_Schema_DefinitionProviderBase_GetEntityReference_System_Reflection_PropertyInfo_">DefinitionProviderBase.GetEntityReference(PropertyInfo)</a></div>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://startitecture.visualstudio.com/_git/storm?path=Startitecture.Orm.Schema/DataAnnotationsDefinitionProvider.cs&amp;version=GBmaster&amp;line=110">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Schema_DataAnnotationsDefinitionProvider_GetFilteredEntityProperties_" data-uid="Startitecture.Orm.Schema.DataAnnotationsDefinitionProvider.GetFilteredEntityProperties*"></a>
+  <h4 id="Startitecture_Orm_Schema_DataAnnotationsDefinitionProvider_GetFilteredEntityProperties_System_Type_" data-uid="Startitecture.Orm.Schema.DataAnnotationsDefinitionProvider.GetFilteredEntityProperties(System.Type)">GetFilteredEntityProperties(Type)</h4>
+  <div class="markdown level1 summary"><p>Gets properties related to direct attributes, related attributes or related entities.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override IEnumerable&lt;PropertyInfo&gt; GetFilteredEntityProperties([NotNull] Type entityType)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Type</span></td>
+        <td><span class="parametername">entityType</span></td>
+        <td><p>The entity type.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Reflection.PropertyInfo</span>&gt;</td>
+        <td><p>An <span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span> of <span class="xref">System.Reflection.PropertyInfo</span> items.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Startitecture.Orm.Schema.DefinitionProviderBase.html#Startitecture_Orm_Schema_DefinitionProviderBase_GetFilteredEntityProperties_System_Type_">DefinitionProviderBase.GetFilteredEntityProperties(Type)</a></div>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://startitecture.visualstudio.com/_git/storm?path=Startitecture.Orm.Schema/DataAnnotationsDefinitionProvider.cs&amp;version=GBmaster&amp;line=185">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Schema_DataAnnotationsDefinitionProvider_GetOrdinal_" data-uid="Startitecture.Orm.Schema.DataAnnotationsDefinitionProvider.GetOrdinal*"></a>
+  <h4 id="Startitecture_Orm_Schema_DataAnnotationsDefinitionProvider_GetOrdinal_System_Reflection_PropertyInfo_" data-uid="Startitecture.Orm.Schema.DataAnnotationsDefinitionProvider.GetOrdinal(System.Reflection.PropertyInfo)">GetOrdinal(PropertyInfo)</h4>
+  <div class="markdown level1 summary"><p>Gets the ordinal of the attribute.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override int GetOrdinal(PropertyInfo entityProperty)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Reflection.PropertyInfo</span></td>
+        <td><span class="parametername">entityProperty</span></td>
+        <td><p>The entity property to evaluate.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>The ordinal of the property as an <span class="xref">System.Int32</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Startitecture.Orm.Schema.DefinitionProviderBase.html#Startitecture_Orm_Schema_DefinitionProviderBase_GetOrdinal_System_Reflection_PropertyInfo_">DefinitionProviderBase.GetOrdinal(PropertyInfo)</a></div>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://startitecture.visualstudio.com/_git/storm?path=Startitecture.Orm.Schema/DataAnnotationsDefinitionProvider.cs&amp;version=GBmaster&amp;line=141">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Schema_DataAnnotationsDefinitionProvider_GetPhysicalName_" data-uid="Startitecture.Orm.Schema.DataAnnotationsDefinitionProvider.GetPhysicalName*"></a>
+  <h4 id="Startitecture_Orm_Schema_DataAnnotationsDefinitionProvider_GetPhysicalName_System_Reflection_PropertyInfo_" data-uid="Startitecture.Orm.Schema.DataAnnotationsDefinitionProvider.GetPhysicalName(System.Reflection.PropertyInfo)">GetPhysicalName(PropertyInfo)</h4>
+  <div class="markdown level1 summary"><p>Gets the physical name of the property.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override string GetPhysicalName([NotNull] PropertyInfo entityProperty)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Reflection.PropertyInfo</span></td>
+        <td><span class="parametername">entityProperty</span></td>
+        <td><p>The entity property to evaluate.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The name of the property as a <span class="xref">System.String</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Startitecture.Orm.Schema.DefinitionProviderBase.html#Startitecture_Orm_Schema_DefinitionProviderBase_GetPhysicalName_System_Reflection_PropertyInfo_">DefinitionProviderBase.GetPhysicalName(PropertyInfo)</a></div>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://startitecture.visualstudio.com/_git/storm?path=Startitecture.Orm.Schema/DataAnnotationsDefinitionProvider.cs&amp;version=GBmaster&amp;line=129">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Schema_DataAnnotationsDefinitionProvider_GetRelatedColumnPropertyInfos_" data-uid="Startitecture.Orm.Schema.DataAnnotationsDefinitionProvider.GetRelatedColumnPropertyInfos*"></a>
+  <h4 id="Startitecture_Orm_Schema_DataAnnotationsDefinitionProvider_GetRelatedColumnPropertyInfos_System_Collections_Generic_IEnumerable_System_Reflection_PropertyInfo__" data-uid="Startitecture.Orm.Schema.DataAnnotationsDefinitionProvider.GetRelatedColumnPropertyInfos(System.Collections.Generic.IEnumerable{System.Reflection.PropertyInfo})">GetRelatedColumnPropertyInfos(IEnumerable&lt;PropertyInfo&gt;)</h4>
+  <div class="markdown level1 summary"><p>Gets the related column properties of the entity. These are columns from related entities joined to the root entity.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override IEnumerable&lt;PropertyInfo&gt; GetRelatedColumnPropertyInfos(IEnumerable&lt;PropertyInfo&gt; entityProperties)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Reflection.PropertyInfo</span>&gt;</td>
+        <td><span class="parametername">entityProperties</span></td>
+        <td><p>The entity properties.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Reflection.PropertyInfo</span>&gt;</td>
+        <td><p>An <span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span> of <span class="xref">System.Reflection.PropertyInfo</span> items.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Startitecture.Orm.Schema.DefinitionProviderBase.html#Startitecture_Orm_Schema_DefinitionProviderBase_GetRelatedColumnPropertyInfos_System_Collections_Generic_IEnumerable_System_Reflection_PropertyInfo__">DefinitionProviderBase.GetRelatedColumnPropertyInfos(IEnumerable&lt;PropertyInfo&gt;)</a></div>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://startitecture.visualstudio.com/_git/storm?path=Startitecture.Orm.Schema/DataAnnotationsDefinitionProvider.cs&amp;version=GBmaster&amp;line=123">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Schema_DataAnnotationsDefinitionProvider_GetRelationPropertyInfos_" data-uid="Startitecture.Orm.Schema.DataAnnotationsDefinitionProvider.GetRelationPropertyInfos*"></a>
+  <h4 id="Startitecture_Orm_Schema_DataAnnotationsDefinitionProvider_GetRelationPropertyInfos_System_Collections_Generic_IEnumerable_System_Reflection_PropertyInfo__" data-uid="Startitecture.Orm.Schema.DataAnnotationsDefinitionProvider.GetRelationPropertyInfos(System.Collections.Generic.IEnumerable{System.Reflection.PropertyInfo})">GetRelationPropertyInfos(IEnumerable&lt;PropertyInfo&gt;)</h4>
+  <div class="markdown level1 summary"><p>Gets the relation properties of the entity. These are properties that are complete entities joined to the root entity.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override IEnumerable&lt;PropertyInfo&gt; GetRelationPropertyInfos(IEnumerable&lt;PropertyInfo&gt; entityProperties)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Reflection.PropertyInfo</span>&gt;</td>
+        <td><span class="parametername">entityProperties</span></td>
+        <td><p>The entity properties.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Reflection.PropertyInfo</span>&gt;</td>
+        <td><p>An <span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span> of <span class="xref">System.Reflection.PropertyInfo</span> items.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Startitecture.Orm.Schema.DefinitionProviderBase.html#Startitecture_Orm_Schema_DefinitionProviderBase_GetRelationPropertyInfos_System_Collections_Generic_IEnumerable_System_Reflection_PropertyInfo__">DefinitionProviderBase.GetRelationPropertyInfos(IEnumerable&lt;PropertyInfo&gt;)</a></div>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://startitecture.visualstudio.com/_git/storm?path=Startitecture.Orm.Schema/DataAnnotationsDefinitionProvider.cs&amp;version=GBmaster&amp;line=179">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Schema_DataAnnotationsDefinitionProvider_IsIdentity_" data-uid="Startitecture.Orm.Schema.DataAnnotationsDefinitionProvider.IsIdentity*"></a>
+  <h4 id="Startitecture_Orm_Schema_DataAnnotationsDefinitionProvider_IsIdentity_System_Reflection_PropertyInfo_" data-uid="Startitecture.Orm.Schema.DataAnnotationsDefinitionProvider.IsIdentity(System.Reflection.PropertyInfo)">IsIdentity(PropertyInfo)</h4>
+  <div class="markdown level1 summary"><p>Determines whether the property is an identity column or not.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override bool IsIdentity(PropertyInfo entityProperty)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Reflection.PropertyInfo</span></td>
+        <td><span class="parametername">entityProperty</span></td>
+        <td><p>The property info to evaluate.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><code>true</code> if the property is an identity column; otherwise, <code>false</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Startitecture.Orm.Schema.DefinitionProviderBase.html#Startitecture_Orm_Schema_DefinitionProviderBase_IsIdentity_System_Reflection_PropertyInfo_">DefinitionProviderBase.IsIdentity(PropertyInfo)</a></div>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://startitecture.visualstudio.com/_git/storm?path=Startitecture.Orm.Schema/DataAnnotationsDefinitionProvider.cs&amp;version=GBmaster&amp;line=173">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Schema_DataAnnotationsDefinitionProvider_IsKey_" data-uid="Startitecture.Orm.Schema.DataAnnotationsDefinitionProvider.IsKey*"></a>
+  <h4 id="Startitecture_Orm_Schema_DataAnnotationsDefinitionProvider_IsKey_System_Reflection_PropertyInfo_" data-uid="Startitecture.Orm.Schema.DataAnnotationsDefinitionProvider.IsKey(System.Reflection.PropertyInfo)">IsKey(PropertyInfo)</h4>
+  <div class="markdown level1 summary"><p>Determines whether the property is a key or not.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override bool IsKey(PropertyInfo entityProperty)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Reflection.PropertyInfo</span></td>
+        <td><span class="parametername">entityProperty</span></td>
+        <td><p>The property info to evaluate.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><code>true</code> if the property is a key; otherwise, <code>false</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Startitecture.Orm.Schema.DefinitionProviderBase.html#Startitecture_Orm_Schema_DefinitionProviderBase_IsKey_System_Reflection_PropertyInfo_">DefinitionProviderBase.IsKey(PropertyInfo)</a></div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="Startitecture.Orm.Model.IEntityDefinitionProvider.html">IEntityDefinitionProvider</a>
+  </div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="Startitecture.Orm.Testing.Moq.ExtensionMethods.html#Startitecture_Orm_Testing_Moq_ExtensionMethods_MockDataReader__1___0_System_Collections_Generic_IEnumerable_Startitecture_Orm_Model_EntityAttributeDefinition__">ExtensionMethods.MockDataReader&lt;T&gt;(T, IEnumerable&lt;EntityAttributeDefinition&gt;)</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://startitecture.visualstudio.com/_git/storm?path=Startitecture.Orm.Schema/DataAnnotationsDefinitionProvider.cs&amp;version=GBmaster&amp;line=29" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

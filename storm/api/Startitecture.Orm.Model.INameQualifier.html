@@ -1,0 +1,386 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Interface INameQualifier
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Interface INameQualifier
+   ">
+    <meta name="generator" content="docfx 2.52.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Startitecture.Orm.Model.INameQualifier">
+  
+  
+  <h1 id="Startitecture_Orm_Model_INameQualifier" data-uid="Startitecture.Orm.Model.INameQualifier" class="text-break">Interface INameQualifier
+  </h1>
+  <div class="markdown level0 summary"><p>The NameQualifier interface.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Startitecture.Orm.Model.html">Startitecture.Orm.Model</a></h6>
+  <h6><strong>Assembly</strong>: Startitecture.Orm.Model.dll</h6>
+  <h5 id="Startitecture_Orm_Model_INameQualifier_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface INameQualifier</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://startitecture.visualstudio.com/_git/storm?path=Startitecture.Orm.Model/INameQualifier.cs&amp;version=GBmaster&amp;line=75">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Model_INameQualifier_Escape_" data-uid="Startitecture.Orm.Model.INameQualifier.Escape*"></a>
+  <h4 id="Startitecture_Orm_Model_INameQualifier_Escape_System_String_" data-uid="Startitecture.Orm.Model.INameQualifier.Escape(System.String)">Escape(String)</h4>
+  <div class="markdown level1 summary"><p>Escapes an identifier.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string Escape([NotNull] string identifier)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">identifier</span></td>
+        <td><p>The identifier to escape.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The escaped identifier as a <span class="xref">System.String</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">identifier</code> is null or whitespace.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://startitecture.visualstudio.com/_git/storm?path=Startitecture.Orm.Model/INameQualifier.cs&amp;version=GBmaster&amp;line=50">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Model_INameQualifier_GetCanonicalName_" data-uid="Startitecture.Orm.Model.INameQualifier.GetCanonicalName*"></a>
+  <h4 id="Startitecture_Orm_Model_INameQualifier_GetCanonicalName_Startitecture_Orm_Model_EntityAttributeDefinition_" data-uid="Startitecture.Orm.Model.INameQualifier.GetCanonicalName(Startitecture.Orm.Model.EntityAttributeDefinition)">GetCanonicalName(EntityAttributeDefinition)</h4>
+  <div class="markdown level1 summary"><p>Gets the canonical name for the <code data-dev-comment-type="paramref" class="paramref">attribute</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string GetCanonicalName(EntityAttributeDefinition attribute)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Model.EntityAttributeDefinition.html">EntityAttributeDefinition</a></td>
+        <td><span class="parametername">attribute</span></td>
+        <td><p>The attribute.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The <span class="xref">System.String</span> representation of the <code data-dev-comment-type="paramref" class="paramref">attribute</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://startitecture.visualstudio.com/_git/storm?path=Startitecture.Orm.Model/INameQualifier.cs&amp;version=GBmaster&amp;line=61">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Model_INameQualifier_GetCanonicalName_" data-uid="Startitecture.Orm.Model.INameQualifier.GetCanonicalName*"></a>
+  <h4 id="Startitecture_Orm_Model_INameQualifier_GetCanonicalName_Startitecture_Orm_Model_EntityLocation_" data-uid="Startitecture.Orm.Model.INameQualifier.GetCanonicalName(Startitecture.Orm.Model.EntityLocation)">GetCanonicalName(EntityLocation)</h4>
+  <div class="markdown level1 summary"><p>Gets the canonical name for the <code data-dev-comment-type="paramref" class="paramref">location</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string GetCanonicalName(EntityLocation location)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Model.EntityLocation.html">EntityLocation</a></td>
+        <td><span class="parametername">location</span></td>
+        <td><p>The location.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The <span class="xref">System.String</span> representation for the <code data-dev-comment-type="paramref" class="paramref">location</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://startitecture.visualstudio.com/_git/storm?path=Startitecture.Orm.Model/INameQualifier.cs&amp;version=GBmaster&amp;line=25">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Model_INameQualifier_Qualify_" data-uid="Startitecture.Orm.Model.INameQualifier.Qualify*"></a>
+  <h4 id="Startitecture_Orm_Model_INameQualifier_Qualify_Startitecture_Orm_Model_EntityAttributeDefinition_" data-uid="Startitecture.Orm.Model.INameQualifier.Qualify(Startitecture.Orm.Model.EntityAttributeDefinition)">Qualify(EntityAttributeDefinition)</h4>
+  <div class="markdown level1 summary"><p>Qualifies the name of an attribute.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string Qualify(EntityAttributeDefinition attribute)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Model.EntityAttributeDefinition.html">EntityAttributeDefinition</a></td>
+        <td><span class="parametername">attribute</span></td>
+        <td><p>The attribute to qualify.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The qualified name of the attribute as a <span class="xref">System.String</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://startitecture.visualstudio.com/_git/storm?path=Startitecture.Orm.Model/INameQualifier.cs&amp;version=GBmaster&amp;line=39">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Model_INameQualifier_Qualify_" data-uid="Startitecture.Orm.Model.INameQualifier.Qualify*"></a>
+  <h4 id="Startitecture_Orm_Model_INameQualifier_Qualify_Startitecture_Orm_Model_EntityAttributeDefinition_Startitecture_Orm_Model_EntityLocation_" data-uid="Startitecture.Orm.Model.INameQualifier.Qualify(Startitecture.Orm.Model.EntityAttributeDefinition,Startitecture.Orm.Model.EntityLocation)">Qualify(EntityAttributeDefinition, EntityLocation)</h4>
+  <div class="markdown level1 summary"><p>Qualifies the name of an attribute.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string Qualify(EntityAttributeDefinition attribute, EntityLocation entityLocation)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Model.EntityAttributeDefinition.html">EntityAttributeDefinition</a></td>
+        <td><span class="parametername">attribute</span></td>
+        <td><p>The attribute to qualify.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Model.EntityLocation.html">EntityLocation</a></td>
+        <td><span class="parametername">entityLocation</span></td>
+        <td><p>The entity location.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The qualified name of the attribute as a <span class="xref">System.String</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="Startitecture.Orm.Testing.Moq.ExtensionMethods.html#Startitecture_Orm_Testing_Moq_ExtensionMethods_MockDataReader__1___0_System_Collections_Generic_IEnumerable_Startitecture_Orm_Model_EntityAttributeDefinition__">ExtensionMethods.MockDataReader&lt;T&gt;(T, IEnumerable&lt;EntityAttributeDefinition&gt;)</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://startitecture.visualstudio.com/_git/storm?path=Startitecture.Orm.Model/INameQualifier.cs&amp;version=GBmaster&amp;line=14" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
