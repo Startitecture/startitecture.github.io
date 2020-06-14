@@ -1,0 +1,2465 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class ItemSelection&lt;TItem&gt;
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class ItemSelection&lt;TItem&gt;
+   ">
+    <meta name="generator" content="docfx 2.52.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Startitecture.Orm.Model.ItemSelection`1">
+  
+  
+  <h1 id="Startitecture_Orm_Model_ItemSelection_1" data-uid="Startitecture.Orm.Model.ItemSelection`1" class="text-break">Class ItemSelection&lt;TItem&gt;
+  </h1>
+  <div class="markdown level0 summary"><p>Creates selection criteria for repository items.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">ItemSelection&lt;TItem&gt;</span></div>
+      <div class="level2"><a class="xref" href="Startitecture.Orm.Model.UniqueQuery-1.html">UniqueQuery&lt;TItem&gt;</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Startitecture.Orm.Model.html">Startitecture.Orm.Model</a></h6>
+  <h6><strong>Assembly</strong>: Startitecture.Orm.Model.dll</h6>
+  <h5 id="Startitecture_Orm_Model_ItemSelection_1_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class ItemSelection&lt;TItem&gt;</code></pre>
+  </div>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TItem</span></td>
+        <td><p>The type of item to select.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://startitecture.visualstudio.com/_git/storm?path=Startitecture.Orm.Model/ItemSelection.cs&amp;version=GBmaster&amp;line=94">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Model_ItemSelection_1_Filters_" data-uid="Startitecture.Orm.Model.ItemSelection`1.Filters*"></a>
+  <h4 id="Startitecture_Orm_Model_ItemSelection_1_Filters" data-uid="Startitecture.Orm.Model.ItemSelection`1.Filters">Filters</h4>
+  <div class="markdown level1 summary"><p>Gets the filters for the current selection.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;ValueFilter&gt; Filters { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Startitecture.Orm.Model.ValueFilter.html">ValueFilter</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://startitecture.visualstudio.com/_git/storm?path=Startitecture.Orm.Model/ItemSelection.cs&amp;version=GBmaster&amp;line=53">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Model_ItemSelection_1_Limit_" data-uid="Startitecture.Orm.Model.ItemSelection`1.Limit*"></a>
+  <h4 id="Startitecture_Orm_Model_ItemSelection_1_Limit" data-uid="Startitecture.Orm.Model.ItemSelection`1.Limit">Limit</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the maximum number of items to return with the selection.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Limit { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://startitecture.visualstudio.com/_git/storm?path=Startitecture.Orm.Model/ItemSelection.cs&amp;version=GBmaster&amp;line=63">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Model_ItemSelection_1_LinkedSelection_" data-uid="Startitecture.Orm.Model.ItemSelection`1.LinkedSelection*"></a>
+  <h4 id="Startitecture_Orm_Model_ItemSelection_1_LinkedSelection" data-uid="Startitecture.Orm.Model.ItemSelection`1.LinkedSelection">LinkedSelection</h4>
+  <div class="markdown level1 summary"><p>Gets the child selection, if any, for the current selection.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public LinkedSelection&lt;TItem&gt; LinkedSelection { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Model.LinkedSelection-1.html">LinkedSelection</a>&lt;TItem&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://startitecture.visualstudio.com/_git/storm?path=Startitecture.Orm.Model/ItemSelection.cs&amp;version=GBmaster&amp;line=68">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Model_ItemSelection_1_PropertyValues_" data-uid="Startitecture.Orm.Model.ItemSelection`1.PropertyValues*"></a>
+  <h4 id="Startitecture_Orm_Model_ItemSelection_1_PropertyValues" data-uid="Startitecture.Orm.Model.ItemSelection`1.PropertyValues">PropertyValues</h4>
+  <div class="markdown level1 summary"><p>Gets the property values for the filter.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;object&gt; PropertyValues { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Object</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://startitecture.visualstudio.com/_git/storm?path=Startitecture.Orm.Model/ItemSelection.cs&amp;version=GBmaster&amp;line=58">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Model_ItemSelection_1_Relations_" data-uid="Startitecture.Orm.Model.ItemSelection`1.Relations*"></a>
+  <h4 id="Startitecture_Orm_Model_ItemSelection_1_Relations" data-uid="Startitecture.Orm.Model.ItemSelection`1.Relations">Relations</h4>
+  <div class="markdown level1 summary"><p>Gets the entity relations represented in the selection.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;IEntityRelation&gt; Relations { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Startitecture.Orm.Model.IEntityRelation.html">IEntityRelation</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://startitecture.visualstudio.com/_git/storm?path=Startitecture.Orm.Model/ItemSelection.cs&amp;version=GBmaster&amp;line=89">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Model_ItemSelection_1_SelectExpressions_" data-uid="Startitecture.Orm.Model.ItemSelection`1.SelectExpressions*"></a>
+  <h4 id="Startitecture_Orm_Model_ItemSelection_1_SelectExpressions" data-uid="Startitecture.Orm.Model.ItemSelection`1.SelectExpressions">SelectExpressions</h4>
+  <div class="markdown level1 summary"><p>Gets the selection expressions.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;LambdaExpression&gt; SelectExpressions { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Linq.Expressions.LambdaExpression</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://startitecture.visualstudio.com/_git/storm?path=Startitecture.Orm.Model/ItemSelection.cs&amp;version=GBmaster&amp;line=1039">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Model_ItemSelection_1_AddFilter_" data-uid="Startitecture.Orm.Model.ItemSelection`1.AddFilter*"></a>
+  <h4 id="Startitecture_Orm_Model_ItemSelection_1_AddFilter_Startitecture_Orm_Model_ValueFilter_" data-uid="Startitecture.Orm.Model.ItemSelection`1.AddFilter(Startitecture.Orm.Model.ValueFilter)">AddFilter(ValueFilter)</h4>
+  <div class="markdown level1 summary"><p>Adds a <a class="xref" href="Startitecture.Orm.Model.ValueFilter.html">ValueFilter</a> to the selection.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected ItemSelection&lt;TItem&gt; AddFilter([NotNull] ValueFilter valueFilter)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Model.ValueFilter.html">ValueFilter</a></td>
+        <td><span class="parametername">valueFilter</span></td>
+        <td><p>The value filter to add.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Model.ItemSelection-1.html">ItemSelection</a>&lt;TItem&gt;</td>
+        <td><p>The current <a class="xref" href="Startitecture.Orm.Model.ItemSelection-1.html">ItemSelection&lt;TItem&gt;</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">valueFilter</code> is null.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://startitecture.visualstudio.com/_git/storm?path=Startitecture.Orm.Model/ItemSelection.cs&amp;version=GBmaster&amp;line=1004">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Model_ItemSelection_1_AddRelation_" data-uid="Startitecture.Orm.Model.ItemSelection`1.AddRelation*"></a>
+  <h4 id="Startitecture_Orm_Model_ItemSelection_1_AddRelation_Startitecture_Orm_Model_IEntityRelation_" data-uid="Startitecture.Orm.Model.ItemSelection`1.AddRelation(Startitecture.Orm.Model.IEntityRelation)">AddRelation(IEntityRelation)</h4>
+  <div class="markdown level1 summary"><p>Adds a relation to the selection.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ItemSelection&lt;TItem&gt; AddRelation([NotNull] IEntityRelation relation)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Model.IEntityRelation.html">IEntityRelation</a></td>
+        <td><span class="parametername">relation</span></td>
+        <td><p>The relation to add.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Model.ItemSelection-1.html">ItemSelection</a>&lt;TItem&gt;</td>
+        <td><p>The current <a class="xref" href="Startitecture.Orm.Model.ItemSelection-1.html">ItemSelection&lt;TItem&gt;</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://startitecture.visualstudio.com/_git/storm?path=Startitecture.Orm.Model/ItemSelection.cs&amp;version=GBmaster&amp;line=459">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Model_ItemSelection_1_Between_" data-uid="Startitecture.Orm.Model.ItemSelection`1.Between*"></a>
+  <h4 id="Startitecture_Orm_Model_ItemSelection_1_Between__0__0_System_Linq_Expressions_Expression_System_Func__0_System_Object_____" data-uid="Startitecture.Orm.Model.ItemSelection`1.Between(`0,`0,System.Linq.Expressions.Expression{System.Func{`0,System.Object}}[])">Between(TItem, TItem, Expression&lt;Func&lt;TItem, Object&gt;&gt;[])</h4>
+  <div class="markdown level1 summary"><p>Adds a between filter for the specified example item.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ItemSelection&lt;TItem&gt; Between(TItem baseline, TItem boundary, params Expression&lt;Func&lt;TItem, object&gt;&gt;[] selectors)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TItem</span></td>
+        <td><span class="parametername">baseline</span></td>
+        <td><p>The baseline item.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">TItem</span></td>
+        <td><span class="parametername">boundary</span></td>
+        <td><p>The boundary item.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Linq.Expressions.Expression</span>&lt;<span class="xref">System.Func</span>&lt;TItem, <span class="xref">System.Object</span>&gt;&gt;[]</td>
+        <td><span class="parametername">selectors</span></td>
+        <td><p>The selectors of the properties to match.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Model.ItemSelection-1.html">ItemSelection</a>&lt;TItem&gt;</td>
+        <td><p>The current <a class="xref" href="Startitecture.Orm.Model.ItemSelection-1.html">ItemSelection&lt;TItem&gt;</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://startitecture.visualstudio.com/_git/storm?path=Startitecture.Orm.Model/ItemSelection.cs&amp;version=GBmaster&amp;line=419">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Model_ItemSelection_1_Between_" data-uid="Startitecture.Orm.Model.ItemSelection`1.Between*"></a>
+  <h4 id="Startitecture_Orm_Model_ItemSelection_1_Between__1_System_Linq_Expressions_Expression_System_Func__0___0_____0___0_" data-uid="Startitecture.Orm.Model.ItemSelection`1.Between``1(System.Linq.Expressions.Expression{System.Func{`0,``0}},``0,``0)">Between&lt;TValue&gt;(Expression&lt;Func&lt;TItem, TValue&gt;&gt;, TValue, TValue)</h4>
+  <div class="markdown level1 summary"><p>Adds a between filter for the specified attribute</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ItemSelection&lt;TItem&gt; Between&lt;TValue&gt;([NotNull] Expression&lt;Func&lt;TItem, TValue&gt;&gt; selector, [NotNull] TValue minValue, [NotNull] TValue maxValue)
+    where TValue : IComparable</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Linq.Expressions.Expression</span>&lt;<span class="xref">System.Func</span>&lt;TItem, TValue&gt;&gt;</td>
+        <td><span class="parametername">selector</span></td>
+        <td><p>The attribute selector.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">TValue</span></td>
+        <td><span class="parametername">minValue</span></td>
+        <td><p>The minimum value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">TValue</span></td>
+        <td><span class="parametername">maxValue</span></td>
+        <td><p>The maximum value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Model.ItemSelection-1.html">ItemSelection</a>&lt;TItem&gt;</td>
+        <td><p>The current <a class="xref" href="Startitecture.Orm.Model.ItemSelection-1.html">ItemSelection&lt;TItem&gt;</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TValue</span></td>
+        <td><p>The type of the value to compare.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">selector</code>, <code data-dev-comment-type="paramref" class="paramref">minValue</code> or <code data-dev-comment-type="paramref" class="paramref">maxValue</code> is null.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://startitecture.visualstudio.com/_git/storm?path=Startitecture.Orm.Model/ItemSelection.cs&amp;version=GBmaster&amp;line=148">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Model_ItemSelection_1_ClearRelations_" data-uid="Startitecture.Orm.Model.ItemSelection`1.ClearRelations*"></a>
+  <h4 id="Startitecture_Orm_Model_ItemSelection_1_ClearRelations" data-uid="Startitecture.Orm.Model.ItemSelection`1.ClearRelations">ClearRelations()</h4>
+  <div class="markdown level1 summary"><p>Clears any existing relations from the selection.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ItemSelection&lt;TItem&gt; ClearRelations()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Model.ItemSelection-1.html">ItemSelection</a>&lt;TItem&gt;</td>
+        <td><p>The current <a class="xref" href="Startitecture.Orm.Model.ItemSelection-1.html">ItemSelection&lt;TItem&gt;</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://startitecture.visualstudio.com/_git/storm?path=Startitecture.Orm.Model/ItemSelection.cs&amp;version=GBmaster&amp;line=958">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Model_ItemSelection_1_Except_" data-uid="Startitecture.Orm.Model.ItemSelection`1.Except*"></a>
+  <h4 id="Startitecture_Orm_Model_ItemSelection_1_Except_Startitecture_Orm_Model_ItemSelection__0__" data-uid="Startitecture.Orm.Model.ItemSelection`1.Except(Startitecture.Orm.Model.ItemSelection{`0})">Except(ItemSelection&lt;TItem&gt;)</h4>
+  <div class="markdown level1 summary"><p>Combines the results of the current selection with the specified selection.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ItemSelection&lt;TItem&gt; Except(ItemSelection&lt;TItem&gt; selection)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Model.ItemSelection-1.html">ItemSelection</a>&lt;TItem&gt;</td>
+        <td><span class="parametername">selection</span></td>
+        <td><p>The selection to combine.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Model.ItemSelection-1.html">ItemSelection</a>&lt;TItem&gt;</td>
+        <td><p>The current <a class="xref" href="Startitecture.Orm.Model.ItemSelection-1.html">ItemSelection&lt;TItem&gt;</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://startitecture.visualstudio.com/_git/storm?path=Startitecture.Orm.Model/ItemSelection.cs&amp;version=GBmaster&amp;line=266">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Model_ItemSelection_1_GreaterThan_" data-uid="Startitecture.Orm.Model.ItemSelection`1.GreaterThan*"></a>
+  <h4 id="Startitecture_Orm_Model_ItemSelection_1_GreaterThan__1_System_Linq_Expressions_Expression_System_Func__0___0_____0_" data-uid="Startitecture.Orm.Model.ItemSelection`1.GreaterThan``1(System.Linq.Expressions.Expression{System.Func{`0,``0}},``0)">GreaterThan&lt;TValue&gt;(Expression&lt;Func&lt;TItem, TValue&gt;&gt;, TValue)</h4>
+  <div class="markdown level1 summary"><p>Adds a greater than filter for the specified property and <code data-dev-comment-type="paramref" class="paramref">value</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ItemSelection&lt;TItem&gt; GreaterThan&lt;TValue&gt;([NotNull] Expression&lt;Func&lt;TItem, TValue&gt;&gt; valueExpression, TValue value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Linq.Expressions.Expression</span>&lt;<span class="xref">System.Func</span>&lt;TItem, TValue&gt;&gt;</td>
+        <td><span class="parametername">valueExpression</span></td>
+        <td><p>The value expression.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">TValue</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Model.ItemSelection-1.html">ItemSelection</a>&lt;TItem&gt;</td>
+        <td><p>The current <a class="xref" href="Startitecture.Orm.Model.ItemSelection-1.html">ItemSelection&lt;TItem&gt;</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TValue</span></td>
+        <td><p>The type of value to evaluate.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">valueExpression</code> is null.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://startitecture.visualstudio.com/_git/storm?path=Startitecture.Orm.Model/ItemSelection.cs&amp;version=GBmaster&amp;line=295">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Model_ItemSelection_1_GreaterThanOrEqualTo_" data-uid="Startitecture.Orm.Model.ItemSelection`1.GreaterThanOrEqualTo*"></a>
+  <h4 id="Startitecture_Orm_Model_ItemSelection_1_GreaterThanOrEqualTo__1_System_Linq_Expressions_Expression_System_Func__0___0_____0_" data-uid="Startitecture.Orm.Model.ItemSelection`1.GreaterThanOrEqualTo``1(System.Linq.Expressions.Expression{System.Func{`0,``0}},``0)">GreaterThanOrEqualTo&lt;TValue&gt;(Expression&lt;Func&lt;TItem, TValue&gt;&gt;, TValue)</h4>
+  <div class="markdown level1 summary"><p>Adds a greater than filter for the specified property and <code data-dev-comment-type="paramref" class="paramref">value</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ItemSelection&lt;TItem&gt; GreaterThanOrEqualTo&lt;TValue&gt;([NotNull] Expression&lt;Func&lt;TItem, TValue&gt;&gt; valueExpression, TValue value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Linq.Expressions.Expression</span>&lt;<span class="xref">System.Func</span>&lt;TItem, TValue&gt;&gt;</td>
+        <td><span class="parametername">valueExpression</span></td>
+        <td><p>The value expression.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">TValue</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Model.ItemSelection-1.html">ItemSelection</a>&lt;TItem&gt;</td>
+        <td><p>The current <a class="xref" href="Startitecture.Orm.Model.ItemSelection-1.html">ItemSelection&lt;TItem&gt;</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TValue</span></td>
+        <td><p>The type of value to evaluate.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">valueExpression</code> is null.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://startitecture.visualstudio.com/_git/storm?path=Startitecture.Orm.Model/ItemSelection.cs&amp;version=GBmaster&amp;line=379">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Model_ItemSelection_1_Include_" data-uid="Startitecture.Orm.Model.ItemSelection`1.Include*"></a>
+  <h4 id="Startitecture_Orm_Model_ItemSelection_1_Include__1_System_Linq_Expressions_Expression_System_Func__0___0_____0___" data-uid="Startitecture.Orm.Model.ItemSelection`1.Include``1(System.Linq.Expressions.Expression{System.Func{`0,``0}},``0[])">Include&lt;TValue&gt;(Expression&lt;Func&lt;TItem, TValue&gt;&gt;, TValue[])</h4>
+  <div class="markdown level1 summary"><p>Adds an inclusion filter for the specified example item.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ItemSelection&lt;TItem&gt; Include&lt;TValue&gt;(Expression&lt;Func&lt;TItem, TValue&gt;&gt; selector, params TValue[] inclusionValues)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Linq.Expressions.Expression</span>&lt;<span class="xref">System.Func</span>&lt;TItem, TValue&gt;&gt;</td>
+        <td><span class="parametername">selector</span></td>
+        <td><p>The property selector.</p>
+</td>
+      </tr>
+      <tr>
+        <td>TValue[]</td>
+        <td><span class="parametername">inclusionValues</span></td>
+        <td><p>The inclusion values.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Model.ItemSelection-1.html">ItemSelection</a>&lt;TItem&gt;</td>
+        <td><p>The current <a class="xref" href="Startitecture.Orm.Model.ItemSelection-1.html">ItemSelection&lt;TItem&gt;</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TValue</span></td>
+        <td><p>The type of value specified by the selector.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://startitecture.visualstudio.com/_git/storm?path=Startitecture.Orm.Model/ItemSelection.cs&amp;version=GBmaster&amp;line=509">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Model_ItemSelection_1_InnerJoin_" data-uid="Startitecture.Orm.Model.ItemSelection`1.InnerJoin*"></a>
+  <h4 id="Startitecture_Orm_Model_ItemSelection_1_InnerJoin_System_Linq_Expressions_Expression_System_Func__0_System_Object___System_Linq_Expressions_Expression_System_Func__0_System_Object___" data-uid="Startitecture.Orm.Model.ItemSelection`1.InnerJoin(System.Linq.Expressions.Expression{System.Func{`0,System.Object}},System.Linq.Expressions.Expression{System.Func{`0,System.Object}})">InnerJoin(Expression&lt;Func&lt;TItem, Object&gt;&gt;, Expression&lt;Func&lt;TItem, Object&gt;&gt;)</h4>
+  <div class="markdown level1 summary"><p>Appends an INNER JOIN clause to the selection.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ItemSelection&lt;TItem&gt; InnerJoin([NotNull] Expression&lt;Func&lt;TItem, object&gt;&gt; leftSelector, [NotNull] Expression&lt;Func&lt;TItem, object&gt;&gt; rightSelector)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Linq.Expressions.Expression</span>&lt;<span class="xref">System.Func</span>&lt;TItem, <span class="xref">System.Object</span>&gt;&gt;</td>
+        <td><span class="parametername">leftSelector</span></td>
+        <td><p>The left selector of the JOIN clause.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Linq.Expressions.Expression</span>&lt;<span class="xref">System.Func</span>&lt;TItem, <span class="xref">System.Object</span>&gt;&gt;</td>
+        <td><span class="parametername">rightSelector</span></td>
+        <td><p>The right selector of the JOIN clause.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Model.ItemSelection-1.html">ItemSelection</a>&lt;TItem&gt;</td>
+        <td><p>The current <a class="xref" href="Startitecture.Orm.Model.ItemSelection-1.html">ItemSelection&lt;TItem&gt;</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://startitecture.visualstudio.com/_git/storm?path=Startitecture.Orm.Model/ItemSelection.cs&amp;version=GBmaster&amp;line=543">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Model_ItemSelection_1_InnerJoin_" data-uid="Startitecture.Orm.Model.ItemSelection`1.InnerJoin*"></a>
+  <h4 id="Startitecture_Orm_Model_ItemSelection_1_InnerJoin__1_System_Linq_Expressions_Expression_System_Func__0_System_Object___System_Linq_Expressions_Expression_System_Func___0_System_Object___" data-uid="Startitecture.Orm.Model.ItemSelection`1.InnerJoin``1(System.Linq.Expressions.Expression{System.Func{`0,System.Object}},System.Linq.Expressions.Expression{System.Func{``0,System.Object}})">InnerJoin&lt;TRelation&gt;(Expression&lt;Func&lt;TItem, Object&gt;&gt;, Expression&lt;Func&lt;TRelation, Object&gt;&gt;)</h4>
+  <div class="markdown level1 summary"><p>Appends an INNER JOIN clause to the selection.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ItemSelection&lt;TItem&gt; InnerJoin&lt;TRelation&gt;(Expression&lt;Func&lt;TItem, object&gt;&gt; leftSelector, Expression&lt;Func&lt;TRelation, object&gt;&gt; rightSelector)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Linq.Expressions.Expression</span>&lt;<span class="xref">System.Func</span>&lt;TItem, <span class="xref">System.Object</span>&gt;&gt;</td>
+        <td><span class="parametername">leftSelector</span></td>
+        <td><p>The left selector of the JOIN clause.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Linq.Expressions.Expression</span>&lt;<span class="xref">System.Func</span>&lt;TRelation, <span class="xref">System.Object</span>&gt;&gt;</td>
+        <td><span class="parametername">rightSelector</span></td>
+        <td><p>The right selector of the JOIN clause.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Model.ItemSelection-1.html">ItemSelection</a>&lt;TItem&gt;</td>
+        <td><p>The current <a class="xref" href="Startitecture.Orm.Model.ItemSelection-1.html">ItemSelection&lt;TItem&gt;</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TRelation</span></td>
+        <td><p>The type of item on the right side of the INNER JOIN.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://startitecture.visualstudio.com/_git/storm?path=Startitecture.Orm.Model/ItemSelection.cs&amp;version=GBmaster&amp;line=580">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Model_ItemSelection_1_InnerJoin_" data-uid="Startitecture.Orm.Model.ItemSelection`1.InnerJoin*"></a>
+  <h4 id="Startitecture_Orm_Model_ItemSelection_1_InnerJoin__1_System_Linq_Expressions_Expression_System_Func__0_System_Object___System_Linq_Expressions_Expression_System_Func___0_System_Object___System_String_" data-uid="Startitecture.Orm.Model.ItemSelection`1.InnerJoin``1(System.Linq.Expressions.Expression{System.Func{`0,System.Object}},System.Linq.Expressions.Expression{System.Func{``0,System.Object}},System.String)">InnerJoin&lt;TRelation&gt;(Expression&lt;Func&lt;TItem, Object&gt;&gt;, Expression&lt;Func&lt;TRelation, Object&gt;&gt;, String)</h4>
+  <div class="markdown level1 summary"><p>Appends an INNER JOIN clause to the selection.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ItemSelection&lt;TItem&gt; InnerJoin&lt;TRelation&gt;(Expression&lt;Func&lt;TItem, object&gt;&gt; leftSelector, Expression&lt;Func&lt;TRelation, object&gt;&gt; rightSelector, string relationAlias)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Linq.Expressions.Expression</span>&lt;<span class="xref">System.Func</span>&lt;TItem, <span class="xref">System.Object</span>&gt;&gt;</td>
+        <td><span class="parametername">leftSelector</span></td>
+        <td><p>The left selector of the JOIN clause.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Linq.Expressions.Expression</span>&lt;<span class="xref">System.Func</span>&lt;TRelation, <span class="xref">System.Object</span>&gt;&gt;</td>
+        <td><span class="parametername">rightSelector</span></td>
+        <td><p>The right selector of the JOIN clause.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">relationAlias</span></td>
+        <td><p>The alias for the joined entity.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Model.ItemSelection-1.html">ItemSelection</a>&lt;TItem&gt;</td>
+        <td><p>The current <a class="xref" href="Startitecture.Orm.Model.ItemSelection-1.html">ItemSelection&lt;TItem&gt;</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TRelation</span></td>
+        <td><p>The type of item on the right side of the INNER JOIN.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://startitecture.visualstudio.com/_git/storm?path=Startitecture.Orm.Model/ItemSelection.cs&amp;version=GBmaster&amp;line=619">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Model_ItemSelection_1_InnerJoin_" data-uid="Startitecture.Orm.Model.ItemSelection`1.InnerJoin*"></a>
+  <h4 id="Startitecture_Orm_Model_ItemSelection_1_InnerJoin__2_System_Linq_Expressions_Expression_System_Func___0_System_Object___System_Linq_Expressions_Expression_System_Func___1_System_Object___" data-uid="Startitecture.Orm.Model.ItemSelection`1.InnerJoin``2(System.Linq.Expressions.Expression{System.Func{``0,System.Object}},System.Linq.Expressions.Expression{System.Func{``1,System.Object}})">InnerJoin&lt;TSource, TRelation&gt;(Expression&lt;Func&lt;TSource, Object&gt;&gt;, Expression&lt;Func&lt;TRelation, Object&gt;&gt;)</h4>
+  <div class="markdown level1 summary"><p>Appends an INNER JOIN clause to the selection. The table represented by <code data-dev-comment-type="typeparamref" class="typeparamref">TSource</code> must already be a
+JOIN member.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ItemSelection&lt;TItem&gt; InnerJoin&lt;TSource, TRelation&gt;(Expression&lt;Func&lt;TSource, object&gt;&gt; leftSelector, Expression&lt;Func&lt;TRelation, object&gt;&gt; rightSelector)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Linq.Expressions.Expression</span>&lt;<span class="xref">System.Func</span>&lt;TSource, <span class="xref">System.Object</span>&gt;&gt;</td>
+        <td><span class="parametername">leftSelector</span></td>
+        <td><p>The left selector of the JOIN clause.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Linq.Expressions.Expression</span>&lt;<span class="xref">System.Func</span>&lt;TRelation, <span class="xref">System.Object</span>&gt;&gt;</td>
+        <td><span class="parametername">rightSelector</span></td>
+        <td><p>The right selector of the JOIN clause.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Model.ItemSelection-1.html">ItemSelection</a>&lt;TItem&gt;</td>
+        <td><p>The current <a class="xref" href="Startitecture.Orm.Model.ItemSelection-1.html">ItemSelection&lt;TItem&gt;</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TSource</span></td>
+        <td><p>The type of item on the left side of the INNER JOIN.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TRelation</span></td>
+        <td><p>The type of item on the right side of the INNER JOIN.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://startitecture.visualstudio.com/_git/storm?path=Startitecture.Orm.Model/ItemSelection.cs&amp;version=GBmaster&amp;line=650">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Model_ItemSelection_1_InnerJoin_" data-uid="Startitecture.Orm.Model.ItemSelection`1.InnerJoin*"></a>
+  <h4 id="Startitecture_Orm_Model_ItemSelection_1_InnerJoin__2_System_Linq_Expressions_Expression_System_Func___0_System_Object___System_Linq_Expressions_Expression_System_Func___1_System_Object___System_String_" data-uid="Startitecture.Orm.Model.ItemSelection`1.InnerJoin``2(System.Linq.Expressions.Expression{System.Func{``0,System.Object}},System.Linq.Expressions.Expression{System.Func{``1,System.Object}},System.String)">InnerJoin&lt;TSource, TRelation&gt;(Expression&lt;Func&lt;TSource, Object&gt;&gt;, Expression&lt;Func&lt;TRelation, Object&gt;&gt;, String)</h4>
+  <div class="markdown level1 summary"><p>Appends an INNER JOIN clause to the selection. The table represented by <code data-dev-comment-type="typeparamref" class="typeparamref">TSource</code> must already be a
+JOIN member.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ItemSelection&lt;TItem&gt; InnerJoin&lt;TSource, TRelation&gt;(Expression&lt;Func&lt;TSource, object&gt;&gt; leftSelector, Expression&lt;Func&lt;TRelation, object&gt;&gt; rightSelector, string relationAlias)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Linq.Expressions.Expression</span>&lt;<span class="xref">System.Func</span>&lt;TSource, <span class="xref">System.Object</span>&gt;&gt;</td>
+        <td><span class="parametername">leftSelector</span></td>
+        <td><p>The left selector of the JOIN clause.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Linq.Expressions.Expression</span>&lt;<span class="xref">System.Func</span>&lt;TRelation, <span class="xref">System.Object</span>&gt;&gt;</td>
+        <td><span class="parametername">rightSelector</span></td>
+        <td><p>The right selector of the JOIN clause.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">relationAlias</span></td>
+        <td><p>The alias for the joined entity.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Model.ItemSelection-1.html">ItemSelection</a>&lt;TItem&gt;</td>
+        <td><p>The current <a class="xref" href="Startitecture.Orm.Model.ItemSelection-1.html">ItemSelection&lt;TItem&gt;</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TSource</span></td>
+        <td><p>The type of item on the left side of the INNER JOIN.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TRelation</span></td>
+        <td><p>The type of item on the right side of the INNER JOIN.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://startitecture.visualstudio.com/_git/storm?path=Startitecture.Orm.Model/ItemSelection.cs&amp;version=GBmaster&amp;line=683">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Model_ItemSelection_1_InnerJoin_" data-uid="Startitecture.Orm.Model.ItemSelection`1.InnerJoin*"></a>
+  <h4 id="Startitecture_Orm_Model_ItemSelection_1_InnerJoin__2_System_Linq_Expressions_Expression_System_Func___0_System_Object___System_String_System_Linq_Expressions_Expression_System_Func___1_System_Object___System_String_" data-uid="Startitecture.Orm.Model.ItemSelection`1.InnerJoin``2(System.Linq.Expressions.Expression{System.Func{``0,System.Object}},System.String,System.Linq.Expressions.Expression{System.Func{``1,System.Object}},System.String)">InnerJoin&lt;TSource, TRelation&gt;(Expression&lt;Func&lt;TSource, Object&gt;&gt;, String, Expression&lt;Func&lt;TRelation, Object&gt;&gt;, String)</h4>
+  <div class="markdown level1 summary"><p>Appends an INNER JOIN clause to the selection. The table represented by <code data-dev-comment-type="typeparamref" class="typeparamref">TSource</code> must already be a
+JOIN member.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ItemSelection&lt;TItem&gt; InnerJoin&lt;TSource, TRelation&gt;(Expression&lt;Func&lt;TSource, object&gt;&gt; leftSelector, string sourceAlias, Expression&lt;Func&lt;TRelation, object&gt;&gt; rightSelector, string relationAlias)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Linq.Expressions.Expression</span>&lt;<span class="xref">System.Func</span>&lt;TSource, <span class="xref">System.Object</span>&gt;&gt;</td>
+        <td><span class="parametername">leftSelector</span></td>
+        <td><p>The left selector of the JOIN clause.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">sourceAlias</span></td>
+        <td><p>The alias for the related entity.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Linq.Expressions.Expression</span>&lt;<span class="xref">System.Func</span>&lt;TRelation, <span class="xref">System.Object</span>&gt;&gt;</td>
+        <td><span class="parametername">rightSelector</span></td>
+        <td><p>The right selector of the JOIN clause.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">relationAlias</span></td>
+        <td><p>The alias for the joined entity.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Model.ItemSelection-1.html">ItemSelection</a>&lt;TItem&gt;</td>
+        <td><p>The current <a class="xref" href="Startitecture.Orm.Model.ItemSelection-1.html">ItemSelection&lt;TItem&gt;</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TSource</span></td>
+        <td><p>The type of item on the left side of the INNER JOIN.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TRelation</span></td>
+        <td><p>The type of item on the right side of the INNER JOIN.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://startitecture.visualstudio.com/_git/storm?path=Startitecture.Orm.Model/ItemSelection.cs&amp;version=GBmaster&amp;line=943">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Model_ItemSelection_1_Intersect_" data-uid="Startitecture.Orm.Model.ItemSelection`1.Intersect*"></a>
+  <h4 id="Startitecture_Orm_Model_ItemSelection_1_Intersect_Startitecture_Orm_Model_ItemSelection__0__" data-uid="Startitecture.Orm.Model.ItemSelection`1.Intersect(Startitecture.Orm.Model.ItemSelection{`0})">Intersect(ItemSelection&lt;TItem&gt;)</h4>
+  <div class="markdown level1 summary"><p>Combines the results of the current selection with the specified selection.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ItemSelection&lt;TItem&gt; Intersect(ItemSelection&lt;TItem&gt; selection)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Model.ItemSelection-1.html">ItemSelection</a>&lt;TItem&gt;</td>
+        <td><span class="parametername">selection</span></td>
+        <td><p>The selection to combine.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Model.ItemSelection-1.html">ItemSelection</a>&lt;TItem&gt;</td>
+        <td><p>The current <a class="xref" href="Startitecture.Orm.Model.ItemSelection-1.html">ItemSelection&lt;TItem&gt;</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://startitecture.visualstudio.com/_git/storm?path=Startitecture.Orm.Model/ItemSelection.cs&amp;version=GBmaster&amp;line=718">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Model_ItemSelection_1_LeftJoin_" data-uid="Startitecture.Orm.Model.ItemSelection`1.LeftJoin*"></a>
+  <h4 id="Startitecture_Orm_Model_ItemSelection_1_LeftJoin_System_Linq_Expressions_Expression_System_Func__0_System_Object___System_Linq_Expressions_Expression_System_Func__0_System_Object___" data-uid="Startitecture.Orm.Model.ItemSelection`1.LeftJoin(System.Linq.Expressions.Expression{System.Func{`0,System.Object}},System.Linq.Expressions.Expression{System.Func{`0,System.Object}})">LeftJoin(Expression&lt;Func&lt;TItem, Object&gt;&gt;, Expression&lt;Func&lt;TItem, Object&gt;&gt;)</h4>
+  <div class="markdown level1 summary"><p>Appends a LEFT JOIN clause to the selection.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ItemSelection&lt;TItem&gt; LeftJoin([NotNull] Expression&lt;Func&lt;TItem, object&gt;&gt; leftSelector, [NotNull] Expression&lt;Func&lt;TItem, object&gt;&gt; rightSelector)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Linq.Expressions.Expression</span>&lt;<span class="xref">System.Func</span>&lt;TItem, <span class="xref">System.Object</span>&gt;&gt;</td>
+        <td><span class="parametername">leftSelector</span></td>
+        <td><p>The left selector of the JOIN clause.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Linq.Expressions.Expression</span>&lt;<span class="xref">System.Func</span>&lt;TItem, <span class="xref">System.Object</span>&gt;&gt;</td>
+        <td><span class="parametername">rightSelector</span></td>
+        <td><p>The right selector of the JOIN clause.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Model.ItemSelection-1.html">ItemSelection</a>&lt;TItem&gt;</td>
+        <td><p>The current <a class="xref" href="Startitecture.Orm.Model.ItemSelection-1.html">ItemSelection&lt;TItem&gt;</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://startitecture.visualstudio.com/_git/storm?path=Startitecture.Orm.Model/ItemSelection.cs&amp;version=GBmaster&amp;line=752">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Model_ItemSelection_1_LeftJoin_" data-uid="Startitecture.Orm.Model.ItemSelection`1.LeftJoin*"></a>
+  <h4 id="Startitecture_Orm_Model_ItemSelection_1_LeftJoin__1_System_Linq_Expressions_Expression_System_Func__0_System_Object___System_Linq_Expressions_Expression_System_Func___0_System_Object___" data-uid="Startitecture.Orm.Model.ItemSelection`1.LeftJoin``1(System.Linq.Expressions.Expression{System.Func{`0,System.Object}},System.Linq.Expressions.Expression{System.Func{``0,System.Object}})">LeftJoin&lt;TRelation&gt;(Expression&lt;Func&lt;TItem, Object&gt;&gt;, Expression&lt;Func&lt;TRelation, Object&gt;&gt;)</h4>
+  <div class="markdown level1 summary"><p>Appends a LEFT JOIN clause to the selection.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ItemSelection&lt;TItem&gt; LeftJoin&lt;TRelation&gt;(Expression&lt;Func&lt;TItem, object&gt;&gt; leftSelector, Expression&lt;Func&lt;TRelation, object&gt;&gt; rightSelector)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Linq.Expressions.Expression</span>&lt;<span class="xref">System.Func</span>&lt;TItem, <span class="xref">System.Object</span>&gt;&gt;</td>
+        <td><span class="parametername">leftSelector</span></td>
+        <td><p>The left selector of the JOIN clause.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Linq.Expressions.Expression</span>&lt;<span class="xref">System.Func</span>&lt;TRelation, <span class="xref">System.Object</span>&gt;&gt;</td>
+        <td><span class="parametername">rightSelector</span></td>
+        <td><p>The right selector of the JOIN clause.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Model.ItemSelection-1.html">ItemSelection</a>&lt;TItem&gt;</td>
+        <td><p>The current <a class="xref" href="Startitecture.Orm.Model.ItemSelection-1.html">ItemSelection&lt;TItem&gt;</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TRelation</span></td>
+        <td><p>The type of item on the right side of the LEFT JOIN.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://startitecture.visualstudio.com/_git/storm?path=Startitecture.Orm.Model/ItemSelection.cs&amp;version=GBmaster&amp;line=789">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Model_ItemSelection_1_LeftJoin_" data-uid="Startitecture.Orm.Model.ItemSelection`1.LeftJoin*"></a>
+  <h4 id="Startitecture_Orm_Model_ItemSelection_1_LeftJoin__1_System_Linq_Expressions_Expression_System_Func__0_System_Object___System_Linq_Expressions_Expression_System_Func___0_System_Object___System_String_" data-uid="Startitecture.Orm.Model.ItemSelection`1.LeftJoin``1(System.Linq.Expressions.Expression{System.Func{`0,System.Object}},System.Linq.Expressions.Expression{System.Func{``0,System.Object}},System.String)">LeftJoin&lt;TRelation&gt;(Expression&lt;Func&lt;TItem, Object&gt;&gt;, Expression&lt;Func&lt;TRelation, Object&gt;&gt;, String)</h4>
+  <div class="markdown level1 summary"><p>Appends a LEFT JOIN clause to the selection.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ItemSelection&lt;TItem&gt; LeftJoin&lt;TRelation&gt;(Expression&lt;Func&lt;TItem, object&gt;&gt; leftSelector, Expression&lt;Func&lt;TRelation, object&gt;&gt; rightSelector, string relationAlias)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Linq.Expressions.Expression</span>&lt;<span class="xref">System.Func</span>&lt;TItem, <span class="xref">System.Object</span>&gt;&gt;</td>
+        <td><span class="parametername">leftSelector</span></td>
+        <td><p>The left selector of the JOIN clause.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Linq.Expressions.Expression</span>&lt;<span class="xref">System.Func</span>&lt;TRelation, <span class="xref">System.Object</span>&gt;&gt;</td>
+        <td><span class="parametername">rightSelector</span></td>
+        <td><p>The right selector of the JOIN clause.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">relationAlias</span></td>
+        <td><p>The alias for the joined entity.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Model.ItemSelection-1.html">ItemSelection</a>&lt;TItem&gt;</td>
+        <td><p>The current <a class="xref" href="Startitecture.Orm.Model.ItemSelection-1.html">ItemSelection&lt;TItem&gt;</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TRelation</span></td>
+        <td><p>The type of item on the right side of the LEFT JOIN.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://startitecture.visualstudio.com/_git/storm?path=Startitecture.Orm.Model/ItemSelection.cs&amp;version=GBmaster&amp;line=828">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Model_ItemSelection_1_LeftJoin_" data-uid="Startitecture.Orm.Model.ItemSelection`1.LeftJoin*"></a>
+  <h4 id="Startitecture_Orm_Model_ItemSelection_1_LeftJoin__2_System_Linq_Expressions_Expression_System_Func___0_System_Object___System_Linq_Expressions_Expression_System_Func___1_System_Object___" data-uid="Startitecture.Orm.Model.ItemSelection`1.LeftJoin``2(System.Linq.Expressions.Expression{System.Func{``0,System.Object}},System.Linq.Expressions.Expression{System.Func{``1,System.Object}})">LeftJoin&lt;TSource, TRelation&gt;(Expression&lt;Func&lt;TSource, Object&gt;&gt;, Expression&lt;Func&lt;TRelation, Object&gt;&gt;)</h4>
+  <div class="markdown level1 summary"><p>Appends a LEFT JOIN clause to the selection. The table represented by <code data-dev-comment-type="typeparamref" class="typeparamref">TSource</code> must already be a
+JOIN member.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ItemSelection&lt;TItem&gt; LeftJoin&lt;TSource, TRelation&gt;(Expression&lt;Func&lt;TSource, object&gt;&gt; leftSelector, Expression&lt;Func&lt;TRelation, object&gt;&gt; rightSelector)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Linq.Expressions.Expression</span>&lt;<span class="xref">System.Func</span>&lt;TSource, <span class="xref">System.Object</span>&gt;&gt;</td>
+        <td><span class="parametername">leftSelector</span></td>
+        <td><p>The left selector of the JOIN clause.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Linq.Expressions.Expression</span>&lt;<span class="xref">System.Func</span>&lt;TRelation, <span class="xref">System.Object</span>&gt;&gt;</td>
+        <td><span class="parametername">rightSelector</span></td>
+        <td><p>The right selector of the JOIN clause.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Model.ItemSelection-1.html">ItemSelection</a>&lt;TItem&gt;</td>
+        <td><p>The current <a class="xref" href="Startitecture.Orm.Model.ItemSelection-1.html">ItemSelection&lt;TItem&gt;</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TSource</span></td>
+        <td><p>The type of item on the left side of the LEFT JOIN.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TRelation</span></td>
+        <td><p>The type of item on the right side of the LEFT JOIN.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://startitecture.visualstudio.com/_git/storm?path=Startitecture.Orm.Model/ItemSelection.cs&amp;version=GBmaster&amp;line=859">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Model_ItemSelection_1_LeftJoin_" data-uid="Startitecture.Orm.Model.ItemSelection`1.LeftJoin*"></a>
+  <h4 id="Startitecture_Orm_Model_ItemSelection_1_LeftJoin__2_System_Linq_Expressions_Expression_System_Func___0_System_Object___System_Linq_Expressions_Expression_System_Func___1_System_Object___System_String_" data-uid="Startitecture.Orm.Model.ItemSelection`1.LeftJoin``2(System.Linq.Expressions.Expression{System.Func{``0,System.Object}},System.Linq.Expressions.Expression{System.Func{``1,System.Object}},System.String)">LeftJoin&lt;TSource, TRelation&gt;(Expression&lt;Func&lt;TSource, Object&gt;&gt;, Expression&lt;Func&lt;TRelation, Object&gt;&gt;, String)</h4>
+  <div class="markdown level1 summary"><p>Appends a LEFT JOIN clause to the selection. The table represented by <code data-dev-comment-type="typeparamref" class="typeparamref">TSource</code> must already be a
+JOIN member.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ItemSelection&lt;TItem&gt; LeftJoin&lt;TSource, TRelation&gt;(Expression&lt;Func&lt;TSource, object&gt;&gt; leftSelector, Expression&lt;Func&lt;TRelation, object&gt;&gt; rightSelector, string joinAlias)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Linq.Expressions.Expression</span>&lt;<span class="xref">System.Func</span>&lt;TSource, <span class="xref">System.Object</span>&gt;&gt;</td>
+        <td><span class="parametername">leftSelector</span></td>
+        <td><p>The left selector of the JOIN clause.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Linq.Expressions.Expression</span>&lt;<span class="xref">System.Func</span>&lt;TRelation, <span class="xref">System.Object</span>&gt;&gt;</td>
+        <td><span class="parametername">rightSelector</span></td>
+        <td><p>The right selector of the JOIN clause.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">joinAlias</span></td>
+        <td><p>The join tableAlias.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Model.ItemSelection-1.html">ItemSelection</a>&lt;TItem&gt;</td>
+        <td><p>The current <a class="xref" href="Startitecture.Orm.Model.ItemSelection-1.html">ItemSelection&lt;TItem&gt;</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TSource</span></td>
+        <td><p>The type of item on the left side of the LEFT JOIN.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TRelation</span></td>
+        <td><p>The type of item on the right side of the LEFT JOIN.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://startitecture.visualstudio.com/_git/storm?path=Startitecture.Orm.Model/ItemSelection.cs&amp;version=GBmaster&amp;line=892">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Model_ItemSelection_1_LeftJoin_" data-uid="Startitecture.Orm.Model.ItemSelection`1.LeftJoin*"></a>
+  <h4 id="Startitecture_Orm_Model_ItemSelection_1_LeftJoin__2_System_Linq_Expressions_Expression_System_Func___0_System_Object___System_String_System_Linq_Expressions_Expression_System_Func___1_System_Object___System_String_" data-uid="Startitecture.Orm.Model.ItemSelection`1.LeftJoin``2(System.Linq.Expressions.Expression{System.Func{``0,System.Object}},System.String,System.Linq.Expressions.Expression{System.Func{``1,System.Object}},System.String)">LeftJoin&lt;TSource, TRelation&gt;(Expression&lt;Func&lt;TSource, Object&gt;&gt;, String, Expression&lt;Func&lt;TRelation, Object&gt;&gt;, String)</h4>
+  <div class="markdown level1 summary"><p>Appends a LEFT JOIN clause to the selection. The table represented by <code data-dev-comment-type="typeparamref" class="typeparamref">TSource</code> must already be a
+JOIN member.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ItemSelection&lt;TItem&gt; LeftJoin&lt;TSource, TRelation&gt;(Expression&lt;Func&lt;TSource, object&gt;&gt; leftSelector, string sourceAlias, Expression&lt;Func&lt;TRelation, object&gt;&gt; rightSelector, string relationAlias)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Linq.Expressions.Expression</span>&lt;<span class="xref">System.Func</span>&lt;TSource, <span class="xref">System.Object</span>&gt;&gt;</td>
+        <td><span class="parametername">leftSelector</span></td>
+        <td><p>The left selector of the JOIN clause.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">sourceAlias</span></td>
+        <td><p>The relation table alias.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Linq.Expressions.Expression</span>&lt;<span class="xref">System.Func</span>&lt;TRelation, <span class="xref">System.Object</span>&gt;&gt;</td>
+        <td><span class="parametername">rightSelector</span></td>
+        <td><p>The right selector of the JOIN clause.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">relationAlias</span></td>
+        <td><p>The join table alias.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Model.ItemSelection-1.html">ItemSelection</a>&lt;TItem&gt;</td>
+        <td><p>The current <a class="xref" href="Startitecture.Orm.Model.ItemSelection-1.html">ItemSelection&lt;TItem&gt;</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TSource</span></td>
+        <td><p>The type of item on the left side of the LEFT JOIN.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TRelation</span></td>
+        <td><p>The type of item on the right side of the LEFT JOIN.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://startitecture.visualstudio.com/_git/storm?path=Startitecture.Orm.Model/ItemSelection.cs&amp;version=GBmaster&amp;line=324">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Model_ItemSelection_1_LessThan_" data-uid="Startitecture.Orm.Model.ItemSelection`1.LessThan*"></a>
+  <h4 id="Startitecture_Orm_Model_ItemSelection_1_LessThan__1_System_Linq_Expressions_Expression_System_Func__0___0_____0_" data-uid="Startitecture.Orm.Model.ItemSelection`1.LessThan``1(System.Linq.Expressions.Expression{System.Func{`0,``0}},``0)">LessThan&lt;TValue&gt;(Expression&lt;Func&lt;TItem, TValue&gt;&gt;, TValue)</h4>
+  <div class="markdown level1 summary"><p>Adds a less than filter for the specified property and <code data-dev-comment-type="paramref" class="paramref">value</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ItemSelection&lt;TItem&gt; LessThan&lt;TValue&gt;([NotNull] Expression&lt;Func&lt;TItem, TValue&gt;&gt; valueExpression, TValue value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Linq.Expressions.Expression</span>&lt;<span class="xref">System.Func</span>&lt;TItem, TValue&gt;&gt;</td>
+        <td><span class="parametername">valueExpression</span></td>
+        <td><p>The value expression.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">TValue</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Model.ItemSelection-1.html">ItemSelection</a>&lt;TItem&gt;</td>
+        <td><p>The current <a class="xref" href="Startitecture.Orm.Model.ItemSelection-1.html">ItemSelection&lt;TItem&gt;</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TValue</span></td>
+        <td><p>The type of value to evaluate.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">valueExpression</code> is null.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://startitecture.visualstudio.com/_git/storm?path=Startitecture.Orm.Model/ItemSelection.cs&amp;version=GBmaster&amp;line=353">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Model_ItemSelection_1_LessThanOrEqualTo_" data-uid="Startitecture.Orm.Model.ItemSelection`1.LessThanOrEqualTo*"></a>
+  <h4 id="Startitecture_Orm_Model_ItemSelection_1_LessThanOrEqualTo__1_System_Linq_Expressions_Expression_System_Func__0___0_____0_" data-uid="Startitecture.Orm.Model.ItemSelection`1.LessThanOrEqualTo``1(System.Linq.Expressions.Expression{System.Func{`0,``0}},``0)">LessThanOrEqualTo&lt;TValue&gt;(Expression&lt;Func&lt;TItem, TValue&gt;&gt;, TValue)</h4>
+  <div class="markdown level1 summary"><p>Adds a less than or equal to filter for the specified property and <code data-dev-comment-type="paramref" class="paramref">value</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ItemSelection&lt;TItem&gt; LessThanOrEqualTo&lt;TValue&gt;([NotNull] Expression&lt;Func&lt;TItem, TValue&gt;&gt; valueExpression, TValue value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Linq.Expressions.Expression</span>&lt;<span class="xref">System.Func</span>&lt;TItem, TValue&gt;&gt;</td>
+        <td><span class="parametername">valueExpression</span></td>
+        <td><p>The value expression.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">TValue</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Model.ItemSelection-1.html">ItemSelection</a>&lt;TItem&gt;</td>
+        <td><p>The current <a class="xref" href="Startitecture.Orm.Model.ItemSelection-1.html">ItemSelection&lt;TItem&gt;</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TValue</span></td>
+        <td><p>The type of value to evaluate.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">valueExpression</code> is null.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://startitecture.visualstudio.com/_git/storm?path=Startitecture.Orm.Model/ItemSelection.cs&amp;version=GBmaster&amp;line=975">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Model_ItemSelection_1_MapTo_" data-uid="Startitecture.Orm.Model.ItemSelection`1.MapTo*"></a>
+  <h4 id="Startitecture_Orm_Model_ItemSelection_1_MapTo__1" data-uid="Startitecture.Orm.Model.ItemSelection`1.MapTo``1">MapTo&lt;TDestItem&gt;()</h4>
+  <div class="markdown level1 summary"><p>Maps the current selection to the target selection type.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ItemSelection&lt;TDestItem&gt; MapTo&lt;TDestItem&gt;()
+    where TDestItem : class, new()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Model.ItemSelection-1.html">ItemSelection</a>&lt;TDestItem&gt;</td>
+        <td><p>An <a class="xref" href="Startitecture.Orm.Model.ItemSelection-1.html">ItemSelection&lt;TItem&gt;</a> for the destination type.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TDestItem</span></td>
+        <td><p>The destination item type.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://startitecture.visualstudio.com/_git/storm?path=Startitecture.Orm.Model/ItemSelection.cs&amp;version=GBmaster&amp;line=171">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Model_ItemSelection_1_Matching_" data-uid="Startitecture.Orm.Model.ItemSelection`1.Matching*"></a>
+  <h4 id="Startitecture_Orm_Model_ItemSelection_1_Matching__0_System_Linq_Expressions_Expression_System_Func__0_System_Object_____" data-uid="Startitecture.Orm.Model.ItemSelection`1.Matching(`0,System.Linq.Expressions.Expression{System.Func{`0,System.Object}}[])">Matching(TItem, Expression&lt;Func&lt;TItem, Object&gt;&gt;[])</h4>
+  <div class="markdown level1 summary"><p>Adds a match filter for the specified example item.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ItemSelection&lt;TItem&gt; Matching(TItem example, params Expression&lt;Func&lt;TItem, object&gt;&gt;[] selectors)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TItem</span></td>
+        <td><span class="parametername">example</span></td>
+        <td><p>The example to match.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Linq.Expressions.Expression</span>&lt;<span class="xref">System.Func</span>&lt;TItem, <span class="xref">System.Object</span>&gt;&gt;[]</td>
+        <td><span class="parametername">selectors</span></td>
+        <td><p>The selectors of the properties to match.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Model.ItemSelection-1.html">ItemSelection</a>&lt;TItem&gt;</td>
+        <td><p>The current <a class="xref" href="Startitecture.Orm.Model.ItemSelection-1.html">ItemSelection&lt;TItem&gt;</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://startitecture.visualstudio.com/_git/storm?path=Startitecture.Orm.Model/ItemSelection.cs&amp;version=GBmaster&amp;line=107">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Model_ItemSelection_1_Select_" data-uid="Startitecture.Orm.Model.ItemSelection`1.Select*"></a>
+  <h4 id="Startitecture_Orm_Model_ItemSelection_1_Select_System_Linq_Expressions_Expression_System_Func__0_System_Object_____" data-uid="Startitecture.Orm.Model.ItemSelection`1.Select(System.Linq.Expressions.Expression{System.Func{`0,System.Object}}[])">Select(Expression&lt;Func&lt;TItem, Object&gt;&gt;[])</h4>
+  <div class="markdown level1 summary"><p>Selects the properties to return with the query.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ItemSelection&lt;TItem&gt; Select(params Expression&lt;Func&lt;TItem, object&gt;&gt;[] selectors)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Linq.Expressions.Expression</span>&lt;<span class="xref">System.Func</span>&lt;TItem, <span class="xref">System.Object</span>&gt;&gt;[]</td>
+        <td><span class="parametername">selectors</span></td>
+        <td><p>The property name selectors. If empty, all properties are returned.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Model.ItemSelection-1.html">ItemSelection</a>&lt;TItem&gt;</td>
+        <td><p>The current <a class="xref" href="Startitecture.Orm.Model.ItemSelection-1.html">ItemSelection&lt;TItem&gt;</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://startitecture.visualstudio.com/_git/storm?path=Startitecture.Orm.Model/ItemSelection.cs&amp;version=GBmaster&amp;line=127">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Model_ItemSelection_1_Select_" data-uid="Startitecture.Orm.Model.ItemSelection`1.Select*"></a>
+  <h4 id="Startitecture_Orm_Model_ItemSelection_1_Select_System_Linq_Expressions_LambdaExpression___" data-uid="Startitecture.Orm.Model.ItemSelection`1.Select(System.Linq.Expressions.LambdaExpression[])">Select(LambdaExpression[])</h4>
+  <div class="markdown level1 summary"><p>Selects the properties to return with the query.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ItemSelection&lt;TItem&gt; Select(params LambdaExpression[] selectors)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Linq.Expressions.LambdaExpression</span>[]</td>
+        <td><span class="parametername">selectors</span></td>
+        <td><p>The property name selectors. If empty, all properties are returned.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Model.ItemSelection-1.html">ItemSelection</a>&lt;TItem&gt;</td>
+        <td><p>The current <a class="xref" href="Startitecture.Orm.Model.ItemSelection-1.html">ItemSelection&lt;TItem&gt;</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://startitecture.visualstudio.com/_git/storm?path=Startitecture.Orm.Model/ItemSelection.cs&amp;version=GBmaster&amp;line=1022">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Model_ItemSelection_1_ToString_" data-uid="Startitecture.Orm.Model.ItemSelection`1.ToString*"></a>
+  <h4 id="Startitecture_Orm_Model_ItemSelection_1_ToString" data-uid="Startitecture.Orm.Model.ItemSelection`1.ToString">ToString()</h4>
+  <div class="markdown level1 summary"><p>Returns a <span class="xref">System.String</span> that represents the current <span class="xref">System.Object</span>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>A <span class="xref">System.String</span> that represents the current <span class="xref">System.Object</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">System.Object.ToString()</span></div>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://startitecture.visualstudio.com/_git/storm?path=Startitecture.Orm.Model/ItemSelection.cs&amp;version=GBmaster&amp;line=928">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Model_ItemSelection_1_Union_" data-uid="Startitecture.Orm.Model.ItemSelection`1.Union*"></a>
+  <h4 id="Startitecture_Orm_Model_ItemSelection_1_Union_Startitecture_Orm_Model_ItemSelection__0__" data-uid="Startitecture.Orm.Model.ItemSelection`1.Union(Startitecture.Orm.Model.ItemSelection{`0})">Union(ItemSelection&lt;TItem&gt;)</h4>
+  <div class="markdown level1 summary"><p>Combines the results of the current selection with the specified selection.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ItemSelection&lt;TItem&gt; Union(ItemSelection&lt;TItem&gt; selection)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Model.ItemSelection-1.html">ItemSelection</a>&lt;TItem&gt;</td>
+        <td><span class="parametername">selection</span></td>
+        <td><p>The selection to combine.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Model.ItemSelection-1.html">ItemSelection</a>&lt;TItem&gt;</td>
+        <td><p>The current <a class="xref" href="Startitecture.Orm.Model.ItemSelection-1.html">ItemSelection&lt;TItem&gt;</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://startitecture.visualstudio.com/_git/storm?path=Startitecture.Orm.Model/ItemSelection.cs&amp;version=GBmaster&amp;line=210">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Model_ItemSelection_1_WhereEqual_" data-uid="Startitecture.Orm.Model.ItemSelection`1.WhereEqual*"></a>
+  <h4 id="Startitecture_Orm_Model_ItemSelection_1_WhereEqual__1_System_Linq_Expressions_Expression_System_Func__0___0_____0_" data-uid="Startitecture.Orm.Model.ItemSelection`1.WhereEqual``1(System.Linq.Expressions.Expression{System.Func{`0,``0}},``0)">WhereEqual&lt;TValue&gt;(Expression&lt;Func&lt;TItem, TValue&gt;&gt;, TValue)</h4>
+  <div class="markdown level1 summary"><p>Adds a equality filter for the specified property.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ItemSelection&lt;TItem&gt; WhereEqual&lt;TValue&gt;([NotNull] Expression&lt;Func&lt;TItem, TValue&gt;&gt; valueExpression, TValue value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Linq.Expressions.Expression</span>&lt;<span class="xref">System.Func</span>&lt;TItem, TValue&gt;&gt;</td>
+        <td><span class="parametername">valueExpression</span></td>
+        <td><p>The value expression.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">TValue</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value to match.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Model.ItemSelection-1.html">ItemSelection</a>&lt;TItem&gt;</td>
+        <td><p>The current <a class="xref" href="Startitecture.Orm.Model.ItemSelection-1.html">ItemSelection&lt;TItem&gt;</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TValue</span></td>
+        <td><p>The type of the value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">valueExpression</code> is null.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://startitecture.visualstudio.com/_git/storm?path=Startitecture.Orm.Model/ItemSelection.cs&amp;version=GBmaster&amp;line=233">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Model_ItemSelection_1_WhereEqual_" data-uid="Startitecture.Orm.Model.ItemSelection`1.WhereEqual*"></a>
+  <h4 id="Startitecture_Orm_Model_ItemSelection_1_WhereEqual__1_System_Linq_Expressions_LambdaExpression___0_" data-uid="Startitecture.Orm.Model.ItemSelection`1.WhereEqual``1(System.Linq.Expressions.LambdaExpression,``0)">WhereEqual&lt;TValue&gt;(LambdaExpression, TValue)</h4>
+  <div class="markdown level1 summary"><p>Adds a equality filter for the specified property.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ItemSelection&lt;TItem&gt; WhereEqual&lt;TValue&gt;([NotNull] LambdaExpression valueExpression, TValue value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Linq.Expressions.LambdaExpression</span></td>
+        <td><span class="parametername">valueExpression</span></td>
+        <td><p>The value expression.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">TValue</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value to match.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Model.ItemSelection-1.html">ItemSelection</a>&lt;TItem&gt;</td>
+        <td><p>The current <a class="xref" href="Startitecture.Orm.Model.ItemSelection-1.html">ItemSelection&lt;TItem&gt;</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TValue</span></td>
+        <td><p>The type of the value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">valueExpression</code> is null.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="Startitecture.Orm.Model.ExtensionMethods.html#Startitecture_Orm_Model_ExtensionMethods_AsSelect__1_Startitecture_Orm_Model_ItemSelection___0__">ExtensionMethods.AsSelect&lt;TItem&gt;(ItemSelection&lt;TItem&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Startitecture.Orm.Model.ExtensionMethods.html#Startitecture_Orm_Model_ExtensionMethods_AsContains__1_Startitecture_Orm_Model_ItemSelection___0__">ExtensionMethods.AsContains&lt;TItem&gt;(ItemSelection&lt;TItem&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Startitecture.Orm.Model.ExtensionMethods.html#Startitecture_Orm_Model_ExtensionMethods_AsDelete__1_Startitecture_Orm_Model_ItemSelection___0__">ExtensionMethods.AsDelete&lt;TItem&gt;(ItemSelection&lt;TItem&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Startitecture.Orm.Testing.Moq.ExtensionMethods.html#Startitecture_Orm_Testing_Moq_ExtensionMethods_MockDataReader__1___0_System_Collections_Generic_IEnumerable_Startitecture_Orm_Model_EntityAttributeDefinition__">ExtensionMethods.MockDataReader&lt;T&gt;(T, IEnumerable&lt;EntityAttributeDefinition&gt;)</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://startitecture.visualstudio.com/_git/storm?path=Startitecture.Orm.Model/ItemSelection.cs&amp;version=GBmaster&amp;line=28" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
