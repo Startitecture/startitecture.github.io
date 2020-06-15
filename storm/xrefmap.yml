@@ -2434,56 +2434,6 @@ references:
   fullName.vb: Startitecture.Orm.Common.IDatabaseContext.ExecuteScalar(Of T)(System.String, System.Object())
   nameWithType: IDatabaseContext.ExecuteScalar<T>(String, Object[])
   nameWithType.vb: IDatabaseContext.ExecuteScalar(Of T)(String, Object())
-- uid: Startitecture.Orm.Common.IDatabaseContext.Fetch*
-  name: Fetch
-  href: api/Startitecture.Orm.Common.IDatabaseContext.html#Startitecture_Orm_Common_IDatabaseContext_Fetch_
-  commentId: Overload:Startitecture.Orm.Common.IDatabaseContext.Fetch
-  isSpec: "True"
-  fullName: Startitecture.Orm.Common.IDatabaseContext.Fetch
-  nameWithType: IDatabaseContext.Fetch
-- uid: Startitecture.Orm.Common.IDatabaseContext.Fetch``1(System.Int64,System.Int64,System.String,System.Object[])
-  name: Fetch<T>(Int64, Int64, String, Object[])
-  href: api/Startitecture.Orm.Common.IDatabaseContext.html#Startitecture_Orm_Common_IDatabaseContext_Fetch__1_System_Int64_System_Int64_System_String_System_Object___
-  commentId: M:Startitecture.Orm.Common.IDatabaseContext.Fetch``1(System.Int64,System.Int64,System.String,System.Object[])
-  name.vb: Fetch(Of T)(Int64, Int64, String, Object())
-  fullName: Startitecture.Orm.Common.IDatabaseContext.Fetch<T>(System.Int64, System.Int64, System.String, System.Object[])
-  fullName.vb: Startitecture.Orm.Common.IDatabaseContext.Fetch(Of T)(System.Int64, System.Int64, System.String, System.Object())
-  nameWithType: IDatabaseContext.Fetch<T>(Int64, Int64, String, Object[])
-  nameWithType.vb: IDatabaseContext.Fetch(Of T)(Int64, Int64, String, Object())
-- uid: Startitecture.Orm.Common.IDatabaseContext.Fetch``1(System.String,System.Object[])
-  name: Fetch<T>(String, Object[])
-  href: api/Startitecture.Orm.Common.IDatabaseContext.html#Startitecture_Orm_Common_IDatabaseContext_Fetch__1_System_String_System_Object___
-  commentId: M:Startitecture.Orm.Common.IDatabaseContext.Fetch``1(System.String,System.Object[])
-  name.vb: Fetch(Of T)(String, Object())
-  fullName: Startitecture.Orm.Common.IDatabaseContext.Fetch<T>(System.String, System.Object[])
-  fullName.vb: Startitecture.Orm.Common.IDatabaseContext.Fetch(Of T)(System.String, System.Object())
-  nameWithType: IDatabaseContext.Fetch<T>(String, Object[])
-  nameWithType.vb: IDatabaseContext.Fetch(Of T)(String, Object())
-- uid: Startitecture.Orm.Common.IDatabaseContext.FetchPage*
-  name: FetchPage
-  href: api/Startitecture.Orm.Common.IDatabaseContext.html#Startitecture_Orm_Common_IDatabaseContext_FetchPage_
-  commentId: Overload:Startitecture.Orm.Common.IDatabaseContext.FetchPage
-  isSpec: "True"
-  fullName: Startitecture.Orm.Common.IDatabaseContext.FetchPage
-  nameWithType: IDatabaseContext.FetchPage
-- uid: Startitecture.Orm.Common.IDatabaseContext.FetchPage``1(System.Int64,System.Int64,System.String,System.Object[])
-  name: FetchPage<T>(Int64, Int64, String, Object[])
-  href: api/Startitecture.Orm.Common.IDatabaseContext.html#Startitecture_Orm_Common_IDatabaseContext_FetchPage__1_System_Int64_System_Int64_System_String_System_Object___
-  commentId: M:Startitecture.Orm.Common.IDatabaseContext.FetchPage``1(System.Int64,System.Int64,System.String,System.Object[])
-  name.vb: FetchPage(Of T)(Int64, Int64, String, Object())
-  fullName: Startitecture.Orm.Common.IDatabaseContext.FetchPage<T>(System.Int64, System.Int64, System.String, System.Object[])
-  fullName.vb: Startitecture.Orm.Common.IDatabaseContext.FetchPage(Of T)(System.Int64, System.Int64, System.String, System.Object())
-  nameWithType: IDatabaseContext.FetchPage<T>(Int64, Int64, String, Object[])
-  nameWithType.vb: IDatabaseContext.FetchPage(Of T)(Int64, Int64, String, Object())
-- uid: Startitecture.Orm.Common.IDatabaseContext.FetchPage``1(System.Int64,System.Int64,System.String,System.Object[],System.String,System.Object[])
-  name: FetchPage<T>(Int64, Int64, String, Object[], String, Object[])
-  href: api/Startitecture.Orm.Common.IDatabaseContext.html#Startitecture_Orm_Common_IDatabaseContext_FetchPage__1_System_Int64_System_Int64_System_String_System_Object___System_String_System_Object___
-  commentId: M:Startitecture.Orm.Common.IDatabaseContext.FetchPage``1(System.Int64,System.Int64,System.String,System.Object[],System.String,System.Object[])
-  name.vb: FetchPage(Of T)(Int64, Int64, String, Object(), String, Object())
-  fullName: Startitecture.Orm.Common.IDatabaseContext.FetchPage<T>(System.Int64, System.Int64, System.String, System.Object[], System.String, System.Object[])
-  fullName.vb: Startitecture.Orm.Common.IDatabaseContext.FetchPage(Of T)(System.Int64, System.Int64, System.String, System.Object(), System.String, System.Object())
-  nameWithType: IDatabaseContext.FetchPage<T>(Int64, Int64, String, Object[], String, Object[])
-  nameWithType.vb: IDatabaseContext.FetchPage(Of T)(Int64, Int64, String, Object(), String, Object())
 - uid: Startitecture.Orm.Common.IDatabaseContext.First*
   name: First
   href: api/Startitecture.Orm.Common.IDatabaseContext.html#Startitecture_Orm_Common_IDatabaseContext_First_
@@ -2574,54 +2524,38 @@ references:
   fullName.vb: Startitecture.Orm.Common.IDatabaseContext.Query(Of T)(System.String, System.Object())
   nameWithType: IDatabaseContext.Query<T>(String, Object[])
   nameWithType.vb: IDatabaseContext.Query(Of T)(String, Object())
-- uid: Startitecture.Orm.Common.IDatabaseContext.SkipTake*
-  name: SkipTake
-  href: api/Startitecture.Orm.Common.IDatabaseContext.html#Startitecture_Orm_Common_IDatabaseContext_SkipTake_
-  commentId: Overload:Startitecture.Orm.Common.IDatabaseContext.SkipTake
+- uid: Startitecture.Orm.Common.IDatabaseContext.Single*
+  name: Single
+  href: api/Startitecture.Orm.Common.IDatabaseContext.html#Startitecture_Orm_Common_IDatabaseContext_Single_
+  commentId: Overload:Startitecture.Orm.Common.IDatabaseContext.Single
   isSpec: "True"
-  fullName: Startitecture.Orm.Common.IDatabaseContext.SkipTake
-  nameWithType: IDatabaseContext.SkipTake
-- uid: Startitecture.Orm.Common.IDatabaseContext.SkipTake``1(System.Int64,System.Int64,System.String,System.Object[])
-  name: SkipTake<T>(Int64, Int64, String, Object[])
-  href: api/Startitecture.Orm.Common.IDatabaseContext.html#Startitecture_Orm_Common_IDatabaseContext_SkipTake__1_System_Int64_System_Int64_System_String_System_Object___
-  commentId: M:Startitecture.Orm.Common.IDatabaseContext.SkipTake``1(System.Int64,System.Int64,System.String,System.Object[])
-  name.vb: SkipTake(Of T)(Int64, Int64, String, Object())
-  fullName: Startitecture.Orm.Common.IDatabaseContext.SkipTake<T>(System.Int64, System.Int64, System.String, System.Object[])
-  fullName.vb: Startitecture.Orm.Common.IDatabaseContext.SkipTake(Of T)(System.Int64, System.Int64, System.String, System.Object())
-  nameWithType: IDatabaseContext.SkipTake<T>(Int64, Int64, String, Object[])
-  nameWithType.vb: IDatabaseContext.SkipTake(Of T)(Int64, Int64, String, Object())
-- uid: Startitecture.Orm.Common.IDatabaseContext.Unique*
-  name: Unique
-  href: api/Startitecture.Orm.Common.IDatabaseContext.html#Startitecture_Orm_Common_IDatabaseContext_Unique_
-  commentId: Overload:Startitecture.Orm.Common.IDatabaseContext.Unique
+  fullName: Startitecture.Orm.Common.IDatabaseContext.Single
+  nameWithType: IDatabaseContext.Single
+- uid: Startitecture.Orm.Common.IDatabaseContext.Single``1(System.String,System.Object[])
+  name: Single<T>(String, Object[])
+  href: api/Startitecture.Orm.Common.IDatabaseContext.html#Startitecture_Orm_Common_IDatabaseContext_Single__1_System_String_System_Object___
+  commentId: M:Startitecture.Orm.Common.IDatabaseContext.Single``1(System.String,System.Object[])
+  name.vb: Single(Of T)(String, Object())
+  fullName: Startitecture.Orm.Common.IDatabaseContext.Single<T>(System.String, System.Object[])
+  fullName.vb: Startitecture.Orm.Common.IDatabaseContext.Single(Of T)(System.String, System.Object())
+  nameWithType: IDatabaseContext.Single<T>(String, Object[])
+  nameWithType.vb: IDatabaseContext.Single(Of T)(String, Object())
+- uid: Startitecture.Orm.Common.IDatabaseContext.SingleOrDefault*
+  name: SingleOrDefault
+  href: api/Startitecture.Orm.Common.IDatabaseContext.html#Startitecture_Orm_Common_IDatabaseContext_SingleOrDefault_
+  commentId: Overload:Startitecture.Orm.Common.IDatabaseContext.SingleOrDefault
   isSpec: "True"
-  fullName: Startitecture.Orm.Common.IDatabaseContext.Unique
-  nameWithType: IDatabaseContext.Unique
-- uid: Startitecture.Orm.Common.IDatabaseContext.Unique``1(System.String,System.Object[])
-  name: Unique<T>(String, Object[])
-  href: api/Startitecture.Orm.Common.IDatabaseContext.html#Startitecture_Orm_Common_IDatabaseContext_Unique__1_System_String_System_Object___
-  commentId: M:Startitecture.Orm.Common.IDatabaseContext.Unique``1(System.String,System.Object[])
-  name.vb: Unique(Of T)(String, Object())
-  fullName: Startitecture.Orm.Common.IDatabaseContext.Unique<T>(System.String, System.Object[])
-  fullName.vb: Startitecture.Orm.Common.IDatabaseContext.Unique(Of T)(System.String, System.Object())
-  nameWithType: IDatabaseContext.Unique<T>(String, Object[])
-  nameWithType.vb: IDatabaseContext.Unique(Of T)(String, Object())
-- uid: Startitecture.Orm.Common.IDatabaseContext.UniqueOrDefault*
-  name: UniqueOrDefault
-  href: api/Startitecture.Orm.Common.IDatabaseContext.html#Startitecture_Orm_Common_IDatabaseContext_UniqueOrDefault_
-  commentId: Overload:Startitecture.Orm.Common.IDatabaseContext.UniqueOrDefault
-  isSpec: "True"
-  fullName: Startitecture.Orm.Common.IDatabaseContext.UniqueOrDefault
-  nameWithType: IDatabaseContext.UniqueOrDefault
-- uid: Startitecture.Orm.Common.IDatabaseContext.UniqueOrDefault``1(System.String,System.Object[])
-  name: UniqueOrDefault<T>(String, Object[])
-  href: api/Startitecture.Orm.Common.IDatabaseContext.html#Startitecture_Orm_Common_IDatabaseContext_UniqueOrDefault__1_System_String_System_Object___
-  commentId: M:Startitecture.Orm.Common.IDatabaseContext.UniqueOrDefault``1(System.String,System.Object[])
-  name.vb: UniqueOrDefault(Of T)(String, Object())
-  fullName: Startitecture.Orm.Common.IDatabaseContext.UniqueOrDefault<T>(System.String, System.Object[])
-  fullName.vb: Startitecture.Orm.Common.IDatabaseContext.UniqueOrDefault(Of T)(System.String, System.Object())
-  nameWithType: IDatabaseContext.UniqueOrDefault<T>(String, Object[])
-  nameWithType.vb: IDatabaseContext.UniqueOrDefault(Of T)(String, Object())
+  fullName: Startitecture.Orm.Common.IDatabaseContext.SingleOrDefault
+  nameWithType: IDatabaseContext.SingleOrDefault
+- uid: Startitecture.Orm.Common.IDatabaseContext.SingleOrDefault``1(System.String,System.Object[])
+  name: SingleOrDefault<T>(String, Object[])
+  href: api/Startitecture.Orm.Common.IDatabaseContext.html#Startitecture_Orm_Common_IDatabaseContext_SingleOrDefault__1_System_String_System_Object___
+  commentId: M:Startitecture.Orm.Common.IDatabaseContext.SingleOrDefault``1(System.String,System.Object[])
+  name.vb: SingleOrDefault(Of T)(String, Object())
+  fullName: Startitecture.Orm.Common.IDatabaseContext.SingleOrDefault<T>(System.String, System.Object[])
+  fullName.vb: Startitecture.Orm.Common.IDatabaseContext.SingleOrDefault(Of T)(System.String, System.Object())
+  nameWithType: IDatabaseContext.SingleOrDefault<T>(String, Object[])
+  nameWithType.vb: IDatabaseContext.SingleOrDefault(Of T)(String, Object())
 - uid: Startitecture.Orm.Common.IDatabaseContextProvider
   name: IDatabaseContextProvider
   href: api/Startitecture.Orm.Common.IDatabaseContextProvider.html
@@ -2746,15 +2680,6 @@ references:
   fullName.vb: Startitecture.Orm.Common.IRepositoryAdapter.SelectItems(Of TDataItem)(Startitecture.Orm.Model.ItemSelection(Of TDataItem))
   nameWithType: IRepositoryAdapter.SelectItems<TDataItem>(ItemSelection<TDataItem>)
   nameWithType.vb: IRepositoryAdapter.SelectItems(Of TDataItem)(ItemSelection(Of TDataItem))
-- uid: Startitecture.Orm.Common.IRepositoryAdapter.SelectItems``1(Startitecture.Orm.Model.ItemSelection{``0},System.Int64,System.Int64)
-  name: SelectItems<TDataItem>(ItemSelection<TDataItem>, Int64, Int64)
-  href: api/Startitecture.Orm.Common.IRepositoryAdapter.html#Startitecture_Orm_Common_IRepositoryAdapter_SelectItems__1_Startitecture_Orm_Model_ItemSelection___0__System_Int64_System_Int64_
-  commentId: M:Startitecture.Orm.Common.IRepositoryAdapter.SelectItems``1(Startitecture.Orm.Model.ItemSelection{``0},System.Int64,System.Int64)
-  name.vb: SelectItems(Of TDataItem)(ItemSelection(Of TDataItem), Int64, Int64)
-  fullName: Startitecture.Orm.Common.IRepositoryAdapter.SelectItems<TDataItem>(Startitecture.Orm.Model.ItemSelection<TDataItem>, System.Int64, System.Int64)
-  fullName.vb: Startitecture.Orm.Common.IRepositoryAdapter.SelectItems(Of TDataItem)(Startitecture.Orm.Model.ItemSelection(Of TDataItem), System.Int64, System.Int64)
-  nameWithType: IRepositoryAdapter.SelectItems<TDataItem>(ItemSelection<TDataItem>, Int64, Int64)
-  nameWithType.vb: IRepositoryAdapter.SelectItems(Of TDataItem)(ItemSelection(Of TDataItem), Int64, Int64)
 - uid: Startitecture.Orm.Common.IRepositoryAdapter.Update*
   name: Update
   href: api/Startitecture.Orm.Common.IRepositoryAdapter.html#Startitecture_Orm_Common_IRepositoryAdapter_Update_
@@ -3218,56 +3143,6 @@ references:
   fullName.vb: Startitecture.Orm.Mapper.Database.ExecuteScalar(Of T)(System.String, System.Object())
   nameWithType: Database.ExecuteScalar<T>(String, Object[])
   nameWithType.vb: Database.ExecuteScalar(Of T)(String, Object())
-- uid: Startitecture.Orm.Mapper.Database.Fetch*
-  name: Fetch
-  href: api/Startitecture.Orm.Mapper.Database.html#Startitecture_Orm_Mapper_Database_Fetch_
-  commentId: Overload:Startitecture.Orm.Mapper.Database.Fetch
-  isSpec: "True"
-  fullName: Startitecture.Orm.Mapper.Database.Fetch
-  nameWithType: Database.Fetch
-- uid: Startitecture.Orm.Mapper.Database.Fetch``1(System.Int64,System.Int64,System.String,System.Object[])
-  name: Fetch<T>(Int64, Int64, String, Object[])
-  href: api/Startitecture.Orm.Mapper.Database.html#Startitecture_Orm_Mapper_Database_Fetch__1_System_Int64_System_Int64_System_String_System_Object___
-  commentId: M:Startitecture.Orm.Mapper.Database.Fetch``1(System.Int64,System.Int64,System.String,System.Object[])
-  name.vb: Fetch(Of T)(Int64, Int64, String, Object())
-  fullName: Startitecture.Orm.Mapper.Database.Fetch<T>(System.Int64, System.Int64, System.String, System.Object[])
-  fullName.vb: Startitecture.Orm.Mapper.Database.Fetch(Of T)(System.Int64, System.Int64, System.String, System.Object())
-  nameWithType: Database.Fetch<T>(Int64, Int64, String, Object[])
-  nameWithType.vb: Database.Fetch(Of T)(Int64, Int64, String, Object())
-- uid: Startitecture.Orm.Mapper.Database.Fetch``1(System.String,System.Object[])
-  name: Fetch<T>(String, Object[])
-  href: api/Startitecture.Orm.Mapper.Database.html#Startitecture_Orm_Mapper_Database_Fetch__1_System_String_System_Object___
-  commentId: M:Startitecture.Orm.Mapper.Database.Fetch``1(System.String,System.Object[])
-  name.vb: Fetch(Of T)(String, Object())
-  fullName: Startitecture.Orm.Mapper.Database.Fetch<T>(System.String, System.Object[])
-  fullName.vb: Startitecture.Orm.Mapper.Database.Fetch(Of T)(System.String, System.Object())
-  nameWithType: Database.Fetch<T>(String, Object[])
-  nameWithType.vb: Database.Fetch(Of T)(String, Object())
-- uid: Startitecture.Orm.Mapper.Database.FetchPage*
-  name: FetchPage
-  href: api/Startitecture.Orm.Mapper.Database.html#Startitecture_Orm_Mapper_Database_FetchPage_
-  commentId: Overload:Startitecture.Orm.Mapper.Database.FetchPage
-  isSpec: "True"
-  fullName: Startitecture.Orm.Mapper.Database.FetchPage
-  nameWithType: Database.FetchPage
-- uid: Startitecture.Orm.Mapper.Database.FetchPage``1(System.Int64,System.Int64,System.String,System.Object[])
-  name: FetchPage<T>(Int64, Int64, String, Object[])
-  href: api/Startitecture.Orm.Mapper.Database.html#Startitecture_Orm_Mapper_Database_FetchPage__1_System_Int64_System_Int64_System_String_System_Object___
-  commentId: M:Startitecture.Orm.Mapper.Database.FetchPage``1(System.Int64,System.Int64,System.String,System.Object[])
-  name.vb: FetchPage(Of T)(Int64, Int64, String, Object())
-  fullName: Startitecture.Orm.Mapper.Database.FetchPage<T>(System.Int64, System.Int64, System.String, System.Object[])
-  fullName.vb: Startitecture.Orm.Mapper.Database.FetchPage(Of T)(System.Int64, System.Int64, System.String, System.Object())
-  nameWithType: Database.FetchPage<T>(Int64, Int64, String, Object[])
-  nameWithType.vb: Database.FetchPage(Of T)(Int64, Int64, String, Object())
-- uid: Startitecture.Orm.Mapper.Database.FetchPage``1(System.Int64,System.Int64,System.String,System.Object[],System.String,System.Object[])
-  name: FetchPage<T>(Int64, Int64, String, Object[], String, Object[])
-  href: api/Startitecture.Orm.Mapper.Database.html#Startitecture_Orm_Mapper_Database_FetchPage__1_System_Int64_System_Int64_System_String_System_Object___System_String_System_Object___
-  commentId: M:Startitecture.Orm.Mapper.Database.FetchPage``1(System.Int64,System.Int64,System.String,System.Object[],System.String,System.Object[])
-  name.vb: FetchPage(Of T)(Int64, Int64, String, Object(), String, Object())
-  fullName: Startitecture.Orm.Mapper.Database.FetchPage<T>(System.Int64, System.Int64, System.String, System.Object[], System.String, System.Object[])
-  fullName.vb: Startitecture.Orm.Mapper.Database.FetchPage(Of T)(System.Int64, System.Int64, System.String, System.Object(), System.String, System.Object())
-  nameWithType: Database.FetchPage<T>(Int64, Int64, String, Object[], String, Object[])
-  nameWithType.vb: Database.FetchPage(Of T)(Int64, Int64, String, Object(), String, Object())
 - uid: Startitecture.Orm.Mapper.Database.First*
   name: First
   href: api/Startitecture.Orm.Mapper.Database.html#Startitecture_Orm_Mapper_Database_First_
@@ -3358,54 +3233,38 @@ references:
   fullName.vb: Startitecture.Orm.Mapper.Database.Query(Of T)(System.String, System.Object())
   nameWithType: Database.Query<T>(String, Object[])
   nameWithType.vb: Database.Query(Of T)(String, Object())
-- uid: Startitecture.Orm.Mapper.Database.SkipTake*
-  name: SkipTake
-  href: api/Startitecture.Orm.Mapper.Database.html#Startitecture_Orm_Mapper_Database_SkipTake_
-  commentId: Overload:Startitecture.Orm.Mapper.Database.SkipTake
+- uid: Startitecture.Orm.Mapper.Database.Single*
+  name: Single
+  href: api/Startitecture.Orm.Mapper.Database.html#Startitecture_Orm_Mapper_Database_Single_
+  commentId: Overload:Startitecture.Orm.Mapper.Database.Single
   isSpec: "True"
-  fullName: Startitecture.Orm.Mapper.Database.SkipTake
-  nameWithType: Database.SkipTake
-- uid: Startitecture.Orm.Mapper.Database.SkipTake``1(System.Int64,System.Int64,System.String,System.Object[])
-  name: SkipTake<T>(Int64, Int64, String, Object[])
-  href: api/Startitecture.Orm.Mapper.Database.html#Startitecture_Orm_Mapper_Database_SkipTake__1_System_Int64_System_Int64_System_String_System_Object___
-  commentId: M:Startitecture.Orm.Mapper.Database.SkipTake``1(System.Int64,System.Int64,System.String,System.Object[])
-  name.vb: SkipTake(Of T)(Int64, Int64, String, Object())
-  fullName: Startitecture.Orm.Mapper.Database.SkipTake<T>(System.Int64, System.Int64, System.String, System.Object[])
-  fullName.vb: Startitecture.Orm.Mapper.Database.SkipTake(Of T)(System.Int64, System.Int64, System.String, System.Object())
-  nameWithType: Database.SkipTake<T>(Int64, Int64, String, Object[])
-  nameWithType.vb: Database.SkipTake(Of T)(Int64, Int64, String, Object())
-- uid: Startitecture.Orm.Mapper.Database.Unique*
-  name: Unique
-  href: api/Startitecture.Orm.Mapper.Database.html#Startitecture_Orm_Mapper_Database_Unique_
-  commentId: Overload:Startitecture.Orm.Mapper.Database.Unique
+  fullName: Startitecture.Orm.Mapper.Database.Single
+  nameWithType: Database.Single
+- uid: Startitecture.Orm.Mapper.Database.Single``1(System.String,System.Object[])
+  name: Single<T>(String, Object[])
+  href: api/Startitecture.Orm.Mapper.Database.html#Startitecture_Orm_Mapper_Database_Single__1_System_String_System_Object___
+  commentId: M:Startitecture.Orm.Mapper.Database.Single``1(System.String,System.Object[])
+  name.vb: Single(Of T)(String, Object())
+  fullName: Startitecture.Orm.Mapper.Database.Single<T>(System.String, System.Object[])
+  fullName.vb: Startitecture.Orm.Mapper.Database.Single(Of T)(System.String, System.Object())
+  nameWithType: Database.Single<T>(String, Object[])
+  nameWithType.vb: Database.Single(Of T)(String, Object())
+- uid: Startitecture.Orm.Mapper.Database.SingleOrDefault*
+  name: SingleOrDefault
+  href: api/Startitecture.Orm.Mapper.Database.html#Startitecture_Orm_Mapper_Database_SingleOrDefault_
+  commentId: Overload:Startitecture.Orm.Mapper.Database.SingleOrDefault
   isSpec: "True"
-  fullName: Startitecture.Orm.Mapper.Database.Unique
-  nameWithType: Database.Unique
-- uid: Startitecture.Orm.Mapper.Database.Unique``1(System.String,System.Object[])
-  name: Unique<T>(String, Object[])
-  href: api/Startitecture.Orm.Mapper.Database.html#Startitecture_Orm_Mapper_Database_Unique__1_System_String_System_Object___
-  commentId: M:Startitecture.Orm.Mapper.Database.Unique``1(System.String,System.Object[])
-  name.vb: Unique(Of T)(String, Object())
-  fullName: Startitecture.Orm.Mapper.Database.Unique<T>(System.String, System.Object[])
-  fullName.vb: Startitecture.Orm.Mapper.Database.Unique(Of T)(System.String, System.Object())
-  nameWithType: Database.Unique<T>(String, Object[])
-  nameWithType.vb: Database.Unique(Of T)(String, Object())
-- uid: Startitecture.Orm.Mapper.Database.UniqueOrDefault*
-  name: UniqueOrDefault
-  href: api/Startitecture.Orm.Mapper.Database.html#Startitecture_Orm_Mapper_Database_UniqueOrDefault_
-  commentId: Overload:Startitecture.Orm.Mapper.Database.UniqueOrDefault
-  isSpec: "True"
-  fullName: Startitecture.Orm.Mapper.Database.UniqueOrDefault
-  nameWithType: Database.UniqueOrDefault
-- uid: Startitecture.Orm.Mapper.Database.UniqueOrDefault``1(System.String,System.Object[])
-  name: UniqueOrDefault<T>(String, Object[])
-  href: api/Startitecture.Orm.Mapper.Database.html#Startitecture_Orm_Mapper_Database_UniqueOrDefault__1_System_String_System_Object___
-  commentId: M:Startitecture.Orm.Mapper.Database.UniqueOrDefault``1(System.String,System.Object[])
-  name.vb: UniqueOrDefault(Of T)(String, Object())
-  fullName: Startitecture.Orm.Mapper.Database.UniqueOrDefault<T>(System.String, System.Object[])
-  fullName.vb: Startitecture.Orm.Mapper.Database.UniqueOrDefault(Of T)(System.String, System.Object())
-  nameWithType: Database.UniqueOrDefault<T>(String, Object[])
-  nameWithType.vb: Database.UniqueOrDefault(Of T)(String, Object())
+  fullName: Startitecture.Orm.Mapper.Database.SingleOrDefault
+  nameWithType: Database.SingleOrDefault
+- uid: Startitecture.Orm.Mapper.Database.SingleOrDefault``1(System.String,System.Object[])
+  name: SingleOrDefault<T>(String, Object[])
+  href: api/Startitecture.Orm.Mapper.Database.html#Startitecture_Orm_Mapper_Database_SingleOrDefault__1_System_String_System_Object___
+  commentId: M:Startitecture.Orm.Mapper.Database.SingleOrDefault``1(System.String,System.Object[])
+  name.vb: SingleOrDefault(Of T)(String, Object())
+  fullName: Startitecture.Orm.Mapper.Database.SingleOrDefault<T>(System.String, System.Object[])
+  fullName.vb: Startitecture.Orm.Mapper.Database.SingleOrDefault(Of T)(System.String, System.Object())
+  nameWithType: Database.SingleOrDefault<T>(String, Object[])
+  nameWithType.vb: Database.SingleOrDefault(Of T)(String, Object())
 - uid: Startitecture.Orm.Mapper.DatabaseRepositoryProvider
   name: DatabaseRepositoryProvider
   href: api/Startitecture.Orm.Mapper.DatabaseRepositoryProvider.html
@@ -3636,15 +3495,6 @@ references:
   fullName.vb: Startitecture.Orm.Mapper.DatabaseRepositoryProvider.GetSelection(Of TDataItem)(Startitecture.Orm.Model.ItemSelection(Of TDataItem))
   nameWithType: DatabaseRepositoryProvider.GetSelection<TDataItem>(ItemSelection<TDataItem>)
   nameWithType.vb: DatabaseRepositoryProvider.GetSelection(Of TDataItem)(ItemSelection(Of TDataItem))
-- uid: Startitecture.Orm.Mapper.DatabaseRepositoryProvider.GetSelection``1(Startitecture.Orm.Model.ItemSelection{``0},System.Int64,System.Int64)
-  name: GetSelection<TDataItem>(ItemSelection<TDataItem>, Int64, Int64)
-  href: api/Startitecture.Orm.Mapper.DatabaseRepositoryProvider.html#Startitecture_Orm_Mapper_DatabaseRepositoryProvider_GetSelection__1_Startitecture_Orm_Model_ItemSelection___0__System_Int64_System_Int64_
-  commentId: M:Startitecture.Orm.Mapper.DatabaseRepositoryProvider.GetSelection``1(Startitecture.Orm.Model.ItemSelection{``0},System.Int64,System.Int64)
-  name.vb: GetSelection(Of TDataItem)(ItemSelection(Of TDataItem), Int64, Int64)
-  fullName: Startitecture.Orm.Mapper.DatabaseRepositoryProvider.GetSelection<TDataItem>(Startitecture.Orm.Model.ItemSelection<TDataItem>, System.Int64, System.Int64)
-  fullName.vb: Startitecture.Orm.Mapper.DatabaseRepositoryProvider.GetSelection(Of TDataItem)(Startitecture.Orm.Model.ItemSelection(Of TDataItem), System.Int64, System.Int64)
-  nameWithType: DatabaseRepositoryProvider.GetSelection<TDataItem>(ItemSelection<TDataItem>, Int64, Int64)
-  nameWithType.vb: DatabaseRepositoryProvider.GetSelection(Of TDataItem)(ItemSelection(Of TDataItem), Int64, Int64)
 - uid: Startitecture.Orm.Mapper.DatabaseRepositoryProvider.InsertItem*
   name: InsertItem
   href: api/Startitecture.Orm.Mapper.DatabaseRepositoryProvider.html#Startitecture_Orm_Mapper_DatabaseRepositoryProvider_InsertItem_
@@ -6097,18 +5947,18 @@ references:
   commentId: F:Startitecture.Orm.Model.FilterType.Inequality
   fullName: Startitecture.Orm.Model.FilterType.Inequality
   nameWithType: FilterType.Inequality
-- uid: Startitecture.Orm.Model.FilterType.IsNotSet
-  name: IsNotSet
-  href: api/Startitecture.Orm.Model.FilterType.html#Startitecture_Orm_Model_FilterType_IsNotSet
-  commentId: F:Startitecture.Orm.Model.FilterType.IsNotSet
-  fullName: Startitecture.Orm.Model.FilterType.IsNotSet
-  nameWithType: FilterType.IsNotSet
-- uid: Startitecture.Orm.Model.FilterType.IsSet
-  name: IsSet
-  href: api/Startitecture.Orm.Model.FilterType.html#Startitecture_Orm_Model_FilterType_IsSet
-  commentId: F:Startitecture.Orm.Model.FilterType.IsSet
-  fullName: Startitecture.Orm.Model.FilterType.IsSet
-  nameWithType: FilterType.IsSet
+- uid: Startitecture.Orm.Model.FilterType.IsNotNull
+  name: IsNotNull
+  href: api/Startitecture.Orm.Model.FilterType.html#Startitecture_Orm_Model_FilterType_IsNotNull
+  commentId: F:Startitecture.Orm.Model.FilterType.IsNotNull
+  fullName: Startitecture.Orm.Model.FilterType.IsNotNull
+  nameWithType: FilterType.IsNotNull
+- uid: Startitecture.Orm.Model.FilterType.IsNull
+  name: IsNull
+  href: api/Startitecture.Orm.Model.FilterType.html#Startitecture_Orm_Model_FilterType_IsNull
+  commentId: F:Startitecture.Orm.Model.FilterType.IsNull
+  fullName: Startitecture.Orm.Model.FilterType.IsNull
+  nameWithType: FilterType.IsNull
 - uid: Startitecture.Orm.Model.FilterType.LessThan
   name: LessThan
   href: api/Startitecture.Orm.Model.FilterType.html#Startitecture_Orm_Model_FilterType_LessThan
@@ -6932,15 +6782,6 @@ references:
   fullName.vb: Startitecture.Orm.Model.IRepositoryProvider.GetSelection(Of TDataItem)(Startitecture.Orm.Model.ItemSelection(Of TDataItem))
   nameWithType: IRepositoryProvider.GetSelection<TDataItem>(ItemSelection<TDataItem>)
   nameWithType.vb: IRepositoryProvider.GetSelection(Of TDataItem)(ItemSelection(Of TDataItem))
-- uid: Startitecture.Orm.Model.IRepositoryProvider.GetSelection``1(Startitecture.Orm.Model.ItemSelection{``0},System.Int64,System.Int64)
-  name: GetSelection<TDataItem>(ItemSelection<TDataItem>, Int64, Int64)
-  href: api/Startitecture.Orm.Model.IRepositoryProvider.html#Startitecture_Orm_Model_IRepositoryProvider_GetSelection__1_Startitecture_Orm_Model_ItemSelection___0__System_Int64_System_Int64_
-  commentId: M:Startitecture.Orm.Model.IRepositoryProvider.GetSelection``1(Startitecture.Orm.Model.ItemSelection{``0},System.Int64,System.Int64)
-  name.vb: GetSelection(Of TDataItem)(ItemSelection(Of TDataItem), Int64, Int64)
-  fullName: Startitecture.Orm.Model.IRepositoryProvider.GetSelection<TDataItem>(Startitecture.Orm.Model.ItemSelection<TDataItem>, System.Int64, System.Int64)
-  fullName.vb: Startitecture.Orm.Model.IRepositoryProvider.GetSelection(Of TDataItem)(Startitecture.Orm.Model.ItemSelection(Of TDataItem), System.Int64, System.Int64)
-  nameWithType: IRepositoryProvider.GetSelection<TDataItem>(ItemSelection<TDataItem>, Int64, Int64)
-  nameWithType.vb: IRepositoryProvider.GetSelection(Of TDataItem)(ItemSelection(Of TDataItem), Int64, Int64)
 - uid: Startitecture.Orm.Model.IRepositoryProvider.InsertItem*
   name: InsertItem
   href: api/Startitecture.Orm.Model.IRepositoryProvider.html#Startitecture_Orm_Model_IRepositoryProvider_InsertItem_
@@ -7040,6 +6881,103 @@ references:
   isSpec: "True"
   fullName: Startitecture.Orm.Model.IRepositoryProviderFactory.Create
   nameWithType: IRepositoryProviderFactory.Create
+- uid: Startitecture.Orm.Model.ISelection
+  name: ISelection
+  href: api/Startitecture.Orm.Model.ISelection.html
+  commentId: T:Startitecture.Orm.Model.ISelection
+  fullName: Startitecture.Orm.Model.ISelection
+  nameWithType: ISelection
+- uid: Startitecture.Orm.Model.ISelection.Filters
+  name: Filters
+  href: api/Startitecture.Orm.Model.ISelection.html#Startitecture_Orm_Model_ISelection_Filters
+  commentId: P:Startitecture.Orm.Model.ISelection.Filters
+  fullName: Startitecture.Orm.Model.ISelection.Filters
+  nameWithType: ISelection.Filters
+- uid: Startitecture.Orm.Model.ISelection.Filters*
+  name: Filters
+  href: api/Startitecture.Orm.Model.ISelection.html#Startitecture_Orm_Model_ISelection_Filters_
+  commentId: Overload:Startitecture.Orm.Model.ISelection.Filters
+  isSpec: "True"
+  fullName: Startitecture.Orm.Model.ISelection.Filters
+  nameWithType: ISelection.Filters
+- uid: Startitecture.Orm.Model.ISelection.LinkedSelection
+  name: LinkedSelection
+  href: api/Startitecture.Orm.Model.ISelection.html#Startitecture_Orm_Model_ISelection_LinkedSelection
+  commentId: P:Startitecture.Orm.Model.ISelection.LinkedSelection
+  fullName: Startitecture.Orm.Model.ISelection.LinkedSelection
+  nameWithType: ISelection.LinkedSelection
+- uid: Startitecture.Orm.Model.ISelection.LinkedSelection*
+  name: LinkedSelection
+  href: api/Startitecture.Orm.Model.ISelection.html#Startitecture_Orm_Model_ISelection_LinkedSelection_
+  commentId: Overload:Startitecture.Orm.Model.ISelection.LinkedSelection
+  isSpec: "True"
+  fullName: Startitecture.Orm.Model.ISelection.LinkedSelection
+  nameWithType: ISelection.LinkedSelection
+- uid: Startitecture.Orm.Model.ISelection.OrderByExpressions
+  name: OrderByExpressions
+  href: api/Startitecture.Orm.Model.ISelection.html#Startitecture_Orm_Model_ISelection_OrderByExpressions
+  commentId: P:Startitecture.Orm.Model.ISelection.OrderByExpressions
+  fullName: Startitecture.Orm.Model.ISelection.OrderByExpressions
+  nameWithType: ISelection.OrderByExpressions
+- uid: Startitecture.Orm.Model.ISelection.OrderByExpressions*
+  name: OrderByExpressions
+  href: api/Startitecture.Orm.Model.ISelection.html#Startitecture_Orm_Model_ISelection_OrderByExpressions_
+  commentId: Overload:Startitecture.Orm.Model.ISelection.OrderByExpressions
+  isSpec: "True"
+  fullName: Startitecture.Orm.Model.ISelection.OrderByExpressions
+  nameWithType: ISelection.OrderByExpressions
+- uid: Startitecture.Orm.Model.ISelection.Page
+  name: Page
+  href: api/Startitecture.Orm.Model.ISelection.html#Startitecture_Orm_Model_ISelection_Page
+  commentId: P:Startitecture.Orm.Model.ISelection.Page
+  fullName: Startitecture.Orm.Model.ISelection.Page
+  nameWithType: ISelection.Page
+- uid: Startitecture.Orm.Model.ISelection.Page*
+  name: Page
+  href: api/Startitecture.Orm.Model.ISelection.html#Startitecture_Orm_Model_ISelection_Page_
+  commentId: Overload:Startitecture.Orm.Model.ISelection.Page
+  isSpec: "True"
+  fullName: Startitecture.Orm.Model.ISelection.Page
+  nameWithType: ISelection.Page
+- uid: Startitecture.Orm.Model.ISelection.PropertyValues
+  name: PropertyValues
+  href: api/Startitecture.Orm.Model.ISelection.html#Startitecture_Orm_Model_ISelection_PropertyValues
+  commentId: P:Startitecture.Orm.Model.ISelection.PropertyValues
+  fullName: Startitecture.Orm.Model.ISelection.PropertyValues
+  nameWithType: ISelection.PropertyValues
+- uid: Startitecture.Orm.Model.ISelection.PropertyValues*
+  name: PropertyValues
+  href: api/Startitecture.Orm.Model.ISelection.html#Startitecture_Orm_Model_ISelection_PropertyValues_
+  commentId: Overload:Startitecture.Orm.Model.ISelection.PropertyValues
+  isSpec: "True"
+  fullName: Startitecture.Orm.Model.ISelection.PropertyValues
+  nameWithType: ISelection.PropertyValues
+- uid: Startitecture.Orm.Model.ISelection.Relations
+  name: Relations
+  href: api/Startitecture.Orm.Model.ISelection.html#Startitecture_Orm_Model_ISelection_Relations
+  commentId: P:Startitecture.Orm.Model.ISelection.Relations
+  fullName: Startitecture.Orm.Model.ISelection.Relations
+  nameWithType: ISelection.Relations
+- uid: Startitecture.Orm.Model.ISelection.Relations*
+  name: Relations
+  href: api/Startitecture.Orm.Model.ISelection.html#Startitecture_Orm_Model_ISelection_Relations_
+  commentId: Overload:Startitecture.Orm.Model.ISelection.Relations
+  isSpec: "True"
+  fullName: Startitecture.Orm.Model.ISelection.Relations
+  nameWithType: ISelection.Relations
+- uid: Startitecture.Orm.Model.ISelection.SelectExpressions
+  name: SelectExpressions
+  href: api/Startitecture.Orm.Model.ISelection.html#Startitecture_Orm_Model_ISelection_SelectExpressions
+  commentId: P:Startitecture.Orm.Model.ISelection.SelectExpressions
+  fullName: Startitecture.Orm.Model.ISelection.SelectExpressions
+  nameWithType: ISelection.SelectExpressions
+- uid: Startitecture.Orm.Model.ISelection.SelectExpressions*
+  name: SelectExpressions
+  href: api/Startitecture.Orm.Model.ISelection.html#Startitecture_Orm_Model_ISelection_SelectExpressions_
+  commentId: Overload:Startitecture.Orm.Model.ISelection.SelectExpressions
+  isSpec: "True"
+  fullName: Startitecture.Orm.Model.ISelection.SelectExpressions
+  nameWithType: ISelection.SelectExpressions
 - uid: Startitecture.Orm.Model.ItemSelection`1
   name: ItemSelection<TItem>
   href: api/Startitecture.Orm.Model.ItemSelection-1.html
@@ -7110,23 +7048,6 @@ references:
   fullName.vb: Startitecture.Orm.Model.ItemSelection(Of TItem).Between(Of TValue)(System.Linq.Expressions.Expression(Of System.Func(Of TItem, TValue)), TValue, TValue)
   nameWithType: ItemSelection<TItem>.Between<TValue>(Expression<Func<TItem, TValue>>, TValue, TValue)
   nameWithType.vb: ItemSelection(Of TItem).Between(Of TValue)(Expression(Of Func(Of TItem, TValue)), TValue, TValue)
-- uid: Startitecture.Orm.Model.ItemSelection`1.ClearRelations
-  name: ClearRelations()
-  href: api/Startitecture.Orm.Model.ItemSelection-1.html#Startitecture_Orm_Model_ItemSelection_1_ClearRelations
-  commentId: M:Startitecture.Orm.Model.ItemSelection`1.ClearRelations
-  fullName: Startitecture.Orm.Model.ItemSelection<TItem>.ClearRelations()
-  fullName.vb: Startitecture.Orm.Model.ItemSelection(Of TItem).ClearRelations()
-  nameWithType: ItemSelection<TItem>.ClearRelations()
-  nameWithType.vb: ItemSelection(Of TItem).ClearRelations()
-- uid: Startitecture.Orm.Model.ItemSelection`1.ClearRelations*
-  name: ClearRelations
-  href: api/Startitecture.Orm.Model.ItemSelection-1.html#Startitecture_Orm_Model_ItemSelection_1_ClearRelations_
-  commentId: Overload:Startitecture.Orm.Model.ItemSelection`1.ClearRelations
-  isSpec: "True"
-  fullName: Startitecture.Orm.Model.ItemSelection<TItem>.ClearRelations
-  fullName.vb: Startitecture.Orm.Model.ItemSelection(Of TItem).ClearRelations
-  nameWithType: ItemSelection<TItem>.ClearRelations
-  nameWithType.vb: ItemSelection(Of TItem).ClearRelations
 - uid: Startitecture.Orm.Model.ItemSelection`1.Except(Startitecture.Orm.Model.ItemSelection{`0})
   name: Except(ItemSelection<TItem>)
   href: api/Startitecture.Orm.Model.ItemSelection-1.html#Startitecture_Orm_Model_ItemSelection_1_Except_Startitecture_Orm_Model_ItemSelection__0__
@@ -7396,23 +7317,6 @@ references:
   fullName.vb: Startitecture.Orm.Model.ItemSelection(Of TItem).LessThanOrEqualTo(Of TValue)(System.Linq.Expressions.Expression(Of System.Func(Of TItem, TValue)), TValue)
   nameWithType: ItemSelection<TItem>.LessThanOrEqualTo<TValue>(Expression<Func<TItem, TValue>>, TValue)
   nameWithType.vb: ItemSelection(Of TItem).LessThanOrEqualTo(Of TValue)(Expression(Of Func(Of TItem, TValue)), TValue)
-- uid: Startitecture.Orm.Model.ItemSelection`1.Limit
-  name: Limit
-  href: api/Startitecture.Orm.Model.ItemSelection-1.html#Startitecture_Orm_Model_ItemSelection_1_Limit
-  commentId: P:Startitecture.Orm.Model.ItemSelection`1.Limit
-  fullName: Startitecture.Orm.Model.ItemSelection<TItem>.Limit
-  fullName.vb: Startitecture.Orm.Model.ItemSelection(Of TItem).Limit
-  nameWithType: ItemSelection<TItem>.Limit
-  nameWithType.vb: ItemSelection(Of TItem).Limit
-- uid: Startitecture.Orm.Model.ItemSelection`1.Limit*
-  name: Limit
-  href: api/Startitecture.Orm.Model.ItemSelection-1.html#Startitecture_Orm_Model_ItemSelection_1_Limit_
-  commentId: Overload:Startitecture.Orm.Model.ItemSelection`1.Limit
-  isSpec: "True"
-  fullName: Startitecture.Orm.Model.ItemSelection<TItem>.Limit
-  fullName.vb: Startitecture.Orm.Model.ItemSelection(Of TItem).Limit
-  nameWithType: ItemSelection<TItem>.Limit
-  nameWithType.vb: ItemSelection(Of TItem).Limit
 - uid: Startitecture.Orm.Model.ItemSelection`1.LinkedSelection
   name: LinkedSelection
   href: api/Startitecture.Orm.Model.ItemSelection-1.html#Startitecture_Orm_Model_ItemSelection_1_LinkedSelection
@@ -7466,6 +7370,76 @@ references:
   fullName.vb: Startitecture.Orm.Model.ItemSelection(Of TItem).Matching
   nameWithType: ItemSelection<TItem>.Matching
   nameWithType.vb: ItemSelection(Of TItem).Matching
+- uid: Startitecture.Orm.Model.ItemSelection`1.OrderBy(System.Linq.Expressions.Expression{System.Func{`0,System.Object}})
+  name: OrderBy(Expression<Func<TItem, Object>>)
+  href: api/Startitecture.Orm.Model.ItemSelection-1.html#Startitecture_Orm_Model_ItemSelection_1_OrderBy_System_Linq_Expressions_Expression_System_Func__0_System_Object___
+  commentId: M:Startitecture.Orm.Model.ItemSelection`1.OrderBy(System.Linq.Expressions.Expression{System.Func{`0,System.Object}})
+  name.vb: OrderBy(Expression(Of Func(Of TItem, Object)))
+  fullName: Startitecture.Orm.Model.ItemSelection<TItem>.OrderBy(System.Linq.Expressions.Expression<System.Func<TItem, System.Object>>)
+  fullName.vb: Startitecture.Orm.Model.ItemSelection(Of TItem).OrderBy(System.Linq.Expressions.Expression(Of System.Func(Of TItem, System.Object)))
+  nameWithType: ItemSelection<TItem>.OrderBy(Expression<Func<TItem, Object>>)
+  nameWithType.vb: ItemSelection(Of TItem).OrderBy(Expression(Of Func(Of TItem, Object)))
+- uid: Startitecture.Orm.Model.ItemSelection`1.OrderBy*
+  name: OrderBy
+  href: api/Startitecture.Orm.Model.ItemSelection-1.html#Startitecture_Orm_Model_ItemSelection_1_OrderBy_
+  commentId: Overload:Startitecture.Orm.Model.ItemSelection`1.OrderBy
+  isSpec: "True"
+  fullName: Startitecture.Orm.Model.ItemSelection<TItem>.OrderBy
+  fullName.vb: Startitecture.Orm.Model.ItemSelection(Of TItem).OrderBy
+  nameWithType: ItemSelection<TItem>.OrderBy
+  nameWithType.vb: ItemSelection(Of TItem).OrderBy
+- uid: Startitecture.Orm.Model.ItemSelection`1.OrderByDescending(System.Linq.Expressions.Expression{System.Func{`0,System.Object}})
+  name: OrderByDescending(Expression<Func<TItem, Object>>)
+  href: api/Startitecture.Orm.Model.ItemSelection-1.html#Startitecture_Orm_Model_ItemSelection_1_OrderByDescending_System_Linq_Expressions_Expression_System_Func__0_System_Object___
+  commentId: M:Startitecture.Orm.Model.ItemSelection`1.OrderByDescending(System.Linq.Expressions.Expression{System.Func{`0,System.Object}})
+  name.vb: OrderByDescending(Expression(Of Func(Of TItem, Object)))
+  fullName: Startitecture.Orm.Model.ItemSelection<TItem>.OrderByDescending(System.Linq.Expressions.Expression<System.Func<TItem, System.Object>>)
+  fullName.vb: Startitecture.Orm.Model.ItemSelection(Of TItem).OrderByDescending(System.Linq.Expressions.Expression(Of System.Func(Of TItem, System.Object)))
+  nameWithType: ItemSelection<TItem>.OrderByDescending(Expression<Func<TItem, Object>>)
+  nameWithType.vb: ItemSelection(Of TItem).OrderByDescending(Expression(Of Func(Of TItem, Object)))
+- uid: Startitecture.Orm.Model.ItemSelection`1.OrderByDescending*
+  name: OrderByDescending
+  href: api/Startitecture.Orm.Model.ItemSelection-1.html#Startitecture_Orm_Model_ItemSelection_1_OrderByDescending_
+  commentId: Overload:Startitecture.Orm.Model.ItemSelection`1.OrderByDescending
+  isSpec: "True"
+  fullName: Startitecture.Orm.Model.ItemSelection<TItem>.OrderByDescending
+  fullName.vb: Startitecture.Orm.Model.ItemSelection(Of TItem).OrderByDescending
+  nameWithType: ItemSelection<TItem>.OrderByDescending
+  nameWithType.vb: ItemSelection(Of TItem).OrderByDescending
+- uid: Startitecture.Orm.Model.ItemSelection`1.OrderByExpressions
+  name: OrderByExpressions
+  href: api/Startitecture.Orm.Model.ItemSelection-1.html#Startitecture_Orm_Model_ItemSelection_1_OrderByExpressions
+  commentId: P:Startitecture.Orm.Model.ItemSelection`1.OrderByExpressions
+  fullName: Startitecture.Orm.Model.ItemSelection<TItem>.OrderByExpressions
+  fullName.vb: Startitecture.Orm.Model.ItemSelection(Of TItem).OrderByExpressions
+  nameWithType: ItemSelection<TItem>.OrderByExpressions
+  nameWithType.vb: ItemSelection(Of TItem).OrderByExpressions
+- uid: Startitecture.Orm.Model.ItemSelection`1.OrderByExpressions*
+  name: OrderByExpressions
+  href: api/Startitecture.Orm.Model.ItemSelection-1.html#Startitecture_Orm_Model_ItemSelection_1_OrderByExpressions_
+  commentId: Overload:Startitecture.Orm.Model.ItemSelection`1.OrderByExpressions
+  isSpec: "True"
+  fullName: Startitecture.Orm.Model.ItemSelection<TItem>.OrderByExpressions
+  fullName.vb: Startitecture.Orm.Model.ItemSelection(Of TItem).OrderByExpressions
+  nameWithType: ItemSelection<TItem>.OrderByExpressions
+  nameWithType.vb: ItemSelection(Of TItem).OrderByExpressions
+- uid: Startitecture.Orm.Model.ItemSelection`1.Page
+  name: Page
+  href: api/Startitecture.Orm.Model.ItemSelection-1.html#Startitecture_Orm_Model_ItemSelection_1_Page
+  commentId: P:Startitecture.Orm.Model.ItemSelection`1.Page
+  fullName: Startitecture.Orm.Model.ItemSelection<TItem>.Page
+  fullName.vb: Startitecture.Orm.Model.ItemSelection(Of TItem).Page
+  nameWithType: ItemSelection<TItem>.Page
+  nameWithType.vb: ItemSelection(Of TItem).Page
+- uid: Startitecture.Orm.Model.ItemSelection`1.Page*
+  name: Page
+  href: api/Startitecture.Orm.Model.ItemSelection-1.html#Startitecture_Orm_Model_ItemSelection_1_Page_
+  commentId: Overload:Startitecture.Orm.Model.ItemSelection`1.Page
+  isSpec: "True"
+  fullName: Startitecture.Orm.Model.ItemSelection<TItem>.Page
+  fullName.vb: Startitecture.Orm.Model.ItemSelection(Of TItem).Page
+  nameWithType: ItemSelection<TItem>.Page
+  nameWithType.vb: ItemSelection(Of TItem).Page
 - uid: Startitecture.Orm.Model.ItemSelection`1.PropertyValues
   name: PropertyValues
   href: api/Startitecture.Orm.Model.ItemSelection-1.html#Startitecture_Orm_Model_ItemSelection_1_PropertyValues
@@ -7509,15 +7483,6 @@ references:
   fullName.vb: Startitecture.Orm.Model.ItemSelection(Of TItem).Select(System.Linq.Expressions.Expression(Of System.Func(Of TItem, System.Object))())
   nameWithType: ItemSelection<TItem>.Select(Expression<Func<TItem, Object>>[])
   nameWithType.vb: ItemSelection(Of TItem).Select(Expression(Of Func(Of TItem, Object))())
-- uid: Startitecture.Orm.Model.ItemSelection`1.Select(System.Linq.Expressions.LambdaExpression[])
-  name: Select(LambdaExpression[])
-  href: api/Startitecture.Orm.Model.ItemSelection-1.html#Startitecture_Orm_Model_ItemSelection_1_Select_System_Linq_Expressions_LambdaExpression___
-  commentId: M:Startitecture.Orm.Model.ItemSelection`1.Select(System.Linq.Expressions.LambdaExpression[])
-  name.vb: Select(LambdaExpression())
-  fullName: Startitecture.Orm.Model.ItemSelection<TItem>.Select(System.Linq.Expressions.LambdaExpression[])
-  fullName.vb: Startitecture.Orm.Model.ItemSelection(Of TItem).Select(System.Linq.Expressions.LambdaExpression())
-  nameWithType: ItemSelection<TItem>.Select(LambdaExpression[])
-  nameWithType.vb: ItemSelection(Of TItem).Select(LambdaExpression())
 - uid: Startitecture.Orm.Model.ItemSelection`1.Select*
   name: Select
   href: api/Startitecture.Orm.Model.ItemSelection-1.html#Startitecture_Orm_Model_ItemSelection_1_Select_
@@ -7544,6 +7509,40 @@ references:
   fullName.vb: Startitecture.Orm.Model.ItemSelection(Of TItem).SelectExpressions
   nameWithType: ItemSelection<TItem>.SelectExpressions
   nameWithType.vb: ItemSelection(Of TItem).SelectExpressions
+- uid: Startitecture.Orm.Model.ItemSelection`1.Skip(System.Int32)
+  name: Skip(Int32)
+  href: api/Startitecture.Orm.Model.ItemSelection-1.html#Startitecture_Orm_Model_ItemSelection_1_Skip_System_Int32_
+  commentId: M:Startitecture.Orm.Model.ItemSelection`1.Skip(System.Int32)
+  fullName: Startitecture.Orm.Model.ItemSelection<TItem>.Skip(System.Int32)
+  fullName.vb: Startitecture.Orm.Model.ItemSelection(Of TItem).Skip(System.Int32)
+  nameWithType: ItemSelection<TItem>.Skip(Int32)
+  nameWithType.vb: ItemSelection(Of TItem).Skip(Int32)
+- uid: Startitecture.Orm.Model.ItemSelection`1.Skip*
+  name: Skip
+  href: api/Startitecture.Orm.Model.ItemSelection-1.html#Startitecture_Orm_Model_ItemSelection_1_Skip_
+  commentId: Overload:Startitecture.Orm.Model.ItemSelection`1.Skip
+  isSpec: "True"
+  fullName: Startitecture.Orm.Model.ItemSelection<TItem>.Skip
+  fullName.vb: Startitecture.Orm.Model.ItemSelection(Of TItem).Skip
+  nameWithType: ItemSelection<TItem>.Skip
+  nameWithType.vb: ItemSelection(Of TItem).Skip
+- uid: Startitecture.Orm.Model.ItemSelection`1.Take(System.Int32)
+  name: Take(Int32)
+  href: api/Startitecture.Orm.Model.ItemSelection-1.html#Startitecture_Orm_Model_ItemSelection_1_Take_System_Int32_
+  commentId: M:Startitecture.Orm.Model.ItemSelection`1.Take(System.Int32)
+  fullName: Startitecture.Orm.Model.ItemSelection<TItem>.Take(System.Int32)
+  fullName.vb: Startitecture.Orm.Model.ItemSelection(Of TItem).Take(System.Int32)
+  nameWithType: ItemSelection<TItem>.Take(Int32)
+  nameWithType.vb: ItemSelection(Of TItem).Take(Int32)
+- uid: Startitecture.Orm.Model.ItemSelection`1.Take*
+  name: Take
+  href: api/Startitecture.Orm.Model.ItemSelection-1.html#Startitecture_Orm_Model_ItemSelection_1_Take_
+  commentId: Overload:Startitecture.Orm.Model.ItemSelection`1.Take
+  isSpec: "True"
+  fullName: Startitecture.Orm.Model.ItemSelection<TItem>.Take
+  fullName.vb: Startitecture.Orm.Model.ItemSelection(Of TItem).Take
+  nameWithType: ItemSelection<TItem>.Take
+  nameWithType.vb: ItemSelection(Of TItem).Take
 - uid: Startitecture.Orm.Model.ItemSelection`1.ToString
   name: ToString()
   href: api/Startitecture.Orm.Model.ItemSelection-1.html#Startitecture_Orm_Model_ItemSelection_1_ToString
@@ -7638,213 +7637,115 @@ references:
   isSpec: "True"
   fullName: Startitecture.Orm.Model.ITransactionContext.TransactionProvider
   nameWithType: ITransactionContext.TransactionProvider
-- uid: Startitecture.Orm.Model.LinkedSelection`1
-  name: LinkedSelection<TItem>
-  href: api/Startitecture.Orm.Model.LinkedSelection-1.html
-  commentId: T:Startitecture.Orm.Model.LinkedSelection`1
-  name.vb: LinkedSelection(Of TItem)
-  fullName: Startitecture.Orm.Model.LinkedSelection<TItem>
-  fullName.vb: Startitecture.Orm.Model.LinkedSelection(Of TItem)
-  nameWithType: LinkedSelection<TItem>
-  nameWithType.vb: LinkedSelection(Of TItem)
-- uid: Startitecture.Orm.Model.LinkedSelection`1.#ctor(Startitecture.Orm.Model.ItemSelection{`0},Startitecture.Orm.Model.SelectionLinkType)
-  name: LinkedSelection(ItemSelection<TItem>, SelectionLinkType)
-  href: api/Startitecture.Orm.Model.LinkedSelection-1.html#Startitecture_Orm_Model_LinkedSelection_1__ctor_Startitecture_Orm_Model_ItemSelection__0__Startitecture_Orm_Model_SelectionLinkType_
-  commentId: M:Startitecture.Orm.Model.LinkedSelection`1.#ctor(Startitecture.Orm.Model.ItemSelection{`0},Startitecture.Orm.Model.SelectionLinkType)
-  name.vb: LinkedSelection(ItemSelection(Of TItem), SelectionLinkType)
-  fullName: Startitecture.Orm.Model.LinkedSelection<TItem>.LinkedSelection(Startitecture.Orm.Model.ItemSelection<TItem>, Startitecture.Orm.Model.SelectionLinkType)
-  fullName.vb: Startitecture.Orm.Model.LinkedSelection(Of TItem).LinkedSelection(Startitecture.Orm.Model.ItemSelection(Of TItem), Startitecture.Orm.Model.SelectionLinkType)
-  nameWithType: LinkedSelection<TItem>.LinkedSelection(ItemSelection<TItem>, SelectionLinkType)
-  nameWithType.vb: LinkedSelection(Of TItem).LinkedSelection(ItemSelection(Of TItem), SelectionLinkType)
-- uid: Startitecture.Orm.Model.LinkedSelection`1.#ctor*
+- uid: Startitecture.Orm.Model.LinkedSelection
   name: LinkedSelection
-  href: api/Startitecture.Orm.Model.LinkedSelection-1.html#Startitecture_Orm_Model_LinkedSelection_1__ctor_
-  commentId: Overload:Startitecture.Orm.Model.LinkedSelection`1.#ctor
+  href: api/Startitecture.Orm.Model.LinkedSelection.html
+  commentId: T:Startitecture.Orm.Model.LinkedSelection
+  fullName: Startitecture.Orm.Model.LinkedSelection
+  nameWithType: LinkedSelection
+- uid: Startitecture.Orm.Model.LinkedSelection.#ctor(Startitecture.Orm.Model.ISelection,Startitecture.Orm.Model.SelectionLinkType)
+  name: LinkedSelection(ISelection, SelectionLinkType)
+  href: api/Startitecture.Orm.Model.LinkedSelection.html#Startitecture_Orm_Model_LinkedSelection__ctor_Startitecture_Orm_Model_ISelection_Startitecture_Orm_Model_SelectionLinkType_
+  commentId: M:Startitecture.Orm.Model.LinkedSelection.#ctor(Startitecture.Orm.Model.ISelection,Startitecture.Orm.Model.SelectionLinkType)
+  fullName: Startitecture.Orm.Model.LinkedSelection.LinkedSelection(Startitecture.Orm.Model.ISelection, Startitecture.Orm.Model.SelectionLinkType)
+  nameWithType: LinkedSelection.LinkedSelection(ISelection, SelectionLinkType)
+- uid: Startitecture.Orm.Model.LinkedSelection.#ctor*
+  name: LinkedSelection
+  href: api/Startitecture.Orm.Model.LinkedSelection.html#Startitecture_Orm_Model_LinkedSelection__ctor_
+  commentId: Overload:Startitecture.Orm.Model.LinkedSelection.#ctor
   isSpec: "True"
-  fullName: Startitecture.Orm.Model.LinkedSelection<TItem>.LinkedSelection
-  fullName.vb: Startitecture.Orm.Model.LinkedSelection(Of TItem).LinkedSelection
-  nameWithType: LinkedSelection<TItem>.LinkedSelection
-  nameWithType.vb: LinkedSelection(Of TItem).LinkedSelection
-- uid: Startitecture.Orm.Model.LinkedSelection`1.LinkType
+  fullName: Startitecture.Orm.Model.LinkedSelection.LinkedSelection
+  nameWithType: LinkedSelection.LinkedSelection
+- uid: Startitecture.Orm.Model.LinkedSelection.LinkType
   name: LinkType
-  href: api/Startitecture.Orm.Model.LinkedSelection-1.html#Startitecture_Orm_Model_LinkedSelection_1_LinkType
-  commentId: P:Startitecture.Orm.Model.LinkedSelection`1.LinkType
-  fullName: Startitecture.Orm.Model.LinkedSelection<TItem>.LinkType
-  fullName.vb: Startitecture.Orm.Model.LinkedSelection(Of TItem).LinkType
-  nameWithType: LinkedSelection<TItem>.LinkType
-  nameWithType.vb: LinkedSelection(Of TItem).LinkType
-- uid: Startitecture.Orm.Model.LinkedSelection`1.LinkType*
+  href: api/Startitecture.Orm.Model.LinkedSelection.html#Startitecture_Orm_Model_LinkedSelection_LinkType
+  commentId: P:Startitecture.Orm.Model.LinkedSelection.LinkType
+  fullName: Startitecture.Orm.Model.LinkedSelection.LinkType
+  nameWithType: LinkedSelection.LinkType
+- uid: Startitecture.Orm.Model.LinkedSelection.LinkType*
   name: LinkType
-  href: api/Startitecture.Orm.Model.LinkedSelection-1.html#Startitecture_Orm_Model_LinkedSelection_1_LinkType_
-  commentId: Overload:Startitecture.Orm.Model.LinkedSelection`1.LinkType
+  href: api/Startitecture.Orm.Model.LinkedSelection.html#Startitecture_Orm_Model_LinkedSelection_LinkType_
+  commentId: Overload:Startitecture.Orm.Model.LinkedSelection.LinkType
   isSpec: "True"
-  fullName: Startitecture.Orm.Model.LinkedSelection<TItem>.LinkType
-  fullName.vb: Startitecture.Orm.Model.LinkedSelection(Of TItem).LinkType
-  nameWithType: LinkedSelection<TItem>.LinkType
-  nameWithType.vb: LinkedSelection(Of TItem).LinkType
-- uid: Startitecture.Orm.Model.LinkedSelection`1.Selection
+  fullName: Startitecture.Orm.Model.LinkedSelection.LinkType
+  nameWithType: LinkedSelection.LinkType
+- uid: Startitecture.Orm.Model.LinkedSelection.Selection
   name: Selection
-  href: api/Startitecture.Orm.Model.LinkedSelection-1.html#Startitecture_Orm_Model_LinkedSelection_1_Selection
-  commentId: P:Startitecture.Orm.Model.LinkedSelection`1.Selection
-  fullName: Startitecture.Orm.Model.LinkedSelection<TItem>.Selection
-  fullName.vb: Startitecture.Orm.Model.LinkedSelection(Of TItem).Selection
-  nameWithType: LinkedSelection<TItem>.Selection
-  nameWithType.vb: LinkedSelection(Of TItem).Selection
-- uid: Startitecture.Orm.Model.LinkedSelection`1.Selection*
+  href: api/Startitecture.Orm.Model.LinkedSelection.html#Startitecture_Orm_Model_LinkedSelection_Selection
+  commentId: P:Startitecture.Orm.Model.LinkedSelection.Selection
+  fullName: Startitecture.Orm.Model.LinkedSelection.Selection
+  nameWithType: LinkedSelection.Selection
+- uid: Startitecture.Orm.Model.LinkedSelection.Selection*
   name: Selection
-  href: api/Startitecture.Orm.Model.LinkedSelection-1.html#Startitecture_Orm_Model_LinkedSelection_1_Selection_
-  commentId: Overload:Startitecture.Orm.Model.LinkedSelection`1.Selection
+  href: api/Startitecture.Orm.Model.LinkedSelection.html#Startitecture_Orm_Model_LinkedSelection_Selection_
+  commentId: Overload:Startitecture.Orm.Model.LinkedSelection.Selection
   isSpec: "True"
-  fullName: Startitecture.Orm.Model.LinkedSelection<TItem>.Selection
-  fullName.vb: Startitecture.Orm.Model.LinkedSelection(Of TItem).Selection
-  nameWithType: LinkedSelection<TItem>.Selection
-  nameWithType.vb: LinkedSelection(Of TItem).Selection
-- uid: Startitecture.Orm.Model.LinkedSelection`1.ToString
+  fullName: Startitecture.Orm.Model.LinkedSelection.Selection
+  nameWithType: LinkedSelection.Selection
+- uid: Startitecture.Orm.Model.LinkedSelection.ToString
   name: ToString()
-  href: api/Startitecture.Orm.Model.LinkedSelection-1.html#Startitecture_Orm_Model_LinkedSelection_1_ToString
-  commentId: M:Startitecture.Orm.Model.LinkedSelection`1.ToString
-  fullName: Startitecture.Orm.Model.LinkedSelection<TItem>.ToString()
-  fullName.vb: Startitecture.Orm.Model.LinkedSelection(Of TItem).ToString()
-  nameWithType: LinkedSelection<TItem>.ToString()
-  nameWithType.vb: LinkedSelection(Of TItem).ToString()
-- uid: Startitecture.Orm.Model.LinkedSelection`1.ToString*
+  href: api/Startitecture.Orm.Model.LinkedSelection.html#Startitecture_Orm_Model_LinkedSelection_ToString
+  commentId: M:Startitecture.Orm.Model.LinkedSelection.ToString
+  fullName: Startitecture.Orm.Model.LinkedSelection.ToString()
+  nameWithType: LinkedSelection.ToString()
+- uid: Startitecture.Orm.Model.LinkedSelection.ToString*
   name: ToString
-  href: api/Startitecture.Orm.Model.LinkedSelection-1.html#Startitecture_Orm_Model_LinkedSelection_1_ToString_
-  commentId: Overload:Startitecture.Orm.Model.LinkedSelection`1.ToString
+  href: api/Startitecture.Orm.Model.LinkedSelection.html#Startitecture_Orm_Model_LinkedSelection_ToString_
+  commentId: Overload:Startitecture.Orm.Model.LinkedSelection.ToString
   isSpec: "True"
-  fullName: Startitecture.Orm.Model.LinkedSelection<TItem>.ToString
-  fullName.vb: Startitecture.Orm.Model.LinkedSelection(Of TItem).ToString
-  nameWithType: LinkedSelection<TItem>.ToString
-  nameWithType.vb: LinkedSelection(Of TItem).ToString
-- uid: Startitecture.Orm.Model.Page`1
-  name: Page<T>
-  href: api/Startitecture.Orm.Model.Page-1.html
-  commentId: T:Startitecture.Orm.Model.Page`1
-  name.vb: Page(Of T)
-  fullName: Startitecture.Orm.Model.Page<T>
-  fullName.vb: Startitecture.Orm.Model.Page(Of T)
-  nameWithType: Page<T>
-  nameWithType.vb: Page(Of T)
-- uid: Startitecture.Orm.Model.Page`1.#ctor(System.Collections.Generic.IEnumerable{`0})
-  name: Page(IEnumerable<T>)
-  href: api/Startitecture.Orm.Model.Page-1.html#Startitecture_Orm_Model_Page_1__ctor_System_Collections_Generic_IEnumerable__0__
-  commentId: M:Startitecture.Orm.Model.Page`1.#ctor(System.Collections.Generic.IEnumerable{`0})
-  name.vb: Page(IEnumerable(Of T))
-  fullName: Startitecture.Orm.Model.Page<T>.Page(System.Collections.Generic.IEnumerable<T>)
-  fullName.vb: Startitecture.Orm.Model.Page(Of T).Page(System.Collections.Generic.IEnumerable(Of T))
-  nameWithType: Page<T>.Page(IEnumerable<T>)
-  nameWithType.vb: Page(Of T).Page(IEnumerable(Of T))
-- uid: Startitecture.Orm.Model.Page`1.#ctor*
-  name: Page
-  href: api/Startitecture.Orm.Model.Page-1.html#Startitecture_Orm_Model_Page_1__ctor_
-  commentId: Overload:Startitecture.Orm.Model.Page`1.#ctor
+  fullName: Startitecture.Orm.Model.LinkedSelection.ToString
+  nameWithType: LinkedSelection.ToString
+- uid: Startitecture.Orm.Model.OrderExpression
+  name: OrderExpression
+  href: api/Startitecture.Orm.Model.OrderExpression.html
+  commentId: T:Startitecture.Orm.Model.OrderExpression
+  fullName: Startitecture.Orm.Model.OrderExpression
+  nameWithType: OrderExpression
+- uid: Startitecture.Orm.Model.OrderExpression.#ctor(System.Linq.Expressions.LambdaExpression)
+  name: OrderExpression(LambdaExpression)
+  href: api/Startitecture.Orm.Model.OrderExpression.html#Startitecture_Orm_Model_OrderExpression__ctor_System_Linq_Expressions_LambdaExpression_
+  commentId: M:Startitecture.Orm.Model.OrderExpression.#ctor(System.Linq.Expressions.LambdaExpression)
+  fullName: Startitecture.Orm.Model.OrderExpression.OrderExpression(System.Linq.Expressions.LambdaExpression)
+  nameWithType: OrderExpression.OrderExpression(LambdaExpression)
+- uid: Startitecture.Orm.Model.OrderExpression.#ctor(System.Linq.Expressions.LambdaExpression,System.Boolean)
+  name: OrderExpression(LambdaExpression, Boolean)
+  href: api/Startitecture.Orm.Model.OrderExpression.html#Startitecture_Orm_Model_OrderExpression__ctor_System_Linq_Expressions_LambdaExpression_System_Boolean_
+  commentId: M:Startitecture.Orm.Model.OrderExpression.#ctor(System.Linq.Expressions.LambdaExpression,System.Boolean)
+  fullName: Startitecture.Orm.Model.OrderExpression.OrderExpression(System.Linq.Expressions.LambdaExpression, System.Boolean)
+  nameWithType: OrderExpression.OrderExpression(LambdaExpression, Boolean)
+- uid: Startitecture.Orm.Model.OrderExpression.#ctor*
+  name: OrderExpression
+  href: api/Startitecture.Orm.Model.OrderExpression.html#Startitecture_Orm_Model_OrderExpression__ctor_
+  commentId: Overload:Startitecture.Orm.Model.OrderExpression.#ctor
   isSpec: "True"
-  fullName: Startitecture.Orm.Model.Page<T>.Page
-  fullName.vb: Startitecture.Orm.Model.Page(Of T).Page
-  nameWithType: Page<T>.Page
-  nameWithType.vb: Page(Of T).Page
-- uid: Startitecture.Orm.Model.Page`1.Context
-  name: Context
-  href: api/Startitecture.Orm.Model.Page-1.html#Startitecture_Orm_Model_Page_1_Context
-  commentId: P:Startitecture.Orm.Model.Page`1.Context
-  fullName: Startitecture.Orm.Model.Page<T>.Context
-  fullName.vb: Startitecture.Orm.Model.Page(Of T).Context
-  nameWithType: Page<T>.Context
-  nameWithType.vb: Page(Of T).Context
-- uid: Startitecture.Orm.Model.Page`1.Context*
-  name: Context
-  href: api/Startitecture.Orm.Model.Page-1.html#Startitecture_Orm_Model_Page_1_Context_
-  commentId: Overload:Startitecture.Orm.Model.Page`1.Context
+  fullName: Startitecture.Orm.Model.OrderExpression.OrderExpression
+  nameWithType: OrderExpression.OrderExpression
+- uid: Startitecture.Orm.Model.OrderExpression.OrderDescending
+  name: OrderDescending
+  href: api/Startitecture.Orm.Model.OrderExpression.html#Startitecture_Orm_Model_OrderExpression_OrderDescending
+  commentId: P:Startitecture.Orm.Model.OrderExpression.OrderDescending
+  fullName: Startitecture.Orm.Model.OrderExpression.OrderDescending
+  nameWithType: OrderExpression.OrderDescending
+- uid: Startitecture.Orm.Model.OrderExpression.OrderDescending*
+  name: OrderDescending
+  href: api/Startitecture.Orm.Model.OrderExpression.html#Startitecture_Orm_Model_OrderExpression_OrderDescending_
+  commentId: Overload:Startitecture.Orm.Model.OrderExpression.OrderDescending
   isSpec: "True"
-  fullName: Startitecture.Orm.Model.Page<T>.Context
-  fullName.vb: Startitecture.Orm.Model.Page(Of T).Context
-  nameWithType: Page<T>.Context
-  nameWithType.vb: Page(Of T).Context
-- uid: Startitecture.Orm.Model.Page`1.CurrentPage
-  name: CurrentPage
-  href: api/Startitecture.Orm.Model.Page-1.html#Startitecture_Orm_Model_Page_1_CurrentPage
-  commentId: P:Startitecture.Orm.Model.Page`1.CurrentPage
-  fullName: Startitecture.Orm.Model.Page<T>.CurrentPage
-  fullName.vb: Startitecture.Orm.Model.Page(Of T).CurrentPage
-  nameWithType: Page<T>.CurrentPage
-  nameWithType.vb: Page(Of T).CurrentPage
-- uid: Startitecture.Orm.Model.Page`1.CurrentPage*
-  name: CurrentPage
-  href: api/Startitecture.Orm.Model.Page-1.html#Startitecture_Orm_Model_Page_1_CurrentPage_
-  commentId: Overload:Startitecture.Orm.Model.Page`1.CurrentPage
+  fullName: Startitecture.Orm.Model.OrderExpression.OrderDescending
+  nameWithType: OrderExpression.OrderDescending
+- uid: Startitecture.Orm.Model.OrderExpression.PropertyExpression
+  name: PropertyExpression
+  href: api/Startitecture.Orm.Model.OrderExpression.html#Startitecture_Orm_Model_OrderExpression_PropertyExpression
+  commentId: P:Startitecture.Orm.Model.OrderExpression.PropertyExpression
+  fullName: Startitecture.Orm.Model.OrderExpression.PropertyExpression
+  nameWithType: OrderExpression.PropertyExpression
+- uid: Startitecture.Orm.Model.OrderExpression.PropertyExpression*
+  name: PropertyExpression
+  href: api/Startitecture.Orm.Model.OrderExpression.html#Startitecture_Orm_Model_OrderExpression_PropertyExpression_
+  commentId: Overload:Startitecture.Orm.Model.OrderExpression.PropertyExpression
   isSpec: "True"
-  fullName: Startitecture.Orm.Model.Page<T>.CurrentPage
-  fullName.vb: Startitecture.Orm.Model.Page(Of T).CurrentPage
-  nameWithType: Page<T>.CurrentPage
-  nameWithType.vb: Page(Of T).CurrentPage
-- uid: Startitecture.Orm.Model.Page`1.Items
-  name: Items
-  href: api/Startitecture.Orm.Model.Page-1.html#Startitecture_Orm_Model_Page_1_Items
-  commentId: P:Startitecture.Orm.Model.Page`1.Items
-  fullName: Startitecture.Orm.Model.Page<T>.Items
-  fullName.vb: Startitecture.Orm.Model.Page(Of T).Items
-  nameWithType: Page<T>.Items
-  nameWithType.vb: Page(Of T).Items
-- uid: Startitecture.Orm.Model.Page`1.Items*
-  name: Items
-  href: api/Startitecture.Orm.Model.Page-1.html#Startitecture_Orm_Model_Page_1_Items_
-  commentId: Overload:Startitecture.Orm.Model.Page`1.Items
-  isSpec: "True"
-  fullName: Startitecture.Orm.Model.Page<T>.Items
-  fullName.vb: Startitecture.Orm.Model.Page(Of T).Items
-  nameWithType: Page<T>.Items
-  nameWithType.vb: Page(Of T).Items
-- uid: Startitecture.Orm.Model.Page`1.ItemsPerPage
-  name: ItemsPerPage
-  href: api/Startitecture.Orm.Model.Page-1.html#Startitecture_Orm_Model_Page_1_ItemsPerPage
-  commentId: P:Startitecture.Orm.Model.Page`1.ItemsPerPage
-  fullName: Startitecture.Orm.Model.Page<T>.ItemsPerPage
-  fullName.vb: Startitecture.Orm.Model.Page(Of T).ItemsPerPage
-  nameWithType: Page<T>.ItemsPerPage
-  nameWithType.vb: Page(Of T).ItemsPerPage
-- uid: Startitecture.Orm.Model.Page`1.ItemsPerPage*
-  name: ItemsPerPage
-  href: api/Startitecture.Orm.Model.Page-1.html#Startitecture_Orm_Model_Page_1_ItemsPerPage_
-  commentId: Overload:Startitecture.Orm.Model.Page`1.ItemsPerPage
-  isSpec: "True"
-  fullName: Startitecture.Orm.Model.Page<T>.ItemsPerPage
-  fullName.vb: Startitecture.Orm.Model.Page(Of T).ItemsPerPage
-  nameWithType: Page<T>.ItemsPerPage
-  nameWithType.vb: Page(Of T).ItemsPerPage
-- uid: Startitecture.Orm.Model.Page`1.TotalItems
-  name: TotalItems
-  href: api/Startitecture.Orm.Model.Page-1.html#Startitecture_Orm_Model_Page_1_TotalItems
-  commentId: P:Startitecture.Orm.Model.Page`1.TotalItems
-  fullName: Startitecture.Orm.Model.Page<T>.TotalItems
-  fullName.vb: Startitecture.Orm.Model.Page(Of T).TotalItems
-  nameWithType: Page<T>.TotalItems
-  nameWithType.vb: Page(Of T).TotalItems
-- uid: Startitecture.Orm.Model.Page`1.TotalItems*
-  name: TotalItems
-  href: api/Startitecture.Orm.Model.Page-1.html#Startitecture_Orm_Model_Page_1_TotalItems_
-  commentId: Overload:Startitecture.Orm.Model.Page`1.TotalItems
-  isSpec: "True"
-  fullName: Startitecture.Orm.Model.Page<T>.TotalItems
-  fullName.vb: Startitecture.Orm.Model.Page(Of T).TotalItems
-  nameWithType: Page<T>.TotalItems
-  nameWithType.vb: Page(Of T).TotalItems
-- uid: Startitecture.Orm.Model.Page`1.TotalPages
-  name: TotalPages
-  href: api/Startitecture.Orm.Model.Page-1.html#Startitecture_Orm_Model_Page_1_TotalPages
-  commentId: P:Startitecture.Orm.Model.Page`1.TotalPages
-  fullName: Startitecture.Orm.Model.Page<T>.TotalPages
-  fullName.vb: Startitecture.Orm.Model.Page(Of T).TotalPages
-  nameWithType: Page<T>.TotalPages
-  nameWithType.vb: Page(Of T).TotalPages
-- uid: Startitecture.Orm.Model.Page`1.TotalPages*
-  name: TotalPages
-  href: api/Startitecture.Orm.Model.Page-1.html#Startitecture_Orm_Model_Page_1_TotalPages_
-  commentId: Overload:Startitecture.Orm.Model.Page`1.TotalPages
-  isSpec: "True"
-  fullName: Startitecture.Orm.Model.Page<T>.TotalPages
-  fullName.vb: Startitecture.Orm.Model.Page(Of T).TotalPages
-  nameWithType: Page<T>.TotalPages
-  nameWithType.vb: Page(Of T).TotalPages
+  fullName: Startitecture.Orm.Model.OrderExpression.PropertyExpression
+  nameWithType: OrderExpression.PropertyExpression
 - uid: Startitecture.Orm.Model.QueryContext`1
   name: QueryContext<TItem>
   href: api/Startitecture.Orm.Model.QueryContext-1.html
@@ -8136,6 +8037,109 @@ references:
   isSpec: "True"
   fullName: Startitecture.Orm.Model.ResolvedAttributeLocation.ToString
   nameWithType: ResolvedAttributeLocation.ToString
+- uid: Startitecture.Orm.Model.ResultPage
+  name: ResultPage
+  href: api/Startitecture.Orm.Model.ResultPage.html
+  commentId: T:Startitecture.Orm.Model.ResultPage
+  fullName: Startitecture.Orm.Model.ResultPage
+  nameWithType: ResultPage
+- uid: Startitecture.Orm.Model.ResultPage.Equals(Startitecture.Orm.Model.ResultPage)
+  name: Equals(ResultPage)
+  href: api/Startitecture.Orm.Model.ResultPage.html#Startitecture_Orm_Model_ResultPage_Equals_Startitecture_Orm_Model_ResultPage_
+  commentId: M:Startitecture.Orm.Model.ResultPage.Equals(Startitecture.Orm.Model.ResultPage)
+  fullName: Startitecture.Orm.Model.ResultPage.Equals(Startitecture.Orm.Model.ResultPage)
+  nameWithType: ResultPage.Equals(ResultPage)
+- uid: Startitecture.Orm.Model.ResultPage.Equals(System.Object)
+  name: Equals(Object)
+  href: api/Startitecture.Orm.Model.ResultPage.html#Startitecture_Orm_Model_ResultPage_Equals_System_Object_
+  commentId: M:Startitecture.Orm.Model.ResultPage.Equals(System.Object)
+  fullName: Startitecture.Orm.Model.ResultPage.Equals(System.Object)
+  nameWithType: ResultPage.Equals(Object)
+- uid: Startitecture.Orm.Model.ResultPage.Equals*
+  name: Equals
+  href: api/Startitecture.Orm.Model.ResultPage.html#Startitecture_Orm_Model_ResultPage_Equals_
+  commentId: Overload:Startitecture.Orm.Model.ResultPage.Equals
+  isSpec: "True"
+  fullName: Startitecture.Orm.Model.ResultPage.Equals
+  nameWithType: ResultPage.Equals
+- uid: Startitecture.Orm.Model.ResultPage.GetHashCode
+  name: GetHashCode()
+  href: api/Startitecture.Orm.Model.ResultPage.html#Startitecture_Orm_Model_ResultPage_GetHashCode
+  commentId: M:Startitecture.Orm.Model.ResultPage.GetHashCode
+  fullName: Startitecture.Orm.Model.ResultPage.GetHashCode()
+  nameWithType: ResultPage.GetHashCode()
+- uid: Startitecture.Orm.Model.ResultPage.GetHashCode*
+  name: GetHashCode
+  href: api/Startitecture.Orm.Model.ResultPage.html#Startitecture_Orm_Model_ResultPage_GetHashCode_
+  commentId: Overload:Startitecture.Orm.Model.ResultPage.GetHashCode
+  isSpec: "True"
+  fullName: Startitecture.Orm.Model.ResultPage.GetHashCode
+  nameWithType: ResultPage.GetHashCode
+- uid: Startitecture.Orm.Model.ResultPage.op_Equality(Startitecture.Orm.Model.ResultPage,Startitecture.Orm.Model.ResultPage)
+  name: Equality(ResultPage, ResultPage)
+  href: api/Startitecture.Orm.Model.ResultPage.html#Startitecture_Orm_Model_ResultPage_op_Equality_Startitecture_Orm_Model_ResultPage_Startitecture_Orm_Model_ResultPage_
+  commentId: M:Startitecture.Orm.Model.ResultPage.op_Equality(Startitecture.Orm.Model.ResultPage,Startitecture.Orm.Model.ResultPage)
+  fullName: Startitecture.Orm.Model.ResultPage.Equality(Startitecture.Orm.Model.ResultPage, Startitecture.Orm.Model.ResultPage)
+  nameWithType: ResultPage.Equality(ResultPage, ResultPage)
+- uid: Startitecture.Orm.Model.ResultPage.op_Equality*
+  name: Equality
+  href: api/Startitecture.Orm.Model.ResultPage.html#Startitecture_Orm_Model_ResultPage_op_Equality_
+  commentId: Overload:Startitecture.Orm.Model.ResultPage.op_Equality
+  isSpec: "True"
+  fullName: Startitecture.Orm.Model.ResultPage.Equality
+  nameWithType: ResultPage.Equality
+- uid: Startitecture.Orm.Model.ResultPage.op_Inequality(Startitecture.Orm.Model.ResultPage,Startitecture.Orm.Model.ResultPage)
+  name: Inequality(ResultPage, ResultPage)
+  href: api/Startitecture.Orm.Model.ResultPage.html#Startitecture_Orm_Model_ResultPage_op_Inequality_Startitecture_Orm_Model_ResultPage_Startitecture_Orm_Model_ResultPage_
+  commentId: M:Startitecture.Orm.Model.ResultPage.op_Inequality(Startitecture.Orm.Model.ResultPage,Startitecture.Orm.Model.ResultPage)
+  fullName: Startitecture.Orm.Model.ResultPage.Inequality(Startitecture.Orm.Model.ResultPage, Startitecture.Orm.Model.ResultPage)
+  nameWithType: ResultPage.Inequality(ResultPage, ResultPage)
+- uid: Startitecture.Orm.Model.ResultPage.op_Inequality*
+  name: Inequality
+  href: api/Startitecture.Orm.Model.ResultPage.html#Startitecture_Orm_Model_ResultPage_op_Inequality_
+  commentId: Overload:Startitecture.Orm.Model.ResultPage.op_Inequality
+  isSpec: "True"
+  fullName: Startitecture.Orm.Model.ResultPage.Inequality
+  nameWithType: ResultPage.Inequality
+- uid: Startitecture.Orm.Model.ResultPage.RowOffset
+  name: RowOffset
+  href: api/Startitecture.Orm.Model.ResultPage.html#Startitecture_Orm_Model_ResultPage_RowOffset
+  commentId: P:Startitecture.Orm.Model.ResultPage.RowOffset
+  fullName: Startitecture.Orm.Model.ResultPage.RowOffset
+  nameWithType: ResultPage.RowOffset
+- uid: Startitecture.Orm.Model.ResultPage.RowOffset*
+  name: RowOffset
+  href: api/Startitecture.Orm.Model.ResultPage.html#Startitecture_Orm_Model_ResultPage_RowOffset_
+  commentId: Overload:Startitecture.Orm.Model.ResultPage.RowOffset
+  isSpec: "True"
+  fullName: Startitecture.Orm.Model.ResultPage.RowOffset
+  nameWithType: ResultPage.RowOffset
+- uid: Startitecture.Orm.Model.ResultPage.Size
+  name: Size
+  href: api/Startitecture.Orm.Model.ResultPage.html#Startitecture_Orm_Model_ResultPage_Size
+  commentId: P:Startitecture.Orm.Model.ResultPage.Size
+  fullName: Startitecture.Orm.Model.ResultPage.Size
+  nameWithType: ResultPage.Size
+- uid: Startitecture.Orm.Model.ResultPage.Size*
+  name: Size
+  href: api/Startitecture.Orm.Model.ResultPage.html#Startitecture_Orm_Model_ResultPage_Size_
+  commentId: Overload:Startitecture.Orm.Model.ResultPage.Size
+  isSpec: "True"
+  fullName: Startitecture.Orm.Model.ResultPage.Size
+  nameWithType: ResultPage.Size
+- uid: Startitecture.Orm.Model.ResultPage.ToString
+  name: ToString()
+  href: api/Startitecture.Orm.Model.ResultPage.html#Startitecture_Orm_Model_ResultPage_ToString
+  commentId: M:Startitecture.Orm.Model.ResultPage.ToString
+  fullName: Startitecture.Orm.Model.ResultPage.ToString()
+  nameWithType: ResultPage.ToString()
+- uid: Startitecture.Orm.Model.ResultPage.ToString*
+  name: ToString
+  href: api/Startitecture.Orm.Model.ResultPage.html#Startitecture_Orm_Model_ResultPage_ToString_
+  commentId: Overload:Startitecture.Orm.Model.ResultPage.ToString
+  isSpec: "True"
+  fullName: Startitecture.Orm.Model.ResultPage.ToString
+  nameWithType: ResultPage.ToString
 - uid: Startitecture.Orm.Model.Select
   name: Select
   href: api/Startitecture.Orm.Model.Select.html
@@ -9500,6 +9504,12 @@ references:
   isSpec: "True"
   fullName: Startitecture.Orm.Sql.JoinClause.JoinClause
   nameWithType: JoinClause.JoinClause
+- uid: Startitecture.Orm.Sql.JoinClause.Create(Startitecture.Orm.Model.ISelection)
+  name: Create(ISelection)
+  href: api/Startitecture.Orm.Sql.JoinClause.html#Startitecture_Orm_Sql_JoinClause_Create_Startitecture_Orm_Model_ISelection_
+  commentId: M:Startitecture.Orm.Sql.JoinClause.Create(Startitecture.Orm.Model.ISelection)
+  fullName: Startitecture.Orm.Sql.JoinClause.Create(Startitecture.Orm.Model.ISelection)
+  nameWithType: JoinClause.Create(ISelection)
 - uid: Startitecture.Orm.Sql.JoinClause.Create*
   name: Create
   href: api/Startitecture.Orm.Sql.JoinClause.html#Startitecture_Orm_Sql_JoinClause_Create_
@@ -9507,15 +9517,6 @@ references:
   isSpec: "True"
   fullName: Startitecture.Orm.Sql.JoinClause.Create
   nameWithType: JoinClause.Create
-- uid: Startitecture.Orm.Sql.JoinClause.Create``1(Startitecture.Orm.Model.ItemSelection{``0})
-  name: Create<TItem>(ItemSelection<TItem>)
-  href: api/Startitecture.Orm.Sql.JoinClause.html#Startitecture_Orm_Sql_JoinClause_Create__1_Startitecture_Orm_Model_ItemSelection___0__
-  commentId: M:Startitecture.Orm.Sql.JoinClause.Create``1(Startitecture.Orm.Model.ItemSelection{``0})
-  name.vb: Create(Of TItem)(ItemSelection(Of TItem))
-  fullName: Startitecture.Orm.Sql.JoinClause.Create<TItem>(Startitecture.Orm.Model.ItemSelection<TItem>)
-  fullName.vb: Startitecture.Orm.Sql.JoinClause.Create(Of TItem)(Startitecture.Orm.Model.ItemSelection(Of TItem))
-  nameWithType: JoinClause.Create<TItem>(ItemSelection<TItem>)
-  nameWithType.vb: JoinClause.Create(Of TItem)(ItemSelection(Of TItem))
 - uid: Startitecture.Orm.Sql.StructuredCommand`1
   name: StructuredCommand<TStructure>
   href: api/Startitecture.Orm.Sql.StructuredCommand-1.html
@@ -9870,15 +9871,6 @@ references:
   fullName.vb: Startitecture.Orm.SqlClient.SqlClientAdapter.SelectItems(Of TDataItem)(Startitecture.Orm.Model.ItemSelection(Of TDataItem))
   nameWithType: SqlClientAdapter.SelectItems<TDataItem>(ItemSelection<TDataItem>)
   nameWithType.vb: SqlClientAdapter.SelectItems(Of TDataItem)(ItemSelection(Of TDataItem))
-- uid: Startitecture.Orm.SqlClient.SqlClientAdapter.SelectItems``1(Startitecture.Orm.Model.ItemSelection{``0},System.Int64,System.Int64)
-  name: SelectItems<TDataItem>(ItemSelection<TDataItem>, Int64, Int64)
-  href: api/Startitecture.Orm.SqlClient.SqlClientAdapter.html#Startitecture_Orm_SqlClient_SqlClientAdapter_SelectItems__1_Startitecture_Orm_Model_ItemSelection___0__System_Int64_System_Int64_
-  commentId: M:Startitecture.Orm.SqlClient.SqlClientAdapter.SelectItems``1(Startitecture.Orm.Model.ItemSelection{``0},System.Int64,System.Int64)
-  name.vb: SelectItems(Of TDataItem)(ItemSelection(Of TDataItem), Int64, Int64)
-  fullName: Startitecture.Orm.SqlClient.SqlClientAdapter.SelectItems<TDataItem>(Startitecture.Orm.Model.ItemSelection<TDataItem>, System.Int64, System.Int64)
-  fullName.vb: Startitecture.Orm.SqlClient.SqlClientAdapter.SelectItems(Of TDataItem)(Startitecture.Orm.Model.ItemSelection(Of TDataItem), System.Int64, System.Int64)
-  nameWithType: SqlClientAdapter.SelectItems<TDataItem>(ItemSelection<TDataItem>, Int64, Int64)
-  nameWithType.vb: SqlClientAdapter.SelectItems(Of TDataItem)(ItemSelection(Of TDataItem), Int64, Int64)
 - uid: Startitecture.Orm.SqlClient.SqlClientAdapter.Update*
   name: Update
   href: api/Startitecture.Orm.SqlClient.SqlClientAdapter.html#Startitecture_Orm_SqlClient_SqlClientAdapter_Update_

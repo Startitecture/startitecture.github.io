@@ -514,7 +514,7 @@ in argument values.</p>
   </div>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Mapper/Database.cs&amp;version=GBmaster&amp;line=892">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Mapper/Database.cs&amp;version=GBmaster&amp;line=721">View Source</a>
   </span>
   <a id="Startitecture_Orm_Mapper_Database_Dispose_" data-uid="Startitecture.Orm.Mapper.Database.Dispose*"></a>
   <h4 id="Startitecture_Orm_Mapper_Database_Dispose_System_Boolean_" data-uid="Startitecture.Orm.Mapper.Database.Dispose(System.Boolean)">Dispose(Boolean)</h4>
@@ -667,343 +667,7 @@ in argument values.</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Mapper/Database.cs&amp;version=GBmaster&amp;line=530">View Source</a>
-  </span>
-  <a id="Startitecture_Orm_Mapper_Database_Fetch_" data-uid="Startitecture.Orm.Mapper.Database.Fetch*"></a>
-  <h4 id="Startitecture_Orm_Mapper_Database_Fetch__1_System_Int64_System_Int64_System_String_System_Object___" data-uid="Startitecture.Orm.Mapper.Database.Fetch``1(System.Int64,System.Int64,System.String,System.Object[])">Fetch&lt;T&gt;(Int64, Int64, String, Object[])</h4>
-  <div class="markdown level1 summary"><p>Retrieves a page of records (without the total count)</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IEnumerable&lt;T&gt; Fetch&lt;T&gt;(long page, long itemsPerPage, string sql, params object[] args)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int64</span></td>
-        <td><span class="parametername">page</span></td>
-        <td><p>The 1 based page number to retrieve</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Int64</span></td>
-        <td><span class="parametername">itemsPerPage</span></td>
-        <td><p>The number of records per page</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">sql</span></td>
-        <td><p>The base SQL query</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Object</span>[]</td>
-        <td><span class="parametername">args</span></td>
-        <td><p>Arguments to any embedded parameters in the SQL statement</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;T&gt;</td>
-        <td><p>A List of results</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">T</span></td>
-        <td><p>The Type representing a row in the result set</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 id="Startitecture_Orm_Mapper_Database_Fetch__1_System_Int64_System_Int64_System_String_System_Object____remarks">Remarks</h5>
-  <div class="markdown level1 remarks"><p>Automatically modifies the supplied SELECT statement to only retrieve the records for the specified page.</p>
-</div>
-  
-  <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Mapper/Database.cs&amp;version=GBmaster&amp;line=501">View Source</a>
-  </span>
-  <a id="Startitecture_Orm_Mapper_Database_Fetch_" data-uid="Startitecture.Orm.Mapper.Database.Fetch*"></a>
-  <h4 id="Startitecture_Orm_Mapper_Database_Fetch__1_System_String_System_Object___" data-uid="Startitecture.Orm.Mapper.Database.Fetch``1(System.String,System.Object[])">Fetch&lt;T&gt;(String, Object[])</h4>
-  <div class="markdown level1 summary"><p>Runs a query and returns the result set as a typed list</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IEnumerable&lt;T&gt; Fetch&lt;T&gt;(string sql, params object[] args)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">sql</span></td>
-        <td><p>The SQL query to execute</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Object</span>[]</td>
-        <td><span class="parametername">args</span></td>
-        <td><p>Arguments to any embedded parameters in the SQL</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;T&gt;</td>
-        <td><p>A List holding the results of the query</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">T</span></td>
-        <td><p>The Type representing a row in the result set</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Mapper/Database.cs&amp;version=GBmaster&amp;line=621">View Source</a>
-  </span>
-  <a id="Startitecture_Orm_Mapper_Database_FetchPage_" data-uid="Startitecture.Orm.Mapper.Database.FetchPage*"></a>
-  <h4 id="Startitecture_Orm_Mapper_Database_FetchPage__1_System_Int64_System_Int64_System_String_System_Object___" data-uid="Startitecture.Orm.Mapper.Database.FetchPage``1(System.Int64,System.Int64,System.String,System.Object[])">FetchPage&lt;T&gt;(Int64, Int64, String, Object[])</h4>
-  <div class="markdown level1 summary"><p>Retrieves a page of records and the total number of available records</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Page&lt;T&gt; FetchPage&lt;T&gt;(long page, long itemsPerPage, string sql, params object[] args)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int64</span></td>
-        <td><span class="parametername">page</span></td>
-        <td><p>The 1 based page number to retrieve</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Int64</span></td>
-        <td><span class="parametername">itemsPerPage</span></td>
-        <td><p>The number of records per page</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">sql</span></td>
-        <td><p>The base SQL query</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Object</span>[]</td>
-        <td><span class="parametername">args</span></td>
-        <td><p>Arguments to any embedded parameters in the SQL statement</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Startitecture.Orm.Model.Page-1.html">Page</a>&lt;T&gt;</td>
-        <td><p>A Page of results</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">T</span></td>
-        <td><p>The Type representing a row in the result set</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 id="Startitecture_Orm_Mapper_Database_FetchPage__1_System_Int64_System_Int64_System_String_System_Object____remarks">Remarks</h5>
-  <div class="markdown level1 remarks"><p>Automatically modifies the supplied SELECT statement to only retrieve the
-records for the specified page.  It will also execute a second query to retrieve the
-total number of records in the result set.</p>
-</div>
-  
-  <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Mapper/Database.cs&amp;version=GBmaster&amp;line=566">View Source</a>
-  </span>
-  <a id="Startitecture_Orm_Mapper_Database_FetchPage_" data-uid="Startitecture.Orm.Mapper.Database.FetchPage*"></a>
-  <h4 id="Startitecture_Orm_Mapper_Database_FetchPage__1_System_Int64_System_Int64_System_String_System_Object___System_String_System_Object___" data-uid="Startitecture.Orm.Mapper.Database.FetchPage``1(System.Int64,System.Int64,System.String,System.Object[],System.String,System.Object[])">FetchPage&lt;T&gt;(Int64, Int64, String, Object[], String, Object[])</h4>
-  <div class="markdown level1 summary"><p>Retrieves a page of records and the total number of available records.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Page&lt;T&gt; FetchPage&lt;T&gt;(long page, long itemsPerPage, string sqlCount, object[] countArgs, string sqlPage, object[] pageArgs)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int64</span></td>
-        <td><span class="parametername">page</span></td>
-        <td><p>The 1 based page number to retrieve.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Int64</span></td>
-        <td><span class="parametername">itemsPerPage</span></td>
-        <td><p>The number of records per page.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">sqlCount</span></td>
-        <td><p>The SQL to retrieve the total number of records.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Object</span>[]</td>
-        <td><span class="parametername">countArgs</span></td>
-        <td><p>Arguments to any embedded parameters in the <code data-dev-comment-type="paramref" class="paramref">sqlCount</code> statement.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">sqlPage</span></td>
-        <td><p>The SQL To retrieve a single page of results.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Object</span>[]</td>
-        <td><span class="parametername">pageArgs</span></td>
-        <td><p>Arguments to any embedded parameters in the <code data-dev-comment-type="paramref" class="paramref">sqlPage</code> statement.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Startitecture.Orm.Model.Page-1.html">Page</a>&lt;T&gt;</td>
-        <td><p>A Page of results.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">T</span></td>
-        <td><p>The Type representing a row in the result set.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 id="Startitecture_Orm_Mapper_Database_FetchPage__1_System_Int64_System_Int64_System_String_System_Object___System_String_System_Object____remarks">Remarks</h5>
-  <div class="markdown level1 remarks"><p>This method allows separate SQL statements to be explicitly provided for the two parts of the page query.
-The page and itemsPerPage parameters are not used directly and are used simply to populate the returned Page object.</p>
-</div>
-  
-  <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Mapper/Database.cs&amp;version=GBmaster&amp;line=646">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Mapper/Database.cs&amp;version=GBmaster&amp;line=505">View Source</a>
   </span>
   <a id="Startitecture_Orm_Mapper_Database_First_" data-uid="Startitecture.Orm.Mapper.Database.First*"></a>
   <h4 id="Startitecture_Orm_Mapper_Database_First__1_System_String_System_Object___" data-uid="Startitecture.Orm.Mapper.Database.First``1(System.String,System.Object[])">First&lt;T&gt;(String, Object[])</h4>
@@ -1072,7 +736,7 @@ The page and itemsPerPage parameters are not used directly and are used simply t
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Mapper/Database.cs&amp;version=GBmaster&amp;line=666">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Mapper/Database.cs&amp;version=GBmaster&amp;line=525">View Source</a>
   </span>
   <a id="Startitecture_Orm_Mapper_Database_FirstOrDefault_" data-uid="Startitecture.Orm.Mapper.Database.FirstOrDefault*"></a>
   <h4 id="Startitecture_Orm_Mapper_Database_FirstOrDefault__1_System_String_System_Object___" data-uid="Startitecture.Orm.Mapper.Database.FirstOrDefault``1(System.String,System.Object[])">FirstOrDefault&lt;T&gt;(String, Object[])</h4>
@@ -1141,7 +805,7 @@ The page and itemsPerPage parameters are not used directly and are used simply t
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Mapper/Database.cs&amp;version=GBmaster&amp;line=764">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Mapper/Database.cs&amp;version=GBmaster&amp;line=593">View Source</a>
   </span>
   <a id="Startitecture_Orm_Mapper_Database_Insert_" data-uid="Startitecture.Orm.Mapper.Database.Insert*"></a>
   <h4 id="Startitecture_Orm_Mapper_Database_Insert__1___0_" data-uid="Startitecture.Orm.Mapper.Database.Insert``1(``0)">Insert&lt;T&gt;(T)</h4>
@@ -1297,100 +961,16 @@ In cases where this is an issue, consider using Fetch which returns the results 
 </div>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Mapper/Database.cs&amp;version=GBmaster&amp;line=738">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Mapper/Database.cs&amp;version=GBmaster&amp;line=548">View Source</a>
   </span>
-  <a id="Startitecture_Orm_Mapper_Database_SkipTake_" data-uid="Startitecture.Orm.Mapper.Database.SkipTake*"></a>
-  <h4 id="Startitecture_Orm_Mapper_Database_SkipTake__1_System_Int64_System_Int64_System_String_System_Object___" data-uid="Startitecture.Orm.Mapper.Database.SkipTake``1(System.Int64,System.Int64,System.String,System.Object[])">SkipTake&lt;T&gt;(Int64, Int64, String, Object[])</h4>
-  <div class="markdown level1 summary"><p>Retrieves a range of records from result set</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IEnumerable&lt;T&gt; SkipTake&lt;T&gt;(long skip, long take, string sql, params object[] args)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int64</span></td>
-        <td><span class="parametername">skip</span></td>
-        <td><p>The number of rows at the start of the result set to skip over</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Int64</span></td>
-        <td><span class="parametername">take</span></td>
-        <td><p>The number of rows to retrieve</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">sql</span></td>
-        <td><p>The base SQL query</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Object</span>[]</td>
-        <td><span class="parametername">args</span></td>
-        <td><p>Arguments to any embedded parameters in the SQL statement</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;T&gt;</td>
-        <td><p>A List of results</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">T</span></td>
-        <td><p>The Type representing a row in the result set</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 id="Startitecture_Orm_Mapper_Database_SkipTake__1_System_Int64_System_Int64_System_String_System_Object____remarks">Remarks</h5>
-  <div class="markdown level1 remarks"><p>Automatically modifies the supplied SELECT statement to only retrieve the records for the specified range.</p>
-</div>
-  
-  <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Mapper/Database.cs&amp;version=GBmaster&amp;line=689">View Source</a>
-  </span>
-  <a id="Startitecture_Orm_Mapper_Database_Unique_" data-uid="Startitecture.Orm.Mapper.Database.Unique*"></a>
-  <h4 id="Startitecture_Orm_Mapper_Database_Unique__1_System_String_System_Object___" data-uid="Startitecture.Orm.Mapper.Database.Unique``1(System.String,System.Object[])">Unique&lt;T&gt;(String, Object[])</h4>
+  <a id="Startitecture_Orm_Mapper_Database_Single_" data-uid="Startitecture.Orm.Mapper.Database.Single*"></a>
+  <h4 id="Startitecture_Orm_Mapper_Database_Single__1_System_String_System_Object___" data-uid="Startitecture.Orm.Mapper.Database.Single``1(System.String,System.Object[])">Single&lt;T&gt;(String, Object[])</h4>
   <div class="markdown level1 summary"><p>Runs a query that should always return a single row.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public T Unique&lt;T&gt;(string sql, params object[] args)</code></pre>
+    <pre><code class="lang-csharp hljs">public T Single&lt;T&gt;(string sql, params object[] args)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1448,21 +1028,21 @@ In cases where this is an issue, consider using Fetch which returns the results 
       </tr>
     </tbody>
   </table>
-  <h5 id="Startitecture_Orm_Mapper_Database_Unique__1_System_String_System_Object____remarks">Remarks</h5>
+  <h5 id="Startitecture_Orm_Mapper_Database_Single__1_System_String_System_Object____remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>Throws an exception if there are zero or more than one matching record</p>
 </div>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Mapper/Database.cs&amp;version=GBmaster&amp;line=709">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Mapper/Database.cs&amp;version=GBmaster&amp;line=568">View Source</a>
   </span>
-  <a id="Startitecture_Orm_Mapper_Database_UniqueOrDefault_" data-uid="Startitecture.Orm.Mapper.Database.UniqueOrDefault*"></a>
-  <h4 id="Startitecture_Orm_Mapper_Database_UniqueOrDefault__1_System_String_System_Object___" data-uid="Startitecture.Orm.Mapper.Database.UniqueOrDefault``1(System.String,System.Object[])">UniqueOrDefault&lt;T&gt;(String, Object[])</h4>
+  <a id="Startitecture_Orm_Mapper_Database_SingleOrDefault_" data-uid="Startitecture.Orm.Mapper.Database.SingleOrDefault*"></a>
+  <h4 id="Startitecture_Orm_Mapper_Database_SingleOrDefault__1_System_String_System_Object___" data-uid="Startitecture.Orm.Mapper.Database.SingleOrDefault``1(System.String,System.Object[])">SingleOrDefault&lt;T&gt;(String, Object[])</h4>
   <div class="markdown level1 summary"><p>Runs a query that should always return either a single row, or no rows</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public T UniqueOrDefault&lt;T&gt;(string sql, params object[] args)</code></pre>
+    <pre><code class="lang-csharp hljs">public T SingleOrDefault&lt;T&gt;(string sql, params object[] args)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">

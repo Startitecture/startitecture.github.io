@@ -1,6 +1,6 @@
 {
   "homepages": [],
-  "source_base_path": "d:/a/1/s/docs",
+  "source_base_path": "D:/a/1/s/docs",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -249,7 +249,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.Common.IDatabaseContext.html",
-          "hash": "7xNr2dQPOAB2Yj+epyyAoQ=="
+          "hash": "HBqbAojpxKOuDep4KdWUAg=="
         }
       },
       "is_incremental": false,
@@ -285,7 +285,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.Common.IRepositoryAdapter.html",
-          "hash": "hlQ1U9rVpV7BbI0XiMx1Lg=="
+          "hash": "bns0JC1T7OCyoOAaXcWxCg=="
         }
       },
       "is_incremental": false,
@@ -357,7 +357,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.Mapper.Database.html",
-          "hash": "B4Pj1qTDXCdZVZh5UKR9Tg=="
+          "hash": "XUQpYRg0NxuAOqSxmt5KJQ=="
         }
       },
       "is_incremental": false,
@@ -369,7 +369,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.Mapper.DatabaseRepositoryProvider.html",
-          "hash": "jyySzC2yhpGati4m/SVuFg=="
+          "hash": "5qMNm8/Z4iGTymUy2xwTPg=="
         }
       },
       "is_incremental": false,
@@ -657,7 +657,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.Model.FilterType.html",
-          "hash": "v5thDDF6MEZk+4kV49HZgw=="
+          "hash": "nY6GQkUM0ugCbmAwxBmV/w=="
         }
       },
       "is_incremental": false,
@@ -789,7 +789,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.Model.IRepositoryProvider.html",
-          "hash": "La8fYfKYOu6FmViUhMcNyg=="
+          "hash": "ao9QMWVA9CtcTP5OfVqgGw=="
         }
       },
       "is_incremental": false,
@@ -802,6 +802,18 @@
         ".html": {
           "relative_path": "api/Startitecture.Orm.Model.IRepositoryProviderFactory.html",
           "hash": "R3JYFsWi+C99ujEEK8pHpw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Model.ISelection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Model.ISelection.html",
+          "hash": "MkX+po249IhJFsrKeVgn8g=="
         }
       },
       "is_incremental": false,
@@ -825,7 +837,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.Model.ItemSelection-1.html",
-          "hash": "BbiuxKZPbzqMxKxs68eQPA=="
+          "hash": "IRmyZkLBJqhnLcPo025Qgg=="
         }
       },
       "is_incremental": false,
@@ -833,11 +845,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Startitecture.Orm.Model.LinkedSelection-1.yml",
+      "source_relative_path": "api/Startitecture.Orm.Model.LinkedSelection.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Startitecture.Orm.Model.LinkedSelection-1.html",
-          "hash": "5r6mW2G+KGdSg4RWT1Q/gA=="
+          "relative_path": "api/Startitecture.Orm.Model.LinkedSelection.html",
+          "hash": "TNRVqRfgXuOm/33ZH8VtOw=="
         }
       },
       "is_incremental": false,
@@ -845,11 +857,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Startitecture.Orm.Model.Page-1.yml",
+      "source_relative_path": "api/Startitecture.Orm.Model.OrderExpression.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Startitecture.Orm.Model.Page-1.html",
-          "hash": "l3kznkLjO54Qo+emo12lKQ=="
+          "relative_path": "api/Startitecture.Orm.Model.OrderExpression.html",
+          "hash": "alD3131I6lW0ePSeSeFAVA=="
         }
       },
       "is_incremental": false,
@@ -886,6 +898,18 @@
         ".html": {
           "relative_path": "api/Startitecture.Orm.Model.ResolvedAttributeLocation.html",
           "hash": "3Tpxq7YvxLyvx0LpngH8cQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Model.ResultPage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Model.ResultPage.html",
+          "hash": "KuMSYGSlWzTaxBplNWEOtA=="
         }
       },
       "is_incremental": false,
@@ -933,7 +957,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.Model.UniqueQuery-1.html",
-          "hash": "ITwA9wBeinizmRVO7Hmncg=="
+          "hash": "AHbeqMOjG8z1w06kwfnjPQ=="
         }
       },
       "is_incremental": false,
@@ -957,7 +981,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.Model.html",
-          "hash": "eWGdLALGfP4KRHDJMCavhQ=="
+          "hash": "SPYow4JXooFG6WPcOPA/4g=="
         }
       },
       "is_incremental": false,
@@ -1149,7 +1173,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.Sql.JoinClause.html",
-          "hash": "HSwnwf3lmXuPgBZXAEjbtw=="
+          "hash": "8qvSE0u14d9OlQ4HBuVqdg=="
         }
       },
       "is_incremental": false,
@@ -1197,7 +1221,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.SqlClient.SqlClientAdapter.html",
-          "hash": "Hu9qsRG5POVggPcF0RVOQQ=="
+          "hash": "kgymUYYcAZKyff1bE20Udg=="
         }
       },
       "is_incremental": false,
@@ -1281,7 +1305,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.SqlClient.TransactSqlQueryFactory.html",
-          "hash": "qFhlxSu/UjX5elj4A0hDWw=="
+          "hash": "LF65o8q21nQ4mc0XOaj7lg=="
         }
       },
       "is_incremental": false,
@@ -2829,7 +2853,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "CYusf4C3PzRTcOlz8k+Y2w=="
+          "hash": "DrGQ6dG/ntEnDl9K55JZ8w=="
         }
       },
       "is_incremental": false,
@@ -2919,7 +2943,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 234,
+          "total_file_count": 236,
           "skipped_file_count": 0
         },
         "TocDocumentProcessor": {
