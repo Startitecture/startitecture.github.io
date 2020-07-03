@@ -310,7 +310,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IEnumerable&lt;LambdaExpression&gt; SelectExpressions { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;SelectExpression&gt; SelectExpressions { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -322,7 +322,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Linq.Expressions.LambdaExpression</span>&gt;</td>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Startitecture.Orm.Model.SelectExpression.html">SelectExpression</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -331,7 +331,7 @@
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/ItemSelection.cs&amp;version=GBmaster&amp;line=1072">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/ItemSelection.cs&amp;version=GBmaster&amp;line=1087">View Source</a>
   </span>
   <a id="Startitecture_Orm_Model_ItemSelection_1_AddFilter_" data-uid="Startitecture.Orm.Model.ItemSelection`1.AddFilter*"></a>
   <h4 id="Startitecture_Orm_Model_ItemSelection_1_AddFilter_Startitecture_Orm_Model_ValueFilter_" data-uid="Startitecture.Orm.Model.ItemSelection`1.AddFilter(Startitecture.Orm.Model.ValueFilter)">AddFilter(ValueFilter)</h4>
@@ -394,7 +394,7 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/ItemSelection.cs&amp;version=GBmaster&amp;line=539">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/ItemSelection.cs&amp;version=GBmaster&amp;line=554">View Source</a>
   </span>
   <a id="Startitecture_Orm_Model_ItemSelection_1_AddRelation_" data-uid="Startitecture.Orm.Model.ItemSelection`1.AddRelation*"></a>
   <h4 id="Startitecture_Orm_Model_ItemSelection_1_AddRelation_Startitecture_Orm_Model_IEntityRelation_" data-uid="Startitecture.Orm.Model.ItemSelection`1.AddRelation(Startitecture.Orm.Model.IEntityRelation)">AddRelation(IEntityRelation)</h4>
@@ -441,7 +441,7 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/ItemSelection.cs&amp;version=GBmaster&amp;line=492">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/ItemSelection.cs&amp;version=GBmaster&amp;line=507">View Source</a>
   </span>
   <a id="Startitecture_Orm_Model_ItemSelection_1_Between_" data-uid="Startitecture.Orm.Model.ItemSelection`1.Between*"></a>
   <h4 id="Startitecture_Orm_Model_ItemSelection_1_Between__0__0_System_Linq_Expressions_Expression_System_Func__0_System_Object_____" data-uid="Startitecture.Orm.Model.ItemSelection`1.Between(`0,`0,System.Linq.Expressions.Expression{System.Func{`0,System.Object}}[])">Between(TItem, TItem, Expression&lt;Func&lt;TItem, Object&gt;&gt;[])</h4>
@@ -477,7 +477,7 @@
       <tr>
         <td><span class="xref">System.Linq.Expressions.Expression</span>&lt;<span class="xref">System.Func</span>&lt;TItem, <span class="xref">System.Object</span>&gt;&gt;[]</td>
         <td><span class="parametername">selectors</span></td>
-        <td><p>The selectors of the properties to match.</p>
+        <td><p>The selectors of the attributes to match.</p>
 </td>
       </tr>
     </tbody>
@@ -500,7 +500,7 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/ItemSelection.cs&amp;version=GBmaster&amp;line=452">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/ItemSelection.cs&amp;version=GBmaster&amp;line=467">View Source</a>
   </span>
   <a id="Startitecture_Orm_Model_ItemSelection_1_Between_" data-uid="Startitecture.Orm.Model.ItemSelection`1.Between*"></a>
   <h4 id="Startitecture_Orm_Model_ItemSelection_1_Between__1_System_Linq_Expressions_Expression_System_Func__0___0_____0___0_" data-uid="Startitecture.Orm.Model.ItemSelection`1.Between``1(System.Linq.Expressions.Expression{System.Func{`0,``0}},``0,``0)">Between&lt;TValue&gt;(Expression&lt;Func&lt;TItem, TValue&gt;&gt;, TValue, TValue)</h4>
@@ -592,7 +592,54 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/ItemSelection.cs&amp;version=GBmaster&amp;line=1011">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/ItemSelection.cs&amp;version=GBmaster&amp;line=137">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Model_ItemSelection_1_Count_" data-uid="Startitecture.Orm.Model.ItemSelection`1.Count*"></a>
+  <h4 id="Startitecture_Orm_Model_ItemSelection_1_Count_System_Linq_Expressions_Expression_System_Func__0_System_Object___" data-uid="Startitecture.Orm.Model.ItemSelection`1.Count(System.Linq.Expressions.Expression{System.Func{`0,System.Object}})">Count(Expression&lt;Func&lt;TItem, Object&gt;&gt;)</h4>
+  <div class="markdown level1 summary"><p>Gets the count for the specified attribute.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ItemSelection&lt;TItem&gt; Count(Expression&lt;Func&lt;TItem, object&gt;&gt; selector)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Linq.Expressions.Expression</span>&lt;<span class="xref">System.Func</span>&lt;TItem, <span class="xref">System.Object</span>&gt;&gt;</td>
+        <td><span class="parametername">selector</span></td>
+        <td><p>The attribute selector</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Model.ItemSelection-1.html">ItemSelection</a>&lt;TItem&gt;</td>
+        <td><p>The current <a class="xref" href="Startitecture.Orm.Model.ItemSelection-1.html">ItemSelection&lt;TItem&gt;</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/ItemSelection.cs&amp;version=GBmaster&amp;line=1026">View Source</a>
   </span>
   <a id="Startitecture_Orm_Model_ItemSelection_1_Except_" data-uid="Startitecture.Orm.Model.ItemSelection`1.Except*"></a>
   <h4 id="Startitecture_Orm_Model_ItemSelection_1_Except_Startitecture_Orm_Model_ItemSelection__0__" data-uid="Startitecture.Orm.Model.ItemSelection`1.Except(Startitecture.Orm.Model.ItemSelection{`0})">Except(ItemSelection&lt;TItem&gt;)</h4>
@@ -639,7 +686,7 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/ItemSelection.cs&amp;version=GBmaster&amp;line=299">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/ItemSelection.cs&amp;version=GBmaster&amp;line=314">View Source</a>
   </span>
   <a id="Startitecture_Orm_Model_ItemSelection_1_GreaterThan_" data-uid="Startitecture.Orm.Model.ItemSelection`1.GreaterThan*"></a>
   <h4 id="Startitecture_Orm_Model_ItemSelection_1_GreaterThan__1_System_Linq_Expressions_Expression_System_Func__0___0_____0_" data-uid="Startitecture.Orm.Model.ItemSelection`1.GreaterThan``1(System.Linq.Expressions.Expression{System.Func{`0,``0}},``0)">GreaterThan&lt;TValue&gt;(Expression&lt;Func&lt;TItem, TValue&gt;&gt;, TValue)</h4>
@@ -724,7 +771,7 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/ItemSelection.cs&amp;version=GBmaster&amp;line=328">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/ItemSelection.cs&amp;version=GBmaster&amp;line=343">View Source</a>
   </span>
   <a id="Startitecture_Orm_Model_ItemSelection_1_GreaterThanOrEqualTo_" data-uid="Startitecture.Orm.Model.ItemSelection`1.GreaterThanOrEqualTo*"></a>
   <h4 id="Startitecture_Orm_Model_ItemSelection_1_GreaterThanOrEqualTo__1_System_Linq_Expressions_Expression_System_Func__0___0_____0_" data-uid="Startitecture.Orm.Model.ItemSelection`1.GreaterThanOrEqualTo``1(System.Linq.Expressions.Expression{System.Func{`0,``0}},``0)">GreaterThanOrEqualTo&lt;TValue&gt;(Expression&lt;Func&lt;TItem, TValue&gt;&gt;, TValue)</h4>
@@ -809,7 +856,7 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/ItemSelection.cs&amp;version=GBmaster&amp;line=412">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/ItemSelection.cs&amp;version=GBmaster&amp;line=427">View Source</a>
   </span>
   <a id="Startitecture_Orm_Model_ItemSelection_1_Include_" data-uid="Startitecture.Orm.Model.ItemSelection`1.Include*"></a>
   <h4 id="Startitecture_Orm_Model_ItemSelection_1_Include__1_System_Linq_Expressions_Expression_System_Func__0___0_____0___" data-uid="Startitecture.Orm.Model.ItemSelection`1.Include``1(System.Linq.Expressions.Expression{System.Func{`0,``0}},``0[])">Include&lt;TValue&gt;(Expression&lt;Func&lt;TItem, TValue&gt;&gt;, TValue[])</h4>
@@ -878,7 +925,7 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/ItemSelection.cs&amp;version=GBmaster&amp;line=562">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/ItemSelection.cs&amp;version=GBmaster&amp;line=577">View Source</a>
   </span>
   <a id="Startitecture_Orm_Model_ItemSelection_1_InnerJoin_" data-uid="Startitecture.Orm.Model.ItemSelection`1.InnerJoin*"></a>
   <h4 id="Startitecture_Orm_Model_ItemSelection_1_InnerJoin_System_Linq_Expressions_Expression_System_Func__0_System_Object___System_Linq_Expressions_Expression_System_Func__0_System_Object___" data-uid="Startitecture.Orm.Model.ItemSelection`1.InnerJoin(System.Linq.Expressions.Expression{System.Func{`0,System.Object}},System.Linq.Expressions.Expression{System.Func{`0,System.Object}})">InnerJoin(Expression&lt;Func&lt;TItem, Object&gt;&gt;, Expression&lt;Func&lt;TItem, Object&gt;&gt;)</h4>
@@ -931,7 +978,7 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/ItemSelection.cs&amp;version=GBmaster&amp;line=596">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/ItemSelection.cs&amp;version=GBmaster&amp;line=611">View Source</a>
   </span>
   <a id="Startitecture_Orm_Model_ItemSelection_1_InnerJoin_" data-uid="Startitecture.Orm.Model.ItemSelection`1.InnerJoin*"></a>
   <h4 id="Startitecture_Orm_Model_ItemSelection_1_InnerJoin__1_System_Linq_Expressions_Expression_System_Func__0_System_Object___System_Linq_Expressions_Expression_System_Func___0_System_Object___" data-uid="Startitecture.Orm.Model.ItemSelection`1.InnerJoin``1(System.Linq.Expressions.Expression{System.Func{`0,System.Object}},System.Linq.Expressions.Expression{System.Func{``0,System.Object}})">InnerJoin&lt;TRelation&gt;(Expression&lt;Func&lt;TItem, Object&gt;&gt;, Expression&lt;Func&lt;TRelation, Object&gt;&gt;)</h4>
@@ -1000,7 +1047,7 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/ItemSelection.cs&amp;version=GBmaster&amp;line=633">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/ItemSelection.cs&amp;version=GBmaster&amp;line=648">View Source</a>
   </span>
   <a id="Startitecture_Orm_Model_ItemSelection_1_InnerJoin_" data-uid="Startitecture.Orm.Model.ItemSelection`1.InnerJoin*"></a>
   <h4 id="Startitecture_Orm_Model_ItemSelection_1_InnerJoin__1_System_Linq_Expressions_Expression_System_Func__0_System_Object___System_Linq_Expressions_Expression_System_Func___0_System_Object___System_String_" data-uid="Startitecture.Orm.Model.ItemSelection`1.InnerJoin``1(System.Linq.Expressions.Expression{System.Func{`0,System.Object}},System.Linq.Expressions.Expression{System.Func{``0,System.Object}},System.String)">InnerJoin&lt;TRelation&gt;(Expression&lt;Func&lt;TItem, Object&gt;&gt;, Expression&lt;Func&lt;TRelation, Object&gt;&gt;, String)</h4>
@@ -1075,7 +1122,7 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/ItemSelection.cs&amp;version=GBmaster&amp;line=672">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/ItemSelection.cs&amp;version=GBmaster&amp;line=687">View Source</a>
   </span>
   <a id="Startitecture_Orm_Model_ItemSelection_1_InnerJoin_" data-uid="Startitecture.Orm.Model.ItemSelection`1.InnerJoin*"></a>
   <h4 id="Startitecture_Orm_Model_ItemSelection_1_InnerJoin__2_System_Linq_Expressions_Expression_System_Func___0_System_Object___System_Linq_Expressions_Expression_System_Func___1_System_Object___" data-uid="Startitecture.Orm.Model.ItemSelection`1.InnerJoin``2(System.Linq.Expressions.Expression{System.Func{``0,System.Object}},System.Linq.Expressions.Expression{System.Func{``1,System.Object}})">InnerJoin&lt;TSource, TRelation&gt;(Expression&lt;Func&lt;TSource, Object&gt;&gt;, Expression&lt;Func&lt;TRelation, Object&gt;&gt;)</h4>
@@ -1150,7 +1197,7 @@ JOIN member.</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/ItemSelection.cs&amp;version=GBmaster&amp;line=703">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/ItemSelection.cs&amp;version=GBmaster&amp;line=718">View Source</a>
   </span>
   <a id="Startitecture_Orm_Model_ItemSelection_1_InnerJoin_" data-uid="Startitecture.Orm.Model.ItemSelection`1.InnerJoin*"></a>
   <h4 id="Startitecture_Orm_Model_ItemSelection_1_InnerJoin__2_System_Linq_Expressions_Expression_System_Func___0_System_Object___System_Linq_Expressions_Expression_System_Func___1_System_Object___System_String_" data-uid="Startitecture.Orm.Model.ItemSelection`1.InnerJoin``2(System.Linq.Expressions.Expression{System.Func{``0,System.Object}},System.Linq.Expressions.Expression{System.Func{``1,System.Object}},System.String)">InnerJoin&lt;TSource, TRelation&gt;(Expression&lt;Func&lt;TSource, Object&gt;&gt;, Expression&lt;Func&lt;TRelation, Object&gt;&gt;, String)</h4>
@@ -1231,7 +1278,7 @@ JOIN member.</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/ItemSelection.cs&amp;version=GBmaster&amp;line=736">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/ItemSelection.cs&amp;version=GBmaster&amp;line=751">View Source</a>
   </span>
   <a id="Startitecture_Orm_Model_ItemSelection_1_InnerJoin_" data-uid="Startitecture.Orm.Model.ItemSelection`1.InnerJoin*"></a>
   <h4 id="Startitecture_Orm_Model_ItemSelection_1_InnerJoin__2_System_Linq_Expressions_Expression_System_Func___0_System_Object___System_String_System_Linq_Expressions_Expression_System_Func___1_System_Object___System_String_" data-uid="Startitecture.Orm.Model.ItemSelection`1.InnerJoin``2(System.Linq.Expressions.Expression{System.Func{``0,System.Object}},System.String,System.Linq.Expressions.Expression{System.Func{``1,System.Object}},System.String)">InnerJoin&lt;TSource, TRelation&gt;(Expression&lt;Func&lt;TSource, Object&gt;&gt;, String, Expression&lt;Func&lt;TRelation, Object&gt;&gt;, String)</h4>
@@ -1318,7 +1365,7 @@ JOIN member.</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/ItemSelection.cs&amp;version=GBmaster&amp;line=996">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/ItemSelection.cs&amp;version=GBmaster&amp;line=1011">View Source</a>
   </span>
   <a id="Startitecture_Orm_Model_ItemSelection_1_Intersect_" data-uid="Startitecture.Orm.Model.ItemSelection`1.Intersect*"></a>
   <h4 id="Startitecture_Orm_Model_ItemSelection_1_Intersect_Startitecture_Orm_Model_ItemSelection__0__" data-uid="Startitecture.Orm.Model.ItemSelection`1.Intersect(Startitecture.Orm.Model.ItemSelection{`0})">Intersect(ItemSelection&lt;TItem&gt;)</h4>
@@ -1365,7 +1412,7 @@ JOIN member.</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/ItemSelection.cs&amp;version=GBmaster&amp;line=771">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/ItemSelection.cs&amp;version=GBmaster&amp;line=786">View Source</a>
   </span>
   <a id="Startitecture_Orm_Model_ItemSelection_1_LeftJoin_" data-uid="Startitecture.Orm.Model.ItemSelection`1.LeftJoin*"></a>
   <h4 id="Startitecture_Orm_Model_ItemSelection_1_LeftJoin_System_Linq_Expressions_Expression_System_Func__0_System_Object___System_Linq_Expressions_Expression_System_Func__0_System_Object___" data-uid="Startitecture.Orm.Model.ItemSelection`1.LeftJoin(System.Linq.Expressions.Expression{System.Func{`0,System.Object}},System.Linq.Expressions.Expression{System.Func{`0,System.Object}})">LeftJoin(Expression&lt;Func&lt;TItem, Object&gt;&gt;, Expression&lt;Func&lt;TItem, Object&gt;&gt;)</h4>
@@ -1418,7 +1465,7 @@ JOIN member.</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/ItemSelection.cs&amp;version=GBmaster&amp;line=805">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/ItemSelection.cs&amp;version=GBmaster&amp;line=820">View Source</a>
   </span>
   <a id="Startitecture_Orm_Model_ItemSelection_1_LeftJoin_" data-uid="Startitecture.Orm.Model.ItemSelection`1.LeftJoin*"></a>
   <h4 id="Startitecture_Orm_Model_ItemSelection_1_LeftJoin__1_System_Linq_Expressions_Expression_System_Func__0_System_Object___System_Linq_Expressions_Expression_System_Func___0_System_Object___" data-uid="Startitecture.Orm.Model.ItemSelection`1.LeftJoin``1(System.Linq.Expressions.Expression{System.Func{`0,System.Object}},System.Linq.Expressions.Expression{System.Func{``0,System.Object}})">LeftJoin&lt;TRelation&gt;(Expression&lt;Func&lt;TItem, Object&gt;&gt;, Expression&lt;Func&lt;TRelation, Object&gt;&gt;)</h4>
@@ -1487,7 +1534,7 @@ JOIN member.</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/ItemSelection.cs&amp;version=GBmaster&amp;line=842">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/ItemSelection.cs&amp;version=GBmaster&amp;line=857">View Source</a>
   </span>
   <a id="Startitecture_Orm_Model_ItemSelection_1_LeftJoin_" data-uid="Startitecture.Orm.Model.ItemSelection`1.LeftJoin*"></a>
   <h4 id="Startitecture_Orm_Model_ItemSelection_1_LeftJoin__1_System_Linq_Expressions_Expression_System_Func__0_System_Object___System_Linq_Expressions_Expression_System_Func___0_System_Object___System_String_" data-uid="Startitecture.Orm.Model.ItemSelection`1.LeftJoin``1(System.Linq.Expressions.Expression{System.Func{`0,System.Object}},System.Linq.Expressions.Expression{System.Func{``0,System.Object}},System.String)">LeftJoin&lt;TRelation&gt;(Expression&lt;Func&lt;TItem, Object&gt;&gt;, Expression&lt;Func&lt;TRelation, Object&gt;&gt;, String)</h4>
@@ -1562,7 +1609,7 @@ JOIN member.</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/ItemSelection.cs&amp;version=GBmaster&amp;line=881">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/ItemSelection.cs&amp;version=GBmaster&amp;line=896">View Source</a>
   </span>
   <a id="Startitecture_Orm_Model_ItemSelection_1_LeftJoin_" data-uid="Startitecture.Orm.Model.ItemSelection`1.LeftJoin*"></a>
   <h4 id="Startitecture_Orm_Model_ItemSelection_1_LeftJoin__2_System_Linq_Expressions_Expression_System_Func___0_System_Object___System_Linq_Expressions_Expression_System_Func___1_System_Object___" data-uid="Startitecture.Orm.Model.ItemSelection`1.LeftJoin``2(System.Linq.Expressions.Expression{System.Func{``0,System.Object}},System.Linq.Expressions.Expression{System.Func{``1,System.Object}})">LeftJoin&lt;TSource, TRelation&gt;(Expression&lt;Func&lt;TSource, Object&gt;&gt;, Expression&lt;Func&lt;TRelation, Object&gt;&gt;)</h4>
@@ -1637,7 +1684,7 @@ JOIN member.</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/ItemSelection.cs&amp;version=GBmaster&amp;line=912">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/ItemSelection.cs&amp;version=GBmaster&amp;line=927">View Source</a>
   </span>
   <a id="Startitecture_Orm_Model_ItemSelection_1_LeftJoin_" data-uid="Startitecture.Orm.Model.ItemSelection`1.LeftJoin*"></a>
   <h4 id="Startitecture_Orm_Model_ItemSelection_1_LeftJoin__2_System_Linq_Expressions_Expression_System_Func___0_System_Object___System_Linq_Expressions_Expression_System_Func___1_System_Object___System_String_" data-uid="Startitecture.Orm.Model.ItemSelection`1.LeftJoin``2(System.Linq.Expressions.Expression{System.Func{``0,System.Object}},System.Linq.Expressions.Expression{System.Func{``1,System.Object}},System.String)">LeftJoin&lt;TSource, TRelation&gt;(Expression&lt;Func&lt;TSource, Object&gt;&gt;, Expression&lt;Func&lt;TRelation, Object&gt;&gt;, String)</h4>
@@ -1718,7 +1765,7 @@ JOIN member.</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/ItemSelection.cs&amp;version=GBmaster&amp;line=945">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/ItemSelection.cs&amp;version=GBmaster&amp;line=960">View Source</a>
   </span>
   <a id="Startitecture_Orm_Model_ItemSelection_1_LeftJoin_" data-uid="Startitecture.Orm.Model.ItemSelection`1.LeftJoin*"></a>
   <h4 id="Startitecture_Orm_Model_ItemSelection_1_LeftJoin__2_System_Linq_Expressions_Expression_System_Func___0_System_Object___System_String_System_Linq_Expressions_Expression_System_Func___1_System_Object___System_String_" data-uid="Startitecture.Orm.Model.ItemSelection`1.LeftJoin``2(System.Linq.Expressions.Expression{System.Func{``0,System.Object}},System.String,System.Linq.Expressions.Expression{System.Func{``1,System.Object}},System.String)">LeftJoin&lt;TSource, TRelation&gt;(Expression&lt;Func&lt;TSource, Object&gt;&gt;, String, Expression&lt;Func&lt;TRelation, Object&gt;&gt;, String)</h4>
@@ -1805,7 +1852,7 @@ JOIN member.</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/ItemSelection.cs&amp;version=GBmaster&amp;line=357">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/ItemSelection.cs&amp;version=GBmaster&amp;line=372">View Source</a>
   </span>
   <a id="Startitecture_Orm_Model_ItemSelection_1_LessThan_" data-uid="Startitecture.Orm.Model.ItemSelection`1.LessThan*"></a>
   <h4 id="Startitecture_Orm_Model_ItemSelection_1_LessThan__1_System_Linq_Expressions_Expression_System_Func__0___0_____0_" data-uid="Startitecture.Orm.Model.ItemSelection`1.LessThan``1(System.Linq.Expressions.Expression{System.Func{`0,``0}},``0)">LessThan&lt;TValue&gt;(Expression&lt;Func&lt;TItem, TValue&gt;&gt;, TValue)</h4>
@@ -1890,7 +1937,7 @@ JOIN member.</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/ItemSelection.cs&amp;version=GBmaster&amp;line=386">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/ItemSelection.cs&amp;version=GBmaster&amp;line=401">View Source</a>
   </span>
   <a id="Startitecture_Orm_Model_ItemSelection_1_LessThanOrEqualTo_" data-uid="Startitecture.Orm.Model.ItemSelection`1.LessThanOrEqualTo*"></a>
   <h4 id="Startitecture_Orm_Model_ItemSelection_1_LessThanOrEqualTo__1_System_Linq_Expressions_Expression_System_Func__0___0_____0_" data-uid="Startitecture.Orm.Model.ItemSelection`1.LessThanOrEqualTo``1(System.Linq.Expressions.Expression{System.Func{`0,``0}},``0)">LessThanOrEqualTo&lt;TValue&gt;(Expression&lt;Func&lt;TItem, TValue&gt;&gt;, TValue)</h4>
@@ -1975,7 +2022,7 @@ JOIN member.</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/ItemSelection.cs&amp;version=GBmaster&amp;line=1028">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/ItemSelection.cs&amp;version=GBmaster&amp;line=1043">View Source</a>
   </span>
   <a id="Startitecture_Orm_Model_ItemSelection_1_MapTo_" data-uid="Startitecture.Orm.Model.ItemSelection`1.MapTo*"></a>
   <h4 id="Startitecture_Orm_Model_ItemSelection_1_MapTo__1" data-uid="Startitecture.Orm.Model.ItemSelection`1.MapTo``1">MapTo&lt;TDestItem&gt;()</h4>
@@ -2021,7 +2068,7 @@ JOIN member.</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/ItemSelection.cs&amp;version=GBmaster&amp;line=204">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/ItemSelection.cs&amp;version=GBmaster&amp;line=219">View Source</a>
   </span>
   <a id="Startitecture_Orm_Model_ItemSelection_1_Matching_" data-uid="Startitecture.Orm.Model.ItemSelection`1.Matching*"></a>
   <h4 id="Startitecture_Orm_Model_ItemSelection_1_Matching__0_System_Linq_Expressions_Expression_System_Func__0_System_Object_____" data-uid="Startitecture.Orm.Model.ItemSelection`1.Matching(`0,System.Linq.Expressions.Expression{System.Func{`0,System.Object}}[])">Matching(TItem, Expression&lt;Func&lt;TItem, Object&gt;&gt;[])</h4>
@@ -2051,7 +2098,7 @@ JOIN member.</p>
       <tr>
         <td><span class="xref">System.Linq.Expressions.Expression</span>&lt;<span class="xref">System.Func</span>&lt;TItem, <span class="xref">System.Object</span>&gt;&gt;[]</td>
         <td><span class="parametername">selectors</span></td>
-        <td><p>The selectors of the properties to match.</p>
+        <td><p>The selectors of the attributes to match.</p>
 </td>
       </tr>
     </tbody>
@@ -2074,7 +2121,7 @@ JOIN member.</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/ItemSelection.cs&amp;version=GBmaster&amp;line=167">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/ItemSelection.cs&amp;version=GBmaster&amp;line=182">View Source</a>
   </span>
   <a id="Startitecture_Orm_Model_ItemSelection_1_OrderBy_" data-uid="Startitecture.Orm.Model.ItemSelection`1.OrderBy*"></a>
   <h4 id="Startitecture_Orm_Model_ItemSelection_1_OrderBy_System_Linq_Expressions_Expression_System_Func__0_System_Object___" data-uid="Startitecture.Orm.Model.ItemSelection`1.OrderBy(System.Linq.Expressions.Expression{System.Func{`0,System.Object}})">OrderBy(Expression&lt;Func&lt;TItem, Object&gt;&gt;)</h4>
@@ -2121,7 +2168,7 @@ JOIN member.</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/ItemSelection.cs&amp;version=GBmaster&amp;line=182">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/ItemSelection.cs&amp;version=GBmaster&amp;line=197">View Source</a>
   </span>
   <a id="Startitecture_Orm_Model_ItemSelection_1_OrderByDescending_" data-uid="Startitecture.Orm.Model.ItemSelection`1.OrderByDescending*"></a>
   <h4 id="Startitecture_Orm_Model_ItemSelection_1_OrderByDescending_System_Linq_Expressions_Expression_System_Func__0_System_Object___" data-uid="Startitecture.Orm.Model.ItemSelection`1.OrderByDescending(System.Linq.Expressions.Expression{System.Func{`0,System.Object}})">OrderByDescending(Expression&lt;Func&lt;TItem, Object&gt;&gt;)</h4>
@@ -2172,7 +2219,7 @@ JOIN member.</p>
   </span>
   <a id="Startitecture_Orm_Model_ItemSelection_1_Select_" data-uid="Startitecture.Orm.Model.ItemSelection`1.Select*"></a>
   <h4 id="Startitecture_Orm_Model_ItemSelection_1_Select_System_Linq_Expressions_Expression_System_Func__0_System_Object_____" data-uid="Startitecture.Orm.Model.ItemSelection`1.Select(System.Linq.Expressions.Expression{System.Func{`0,System.Object}}[])">Select(Expression&lt;Func&lt;TItem, Object&gt;&gt;[])</h4>
-  <div class="markdown level1 summary"><p>Selects the properties to return with the query.</p>
+  <div class="markdown level1 summary"><p>Selects the attributes to return with the query.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -2192,7 +2239,7 @@ JOIN member.</p>
       <tr>
         <td><span class="xref">System.Linq.Expressions.Expression</span>&lt;<span class="xref">System.Func</span>&lt;TItem, <span class="xref">System.Object</span>&gt;&gt;[]</td>
         <td><span class="parametername">selectors</span></td>
-        <td><p>The property name selectors. If empty, all properties are returned.</p>
+        <td><p>The attribute selectors. If empty, all attributes are returned.</p>
 </td>
       </tr>
     </tbody>
@@ -2215,7 +2262,7 @@ JOIN member.</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/ItemSelection.cs&amp;version=GBmaster&amp;line=137">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/ItemSelection.cs&amp;version=GBmaster&amp;line=152">View Source</a>
   </span>
   <a id="Startitecture_Orm_Model_ItemSelection_1_Skip_" data-uid="Startitecture.Orm.Model.ItemSelection`1.Skip*"></a>
   <h4 id="Startitecture_Orm_Model_ItemSelection_1_Skip_System_Int32_" data-uid="Startitecture.Orm.Model.ItemSelection`1.Skip(System.Int32)">Skip(Int32)</h4>
@@ -2262,7 +2309,7 @@ JOIN member.</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/ItemSelection.cs&amp;version=GBmaster&amp;line=152">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/ItemSelection.cs&amp;version=GBmaster&amp;line=167">View Source</a>
   </span>
   <a id="Startitecture_Orm_Model_ItemSelection_1_Take_" data-uid="Startitecture.Orm.Model.ItemSelection`1.Take*"></a>
   <h4 id="Startitecture_Orm_Model_ItemSelection_1_Take_System_Int32_" data-uid="Startitecture.Orm.Model.ItemSelection`1.Take(System.Int32)">Take(Int32)</h4>
@@ -2309,7 +2356,7 @@ JOIN member.</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/ItemSelection.cs&amp;version=GBmaster&amp;line=1055">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/ItemSelection.cs&amp;version=GBmaster&amp;line=1070">View Source</a>
   </span>
   <a id="Startitecture_Orm_Model_ItemSelection_1_ToString_" data-uid="Startitecture.Orm.Model.ItemSelection`1.ToString*"></a>
   <h4 id="Startitecture_Orm_Model_ItemSelection_1_ToString" data-uid="Startitecture.Orm.Model.ItemSelection`1.ToString">ToString()</h4>
@@ -2340,7 +2387,7 @@ JOIN member.</p>
   <div><span class="xref">System.Object.ToString()</span></div>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/ItemSelection.cs&amp;version=GBmaster&amp;line=981">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/ItemSelection.cs&amp;version=GBmaster&amp;line=996">View Source</a>
   </span>
   <a id="Startitecture_Orm_Model_ItemSelection_1_Union_" data-uid="Startitecture.Orm.Model.ItemSelection`1.Union*"></a>
   <h4 id="Startitecture_Orm_Model_ItemSelection_1_Union_Startitecture_Orm_Model_ItemSelection__0__" data-uid="Startitecture.Orm.Model.ItemSelection`1.Union(Startitecture.Orm.Model.ItemSelection{`0})">Union(ItemSelection&lt;TItem&gt;)</h4>
@@ -2387,7 +2434,7 @@ JOIN member.</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/ItemSelection.cs&amp;version=GBmaster&amp;line=243">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/ItemSelection.cs&amp;version=GBmaster&amp;line=258">View Source</a>
   </span>
   <a id="Startitecture_Orm_Model_ItemSelection_1_WhereEqual_" data-uid="Startitecture.Orm.Model.ItemSelection`1.WhereEqual*"></a>
   <h4 id="Startitecture_Orm_Model_ItemSelection_1_WhereEqual__1_System_Linq_Expressions_Expression_System_Func__0___0_____0_" data-uid="Startitecture.Orm.Model.ItemSelection`1.WhereEqual``1(System.Linq.Expressions.Expression{System.Func{`0,``0}},``0)">WhereEqual&lt;TValue&gt;(Expression&lt;Func&lt;TItem, TValue&gt;&gt;, TValue)</h4>
@@ -2472,7 +2519,7 @@ JOIN member.</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/ItemSelection.cs&amp;version=GBmaster&amp;line=266">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/ItemSelection.cs&amp;version=GBmaster&amp;line=281">View Source</a>
   </span>
   <a id="Startitecture_Orm_Model_ItemSelection_1_WhereEqual_" data-uid="Startitecture.Orm.Model.ItemSelection`1.WhereEqual*"></a>
   <h4 id="Startitecture_Orm_Model_ItemSelection_1_WhereEqual__1_System_Linq_Expressions_LambdaExpression___0_" data-uid="Startitecture.Orm.Model.ItemSelection`1.WhereEqual``1(System.Linq.Expressions.LambdaExpression,``0)">WhereEqual&lt;TValue&gt;(LambdaExpression, TValue)</h4>
@@ -2561,9 +2608,6 @@ JOIN member.</p>
   </div>
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>
-      <a class="xref" href="Startitecture.Orm.Testing.Moq.ExtensionMethods.html#Startitecture_Orm_Testing_Moq_ExtensionMethods_MockDataReader__1___0_System_Collections_Generic_IEnumerable_Startitecture_Orm_Model_EntityAttributeDefinition__">ExtensionMethods.MockDataReader&lt;T&gt;(T, IEnumerable&lt;EntityAttributeDefinition&gt;)</a>
-  </div>
-  <div>
       <a class="xref" href="Startitecture.Orm.Model.ExtensionMethods.html#Startitecture_Orm_Model_ExtensionMethods_AsSelect__1_Startitecture_Orm_Model_ItemSelection___0__Startitecture_Orm_Model_IEntityDefinition_">ExtensionMethods.AsSelect&lt;TItem&gt;(ItemSelection&lt;TItem&gt;, IEntityDefinition)</a>
   </div>
   <div>
@@ -2571,6 +2615,9 @@ JOIN member.</p>
   </div>
   <div>
       <a class="xref" href="Startitecture.Orm.Model.ExtensionMethods.html#Startitecture_Orm_Model_ExtensionMethods_AsDelete__1_Startitecture_Orm_Model_ItemSelection___0__Startitecture_Orm_Model_IEntityDefinition_">ExtensionMethods.AsDelete&lt;TItem&gt;(ItemSelection&lt;TItem&gt;, IEntityDefinition)</a>
+  </div>
+  <div>
+      <a class="xref" href="Startitecture.Orm.Testing.Moq.ExtensionMethods.html#Startitecture_Orm_Testing_Moq_ExtensionMethods_MockDataReader__1___0_System_Collections_Generic_IEnumerable_Startitecture_Orm_Model_EntityAttributeDefinition__">ExtensionMethods.MockDataReader&lt;T&gt;(T, IEnumerable&lt;EntityAttributeDefinition&gt;)</a>
   </div>
 </article>
           </div>

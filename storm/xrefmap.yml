@@ -4108,6 +4108,24 @@ references:
   commentId: N:Startitecture.Orm.Model
   fullName: Startitecture.Orm.Model
   nameWithType: Startitecture.Orm.Model
+- uid: Startitecture.Orm.Model.AggregateFunction
+  name: AggregateFunction
+  href: api/Startitecture.Orm.Model.AggregateFunction.html
+  commentId: T:Startitecture.Orm.Model.AggregateFunction
+  fullName: Startitecture.Orm.Model.AggregateFunction
+  nameWithType: AggregateFunction
+- uid: Startitecture.Orm.Model.AggregateFunction.Count
+  name: Count
+  href: api/Startitecture.Orm.Model.AggregateFunction.html#Startitecture_Orm_Model_AggregateFunction_Count
+  commentId: F:Startitecture.Orm.Model.AggregateFunction.Count
+  fullName: Startitecture.Orm.Model.AggregateFunction.Count
+  nameWithType: AggregateFunction.Count
+- uid: Startitecture.Orm.Model.AggregateFunction.None
+  name: None
+  href: api/Startitecture.Orm.Model.AggregateFunction.html#Startitecture_Orm_Model_AggregateFunction_None
+  commentId: F:Startitecture.Orm.Model.AggregateFunction.None
+  fullName: Startitecture.Orm.Model.AggregateFunction.None
+  nameWithType: AggregateFunction.None
 - uid: Startitecture.Orm.Model.AttributeLocation
   name: AttributeLocation
   href: api/Startitecture.Orm.Model.AttributeLocation.html
@@ -7045,6 +7063,24 @@ references:
   fullName.vb: Startitecture.Orm.Model.ItemSelection(Of TItem).Between(Of TValue)(System.Linq.Expressions.Expression(Of System.Func(Of TItem, TValue)), TValue, TValue)
   nameWithType: ItemSelection<TItem>.Between<TValue>(Expression<Func<TItem, TValue>>, TValue, TValue)
   nameWithType.vb: ItemSelection(Of TItem).Between(Of TValue)(Expression(Of Func(Of TItem, TValue)), TValue, TValue)
+- uid: Startitecture.Orm.Model.ItemSelection`1.Count(System.Linq.Expressions.Expression{System.Func{`0,System.Object}})
+  name: Count(Expression<Func<TItem, Object>>)
+  href: api/Startitecture.Orm.Model.ItemSelection-1.html#Startitecture_Orm_Model_ItemSelection_1_Count_System_Linq_Expressions_Expression_System_Func__0_System_Object___
+  commentId: M:Startitecture.Orm.Model.ItemSelection`1.Count(System.Linq.Expressions.Expression{System.Func{`0,System.Object}})
+  name.vb: Count(Expression(Of Func(Of TItem, Object)))
+  fullName: Startitecture.Orm.Model.ItemSelection<TItem>.Count(System.Linq.Expressions.Expression<System.Func<TItem, System.Object>>)
+  fullName.vb: Startitecture.Orm.Model.ItemSelection(Of TItem).Count(System.Linq.Expressions.Expression(Of System.Func(Of TItem, System.Object)))
+  nameWithType: ItemSelection<TItem>.Count(Expression<Func<TItem, Object>>)
+  nameWithType.vb: ItemSelection(Of TItem).Count(Expression(Of Func(Of TItem, Object)))
+- uid: Startitecture.Orm.Model.ItemSelection`1.Count*
+  name: Count
+  href: api/Startitecture.Orm.Model.ItemSelection-1.html#Startitecture_Orm_Model_ItemSelection_1_Count_
+  commentId: Overload:Startitecture.Orm.Model.ItemSelection`1.Count
+  isSpec: "True"
+  fullName: Startitecture.Orm.Model.ItemSelection<TItem>.Count
+  fullName.vb: Startitecture.Orm.Model.ItemSelection(Of TItem).Count
+  nameWithType: ItemSelection<TItem>.Count
+  nameWithType.vb: ItemSelection(Of TItem).Count
 - uid: Startitecture.Orm.Model.ItemSelection`1.Except(Startitecture.Orm.Model.ItemSelection{`0})
   name: Except(ItemSelection<TItem>)
   href: api/Startitecture.Orm.Model.ItemSelection-1.html#Startitecture_Orm_Model_ItemSelection_1_Except_Startitecture_Orm_Model_ItemSelection__0__
@@ -8149,6 +8185,51 @@ references:
   fullName.vb: Startitecture.Orm.Model.Select.From(Of TItem)(System.Linq.Expressions.Expression(Of System.Func(Of TItem, System.Object))())
   nameWithType: Select.From<TItem>(Expression<Func<TItem, Object>>[])
   nameWithType.vb: Select.From(Of TItem)(Expression(Of Func(Of TItem, Object))())
+- uid: Startitecture.Orm.Model.SelectExpression
+  name: SelectExpression
+  href: api/Startitecture.Orm.Model.SelectExpression.html
+  commentId: T:Startitecture.Orm.Model.SelectExpression
+  fullName: Startitecture.Orm.Model.SelectExpression
+  nameWithType: SelectExpression
+- uid: Startitecture.Orm.Model.SelectExpression.#ctor(System.Linq.Expressions.LambdaExpression,Startitecture.Orm.Model.AggregateFunction)
+  name: SelectExpression(LambdaExpression, AggregateFunction)
+  href: api/Startitecture.Orm.Model.SelectExpression.html#Startitecture_Orm_Model_SelectExpression__ctor_System_Linq_Expressions_LambdaExpression_Startitecture_Orm_Model_AggregateFunction_
+  commentId: M:Startitecture.Orm.Model.SelectExpression.#ctor(System.Linq.Expressions.LambdaExpression,Startitecture.Orm.Model.AggregateFunction)
+  fullName: Startitecture.Orm.Model.SelectExpression.SelectExpression(System.Linq.Expressions.LambdaExpression, Startitecture.Orm.Model.AggregateFunction)
+  nameWithType: SelectExpression.SelectExpression(LambdaExpression, AggregateFunction)
+- uid: Startitecture.Orm.Model.SelectExpression.#ctor*
+  name: SelectExpression
+  href: api/Startitecture.Orm.Model.SelectExpression.html#Startitecture_Orm_Model_SelectExpression__ctor_
+  commentId: Overload:Startitecture.Orm.Model.SelectExpression.#ctor
+  isSpec: "True"
+  fullName: Startitecture.Orm.Model.SelectExpression.SelectExpression
+  nameWithType: SelectExpression.SelectExpression
+- uid: Startitecture.Orm.Model.SelectExpression.AggregateFunction
+  name: AggregateFunction
+  href: api/Startitecture.Orm.Model.SelectExpression.html#Startitecture_Orm_Model_SelectExpression_AggregateFunction
+  commentId: P:Startitecture.Orm.Model.SelectExpression.AggregateFunction
+  fullName: Startitecture.Orm.Model.SelectExpression.AggregateFunction
+  nameWithType: SelectExpression.AggregateFunction
+- uid: Startitecture.Orm.Model.SelectExpression.AggregateFunction*
+  name: AggregateFunction
+  href: api/Startitecture.Orm.Model.SelectExpression.html#Startitecture_Orm_Model_SelectExpression_AggregateFunction_
+  commentId: Overload:Startitecture.Orm.Model.SelectExpression.AggregateFunction
+  isSpec: "True"
+  fullName: Startitecture.Orm.Model.SelectExpression.AggregateFunction
+  nameWithType: SelectExpression.AggregateFunction
+- uid: Startitecture.Orm.Model.SelectExpression.AttributeExpression
+  name: AttributeExpression
+  href: api/Startitecture.Orm.Model.SelectExpression.html#Startitecture_Orm_Model_SelectExpression_AttributeExpression
+  commentId: P:Startitecture.Orm.Model.SelectExpression.AttributeExpression
+  fullName: Startitecture.Orm.Model.SelectExpression.AttributeExpression
+  nameWithType: SelectExpression.AttributeExpression
+- uid: Startitecture.Orm.Model.SelectExpression.AttributeExpression*
+  name: AttributeExpression
+  href: api/Startitecture.Orm.Model.SelectExpression.html#Startitecture_Orm_Model_SelectExpression_AttributeExpression_
+  commentId: Overload:Startitecture.Orm.Model.SelectExpression.AttributeExpression
+  isSpec: "True"
+  fullName: Startitecture.Orm.Model.SelectExpression.AttributeExpression
+  nameWithType: SelectExpression.AttributeExpression
 - uid: Startitecture.Orm.Model.SelectionLinkType
   name: SelectionLinkType
   href: api/Startitecture.Orm.Model.SelectionLinkType.html
