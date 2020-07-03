@@ -5864,15 +5864,15 @@ references:
   isSpec: "True"
   fullName: Startitecture.Orm.Model.ExtensionMethods.AsContains
   nameWithType: ExtensionMethods.AsContains
-- uid: Startitecture.Orm.Model.ExtensionMethods.AsContains``1(Startitecture.Orm.Model.ItemSelection{``0})
-  name: AsContains<TItem>(ItemSelection<TItem>)
-  href: api/Startitecture.Orm.Model.ExtensionMethods.html#Startitecture_Orm_Model_ExtensionMethods_AsContains__1_Startitecture_Orm_Model_ItemSelection___0__
-  commentId: M:Startitecture.Orm.Model.ExtensionMethods.AsContains``1(Startitecture.Orm.Model.ItemSelection{``0})
-  name.vb: AsContains(Of TItem)(ItemSelection(Of TItem))
-  fullName: Startitecture.Orm.Model.ExtensionMethods.AsContains<TItem>(Startitecture.Orm.Model.ItemSelection<TItem>)
-  fullName.vb: Startitecture.Orm.Model.ExtensionMethods.AsContains(Of TItem)(Startitecture.Orm.Model.ItemSelection(Of TItem))
-  nameWithType: ExtensionMethods.AsContains<TItem>(ItemSelection<TItem>)
-  nameWithType.vb: ExtensionMethods.AsContains(Of TItem)(ItemSelection(Of TItem))
+- uid: Startitecture.Orm.Model.ExtensionMethods.AsContains``1(Startitecture.Orm.Model.ItemSelection{``0},Startitecture.Orm.Model.IEntityDefinition)
+  name: AsContains<TItem>(ItemSelection<TItem>, IEntityDefinition)
+  href: api/Startitecture.Orm.Model.ExtensionMethods.html#Startitecture_Orm_Model_ExtensionMethods_AsContains__1_Startitecture_Orm_Model_ItemSelection___0__Startitecture_Orm_Model_IEntityDefinition_
+  commentId: M:Startitecture.Orm.Model.ExtensionMethods.AsContains``1(Startitecture.Orm.Model.ItemSelection{``0},Startitecture.Orm.Model.IEntityDefinition)
+  name.vb: AsContains(Of TItem)(ItemSelection(Of TItem), IEntityDefinition)
+  fullName: Startitecture.Orm.Model.ExtensionMethods.AsContains<TItem>(Startitecture.Orm.Model.ItemSelection<TItem>, Startitecture.Orm.Model.IEntityDefinition)
+  fullName.vb: Startitecture.Orm.Model.ExtensionMethods.AsContains(Of TItem)(Startitecture.Orm.Model.ItemSelection(Of TItem), Startitecture.Orm.Model.IEntityDefinition)
+  nameWithType: ExtensionMethods.AsContains<TItem>(ItemSelection<TItem>, IEntityDefinition)
+  nameWithType.vb: ExtensionMethods.AsContains(Of TItem)(ItemSelection(Of TItem), IEntityDefinition)
 - uid: Startitecture.Orm.Model.ExtensionMethods.AsDelete*
   name: AsDelete
   href: api/Startitecture.Orm.Model.ExtensionMethods.html#Startitecture_Orm_Model_ExtensionMethods_AsDelete_
@@ -5880,15 +5880,15 @@ references:
   isSpec: "True"
   fullName: Startitecture.Orm.Model.ExtensionMethods.AsDelete
   nameWithType: ExtensionMethods.AsDelete
-- uid: Startitecture.Orm.Model.ExtensionMethods.AsDelete``1(Startitecture.Orm.Model.ItemSelection{``0})
-  name: AsDelete<TItem>(ItemSelection<TItem>)
-  href: api/Startitecture.Orm.Model.ExtensionMethods.html#Startitecture_Orm_Model_ExtensionMethods_AsDelete__1_Startitecture_Orm_Model_ItemSelection___0__
-  commentId: M:Startitecture.Orm.Model.ExtensionMethods.AsDelete``1(Startitecture.Orm.Model.ItemSelection{``0})
-  name.vb: AsDelete(Of TItem)(ItemSelection(Of TItem))
-  fullName: Startitecture.Orm.Model.ExtensionMethods.AsDelete<TItem>(Startitecture.Orm.Model.ItemSelection<TItem>)
-  fullName.vb: Startitecture.Orm.Model.ExtensionMethods.AsDelete(Of TItem)(Startitecture.Orm.Model.ItemSelection(Of TItem))
-  nameWithType: ExtensionMethods.AsDelete<TItem>(ItemSelection<TItem>)
-  nameWithType.vb: ExtensionMethods.AsDelete(Of TItem)(ItemSelection(Of TItem))
+- uid: Startitecture.Orm.Model.ExtensionMethods.AsDelete``1(Startitecture.Orm.Model.ItemSelection{``0},Startitecture.Orm.Model.IEntityDefinition)
+  name: AsDelete<TItem>(ItemSelection<TItem>, IEntityDefinition)
+  href: api/Startitecture.Orm.Model.ExtensionMethods.html#Startitecture_Orm_Model_ExtensionMethods_AsDelete__1_Startitecture_Orm_Model_ItemSelection___0__Startitecture_Orm_Model_IEntityDefinition_
+  commentId: M:Startitecture.Orm.Model.ExtensionMethods.AsDelete``1(Startitecture.Orm.Model.ItemSelection{``0},Startitecture.Orm.Model.IEntityDefinition)
+  name.vb: AsDelete(Of TItem)(ItemSelection(Of TItem), IEntityDefinition)
+  fullName: Startitecture.Orm.Model.ExtensionMethods.AsDelete<TItem>(Startitecture.Orm.Model.ItemSelection<TItem>, Startitecture.Orm.Model.IEntityDefinition)
+  fullName.vb: Startitecture.Orm.Model.ExtensionMethods.AsDelete(Of TItem)(Startitecture.Orm.Model.ItemSelection(Of TItem), Startitecture.Orm.Model.IEntityDefinition)
+  nameWithType: ExtensionMethods.AsDelete<TItem>(ItemSelection<TItem>, IEntityDefinition)
+  nameWithType.vb: ExtensionMethods.AsDelete(Of TItem)(ItemSelection(Of TItem), IEntityDefinition)
 - uid: Startitecture.Orm.Model.ExtensionMethods.AsSelect*
   name: AsSelect
   href: api/Startitecture.Orm.Model.ExtensionMethods.html#Startitecture_Orm_Model_ExtensionMethods_AsSelect_
@@ -5896,15 +5896,15 @@ references:
   isSpec: "True"
   fullName: Startitecture.Orm.Model.ExtensionMethods.AsSelect
   nameWithType: ExtensionMethods.AsSelect
-- uid: Startitecture.Orm.Model.ExtensionMethods.AsSelect``1(Startitecture.Orm.Model.ItemSelection{``0})
-  name: AsSelect<TItem>(ItemSelection<TItem>)
-  href: api/Startitecture.Orm.Model.ExtensionMethods.html#Startitecture_Orm_Model_ExtensionMethods_AsSelect__1_Startitecture_Orm_Model_ItemSelection___0__
-  commentId: M:Startitecture.Orm.Model.ExtensionMethods.AsSelect``1(Startitecture.Orm.Model.ItemSelection{``0})
-  name.vb: AsSelect(Of TItem)(ItemSelection(Of TItem))
-  fullName: Startitecture.Orm.Model.ExtensionMethods.AsSelect<TItem>(Startitecture.Orm.Model.ItemSelection<TItem>)
-  fullName.vb: Startitecture.Orm.Model.ExtensionMethods.AsSelect(Of TItem)(Startitecture.Orm.Model.ItemSelection(Of TItem))
-  nameWithType: ExtensionMethods.AsSelect<TItem>(ItemSelection<TItem>)
-  nameWithType.vb: ExtensionMethods.AsSelect(Of TItem)(ItemSelection(Of TItem))
+- uid: Startitecture.Orm.Model.ExtensionMethods.AsSelect``1(Startitecture.Orm.Model.ItemSelection{``0},Startitecture.Orm.Model.IEntityDefinition)
+  name: AsSelect<TItem>(ItemSelection<TItem>, IEntityDefinition)
+  href: api/Startitecture.Orm.Model.ExtensionMethods.html#Startitecture_Orm_Model_ExtensionMethods_AsSelect__1_Startitecture_Orm_Model_ItemSelection___0__Startitecture_Orm_Model_IEntityDefinition_
+  commentId: M:Startitecture.Orm.Model.ExtensionMethods.AsSelect``1(Startitecture.Orm.Model.ItemSelection{``0},Startitecture.Orm.Model.IEntityDefinition)
+  name.vb: AsSelect(Of TItem)(ItemSelection(Of TItem), IEntityDefinition)
+  fullName: Startitecture.Orm.Model.ExtensionMethods.AsSelect<TItem>(Startitecture.Orm.Model.ItemSelection<TItem>, Startitecture.Orm.Model.IEntityDefinition)
+  fullName.vb: Startitecture.Orm.Model.ExtensionMethods.AsSelect(Of TItem)(Startitecture.Orm.Model.ItemSelection(Of TItem), Startitecture.Orm.Model.IEntityDefinition)
+  nameWithType: ExtensionMethods.AsSelect<TItem>(ItemSelection<TItem>, IEntityDefinition)
+  nameWithType.vb: ExtensionMethods.AsSelect(Of TItem)(ItemSelection(Of TItem), IEntityDefinition)
 - uid: Startitecture.Orm.Model.FilterType
   name: FilterType
   href: api/Startitecture.Orm.Model.FilterType.html
@@ -6483,6 +6483,12 @@ references:
   commentId: T:Startitecture.Orm.Model.IQueryFactory
   fullName: Startitecture.Orm.Model.IQueryFactory
   nameWithType: IQueryFactory
+- uid: Startitecture.Orm.Model.IQueryFactory.Create(Startitecture.Orm.Model.QueryContext)
+  name: Create(QueryContext)
+  href: api/Startitecture.Orm.Model.IQueryFactory.html#Startitecture_Orm_Model_IQueryFactory_Create_Startitecture_Orm_Model_QueryContext_
+  commentId: M:Startitecture.Orm.Model.IQueryFactory.Create(Startitecture.Orm.Model.QueryContext)
+  fullName: Startitecture.Orm.Model.IQueryFactory.Create(Startitecture.Orm.Model.QueryContext)
+  nameWithType: IQueryFactory.Create(QueryContext)
 - uid: Startitecture.Orm.Model.IQueryFactory.Create*
   name: Create
   href: api/Startitecture.Orm.Model.IQueryFactory.html#Startitecture_Orm_Model_IQueryFactory_Create_
@@ -6490,15 +6496,6 @@ references:
   isSpec: "True"
   fullName: Startitecture.Orm.Model.IQueryFactory.Create
   nameWithType: IQueryFactory.Create
-- uid: Startitecture.Orm.Model.IQueryFactory.Create``1(Startitecture.Orm.Model.QueryContext{``0})
-  name: Create<TItem>(QueryContext<TItem>)
-  href: api/Startitecture.Orm.Model.IQueryFactory.html#Startitecture_Orm_Model_IQueryFactory_Create__1_Startitecture_Orm_Model_QueryContext___0__
-  commentId: M:Startitecture.Orm.Model.IQueryFactory.Create``1(Startitecture.Orm.Model.QueryContext{``0})
-  name.vb: Create(Of TItem)(QueryContext(Of TItem))
-  fullName: Startitecture.Orm.Model.IQueryFactory.Create<TItem>(Startitecture.Orm.Model.QueryContext<TItem>)
-  fullName.vb: Startitecture.Orm.Model.IQueryFactory.Create(Of TItem)(Startitecture.Orm.Model.QueryContext(Of TItem))
-  nameWithType: IQueryFactory.Create<TItem>(QueryContext<TItem>)
-  nameWithType.vb: IQueryFactory.Create(Of TItem)(QueryContext(Of TItem))
 - uid: Startitecture.Orm.Model.IReadOnlyRepository`1
   name: IReadOnlyRepository<TModel>
   href: api/Startitecture.Orm.Model.IReadOnlyRepository-1.html
@@ -7746,93 +7743,83 @@ references:
   isSpec: "True"
   fullName: Startitecture.Orm.Model.OrderExpression.PropertyExpression
   nameWithType: OrderExpression.PropertyExpression
-- uid: Startitecture.Orm.Model.QueryContext`1
-  name: QueryContext<TItem>
-  href: api/Startitecture.Orm.Model.QueryContext-1.html
-  commentId: T:Startitecture.Orm.Model.QueryContext`1
-  name.vb: QueryContext(Of TItem)
-  fullName: Startitecture.Orm.Model.QueryContext<TItem>
-  fullName.vb: Startitecture.Orm.Model.QueryContext(Of TItem)
-  nameWithType: QueryContext<TItem>
-  nameWithType.vb: QueryContext(Of TItem)
-- uid: Startitecture.Orm.Model.QueryContext`1.#ctor(Startitecture.Orm.Model.ItemSelection{`0},Startitecture.Orm.Model.StatementOutputType)
-  name: QueryContext(ItemSelection<TItem>, StatementOutputType)
-  href: api/Startitecture.Orm.Model.QueryContext-1.html#Startitecture_Orm_Model_QueryContext_1__ctor_Startitecture_Orm_Model_ItemSelection__0__Startitecture_Orm_Model_StatementOutputType_
-  commentId: M:Startitecture.Orm.Model.QueryContext`1.#ctor(Startitecture.Orm.Model.ItemSelection{`0},Startitecture.Orm.Model.StatementOutputType)
-  name.vb: QueryContext(ItemSelection(Of TItem), StatementOutputType)
-  fullName: Startitecture.Orm.Model.QueryContext<TItem>.QueryContext(Startitecture.Orm.Model.ItemSelection<TItem>, Startitecture.Orm.Model.StatementOutputType)
-  fullName.vb: Startitecture.Orm.Model.QueryContext(Of TItem).QueryContext(Startitecture.Orm.Model.ItemSelection(Of TItem), Startitecture.Orm.Model.StatementOutputType)
-  nameWithType: QueryContext<TItem>.QueryContext(ItemSelection<TItem>, StatementOutputType)
-  nameWithType.vb: QueryContext(Of TItem).QueryContext(ItemSelection(Of TItem), StatementOutputType)
-- uid: Startitecture.Orm.Model.QueryContext`1.#ctor(Startitecture.Orm.Model.ItemSelection{`0},Startitecture.Orm.Model.StatementOutputType,System.Int32)
-  name: QueryContext(ItemSelection<TItem>, StatementOutputType, Int32)
-  href: api/Startitecture.Orm.Model.QueryContext-1.html#Startitecture_Orm_Model_QueryContext_1__ctor_Startitecture_Orm_Model_ItemSelection__0__Startitecture_Orm_Model_StatementOutputType_System_Int32_
-  commentId: M:Startitecture.Orm.Model.QueryContext`1.#ctor(Startitecture.Orm.Model.ItemSelection{`0},Startitecture.Orm.Model.StatementOutputType,System.Int32)
-  name.vb: QueryContext(ItemSelection(Of TItem), StatementOutputType, Int32)
-  fullName: Startitecture.Orm.Model.QueryContext<TItem>.QueryContext(Startitecture.Orm.Model.ItemSelection<TItem>, Startitecture.Orm.Model.StatementOutputType, System.Int32)
-  fullName.vb: Startitecture.Orm.Model.QueryContext(Of TItem).QueryContext(Startitecture.Orm.Model.ItemSelection(Of TItem), Startitecture.Orm.Model.StatementOutputType, System.Int32)
-  nameWithType: QueryContext<TItem>.QueryContext(ItemSelection<TItem>, StatementOutputType, Int32)
-  nameWithType.vb: QueryContext(Of TItem).QueryContext(ItemSelection(Of TItem), StatementOutputType, Int32)
-- uid: Startitecture.Orm.Model.QueryContext`1.#ctor*
+- uid: Startitecture.Orm.Model.QueryContext
   name: QueryContext
-  href: api/Startitecture.Orm.Model.QueryContext-1.html#Startitecture_Orm_Model_QueryContext_1__ctor_
-  commentId: Overload:Startitecture.Orm.Model.QueryContext`1.#ctor
+  href: api/Startitecture.Orm.Model.QueryContext.html
+  commentId: T:Startitecture.Orm.Model.QueryContext
+  fullName: Startitecture.Orm.Model.QueryContext
+  nameWithType: QueryContext
+- uid: Startitecture.Orm.Model.QueryContext.#ctor(Startitecture.Orm.Model.ISelection,Startitecture.Orm.Model.IEntityDefinition,Startitecture.Orm.Model.StatementOutputType)
+  name: QueryContext(ISelection, IEntityDefinition, StatementOutputType)
+  href: api/Startitecture.Orm.Model.QueryContext.html#Startitecture_Orm_Model_QueryContext__ctor_Startitecture_Orm_Model_ISelection_Startitecture_Orm_Model_IEntityDefinition_Startitecture_Orm_Model_StatementOutputType_
+  commentId: M:Startitecture.Orm.Model.QueryContext.#ctor(Startitecture.Orm.Model.ISelection,Startitecture.Orm.Model.IEntityDefinition,Startitecture.Orm.Model.StatementOutputType)
+  fullName: Startitecture.Orm.Model.QueryContext.QueryContext(Startitecture.Orm.Model.ISelection, Startitecture.Orm.Model.IEntityDefinition, Startitecture.Orm.Model.StatementOutputType)
+  nameWithType: QueryContext.QueryContext(ISelection, IEntityDefinition, StatementOutputType)
+- uid: Startitecture.Orm.Model.QueryContext.#ctor(Startitecture.Orm.Model.ISelection,Startitecture.Orm.Model.IEntityDefinition,Startitecture.Orm.Model.StatementOutputType,System.Int32)
+  name: QueryContext(ISelection, IEntityDefinition, StatementOutputType, Int32)
+  href: api/Startitecture.Orm.Model.QueryContext.html#Startitecture_Orm_Model_QueryContext__ctor_Startitecture_Orm_Model_ISelection_Startitecture_Orm_Model_IEntityDefinition_Startitecture_Orm_Model_StatementOutputType_System_Int32_
+  commentId: M:Startitecture.Orm.Model.QueryContext.#ctor(Startitecture.Orm.Model.ISelection,Startitecture.Orm.Model.IEntityDefinition,Startitecture.Orm.Model.StatementOutputType,System.Int32)
+  fullName: Startitecture.Orm.Model.QueryContext.QueryContext(Startitecture.Orm.Model.ISelection, Startitecture.Orm.Model.IEntityDefinition, Startitecture.Orm.Model.StatementOutputType, System.Int32)
+  nameWithType: QueryContext.QueryContext(ISelection, IEntityDefinition, StatementOutputType, Int32)
+- uid: Startitecture.Orm.Model.QueryContext.#ctor*
+  name: QueryContext
+  href: api/Startitecture.Orm.Model.QueryContext.html#Startitecture_Orm_Model_QueryContext__ctor_
+  commentId: Overload:Startitecture.Orm.Model.QueryContext.#ctor
   isSpec: "True"
-  fullName: Startitecture.Orm.Model.QueryContext<TItem>.QueryContext
-  fullName.vb: Startitecture.Orm.Model.QueryContext(Of TItem).QueryContext
-  nameWithType: QueryContext<TItem>.QueryContext
-  nameWithType.vb: QueryContext(Of TItem).QueryContext
-- uid: Startitecture.Orm.Model.QueryContext`1.OutputType
+  fullName: Startitecture.Orm.Model.QueryContext.QueryContext
+  nameWithType: QueryContext.QueryContext
+- uid: Startitecture.Orm.Model.QueryContext.EntityDefinition
+  name: EntityDefinition
+  href: api/Startitecture.Orm.Model.QueryContext.html#Startitecture_Orm_Model_QueryContext_EntityDefinition
+  commentId: P:Startitecture.Orm.Model.QueryContext.EntityDefinition
+  fullName: Startitecture.Orm.Model.QueryContext.EntityDefinition
+  nameWithType: QueryContext.EntityDefinition
+- uid: Startitecture.Orm.Model.QueryContext.EntityDefinition*
+  name: EntityDefinition
+  href: api/Startitecture.Orm.Model.QueryContext.html#Startitecture_Orm_Model_QueryContext_EntityDefinition_
+  commentId: Overload:Startitecture.Orm.Model.QueryContext.EntityDefinition
+  isSpec: "True"
+  fullName: Startitecture.Orm.Model.QueryContext.EntityDefinition
+  nameWithType: QueryContext.EntityDefinition
+- uid: Startitecture.Orm.Model.QueryContext.OutputType
   name: OutputType
-  href: api/Startitecture.Orm.Model.QueryContext-1.html#Startitecture_Orm_Model_QueryContext_1_OutputType
-  commentId: P:Startitecture.Orm.Model.QueryContext`1.OutputType
-  fullName: Startitecture.Orm.Model.QueryContext<TItem>.OutputType
-  fullName.vb: Startitecture.Orm.Model.QueryContext(Of TItem).OutputType
-  nameWithType: QueryContext<TItem>.OutputType
-  nameWithType.vb: QueryContext(Of TItem).OutputType
-- uid: Startitecture.Orm.Model.QueryContext`1.OutputType*
+  href: api/Startitecture.Orm.Model.QueryContext.html#Startitecture_Orm_Model_QueryContext_OutputType
+  commentId: P:Startitecture.Orm.Model.QueryContext.OutputType
+  fullName: Startitecture.Orm.Model.QueryContext.OutputType
+  nameWithType: QueryContext.OutputType
+- uid: Startitecture.Orm.Model.QueryContext.OutputType*
   name: OutputType
-  href: api/Startitecture.Orm.Model.QueryContext-1.html#Startitecture_Orm_Model_QueryContext_1_OutputType_
-  commentId: Overload:Startitecture.Orm.Model.QueryContext`1.OutputType
+  href: api/Startitecture.Orm.Model.QueryContext.html#Startitecture_Orm_Model_QueryContext_OutputType_
+  commentId: Overload:Startitecture.Orm.Model.QueryContext.OutputType
   isSpec: "True"
-  fullName: Startitecture.Orm.Model.QueryContext<TItem>.OutputType
-  fullName.vb: Startitecture.Orm.Model.QueryContext(Of TItem).OutputType
-  nameWithType: QueryContext<TItem>.OutputType
-  nameWithType.vb: QueryContext(Of TItem).OutputType
-- uid: Startitecture.Orm.Model.QueryContext`1.ParameterOffset
+  fullName: Startitecture.Orm.Model.QueryContext.OutputType
+  nameWithType: QueryContext.OutputType
+- uid: Startitecture.Orm.Model.QueryContext.ParameterOffset
   name: ParameterOffset
-  href: api/Startitecture.Orm.Model.QueryContext-1.html#Startitecture_Orm_Model_QueryContext_1_ParameterOffset
-  commentId: P:Startitecture.Orm.Model.QueryContext`1.ParameterOffset
-  fullName: Startitecture.Orm.Model.QueryContext<TItem>.ParameterOffset
-  fullName.vb: Startitecture.Orm.Model.QueryContext(Of TItem).ParameterOffset
-  nameWithType: QueryContext<TItem>.ParameterOffset
-  nameWithType.vb: QueryContext(Of TItem).ParameterOffset
-- uid: Startitecture.Orm.Model.QueryContext`1.ParameterOffset*
+  href: api/Startitecture.Orm.Model.QueryContext.html#Startitecture_Orm_Model_QueryContext_ParameterOffset
+  commentId: P:Startitecture.Orm.Model.QueryContext.ParameterOffset
+  fullName: Startitecture.Orm.Model.QueryContext.ParameterOffset
+  nameWithType: QueryContext.ParameterOffset
+- uid: Startitecture.Orm.Model.QueryContext.ParameterOffset*
   name: ParameterOffset
-  href: api/Startitecture.Orm.Model.QueryContext-1.html#Startitecture_Orm_Model_QueryContext_1_ParameterOffset_
-  commentId: Overload:Startitecture.Orm.Model.QueryContext`1.ParameterOffset
+  href: api/Startitecture.Orm.Model.QueryContext.html#Startitecture_Orm_Model_QueryContext_ParameterOffset_
+  commentId: Overload:Startitecture.Orm.Model.QueryContext.ParameterOffset
   isSpec: "True"
-  fullName: Startitecture.Orm.Model.QueryContext<TItem>.ParameterOffset
-  fullName.vb: Startitecture.Orm.Model.QueryContext(Of TItem).ParameterOffset
-  nameWithType: QueryContext<TItem>.ParameterOffset
-  nameWithType.vb: QueryContext(Of TItem).ParameterOffset
-- uid: Startitecture.Orm.Model.QueryContext`1.Selection
+  fullName: Startitecture.Orm.Model.QueryContext.ParameterOffset
+  nameWithType: QueryContext.ParameterOffset
+- uid: Startitecture.Orm.Model.QueryContext.Selection
   name: Selection
-  href: api/Startitecture.Orm.Model.QueryContext-1.html#Startitecture_Orm_Model_QueryContext_1_Selection
-  commentId: P:Startitecture.Orm.Model.QueryContext`1.Selection
-  fullName: Startitecture.Orm.Model.QueryContext<TItem>.Selection
-  fullName.vb: Startitecture.Orm.Model.QueryContext(Of TItem).Selection
-  nameWithType: QueryContext<TItem>.Selection
-  nameWithType.vb: QueryContext(Of TItem).Selection
-- uid: Startitecture.Orm.Model.QueryContext`1.Selection*
+  href: api/Startitecture.Orm.Model.QueryContext.html#Startitecture_Orm_Model_QueryContext_Selection
+  commentId: P:Startitecture.Orm.Model.QueryContext.Selection
+  fullName: Startitecture.Orm.Model.QueryContext.Selection
+  nameWithType: QueryContext.Selection
+- uid: Startitecture.Orm.Model.QueryContext.Selection*
   name: Selection
-  href: api/Startitecture.Orm.Model.QueryContext-1.html#Startitecture_Orm_Model_QueryContext_1_Selection_
-  commentId: Overload:Startitecture.Orm.Model.QueryContext`1.Selection
+  href: api/Startitecture.Orm.Model.QueryContext.html#Startitecture_Orm_Model_QueryContext_Selection_
+  commentId: Overload:Startitecture.Orm.Model.QueryContext.Selection
   isSpec: "True"
-  fullName: Startitecture.Orm.Model.QueryContext<TItem>.Selection
-  fullName.vb: Startitecture.Orm.Model.QueryContext(Of TItem).Selection
-  nameWithType: QueryContext<TItem>.Selection
-  nameWithType.vb: QueryContext(Of TItem).Selection
+  fullName: Startitecture.Orm.Model.QueryContext.Selection
+  nameWithType: QueryContext.Selection
 - uid: Startitecture.Orm.Model.RepositoryException
   name: RepositoryException
   href: api/Startitecture.Orm.Model.RepositoryException.html
@@ -8204,6 +8191,12 @@ references:
   commentId: F:Startitecture.Orm.Model.StatementOutputType.Delete
   fullName: Startitecture.Orm.Model.StatementOutputType.Delete
   nameWithType: StatementOutputType.Delete
+- uid: Startitecture.Orm.Model.StatementOutputType.PageSelect
+  name: PageSelect
+  href: api/Startitecture.Orm.Model.StatementOutputType.html#Startitecture_Orm_Model_StatementOutputType_PageSelect
+  commentId: F:Startitecture.Orm.Model.StatementOutputType.PageSelect
+  fullName: Startitecture.Orm.Model.StatementOutputType.PageSelect
+  nameWithType: StatementOutputType.PageSelect
 - uid: Startitecture.Orm.Model.StatementOutputType.Select
   name: Select
   href: api/Startitecture.Orm.Model.StatementOutputType.html#Startitecture_Orm_Model_StatementOutputType_Select
@@ -9517,6 +9510,19 @@ references:
   isSpec: "True"
   fullName: Startitecture.Orm.Sql.JoinClause.Create
   nameWithType: JoinClause.Create
+- uid: Startitecture.Orm.Sql.JoinClause.Indent
+  name: Indent
+  href: api/Startitecture.Orm.Sql.JoinClause.html#Startitecture_Orm_Sql_JoinClause_Indent
+  commentId: P:Startitecture.Orm.Sql.JoinClause.Indent
+  fullName: Startitecture.Orm.Sql.JoinClause.Indent
+  nameWithType: JoinClause.Indent
+- uid: Startitecture.Orm.Sql.JoinClause.Indent*
+  name: Indent
+  href: api/Startitecture.Orm.Sql.JoinClause.html#Startitecture_Orm_Sql_JoinClause_Indent_
+  commentId: Overload:Startitecture.Orm.Sql.JoinClause.Indent
+  isSpec: "True"
+  fullName: Startitecture.Orm.Sql.JoinClause.Indent
+  nameWithType: JoinClause.Indent
 - uid: Startitecture.Orm.Sql.StructuredCommand`1
   name: StructuredCommand<TStructure>
   href: api/Startitecture.Orm.Sql.StructuredCommand-1.html
@@ -10318,6 +10324,12 @@ references:
   isSpec: "True"
   fullName: Startitecture.Orm.SqlClient.TransactSqlQueryFactory.TransactSqlQueryFactory
   nameWithType: TransactSqlQueryFactory.TransactSqlQueryFactory
+- uid: Startitecture.Orm.SqlClient.TransactSqlQueryFactory.Create(Startitecture.Orm.Model.QueryContext)
+  name: Create(QueryContext)
+  href: api/Startitecture.Orm.SqlClient.TransactSqlQueryFactory.html#Startitecture_Orm_SqlClient_TransactSqlQueryFactory_Create_Startitecture_Orm_Model_QueryContext_
+  commentId: M:Startitecture.Orm.SqlClient.TransactSqlQueryFactory.Create(Startitecture.Orm.Model.QueryContext)
+  fullName: Startitecture.Orm.SqlClient.TransactSqlQueryFactory.Create(Startitecture.Orm.Model.QueryContext)
+  nameWithType: TransactSqlQueryFactory.Create(QueryContext)
 - uid: Startitecture.Orm.SqlClient.TransactSqlQueryFactory.Create*
   name: Create
   href: api/Startitecture.Orm.SqlClient.TransactSqlQueryFactory.html#Startitecture_Orm_SqlClient_TransactSqlQueryFactory_Create_
@@ -10325,15 +10337,6 @@ references:
   isSpec: "True"
   fullName: Startitecture.Orm.SqlClient.TransactSqlQueryFactory.Create
   nameWithType: TransactSqlQueryFactory.Create
-- uid: Startitecture.Orm.SqlClient.TransactSqlQueryFactory.Create``1(Startitecture.Orm.Model.QueryContext{``0})
-  name: Create<TItem>(QueryContext<TItem>)
-  href: api/Startitecture.Orm.SqlClient.TransactSqlQueryFactory.html#Startitecture_Orm_SqlClient_TransactSqlQueryFactory_Create__1_Startitecture_Orm_Model_QueryContext___0__
-  commentId: M:Startitecture.Orm.SqlClient.TransactSqlQueryFactory.Create``1(Startitecture.Orm.Model.QueryContext{``0})
-  name.vb: Create(Of TItem)(QueryContext(Of TItem))
-  fullName: Startitecture.Orm.SqlClient.TransactSqlQueryFactory.Create<TItem>(Startitecture.Orm.Model.QueryContext<TItem>)
-  fullName.vb: Startitecture.Orm.SqlClient.TransactSqlQueryFactory.Create(Of TItem)(Startitecture.Orm.Model.QueryContext(Of TItem))
-  nameWithType: TransactSqlQueryFactory.Create<TItem>(QueryContext<TItem>)
-  nameWithType.vb: TransactSqlQueryFactory.Create(Of TItem)(QueryContext(Of TItem))
 - uid: Startitecture.Orm.Testing.Entities
   name: Startitecture.Orm.Testing.Entities
   href: api/Startitecture.Orm.Testing.Entities.html

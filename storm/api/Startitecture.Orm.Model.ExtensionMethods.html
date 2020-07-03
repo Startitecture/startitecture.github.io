@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class ExtensionMethods
    ">
-    <meta name="generator" content="docfx 2.55.0.0">
+    <meta name="generator" content="docfx 2.56.0.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -115,16 +115,16 @@
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/ExtensionMethods.cs&amp;version=GBmaster&amp;line=58">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/ExtensionMethods.cs&amp;version=GBmaster&amp;line=65">View Source</a>
   </span>
   <a id="Startitecture_Orm_Model_ExtensionMethods_AsContains_" data-uid="Startitecture.Orm.Model.ExtensionMethods.AsContains*"></a>
-  <h4 id="Startitecture_Orm_Model_ExtensionMethods_AsContains__1_Startitecture_Orm_Model_ItemSelection___0__" data-uid="Startitecture.Orm.Model.ExtensionMethods.AsContains``1(Startitecture.Orm.Model.ItemSelection{``0})">AsContains&lt;TItem&gt;(ItemSelection&lt;TItem&gt;)</h4>
-  <div class="markdown level1 summary"><p>Gets a <a class="xref" href="Startitecture.Orm.Model.QueryContext-1.html">QueryContext&lt;TItem&gt;</a> as a CONTAINS statement.</p>
+  <h4 id="Startitecture_Orm_Model_ExtensionMethods_AsContains__1_Startitecture_Orm_Model_ItemSelection___0__Startitecture_Orm_Model_IEntityDefinition_" data-uid="Startitecture.Orm.Model.ExtensionMethods.AsContains``1(Startitecture.Orm.Model.ItemSelection{``0},Startitecture.Orm.Model.IEntityDefinition)">AsContains&lt;TItem&gt;(ItemSelection&lt;TItem&gt;, IEntityDefinition)</h4>
+  <div class="markdown level1 summary"><p>Gets a <a class="xref" href="Startitecture.Orm.Model.QueryContext.html">QueryContext</a> as a CONTAINS statement.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static QueryContext&lt;TItem&gt; AsContains&lt;TItem&gt;([NotNull] this ItemSelection&lt;TItem&gt; selection)</code></pre>
+    <pre><code class="lang-csharp hljs">public static QueryContext AsContains&lt;TItem&gt;([NotNull] this ItemSelection&lt;TItem&gt; selection, IEntityDefinition entityDefinition)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -142,6 +142,12 @@
         <td><p>The selection to use to create the context.</p>
 </td>
       </tr>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Model.IEntityDefinition.html">IEntityDefinition</a></td>
+        <td><span class="parametername">entityDefinition</span></td>
+        <td><p>The entity definition for the <code data-dev-comment-type="typeparamref" class="typeparamref">TItem</code>.</p>
+</td>
+      </tr>
     </tbody>
   </table>
   <h5 class="returns">Returns</h5>
@@ -154,8 +160,8 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Startitecture.Orm.Model.QueryContext-1.html">QueryContext</a>&lt;TItem&gt;</td>
-        <td><p>A new <a class="xref" href="Startitecture.Orm.Model.QueryContext-1.html">QueryContext&lt;TItem&gt;</a> for the specified <code data-dev-comment-type="paramref" class="paramref">selection</code>.</p>
+        <td><a class="xref" href="Startitecture.Orm.Model.QueryContext.html">QueryContext</a></td>
+        <td><p>A new <a class="xref" href="Startitecture.Orm.Model.QueryContext.html">QueryContext</a> for the specified <code data-dev-comment-type="paramref" class="paramref">selection</code>.</p>
 </td>
       </tr>
     </tbody>
@@ -194,16 +200,16 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/ExtensionMethods.cs&amp;version=GBmaster&amp;line=83">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/ExtensionMethods.cs&amp;version=GBmaster&amp;line=93">View Source</a>
   </span>
   <a id="Startitecture_Orm_Model_ExtensionMethods_AsDelete_" data-uid="Startitecture.Orm.Model.ExtensionMethods.AsDelete*"></a>
-  <h4 id="Startitecture_Orm_Model_ExtensionMethods_AsDelete__1_Startitecture_Orm_Model_ItemSelection___0__" data-uid="Startitecture.Orm.Model.ExtensionMethods.AsDelete``1(Startitecture.Orm.Model.ItemSelection{``0})">AsDelete&lt;TItem&gt;(ItemSelection&lt;TItem&gt;)</h4>
-  <div class="markdown level1 summary"><p>Gets a <a class="xref" href="Startitecture.Orm.Model.QueryContext-1.html">QueryContext&lt;TItem&gt;</a> as a DELETE statement.</p>
+  <h4 id="Startitecture_Orm_Model_ExtensionMethods_AsDelete__1_Startitecture_Orm_Model_ItemSelection___0__Startitecture_Orm_Model_IEntityDefinition_" data-uid="Startitecture.Orm.Model.ExtensionMethods.AsDelete``1(Startitecture.Orm.Model.ItemSelection{``0},Startitecture.Orm.Model.IEntityDefinition)">AsDelete&lt;TItem&gt;(ItemSelection&lt;TItem&gt;, IEntityDefinition)</h4>
+  <div class="markdown level1 summary"><p>Gets a <a class="xref" href="Startitecture.Orm.Model.QueryContext.html">QueryContext</a> as a DELETE statement.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static QueryContext&lt;TItem&gt; AsDelete&lt;TItem&gt;([NotNull] this ItemSelection&lt;TItem&gt; selection)</code></pre>
+    <pre><code class="lang-csharp hljs">public static QueryContext AsDelete&lt;TItem&gt;([NotNull] this ItemSelection&lt;TItem&gt; selection, IEntityDefinition entityDefinition)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -221,6 +227,12 @@
         <td><p>The selection to use to create the context.</p>
 </td>
       </tr>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Model.IEntityDefinition.html">IEntityDefinition</a></td>
+        <td><span class="parametername">entityDefinition</span></td>
+        <td><p>The entity definition for the <code data-dev-comment-type="typeparamref" class="typeparamref">TItem</code>.</p>
+</td>
+      </tr>
     </tbody>
   </table>
   <h5 class="returns">Returns</h5>
@@ -233,8 +245,8 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Startitecture.Orm.Model.QueryContext-1.html">QueryContext</a>&lt;TItem&gt;</td>
-        <td><p>A new <a class="xref" href="Startitecture.Orm.Model.QueryContext-1.html">QueryContext&lt;TItem&gt;</a> for the specified <code data-dev-comment-type="paramref" class="paramref">selection</code>.</p>
+        <td><a class="xref" href="Startitecture.Orm.Model.QueryContext.html">QueryContext</a></td>
+        <td><p>A new <a class="xref" href="Startitecture.Orm.Model.QueryContext.html">QueryContext</a> for the specified <code data-dev-comment-type="paramref" class="paramref">selection</code>.</p>
 </td>
       </tr>
     </tbody>
@@ -273,16 +285,16 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/ExtensionMethods.cs&amp;version=GBmaster&amp;line=33">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/ExtensionMethods.cs&amp;version=GBmaster&amp;line=36">View Source</a>
   </span>
   <a id="Startitecture_Orm_Model_ExtensionMethods_AsSelect_" data-uid="Startitecture.Orm.Model.ExtensionMethods.AsSelect*"></a>
-  <h4 id="Startitecture_Orm_Model_ExtensionMethods_AsSelect__1_Startitecture_Orm_Model_ItemSelection___0__" data-uid="Startitecture.Orm.Model.ExtensionMethods.AsSelect``1(Startitecture.Orm.Model.ItemSelection{``0})">AsSelect&lt;TItem&gt;(ItemSelection&lt;TItem&gt;)</h4>
-  <div class="markdown level1 summary"><p>Gets a <a class="xref" href="Startitecture.Orm.Model.QueryContext-1.html">QueryContext&lt;TItem&gt;</a> as a SELECT statement.</p>
+  <h4 id="Startitecture_Orm_Model_ExtensionMethods_AsSelect__1_Startitecture_Orm_Model_ItemSelection___0__Startitecture_Orm_Model_IEntityDefinition_" data-uid="Startitecture.Orm.Model.ExtensionMethods.AsSelect``1(Startitecture.Orm.Model.ItemSelection{``0},Startitecture.Orm.Model.IEntityDefinition)">AsSelect&lt;TItem&gt;(ItemSelection&lt;TItem&gt;, IEntityDefinition)</h4>
+  <div class="markdown level1 summary"><p>Gets a <a class="xref" href="Startitecture.Orm.Model.QueryContext.html">QueryContext</a> as a SELECT statement.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static QueryContext&lt;TItem&gt; AsSelect&lt;TItem&gt;([NotNull] this ItemSelection&lt;TItem&gt; selection)</code></pre>
+    <pre><code class="lang-csharp hljs">public static QueryContext AsSelect&lt;TItem&gt;([NotNull] this ItemSelection&lt;TItem&gt; selection, IEntityDefinition entityDefinition)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -300,6 +312,12 @@
         <td><p>The selection to use to create the context.</p>
 </td>
       </tr>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Model.IEntityDefinition.html">IEntityDefinition</a></td>
+        <td><span class="parametername">entityDefinition</span></td>
+        <td><p>The entity definition for the <code data-dev-comment-type="typeparamref" class="typeparamref">TItem</code>.</p>
+</td>
+      </tr>
     </tbody>
   </table>
   <h5 class="returns">Returns</h5>
@@ -312,8 +330,8 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Startitecture.Orm.Model.QueryContext-1.html">QueryContext</a>&lt;TItem&gt;</td>
-        <td><p>A new <a class="xref" href="Startitecture.Orm.Model.QueryContext-1.html">QueryContext&lt;TItem&gt;</a> for the specified <code data-dev-comment-type="paramref" class="paramref">selection</code>.</p>
+        <td><a class="xref" href="Startitecture.Orm.Model.QueryContext.html">QueryContext</a></td>
+        <td><p>A new <a class="xref" href="Startitecture.Orm.Model.QueryContext.html">QueryContext</a> for the specified <code data-dev-comment-type="paramref" class="paramref">selection</code>.</p>
 </td>
       </tr>
     </tbody>
