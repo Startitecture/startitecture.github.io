@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Interface IReadOnlyRepository&lt;TModel&gt;
    ">
-    <meta name="generator" content="docfx 2.56.0.0">
+    <meta name="generator" content="docfx 2.56.1.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -184,13 +184,13 @@
     <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/IReadOnlyRepository.cs&amp;version=GBmaster&amp;line=55">View Source</a>
   </span>
   <a id="Startitecture_Orm_Model_IReadOnlyRepository_1_Contains_" data-uid="Startitecture.Orm.Model.IReadOnlyRepository`1.Contains*"></a>
-  <h4 id="Startitecture_Orm_Model_IReadOnlyRepository_1_Contains__1_Startitecture_Orm_Model_ItemSelection___0__" data-uid="Startitecture.Orm.Model.IReadOnlyRepository`1.Contains``1(Startitecture.Orm.Model.ItemSelection{``0})">Contains&lt;TItem&gt;(ItemSelection&lt;TItem&gt;)</h4>
+  <h4 id="Startitecture_Orm_Model_IReadOnlyRepository_1_Contains__1_Startitecture_Orm_Model_EntitySelection___0__" data-uid="Startitecture.Orm.Model.IReadOnlyRepository`1.Contains``1(Startitecture.Orm.Model.EntitySelection{``0})">Contains&lt;TItem&gt;(EntitySelection&lt;TItem&gt;)</h4>
   <div class="markdown level1 summary"><p>Determines whether an item exists in the repository.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">bool Contains&lt;TItem&gt;(ItemSelection&lt;TItem&gt; selection)</code></pre>
+    <pre><code class="lang-csharp hljs">bool Contains&lt;TItem&gt;(EntitySelection&lt;TItem&gt; selection)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -203,7 +203,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Startitecture.Orm.Model.ItemSelection-1.html">ItemSelection</a>&lt;TItem&gt;</td>
+        <td><a class="xref" href="Startitecture.Orm.Model.EntitySelection-1.html">EntitySelection</a>&lt;TItem&gt;</td>
         <td><span class="parametername">selection</span></td>
         <td><p>The selection to test.</p>
 </td>
@@ -343,13 +343,13 @@ default value of the <code data-dev-comment-type="typeparamref" class="typeparam
     <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/IReadOnlyRepository.cs&amp;version=GBmaster&amp;line=91">View Source</a>
   </span>
   <a id="Startitecture_Orm_Model_IReadOnlyRepository_1_FirstOrDefault_" data-uid="Startitecture.Orm.Model.IReadOnlyRepository`1.FirstOrDefault*"></a>
-  <h4 id="Startitecture_Orm_Model_IReadOnlyRepository_1_FirstOrDefault__1_Startitecture_Orm_Model_ItemSelection___0__" data-uid="Startitecture.Orm.Model.IReadOnlyRepository`1.FirstOrDefault``1(Startitecture.Orm.Model.ItemSelection{``0})">FirstOrDefault&lt;TItem&gt;(ItemSelection&lt;TItem&gt;)</h4>
+  <h4 id="Startitecture_Orm_Model_IReadOnlyRepository_1_FirstOrDefault__1_Startitecture_Orm_Model_EntitySelection___0__" data-uid="Startitecture.Orm.Model.IReadOnlyRepository`1.FirstOrDefault``1(Startitecture.Orm.Model.EntitySelection{``0})">FirstOrDefault&lt;TItem&gt;(EntitySelection&lt;TItem&gt;)</h4>
   <div class="markdown level1 summary"><p>Gets the first matching item of the selection. To ensure repeatable results, use unique column criteria.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">TModel FirstOrDefault&lt;TItem&gt;(ItemSelection&lt;TItem&gt; selection)</code></pre>
+    <pre><code class="lang-csharp hljs">TModel FirstOrDefault&lt;TItem&gt;(EntitySelection&lt;TItem&gt; selection)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -362,7 +362,7 @@ default value of the <code data-dev-comment-type="typeparamref" class="typeparam
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Startitecture.Orm.Model.ItemSelection-1.html">ItemSelection</a>&lt;TItem&gt;</td>
+        <td><a class="xref" href="Startitecture.Orm.Model.EntitySelection-1.html">EntitySelection</a>&lt;TItem&gt;</td>
         <td><span class="parametername">selection</span></td>
         <td><p>The item selection.</p>
 </td>
@@ -423,13 +423,13 @@ default value of the <code data-dev-comment-type="typeparamref" class="typeparam
     <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/IReadOnlyRepository.cs&amp;version=GBmaster&amp;line=117">View Source</a>
   </span>
   <a id="Startitecture_Orm_Model_IReadOnlyRepository_1_Select_" data-uid="Startitecture.Orm.Model.IReadOnlyRepository`1.Select*"></a>
-  <h4 id="Startitecture_Orm_Model_IReadOnlyRepository_1_Select__1_Startitecture_Orm_Model_ItemSelection___0__" data-uid="Startitecture.Orm.Model.IReadOnlyRepository`1.Select``1(Startitecture.Orm.Model.ItemSelection{``0})">Select&lt;TItem&gt;(ItemSelection&lt;TItem&gt;)</h4>
+  <h4 id="Startitecture_Orm_Model_IReadOnlyRepository_1_Select__1_Startitecture_Orm_Model_EntitySelection___0__" data-uid="Startitecture.Orm.Model.IReadOnlyRepository`1.Select``1(Startitecture.Orm.Model.EntitySelection{``0})">Select&lt;TItem&gt;(EntitySelection&lt;TItem&gt;)</h4>
   <div class="markdown level1 summary"><p>Selects a list of domain models using a selection for the specified data item type.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">IEnumerable&lt;TModel&gt; Select&lt;TItem&gt;(ItemSelection&lt;TItem&gt; selection)</code></pre>
+    <pre><code class="lang-csharp hljs">IEnumerable&lt;TModel&gt; Select&lt;TItem&gt;(EntitySelection&lt;TItem&gt; selection)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -442,7 +442,7 @@ default value of the <code data-dev-comment-type="typeparamref" class="typeparam
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Startitecture.Orm.Model.ItemSelection-1.html">ItemSelection</a>&lt;TItem&gt;</td>
+        <td><a class="xref" href="Startitecture.Orm.Model.EntitySelection-1.html">EntitySelection</a>&lt;TItem&gt;</td>
         <td><span class="parametername">selection</span></td>
         <td><p>The selection to use to filter repository results.</p>
 </td>
