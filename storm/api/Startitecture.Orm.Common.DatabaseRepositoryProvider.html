@@ -1,0 +1,1400 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class DatabaseRepositoryProvider
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class DatabaseRepositoryProvider
+   ">
+    <meta name="generator" content="docfx 2.56.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Startitecture.Orm.Common.DatabaseRepositoryProvider">
+  
+  
+  <h1 id="Startitecture_Orm_Common_DatabaseRepositoryProvider" data-uid="Startitecture.Orm.Common.DatabaseRepositoryProvider" class="text-break">Class DatabaseRepositoryProvider
+  </h1>
+  <div class="markdown level0 summary"><p>Provides a concrete implementation for a database repository.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">DatabaseRepositoryProvider</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="Startitecture.Orm.Model.IRepositoryProvider.html">IRepositoryProvider</a></div>
+    <div><span class="xref">System.IDisposable</span></div>
+    <div><a class="xref" href="Startitecture.Orm.Common.IDatabaseContextProvider.html">IDatabaseContextProvider</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Startitecture.Orm.Common.html">Startitecture.Orm.Common</a></h6>
+  <h6><strong>Assembly</strong>: Startitecture.Orm.Common.dll</h6>
+  <h5 id="Startitecture_Orm_Common_DatabaseRepositoryProvider_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class DatabaseRepositoryProvider : IRepositoryProvider, IDisposable, IDatabaseContextProvider</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/DatabaseRepositoryProvider.cs&amp;version=GBmaster&amp;line=66">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Common_DatabaseRepositoryProvider__ctor_" data-uid="Startitecture.Orm.Common.DatabaseRepositoryProvider.#ctor*"></a>
+  <h4 id="Startitecture_Orm_Common_DatabaseRepositoryProvider__ctor_Startitecture_Orm_Common_IDatabaseFactory_Startitecture_Orm_Model_IStatementFactory_" data-uid="Startitecture.Orm.Common.DatabaseRepositoryProvider.#ctor(Startitecture.Orm.Common.IDatabaseFactory,Startitecture.Orm.Model.IStatementFactory)">DatabaseRepositoryProvider(IDatabaseFactory, IStatementFactory)</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="Startitecture.Orm.Common.DatabaseRepositoryProvider.html">DatabaseRepositoryProvider</a> class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DatabaseRepositoryProvider([NotNull] IDatabaseFactory databaseFactory, [NotNull] IStatementFactory statementFactory)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Common.IDatabaseFactory.html">IDatabaseFactory</a></td>
+        <td><span class="parametername">databaseFactory</span></td>
+        <td><p>The database factory.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Model.IStatementFactory.html">IStatementFactory</a></td>
+        <td><span class="parametername">statementFactory</span></td>
+        <td><p>The repository adapter.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/DatabaseRepositoryProvider.cs&amp;version=GBmaster&amp;line=85">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Common_DatabaseRepositoryProvider__ctor_" data-uid="Startitecture.Orm.Common.DatabaseRepositoryProvider.#ctor*"></a>
+  <h4 id="Startitecture_Orm_Common_DatabaseRepositoryProvider__ctor_Startitecture_Orm_Common_IDatabaseFactory_Startitecture_Orm_Model_IStatementFactory_System_Runtime_Caching_ObjectCache_" data-uid="Startitecture.Orm.Common.DatabaseRepositoryProvider.#ctor(Startitecture.Orm.Common.IDatabaseFactory,Startitecture.Orm.Model.IStatementFactory,System.Runtime.Caching.ObjectCache)">DatabaseRepositoryProvider(IDatabaseFactory, IStatementFactory, ObjectCache)</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="Startitecture.Orm.Common.DatabaseRepositoryProvider.html">DatabaseRepositoryProvider</a> class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DatabaseRepositoryProvider([NotNull] IDatabaseFactory databaseFactory, [NotNull] IStatementFactory statementFactory, [NotNull] ObjectCache entityCache)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Common.IDatabaseFactory.html">IDatabaseFactory</a></td>
+        <td><span class="parametername">databaseFactory</span></td>
+        <td><p>The database factory.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Model.IStatementFactory.html">IStatementFactory</a></td>
+        <td><span class="parametername">statementFactory</span></td>
+        <td><p>The repository adapter.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Runtime.Caching.ObjectCache</span></td>
+        <td><span class="parametername">entityCache</span></td>
+        <td><p>The entity cache.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/DatabaseRepositoryProvider.cs&amp;version=GBmaster&amp;line=138">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Common_DatabaseRepositoryProvider_CacheExpiration_" data-uid="Startitecture.Orm.Common.DatabaseRepositoryProvider.CacheExpiration*"></a>
+  <h4 id="Startitecture_Orm_Common_DatabaseRepositoryProvider_CacheExpiration" data-uid="Startitecture.Orm.Common.DatabaseRepositoryProvider.CacheExpiration">CacheExpiration</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the amount of time after which cached entities will expire.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TimeSpan CacheExpiration { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.TimeSpan</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/DatabaseRepositoryProvider.cs&amp;version=GBmaster&amp;line=129">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Common_DatabaseRepositoryProvider_DatabaseContext_" data-uid="Startitecture.Orm.Common.DatabaseRepositoryProvider.DatabaseContext*"></a>
+  <h4 id="Startitecture_Orm_Common_DatabaseRepositoryProvider_DatabaseContext" data-uid="Startitecture.Orm.Common.DatabaseRepositoryProvider.DatabaseContext">DatabaseContext</h4>
+  <div class="markdown level1 summary"><p>Gets the current database context.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IDatabaseContext DatabaseContext { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Common.IDatabaseContext.html">IDatabaseContext</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/DatabaseRepositoryProvider.cs&amp;version=GBmaster&amp;line=135">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Common_DatabaseRepositoryProvider_EnableCaching_" data-uid="Startitecture.Orm.Common.DatabaseRepositoryProvider.EnableCaching*"></a>
+  <h4 id="Startitecture_Orm_Common_DatabaseRepositoryProvider_EnableCaching" data-uid="Startitecture.Orm.Common.DatabaseRepositoryProvider.EnableCaching">EnableCaching</h4>
+  <div class="markdown level1 summary"><p>Gets or sets a value indicating whether to enable caching for the current provider.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool EnableCaching { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/DatabaseRepositoryProvider.cs&amp;version=GBmaster&amp;line=126">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Common_DatabaseRepositoryProvider_EntityDefinitionProvider_" data-uid="Startitecture.Orm.Common.DatabaseRepositoryProvider.EntityDefinitionProvider*"></a>
+  <h4 id="Startitecture_Orm_Common_DatabaseRepositoryProvider_EntityDefinitionProvider" data-uid="Startitecture.Orm.Common.DatabaseRepositoryProvider.EntityDefinitionProvider">EntityDefinitionProvider</h4>
+  <div class="markdown level1 summary"><p>Gets the entity definition provider.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEntityDefinitionProvider EntityDefinitionProvider { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Model.IEntityDefinitionProvider.html">IEntityDefinitionProvider</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/DatabaseRepositoryProvider.cs&amp;version=GBmaster&amp;line=132">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Common_DatabaseRepositoryProvider_IsDisposed_" data-uid="Startitecture.Orm.Common.DatabaseRepositoryProvider.IsDisposed*"></a>
+  <h4 id="Startitecture_Orm_Common_DatabaseRepositoryProvider_IsDisposed" data-uid="Startitecture.Orm.Common.DatabaseRepositoryProvider.IsDisposed">IsDisposed</h4>
+  <div class="markdown level1 summary"><p>Gets a value indicating whether the current instance is disposed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsDisposed { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/DatabaseRepositoryProvider.cs&amp;version=GBmaster&amp;line=156">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Common_DatabaseRepositoryProvider_ChangeDatabase_" data-uid="Startitecture.Orm.Common.DatabaseRepositoryProvider.ChangeDatabase*"></a>
+  <h4 id="Startitecture_Orm_Common_DatabaseRepositoryProvider_ChangeDatabase_System_String_" data-uid="Startitecture.Orm.Common.DatabaseRepositoryProvider.ChangeDatabase(System.String)">ChangeDatabase(String)</h4>
+  <div class="markdown level1 summary"><p>Changes the database of the current provider.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ChangeDatabase(string databaseName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">databaseName</span></td>
+        <td><p>The name of the database to switch to.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/DatabaseRepositoryProvider.cs&amp;version=GBmaster&amp;line=214">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Common_DatabaseRepositoryProvider_Contains_" data-uid="Startitecture.Orm.Common.DatabaseRepositoryProvider.Contains*"></a>
+  <h4 id="Startitecture_Orm_Common_DatabaseRepositoryProvider_Contains__1_Startitecture_Orm_Model_EntitySet___0__" data-uid="Startitecture.Orm.Common.DatabaseRepositoryProvider.Contains``1(Startitecture.Orm.Model.EntitySet{``0})">Contains&lt;T&gt;(EntitySet&lt;T&gt;)</h4>
+  <div class="markdown level1 summary"><p>Determines whether an entity exists given the specified unique key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Contains&lt;T&gt;(EntitySet&lt;T&gt; selection)
+    where T : ITransactionContext</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Model.EntitySet-1.html">EntitySet</a>&lt;T&gt;</td>
+        <td><span class="parametername">selection</span></td>
+        <td><p>A selection for the specified entity or entities to query for existence.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><code>true</code> if the entity exists; otherwise, <code>false</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of entity in the repository.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/DatabaseRepositoryProvider.cs&amp;version=GBmaster&amp;line=496">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Common_DatabaseRepositoryProvider_Delete_" data-uid="Startitecture.Orm.Common.DatabaseRepositoryProvider.Delete*"></a>
+  <h4 id="Startitecture_Orm_Common_DatabaseRepositoryProvider_Delete__1_Startitecture_Orm_Model_EntitySelection___0__" data-uid="Startitecture.Orm.Common.DatabaseRepositoryProvider.Delete``1(Startitecture.Orm.Model.EntitySelection{``0})">Delete&lt;T&gt;(EntitySelection&lt;T&gt;)</h4>
+  <div class="markdown level1 summary"><p>Deletes the entities matching the filter.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Delete&lt;T&gt;(EntitySelection&lt;T&gt; selection)
+    where T : ITransactionContext</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Model.EntitySelection-1.html">EntitySelection</a>&lt;T&gt;</td>
+        <td><span class="parametername">selection</span></td>
+        <td><p>A selection for the specified entities to delete.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>The number of deleted entities as an <span class="xref">System.Int32</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of entity in the repository.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/DatabaseRepositoryProvider.cs&amp;version=GBmaster&amp;line=146">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Common_DatabaseRepositoryProvider_Dispose_" data-uid="Startitecture.Orm.Common.DatabaseRepositoryProvider.Dispose*"></a>
+  <h4 id="Startitecture_Orm_Common_DatabaseRepositoryProvider_Dispose" data-uid="Startitecture.Orm.Common.DatabaseRepositoryProvider.Dispose">Dispose()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Dispose()</code></pre>
+  </div>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/DatabaseRepositoryProvider.cs&amp;version=GBmaster&amp;line=314">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Common_DatabaseRepositoryProvider_DynamicFirstOrDefault_" data-uid="Startitecture.Orm.Common.DatabaseRepositoryProvider.DynamicFirstOrDefault*"></a>
+  <h4 id="Startitecture_Orm_Common_DatabaseRepositoryProvider_DynamicFirstOrDefault_Startitecture_Orm_Model_ISelection_" data-uid="Startitecture.Orm.Common.DatabaseRepositoryProvider.DynamicFirstOrDefault(Startitecture.Orm.Model.ISelection)">DynamicFirstOrDefault(ISelection)</h4>
+  <div class="markdown level1 summary"><p>Gets the first dynamic result matching the <code data-dev-comment-type="paramref" class="paramref">selection</code>, or the default value if the entity cannot be found.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public dynamic DynamicFirstOrDefault([NotNull] ISelection selection)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Model.ISelection.html">ISelection</a></td>
+        <td><span class="parametername">selection</span></td>
+        <td><p>A selection for the specified result to return.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><p>The first dynamic result matching the filter, or null if no matching entity is found.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/DatabaseRepositoryProvider.cs&amp;version=GBmaster&amp;line=357">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Common_DatabaseRepositoryProvider_DynamicSelect_" data-uid="Startitecture.Orm.Common.DatabaseRepositoryProvider.DynamicSelect*"></a>
+  <h4 id="Startitecture_Orm_Common_DatabaseRepositoryProvider_DynamicSelect_Startitecture_Orm_Model_ISelection_" data-uid="Startitecture.Orm.Common.DatabaseRepositoryProvider.DynamicSelect(Startitecture.Orm.Model.ISelection)">DynamicSelect(ISelection)</h4>
+  <div class="markdown level1 summary"><p>Selects a collection of dynamic objects matching the <code data-dev-comment-type="paramref" class="paramref">selection</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;dynamic&gt; DynamicSelect([NotNull] ISelection selection)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Model.ISelection.html">ISelection</a></td>
+        <td><span class="parametername">selection</span></td>
+        <td><p>The selection specifying the results to return.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Object</span>&gt;</td>
+        <td><p>An <span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span> of dynamic objects matching the selection.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/DatabaseRepositoryProvider.cs&amp;version=GBmaster&amp;line=526">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Common_DatabaseRepositoryProvider_Execute_" data-uid="Startitecture.Orm.Common.DatabaseRepositoryProvider.Execute*"></a>
+  <h4 id="Startitecture_Orm_Common_DatabaseRepositoryProvider_Execute_System_String_System_Object___" data-uid="Startitecture.Orm.Common.DatabaseRepositoryProvider.Execute(System.String,System.Object[])">Execute(String, Object[])</h4>
+  <div class="markdown level1 summary"><p>Executes the specified operation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Execute(string executionStatement, params object[] parameterValues)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">executionStatement</span></td>
+        <td><p>The execution statement.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span>[]</td>
+        <td><span class="parametername">parameterValues</span></td>
+        <td><p>The parameter values.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/DatabaseRepositoryProvider.cs&amp;version=GBmaster&amp;line=561">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Common_DatabaseRepositoryProvider_ExecuteForResult_" data-uid="Startitecture.Orm.Common.DatabaseRepositoryProvider.ExecuteForResult*"></a>
+  <h4 id="Startitecture_Orm_Common_DatabaseRepositoryProvider_ExecuteForResult_System_String_System_Object___" data-uid="Startitecture.Orm.Common.DatabaseRepositoryProvider.ExecuteForResult(System.String,System.Object[])">ExecuteForResult(String, Object[])</h4>
+  <div class="markdown level1 summary"><p>Executes the specified operation for a table result.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;dynamic&gt; ExecuteForResult(string executionStatement, params object[] parameterValues)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">executionStatement</span></td>
+        <td><p>The execution statement.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span>[]</td>
+        <td><span class="parametername">parameterValues</span></td>
+        <td><p>The parameter values.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Object</span>&gt;</td>
+        <td><p>An <span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span> of objects returned by the statement.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/DatabaseRepositoryProvider.cs&amp;version=GBmaster&amp;line=579">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Common_DatabaseRepositoryProvider_ExecuteForResult_" data-uid="Startitecture.Orm.Common.DatabaseRepositoryProvider.ExecuteForResult*"></a>
+  <h4 id="Startitecture_Orm_Common_DatabaseRepositoryProvider_ExecuteForResult__1_System_String_System_Object___" data-uid="Startitecture.Orm.Common.DatabaseRepositoryProvider.ExecuteForResult``1(System.String,System.Object[])">ExecuteForResult&lt;T&gt;(String, Object[])</h4>
+  <div class="markdown level1 summary"><p>Executes the specified operation for a table result.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;T&gt; ExecuteForResult&lt;T&gt;(string executionStatement, params object[] parameterValues)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">executionStatement</span></td>
+        <td><p>The execution statement.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span>[]</td>
+        <td><span class="parametername">parameterValues</span></td>
+        <td><p>The parameter values.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;T&gt;</td>
+        <td><p>An <span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span> of entities in the type of <code data-dev-comment-type="typeparamref" class="typeparamref">T</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of the result.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/DatabaseRepositoryProvider.cs&amp;version=GBmaster&amp;line=543">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Common_DatabaseRepositoryProvider_ExecuteScalar_" data-uid="Startitecture.Orm.Common.DatabaseRepositoryProvider.ExecuteScalar*"></a>
+  <h4 id="Startitecture_Orm_Common_DatabaseRepositoryProvider_ExecuteScalar__1_System_String_System_Object___" data-uid="Startitecture.Orm.Common.DatabaseRepositoryProvider.ExecuteScalar``1(System.String,System.Object[])">ExecuteScalar&lt;T&gt;(String, Object[])</h4>
+  <div class="markdown level1 summary"><p>Executes the specified operation for a scalar result.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public T ExecuteScalar&lt;T&gt;(string executionStatement, params object[] parameterValues)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">executionStatement</span></td>
+        <td><p>The execution statement.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span>[]</td>
+        <td><span class="parametername">parameterValues</span></td>
+        <td><p>The parameter values.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><p>The first column of the first row of the result as a type of <code data-dev-comment-type="typeparamref" class="typeparamref">T</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of the result value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/DatabaseRepositoryProvider.cs&amp;version=GBmaster&amp;line=275">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Common_DatabaseRepositoryProvider_FirstOrDefault_" data-uid="Startitecture.Orm.Common.DatabaseRepositoryProvider.FirstOrDefault*"></a>
+  <h4 id="Startitecture_Orm_Common_DatabaseRepositoryProvider_FirstOrDefault__1_Startitecture_Orm_Model_EntitySelection___0__" data-uid="Startitecture.Orm.Common.DatabaseRepositoryProvider.FirstOrDefault``1(Startitecture.Orm.Model.EntitySelection{``0})">FirstOrDefault&lt;T&gt;(EntitySelection&lt;T&gt;)</h4>
+  <div class="markdown level1 summary"><p>Gets the first entity matching the selection, or the default value if the entity cannot be found.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public T FirstOrDefault&lt;T&gt;(EntitySelection&lt;T&gt; selection)
+    where T : ITransactionContext</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Model.EntitySelection-1.html">EntitySelection</a>&lt;T&gt;</td>
+        <td><span class="parametername">selection</span></td>
+        <td><p>A selection for the specified entity to return.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><p>The first <code data-dev-comment-type="typeparamref" class="typeparamref">T</code> entity matching the filter, or the default value if no matching entity is found.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of entity in the repository.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/DatabaseRepositoryProvider.cs&amp;version=GBmaster&amp;line=246">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Common_DatabaseRepositoryProvider_GetScalar_" data-uid="Startitecture.Orm.Common.DatabaseRepositoryProvider.GetScalar*"></a>
+  <h4 id="Startitecture_Orm_Common_DatabaseRepositoryProvider_GetScalar__1_Startitecture_Orm_Model_ISelection_" data-uid="Startitecture.Orm.Common.DatabaseRepositoryProvider.GetScalar``1(Startitecture.Orm.Model.ISelection)">GetScalar&lt;T&gt;(ISelection)</h4>
+  <div class="markdown level1 summary"><p>Gets a scalar result from the specified query.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public T GetScalar&lt;T&gt;([NotNull] ISelection selection)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Model.ISelection.html">ISelection</a></td>
+        <td><span class="parametername">selection</span></td>
+        <td><p>A selection for the specified scalar to return.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><p>The <see cref="!:T"></see>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of scalar to return.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/DatabaseRepositoryProvider.cs&amp;version=GBmaster&amp;line=386">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Common_DatabaseRepositoryProvider_Insert_" data-uid="Startitecture.Orm.Common.DatabaseRepositoryProvider.Insert*"></a>
+  <h4 id="Startitecture_Orm_Common_DatabaseRepositoryProvider_Insert__1___0_" data-uid="Startitecture.Orm.Common.DatabaseRepositoryProvider.Insert``1(``0)">Insert&lt;T&gt;(T)</h4>
+  <div class="markdown level1 summary"><p>Inserts an entity into the repository.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public T Insert&lt;T&gt;(T entity)
+    where T : ITransactionContext</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">entity</span></td>
+        <td><p>The entity to insert.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><p>The inserted <code data-dev-comment-type="typeparamref" class="typeparamref">T</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of entity in the repository.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/DatabaseRepositoryProvider.cs&amp;version=GBmaster&amp;line=327">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Common_DatabaseRepositoryProvider_SelectEntities_" data-uid="Startitecture.Orm.Common.DatabaseRepositoryProvider.SelectEntities*"></a>
+  <h4 id="Startitecture_Orm_Common_DatabaseRepositoryProvider_SelectEntities__1_Startitecture_Orm_Model_EntitySelection___0__" data-uid="Startitecture.Orm.Common.DatabaseRepositoryProvider.SelectEntities``1(Startitecture.Orm.Model.EntitySelection{``0})">SelectEntities&lt;T&gt;(EntitySelection&lt;T&gt;)</h4>
+  <div class="markdown level1 summary"><p>Selects a matching list of entities from the repository.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;T&gt; SelectEntities&lt;T&gt;(EntitySelection&lt;T&gt; selection)
+    where T : ITransactionContext</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Model.EntitySelection-1.html">EntitySelection</a>&lt;T&gt;</td>
+        <td><span class="parametername">selection</span></td>
+        <td><p>A selection for the specified entities to return.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;T&gt;</td>
+        <td><p>A collection of entities that match the filter.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of entity in the repository.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/DatabaseRepositoryProvider.cs&amp;version=GBmaster&amp;line=169">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Common_DatabaseRepositoryProvider_StartTransaction_" data-uid="Startitecture.Orm.Common.DatabaseRepositoryProvider.StartTransaction*"></a>
+  <h4 id="Startitecture_Orm_Common_DatabaseRepositoryProvider_StartTransaction" data-uid="Startitecture.Orm.Common.DatabaseRepositoryProvider.StartTransaction">StartTransaction()</h4>
+  <div class="markdown level1 summary"><p>Starts a transaction in the repository.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IDbTransaction StartTransaction()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.IDbTransaction</span></td>
+        <td><p>The <span class="xref">System.Data.IDbTransaction</span> started by the provider.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/DatabaseRepositoryProvider.cs&amp;version=GBmaster&amp;line=191">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Common_DatabaseRepositoryProvider_StartTransaction_" data-uid="Startitecture.Orm.Common.DatabaseRepositoryProvider.StartTransaction*"></a>
+  <h4 id="Startitecture_Orm_Common_DatabaseRepositoryProvider_StartTransaction_System_Data_IsolationLevel_" data-uid="Startitecture.Orm.Common.DatabaseRepositoryProvider.StartTransaction(System.Data.IsolationLevel)">StartTransaction(IsolationLevel)</h4>
+  <div class="markdown level1 summary"><p>Start a transaction in the repository.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IDbTransaction StartTransaction(IsolationLevel isolationLevel)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.IsolationLevel</span></td>
+        <td><span class="parametername">isolationLevel</span></td>
+        <td><p>The isolation level for the transaction.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.IDbTransaction</span></td>
+        <td><p>The <span class="xref">System.Data.IDbTransaction</span> started by the provider.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/DatabaseRepositoryProvider.cs&amp;version=GBmaster&amp;line=603">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Common_DatabaseRepositoryProvider_ToString_" data-uid="Startitecture.Orm.Common.DatabaseRepositoryProvider.ToString*"></a>
+  <h4 id="Startitecture_Orm_Common_DatabaseRepositoryProvider_ToString" data-uid="Startitecture.Orm.Common.DatabaseRepositoryProvider.ToString">ToString()</h4>
+  <div class="markdown level1 summary"><p>Returns a <span class="xref">System.String</span> that represents the current <span class="xref">System.Object</span>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>A <span class="xref">System.String</span> that represents the current <span class="xref">System.Object</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">System.Object.ToString()</span></div>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/DatabaseRepositoryProvider.cs&amp;version=GBmaster&amp;line=425">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Common_DatabaseRepositoryProvider_Update_" data-uid="Startitecture.Orm.Common.DatabaseRepositoryProvider.Update*"></a>
+  <h4 id="Startitecture_Orm_Common_DatabaseRepositoryProvider_Update__1_Startitecture_Orm_Model_UpdateSet___0__" data-uid="Startitecture.Orm.Common.DatabaseRepositoryProvider.Update``1(Startitecture.Orm.Model.UpdateSet{``0})">Update&lt;T&gt;(UpdateSet&lt;T&gt;)</h4>
+  <div class="markdown level1 summary"><p>Updates a set of entities in the repository.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Update&lt;T&gt;([NotNull] UpdateSet&lt;T&gt; updateSet)
+    where T : ITransactionContext</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Model.UpdateSet-1.html">UpdateSet</a>&lt;T&gt;</td>
+        <td><span class="parametername">updateSet</span></td>
+        <td><p>The update set that defines the entities and entity attributes to update.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>The number of affected entities as an <span class="xref">System.Int32</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of entity to update.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Startitecture_Orm_Common_DatabaseRepositoryProvider_Update__1_Startitecture_Orm_Model_UpdateSet___0___remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>The number of affected entities can include rows affected by triggers on the target table.</p>
+</div>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/DatabaseRepositoryProvider.cs&amp;version=GBmaster&amp;line=455">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Common_DatabaseRepositoryProvider_UpdateSingle_" data-uid="Startitecture.Orm.Common.DatabaseRepositoryProvider.UpdateSingle*"></a>
+  <h4 id="Startitecture_Orm_Common_DatabaseRepositoryProvider_UpdateSingle__1___0_System_Linq_Expressions_Expression_System_Func___0_System_Object_____" data-uid="Startitecture.Orm.Common.DatabaseRepositoryProvider.UpdateSingle``1(``0,System.Linq.Expressions.Expression{System.Func{``0,System.Object}}[])">UpdateSingle&lt;T&gt;(T, Expression&lt;Func&lt;T, Object&gt;&gt;[])</h4>
+  <div class="markdown level1 summary"><p>Updates a selection of entities in the repository.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UpdateSingle&lt;T&gt;(T entity, params Expression&lt;Func&lt;T, object&gt;&gt;[] setExpressions)
+    where T : ITransactionContext</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">entity</span></td>
+        <td><p>The entity that contains the update.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Linq.Expressions.Expression</span>&lt;<span class="xref">System.Func</span>&lt;T, <span class="xref">System.Object</span>&gt;&gt;[]</td>
+        <td><span class="parametername">setExpressions</span></td>
+        <td><p>A optional set of expressions that explicitly select the columns to update. If empty, all non-key columns are updated.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of entity in the repository.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="events">Events
+  </h3>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/DatabaseRepositoryProvider.cs&amp;version=GBmaster&amp;line=123">View Source</a>
+  </span>
+  <h4 id="Startitecture_Orm_Common_DatabaseRepositoryProvider_Disposed" data-uid="Startitecture.Orm.Common.DatabaseRepositoryProvider.Disposed">Disposed</h4>
+  <div class="markdown level1 summary"><p>Occurs when the provider is disposed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event EventHandler Disposed</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.EventHandler</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="Startitecture.Orm.Model.IRepositoryProvider.html">IRepositoryProvider</a>
+  </div>
+  <div>
+      <span class="xref">System.IDisposable</span>
+  </div>
+  <div>
+      <a class="xref" href="Startitecture.Orm.Common.IDatabaseContextProvider.html">IDatabaseContextProvider</a>
+  </div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="Startitecture.Orm.Testing.Moq.ExtensionMethods.html#Startitecture_Orm_Testing_Moq_ExtensionMethods_MockDataReader__1___0_System_Collections_Generic_IEnumerable_Startitecture_Orm_Model_EntityAttributeDefinition__">ExtensionMethods.MockDataReader&lt;T&gt;(T, IEnumerable&lt;EntityAttributeDefinition&gt;)</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/DatabaseRepositoryProvider.cs&amp;version=GBmaster&amp;line=30" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

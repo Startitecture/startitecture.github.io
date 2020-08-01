@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Interface ISelection
    ">
-    <meta name="generator" content="docfx 2.56.1.0">
+    <meta name="generator" content="docfx 2.56.2.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -76,101 +76,38 @@
   <div class="markdown level0 summary"><p>The selection interface.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Startitecture.Orm.Model.IEntitySet.html#Startitecture_Orm_Model_IEntitySet_EntityType">IEntitySet.EntityType</a>
+    </div>
+    <div>
+      <a class="xref" href="Startitecture.Orm.Model.IEntitySet.html#Startitecture_Orm_Model_IEntitySet_ParentExpression">IEntitySet.ParentExpression</a>
+    </div>
+    <div>
+      <a class="xref" href="Startitecture.Orm.Model.IEntitySet.html#Startitecture_Orm_Model_IEntitySet_Relations">IEntitySet.Relations</a>
+    </div>
+    <div>
+      <a class="xref" href="Startitecture.Orm.Model.IEntitySet.html#Startitecture_Orm_Model_IEntitySet_PropertyValues">IEntitySet.PropertyValues</a>
+    </div>
+    <div>
+      <a class="xref" href="Startitecture.Orm.Model.IEntitySet.html#Startitecture_Orm_Model_IEntitySet_Filters">IEntitySet.Filters</a>
+    </div>
+    <div>
+      <a class="xref" href="Startitecture.Orm.Model.IEntitySet.html#Startitecture_Orm_Model_IEntitySet_LinkedSelection">IEntitySet.LinkedSelection</a>
+    </div>
+  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Startitecture.Orm.Model.html">Startitecture.Orm.Model</a></h6>
   <h6><strong>Assembly</strong>: Startitecture.Orm.Model.dll</h6>
   <h5 id="Startitecture_Orm_Model_ISelection_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public interface ISelection</code></pre>
+    <pre><code class="lang-csharp hljs">public interface ISelection : IEntitySet</code></pre>
   </div>
   <h3 id="properties">Properties
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/ISelection.cs&amp;version=GBmaster&amp;line=20">View Source</a>
-  </span>
-  <a id="Startitecture_Orm_Model_ISelection_EntityType_" data-uid="Startitecture.Orm.Model.ISelection.EntityType*"></a>
-  <h4 id="Startitecture_Orm_Model_ISelection_EntityType" data-uid="Startitecture.Orm.Model.ISelection.EntityType">EntityType</h4>
-  <div class="markdown level1 summary"><p>Gets the type of the entity to select.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">Type EntityType { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Type</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/ISelection.cs&amp;version=GBmaster&amp;line=45">View Source</a>
-  </span>
-  <a id="Startitecture_Orm_Model_ISelection_Filters_" data-uid="Startitecture.Orm.Model.ISelection.Filters*"></a>
-  <h4 id="Startitecture_Orm_Model_ISelection_Filters" data-uid="Startitecture.Orm.Model.ISelection.Filters">Filters</h4>
-  <div class="markdown level1 summary"><p>Gets the filters for the selection.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">IEnumerable&lt;ValueFilter&gt; Filters { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Startitecture.Orm.Model.ValueFilter.html">ValueFilter</a>&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/ISelection.cs&amp;version=GBmaster&amp;line=55">View Source</a>
-  </span>
-  <a id="Startitecture_Orm_Model_ISelection_LinkedSelection_" data-uid="Startitecture.Orm.Model.ISelection.LinkedSelection*"></a>
-  <h4 id="Startitecture_Orm_Model_ISelection_LinkedSelection" data-uid="Startitecture.Orm.Model.ISelection.LinkedSelection">LinkedSelection</h4>
-  <div class="markdown level1 summary"><p>Gets the child selection, if any, for the selection.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">LinkedSelection LinkedSelection { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Startitecture.Orm.Model.LinkedSelection.html">LinkedSelection</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/ISelection.cs&amp;version=GBmaster&amp;line=40">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/ISelection.cs&amp;version=GBmaster&amp;line=24">View Source</a>
   </span>
   <a id="Startitecture_Orm_Model_ISelection_OrderByExpressions_" data-uid="Startitecture.Orm.Model.ISelection.OrderByExpressions*"></a>
   <h4 id="Startitecture_Orm_Model_ISelection_OrderByExpressions" data-uid="Startitecture.Orm.Model.ISelection.OrderByExpressions">OrderByExpressions</h4>
@@ -198,7 +135,7 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/ISelection.cs&amp;version=GBmaster&amp;line=50">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/ISelection.cs&amp;version=GBmaster&amp;line=29">View Source</a>
   </span>
   <a id="Startitecture_Orm_Model_ISelection_Page_" data-uid="Startitecture.Orm.Model.ISelection.Page*"></a>
   <h4 id="Startitecture_Orm_Model_ISelection_Page" data-uid="Startitecture.Orm.Model.ISelection.Page">Page</h4>
@@ -226,91 +163,7 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/ISelection.cs&amp;version=GBmaster&amp;line=60">View Source</a>
-  </span>
-  <a id="Startitecture_Orm_Model_ISelection_ParentExpression_" data-uid="Startitecture.Orm.Model.ISelection.ParentExpression*"></a>
-  <h4 id="Startitecture_Orm_Model_ISelection_ParentExpression" data-uid="Startitecture.Orm.Model.ISelection.ParentExpression">ParentExpression</h4>
-  <div class="markdown level1 summary"><p>Gets the table expression for this selection.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">EntityExpression ParentExpression { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Startitecture.Orm.Model.EntityExpression.html">EntityExpression</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/ISelection.cs&amp;version=GBmaster&amp;line=30">View Source</a>
-  </span>
-  <a id="Startitecture_Orm_Model_ISelection_PropertyValues_" data-uid="Startitecture.Orm.Model.ISelection.PropertyValues*"></a>
-  <h4 id="Startitecture_Orm_Model_ISelection_PropertyValues" data-uid="Startitecture.Orm.Model.ISelection.PropertyValues">PropertyValues</h4>
-  <div class="markdown level1 summary"><p>Gets the property values for the selection filter.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">IEnumerable&lt;object&gt; PropertyValues { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Object</span>&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/ISelection.cs&amp;version=GBmaster&amp;line=25">View Source</a>
-  </span>
-  <a id="Startitecture_Orm_Model_ISelection_Relations_" data-uid="Startitecture.Orm.Model.ISelection.Relations*"></a>
-  <h4 id="Startitecture_Orm_Model_ISelection_Relations" data-uid="Startitecture.Orm.Model.ISelection.Relations">Relations</h4>
-  <div class="markdown level1 summary"><p>Gets the entity relations represented in the selection.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">IEnumerable&lt;IEntityRelation&gt; Relations { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Startitecture.Orm.Model.IEntityRelation.html">IEntityRelation</a>&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/ISelection.cs&amp;version=GBmaster&amp;line=35">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/ISelection.cs&amp;version=GBmaster&amp;line=19">View Source</a>
   </span>
   <a id="Startitecture_Orm_Model_ISelection_SelectExpressions_" data-uid="Startitecture.Orm.Model.ISelection.SelectExpressions*"></a>
   <h4 id="Startitecture_Orm_Model_ISelection_SelectExpressions" data-uid="Startitecture.Orm.Model.ISelection.SelectExpressions">SelectExpressions</h4>
@@ -348,7 +201,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/ISelection.cs&amp;version=GBmaster&amp;line=15" class="contribution-link">View Source</a>
+                    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/ISelection.cs&amp;version=GBmaster&amp;line=14" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

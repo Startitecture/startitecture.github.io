@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Namespace Startitecture.Orm.Model
    ">
-    <meta name="generator" content="docfx 2.56.1.0">
+    <meta name="generator" content="docfx 2.56.2.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -102,17 +102,14 @@ TODO: Do sorted set by column ordinals</p>
       <h4><a class="xref" href="Startitecture.Orm.Model.EntitySelection-1.html">EntitySelection&lt;T&gt;</a></h4>
       <section><p>Creates selection criteria for repository entities.</p>
 </section>
-      <h4><a class="xref" href="Startitecture.Orm.Model.ExtensionMethods.html">ExtensionMethods</a></h4>
-      <section><p>The extension methods.</p>
+      <h4><a class="xref" href="Startitecture.Orm.Model.EntitySet-1.html">EntitySet&lt;T&gt;</a></h4>
+      <section><p>Specifies a set of entities in a repository.</p>
 </section>
       <h4><a class="xref" href="Startitecture.Orm.Model.LinkedSelection.html">LinkedSelection</a></h4>
       <section><p>Contains a reference to a linked selection with the link type.</p>
 </section>
       <h4><a class="xref" href="Startitecture.Orm.Model.OrderExpression.html">OrderExpression</a></h4>
       <section><p>The order expression.</p>
-</section>
-      <h4><a class="xref" href="Startitecture.Orm.Model.QueryContext.html">QueryContext</a></h4>
-      <section><p>The query context.</p>
 </section>
       <h4><a class="xref" href="Startitecture.Orm.Model.RepositoryException.html">RepositoryException</a></h4>
       <section><p>Thrown when there is an error accessing a data repository.</p>
@@ -129,16 +126,19 @@ TODO: Do sorted set by column ordinals</p>
       <h4><a class="xref" href="Startitecture.Orm.Model.UniqueQuery-1.html">UniqueQuery&lt;TItem&gt;</a></h4>
       <section><p>Automatically generates a unique query based on the primary keys of the <code data-dev-comment-type="typeparamref" class="typeparamref">TItem</code>.</p>
 </section>
+      <h4><a class="xref" href="Startitecture.Orm.Model.UpdateSet-1.html">UpdateSet&lt;T&gt;</a></h4>
+      <section><p>Represents an update set specification for an entity.</p>
+</section>
       <h4><a class="xref" href="Startitecture.Orm.Model.ValueFilter.html">ValueFilter</a></h4>
       <section><p>Contains a filter for a specific item attribute.</p>
+</section>
+      <h4><a class="xref" href="Startitecture.Orm.Model.ValueState.html">ValueState</a></h4>
+      <section><p>The value state.</p>
 </section>
     <h3 id="structs">Structs
   </h3>
       <h4><a class="xref" href="Startitecture.Orm.Model.EntityAttributeDefinition.html">EntityAttributeDefinition</a></h4>
       <section><p>Contains the definition of an entity attribute.</p>
-</section>
-      <h4><a class="xref" href="Startitecture.Orm.Model.EntityAttributeInstance.html">EntityAttributeInstance</a></h4>
-      <section><p>Stores the value of an entity attribute.</p>
 </section>
       <h4><a class="xref" href="Startitecture.Orm.Model.EntityLocation.html">EntityLocation</a></h4>
       <section><p>Contains the location for a data entity.</p>
@@ -169,17 +169,17 @@ TODO: Do sorted set by column ordinals</p>
       <h4><a class="xref" href="Startitecture.Orm.Model.IEntityRepository-1.html">IEntityRepository&lt;TModel&gt;</a></h4>
       <section><p>Provides an interface to an entity repository.</p>
 </section>
+      <h4><a class="xref" href="Startitecture.Orm.Model.IEntitySet.html">IEntitySet</a></h4>
+      <section><p>Provides an interface for specifying a set of entities.</p>
+</section>
       <h4><a class="xref" href="Startitecture.Orm.Model.INameQualifier.html">INameQualifier</a></h4>
       <section><p>The NameQualifier interface.</p>
-</section>
-      <h4><a class="xref" href="Startitecture.Orm.Model.IQueryFactory.html">IQueryFactory</a></h4>
-      <section><p>The StatementFactory interface.</p>
 </section>
       <h4><a class="xref" href="Startitecture.Orm.Model.IReadOnlyRepository-1.html">IReadOnlyRepository&lt;TModel&gt;</a></h4>
       <section><p>Provides an interface for classes that allow read-only access to repository data.</p>
 </section>
       <h4><a class="xref" href="Startitecture.Orm.Model.IRepositoryProvider.html">IRepositoryProvider</a></h4>
-      <section><p>Provides an interface to concrete repositories.</p>
+      <section><p>Provides an interface to concrete entity repositories.</p>
 </section>
       <h4><a class="xref" href="Startitecture.Orm.Model.IRepositoryProviderFactory.html">IRepositoryProviderFactory</a></h4>
       <section><p>Provides an interface to factories that create repository providers.</p>
@@ -187,8 +187,14 @@ TODO: Do sorted set by column ordinals</p>
       <h4><a class="xref" href="Startitecture.Orm.Model.ISelection.html">ISelection</a></h4>
       <section><p>The selection interface.</p>
 </section>
+      <h4><a class="xref" href="Startitecture.Orm.Model.IStatementFactory.html">IStatementFactory</a></h4>
+      <section><p>Provides an interface for creating data manipulation language (DML) statements.</p>
+</section>
       <h4><a class="xref" href="Startitecture.Orm.Model.ITransactionContext.html">ITransactionContext</a></h4>
       <section><p>Provides an interface to items that have a transaction context.</p>
+</section>
+      <h4><a class="xref" href="Startitecture.Orm.Model.IUpdateSet.html">IUpdateSet</a></h4>
+      <section><p>Provides an interface to expose common properties of an update set.</p>
 </section>
     <h3 id="enums">Enums
   </h3>
@@ -206,9 +212,6 @@ TODO: Do sorted set by column ordinals</p>
 </section>
       <h4><a class="xref" href="Startitecture.Orm.Model.SelectionLinkType.html">SelectionLinkType</a></h4>
       <section><p>An enumeration of the link types between selection statements.</p>
-</section>
-      <h4><a class="xref" href="Startitecture.Orm.Model.StatementOutputType.html">StatementOutputType</a></h4>
-      <section><p>The SQL statement type.</p>
 </section>
 </article>
           </div>

@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Interface IRepositoryProvider
    ">
-    <meta name="generator" content="docfx 2.56.1.0">
+    <meta name="generator" content="docfx 2.56.2.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -73,7 +73,7 @@
   
   <h1 id="Startitecture_Orm_Model_IRepositoryProvider" data-uid="Startitecture.Orm.Model.IRepositoryProvider" class="text-break">Interface IRepositoryProvider
   </h1>
-  <div class="markdown level0 summary"><p>Provides an interface to concrete repositories.</p>
+  <div class="markdown level0 summary"><p>Provides an interface to concrete entity repositories.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritedMembers">
@@ -96,7 +96,7 @@
   </span>
   <a id="Startitecture_Orm_Model_IRepositoryProvider_CacheExpiration_" data-uid="Startitecture.Orm.Model.IRepositoryProvider.CacheExpiration*"></a>
   <h4 id="Startitecture_Orm_Model_IRepositoryProvider_CacheExpiration" data-uid="Startitecture.Orm.Model.IRepositoryProvider.CacheExpiration">CacheExpiration</h4>
-  <div class="markdown level1 summary"><p>Gets or sets the amount of time after which cached items will expire.</p>
+  <div class="markdown level1 summary"><p>Gets or sets the amount of time after which cached entities will expire.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -240,14 +240,14 @@
     <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/IRepositoryProvider.cs&amp;version=GBmaster&amp;line=88">View Source</a>
   </span>
   <a id="Startitecture_Orm_Model_IRepositoryProvider_Contains_" data-uid="Startitecture.Orm.Model.IRepositoryProvider.Contains*"></a>
-  <h4 id="Startitecture_Orm_Model_IRepositoryProvider_Contains__1_Startitecture_Orm_Model_EntitySelection___0__" data-uid="Startitecture.Orm.Model.IRepositoryProvider.Contains``1(Startitecture.Orm.Model.EntitySelection{``0})">Contains&lt;TDataItem&gt;(EntitySelection&lt;TDataItem&gt;)</h4>
-  <div class="markdown level1 summary"><p>Determines whether an item exists given the specified unique key.</p>
+  <h4 id="Startitecture_Orm_Model_IRepositoryProvider_Contains__1_Startitecture_Orm_Model_EntitySet___0__" data-uid="Startitecture.Orm.Model.IRepositoryProvider.Contains``1(Startitecture.Orm.Model.EntitySet{``0})">Contains&lt;T&gt;(EntitySet&lt;T&gt;)</h4>
+  <div class="markdown level1 summary"><p>Determines whether an entity exists given the specified unique key.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">bool Contains&lt;TDataItem&gt;(EntitySelection&lt;TDataItem&gt; selection)
-    where TDataItem : ITransactionContext</code></pre>
+    <pre><code class="lang-csharp hljs">bool Contains&lt;T&gt;(EntitySet&lt;T&gt; selection)
+    where T : ITransactionContext</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -260,9 +260,9 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Startitecture.Orm.Model.EntitySelection-1.html">EntitySelection</a>&lt;TDataItem&gt;</td>
+        <td><a class="xref" href="Startitecture.Orm.Model.EntitySet-1.html">EntitySet</a>&lt;T&gt;</td>
         <td><span class="parametername">selection</span></td>
-        <td><p>A selection for the specified item or items to query for existence.</p>
+        <td><p>A selection for the specified entity or entities to query for existence.</p>
 </td>
       </tr>
     </tbody>
@@ -278,7 +278,7 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
-        <td><p><code>true</code> if the item exists; otherwise, <code>false</code>.</p>
+        <td><p><code>true</code> if the entity exists; otherwise, <code>false</code>.</p>
 </td>
       </tr>
     </tbody>
@@ -293,25 +293,25 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="parametername">TDataItem</span></td>
-        <td><p>The type of data item in the repository.</p>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of entity in the repository.</p>
 </td>
       </tr>
     </tbody>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/IRepositoryProvider.cs&amp;version=GBmaster&amp;line=147">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/IRepositoryProvider.cs&amp;version=GBmaster&amp;line=217">View Source</a>
   </span>
-  <a id="Startitecture_Orm_Model_IRepositoryProvider_DeleteItems_" data-uid="Startitecture.Orm.Model.IRepositoryProvider.DeleteItems*"></a>
-  <h4 id="Startitecture_Orm_Model_IRepositoryProvider_DeleteItems__1_Startitecture_Orm_Model_EntitySelection___0__" data-uid="Startitecture.Orm.Model.IRepositoryProvider.DeleteItems``1(Startitecture.Orm.Model.EntitySelection{``0})">DeleteItems&lt;TDataItem&gt;(EntitySelection&lt;TDataItem&gt;)</h4>
-  <div class="markdown level1 summary"><p>Deletes the items matching the filter.</p>
+  <a id="Startitecture_Orm_Model_IRepositoryProvider_Delete_" data-uid="Startitecture.Orm.Model.IRepositoryProvider.Delete*"></a>
+  <h4 id="Startitecture_Orm_Model_IRepositoryProvider_Delete__1_Startitecture_Orm_Model_EntitySelection___0__" data-uid="Startitecture.Orm.Model.IRepositoryProvider.Delete``1(Startitecture.Orm.Model.EntitySelection{``0})">Delete&lt;T&gt;(EntitySelection&lt;T&gt;)</h4>
+  <div class="markdown level1 summary"><p>Deletes the entities matching the filter.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">int DeleteItems&lt;TDataItem&gt;(EntitySelection&lt;TDataItem&gt; selection)
-    where TDataItem : ITransactionContext</code></pre>
+    <pre><code class="lang-csharp hljs">int Delete&lt;T&gt;(EntitySelection&lt;T&gt; selection)
+    where T : ITransactionContext</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -324,9 +324,9 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Startitecture.Orm.Model.EntitySelection-1.html">EntitySelection</a>&lt;TDataItem&gt;</td>
+        <td><a class="xref" href="Startitecture.Orm.Model.EntitySelection-1.html">EntitySelection</a>&lt;T&gt;</td>
         <td><span class="parametername">selection</span></td>
-        <td><p>A selection for the specified items to delete.</p>
+        <td><p>A selection for the specified entities to delete.</p>
 </td>
       </tr>
     </tbody>
@@ -342,7 +342,7 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Int32</span></td>
-        <td><p>The number of deleted items as an <span class="xref">System.Int32</span>.</p>
+        <td><p>The number of deleted entities as an <span class="xref">System.Int32</span>.</p>
 </td>
       </tr>
     </tbody>
@@ -357,15 +357,109 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="parametername">TDataItem</span></td>
-        <td><p>The type of data item in the repository.</p>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of entity in the repository.</p>
 </td>
       </tr>
     </tbody>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/IRepositoryProvider.cs&amp;version=GBmaster&amp;line=209">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/IRepositoryProvider.cs&amp;version=GBmaster&amp;line=129">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Model_IRepositoryProvider_DynamicFirstOrDefault_" data-uid="Startitecture.Orm.Model.IRepositoryProvider.DynamicFirstOrDefault*"></a>
+  <h4 id="Startitecture_Orm_Model_IRepositoryProvider_DynamicFirstOrDefault_Startitecture_Orm_Model_ISelection_" data-uid="Startitecture.Orm.Model.IRepositoryProvider.DynamicFirstOrDefault(Startitecture.Orm.Model.ISelection)">DynamicFirstOrDefault(ISelection)</h4>
+  <div class="markdown level1 summary"><p>Gets the first dynamic result matching the <code data-dev-comment-type="paramref" class="paramref">selection</code>, or the default value if the entity cannot be found.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">dynamic DynamicFirstOrDefault(ISelection selection)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Model.ISelection.html">ISelection</a></td>
+        <td><span class="parametername">selection</span></td>
+        <td><p>A selection for the specified result to return.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><p>The first dynamic result matching the filter, or null if no matching entity is found.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/IRepositoryProvider.cs&amp;version=GBmaster&amp;line=155">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Model_IRepositoryProvider_DynamicSelect_" data-uid="Startitecture.Orm.Model.IRepositoryProvider.DynamicSelect*"></a>
+  <h4 id="Startitecture_Orm_Model_IRepositoryProvider_DynamicSelect_Startitecture_Orm_Model_ISelection_" data-uid="Startitecture.Orm.Model.IRepositoryProvider.DynamicSelect(Startitecture.Orm.Model.ISelection)">DynamicSelect(ISelection)</h4>
+  <div class="markdown level1 summary"><p>Selects a collection of dynamic objects matching the <code data-dev-comment-type="paramref" class="paramref">selection</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IEnumerable&lt;dynamic&gt; DynamicSelect(ISelection selection)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Model.ISelection.html">ISelection</a></td>
+        <td><span class="parametername">selection</span></td>
+        <td><p>The selection specifying the results to return.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Object</span>&gt;</td>
+        <td><p>An <span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span> of dynamic objects matching the selection.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/IRepositoryProvider.cs&amp;version=GBmaster&amp;line=229">View Source</a>
   </span>
   <a id="Startitecture_Orm_Model_IRepositoryProvider_Execute_" data-uid="Startitecture.Orm.Model.IRepositoryProvider.Execute*"></a>
   <h4 id="Startitecture_Orm_Model_IRepositoryProvider_Execute_System_String_System_Object___" data-uid="Startitecture.Orm.Model.IRepositoryProvider.Execute(System.String,System.Object[])">Execute(String, Object[])</h4>
@@ -402,7 +496,7 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/IRepositoryProvider.cs&amp;version=GBmaster&amp;line=240">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/IRepositoryProvider.cs&amp;version=GBmaster&amp;line=260">View Source</a>
   </span>
   <a id="Startitecture_Orm_Model_IRepositoryProvider_ExecuteForResult_" data-uid="Startitecture.Orm.Model.IRepositoryProvider.ExecuteForResult*"></a>
   <h4 id="Startitecture_Orm_Model_IRepositoryProvider_ExecuteForResult_System_String_System_Object___" data-uid="Startitecture.Orm.Model.IRepositoryProvider.ExecuteForResult(System.String,System.Object[])">ExecuteForResult(String, Object[])</h4>
@@ -455,7 +549,7 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/IRepositoryProvider.cs&amp;version=GBmaster&amp;line=257">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/IRepositoryProvider.cs&amp;version=GBmaster&amp;line=277">View Source</a>
   </span>
   <a id="Startitecture_Orm_Model_IRepositoryProvider_ExecuteForResult_" data-uid="Startitecture.Orm.Model.IRepositoryProvider.ExecuteForResult*"></a>
   <h4 id="Startitecture_Orm_Model_IRepositoryProvider_ExecuteForResult__1_System_String_System_Object___" data-uid="Startitecture.Orm.Model.IRepositoryProvider.ExecuteForResult``1(System.String,System.Object[])">ExecuteForResult&lt;T&gt;(String, Object[])</h4>
@@ -501,7 +595,7 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;T&gt;</td>
-        <td><p>An <span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span> of items in the type of <code data-dev-comment-type="typeparamref" class="typeparamref">T</code>.</p>
+        <td><p>An <span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span> of entities in the type of <code data-dev-comment-type="typeparamref" class="typeparamref">T</code>.</p>
 </td>
       </tr>
     </tbody>
@@ -524,7 +618,7 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/IRepositoryProvider.cs&amp;version=GBmaster&amp;line=226">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/IRepositoryProvider.cs&amp;version=GBmaster&amp;line=246">View Source</a>
   </span>
   <a id="Startitecture_Orm_Model_IRepositoryProvider_ExecuteScalar_" data-uid="Startitecture.Orm.Model.IRepositoryProvider.ExecuteScalar*"></a>
   <h4 id="Startitecture_Orm_Model_IRepositoryProvider_ExecuteScalar__1_System_String_System_Object___" data-uid="Startitecture.Orm.Model.IRepositoryProvider.ExecuteScalar``1(System.String,System.Object[])">ExecuteScalar&lt;T&gt;(String, Object[])</h4>
@@ -595,15 +689,15 @@
   <span class="small pull-right mobile-hide">
     <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/IRepositoryProvider.cs&amp;version=GBmaster&amp;line=117">View Source</a>
   </span>
-  <a id="Startitecture_Orm_Model_IRepositoryProvider_GetFirstOrDefault_" data-uid="Startitecture.Orm.Model.IRepositoryProvider.GetFirstOrDefault*"></a>
-  <h4 id="Startitecture_Orm_Model_IRepositoryProvider_GetFirstOrDefault__1_Startitecture_Orm_Model_EntitySelection___0__" data-uid="Startitecture.Orm.Model.IRepositoryProvider.GetFirstOrDefault``1(Startitecture.Orm.Model.EntitySelection{``0})">GetFirstOrDefault&lt;TDataItem&gt;(EntitySelection&lt;TDataItem&gt;)</h4>
-  <div class="markdown level1 summary"><p>Gets the first item matching the selection, or the default value if the item cannot be found.</p>
+  <a id="Startitecture_Orm_Model_IRepositoryProvider_FirstOrDefault_" data-uid="Startitecture.Orm.Model.IRepositoryProvider.FirstOrDefault*"></a>
+  <h4 id="Startitecture_Orm_Model_IRepositoryProvider_FirstOrDefault__1_Startitecture_Orm_Model_EntitySelection___0__" data-uid="Startitecture.Orm.Model.IRepositoryProvider.FirstOrDefault``1(Startitecture.Orm.Model.EntitySelection{``0})">FirstOrDefault&lt;T&gt;(EntitySelection&lt;T&gt;)</h4>
+  <div class="markdown level1 summary"><p>Gets the first entity matching the selection, or the default value if the entity cannot be found.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">TDataItem GetFirstOrDefault&lt;TDataItem&gt;(EntitySelection&lt;TDataItem&gt; selection)
-    where TDataItem : ITransactionContext</code></pre>
+    <pre><code class="lang-csharp hljs">T FirstOrDefault&lt;T&gt;(EntitySelection&lt;T&gt; selection)
+    where T : ITransactionContext</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -616,9 +710,9 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Startitecture.Orm.Model.EntitySelection-1.html">EntitySelection</a>&lt;TDataItem&gt;</td>
+        <td><a class="xref" href="Startitecture.Orm.Model.EntitySelection-1.html">EntitySelection</a>&lt;T&gt;</td>
         <td><span class="parametername">selection</span></td>
-        <td><p>A selection for the specified item to return.</p>
+        <td><p>A selection for the specified entity to return.</p>
 </td>
       </tr>
     </tbody>
@@ -633,8 +727,8 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">TDataItem</span></td>
-        <td><p>The first <code data-dev-comment-type="typeparamref" class="typeparamref">TDataItem</code> item matching the filter, or the default value if no matching item is found.</p>
+        <td><span class="xref">T</span></td>
+        <td><p>The first <code data-dev-comment-type="typeparamref" class="typeparamref">T</code> entity matching the filter, or the default value if no matching entity is found.</p>
 </td>
       </tr>
     </tbody>
@@ -649,8 +743,8 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="parametername">TDataItem</span></td>
-        <td><p>The type of data item in the repository.</p>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of entity in the repository.</p>
 </td>
       </tr>
     </tbody>
@@ -720,17 +814,17 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/IRepositoryProvider.cs&amp;version=GBmaster&amp;line=132">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/IRepositoryProvider.cs&amp;version=GBmaster&amp;line=169">View Source</a>
   </span>
-  <a id="Startitecture_Orm_Model_IRepositoryProvider_GetSelection_" data-uid="Startitecture.Orm.Model.IRepositoryProvider.GetSelection*"></a>
-  <h4 id="Startitecture_Orm_Model_IRepositoryProvider_GetSelection__1_Startitecture_Orm_Model_EntitySelection___0__" data-uid="Startitecture.Orm.Model.IRepositoryProvider.GetSelection``1(Startitecture.Orm.Model.EntitySelection{``0})">GetSelection&lt;TDataItem&gt;(EntitySelection&lt;TDataItem&gt;)</h4>
-  <div class="markdown level1 summary"><p>Selects a matching list of items from the repository.</p>
+  <a id="Startitecture_Orm_Model_IRepositoryProvider_Insert_" data-uid="Startitecture.Orm.Model.IRepositoryProvider.Insert*"></a>
+  <h4 id="Startitecture_Orm_Model_IRepositoryProvider_Insert__1___0_" data-uid="Startitecture.Orm.Model.IRepositoryProvider.Insert``1(``0)">Insert&lt;T&gt;(T)</h4>
+  <div class="markdown level1 summary"><p>Inserts an entity into the repository.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">IEnumerable&lt;TDataItem&gt; GetSelection&lt;TDataItem&gt;(EntitySelection&lt;TDataItem&gt; selection)
-    where TDataItem : ITransactionContext</code></pre>
+    <pre><code class="lang-csharp hljs">T Insert&lt;T&gt;(T entity)
+    where T : ITransactionContext</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -743,9 +837,9 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Startitecture.Orm.Model.EntitySelection-1.html">EntitySelection</a>&lt;TDataItem&gt;</td>
-        <td><span class="parametername">selection</span></td>
-        <td><p>A selection for the specified items to return.</p>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">entity</span></td>
+        <td><p>The entity to insert.</p>
 </td>
       </tr>
     </tbody>
@@ -760,8 +854,8 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;TDataItem&gt;</td>
-        <td><p>A collection of items that match the filter.</p>
+        <td><span class="xref">T</span></td>
+        <td><p>The inserted <code data-dev-comment-type="typeparamref" class="typeparamref">T</code>.</p>
 </td>
       </tr>
     </tbody>
@@ -776,25 +870,25 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="parametername">TDataItem</span></td>
-        <td><p>The type of data item in the repository.</p>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of entity in the repository.</p>
 </td>
       </tr>
     </tbody>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/IRepositoryProvider.cs&amp;version=GBmaster&amp;line=162">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/IRepositoryProvider.cs&amp;version=GBmaster&amp;line=143">View Source</a>
   </span>
-  <a id="Startitecture_Orm_Model_IRepositoryProvider_InsertItem_" data-uid="Startitecture.Orm.Model.IRepositoryProvider.InsertItem*"></a>
-  <h4 id="Startitecture_Orm_Model_IRepositoryProvider_InsertItem__1___0_" data-uid="Startitecture.Orm.Model.IRepositoryProvider.InsertItem``1(``0)">InsertItem&lt;TDataItem&gt;(TDataItem)</h4>
-  <div class="markdown level1 summary"><p>Inserts a data item into the repository.</p>
+  <a id="Startitecture_Orm_Model_IRepositoryProvider_SelectEntities_" data-uid="Startitecture.Orm.Model.IRepositoryProvider.SelectEntities*"></a>
+  <h4 id="Startitecture_Orm_Model_IRepositoryProvider_SelectEntities__1_Startitecture_Orm_Model_EntitySelection___0__" data-uid="Startitecture.Orm.Model.IRepositoryProvider.SelectEntities``1(Startitecture.Orm.Model.EntitySelection{``0})">SelectEntities&lt;T&gt;(EntitySelection&lt;T&gt;)</h4>
+  <div class="markdown level1 summary"><p>Selects a matching list of entities from the repository.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">TDataItem InsertItem&lt;TDataItem&gt;(TDataItem dataItem)
-    where TDataItem : ITransactionContext</code></pre>
+    <pre><code class="lang-csharp hljs">IEnumerable&lt;T&gt; SelectEntities&lt;T&gt;(EntitySelection&lt;T&gt; selection)
+    where T : ITransactionContext</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -807,9 +901,9 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">TDataItem</span></td>
-        <td><span class="parametername">dataItem</span></td>
-        <td><p>The data item to insert.</p>
+        <td><a class="xref" href="Startitecture.Orm.Model.EntitySelection-1.html">EntitySelection</a>&lt;T&gt;</td>
+        <td><span class="parametername">selection</span></td>
+        <td><p>A selection for the specified entities to return.</p>
 </td>
       </tr>
     </tbody>
@@ -824,8 +918,8 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">TDataItem</span></td>
-        <td><p>The inserted <code data-dev-comment-type="typeparamref" class="typeparamref">TDataItem</code>.</p>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;T&gt;</td>
+        <td><p>A collection of entities that match the filter.</p>
 </td>
       </tr>
     </tbody>
@@ -840,8 +934,8 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="parametername">TDataItem</span></td>
-        <td><p>The type of data item in the repository.</p>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of entity in the repository.</p>
 </td>
       </tr>
     </tbody>
@@ -924,17 +1018,17 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/IRepositoryProvider.cs&amp;version=GBmaster&amp;line=197">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/IRepositoryProvider.cs&amp;version=GBmaster&amp;line=187">View Source</a>
   </span>
   <a id="Startitecture_Orm_Model_IRepositoryProvider_Update_" data-uid="Startitecture.Orm.Model.IRepositoryProvider.Update*"></a>
-  <h4 id="Startitecture_Orm_Model_IRepositoryProvider_Update__1___0_Startitecture_Orm_Model_EntitySelection___0__System_Linq_Expressions_Expression_System_Func___0_System_Object_____" data-uid="Startitecture.Orm.Model.IRepositoryProvider.Update``1(``0,Startitecture.Orm.Model.EntitySelection{``0},System.Linq.Expressions.Expression{System.Func{``0,System.Object}}[])">Update&lt;TDataItem&gt;(TDataItem, EntitySelection&lt;TDataItem&gt;, Expression&lt;Func&lt;TDataItem, Object&gt;&gt;[])</h4>
-  <div class="markdown level1 summary"><p>Updates a selection of items in the repository.</p>
+  <h4 id="Startitecture_Orm_Model_IRepositoryProvider_Update__1_Startitecture_Orm_Model_UpdateSet___0__" data-uid="Startitecture.Orm.Model.IRepositoryProvider.Update``1(Startitecture.Orm.Model.UpdateSet{``0})">Update&lt;T&gt;(UpdateSet&lt;T&gt;)</h4>
+  <div class="markdown level1 summary"><p>Updates a set of entities in the repository.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">int Update&lt;TDataItem&gt;(TDataItem dataItem, EntitySelection&lt;TDataItem&gt; selection, params Expression&lt;Func&lt;TDataItem, object&gt;&gt;[] setExpressions)
-    where TDataItem : ITransactionContext</code></pre>
+    <pre><code class="lang-csharp hljs">int Update&lt;T&gt;(UpdateSet&lt;T&gt; updateSet)
+    where T : ITransactionContext</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -947,21 +1041,9 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">TDataItem</span></td>
-        <td><span class="parametername">dataItem</span></td>
-        <td><p>The item that contains the update.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="Startitecture.Orm.Model.EntitySelection-1.html">EntitySelection</a>&lt;TDataItem&gt;</td>
-        <td><span class="parametername">selection</span></td>
-        <td><p>The selection to update.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Linq.Expressions.Expression</span>&lt;<span class="xref">System.Func</span>&lt;TDataItem, <span class="xref">System.Object</span>&gt;&gt;[]</td>
-        <td><span class="parametername">setExpressions</span></td>
-        <td><p>A optional set of expressions that explicitly select the columns to update. If empty, all non-key columns are updated.</p>
+        <td><a class="xref" href="Startitecture.Orm.Model.UpdateSet-1.html">UpdateSet</a>&lt;T&gt;</td>
+        <td><span class="parametername">updateSet</span></td>
+        <td><p>The update set that defines the entities and entity attributes to update.</p>
 </td>
       </tr>
     </tbody>
@@ -977,7 +1059,7 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Int32</span></td>
-        <td><p>The number of updated rows.</p>
+        <td><p>The number of affected entities as an <span class="xref">System.Int32</span>.</p>
 </td>
       </tr>
     </tbody>
@@ -992,24 +1074,28 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="parametername">TDataItem</span></td>
-        <td><p>The type of data item in the repository.</p>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of entity to update.</p>
 </td>
       </tr>
     </tbody>
   </table>
+  <h5 id="Startitecture_Orm_Model_IRepositoryProvider_Update__1_Startitecture_Orm_Model_UpdateSet___0___remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>The number of affected entities can include rows affected by triggers on the target table.</p>
+</div>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/IRepositoryProvider.cs&amp;version=GBmaster&amp;line=177">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/IRepositoryProvider.cs&amp;version=GBmaster&amp;line=202">View Source</a>
   </span>
-  <a id="Startitecture_Orm_Model_IRepositoryProvider_UpdateItem_" data-uid="Startitecture.Orm.Model.IRepositoryProvider.UpdateItem*"></a>
-  <h4 id="Startitecture_Orm_Model_IRepositoryProvider_UpdateItem__1___0_System_Linq_Expressions_Expression_System_Func___0_System_Object_____" data-uid="Startitecture.Orm.Model.IRepositoryProvider.UpdateItem``1(``0,System.Linq.Expressions.Expression{System.Func{``0,System.Object}}[])">UpdateItem&lt;TDataItem&gt;(TDataItem, Expression&lt;Func&lt;TDataItem, Object&gt;&gt;[])</h4>
-  <div class="markdown level1 summary"><p>Updates a selection of items in the repository.</p>
+  <a id="Startitecture_Orm_Model_IRepositoryProvider_UpdateSingle_" data-uid="Startitecture.Orm.Model.IRepositoryProvider.UpdateSingle*"></a>
+  <h4 id="Startitecture_Orm_Model_IRepositoryProvider_UpdateSingle__1___0_System_Linq_Expressions_Expression_System_Func___0_System_Object_____" data-uid="Startitecture.Orm.Model.IRepositoryProvider.UpdateSingle``1(``0,System.Linq.Expressions.Expression{System.Func{``0,System.Object}}[])">UpdateSingle&lt;T&gt;(T, Expression&lt;Func&lt;T, Object&gt;&gt;[])</h4>
+  <div class="markdown level1 summary"><p>Updates a selection of entities in the repository.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void UpdateItem&lt;TDataItem&gt;(TDataItem dataItem, params Expression&lt;Func&lt;TDataItem, object&gt;&gt;[] setExpressions)</code></pre>
+    <pre><code class="lang-csharp hljs">void UpdateSingle&lt;T&gt;(T entity, params Expression&lt;Func&lt;T, object&gt;&gt;[] setExpressions)
+    where T : ITransactionContext</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1022,13 +1108,13 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">TDataItem</span></td>
-        <td><span class="parametername">dataItem</span></td>
-        <td><p>The item that contains the update.</p>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">entity</span></td>
+        <td><p>The entity that contains the update.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Linq.Expressions.Expression</span>&lt;<span class="xref">System.Func</span>&lt;TDataItem, <span class="xref">System.Object</span>&gt;&gt;[]</td>
+        <td><span class="xref">System.Linq.Expressions.Expression</span>&lt;<span class="xref">System.Func</span>&lt;T, <span class="xref">System.Object</span>&gt;&gt;[]</td>
         <td><span class="parametername">setExpressions</span></td>
         <td><p>A optional set of expressions that explicitly select the columns to update. If empty, all non-key columns are updated.</p>
 </td>
@@ -1045,8 +1131,8 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="parametername">TDataItem</span></td>
-        <td><p>The type of data item in the repository.</p>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of entity in the repository.</p>
 </td>
       </tr>
     </tbody>

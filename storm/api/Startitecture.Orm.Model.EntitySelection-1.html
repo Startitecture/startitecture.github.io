@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class EntitySelection&lt;T&gt;
    ">
-    <meta name="generator" content="docfx 2.56.1.0">
+    <meta name="generator" content="docfx 2.56.2.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -85,6 +85,7 @@
   <div classs="implements">
     <h5>Implements</h5>
     <div><a class="xref" href="Startitecture.Orm.Model.ISelection.html">ISelection</a></div>
+    <div><a class="xref" href="Startitecture.Orm.Model.IEntitySet.html">IEntitySet</a></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -111,7 +112,7 @@
   <h6><strong>Assembly</strong>: Startitecture.Orm.Model.dll</h6>
   <h5 id="Startitecture_Orm_Model_EntitySelection_1_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class EntitySelection&lt;T&gt; : ISelection</code></pre>
+    <pre><code class="lang-csharp hljs">public class EntitySelection&lt;T&gt; : ISelection, IEntitySet</code></pre>
   </div>
   <h5 class="typeParameters">Type Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -133,11 +134,11 @@
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySelection.cs&amp;version=GBmaster&amp;line=59">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySelection.cs&amp;version=GBmaster&amp;line=60">View Source</a>
   </span>
   <a id="Startitecture_Orm_Model_EntitySelection_1_EntityType_" data-uid="Startitecture.Orm.Model.EntitySelection`1.EntityType*"></a>
   <h4 id="Startitecture_Orm_Model_EntitySelection_1_EntityType" data-uid="Startitecture.Orm.Model.EntitySelection`1.EntityType">EntityType</h4>
-  <div class="markdown level1 summary"><p>Gets the type of the entity to select.</p>
+  <div class="markdown level1 summary"><p>Gets the entity type.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -161,11 +162,11 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySelection.cs&amp;version=GBmaster&amp;line=111">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySelection.cs&amp;version=GBmaster&amp;line=112">View Source</a>
   </span>
   <a id="Startitecture_Orm_Model_EntitySelection_1_Filters_" data-uid="Startitecture.Orm.Model.EntitySelection`1.Filters*"></a>
   <h4 id="Startitecture_Orm_Model_EntitySelection_1_Filters" data-uid="Startitecture.Orm.Model.EntitySelection`1.Filters">Filters</h4>
-  <div class="markdown level1 summary"><p>Gets the filters for the selection.</p>
+  <div class="markdown level1 summary"><p>Gets the filters for the entity set.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -189,11 +190,11 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySelection.cs&amp;version=GBmaster&amp;line=65">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySelection.cs&amp;version=GBmaster&amp;line=66">View Source</a>
   </span>
   <a id="Startitecture_Orm_Model_EntitySelection_1_LinkedSelection_" data-uid="Startitecture.Orm.Model.EntitySelection`1.LinkedSelection*"></a>
   <h4 id="Startitecture_Orm_Model_EntitySelection_1_LinkedSelection" data-uid="Startitecture.Orm.Model.EntitySelection`1.LinkedSelection">LinkedSelection</h4>
-  <div class="markdown level1 summary"><p>Gets the child selection, if any, for the selection.</p>
+  <div class="markdown level1 summary"><p>Gets the selection linked to this selection, such as a UNION, INTERSECT, or EXCEPT, if any.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -217,7 +218,7 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySelection.cs&amp;version=GBmaster&amp;line=108">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySelection.cs&amp;version=GBmaster&amp;line=109">View Source</a>
   </span>
   <a id="Startitecture_Orm_Model_EntitySelection_1_OrderByExpressions_" data-uid="Startitecture.Orm.Model.EntitySelection`1.OrderByExpressions*"></a>
   <h4 id="Startitecture_Orm_Model_EntitySelection_1_OrderByExpressions" data-uid="Startitecture.Orm.Model.EntitySelection`1.OrderByExpressions">OrderByExpressions</h4>
@@ -245,7 +246,7 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySelection.cs&amp;version=GBmaster&amp;line=114">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySelection.cs&amp;version=GBmaster&amp;line=115">View Source</a>
   </span>
   <a id="Startitecture_Orm_Model_EntitySelection_1_Page_" data-uid="Startitecture.Orm.Model.EntitySelection`1.Page*"></a>
   <h4 id="Startitecture_Orm_Model_EntitySelection_1_Page" data-uid="Startitecture.Orm.Model.EntitySelection`1.Page">Page</h4>
@@ -273,11 +274,11 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySelection.cs&amp;version=GBmaster&amp;line=56">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySelection.cs&amp;version=GBmaster&amp;line=57">View Source</a>
   </span>
   <a id="Startitecture_Orm_Model_EntitySelection_1_ParentExpression_" data-uid="Startitecture.Orm.Model.EntitySelection`1.ParentExpression*"></a>
   <h4 id="Startitecture_Orm_Model_EntitySelection_1_ParentExpression" data-uid="Startitecture.Orm.Model.EntitySelection`1.ParentExpression">ParentExpression</h4>
-  <div class="markdown level1 summary"><p>Gets the table expression for this selection.</p>
+  <div class="markdown level1 summary"><p>Gets the parent expression for the set operation.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -301,11 +302,11 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySelection.cs&amp;version=GBmaster&amp;line=68">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySelection.cs&amp;version=GBmaster&amp;line=69">View Source</a>
   </span>
   <a id="Startitecture_Orm_Model_EntitySelection_1_PropertyValues_" data-uid="Startitecture.Orm.Model.EntitySelection`1.PropertyValues*"></a>
   <h4 id="Startitecture_Orm_Model_EntitySelection_1_PropertyValues" data-uid="Startitecture.Orm.Model.EntitySelection`1.PropertyValues">PropertyValues</h4>
-  <div class="markdown level1 summary"><p>Gets the property values for the selection filter.</p>
+  <div class="markdown level1 summary"><p>Gets the property values of the set's filter attributes.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -329,11 +330,11 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySelection.cs&amp;version=GBmaster&amp;line=62">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySelection.cs&amp;version=GBmaster&amp;line=63">View Source</a>
   </span>
   <a id="Startitecture_Orm_Model_EntitySelection_1_Relations_" data-uid="Startitecture.Orm.Model.EntitySelection`1.Relations*"></a>
   <h4 id="Startitecture_Orm_Model_EntitySelection_1_Relations" data-uid="Startitecture.Orm.Model.EntitySelection`1.Relations">Relations</h4>
-  <div class="markdown level1 summary"><p>Gets the entity relations represented in the selection.</p>
+  <div class="markdown level1 summary"><p>Gets the relations that are part of the set.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -357,7 +358,7 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySelection.cs&amp;version=GBmaster&amp;line=105">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySelection.cs&amp;version=GBmaster&amp;line=106">View Source</a>
   </span>
   <a id="Startitecture_Orm_Model_EntitySelection_1_SelectExpressions_" data-uid="Startitecture.Orm.Model.EntitySelection`1.SelectExpressions*"></a>
   <h4 id="Startitecture_Orm_Model_EntitySelection_1_SelectExpressions" data-uid="Startitecture.Orm.Model.EntitySelection`1.SelectExpressions">SelectExpressions</h4>
@@ -387,7 +388,7 @@
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySelection.cs&amp;version=GBmaster&amp;line=1145">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySelection.cs&amp;version=GBmaster&amp;line=1207">View Source</a>
   </span>
   <a id="Startitecture_Orm_Model_EntitySelection_1_AddFilter_" data-uid="Startitecture.Orm.Model.EntitySelection`1.AddFilter*"></a>
   <h4 id="Startitecture_Orm_Model_EntitySelection_1_AddFilter_Startitecture_Orm_Model_ValueFilter_" data-uid="Startitecture.Orm.Model.EntitySelection`1.AddFilter(Startitecture.Orm.Model.ValueFilter)">AddFilter(ValueFilter)</h4>
@@ -450,7 +451,7 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySelection.cs&amp;version=GBmaster&amp;line=612">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySelection.cs&amp;version=GBmaster&amp;line=674">View Source</a>
   </span>
   <a id="Startitecture_Orm_Model_EntitySelection_1_AddRelation_" data-uid="Startitecture.Orm.Model.EntitySelection`1.AddRelation*"></a>
   <h4 id="Startitecture_Orm_Model_EntitySelection_1_AddRelation_Startitecture_Orm_Model_IEntityRelation_" data-uid="Startitecture.Orm.Model.EntitySelection`1.AddRelation(Startitecture.Orm.Model.IEntityRelation)">AddRelation(IEntityRelation)</h4>
@@ -497,7 +498,7 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySelection.cs&amp;version=GBmaster&amp;line=565">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySelection.cs&amp;version=GBmaster&amp;line=627">View Source</a>
   </span>
   <a id="Startitecture_Orm_Model_EntitySelection_1_Between_" data-uid="Startitecture.Orm.Model.EntitySelection`1.Between*"></a>
   <h4 id="Startitecture_Orm_Model_EntitySelection_1_Between__0__0_System_Linq_Expressions_Expression_System_Func__0_System_Object_____" data-uid="Startitecture.Orm.Model.EntitySelection`1.Between(`0,`0,System.Linq.Expressions.Expression{System.Func{`0,System.Object}}[])">Between(T, T, Expression&lt;Func&lt;T, Object&gt;&gt;[])</h4>
@@ -556,7 +557,7 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySelection.cs&amp;version=GBmaster&amp;line=525">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySelection.cs&amp;version=GBmaster&amp;line=587">View Source</a>
   </span>
   <a id="Startitecture_Orm_Model_EntitySelection_1_Between_" data-uid="Startitecture.Orm.Model.EntitySelection`1.Between*"></a>
   <h4 id="Startitecture_Orm_Model_EntitySelection_1_Between__1_System_Linq_Expressions_Expression_System_Func__0___0_____0___0_" data-uid="Startitecture.Orm.Model.EntitySelection`1.Between``1(System.Linq.Expressions.Expression{System.Func{`0,``0}},``0,``0)">Between&lt;TValue&gt;(Expression&lt;Func&lt;T, TValue&gt;&gt;, TValue, TValue)</h4>
@@ -648,7 +649,7 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySelection.cs&amp;version=GBmaster&amp;line=195">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySelection.cs&amp;version=GBmaster&amp;line=199">View Source</a>
   </span>
   <a id="Startitecture_Orm_Model_EntitySelection_1_Count_" data-uid="Startitecture.Orm.Model.EntitySelection`1.Count*"></a>
   <h4 id="Startitecture_Orm_Model_EntitySelection_1_Count_System_Linq_Expressions_Expression_System_Func__0_System_Object___" data-uid="Startitecture.Orm.Model.EntitySelection`1.Count(System.Linq.Expressions.Expression{System.Func{`0,System.Object}})">Count(Expression&lt;Func&lt;T, Object&gt;&gt;)</h4>
@@ -695,7 +696,7 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySelection.cs&amp;version=GBmaster&amp;line=1084">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySelection.cs&amp;version=GBmaster&amp;line=1146">View Source</a>
   </span>
   <a id="Startitecture_Orm_Model_EntitySelection_1_Except_" data-uid="Startitecture.Orm.Model.EntitySelection`1.Except*"></a>
   <h4 id="Startitecture_Orm_Model_EntitySelection_1_Except_Startitecture_Orm_Model_EntitySelection__0__" data-uid="Startitecture.Orm.Model.EntitySelection`1.Except(Startitecture.Orm.Model.EntitySelection{`0})">Except(EntitySelection&lt;T&gt;)</h4>
@@ -742,7 +743,7 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySelection.cs&amp;version=GBmaster&amp;line=372">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySelection.cs&amp;version=GBmaster&amp;line=434">View Source</a>
   </span>
   <a id="Startitecture_Orm_Model_EntitySelection_1_GreaterThan_" data-uid="Startitecture.Orm.Model.EntitySelection`1.GreaterThan*"></a>
   <h4 id="Startitecture_Orm_Model_EntitySelection_1_GreaterThan__1_System_Linq_Expressions_Expression_System_Func__0___0_____0_" data-uid="Startitecture.Orm.Model.EntitySelection`1.GreaterThan``1(System.Linq.Expressions.Expression{System.Func{`0,``0}},``0)">GreaterThan&lt;TValue&gt;(Expression&lt;Func&lt;T, TValue&gt;&gt;, TValue)</h4>
@@ -827,7 +828,7 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySelection.cs&amp;version=GBmaster&amp;line=401">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySelection.cs&amp;version=GBmaster&amp;line=463">View Source</a>
   </span>
   <a id="Startitecture_Orm_Model_EntitySelection_1_GreaterThanOrEqualTo_" data-uid="Startitecture.Orm.Model.EntitySelection`1.GreaterThanOrEqualTo*"></a>
   <h4 id="Startitecture_Orm_Model_EntitySelection_1_GreaterThanOrEqualTo__1_System_Linq_Expressions_Expression_System_Func__0___0_____0_" data-uid="Startitecture.Orm.Model.EntitySelection`1.GreaterThanOrEqualTo``1(System.Linq.Expressions.Expression{System.Func{`0,``0}},``0)">GreaterThanOrEqualTo&lt;TValue&gt;(Expression&lt;Func&lt;T, TValue&gt;&gt;, TValue)</h4>
@@ -912,7 +913,7 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySelection.cs&amp;version=GBmaster&amp;line=485">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySelection.cs&amp;version=GBmaster&amp;line=547">View Source</a>
   </span>
   <a id="Startitecture_Orm_Model_EntitySelection_1_Include_" data-uid="Startitecture.Orm.Model.EntitySelection`1.Include*"></a>
   <h4 id="Startitecture_Orm_Model_EntitySelection_1_Include__1_System_Linq_Expressions_Expression_System_Func__0___0_____0___" data-uid="Startitecture.Orm.Model.EntitySelection`1.Include``1(System.Linq.Expressions.Expression{System.Func{`0,``0}},``0[])">Include&lt;TValue&gt;(Expression&lt;Func&lt;T, TValue&gt;&gt;, TValue[])</h4>
@@ -981,7 +982,7 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySelection.cs&amp;version=GBmaster&amp;line=635">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySelection.cs&amp;version=GBmaster&amp;line=697">View Source</a>
   </span>
   <a id="Startitecture_Orm_Model_EntitySelection_1_InnerJoin_" data-uid="Startitecture.Orm.Model.EntitySelection`1.InnerJoin*"></a>
   <h4 id="Startitecture_Orm_Model_EntitySelection_1_InnerJoin_System_Linq_Expressions_Expression_System_Func__0_System_Object___System_Linq_Expressions_Expression_System_Func__0_System_Object___" data-uid="Startitecture.Orm.Model.EntitySelection`1.InnerJoin(System.Linq.Expressions.Expression{System.Func{`0,System.Object}},System.Linq.Expressions.Expression{System.Func{`0,System.Object}})">InnerJoin(Expression&lt;Func&lt;T, Object&gt;&gt;, Expression&lt;Func&lt;T, Object&gt;&gt;)</h4>
@@ -1034,7 +1035,7 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySelection.cs&amp;version=GBmaster&amp;line=669">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySelection.cs&amp;version=GBmaster&amp;line=731">View Source</a>
   </span>
   <a id="Startitecture_Orm_Model_EntitySelection_1_InnerJoin_" data-uid="Startitecture.Orm.Model.EntitySelection`1.InnerJoin*"></a>
   <h4 id="Startitecture_Orm_Model_EntitySelection_1_InnerJoin__1_System_Linq_Expressions_Expression_System_Func__0_System_Object___System_Linq_Expressions_Expression_System_Func___0_System_Object___" data-uid="Startitecture.Orm.Model.EntitySelection`1.InnerJoin``1(System.Linq.Expressions.Expression{System.Func{`0,System.Object}},System.Linq.Expressions.Expression{System.Func{``0,System.Object}})">InnerJoin&lt;TRelation&gt;(Expression&lt;Func&lt;T, Object&gt;&gt;, Expression&lt;Func&lt;TRelation, Object&gt;&gt;)</h4>
@@ -1103,7 +1104,7 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySelection.cs&amp;version=GBmaster&amp;line=706">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySelection.cs&amp;version=GBmaster&amp;line=768">View Source</a>
   </span>
   <a id="Startitecture_Orm_Model_EntitySelection_1_InnerJoin_" data-uid="Startitecture.Orm.Model.EntitySelection`1.InnerJoin*"></a>
   <h4 id="Startitecture_Orm_Model_EntitySelection_1_InnerJoin__1_System_Linq_Expressions_Expression_System_Func__0_System_Object___System_Linq_Expressions_Expression_System_Func___0_System_Object___System_String_" data-uid="Startitecture.Orm.Model.EntitySelection`1.InnerJoin``1(System.Linq.Expressions.Expression{System.Func{`0,System.Object}},System.Linq.Expressions.Expression{System.Func{``0,System.Object}},System.String)">InnerJoin&lt;TRelation&gt;(Expression&lt;Func&lt;T, Object&gt;&gt;, Expression&lt;Func&lt;TRelation, Object&gt;&gt;, String)</h4>
@@ -1178,7 +1179,7 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySelection.cs&amp;version=GBmaster&amp;line=745">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySelection.cs&amp;version=GBmaster&amp;line=807">View Source</a>
   </span>
   <a id="Startitecture_Orm_Model_EntitySelection_1_InnerJoin_" data-uid="Startitecture.Orm.Model.EntitySelection`1.InnerJoin*"></a>
   <h4 id="Startitecture_Orm_Model_EntitySelection_1_InnerJoin__2_System_Linq_Expressions_Expression_System_Func___0_System_Object___System_Linq_Expressions_Expression_System_Func___1_System_Object___" data-uid="Startitecture.Orm.Model.EntitySelection`1.InnerJoin``2(System.Linq.Expressions.Expression{System.Func{``0,System.Object}},System.Linq.Expressions.Expression{System.Func{``1,System.Object}})">InnerJoin&lt;TSource, TRelation&gt;(Expression&lt;Func&lt;TSource, Object&gt;&gt;, Expression&lt;Func&lt;TRelation, Object&gt;&gt;)</h4>
@@ -1253,7 +1254,7 @@ JOIN member.</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySelection.cs&amp;version=GBmaster&amp;line=776">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySelection.cs&amp;version=GBmaster&amp;line=838">View Source</a>
   </span>
   <a id="Startitecture_Orm_Model_EntitySelection_1_InnerJoin_" data-uid="Startitecture.Orm.Model.EntitySelection`1.InnerJoin*"></a>
   <h4 id="Startitecture_Orm_Model_EntitySelection_1_InnerJoin__2_System_Linq_Expressions_Expression_System_Func___0_System_Object___System_Linq_Expressions_Expression_System_Func___1_System_Object___System_String_" data-uid="Startitecture.Orm.Model.EntitySelection`1.InnerJoin``2(System.Linq.Expressions.Expression{System.Func{``0,System.Object}},System.Linq.Expressions.Expression{System.Func{``1,System.Object}},System.String)">InnerJoin&lt;TSource, TRelation&gt;(Expression&lt;Func&lt;TSource, Object&gt;&gt;, Expression&lt;Func&lt;TRelation, Object&gt;&gt;, String)</h4>
@@ -1334,7 +1335,7 @@ JOIN member.</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySelection.cs&amp;version=GBmaster&amp;line=809">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySelection.cs&amp;version=GBmaster&amp;line=871">View Source</a>
   </span>
   <a id="Startitecture_Orm_Model_EntitySelection_1_InnerJoin_" data-uid="Startitecture.Orm.Model.EntitySelection`1.InnerJoin*"></a>
   <h4 id="Startitecture_Orm_Model_EntitySelection_1_InnerJoin__2_System_Linq_Expressions_Expression_System_Func___0_System_Object___System_String_System_Linq_Expressions_Expression_System_Func___1_System_Object___System_String_" data-uid="Startitecture.Orm.Model.EntitySelection`1.InnerJoin``2(System.Linq.Expressions.Expression{System.Func{``0,System.Object}},System.String,System.Linq.Expressions.Expression{System.Func{``1,System.Object}},System.String)">InnerJoin&lt;TSource, TRelation&gt;(Expression&lt;Func&lt;TSource, Object&gt;&gt;, String, Expression&lt;Func&lt;TRelation, Object&gt;&gt;, String)</h4>
@@ -1421,7 +1422,7 @@ JOIN member.</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySelection.cs&amp;version=GBmaster&amp;line=1069">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySelection.cs&amp;version=GBmaster&amp;line=1131">View Source</a>
   </span>
   <a id="Startitecture_Orm_Model_EntitySelection_1_Intersect_" data-uid="Startitecture.Orm.Model.EntitySelection`1.Intersect*"></a>
   <h4 id="Startitecture_Orm_Model_EntitySelection_1_Intersect_Startitecture_Orm_Model_EntitySelection__0__" data-uid="Startitecture.Orm.Model.EntitySelection`1.Intersect(Startitecture.Orm.Model.EntitySelection{`0})">Intersect(EntitySelection&lt;T&gt;)</h4>
@@ -1468,7 +1469,7 @@ JOIN member.</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySelection.cs&amp;version=GBmaster&amp;line=844">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySelection.cs&amp;version=GBmaster&amp;line=906">View Source</a>
   </span>
   <a id="Startitecture_Orm_Model_EntitySelection_1_LeftJoin_" data-uid="Startitecture.Orm.Model.EntitySelection`1.LeftJoin*"></a>
   <h4 id="Startitecture_Orm_Model_EntitySelection_1_LeftJoin_System_Linq_Expressions_Expression_System_Func__0_System_Object___System_Linq_Expressions_Expression_System_Func__0_System_Object___" data-uid="Startitecture.Orm.Model.EntitySelection`1.LeftJoin(System.Linq.Expressions.Expression{System.Func{`0,System.Object}},System.Linq.Expressions.Expression{System.Func{`0,System.Object}})">LeftJoin(Expression&lt;Func&lt;T, Object&gt;&gt;, Expression&lt;Func&lt;T, Object&gt;&gt;)</h4>
@@ -1521,7 +1522,7 @@ JOIN member.</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySelection.cs&amp;version=GBmaster&amp;line=878">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySelection.cs&amp;version=GBmaster&amp;line=940">View Source</a>
   </span>
   <a id="Startitecture_Orm_Model_EntitySelection_1_LeftJoin_" data-uid="Startitecture.Orm.Model.EntitySelection`1.LeftJoin*"></a>
   <h4 id="Startitecture_Orm_Model_EntitySelection_1_LeftJoin__1_System_Linq_Expressions_Expression_System_Func__0_System_Object___System_Linq_Expressions_Expression_System_Func___0_System_Object___" data-uid="Startitecture.Orm.Model.EntitySelection`1.LeftJoin``1(System.Linq.Expressions.Expression{System.Func{`0,System.Object}},System.Linq.Expressions.Expression{System.Func{``0,System.Object}})">LeftJoin&lt;TRelation&gt;(Expression&lt;Func&lt;T, Object&gt;&gt;, Expression&lt;Func&lt;TRelation, Object&gt;&gt;)</h4>
@@ -1590,7 +1591,7 @@ JOIN member.</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySelection.cs&amp;version=GBmaster&amp;line=915">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySelection.cs&amp;version=GBmaster&amp;line=977">View Source</a>
   </span>
   <a id="Startitecture_Orm_Model_EntitySelection_1_LeftJoin_" data-uid="Startitecture.Orm.Model.EntitySelection`1.LeftJoin*"></a>
   <h4 id="Startitecture_Orm_Model_EntitySelection_1_LeftJoin__1_System_Linq_Expressions_Expression_System_Func__0_System_Object___System_Linq_Expressions_Expression_System_Func___0_System_Object___System_String_" data-uid="Startitecture.Orm.Model.EntitySelection`1.LeftJoin``1(System.Linq.Expressions.Expression{System.Func{`0,System.Object}},System.Linq.Expressions.Expression{System.Func{``0,System.Object}},System.String)">LeftJoin&lt;TRelation&gt;(Expression&lt;Func&lt;T, Object&gt;&gt;, Expression&lt;Func&lt;TRelation, Object&gt;&gt;, String)</h4>
@@ -1665,7 +1666,7 @@ JOIN member.</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySelection.cs&amp;version=GBmaster&amp;line=954">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySelection.cs&amp;version=GBmaster&amp;line=1016">View Source</a>
   </span>
   <a id="Startitecture_Orm_Model_EntitySelection_1_LeftJoin_" data-uid="Startitecture.Orm.Model.EntitySelection`1.LeftJoin*"></a>
   <h4 id="Startitecture_Orm_Model_EntitySelection_1_LeftJoin__2_System_Linq_Expressions_Expression_System_Func___0_System_Object___System_Linq_Expressions_Expression_System_Func___1_System_Object___" data-uid="Startitecture.Orm.Model.EntitySelection`1.LeftJoin``2(System.Linq.Expressions.Expression{System.Func{``0,System.Object}},System.Linq.Expressions.Expression{System.Func{``1,System.Object}})">LeftJoin&lt;TSource, TRelation&gt;(Expression&lt;Func&lt;TSource, Object&gt;&gt;, Expression&lt;Func&lt;TRelation, Object&gt;&gt;)</h4>
@@ -1740,7 +1741,7 @@ JOIN member.</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySelection.cs&amp;version=GBmaster&amp;line=985">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySelection.cs&amp;version=GBmaster&amp;line=1047">View Source</a>
   </span>
   <a id="Startitecture_Orm_Model_EntitySelection_1_LeftJoin_" data-uid="Startitecture.Orm.Model.EntitySelection`1.LeftJoin*"></a>
   <h4 id="Startitecture_Orm_Model_EntitySelection_1_LeftJoin__2_System_Linq_Expressions_Expression_System_Func___0_System_Object___System_Linq_Expressions_Expression_System_Func___1_System_Object___System_String_" data-uid="Startitecture.Orm.Model.EntitySelection`1.LeftJoin``2(System.Linq.Expressions.Expression{System.Func{``0,System.Object}},System.Linq.Expressions.Expression{System.Func{``1,System.Object}},System.String)">LeftJoin&lt;TSource, TRelation&gt;(Expression&lt;Func&lt;TSource, Object&gt;&gt;, Expression&lt;Func&lt;TRelation, Object&gt;&gt;, String)</h4>
@@ -1821,7 +1822,7 @@ JOIN member.</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySelection.cs&amp;version=GBmaster&amp;line=1018">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySelection.cs&amp;version=GBmaster&amp;line=1080">View Source</a>
   </span>
   <a id="Startitecture_Orm_Model_EntitySelection_1_LeftJoin_" data-uid="Startitecture.Orm.Model.EntitySelection`1.LeftJoin*"></a>
   <h4 id="Startitecture_Orm_Model_EntitySelection_1_LeftJoin__2_System_Linq_Expressions_Expression_System_Func___0_System_Object___System_String_System_Linq_Expressions_Expression_System_Func___1_System_Object___System_String_" data-uid="Startitecture.Orm.Model.EntitySelection`1.LeftJoin``2(System.Linq.Expressions.Expression{System.Func{``0,System.Object}},System.String,System.Linq.Expressions.Expression{System.Func{``1,System.Object}},System.String)">LeftJoin&lt;TSource, TRelation&gt;(Expression&lt;Func&lt;TSource, Object&gt;&gt;, String, Expression&lt;Func&lt;TRelation, Object&gt;&gt;, String)</h4>
@@ -1908,7 +1909,7 @@ JOIN member.</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySelection.cs&amp;version=GBmaster&amp;line=430">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySelection.cs&amp;version=GBmaster&amp;line=492">View Source</a>
   </span>
   <a id="Startitecture_Orm_Model_EntitySelection_1_LessThan_" data-uid="Startitecture.Orm.Model.EntitySelection`1.LessThan*"></a>
   <h4 id="Startitecture_Orm_Model_EntitySelection_1_LessThan__1_System_Linq_Expressions_Expression_System_Func__0___0_____0_" data-uid="Startitecture.Orm.Model.EntitySelection`1.LessThan``1(System.Linq.Expressions.Expression{System.Func{`0,``0}},``0)">LessThan&lt;TValue&gt;(Expression&lt;Func&lt;T, TValue&gt;&gt;, TValue)</h4>
@@ -1993,7 +1994,7 @@ JOIN member.</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySelection.cs&amp;version=GBmaster&amp;line=459">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySelection.cs&amp;version=GBmaster&amp;line=521">View Source</a>
   </span>
   <a id="Startitecture_Orm_Model_EntitySelection_1_LessThanOrEqualTo_" data-uid="Startitecture.Orm.Model.EntitySelection`1.LessThanOrEqualTo*"></a>
   <h4 id="Startitecture_Orm_Model_EntitySelection_1_LessThanOrEqualTo__1_System_Linq_Expressions_Expression_System_Func__0___0_____0_" data-uid="Startitecture.Orm.Model.EntitySelection`1.LessThanOrEqualTo``1(System.Linq.Expressions.Expression{System.Func{`0,``0}},``0)">LessThanOrEqualTo&lt;TValue&gt;(Expression&lt;Func&lt;T, TValue&gt;&gt;, TValue)</h4>
@@ -2078,7 +2079,7 @@ JOIN member.</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySelection.cs&amp;version=GBmaster&amp;line=1101">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySelection.cs&amp;version=GBmaster&amp;line=1163">View Source</a>
   </span>
   <a id="Startitecture_Orm_Model_EntitySelection_1_MapTo_" data-uid="Startitecture.Orm.Model.EntitySelection`1.MapTo*"></a>
   <h4 id="Startitecture_Orm_Model_EntitySelection_1_MapTo__1" data-uid="Startitecture.Orm.Model.EntitySelection`1.MapTo``1">MapTo&lt;TDestEntity&gt;()</h4>
@@ -2124,7 +2125,7 @@ JOIN member.</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySelection.cs&amp;version=GBmaster&amp;line=277">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySelection.cs&amp;version=GBmaster&amp;line=339">View Source</a>
   </span>
   <a id="Startitecture_Orm_Model_EntitySelection_1_Matching_" data-uid="Startitecture.Orm.Model.EntitySelection`1.Matching*"></a>
   <h4 id="Startitecture_Orm_Model_EntitySelection_1_Matching__0_System_Linq_Expressions_Expression_System_Func__0_System_Object_____" data-uid="Startitecture.Orm.Model.EntitySelection`1.Matching(`0,System.Linq.Expressions.Expression{System.Func{`0,System.Object}}[])">Matching(T, Expression&lt;Func&lt;T, Object&gt;&gt;[])</h4>
@@ -2177,7 +2178,63 @@ JOIN member.</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySelection.cs&amp;version=GBmaster&amp;line=240">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySelection.cs&amp;version=GBmaster&amp;line=284">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Model_EntitySelection_1_MatchKey_" data-uid="Startitecture.Orm.Model.EntitySelection`1.MatchKey*"></a>
+  <h4 id="Startitecture_Orm_Model_EntitySelection_1_MatchKey__0_Startitecture_Orm_Model_IEntityDefinitionProvider_" data-uid="Startitecture.Orm.Model.EntitySelection`1.MatchKey(`0,Startitecture.Orm.Model.IEntityDefinitionProvider)">MatchKey(T, IEntityDefinitionProvider)</h4>
+  <div class="markdown level1 summary"><p>Matches the primary key of the specified <code data-dev-comment-type="paramref" class="paramref">entity</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EntitySelection&lt;T&gt; MatchKey([NotNull] T entity, [NotNull] IEntityDefinitionProvider definitionProvider)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">entity</span></td>
+        <td><p>The entity to match the key for.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Model.IEntityDefinitionProvider.html">IEntityDefinitionProvider</a></td>
+        <td><span class="parametername">definitionProvider</span></td>
+        <td><p>The definition provider for the entity.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Model.EntitySelection-1.html">EntitySelection</a>&lt;T&gt;</td>
+        <td><p>The current <a class="xref" href="Startitecture.Orm.Model.EntitySelection-1.html">EntitySelection&lt;T&gt;</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Startitecture_Orm_Model_EntitySelection_1_MatchKey__0_Startitecture_Orm_Model_IEntityDefinitionProvider__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This operation will clear any existing filters.</p>
+</div>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySelection.cs&amp;version=GBmaster&amp;line=244">View Source</a>
   </span>
   <a id="Startitecture_Orm_Model_EntitySelection_1_OrderBy_" data-uid="Startitecture.Orm.Model.EntitySelection`1.OrderBy*"></a>
   <h4 id="Startitecture_Orm_Model_EntitySelection_1_OrderBy_System_Linq_Expressions_Expression_System_Func__0_System_Object___" data-uid="Startitecture.Orm.Model.EntitySelection`1.OrderBy(System.Linq.Expressions.Expression{System.Func{`0,System.Object}})">OrderBy(Expression&lt;Func&lt;T, Object&gt;&gt;)</h4>
@@ -2224,7 +2281,7 @@ JOIN member.</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySelection.cs&amp;version=GBmaster&amp;line=255">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySelection.cs&amp;version=GBmaster&amp;line=259">View Source</a>
   </span>
   <a id="Startitecture_Orm_Model_EntitySelection_1_OrderByDescending_" data-uid="Startitecture.Orm.Model.EntitySelection`1.OrderByDescending*"></a>
   <h4 id="Startitecture_Orm_Model_EntitySelection_1_OrderByDescending_System_Linq_Expressions_Expression_System_Func__0_System_Object___" data-uid="Startitecture.Orm.Model.EntitySelection`1.OrderByDescending(System.Linq.Expressions.Expression{System.Func{`0,System.Object}})">OrderByDescending(Expression&lt;Func&lt;T, Object&gt;&gt;)</h4>
@@ -2271,7 +2328,7 @@ JOIN member.</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySelection.cs&amp;version=GBmaster&amp;line=175">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySelection.cs&amp;version=GBmaster&amp;line=179">View Source</a>
   </span>
   <a id="Startitecture_Orm_Model_EntitySelection_1_Select_" data-uid="Startitecture.Orm.Model.EntitySelection`1.Select*"></a>
   <h4 id="Startitecture_Orm_Model_EntitySelection_1_Select_System_Linq_Expressions_Expression_System_Func__0_System_Object_____" data-uid="Startitecture.Orm.Model.EntitySelection`1.Select(System.Linq.Expressions.Expression{System.Func{`0,System.Object}}[])">Select(Expression&lt;Func&lt;T, Object&gt;&gt;[])</h4>
@@ -2318,7 +2375,7 @@ JOIN member.</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySelection.cs&amp;version=GBmaster&amp;line=210">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySelection.cs&amp;version=GBmaster&amp;line=214">View Source</a>
   </span>
   <a id="Startitecture_Orm_Model_EntitySelection_1_Skip_" data-uid="Startitecture.Orm.Model.EntitySelection`1.Skip*"></a>
   <h4 id="Startitecture_Orm_Model_EntitySelection_1_Skip_System_Int32_" data-uid="Startitecture.Orm.Model.EntitySelection`1.Skip(System.Int32)">Skip(Int32)</h4>
@@ -2365,7 +2422,7 @@ JOIN member.</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySelection.cs&amp;version=GBmaster&amp;line=225">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySelection.cs&amp;version=GBmaster&amp;line=229">View Source</a>
   </span>
   <a id="Startitecture_Orm_Model_EntitySelection_1_Take_" data-uid="Startitecture.Orm.Model.EntitySelection`1.Take*"></a>
   <h4 id="Startitecture_Orm_Model_EntitySelection_1_Take_System_Int32_" data-uid="Startitecture.Orm.Model.EntitySelection`1.Take(System.Int32)">Take(Int32)</h4>
@@ -2412,7 +2469,7 @@ JOIN member.</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySelection.cs&amp;version=GBmaster&amp;line=1128">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySelection.cs&amp;version=GBmaster&amp;line=1190">View Source</a>
   </span>
   <a id="Startitecture_Orm_Model_EntitySelection_1_ToString_" data-uid="Startitecture.Orm.Model.EntitySelection`1.ToString*"></a>
   <h4 id="Startitecture_Orm_Model_EntitySelection_1_ToString" data-uid="Startitecture.Orm.Model.EntitySelection`1.ToString">ToString()</h4>
@@ -2443,7 +2500,7 @@ JOIN member.</p>
   <div><span class="xref">System.Object.ToString()</span></div>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySelection.cs&amp;version=GBmaster&amp;line=1054">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySelection.cs&amp;version=GBmaster&amp;line=1116">View Source</a>
   </span>
   <a id="Startitecture_Orm_Model_EntitySelection_1_Union_" data-uid="Startitecture.Orm.Model.EntitySelection`1.Union*"></a>
   <h4 id="Startitecture_Orm_Model_EntitySelection_1_Union_Startitecture_Orm_Model_EntitySelection__0__" data-uid="Startitecture.Orm.Model.EntitySelection`1.Union(Startitecture.Orm.Model.EntitySelection{`0})">Union(EntitySelection&lt;T&gt;)</h4>
@@ -2490,7 +2547,7 @@ JOIN member.</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySelection.cs&amp;version=GBmaster&amp;line=316">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySelection.cs&amp;version=GBmaster&amp;line=378">View Source</a>
   </span>
   <a id="Startitecture_Orm_Model_EntitySelection_1_WhereEqual_" data-uid="Startitecture.Orm.Model.EntitySelection`1.WhereEqual*"></a>
   <h4 id="Startitecture_Orm_Model_EntitySelection_1_WhereEqual__1_System_Linq_Expressions_Expression_System_Func__0___0_____0_" data-uid="Startitecture.Orm.Model.EntitySelection`1.WhereEqual``1(System.Linq.Expressions.Expression{System.Func{`0,``0}},``0)">WhereEqual&lt;TValue&gt;(Expression&lt;Func&lt;T, TValue&gt;&gt;, TValue)</h4>
@@ -2575,7 +2632,7 @@ JOIN member.</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySelection.cs&amp;version=GBmaster&amp;line=339">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySelection.cs&amp;version=GBmaster&amp;line=401">View Source</a>
   </span>
   <a id="Startitecture_Orm_Model_EntitySelection_1_WhereEqual_" data-uid="Startitecture.Orm.Model.EntitySelection`1.WhereEqual*"></a>
   <h4 id="Startitecture_Orm_Model_EntitySelection_1_WhereEqual__1_System_Linq_Expressions_LambdaExpression___0_" data-uid="Startitecture.Orm.Model.EntitySelection`1.WhereEqual``1(System.Linq.Expressions.LambdaExpression,``0)">WhereEqual&lt;TValue&gt;(LambdaExpression, TValue)</h4>
@@ -2660,16 +2717,16 @@ JOIN member.</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySelection.cs&amp;version=GBmaster&amp;line=142">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySelection.cs&amp;version=GBmaster&amp;line=143">View Source</a>
   </span>
   <a id="Startitecture_Orm_Model_EntitySelection_1_WithAs_" data-uid="Startitecture.Orm.Model.EntitySelection`1.WithAs*"></a>
-  <h4 id="Startitecture_Orm_Model_EntitySelection_1_WithAs__1_Startitecture_Orm_Model_EntitySelection___0__System_String_Startitecture_Orm_Model_EntityRelationSet___0__" data-uid="Startitecture.Orm.Model.EntitySelection`1.WithAs``1(Startitecture.Orm.Model.EntitySelection{``0},System.String,Startitecture.Orm.Model.EntityRelationSet{``0})">WithAs&lt;TExpression&gt;(EntitySelection&lt;TExpression&gt;, String, EntityRelationSet&lt;TExpression&gt;)</h4>
+  <h4 id="Startitecture_Orm_Model_EntitySelection_1_WithAs__1_Startitecture_Orm_Model_EntitySelection___0__System_String_System_Action_Startitecture_Orm_Model_EntityRelationSet___0___" data-uid="Startitecture.Orm.Model.EntitySelection`1.WithAs``1(Startitecture.Orm.Model.EntitySelection{``0},System.String,System.Action{Startitecture.Orm.Model.EntityRelationSet{``0}})">WithAs&lt;TExpression&gt;(EntitySelection&lt;TExpression&gt;, String, Action&lt;EntityRelationSet&lt;TExpression&gt;&gt;)</h4>
   <div class="markdown level1 summary"><p>Creates a table expression for this selection.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public EntitySelection&lt;T&gt; WithAs&lt;TExpression&gt;([NotNull] EntitySelection&lt;TExpression&gt; tableExpression, [NotNull] string tableName, [NotNull] EntityRelationSet&lt;TExpression&gt; tableRelationSet)</code></pre>
+    <pre><code class="lang-csharp hljs">public EntitySelection&lt;T&gt; WithAs&lt;TExpression&gt;([NotNull] EntitySelection&lt;TExpression&gt; tableExpression, [NotNull] string tableName, [NotNull] Action&lt;EntityRelationSet&lt;TExpression&gt;&gt; tableRelationSet)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2694,7 +2751,7 @@ JOIN member.</p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="Startitecture.Orm.Model.EntityRelationSet-1.html">EntityRelationSet</a>&lt;TExpression&gt;</td>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="Startitecture.Orm.Model.EntityRelationSet-1.html">EntityRelationSet</a>&lt;TExpression&gt;&gt;</td>
         <td><span class="parametername">tableRelationSet</span></td>
         <td><p>The set of relations between the table expression and this selection.</p>
 </td>
@@ -2758,18 +2815,12 @@ JOIN member.</p>
   <div>
       <a class="xref" href="Startitecture.Orm.Model.ISelection.html">ISelection</a>
   </div>
+  <div>
+      <a class="xref" href="Startitecture.Orm.Model.IEntitySet.html">IEntitySet</a>
+  </div>
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>
       <a class="xref" href="Startitecture.Orm.Testing.Moq.ExtensionMethods.html#Startitecture_Orm_Testing_Moq_ExtensionMethods_MockDataReader__1___0_System_Collections_Generic_IEnumerable_Startitecture_Orm_Model_EntityAttributeDefinition__">ExtensionMethods.MockDataReader&lt;T&gt;(T, IEnumerable&lt;EntityAttributeDefinition&gt;)</a>
-  </div>
-  <div>
-      <a class="xref" href="Startitecture.Orm.Model.ExtensionMethods.html#Startitecture_Orm_Model_ExtensionMethods_AsSelect__1_Startitecture_Orm_Model_EntitySelection___0__Startitecture_Orm_Model_IEntityDefinition_">ExtensionMethods.AsSelect&lt;TItem&gt;(EntitySelection&lt;TItem&gt;, IEntityDefinition)</a>
-  </div>
-  <div>
-      <a class="xref" href="Startitecture.Orm.Model.ExtensionMethods.html#Startitecture_Orm_Model_ExtensionMethods_AsContains__1_Startitecture_Orm_Model_EntitySelection___0__Startitecture_Orm_Model_IEntityDefinition_">ExtensionMethods.AsContains&lt;TItem&gt;(EntitySelection&lt;TItem&gt;, IEntityDefinition)</a>
-  </div>
-  <div>
-      <a class="xref" href="Startitecture.Orm.Model.ExtensionMethods.html#Startitecture_Orm_Model_ExtensionMethods_AsDelete__1_Startitecture_Orm_Model_EntitySelection___0__Startitecture_Orm_Model_IEntityDefinition_">ExtensionMethods.AsDelete&lt;TItem&gt;(EntitySelection&lt;TItem&gt;, IEntityDefinition)</a>
   </div>
 </article>
           </div>
@@ -2779,7 +2830,7 @@ JOIN member.</p>
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySelection.cs&amp;version=GBmaster&amp;line=28" class="contribution-link">View Source</a>
+                    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySelection.cs&amp;version=GBmaster&amp;line=29" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

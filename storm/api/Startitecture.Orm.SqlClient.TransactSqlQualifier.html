@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class TransactSqlQualifier
    ">
-    <meta name="generator" content="docfx 2.56.1.0">
+    <meta name="generator" content="docfx 2.56.2.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -182,7 +182,7 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.SqlClient/TransactSqlQualifier.cs&amp;version=GBmaster&amp;line=48">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.SqlClient/TransactSqlQualifier.cs&amp;version=GBmaster&amp;line=50">View Source</a>
   </span>
   <a id="Startitecture_Orm_SqlClient_TransactSqlQualifier_GetCanonicalName_" data-uid="Startitecture.Orm.SqlClient.TransactSqlQualifier.GetCanonicalName*"></a>
   <h4 id="Startitecture_Orm_SqlClient_TransactSqlQualifier_GetCanonicalName_Startitecture_Orm_Model_EntityAttributeDefinition_" data-uid="Startitecture.Orm.SqlClient.TransactSqlQualifier.GetCanonicalName(Startitecture.Orm.Model.EntityAttributeDefinition)">GetCanonicalName(EntityAttributeDefinition)</h4>
@@ -229,16 +229,16 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.SqlClient/TransactSqlQualifier.cs&amp;version=GBmaster&amp;line=54">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.SqlClient/TransactSqlQualifier.cs&amp;version=GBmaster&amp;line=56">View Source</a>
   </span>
-  <a id="Startitecture_Orm_SqlClient_TransactSqlQualifier_GetCanonicalName_" data-uid="Startitecture.Orm.SqlClient.TransactSqlQualifier.GetCanonicalName*"></a>
-  <h4 id="Startitecture_Orm_SqlClient_TransactSqlQualifier_GetCanonicalName_Startitecture_Orm_Model_EntityLocation_" data-uid="Startitecture.Orm.SqlClient.TransactSqlQualifier.GetCanonicalName(Startitecture.Orm.Model.EntityLocation)">GetCanonicalName(EntityLocation)</h4>
-  <div class="markdown level1 summary"><p>Gets the canonical name for the <code data-dev-comment-type="paramref" class="paramref">location</code>.</p>
+  <a id="Startitecture_Orm_SqlClient_TransactSqlQualifier_GetPhysicalName_" data-uid="Startitecture.Orm.SqlClient.TransactSqlQualifier.GetPhysicalName*"></a>
+  <h4 id="Startitecture_Orm_SqlClient_TransactSqlQualifier_GetPhysicalName_Startitecture_Orm_Model_EntityLocation_" data-uid="Startitecture.Orm.SqlClient.TransactSqlQualifier.GetPhysicalName(Startitecture.Orm.Model.EntityLocation)">GetPhysicalName(EntityLocation)</h4>
+  <div class="markdown level1 summary"><p>Gets the physical name of the <code data-dev-comment-type="paramref" class="paramref">location</code>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string GetCanonicalName(EntityLocation location)</code></pre>
+    <pre><code class="lang-csharp hljs">public string GetPhysicalName(EntityLocation location)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -253,7 +253,7 @@
       <tr>
         <td><a class="xref" href="Startitecture.Orm.Model.EntityLocation.html">EntityLocation</a></td>
         <td><span class="parametername">location</span></td>
-        <td><p>The location.</p>
+        <td><p>The location to get the physical reference for.</p>
 </td>
       </tr>
     </tbody>
@@ -269,11 +269,61 @@
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td><p>The <span class="xref">System.String</span> representation for the <code data-dev-comment-type="paramref" class="paramref">location</code>.</p>
+        <td><p>The <span class="xref">System.String</span> representation for the entity's physical <code data-dev-comment-type="paramref" class="paramref">location</code>.</p>
 </td>
       </tr>
     </tbody>
   </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.SqlClient/TransactSqlQualifier.cs&amp;version=GBmaster&amp;line=44">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_SqlClient_TransactSqlQualifier_GetReferenceName_" data-uid="Startitecture.Orm.SqlClient.TransactSqlQualifier.GetReferenceName*"></a>
+  <h4 id="Startitecture_Orm_SqlClient_TransactSqlQualifier_GetReferenceName_Startitecture_Orm_Model_EntityAttributeDefinition_" data-uid="Startitecture.Orm.SqlClient.TransactSqlQualifier.GetReferenceName(Startitecture.Orm.Model.EntityAttributeDefinition)">GetReferenceName(EntityAttributeDefinition)</h4>
+  <div class="markdown level1 summary"><p>Gets the reference name for the <code data-dev-comment-type="paramref" class="paramref">attribute</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string GetReferenceName(EntityAttributeDefinition attribute)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Model.EntityAttributeDefinition.html">EntityAttributeDefinition</a></td>
+        <td><span class="parametername">attribute</span></td>
+        <td><p>The attribute to get the reference for.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The full reference path to the attribute as a <span class="xref">System.String</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Startitecture_Orm_SqlClient_TransactSqlQualifier_GetReferenceName_Startitecture_Orm_Model_EntityAttributeDefinition__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>The reference name includes the alias of the entity but not the alias of the attribute.</p>
+</div>
   
   <span class="small pull-right mobile-hide">
     <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.SqlClient/TransactSqlQualifier.cs&amp;version=GBmaster&amp;line=32">View Source</a>

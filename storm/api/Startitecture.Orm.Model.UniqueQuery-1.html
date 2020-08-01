@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class UniqueQuery&lt;TItem&gt;
    ">
-    <meta name="generator" content="docfx 2.56.1.0">
+    <meta name="generator" content="docfx 2.56.2.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -85,6 +85,7 @@
   <div classs="implements">
     <h5>Implements</h5>
     <div><a class="xref" href="Startitecture.Orm.Model.ISelection.html">ISelection</a></div>
+    <div><a class="xref" href="Startitecture.Orm.Model.IEntitySet.html">IEntitySet</a></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -116,7 +117,7 @@
       <a class="xref" href="Startitecture.Orm.Model.EntitySelection-1.html#Startitecture_Orm_Model_EntitySelection_1_Page">EntitySelection&lt;TItem&gt;.Page</a>
     </div>
     <div>
-      <a class="xref" href="Startitecture.Orm.Model.EntitySelection-1.html#Startitecture_Orm_Model_EntitySelection_1_WithAs__1_Startitecture_Orm_Model_EntitySelection___0__System_String_Startitecture_Orm_Model_EntityRelationSet___0__">EntitySelection&lt;TItem&gt;.WithAs&lt;TExpression&gt;(EntitySelection&lt;TExpression&gt;, String, EntityRelationSet&lt;TExpression&gt;)</a>
+      <a class="xref" href="Startitecture.Orm.Model.EntitySelection-1.html#Startitecture_Orm_Model_EntitySelection_1_WithAs__1_Startitecture_Orm_Model_EntitySelection___0__System_String_System_Action_Startitecture_Orm_Model_EntityRelationSet___0___">EntitySelection&lt;TItem&gt;.WithAs&lt;TExpression&gt;(EntitySelection&lt;TExpression&gt;, String, Action&lt;EntityRelationSet&lt;TExpression&gt;&gt;)</a>
     </div>
     <div>
       <a class="xref" href="Startitecture.Orm.Model.EntitySelection-1.html#Startitecture_Orm_Model_EntitySelection_1_Select_System_Linq_Expressions_Expression_System_Func__0_System_Object_____">EntitySelection&lt;TItem&gt;.Select(Expression&lt;Func&lt;TItem, Object&gt;&gt;[])</a>
@@ -135,6 +136,9 @@
     </div>
     <div>
       <a class="xref" href="Startitecture.Orm.Model.EntitySelection-1.html#Startitecture_Orm_Model_EntitySelection_1_OrderByDescending_System_Linq_Expressions_Expression_System_Func__0_System_Object___">EntitySelection&lt;TItem&gt;.OrderByDescending(Expression&lt;Func&lt;TItem, Object&gt;&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="Startitecture.Orm.Model.EntitySelection-1.html#Startitecture_Orm_Model_EntitySelection_1_MatchKey__0_Startitecture_Orm_Model_IEntityDefinitionProvider_">EntitySelection&lt;TItem&gt;.MatchKey(TItem, IEntityDefinitionProvider)</a>
     </div>
     <div>
       <a class="xref" href="Startitecture.Orm.Model.EntitySelection-1.html#Startitecture_Orm_Model_EntitySelection_1_Matching__0_System_Linq_Expressions_Expression_System_Func__0_System_Object_____">EntitySelection&lt;TItem&gt;.Matching(TItem, Expression&lt;Func&lt;TItem, Object&gt;&gt;[])</a>
@@ -246,7 +250,7 @@
   <h6><strong>Assembly</strong>: Startitecture.Orm.Model.dll</h6>
   <h5 id="Startitecture_Orm_Model_UniqueQuery_1_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class UniqueQuery&lt;TItem&gt; : EntitySelection&lt;TItem&gt;, ISelection</code></pre>
+    <pre><code class="lang-csharp hljs">public class UniqueQuery&lt;TItem&gt; : EntitySelection&lt;TItem&gt;, ISelection, IEntitySet</code></pre>
   </div>
   <h5 class="typeParameters">Type Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -307,18 +311,12 @@
   <div>
       <a class="xref" href="Startitecture.Orm.Model.ISelection.html">ISelection</a>
   </div>
+  <div>
+      <a class="xref" href="Startitecture.Orm.Model.IEntitySet.html">IEntitySet</a>
+  </div>
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>
       <a class="xref" href="Startitecture.Orm.Testing.Moq.ExtensionMethods.html#Startitecture_Orm_Testing_Moq_ExtensionMethods_MockDataReader__1___0_System_Collections_Generic_IEnumerable_Startitecture_Orm_Model_EntityAttributeDefinition__">ExtensionMethods.MockDataReader&lt;T&gt;(T, IEnumerable&lt;EntityAttributeDefinition&gt;)</a>
-  </div>
-  <div>
-      <a class="xref" href="Startitecture.Orm.Model.ExtensionMethods.html#Startitecture_Orm_Model_ExtensionMethods_AsSelect__1_Startitecture_Orm_Model_EntitySelection___0__Startitecture_Orm_Model_IEntityDefinition_">ExtensionMethods.AsSelect&lt;TItem&gt;(EntitySelection&lt;TItem&gt;, IEntityDefinition)</a>
-  </div>
-  <div>
-      <a class="xref" href="Startitecture.Orm.Model.ExtensionMethods.html#Startitecture_Orm_Model_ExtensionMethods_AsContains__1_Startitecture_Orm_Model_EntitySelection___0__Startitecture_Orm_Model_IEntityDefinition_">ExtensionMethods.AsContains&lt;TItem&gt;(EntitySelection&lt;TItem&gt;, IEntityDefinition)</a>
-  </div>
-  <div>
-      <a class="xref" href="Startitecture.Orm.Model.ExtensionMethods.html#Startitecture_Orm_Model_ExtensionMethods_AsDelete__1_Startitecture_Orm_Model_EntitySelection___0__Startitecture_Orm_Model_IEntityDefinition_">ExtensionMethods.AsDelete&lt;TItem&gt;(EntitySelection&lt;TItem&gt;, IEntityDefinition)</a>
   </div>
 </article>
           </div>

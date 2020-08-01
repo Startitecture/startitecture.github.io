@@ -1,0 +1,591 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class UpdateSet&lt;T&gt;
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class UpdateSet&lt;T&gt;
+   ">
+    <meta name="generator" content="docfx 2.56.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Startitecture.Orm.Model.UpdateSet`1">
+  
+  
+  <h1 id="Startitecture_Orm_Model_UpdateSet_1" data-uid="Startitecture.Orm.Model.UpdateSet`1" class="text-break">Class UpdateSet&lt;T&gt;
+  </h1>
+  <div class="markdown level0 summary"><p>Represents an update set specification for an entity.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">UpdateSet&lt;T&gt;</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="Startitecture.Orm.Model.IUpdateSet.html">IUpdateSet</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Startitecture.Orm.Model.html">Startitecture.Orm.Model</a></h6>
+  <h6><strong>Assembly</strong>: Startitecture.Orm.Model.dll</h6>
+  <h5 id="Startitecture_Orm_Model_UpdateSet_1_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class UpdateSet&lt;T&gt; : IUpdateSet</code></pre>
+  </div>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of entity to update.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/UpdateSet.cs&amp;version=GBmaster&amp;line=45">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Model_UpdateSet_1_AttributesToSet_" data-uid="Startitecture.Orm.Model.UpdateSet`1.AttributesToSet*"></a>
+  <h4 id="Startitecture_Orm_Model_UpdateSet_1_AttributesToSet" data-uid="Startitecture.Orm.Model.UpdateSet`1.AttributesToSet">AttributesToSet</h4>
+  <div class="markdown level1 summary"><p>Gets the entity attributes to set.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;ValueState&gt; AttributesToSet { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Startitecture.Orm.Model.ValueState.html">ValueState</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/UpdateSet.cs&amp;version=GBmaster&amp;line=50">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Model_UpdateSet_1_EntityType_" data-uid="Startitecture.Orm.Model.UpdateSet`1.EntityType*"></a>
+  <h4 id="Startitecture_Orm_Model_UpdateSet_1_EntityType" data-uid="Startitecture.Orm.Model.UpdateSet`1.EntityType">EntityType</h4>
+  <div class="markdown level1 summary"><p>Gets the type of entity to update.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Type EntityType { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Type</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/UpdateSet.cs&amp;version=GBmaster&amp;line=97">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Model_UpdateSet_1_Filters_" data-uid="Startitecture.Orm.Model.UpdateSet`1.Filters*"></a>
+  <h4 id="Startitecture_Orm_Model_UpdateSet_1_Filters" data-uid="Startitecture.Orm.Model.UpdateSet`1.Filters">Filters</h4>
+  <div class="markdown level1 summary"><p>The filters.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;ValueFilter&gt; Filters { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Startitecture.Orm.Model.ValueFilter.html">ValueFilter</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/UpdateSet.cs&amp;version=GBmaster&amp;line=55">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Model_UpdateSet_1_ParentExpression_" data-uid="Startitecture.Orm.Model.UpdateSet`1.ParentExpression*"></a>
+  <h4 id="Startitecture_Orm_Model_UpdateSet_1_ParentExpression" data-uid="Startitecture.Orm.Model.UpdateSet`1.ParentExpression">ParentExpression</h4>
+  <div class="markdown level1 summary"><p>Gets the parent expression.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EntityExpression ParentExpression { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Model.EntityExpression.html">EntityExpression</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/UpdateSet.cs&amp;version=GBmaster&amp;line=65">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Model_UpdateSet_1_PropertyValues_" data-uid="Startitecture.Orm.Model.UpdateSet`1.PropertyValues*"></a>
+  <h4 id="Startitecture_Orm_Model_UpdateSet_1_PropertyValues" data-uid="Startitecture.Orm.Model.UpdateSet`1.PropertyValues">PropertyValues</h4>
+  <div class="markdown level1 summary"><p>Gets the property values.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;object&gt; PropertyValues { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Object</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/UpdateSet.cs&amp;version=GBmaster&amp;line=60">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Model_UpdateSet_1_Relations_" data-uid="Startitecture.Orm.Model.UpdateSet`1.Relations*"></a>
+  <h4 id="Startitecture_Orm_Model_UpdateSet_1_Relations" data-uid="Startitecture.Orm.Model.UpdateSet`1.Relations">Relations</h4>
+  <div class="markdown level1 summary"><p>The relations.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;IEntityRelation&gt; Relations { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Startitecture.Orm.Model.IEntityRelation.html">IEntityRelation</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/UpdateSet.cs&amp;version=GBmaster&amp;line=115">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Model_UpdateSet_1_Set_" data-uid="Startitecture.Orm.Model.UpdateSet`1.Set*"></a>
+  <h4 id="Startitecture_Orm_Model_UpdateSet_1_Set__0_Startitecture_Orm_Model_IEntityDefinitionProvider_" data-uid="Startitecture.Orm.Model.UpdateSet`1.Set(`0,Startitecture.Orm.Model.IEntityDefinitionProvider)">Set(T, IEntityDefinitionProvider)</h4>
+  <div class="markdown level1 summary"><p>Sets all updateable values for the update set.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UpdateSet&lt;T&gt; Set([NotNull] T entity, [NotNull] IEntityDefinitionProvider definitionProvider)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">entity</span></td>
+        <td><p>Get
+The entity containing the target values.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Model.IEntityDefinitionProvider.html">IEntityDefinitionProvider</a></td>
+        <td><span class="parametername">definitionProvider</span></td>
+        <td><p>The definition provider for the target repository.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Model.UpdateSet-1.html">UpdateSet</a>&lt;T&gt;</td>
+        <td><p>The current <a class="xref" href="Startitecture.Orm.Model.UpdateSet-1.html">UpdateSet&lt;T&gt;</a> with all updateable attribute values set.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">entity</code> or <code data-dev-comment-type="paramref" class="paramref">definitionProvider</code> is null.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/UpdateSet.cs&amp;version=GBmaster&amp;line=153">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Model_UpdateSet_1_Set_" data-uid="Startitecture.Orm.Model.UpdateSet`1.Set*"></a>
+  <h4 id="Startitecture_Orm_Model_UpdateSet_1_Set__0_System_Linq_Expressions_Expression_System_Func__0_System_Object_____" data-uid="Startitecture.Orm.Model.UpdateSet`1.Set(`0,System.Linq.Expressions.Expression{System.Func{`0,System.Object}}[])">Set(T, Expression&lt;Func&lt;T, Object&gt;&gt;[])</h4>
+  <div class="markdown level1 summary"><p>Sets the values to update as part of the operation. This clears any existing values.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UpdateSet&lt;T&gt; Set([NotNull] T entity, [NotNull] params Expression&lt;Func&lt;T, object&gt;&gt;[] attributes)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">entity</span></td>
+        <td><p>The entity containing the target values.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Linq.Expressions.Expression</span>&lt;<span class="xref">System.Func</span>&lt;T, <span class="xref">System.Object</span>&gt;&gt;[]</td>
+        <td><span class="parametername">attributes</span></td>
+        <td><p>The attributes to update.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Model.UpdateSet-1.html">UpdateSet</a>&lt;T&gt;</td>
+        <td><p>The current <a class="xref" href="Startitecture.Orm.Model.UpdateSet-1.html">UpdateSet&lt;T&gt;</a> with the specified update values set.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/UpdateSet.cs&amp;version=GBmaster&amp;line=190">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Model_UpdateSet_1_Set_" data-uid="Startitecture.Orm.Model.UpdateSet`1.Set*"></a>
+  <h4 id="Startitecture_Orm_Model_UpdateSet_1_Set__1_System_Linq_Expressions_Expression_System_Func__0___0_____0_" data-uid="Startitecture.Orm.Model.UpdateSet`1.Set``1(System.Linq.Expressions.Expression{System.Func{`0,``0}},``0)">Set&lt;TValue&gt;(Expression&lt;Func&lt;T, TValue&gt;&gt;, TValue)</h4>
+  <div class="markdown level1 summary"><p>Sets the values to update as part of the operation. This clears any existing values.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UpdateSet&lt;T&gt; Set&lt;TValue&gt;([NotNull] Expression&lt;Func&lt;T, TValue&gt;&gt; attribute, TValue value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Linq.Expressions.Expression</span>&lt;<span class="xref">System.Func</span>&lt;T, TValue&gt;&gt;</td>
+        <td><span class="parametername">attribute</span></td>
+        <td><p>The attribute to set.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">TValue</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value to set the attribute to.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Model.UpdateSet-1.html">UpdateSet</a>&lt;T&gt;</td>
+        <td><p>The current <a class="xref" href="Startitecture.Orm.Model.UpdateSet-1.html">UpdateSet&lt;T&gt;</a> with the specified attribute update value set.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TValue</span></td>
+        <td><p>The type of value to set the attribute to.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/UpdateSet.cs&amp;version=GBmaster&amp;line=211">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Model_UpdateSet_1_Where_" data-uid="Startitecture.Orm.Model.UpdateSet`1.Where*"></a>
+  <h4 id="Startitecture_Orm_Model_UpdateSet_1_Where_Startitecture_Orm_Model_EntitySet__0__" data-uid="Startitecture.Orm.Model.UpdateSet`1.Where(Startitecture.Orm.Model.EntitySet{`0})">Where(EntitySet&lt;T&gt;)</h4>
+  <div class="markdown level1 summary"><p>Defines the entity set to update.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UpdateSet&lt;T&gt; Where([NotNull] EntitySet&lt;T&gt; set)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Model.EntitySet-1.html">EntitySet</a>&lt;T&gt;</td>
+        <td><span class="parametername">set</span></td>
+        <td><p>The entity set to update.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Model.UpdateSet-1.html">UpdateSet</a>&lt;T&gt;</td>
+        <td><p>The current <a class="xref" href="Startitecture.Orm.Model.UpdateSet-1.html">UpdateSet&lt;T&gt;</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="Startitecture.Orm.Model.IUpdateSet.html">IUpdateSet</a>
+  </div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="Startitecture.Orm.Testing.Moq.ExtensionMethods.html#Startitecture_Orm_Testing_Moq_ExtensionMethods_MockDataReader__1___0_System_Collections_Generic_IEnumerable_Startitecture_Orm_Model_EntityAttributeDefinition__">ExtensionMethods.MockDataReader&lt;T&gt;(T, IEnumerable&lt;EntityAttributeDefinition&gt;)</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/UpdateSet.cs&amp;version=GBmaster&amp;line=22" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

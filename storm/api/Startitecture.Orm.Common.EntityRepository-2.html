@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class EntityRepository&lt;TModel, TEntity&gt;
    ">
-    <meta name="generator" content="docfx 2.56.1.0">
+    <meta name="generator" content="docfx 2.56.2.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -99,7 +99,7 @@
       <a class="xref" href="Startitecture.Orm.Common.ReadOnlyRepository-2.html#Startitecture_Orm_Common_ReadOnlyRepository_2_Contains__1___0_">ReadOnlyRepository&lt;TModel, TEntity&gt;.Contains&lt;TItem&gt;(TItem)</a>
     </div>
     <div>
-      <a class="xref" href="Startitecture.Orm.Common.ReadOnlyRepository-2.html#Startitecture_Orm_Common_ReadOnlyRepository_2_Contains__1_Startitecture_Orm_Model_EntitySelection___0__">ReadOnlyRepository&lt;TModel, TEntity&gt;.Contains&lt;TItem&gt;(EntitySelection&lt;TItem&gt;)</a>
+      <a class="xref" href="Startitecture.Orm.Common.ReadOnlyRepository-2.html#Startitecture_Orm_Common_ReadOnlyRepository_2_Contains__1_Startitecture_Orm_Model_EntitySet___0__">ReadOnlyRepository&lt;TModel, TEntity&gt;.Contains&lt;TItem&gt;(EntitySet&lt;TItem&gt;)</a>
     </div>
     <div>
       <a class="xref" href="Startitecture.Orm.Common.ReadOnlyRepository-2.html#Startitecture_Orm_Common_ReadOnlyRepository_2_FirstOrDefault__1___0_">ReadOnlyRepository&lt;TModel, TEntity&gt;.FirstOrDefault&lt;TItem&gt;(TItem)</a>
@@ -108,10 +108,16 @@
       <a class="xref" href="Startitecture.Orm.Common.ReadOnlyRepository-2.html#Startitecture_Orm_Common_ReadOnlyRepository_2_FirstOrDefault__1_Startitecture_Orm_Model_EntitySelection___0__">ReadOnlyRepository&lt;TModel, TEntity&gt;.FirstOrDefault&lt;TItem&gt;(EntitySelection&lt;TItem&gt;)</a>
     </div>
     <div>
+      <a class="xref" href="Startitecture.Orm.Common.ReadOnlyRepository-2.html#Startitecture_Orm_Common_ReadOnlyRepository_2_DynamicFirstOrDefault__1_Startitecture_Orm_Model_EntitySelection___0__">ReadOnlyRepository&lt;TModel, TEntity&gt;.DynamicFirstOrDefault&lt;TItem&gt;(EntitySelection&lt;TItem&gt;)</a>
+    </div>
+    <div>
       <a class="xref" href="Startitecture.Orm.Common.ReadOnlyRepository-2.html#Startitecture_Orm_Common_ReadOnlyRepository_2_SelectAll">ReadOnlyRepository&lt;TModel, TEntity&gt;.SelectAll()</a>
     </div>
     <div>
-      <a class="xref" href="Startitecture.Orm.Common.ReadOnlyRepository-2.html#Startitecture_Orm_Common_ReadOnlyRepository_2_Select__1_Startitecture_Orm_Model_EntitySelection___0__">ReadOnlyRepository&lt;TModel, TEntity&gt;.Select&lt;TItem&gt;(EntitySelection&lt;TItem&gt;)</a>
+      <a class="xref" href="Startitecture.Orm.Common.ReadOnlyRepository-2.html#Startitecture_Orm_Common_ReadOnlyRepository_2_SelectEntities__1_Startitecture_Orm_Model_EntitySelection___0__">ReadOnlyRepository&lt;TModel, TEntity&gt;.SelectEntities&lt;TItem&gt;(EntitySelection&lt;TItem&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="Startitecture.Orm.Common.ReadOnlyRepository-2.html#Startitecture_Orm_Common_ReadOnlyRepository_2_DynamicSelect__1_Startitecture_Orm_Model_EntitySelection___0__">ReadOnlyRepository&lt;TModel, TEntity&gt;.DynamicSelect&lt;TItem&gt;(EntitySelection&lt;TItem&gt;)</a>
     </div>
     <div>
       <a class="xref" href="Startitecture.Orm.Common.ReadOnlyRepository-2.html#Startitecture_Orm_Common_ReadOnlyRepository_2_GetUniqueItemSelection__1_">ReadOnlyRepository&lt;TModel, TEntity&gt;.GetUniqueItemSelection(TEntity)</a>
@@ -172,7 +178,7 @@
     </tbody>
   </table>
   <h5 id="Startitecture_Orm_Common_EntityRepository_2_remarks"><strong>Remarks</strong></h5>
-  <div class="markdown level0 remarks"><p>Uses the default memory cache if no cache is specified, with a save policy that does not expire items and a select policy with
+  <div class="markdown level0 remarks"><p>Uses the default memory cache if no cache is specified, with a save policy that does not expire entities and a select policy with
 a sliding expiration of 30 seconds.</p>
 </div>
   <h3 id="constructors">Constructors
@@ -252,7 +258,7 @@ a sliding expiration of 30 seconds.</p>
       <tr>
         <td><span class="xref">System.Collections.Generic.IComparer</span>&lt;TEntity&gt;</td>
         <td><span class="parametername">selectionComparer</span></td>
-        <td><p>The selection comparer for ordering data items from the repository after being selected from the database.</p>
+        <td><p>The selection comparer for ordering data entities from the repository after being selected from the database.</p>
 </td>
       </tr>
     </tbody>
