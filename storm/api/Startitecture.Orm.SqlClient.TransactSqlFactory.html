@@ -79,7 +79,8 @@
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">TransactSqlFactory</span></div>
+    <div class="level1"><a class="xref" href="Startitecture.Orm.Common.StatementFactory.html">StatementFactory</a></div>
+    <div class="level2"><span class="xref">TransactSqlFactory</span></div>
   </div>
   <div classs="implements">
     <h5>Implements</h5>
@@ -87,6 +88,36 @@
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Startitecture.Orm.Common.StatementFactory.html#Startitecture_Orm_Common_StatementFactory_CreateExistsStatement_Startitecture_Orm_Model_IEntitySet_">StatementFactory.CreateExistsStatement(IEntitySet)</a>
+    </div>
+    <div>
+      <a class="xref" href="Startitecture.Orm.Common.StatementFactory.html#Startitecture_Orm_Common_StatementFactory_CreateSelectionStatement_Startitecture_Orm_Model_ISelection_">StatementFactory.CreateSelectionStatement(ISelection)</a>
+    </div>
+    <div>
+      <a class="xref" href="Startitecture.Orm.Common.StatementFactory.html#Startitecture_Orm_Common_StatementFactory_CreateUpdateStatement_Startitecture_Orm_Model_IUpdateSet_">StatementFactory.CreateUpdateStatement(IUpdateSet)</a>
+    </div>
+    <div>
+      <a class="xref" href="Startitecture.Orm.Common.StatementFactory.html#Startitecture_Orm_Common_StatementFactory_CreateDeletionStatement_Startitecture_Orm_Model_IEntitySet_">StatementFactory.CreateDeletionStatement(IEntitySet)</a>
+    </div>
+    <div>
+      <a class="xref" href="Startitecture.Orm.Common.StatementFactory.html#Startitecture_Orm_Common_StatementFactory_GetInclusionFilter_System_String_System_Int32_System_Collections_Generic_IEnumerable_System_Object__">StatementFactory.GetInclusionFilter(String, Int32, IEnumerable&lt;Object&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="Startitecture.Orm.Common.StatementFactory.html#Startitecture_Orm_Common_StatementFactory_GetExclusionFilter_System_String_System_Int32_System_Collections_Generic_IEnumerable_System_Object__">StatementFactory.GetExclusionFilter(String, Int32, IEnumerable&lt;Object&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="Startitecture.Orm.Common.StatementFactory.html#Startitecture_Orm_Common_StatementFactory_AddTokens_Startitecture_Orm_Model_FilterType_System_Object_System_Collections_Generic_ICollection_System_String__System_String_System_Collections_Generic_IReadOnlyCollection_System_Object__System_Int32_">StatementFactory.AddTokens(FilterType, Object, ICollection&lt;String&gt;, String, IReadOnlyCollection&lt;Object&gt;, Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="Startitecture.Orm.Common.StatementFactory.html#Startitecture_Orm_Common_StatementFactory_CreateSelectionStatement_Startitecture_Orm_Model_IEntitySet_Startitecture_Orm_Model_IEntityDefinition_System_Collections_Generic_IEnumerable_System_String__System_Int32_System_Int32_">StatementFactory.CreateSelectionStatement(IEntitySet, IEntityDefinition, IEnumerable&lt;String&gt;, Int32, Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="Startitecture.Orm.Common.StatementFactory.html#Startitecture_Orm_Common_StatementFactory_CreateEntitySetStatement_Startitecture_Orm_Model_IEntitySet_Startitecture_Orm_Model_IEntityDefinition_System_Int32_System_Int32_">StatementFactory.CreateEntitySetStatement(IEntitySet, IEntityDefinition, Int32, Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="Startitecture.Orm.Common.StatementFactory.html#Startitecture_Orm_Common_StatementFactory_CreateTableExpression_Startitecture_Orm_Model_IEntitySet_Startitecture_Orm_Model_IEntityDefinition_System_String_System_Boolean_">StatementFactory.CreateTableExpression(IEntitySet, IEntityDefinition, String, Boolean)</a>
+    </div>
     <div>
       <span class="xref">System.Object.Equals(System.Object)</span>
     </div>
@@ -113,13 +144,13 @@
   <h6><strong>Assembly</strong>: Startitecture.Orm.SqlClient.dll</h6>
   <h5 id="Startitecture_Orm_SqlClient_TransactSqlFactory_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class TransactSqlFactory : IStatementFactory</code></pre>
+    <pre><code class="lang-csharp hljs">public class TransactSqlFactory : StatementFactory, IStatementFactory</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.SqlClient/TransactSqlFactory.cs&amp;version=GBmaster&amp;line=213">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.SqlClient/TransactSqlFactory.cs&amp;version=GBmaster&amp;line=25">View Source</a>
   </span>
   <a id="Startitecture_Orm_SqlClient_TransactSqlFactory__ctor_" data-uid="Startitecture.Orm.SqlClient.TransactSqlFactory.#ctor*"></a>
   <h4 id="Startitecture_Orm_SqlClient_TransactSqlFactory__ctor_Startitecture_Orm_Model_IEntityDefinitionProvider_" data-uid="Startitecture.Orm.SqlClient.TransactSqlFactory.#ctor(Startitecture.Orm.Model.IEntityDefinitionProvider)">TransactSqlFactory(IEntityDefinitionProvider)</h4>
@@ -148,203 +179,6 @@
       </tr>
     </tbody>
   </table>
-  <h3 id="methods">Methods
-  </h3>
-  
-  <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.SqlClient/TransactSqlFactory.cs&amp;version=GBmaster&amp;line=325">View Source</a>
-  </span>
-  <a id="Startitecture_Orm_SqlClient_TransactSqlFactory_CreateDeletionStatement_" data-uid="Startitecture.Orm.SqlClient.TransactSqlFactory.CreateDeletionStatement*"></a>
-  <h4 id="Startitecture_Orm_SqlClient_TransactSqlFactory_CreateDeletionStatement_Startitecture_Orm_Model_IEntitySet_" data-uid="Startitecture.Orm.SqlClient.TransactSqlFactory.CreateDeletionStatement(Startitecture.Orm.Model.IEntitySet)">CreateDeletionStatement(IEntitySet)</h4>
-  <div class="markdown level1 summary"><p>Creates a statement to delete a specific set of entities.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string CreateDeletionStatement([NotNull] IEntitySet entitySet)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Startitecture.Orm.Model.IEntitySet.html">IEntitySet</a></td>
-        <td><span class="parametername">entitySet</span></td>
-        <td><p>The entity set.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><p>The <span class="xref">System.String</span>.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.SqlClient/TransactSqlFactory.cs&amp;version=GBmaster&amp;line=223">View Source</a>
-  </span>
-  <a id="Startitecture_Orm_SqlClient_TransactSqlFactory_CreateExistsStatement_" data-uid="Startitecture.Orm.SqlClient.TransactSqlFactory.CreateExistsStatement*"></a>
-  <h4 id="Startitecture_Orm_SqlClient_TransactSqlFactory_CreateExistsStatement_Startitecture_Orm_Model_IEntitySet_" data-uid="Startitecture.Orm.SqlClient.TransactSqlFactory.CreateExistsStatement(Startitecture.Orm.Model.IEntitySet)">CreateExistsStatement(IEntitySet)</h4>
-  <div class="markdown level1 summary"><p>Creates a query language statement to determine if any results exist for the specified <code data-dev-comment-type="paramref" class="paramref">entitySet</code>.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string CreateExistsStatement([NotNull] IEntitySet entitySet)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Startitecture.Orm.Model.IEntitySet.html">IEntitySet</a></td>
-        <td><span class="parametername">entitySet</span></td>
-        <td><p>The entity set to test for existence.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><p>The query language statement as a <span class="xref">System.String</span>.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 id="Startitecture_Orm_SqlClient_TransactSqlFactory_CreateExistsStatement_Startitecture_Orm_Model_IEntitySet__remarks">Remarks</h5>
-  <div class="markdown level1 remarks"><p>This implementation will create an IF EXISTS ({statement}) SELECT 1 ELSE SELECT 0 wrapper around the selection. For best performance,
-include only a single, non-nullable column in the selection, ideally a clustered key column.</p>
-</div>
-  
-  <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.SqlClient/TransactSqlFactory.cs&amp;version=GBmaster&amp;line=252">View Source</a>
-  </span>
-  <a id="Startitecture_Orm_SqlClient_TransactSqlFactory_CreateSelectionStatement_" data-uid="Startitecture.Orm.SqlClient.TransactSqlFactory.CreateSelectionStatement*"></a>
-  <h4 id="Startitecture_Orm_SqlClient_TransactSqlFactory_CreateSelectionStatement_Startitecture_Orm_Model_ISelection_" data-uid="Startitecture.Orm.SqlClient.TransactSqlFactory.CreateSelectionStatement(Startitecture.Orm.Model.ISelection)">CreateSelectionStatement(ISelection)</h4>
-  <div class="markdown level1 summary"><p>Creates a query language selection statement for the specified <code data-dev-comment-type="paramref" class="paramref">selection</code>.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string CreateSelectionStatement([NotNull] ISelection selection)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Startitecture.Orm.Model.ISelection.html">ISelection</a></td>
-        <td><span class="parametername">selection</span></td>
-        <td><p>The selection to create the statement for.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><p>The query language statement as a <span class="xref">System.String</span>.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 id="Startitecture_Orm_SqlClient_TransactSqlFactory_CreateSelectionStatement_Startitecture_Orm_Model_ISelection__remarks">Remarks</h5>
-  <div class="markdown level1 remarks"><p>At this time, creating paging statements that include UNION, INTERSECT and EXCEPT clauses is not supported.</p>
-</div>
-  
-  <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.SqlClient/TransactSqlFactory.cs&amp;version=GBmaster&amp;line=268">View Source</a>
-  </span>
-  <a id="Startitecture_Orm_SqlClient_TransactSqlFactory_CreateUpdateStatement_" data-uid="Startitecture.Orm.SqlClient.TransactSqlFactory.CreateUpdateStatement*"></a>
-  <h4 id="Startitecture_Orm_SqlClient_TransactSqlFactory_CreateUpdateStatement_Startitecture_Orm_Model_IUpdateSet_" data-uid="Startitecture.Orm.SqlClient.TransactSqlFactory.CreateUpdateStatement(Startitecture.Orm.Model.IUpdateSet)">CreateUpdateStatement(IUpdateSet)</h4>
-  <div class="markdown level1 summary"><p>Creates a statement to update a specific set of entities.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string CreateUpdateStatement([NotNull] IUpdateSet updateSet)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Startitecture.Orm.Model.IUpdateSet.html">IUpdateSet</a></td>
-        <td><span class="parametername">updateSet</span></td>
-        <td><p>The update set.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><p>The query language statement as a <span class="xref">System.String</span>.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
   <h3 id="implements">Implements</h3>
   <div>
       <a class="xref" href="Startitecture.Orm.Model.IStatementFactory.html">IStatementFactory</a>
@@ -361,7 +195,7 @@ include only a single, non-nullable column in the selection, ideally a clustered
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.SqlClient/TransactSqlFactory.cs&amp;version=GBmaster&amp;line=24" class="contribution-link">View Source</a>
+                    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.SqlClient/TransactSqlFactory.cs&amp;version=GBmaster&amp;line=17" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

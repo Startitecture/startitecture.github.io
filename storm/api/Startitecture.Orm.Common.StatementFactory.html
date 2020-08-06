@@ -1,0 +1,851 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class StatementFactory
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class StatementFactory
+   ">
+    <meta name="generator" content="docfx 2.56.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Startitecture.Orm.Common.StatementFactory">
+  
+  
+  <h1 id="Startitecture_Orm_Common_StatementFactory" data-uid="Startitecture.Orm.Common.StatementFactory" class="text-break">Class StatementFactory
+  </h1>
+  <div class="markdown level0 summary"><p>The statement factory.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">StatementFactory</span></div>
+      <div class="level2"><a class="xref" href="Startitecture.Orm.SqlClient.TransactSqlFactory.html">TransactSqlFactory</a></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="Startitecture.Orm.Model.IStatementFactory.html">IStatementFactory</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Startitecture.Orm.Common.html">Startitecture.Orm.Common</a></h6>
+  <h6><strong>Assembly</strong>: Startitecture.Orm.Common.dll</h6>
+  <h5 id="Startitecture_Orm_Common_StatementFactory_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class StatementFactory : IStatementFactory</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/StatementFactory.cs&amp;version=GBmaster&amp;line=219">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Common_StatementFactory__ctor_" data-uid="Startitecture.Orm.Common.StatementFactory.#ctor*"></a>
+  <h4 id="Startitecture_Orm_Common_StatementFactory__ctor_Startitecture_Orm_Model_IEntityDefinitionProvider_Startitecture_Orm_Model_INameQualifier_" data-uid="Startitecture.Orm.Common.StatementFactory.#ctor(Startitecture.Orm.Model.IEntityDefinitionProvider,Startitecture.Orm.Model.INameQualifier)">StatementFactory(IEntityDefinitionProvider, INameQualifier)</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="Startitecture.Orm.Common.StatementFactory.html">StatementFactory</a> class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public StatementFactory([NotNull] IEntityDefinitionProvider definitionProvider, [NotNull] INameQualifier nameQualifier)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Model.IEntityDefinitionProvider.html">IEntityDefinitionProvider</a></td>
+        <td><span class="parametername">definitionProvider</span></td>
+        <td><p>The definition provider.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Model.INameQualifier.html">INameQualifier</a></td>
+        <td><span class="parametername">nameQualifier</span></td>
+        <td><p>The name qualifier for the statement factory.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">definitionProvider</code> or <code data-dev-comment-type="paramref" class="paramref">nameQualifier</code> is null.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/StatementFactory.cs&amp;version=GBmaster&amp;line=447">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Common_StatementFactory_AddTokens_" data-uid="Startitecture.Orm.Common.StatementFactory.AddTokens*"></a>
+  <h4 id="Startitecture_Orm_Common_StatementFactory_AddTokens_Startitecture_Orm_Model_FilterType_System_Object_System_Collections_Generic_ICollection_System_String__System_String_System_Collections_Generic_IReadOnlyCollection_System_Object__System_Int32_" data-uid="Startitecture.Orm.Common.StatementFactory.AddTokens(Startitecture.Orm.Model.FilterType,System.Object,System.Collections.Generic.ICollection{System.String},System.String,System.Collections.Generic.IReadOnlyCollection{System.Object},System.Int32)">AddTokens(FilterType, Object, ICollection&lt;String&gt;, String, IReadOnlyCollection&lt;Object&gt;, Int32)</h4>
+  <div class="markdown level1 summary"><p>Adds tokens to the <code data-dev-comment-type="paramref" class="paramref">filterTokens</code> list.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual int AddTokens(FilterType filterType, object firstFilterValue, [NotNull] ICollection&lt;string&gt; filterTokens, [NotNull] string referenceName, [NotNull] IReadOnlyCollection&lt;object&gt; setValues, int index)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Model.FilterType.html">FilterType</a></td>
+        <td><span class="parametername">filterType</span></td>
+        <td><p>The filter type for this operation.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">firstFilterValue</span></td>
+        <td><p>The first filter value of the filter. This will determine how equality is rendered.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.ICollection</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">filterTokens</span></td>
+        <td><p>The filter tokens.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">referenceName</span></td>
+        <td><p>The reference name.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IReadOnlyCollection</span>&lt;<span class="xref">System.Object</span>&gt;</td>
+        <td><span class="parametername">setValues</span></td>
+        <td><p>The set values.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">index</span></td>
+        <td><p>The index.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>The current index as an <span class="xref">System.Int32</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.NotImplementedException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">filterType</code> is a value that is not supported by this operation.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentOutOfRangeException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">filterType</code> is outside the range of values for <a class="xref" href="Startitecture.Orm.Model.FilterType.html">FilterType</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/StatementFactory.cs&amp;version=GBmaster&amp;line=334">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Common_StatementFactory_CreateDeletionStatement_" data-uid="Startitecture.Orm.Common.StatementFactory.CreateDeletionStatement*"></a>
+  <h4 id="Startitecture_Orm_Common_StatementFactory_CreateDeletionStatement_Startitecture_Orm_Model_IEntitySet_" data-uid="Startitecture.Orm.Common.StatementFactory.CreateDeletionStatement(Startitecture.Orm.Model.IEntitySet)">CreateDeletionStatement(IEntitySet)</h4>
+  <div class="markdown level1 summary"><p>Creates a statement to delete a specific set of entities.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual string CreateDeletionStatement([NotNull] IEntitySet entitySet)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Model.IEntitySet.html">IEntitySet</a></td>
+        <td><span class="parametername">entitySet</span></td>
+        <td><p>The entity set.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The <span class="xref">System.String</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/StatementFactory.cs&amp;version=GBmaster&amp;line=618">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Common_StatementFactory_CreateEntitySetStatement_" data-uid="Startitecture.Orm.Common.StatementFactory.CreateEntitySetStatement*"></a>
+  <h4 id="Startitecture_Orm_Common_StatementFactory_CreateEntitySetStatement_Startitecture_Orm_Model_IEntitySet_Startitecture_Orm_Model_IEntityDefinition_System_Int32_System_Int32_" data-uid="Startitecture.Orm.Common.StatementFactory.CreateEntitySetStatement(Startitecture.Orm.Model.IEntitySet,Startitecture.Orm.Model.IEntityDefinition,System.Int32,System.Int32)">CreateEntitySetStatement(IEntitySet, IEntityDefinition, Int32, Int32)</h4>
+  <div class="markdown level1 summary"><p>Creates an entity set statement.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual string CreateEntitySetStatement([NotNull] IEntitySet entitySet, [NotNull] IEntityDefinition entityDefinition, int indexOffset, int indent)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Model.IEntitySet.html">IEntitySet</a></td>
+        <td><span class="parametername">entitySet</span></td>
+        <td><p>The entity set.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Model.IEntityDefinition.html">IEntityDefinition</a></td>
+        <td><span class="parametername">entityDefinition</span></td>
+        <td><p>The entity definition.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">indexOffset</span></td>
+        <td><p>The index offset.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">indent</span></td>
+        <td><p>The indent for the statement.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The entity set statement as a <span class="xref">System.String</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">entitySet</code> or <code data-dev-comment-type="paramref" class="paramref">entityDefinition</code> is null.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/StatementFactory.cs&amp;version=GBmaster&amp;line=231">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Common_StatementFactory_CreateExistsStatement_" data-uid="Startitecture.Orm.Common.StatementFactory.CreateExistsStatement*"></a>
+  <h4 id="Startitecture_Orm_Common_StatementFactory_CreateExistsStatement_Startitecture_Orm_Model_IEntitySet_" data-uid="Startitecture.Orm.Common.StatementFactory.CreateExistsStatement(Startitecture.Orm.Model.IEntitySet)">CreateExistsStatement(IEntitySet)</h4>
+  <div class="markdown level1 summary"><p>Creates a query language statement to determine if any results exist for the specified <code data-dev-comment-type="paramref" class="paramref">entitySet</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual string CreateExistsStatement([NotNull] IEntitySet entitySet)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Model.IEntitySet.html">IEntitySet</a></td>
+        <td><span class="parametername">entitySet</span></td>
+        <td><p>The entity set to test for existence.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The query language statement as a <span class="xref">System.String</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Startitecture_Orm_Common_StatementFactory_CreateExistsStatement_Startitecture_Orm_Model_IEntitySet__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This implementation will create an IF EXISTS ({statement}) SELECT 1 ELSE SELECT 0 wrapper around the selection. For
+best performance,
+include only a single, non-nullable column in the selection, ideally a clustered key column.</p>
+</div>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/StatementFactory.cs&amp;version=GBmaster&amp;line=549">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Common_StatementFactory_CreateSelectionStatement_" data-uid="Startitecture.Orm.Common.StatementFactory.CreateSelectionStatement*"></a>
+  <h4 id="Startitecture_Orm_Common_StatementFactory_CreateSelectionStatement_Startitecture_Orm_Model_IEntitySet_Startitecture_Orm_Model_IEntityDefinition_System_Collections_Generic_IEnumerable_System_String__System_Int32_System_Int32_" data-uid="Startitecture.Orm.Common.StatementFactory.CreateSelectionStatement(Startitecture.Orm.Model.IEntitySet,Startitecture.Orm.Model.IEntityDefinition,System.Collections.Generic.IEnumerable{System.String},System.Int32,System.Int32)">CreateSelectionStatement(IEntitySet, IEntityDefinition, IEnumerable&lt;String&gt;, Int32, Int32)</h4>
+  <div class="markdown level1 summary"><p>Creates the selection statement for the current selection.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual string CreateSelectionStatement(IEntitySet entitySet, IEntityDefinition entityDefinition, IEnumerable&lt;string&gt; qualifiedColumns, int indexOffset, int indent)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Model.IEntitySet.html">IEntitySet</a></td>
+        <td><span class="parametername">entitySet</span></td>
+        <td><p>The selection to create a statement for.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Model.IEntityDefinition.html">IEntityDefinition</a></td>
+        <td><span class="parametername">entityDefinition</span></td>
+        <td><p>The entity definition for the selection statement.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">qualifiedColumns</span></td>
+        <td><p>A collection of qualified column names to select.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">indexOffset</span></td>
+        <td><p>The index offset.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">indent</span></td>
+        <td><p>The indent in spaces for the statement.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The T-SQL statement for the current selection as a <span class="xref">System.String</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/StatementFactory.cs&amp;version=GBmaster&amp;line=260">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Common_StatementFactory_CreateSelectionStatement_" data-uid="Startitecture.Orm.Common.StatementFactory.CreateSelectionStatement*"></a>
+  <h4 id="Startitecture_Orm_Common_StatementFactory_CreateSelectionStatement_Startitecture_Orm_Model_ISelection_" data-uid="Startitecture.Orm.Common.StatementFactory.CreateSelectionStatement(Startitecture.Orm.Model.ISelection)">CreateSelectionStatement(ISelection)</h4>
+  <div class="markdown level1 summary"><p>Creates a query language selection statement for the specified <code data-dev-comment-type="paramref" class="paramref">selection</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual string CreateSelectionStatement([NotNull] ISelection selection)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Model.ISelection.html">ISelection</a></td>
+        <td><span class="parametername">selection</span></td>
+        <td><p>The selection to create the statement for.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The query language statement as a <span class="xref">System.String</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Startitecture_Orm_Common_StatementFactory_CreateSelectionStatement_Startitecture_Orm_Model_ISelection__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>At this time, creating paging statements that include UNION, INTERSECT and EXCEPT clauses is not supported.</p>
+</div>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/StatementFactory.cs&amp;version=GBmaster&amp;line=699">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Common_StatementFactory_CreateTableExpression_" data-uid="Startitecture.Orm.Common.StatementFactory.CreateTableExpression*"></a>
+  <h4 id="Startitecture_Orm_Common_StatementFactory_CreateTableExpression_Startitecture_Orm_Model_IEntitySet_Startitecture_Orm_Model_IEntityDefinition_System_String_System_Boolean_" data-uid="Startitecture.Orm.Common.StatementFactory.CreateTableExpression(Startitecture.Orm.Model.IEntitySet,Startitecture.Orm.Model.IEntityDefinition,System.String,System.Boolean)">CreateTableExpression(IEntitySet, IEntityDefinition, String, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Creates a page selection statement.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual string CreateTableExpression([NotNull] IEntitySet entitySet, [NotNull] IEntityDefinition definition, [NotNull] string selectionStatement, bool orderByRecompile)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Model.IEntitySet.html">IEntitySet</a></td>
+        <td><span class="parametername">entitySet</span></td>
+        <td><p>The selection to process.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Model.IEntityDefinition.html">IEntityDefinition</a></td>
+        <td><span class="parametername">definition</span></td>
+        <td><p>The entity definition.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">selectionStatement</span></td>
+        <td><p>The selection statement to encapsulate with the parent expression.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">orderByRecompile</span></td>
+        <td><p>A value indicating whether to have the statement use the RECOMPILE option.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The selection statement as a <span class="xref">System.String</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/StatementFactory.cs&amp;version=GBmaster&amp;line=276">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Common_StatementFactory_CreateUpdateStatement_" data-uid="Startitecture.Orm.Common.StatementFactory.CreateUpdateStatement*"></a>
+  <h4 id="Startitecture_Orm_Common_StatementFactory_CreateUpdateStatement_Startitecture_Orm_Model_IUpdateSet_" data-uid="Startitecture.Orm.Common.StatementFactory.CreateUpdateStatement(Startitecture.Orm.Model.IUpdateSet)">CreateUpdateStatement(IUpdateSet)</h4>
+  <div class="markdown level1 summary"><p>Creates a statement to update a specific set of entities.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual string CreateUpdateStatement([NotNull] IUpdateSet updateSet)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Model.IUpdateSet.html">IUpdateSet</a></td>
+        <td><span class="parametername">updateSet</span></td>
+        <td><p>The update set.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The query language statement as a <span class="xref">System.String</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/StatementFactory.cs&amp;version=GBmaster&amp;line=406">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Common_StatementFactory_GetExclusionFilter_" data-uid="Startitecture.Orm.Common.StatementFactory.GetExclusionFilter*"></a>
+  <h4 id="Startitecture_Orm_Common_StatementFactory_GetExclusionFilter_System_String_System_Int32_System_Collections_Generic_IEnumerable_System_Object__" data-uid="Startitecture.Orm.Common.StatementFactory.GetExclusionFilter(System.String,System.Int32,System.Collections.Generic.IEnumerable{System.Object})">GetExclusionFilter(String, Int32, IEnumerable&lt;Object&gt;)</h4>
+  <div class="markdown level1 summary"><p>Gets an exclusion filter for the specified filter values and column.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual string GetExclusionFilter(string qualifiedName, int filterIndex, IEnumerable&lt;object&gt; filterValues)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">qualifiedName</span></td>
+        <td><p>The qualified name of the column.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">filterIndex</span></td>
+        <td><p>The index at which the filter will be inserted.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Object</span>&gt;</td>
+        <td><span class="parametername">filterValues</span></td>
+        <td><p>The filter values.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>An exclusion predicate for the <code data-dev-comment-type="paramref" class="paramref">filterValues</code> as a <span class="xref">System.String</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/StatementFactory.cs&amp;version=GBmaster&amp;line=380">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Common_StatementFactory_GetInclusionFilter_" data-uid="Startitecture.Orm.Common.StatementFactory.GetInclusionFilter*"></a>
+  <h4 id="Startitecture_Orm_Common_StatementFactory_GetInclusionFilter_System_String_System_Int32_System_Collections_Generic_IEnumerable_System_Object__" data-uid="Startitecture.Orm.Common.StatementFactory.GetInclusionFilter(System.String,System.Int32,System.Collections.Generic.IEnumerable{System.Object})">GetInclusionFilter(String, Int32, IEnumerable&lt;Object&gt;)</h4>
+  <div class="markdown level1 summary"><p>Gets an inclusion filter for the specified filter values and column.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual string GetInclusionFilter(string qualifiedName, int filterIndex, IEnumerable&lt;object&gt; filterValues)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">qualifiedName</span></td>
+        <td><p>The qualified name of the column.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">filterIndex</span></td>
+        <td><p>The index at which the filter will be inserted.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Object</span>&gt;</td>
+        <td><span class="parametername">filterValues</span></td>
+        <td><p>The filter values.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>An inclusion predicate for the <code data-dev-comment-type="paramref" class="paramref">filterValues</code> as a <span class="xref">System.String</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="Startitecture.Orm.Model.IStatementFactory.html">IStatementFactory</a>
+  </div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="Startitecture.Orm.Testing.Moq.ExtensionMethods.html#Startitecture_Orm_Testing_Moq_ExtensionMethods_MockDataReader__1___0_System_Collections_Generic_IEnumerable_Startitecture_Orm_Model_EntityAttributeDefinition__">ExtensionMethods.MockDataReader&lt;T&gt;(T, IEnumerable&lt;EntityAttributeDefinition&gt;)</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/StatementFactory.cs&amp;version=GBmaster&amp;line=25" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

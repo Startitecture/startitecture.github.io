@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Interface INameQualifier
+    <title>Class NameQualifier
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Interface INameQualifier
+    <meta name="title" content="Class NameQualifier
    ">
     <meta name="generator" content="docfx 2.56.2.0">
     
@@ -68,34 +68,68 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Startitecture.Orm.Model.INameQualifier">
+            <article class="content wrap" id="_content" data-uid="Startitecture.Orm.Common.NameQualifier">
   
   
-  <h1 id="Startitecture_Orm_Model_INameQualifier" data-uid="Startitecture.Orm.Model.INameQualifier" class="text-break">Interface INameQualifier
+  <h1 id="Startitecture_Orm_Common_NameQualifier" data-uid="Startitecture.Orm.Common.NameQualifier" class="text-break">Class NameQualifier
   </h1>
-  <div class="markdown level0 summary"><p>The NameQualifier interface.</p>
+  <div class="markdown level0 summary"><p>Qualifies names and identifiers for entity and attributes.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Startitecture.Orm.Model.html">Startitecture.Orm.Model</a></h6>
-  <h6><strong>Assembly</strong>: Startitecture.Orm.Model.dll</h6>
-  <h5 id="Startitecture_Orm_Model_INameQualifier_syntax">Syntax</h5>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">NameQualifier</span></div>
+      <div class="level2"><a class="xref" href="Startitecture.Orm.SqlClient.TransactSqlQualifier.html">TransactSqlQualifier</a></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="Startitecture.Orm.Model.INameQualifier.html">INameQualifier</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Startitecture.Orm.Common.html">Startitecture.Orm.Common</a></h6>
+  <h6><strong>Assembly</strong>: Startitecture.Orm.Common.dll</h6>
+  <h5 id="Startitecture_Orm_Common_NameQualifier_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public interface INameQualifier</code></pre>
+    <pre><code class="lang-csharp hljs">public class NameQualifier : INameQualifier</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/INameQualifier.cs&amp;version=GBmaster&amp;line=28">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/NameQualifier.cs&amp;version=GBmaster&amp;line=20">View Source</a>
   </span>
-  <a id="Startitecture_Orm_Model_INameQualifier_Escape_" data-uid="Startitecture.Orm.Model.INameQualifier.Escape*"></a>
-  <h4 id="Startitecture_Orm_Model_INameQualifier_Escape_System_String_" data-uid="Startitecture.Orm.Model.INameQualifier.Escape(System.String)">Escape(String)</h4>
+  <a id="Startitecture_Orm_Common_NameQualifier_Escape_" data-uid="Startitecture.Orm.Common.NameQualifier.Escape*"></a>
+  <h4 id="Startitecture_Orm_Common_NameQualifier_Escape_System_String_" data-uid="Startitecture.Orm.Common.NameQualifier.Escape(System.String)">Escape(String)</h4>
   <div class="markdown level1 summary"><p>Escapes an identifier.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">string Escape([NotNull] string identifier)</code></pre>
+    <pre><code class="lang-csharp hljs">public virtual string Escape(string identifier)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -149,16 +183,16 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/INameQualifier.cs&amp;version=GBmaster&amp;line=73">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/NameQualifier.cs&amp;version=GBmaster&amp;line=49">View Source</a>
   </span>
-  <a id="Startitecture_Orm_Model_INameQualifier_GetCanonicalName_" data-uid="Startitecture.Orm.Model.INameQualifier.GetCanonicalName*"></a>
-  <h4 id="Startitecture_Orm_Model_INameQualifier_GetCanonicalName_Startitecture_Orm_Model_EntityAttributeDefinition_" data-uid="Startitecture.Orm.Model.INameQualifier.GetCanonicalName(Startitecture.Orm.Model.EntityAttributeDefinition)">GetCanonicalName(EntityAttributeDefinition)</h4>
+  <a id="Startitecture_Orm_Common_NameQualifier_GetCanonicalName_" data-uid="Startitecture.Orm.Common.NameQualifier.GetCanonicalName*"></a>
+  <h4 id="Startitecture_Orm_Common_NameQualifier_GetCanonicalName_Startitecture_Orm_Model_EntityAttributeDefinition_" data-uid="Startitecture.Orm.Common.NameQualifier.GetCanonicalName(Startitecture.Orm.Model.EntityAttributeDefinition)">GetCanonicalName(EntityAttributeDefinition)</h4>
   <div class="markdown level1 summary"><p>Gets the canonical name for the <code data-dev-comment-type="paramref" class="paramref">attribute</code>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">string GetCanonicalName(EntityAttributeDefinition attribute)</code></pre>
+    <pre><code class="lang-csharp hljs">public string GetCanonicalName(EntityAttributeDefinition attribute)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -194,21 +228,21 @@
       </tr>
     </tbody>
   </table>
-  <h5 id="Startitecture_Orm_Model_INameQualifier_GetCanonicalName_Startitecture_Orm_Model_EntityAttributeDefinition__remarks">Remarks</h5>
+  <h5 id="Startitecture_Orm_Common_NameQualifier_GetCanonicalName_Startitecture_Orm_Model_EntityAttributeDefinition__remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>The canonical name is the fully aliased (if applicable) entity and attribute names.</p>
 </div>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/INameQualifier.cs&amp;version=GBmaster&amp;line=84">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/NameQualifier.cs&amp;version=GBmaster&amp;line=55">View Source</a>
   </span>
-  <a id="Startitecture_Orm_Model_INameQualifier_GetPhysicalName_" data-uid="Startitecture.Orm.Model.INameQualifier.GetPhysicalName*"></a>
-  <h4 id="Startitecture_Orm_Model_INameQualifier_GetPhysicalName_Startitecture_Orm_Model_EntityLocation_" data-uid="Startitecture.Orm.Model.INameQualifier.GetPhysicalName(Startitecture.Orm.Model.EntityLocation)">GetPhysicalName(EntityLocation)</h4>
+  <a id="Startitecture_Orm_Common_NameQualifier_GetPhysicalName_" data-uid="Startitecture.Orm.Common.NameQualifier.GetPhysicalName*"></a>
+  <h4 id="Startitecture_Orm_Common_NameQualifier_GetPhysicalName_Startitecture_Orm_Model_EntityLocation_" data-uid="Startitecture.Orm.Common.NameQualifier.GetPhysicalName(Startitecture.Orm.Model.EntityLocation)">GetPhysicalName(EntityLocation)</h4>
   <div class="markdown level1 summary"><p>Gets the physical name of the <code data-dev-comment-type="paramref" class="paramref">location</code>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">string GetPhysicalName(EntityLocation location)</code></pre>
+    <pre><code class="lang-csharp hljs">public string GetPhysicalName(EntityLocation location)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -246,16 +280,16 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/INameQualifier.cs&amp;version=GBmaster&amp;line=98">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/NameQualifier.cs&amp;version=GBmaster&amp;line=43">View Source</a>
   </span>
-  <a id="Startitecture_Orm_Model_INameQualifier_GetReferenceName_" data-uid="Startitecture.Orm.Model.INameQualifier.GetReferenceName*"></a>
-  <h4 id="Startitecture_Orm_Model_INameQualifier_GetReferenceName_Startitecture_Orm_Model_EntityAttributeDefinition_" data-uid="Startitecture.Orm.Model.INameQualifier.GetReferenceName(Startitecture.Orm.Model.EntityAttributeDefinition)">GetReferenceName(EntityAttributeDefinition)</h4>
+  <a id="Startitecture_Orm_Common_NameQualifier_GetReferenceName_" data-uid="Startitecture.Orm.Common.NameQualifier.GetReferenceName*"></a>
+  <h4 id="Startitecture_Orm_Common_NameQualifier_GetReferenceName_Startitecture_Orm_Model_EntityAttributeDefinition_" data-uid="Startitecture.Orm.Common.NameQualifier.GetReferenceName(Startitecture.Orm.Model.EntityAttributeDefinition)">GetReferenceName(EntityAttributeDefinition)</h4>
   <div class="markdown level1 summary"><p>Gets the reference name for the <code data-dev-comment-type="paramref" class="paramref">attribute</code>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">string GetReferenceName(EntityAttributeDefinition attribute)</code></pre>
+    <pre><code class="lang-csharp hljs">public string GetReferenceName(EntityAttributeDefinition attribute)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -291,21 +325,21 @@
       </tr>
     </tbody>
   </table>
-  <h5 id="Startitecture_Orm_Model_INameQualifier_GetReferenceName_Startitecture_Orm_Model_EntityAttributeDefinition__remarks">Remarks</h5>
+  <h5 id="Startitecture_Orm_Common_NameQualifier_GetReferenceName_Startitecture_Orm_Model_EntityAttributeDefinition__remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>The reference name includes the alias of the entity but not the alias of the attribute.</p>
 </div>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/INameQualifier.cs&amp;version=GBmaster&amp;line=42">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/NameQualifier.cs&amp;version=GBmaster&amp;line=31">View Source</a>
   </span>
-  <a id="Startitecture_Orm_Model_INameQualifier_Qualify_" data-uid="Startitecture.Orm.Model.INameQualifier.Qualify*"></a>
-  <h4 id="Startitecture_Orm_Model_INameQualifier_Qualify_Startitecture_Orm_Model_EntityAttributeDefinition_" data-uid="Startitecture.Orm.Model.INameQualifier.Qualify(Startitecture.Orm.Model.EntityAttributeDefinition)">Qualify(EntityAttributeDefinition)</h4>
+  <a id="Startitecture_Orm_Common_NameQualifier_Qualify_" data-uid="Startitecture.Orm.Common.NameQualifier.Qualify*"></a>
+  <h4 id="Startitecture_Orm_Common_NameQualifier_Qualify_Startitecture_Orm_Model_EntityAttributeDefinition_" data-uid="Startitecture.Orm.Common.NameQualifier.Qualify(Startitecture.Orm.Model.EntityAttributeDefinition)">Qualify(EntityAttributeDefinition)</h4>
   <div class="markdown level1 summary"><p>Qualifies the name of an attribute.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">string Qualify(EntityAttributeDefinition attribute)</code></pre>
+    <pre><code class="lang-csharp hljs">public string Qualify(EntityAttributeDefinition attribute)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -341,21 +375,21 @@
       </tr>
     </tbody>
   </table>
-  <h5 id="Startitecture_Orm_Model_INameQualifier_Qualify_Startitecture_Orm_Model_EntityAttributeDefinition__remarks">Remarks</h5>
+  <h5 id="Startitecture_Orm_Common_NameQualifier_Qualify_Startitecture_Orm_Model_EntityAttributeDefinition__remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>The qualified name is the entity (aliased, if applicable) and the physical attribute name as referenced in the FROM clause.</p>
 </div>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/INameQualifier.cs&amp;version=GBmaster&amp;line=59">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/NameQualifier.cs&amp;version=GBmaster&amp;line=37">View Source</a>
   </span>
-  <a id="Startitecture_Orm_Model_INameQualifier_Qualify_" data-uid="Startitecture.Orm.Model.INameQualifier.Qualify*"></a>
-  <h4 id="Startitecture_Orm_Model_INameQualifier_Qualify_Startitecture_Orm_Model_EntityAttributeDefinition_Startitecture_Orm_Model_EntityLocation_" data-uid="Startitecture.Orm.Model.INameQualifier.Qualify(Startitecture.Orm.Model.EntityAttributeDefinition,Startitecture.Orm.Model.EntityLocation)">Qualify(EntityAttributeDefinition, EntityLocation)</h4>
+  <a id="Startitecture_Orm_Common_NameQualifier_Qualify_" data-uid="Startitecture.Orm.Common.NameQualifier.Qualify*"></a>
+  <h4 id="Startitecture_Orm_Common_NameQualifier_Qualify_Startitecture_Orm_Model_EntityAttributeDefinition_Startitecture_Orm_Model_EntityLocation_" data-uid="Startitecture.Orm.Common.NameQualifier.Qualify(Startitecture.Orm.Model.EntityAttributeDefinition,Startitecture.Orm.Model.EntityLocation)">Qualify(EntityAttributeDefinition, EntityLocation)</h4>
   <div class="markdown level1 summary"><p>Qualifies the name of an attribute.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">string Qualify(EntityAttributeDefinition attribute, EntityLocation entityLocation)</code></pre>
+    <pre><code class="lang-csharp hljs">public string Qualify(EntityAttributeDefinition attribute, EntityLocation entityLocation)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -397,9 +431,13 @@
       </tr>
     </tbody>
   </table>
-  <h5 id="Startitecture_Orm_Model_INameQualifier_Qualify_Startitecture_Orm_Model_EntityAttributeDefinition_Startitecture_Orm_Model_EntityLocation__remarks">Remarks</h5>
+  <h5 id="Startitecture_Orm_Common_NameQualifier_Qualify_Startitecture_Orm_Model_EntityAttributeDefinition_Startitecture_Orm_Model_EntityLocation__remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>The qualified name is the entity (aliased, if applicable) and the physical attribute name as referenced in the FROM clause.</p>
 </div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="Startitecture.Orm.Model.INameQualifier.html">INameQualifier</a>
+  </div>
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>
       <a class="xref" href="Startitecture.Orm.Testing.Moq.ExtensionMethods.html#Startitecture_Orm_Testing_Moq_ExtensionMethods_MockDataReader__1___0_System_Collections_Generic_IEnumerable_Startitecture_Orm_Model_EntityAttributeDefinition__">ExtensionMethods.MockDataReader&lt;T&gt;(T, IEnumerable&lt;EntityAttributeDefinition&gt;)</a>
@@ -412,7 +450,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/INameQualifier.cs&amp;version=GBmaster&amp;line=14" class="contribution-link">View Source</a>
+                    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/NameQualifier.cs&amp;version=GBmaster&amp;line=17" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

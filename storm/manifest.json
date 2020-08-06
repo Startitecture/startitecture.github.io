@@ -237,7 +237,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.Common.DataTableLoader-1.html",
-          "hash": "A7dv4iAyUmHSbDSFHYILUA=="
+          "hash": "8RO7sp7+Vn55qqJg7ciCMA=="
         }
       },
       "is_incremental": false,
@@ -249,7 +249,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.Common.DatabaseRepositoryProvider.html",
-          "hash": "PYiq2XwxWRwa31JjbZb+AA=="
+          "hash": "/+jX9YS4qsV73f7ED/TQYg=="
         }
       },
       "is_incremental": false,
@@ -261,7 +261,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.Common.EntityBase.html",
-          "hash": "B2pgIEN6JuLWTtTGHJW9kg=="
+          "hash": "C8Y7mxao+WBfrhTj+DKP4g=="
         }
       },
       "is_incremental": false,
@@ -273,7 +273,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.Common.EntityRepository-2.html",
-          "hash": "OWUpUPXb26LxPOFQPifOwg=="
+          "hash": "Kjlve/zLn/AdfoYG4YVCjw=="
         }
       },
       "is_incremental": false,
@@ -353,11 +353,47 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Common.JoinClause.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Common.JoinClause.html",
+          "hash": "9u5AytnVxat22bJQce8zJw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Common.NameQualifier.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Common.NameQualifier.html",
+          "hash": "qbWolE5PzxH+9pXJCXji3g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Startitecture.Orm.Common.ReadOnlyRepository-2.yml",
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.Common.ReadOnlyRepository-2.html",
-          "hash": "b08IffJM9OPrMsrcXZl+wg=="
+          "hash": "feKbgB0m9BXEyiFqVCmdmw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Common.StatementFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Common.StatementFactory.html",
+          "hash": "cEh86JqOBSdSL7myrP2H5Q=="
         }
       },
       "is_incremental": false,
@@ -369,7 +405,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.Common.TransactionContainer.html",
-          "hash": "AqwzfBVNGrEFklJiLYI8qA=="
+          "hash": "hJhqg6i2PaVuEaw2T1r1NA=="
         }
       },
       "is_incremental": false,
@@ -381,7 +417,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.Common.html",
-          "hash": "QseOzxKKkyQDmhIqPhimXQ=="
+          "hash": "1EUONrWEkuiK5CSPAN93cw=="
         }
       },
       "is_incremental": false,
@@ -417,7 +453,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.Mapper.DefaultDatabaseFactory.html",
-          "hash": "T3bJblCtZe5230+mo5LR9Q=="
+          "hash": "cStAeqe9wPNtqntABMalyg=="
         }
       },
       "is_incremental": false,
@@ -441,7 +477,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.Mapper.FlatPocoFactory.html",
-          "hash": "Atm/OgXBDo3VMFQiLZgL3w=="
+          "hash": "GfOEwVTj6lSplW6eHkbRpA=="
         }
       },
       "is_incremental": false,
@@ -825,7 +861,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.Model.INameQualifier.html",
-          "hash": "DDzRmysrLIO3lnn5pwzb4Q=="
+          "hash": "c3wAP1l07i5dO0d8hhdKJA=="
         }
       },
       "is_incremental": false,
@@ -1077,7 +1113,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.Schema.DataAnnotationsDefinitionProvider.html",
-          "hash": "gx13Tr/V5IjI16ZmHWhfhA=="
+          "hash": "rL7z2JJDU5Ws6ThqtvmcAg=="
         }
       },
       "is_incremental": false,
@@ -1089,7 +1125,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.Schema.DefinitionProviderBase.html",
-          "hash": "de/AwZ8XK2UKDKSLBktxCA=="
+          "hash": "lpYAsmIRC6PLnsVVk3stwg=="
         }
       },
       "is_incremental": false,
@@ -1101,7 +1137,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.Schema.ExtensionMethods.html",
-          "hash": "W0Yd5XrvHUM15bbWiYMTpA=="
+          "hash": "ZtHPhPprQ8typpMBqts8/w=="
         }
       },
       "is_incremental": false,
@@ -1113,7 +1149,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.Schema.IgnoreAttribute.html",
-          "hash": "Gw46FBfGZj/2eB/s5sGrdQ=="
+          "hash": "c02VwmJSwXdTcnU6m7u2Xg=="
         }
       },
       "is_incremental": false,
@@ -1125,7 +1161,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.Schema.IndexAttribute.html",
-          "hash": "jee/8mBRAj3PttDvRMfkog=="
+          "hash": "wsG7ztjNUCDa/TkeDhsk9g=="
         }
       },
       "is_incremental": false,
@@ -1137,7 +1173,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.Schema.QualifiedName.html",
-          "hash": "kYw1XIXqSxwRfqsGS2yUCA=="
+          "hash": "vYzqoflQtsXqmKWNiwSaSw=="
         }
       },
       "is_incremental": false,
@@ -1149,7 +1185,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.Schema.RelatedEntityAttribute.html",
-          "hash": "hGI4v0q/2zSI4lAgKODFsQ=="
+          "hash": "aR/vkKxqZVkzWpODI4On7A=="
         }
       },
       "is_incremental": false,
@@ -1161,7 +1197,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.Schema.RelationAttribute.html",
-          "hash": "b+dBKPyuQLuvoBxs8LO2Og=="
+          "hash": "KVmyqp53nnzqYEHZ9SxZew=="
         }
       },
       "is_incremental": false,
@@ -1173,7 +1209,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.Schema.TableInfo.html",
-          "hash": "9WKzEjpkULRqLH25ny9hSw=="
+          "hash": "zRABrCt+iZI9LAx9/GzjUg=="
         }
       },
       "is_incremental": false,
@@ -1185,7 +1221,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.Schema.TableTypeAttribute.html",
-          "hash": "MO9nsK44W9NidZb5ZipQJw=="
+          "hash": "52NWoyN6X9IEC5OdAG6pSg=="
         }
       },
       "is_incremental": false,
@@ -1205,23 +1241,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Startitecture.Orm.SqlClient.JoinClause.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Startitecture.Orm.SqlClient.JoinClause.html",
-          "hash": "CCdGK9V+rFrX79x2G2GfkQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/Startitecture.Orm.SqlClient.SqlClientProviderFactory.yml",
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.SqlClient.SqlClientProviderFactory.html",
-          "hash": "0UuQ2ZctM8GqKnZlZFDNjw=="
+          "hash": "XAiOvN/kDJHaKbpPHQWePw=="
         }
       },
       "is_incremental": false,
@@ -1269,7 +1293,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.SqlClient.TransactSqlFactory.html",
-          "hash": "qZEBYNi7irb3pfhB2UvyeQ=="
+          "hash": "3ixrcCo0c66UBpiQuoRbTA=="
         }
       },
       "is_incremental": false,
@@ -1281,7 +1305,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.SqlClient.TransactSqlQualifier.html",
-          "hash": "TEqvlQuaWk7TkwxZuk9rJw=="
+          "hash": "XzXwwSAw+68T6Cmx6AbFbg=="
         }
       },
       "is_incremental": false,
@@ -1293,7 +1317,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.SqlClient.html",
-          "hash": "jv7KWIH8G0ontgq1uPLqFg=="
+          "hash": "zWZwwemJo4mboIEk4OItMg=="
         }
       },
       "is_incremental": false,
@@ -2889,7 +2913,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "+T4wktKJ49DHhT1f730clQ=="
+          "hash": "2RB6fMJzT/0HDZZDuVQE7Q=="
         }
       },
       "is_incremental": false,
@@ -2979,7 +3003,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 239,
+          "total_file_count": 241,
           "skipped_file_count": 0
         },
         "TocDocumentProcessor": {

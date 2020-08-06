@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class SqlClientProviderFactory
+    <title>Class JoinClause
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class SqlClientProviderFactory
+    <meta name="title" content="Class JoinClause
    ">
     <meta name="generator" content="docfx 2.56.2.0">
     
@@ -68,30 +68,32 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Startitecture.Orm.SqlClient.SqlClientProviderFactory">
+            <article class="content wrap" id="_content" data-uid="Startitecture.Orm.Common.JoinClause">
   
   
-  <h1 id="Startitecture_Orm_SqlClient_SqlClientProviderFactory" data-uid="Startitecture.Orm.SqlClient.SqlClientProviderFactory" class="text-break">Class SqlClientProviderFactory
+  <h1 id="Startitecture_Orm_Common_JoinClause" data-uid="Startitecture.Orm.Common.JoinClause" class="text-break">Class JoinClause
   </h1>
-  <div class="markdown level0 summary"><p>The SQL Server provider factory.</p>
+  <div class="markdown level0 summary"><p>Represents a Transact-SQL join.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">SqlClientProviderFactory</span></div>
-  </div>
-  <div classs="implements">
-    <h5>Implements</h5>
-    <div><a class="xref" href="Startitecture.Orm.Model.IRepositoryProviderFactory.html">IRepositoryProviderFactory</a></div>
+    <div class="level1"><span class="xref">JoinClause</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
     <div>
       <span class="xref">System.Object.Equals(System.Object)</span>
     </div>
     <div>
       <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
     </div>
     <div>
       <span class="xref">System.Object.GetHashCode()</span>
@@ -102,33 +104,27 @@
     <div>
       <span class="xref">System.Object.MemberwiseClone()</span>
     </div>
-    <div>
-      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ToString()</span>
-    </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Startitecture.Orm.SqlClient.html">Startitecture.Orm.SqlClient</a></h6>
-  <h6><strong>Assembly</strong>: Startitecture.Orm.SqlClient.dll</h6>
-  <h5 id="Startitecture_Orm_SqlClient_SqlClientProviderFactory_syntax">Syntax</h5>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Startitecture.Orm.Common.html">Startitecture.Orm.Common</a></h6>
+  <h6><strong>Assembly</strong>: Startitecture.Orm.Common.dll</h6>
+  <h5 id="Startitecture_Orm_Common_JoinClause_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class SqlClientProviderFactory : IRepositoryProviderFactory</code></pre>
+    <pre><code class="lang-csharp hljs">public class JoinClause</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.SqlClient/SqlClientProviderFactory.cs&amp;version=GBmaster&amp;line=58">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/JoinClause.cs&amp;version=GBmaster&amp;line=69">View Source</a>
   </span>
-  <a id="Startitecture_Orm_SqlClient_SqlClientProviderFactory__ctor_" data-uid="Startitecture.Orm.SqlClient.SqlClientProviderFactory.#ctor*"></a>
-  <h4 id="Startitecture_Orm_SqlClient_SqlClientProviderFactory__ctor_System_String_Startitecture_Orm_Model_IEntityDefinitionProvider_" data-uid="Startitecture.Orm.SqlClient.SqlClientProviderFactory.#ctor(System.String,Startitecture.Orm.Model.IEntityDefinitionProvider)">SqlClientProviderFactory(String, IEntityDefinitionProvider)</h4>
-  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="Startitecture.Orm.SqlClient.SqlClientProviderFactory.html">SqlClientProviderFactory</a> class.</p>
+  <a id="Startitecture_Orm_Common_JoinClause__ctor_" data-uid="Startitecture.Orm.Common.JoinClause.#ctor*"></a>
+  <h4 id="Startitecture_Orm_Common_JoinClause__ctor_Startitecture_Orm_Model_IEntityDefinitionProvider_Startitecture_Orm_Model_INameQualifier_" data-uid="Startitecture.Orm.Common.JoinClause.#ctor(Startitecture.Orm.Model.IEntityDefinitionProvider,Startitecture.Orm.Model.INameQualifier)">JoinClause(IEntityDefinitionProvider, INameQualifier)</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="Startitecture.Orm.Common.JoinClause.html">JoinClause</a> class.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public SqlClientProviderFactory([NotNull] string connectionString, [NotNull] IEntityDefinitionProvider definitionProvider)</code></pre>
+    <pre><code class="lang-csharp hljs">public JoinClause([NotNull] IEntityDefinitionProvider definitionProvider, [NotNull] INameQualifier nameQualifier)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -141,15 +137,15 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">connectionString</span></td>
-        <td><p>The connection string.</p>
-</td>
-      </tr>
-      <tr>
         <td><a class="xref" href="Startitecture.Orm.Model.IEntityDefinitionProvider.html">IEntityDefinitionProvider</a></td>
         <td><span class="parametername">definitionProvider</span></td>
         <td><p>The definition provider.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Model.INameQualifier.html">INameQualifier</a></td>
+        <td><span class="parametername">nameQualifier</span></td>
+        <td><p>The SQL name qualifier.</p>
 </td>
       </tr>
     </tbody>
@@ -165,13 +161,38 @@
     <tbody>
       <tr>
         <td><span class="xref">System.ArgumentNullException</span></td>
-        <td><p><code data-dev-comment-type="paramref" class="paramref">definitionProvider</code> is null.</p>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">definitionProvider</code> or <code data-dev-comment-type="paramref" class="paramref">nameQualifier</code> is null.</p>
 </td>
       </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/JoinClause.cs&amp;version=GBmaster&amp;line=78">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Common_JoinClause_Indent_" data-uid="Startitecture.Orm.Common.JoinClause.Indent*"></a>
+  <h4 id="Startitecture_Orm_Common_JoinClause_Indent" data-uid="Startitecture.Orm.Common.JoinClause.Indent">Indent</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the indent for the statement output.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Indent { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
       <tr>
-        <td><span class="xref">System.ArgumentException</span></td>
-        <td><p><code data-dev-comment-type="paramref" class="paramref">connectionString</code> is null or whitespace.</p>
-</td>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -179,17 +200,35 @@
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.SqlClient/SqlClientProviderFactory.cs&amp;version=GBmaster&amp;line=70">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/JoinClause.cs&amp;version=GBmaster&amp;line=89">View Source</a>
   </span>
-  <a id="Startitecture_Orm_SqlClient_SqlClientProviderFactory_Create_" data-uid="Startitecture.Orm.SqlClient.SqlClientProviderFactory.Create*"></a>
-  <h4 id="Startitecture_Orm_SqlClient_SqlClientProviderFactory_Create" data-uid="Startitecture.Orm.SqlClient.SqlClientProviderFactory.Create">Create()</h4>
-  <div class="markdown level1 summary"><p>Creates an <a class="xref" href="Startitecture.Orm.Model.IRepositoryProvider.html">IRepositoryProvider</a>.</p>
+  <a id="Startitecture_Orm_Common_JoinClause_Create_" data-uid="Startitecture.Orm.Common.JoinClause.Create*"></a>
+  <h4 id="Startitecture_Orm_Common_JoinClause_Create_System_Collections_Generic_IEnumerable_Startitecture_Orm_Model_IEntityRelation__" data-uid="Startitecture.Orm.Common.JoinClause.Create(System.Collections.Generic.IEnumerable{Startitecture.Orm.Model.IEntityRelation})">Create(IEnumerable&lt;IEntityRelation&gt;)</h4>
+  <div class="markdown level1 summary"><p>Creates a JOIN clause for the specified <code data-dev-comment-type="paramref" class="paramref">relations</code>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IRepositoryProvider Create()</code></pre>
+    <pre><code class="lang-csharp hljs">public string Create([NotNull] IEnumerable&lt;IEntityRelation&gt; relations)</code></pre>
   </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Startitecture.Orm.Model.IEntityRelation.html">IEntityRelation</a>&gt;</td>
+        <td><span class="parametername">relations</span></td>
+        <td><p>The relations to create the JOIN clause for.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -200,16 +239,12 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Startitecture.Orm.Model.IRepositoryProvider.html">IRepositoryProvider</a></td>
-        <td><p>An <a class="xref" href="Startitecture.Orm.Model.IRepositoryProvider.html">IRepositoryProvider</a>.</p>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The JOIN clause as a <span class="xref">System.String</span>.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h3 id="implements">Implements</h3>
-  <div>
-      <a class="xref" href="Startitecture.Orm.Model.IRepositoryProviderFactory.html">IRepositoryProviderFactory</a>
-  </div>
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>
       <a class="xref" href="Startitecture.Orm.Testing.Moq.ExtensionMethods.html#Startitecture_Orm_Testing_Moq_ExtensionMethods_MockDataReader__1___0_System_Collections_Generic_IEnumerable_Startitecture_Orm_Model_EntityAttributeDefinition__">ExtensionMethods.MockDataReader&lt;T&gt;(T, IEnumerable&lt;EntityAttributeDefinition&gt;)</a>
@@ -222,7 +257,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.SqlClient/SqlClientProviderFactory.cs&amp;version=GBmaster&amp;line=26" class="contribution-link">View Source</a>
+                    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/JoinClause.cs&amp;version=GBmaster&amp;line=25" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
