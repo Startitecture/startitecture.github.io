@@ -1,0 +1,823 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class DatabaseContext
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class DatabaseContext
+   ">
+    <meta name="generator" content="docfx 2.56.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Startitecture.Orm.Mapper.DatabaseContext">
+  
+  
+  <h1 id="Startitecture_Orm_Mapper_DatabaseContext" data-uid="Startitecture.Orm.Mapper.DatabaseContext" class="text-break">Class DatabaseContext
+  </h1>
+  <div class="markdown level0 summary"><p>Exposes a minimal database context to a repository provider.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">DatabaseContext</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="Startitecture.Orm.Common.IDatabaseContext.html">IDatabaseContext</a></div>
+    <div><span class="xref">System.IDisposable</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Startitecture.Orm.Mapper.html">Startitecture.Orm.Mapper</a></h6>
+  <h6><strong>Assembly</strong>: Startitecture.Orm.Mapper.dll</h6>
+  <h5 id="Startitecture_Orm_Mapper_DatabaseContext_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class DatabaseContext : IDatabaseContext, IDisposable</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Mapper/DatabaseContext.cs&amp;version=GBmaster&amp;line=94">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Mapper_DatabaseContext__ctor_" data-uid="Startitecture.Orm.Mapper.DatabaseContext.#ctor*"></a>
+  <h4 id="Startitecture_Orm_Mapper_DatabaseContext__ctor_System_Data_IDbConnection_Startitecture_Orm_Model_IEntityDefinitionProvider_Startitecture_Orm_Common_IStatementCompiler_" data-uid="Startitecture.Orm.Mapper.DatabaseContext.#ctor(System.Data.IDbConnection,Startitecture.Orm.Model.IEntityDefinitionProvider,Startitecture.Orm.Common.IStatementCompiler)">DatabaseContext(IDbConnection, IEntityDefinitionProvider, IStatementCompiler)</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="Startitecture.Orm.Mapper.DatabaseContext.html">DatabaseContext</a> class.
+Construct a database using a supplied IDbConnection</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DatabaseContext([NotNull] IDbConnection connection, [NotNull] IEntityDefinitionProvider definitionProvider, [NotNull] IStatementCompiler statementCompiler)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.IDbConnection</span></td>
+        <td><span class="parametername">connection</span></td>
+        <td><p>The IDbConnection to use</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Model.IEntityDefinitionProvider.html">IEntityDefinitionProvider</a></td>
+        <td><span class="parametername">definitionProvider</span></td>
+        <td><p>The entity definition provider.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Common.IStatementCompiler.html">IStatementCompiler</a></td>
+        <td><span class="parametername">statementCompiler</span></td>
+        <td><p>The name qualifier for the database.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Startitecture_Orm_Mapper_DatabaseContext__ctor_System_Data_IDbConnection_Startitecture_Orm_Model_IEntityDefinitionProvider_Startitecture_Orm_Common_IStatementCompiler__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>The supplied IDbConnection will not be closed/disposed - that remains the responsibility of the caller.</p>
+</div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">connection</code>, <code data-dev-comment-type="paramref" class="paramref">definitionProvider</code>, or <code data-dev-comment-type="paramref" class="paramref">statementCompiler</code> is null.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Mapper/DatabaseContext.cs&amp;version=GBmaster&amp;line=171">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Mapper_DatabaseContext__ctor_" data-uid="Startitecture.Orm.Mapper.DatabaseContext.#ctor*"></a>
+  <h4 id="Startitecture_Orm_Mapper_DatabaseContext__ctor_System_String_System_Data_Common_DbProviderFactory_Startitecture_Orm_Common_IStatementCompiler_" data-uid="Startitecture.Orm.Mapper.DatabaseContext.#ctor(System.String,System.Data.Common.DbProviderFactory,Startitecture.Orm.Common.IStatementCompiler)">DatabaseContext(String, DbProviderFactory, IStatementCompiler)</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="Startitecture.Orm.Mapper.DatabaseContext.html">DatabaseContext</a> class.
+Construct a Database using a supplied connection string and a DbProviderFactory</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DatabaseContext([NotNull] string connectionString, [NotNull] DbProviderFactory providerFactory, [NotNull] IStatementCompiler statementCompiler)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">connectionString</span></td>
+        <td><p>The connection string to use</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Data.Common.DbProviderFactory</span></td>
+        <td><span class="parametername">providerFactory</span></td>
+        <td><p>The DbProviderFactory to use for instantiating IDbConnections.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Common.IStatementCompiler.html">IStatementCompiler</a></td>
+        <td><span class="parametername">statementCompiler</span></td>
+        <td><p>The entity definition provider.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">connectionString</code> is null or whitespace.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">providerFactory</code> or <code data-dev-comment-type="paramref" class="paramref">statementCompiler</code> is null.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Mapper/DatabaseContext.cs&amp;version=GBmaster&amp;line=128">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Mapper_DatabaseContext__ctor_" data-uid="Startitecture.Orm.Mapper.DatabaseContext.#ctor*"></a>
+  <h4 id="Startitecture_Orm_Mapper_DatabaseContext__ctor_System_String_System_String_Startitecture_Orm_Common_IStatementCompiler_" data-uid="Startitecture.Orm.Mapper.DatabaseContext.#ctor(System.String,System.String,Startitecture.Orm.Common.IStatementCompiler)">DatabaseContext(String, String, IStatementCompiler)</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="Startitecture.Orm.Mapper.DatabaseContext.html">DatabaseContext</a> class.
+Construct a database using a supplied connections string and optionally a provider name</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DatabaseContext([NotNull] string connectionString, [NotNull] string providerName, [NotNull] IStatementCompiler statementCompiler)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">connectionString</span></td>
+        <td><p>The DB connection string</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">providerName</span></td>
+        <td><p>The name of the DB provider to use</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Common.IStatementCompiler.html">IStatementCompiler</a></td>
+        <td><span class="parametername">statementCompiler</span></td>
+        <td><p>The name qualifier for the database.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Startitecture_Orm_Mapper_DatabaseContext__ctor_System_String_System_String_Startitecture_Orm_Common_IStatementCompiler__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This class will automatically close and dispose any connections it creates.</p>
+</div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">connectionString</code> or <code data-dev-comment-type="paramref" class="paramref">providerName</code> is null or whitespace.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">statementCompiler</code> is null.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Mapper/DatabaseContext.cs&amp;version=GBmaster&amp;line=195">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Mapper_DatabaseContext_CommandTimeout_" data-uid="Startitecture.Orm.Mapper.DatabaseContext.CommandTimeout*"></a>
+  <h4 id="Startitecture_Orm_Mapper_DatabaseContext_CommandTimeout" data-uid="Startitecture.Orm.Mapper.DatabaseContext.CommandTimeout">CommandTimeout</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the timeout value for all SQL statements.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int CommandTimeout { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Mapper/DatabaseContext.cs&amp;version=GBmaster&amp;line=198">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Mapper_DatabaseContext_Connection_" data-uid="Startitecture.Orm.Mapper.DatabaseContext.Connection*"></a>
+  <h4 id="Startitecture_Orm_Mapper_DatabaseContext_Connection" data-uid="Startitecture.Orm.Mapper.DatabaseContext.Connection">Connection</h4>
+  <div class="markdown level1 summary"><p>Gets the currently open shared connection (or null if none)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IDbConnection Connection { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.IDbConnection</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Mapper/DatabaseContext.cs&amp;version=GBmaster&amp;line=207">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Mapper_DatabaseContext_DefinitionProvider_" data-uid="Startitecture.Orm.Mapper.DatabaseContext.DefinitionProvider*"></a>
+  <h4 id="Startitecture_Orm_Mapper_DatabaseContext_DefinitionProvider" data-uid="Startitecture.Orm.Mapper.DatabaseContext.DefinitionProvider">DefinitionProvider</h4>
+  <div class="markdown level1 summary"><p>Gets the definition provider for the database context.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEntityDefinitionProvider DefinitionProvider { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Model.IEntityDefinitionProvider.html">IEntityDefinitionProvider</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Mapper/DatabaseContext.cs&amp;version=GBmaster&amp;line=201">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Mapper_DatabaseContext_EnableNamedParameters_" data-uid="Startitecture.Orm.Mapper.DatabaseContext.EnableNamedParameters*"></a>
+  <h4 id="Startitecture_Orm_Mapper_DatabaseContext_EnableNamedParameters" data-uid="Startitecture.Orm.Mapper.DatabaseContext.EnableNamedParameters">EnableNamedParameters</h4>
+  <div class="markdown level1 summary"><p>Gets or sets a value indicating whether parameters named <pre><code>?myparam</code></pre> are populated from properties of the passed
+in argument values.
+TODO: Validate and test or remove this feature.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool EnableNamedParameters { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Mapper/DatabaseContext.cs&amp;version=GBmaster&amp;line=204">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Mapper_DatabaseContext_OnetimeCommandTimeout_" data-uid="Startitecture.Orm.Mapper.DatabaseContext.OnetimeCommandTimeout*"></a>
+  <h4 id="Startitecture_Orm_Mapper_DatabaseContext_OnetimeCommandTimeout" data-uid="Startitecture.Orm.Mapper.DatabaseContext.OnetimeCommandTimeout">OnetimeCommandTimeout</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the timeout value for the next (and only next) SQL statement.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int OnetimeCommandTimeout { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Mapper/DatabaseContext.cs&amp;version=GBmaster&amp;line=210">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Mapper_DatabaseContext_StatementCompiler_" data-uid="Startitecture.Orm.Mapper.DatabaseContext.StatementCompiler*"></a>
+  <h4 id="Startitecture_Orm_Mapper_DatabaseContext_StatementCompiler" data-uid="Startitecture.Orm.Mapper.DatabaseContext.StatementCompiler">StatementCompiler</h4>
+  <div class="markdown level1 summary"><p>Gets the statement compiler for the database context.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IStatementCompiler StatementCompiler { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Common.IStatementCompiler.html">IStatementCompiler</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Mapper/DatabaseContext.cs&amp;version=GBmaster&amp;line=256">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Mapper_DatabaseContext_BeginTransaction_" data-uid="Startitecture.Orm.Mapper.DatabaseContext.BeginTransaction*"></a>
+  <h4 id="Startitecture_Orm_Mapper_DatabaseContext_BeginTransaction" data-uid="Startitecture.Orm.Mapper.DatabaseContext.BeginTransaction">BeginTransaction()</h4>
+  <div class="markdown level1 summary"><p>Starts a transaction scope, see GetTransaction() for recommended usage</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IDbTransaction BeginTransaction()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.IDbTransaction</span></td>
+        <td><p>A new <span class="xref">System.Data.IDbTransaction</span>, or the current transaction if a transaction has already been started.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Mapper/DatabaseContext.cs&amp;version=GBmaster&amp;line=557">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Mapper_DatabaseContext_Dispose_" data-uid="Startitecture.Orm.Mapper.DatabaseContext.Dispose*"></a>
+  <h4 id="Startitecture_Orm_Mapper_DatabaseContext_Dispose" data-uid="Startitecture.Orm.Mapper.DatabaseContext.Dispose">Dispose()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Dispose()</code></pre>
+  </div>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Mapper/DatabaseContext.cs&amp;version=GBmaster&amp;line=573">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Mapper_DatabaseContext_Dispose_" data-uid="Startitecture.Orm.Mapper.DatabaseContext.Dispose*"></a>
+  <h4 id="Startitecture_Orm_Mapper_DatabaseContext_Dispose_System_Boolean_" data-uid="Startitecture.Orm.Mapper.DatabaseContext.Dispose(System.Boolean)">Dispose(Boolean)</h4>
+  <div class="markdown level1 summary"><p>Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void Dispose(bool disposing)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">disposing</span></td>
+        <td><p>A value indicating whether the current instance is being explicitly disposed.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Mapper/DatabaseContext.cs&amp;version=GBmaster&amp;line=285">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Mapper_DatabaseContext_Execute_" data-uid="Startitecture.Orm.Mapper.DatabaseContext.Execute*"></a>
+  <h4 id="Startitecture_Orm_Mapper_DatabaseContext_Execute_System_String_System_Object___" data-uid="Startitecture.Orm.Mapper.DatabaseContext.Execute(System.String,System.Object[])">Execute(String, Object[])</h4>
+  <div class="markdown level1 summary"><p>Executes a non-query command</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Execute([NotNull] string sql, [NotNull] params object[] args)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">sql</span></td>
+        <td><p>The SQL statement to execute</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span>[]</td>
+        <td><span class="parametername">args</span></td>
+        <td><p>Arguments to any embedded parameters in the SQL</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>The number of rows affected</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Mapper/DatabaseContext.cs&amp;version=GBmaster&amp;line=321">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Mapper_DatabaseContext_ExecuteScalar_" data-uid="Startitecture.Orm.Mapper.DatabaseContext.ExecuteScalar*"></a>
+  <h4 id="Startitecture_Orm_Mapper_DatabaseContext_ExecuteScalar__1_System_String_System_Object___" data-uid="Startitecture.Orm.Mapper.DatabaseContext.ExecuteScalar``1(System.String,System.Object[])">ExecuteScalar&lt;T&gt;(String, Object[])</h4>
+  <div class="markdown level1 summary"><p>Executes a query and return the first column of the first row in the result set.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public T ExecuteScalar&lt;T&gt;([NotNull] string sql, [NotNull] params object[] args)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">sql</span></td>
+        <td><p>The SQL query to execute</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span>[]</td>
+        <td><span class="parametername">args</span></td>
+        <td><p>Arguments to any embedded parameters in the SQL</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><p>The scalar value cast to T</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type that the result value should be cast to</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Mapper/DatabaseContext.cs&amp;version=GBmaster&amp;line=224">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Mapper_DatabaseContext_OpenSharedConnection_" data-uid="Startitecture.Orm.Mapper.DatabaseContext.OpenSharedConnection*"></a>
+  <h4 id="Startitecture_Orm_Mapper_DatabaseContext_OpenSharedConnection" data-uid="Startitecture.Orm.Mapper.DatabaseContext.OpenSharedConnection">OpenSharedConnection()</h4>
+  <div class="markdown level1 summary"><p>Open a connection that will be used for all subsequent queries.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OpenSharedConnection()</code></pre>
+  </div>
+  <h5 id="Startitecture_Orm_Mapper_DatabaseContext_OpenSharedConnection_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Calls to Open/CloseSharedConnection are reference counted and should be balanced</p>
+</div>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Mapper/DatabaseContext.cs&amp;version=GBmaster&amp;line=374">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Mapper_DatabaseContext_Query_" data-uid="Startitecture.Orm.Mapper.DatabaseContext.Query*"></a>
+  <h4 id="Startitecture_Orm_Mapper_DatabaseContext_Query__1_System_String_System_Object___" data-uid="Startitecture.Orm.Mapper.DatabaseContext.Query``1(System.String,System.Object[])">Query&lt;T&gt;(String, Object[])</h4>
+  <div class="markdown level1 summary"><p>Runs an SQL query, returning the results as an IEnumerable collection.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;T&gt; Query&lt;T&gt;([NotNull] string sql, [NotNull] params object[] args)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">sql</span></td>
+        <td><p>The SQL query.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span>[]</td>
+        <td><span class="parametername">args</span></td>
+        <td><p>Arguments to any embedded parameters in the SQL statement.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;T&gt;</td>
+        <td><p>An enumerable collection of result records.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The Type representing a row in the result set.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Startitecture_Orm_Mapper_DatabaseContext_Query__1_System_String_System_Object____remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>For some DB providers, care should be taken to not start a new Query before finishing with and disposing the previous one.
+In cases where this is an issue, consider using Fetch which returns the results as a List rather than an IEnumerable.</p>
+</div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="Startitecture.Orm.Common.IDatabaseContext.html">IDatabaseContext</a>
+  </div>
+  <div>
+      <span class="xref">System.IDisposable</span>
+  </div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="Startitecture.Orm.Testing.Moq.ExtensionMethods.html#Startitecture_Orm_Testing_Moq_ExtensionMethods_MockDataReader__1___0_System_Collections_Generic_IEnumerable_Startitecture_Orm_Model_EntityAttributeDefinition__">ExtensionMethods.MockDataReader&lt;T&gt;(T, IEnumerable&lt;EntityAttributeDefinition&gt;)</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Mapper/DatabaseContext.cs&amp;version=GBmaster&amp;line=27" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

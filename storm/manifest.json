@@ -233,6 +233,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Common.AnsiString.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Common.AnsiString.html",
+          "hash": "HH6dk+X1ESUD/BFiSj187A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Startitecture.Orm.Common.DataTableLoader-1.yml",
       "output": {
         ".html": {
@@ -249,7 +261,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.Common.DatabaseRepositoryProvider.html",
-          "hash": "/+jX9YS4qsV73f7ED/TQYg=="
+          "hash": "JbwHhEx5+1Fr/jnI34iaCQ=="
         }
       },
       "is_incremental": false,
@@ -285,7 +297,19 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.Common.IDatabaseContext.html",
-          "hash": "XIgo1mqEoPQ2iiwXRCBk6Q=="
+          "hash": "MskOej/5Z5G7c9ImRPM1wg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Common.IDatabaseContextFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Common.IDatabaseContextFactory.html",
+          "hash": "UvqZpgnstCC4GBnv2mEC2Q=="
         }
       },
       "is_incremental": false,
@@ -305,11 +329,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Startitecture.Orm.Common.IDatabaseFactory.yml",
+      "source_relative_path": "api/Startitecture.Orm.Common.IRepositoryAdapter.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Startitecture.Orm.Common.IDatabaseFactory.html",
-          "hash": "PA3uD5LIGpwBVtiETL1UFw=="
+          "relative_path": "api/Startitecture.Orm.Common.IRepositoryAdapter.html",
+          "hash": "oTSk//D4slAVxQ2FaQj7Og=="
         }
       },
       "is_incremental": false,
@@ -317,11 +341,23 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Startitecture.Orm.Common.IRepositoryAdapter.yml",
+      "source_relative_path": "api/Startitecture.Orm.Common.IStatementCompiler.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Startitecture.Orm.Common.IRepositoryAdapter.html",
-          "hash": "oTSk//D4slAVxQ2FaQj7Og=="
+          "relative_path": "api/Startitecture.Orm.Common.IStatementCompiler.html",
+          "hash": "uca9N8l4WjQtpASeo8wGAg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Startitecture.Orm.Common.IStatementCompilerFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Startitecture.Orm.Common.IStatementCompilerFactory.html",
+          "hash": "F9P8aSfvGtCODEbTIR2UxQ=="
         }
       },
       "is_incremental": false,
@@ -389,11 +425,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Startitecture.Orm.Common.StatementFactory.yml",
+      "source_relative_path": "api/Startitecture.Orm.Common.StatementCompiler.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Startitecture.Orm.Common.StatementFactory.html",
-          "hash": "cEh86JqOBSdSL7myrP2H5Q=="
+          "relative_path": "api/Startitecture.Orm.Common.StatementCompiler.html",
+          "hash": "B8K1WTr9k6A9NJHoBY/2Vg=="
         }
       },
       "is_incremental": false,
@@ -417,7 +453,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.Common.html",
-          "hash": "1EUONrWEkuiK5CSPAN93cw=="
+          "hash": "HmvhTAJAEEEi5aIO4i4A3w=="
         }
       },
       "is_incremental": false,
@@ -425,11 +461,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Startitecture.Orm.Mapper.AnsiString.yml",
+      "source_relative_path": "api/Startitecture.Orm.Mapper.DatabaseContext.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Startitecture.Orm.Mapper.AnsiString.html",
-          "hash": "DOrn+lJPKvd7sLZfCoQkOQ=="
+          "relative_path": "api/Startitecture.Orm.Mapper.DatabaseContext.html",
+          "hash": "aRvqnGl95V35BFmSPYkaSQ=="
         }
       },
       "is_incremental": false,
@@ -437,23 +473,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Startitecture.Orm.Mapper.Database.yml",
+      "source_relative_path": "api/Startitecture.Orm.Mapper.DefaultDatabaseContextFactory.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Startitecture.Orm.Mapper.Database.html",
-          "hash": "tZFHYn+ri2dTaD+BsbDq6w=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Startitecture.Orm.Mapper.DefaultDatabaseFactory.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Startitecture.Orm.Mapper.DefaultDatabaseFactory.html",
-          "hash": "cStAeqe9wPNtqntABMalyg=="
+          "relative_path": "api/Startitecture.Orm.Mapper.DefaultDatabaseContextFactory.html",
+          "hash": "LLPIt30dsi0D7ACaD+aLTw=="
         }
       },
       "is_incremental": false,
@@ -477,7 +501,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.Mapper.FlatPocoFactory.html",
-          "hash": "GfOEwVTj6lSplW6eHkbRpA=="
+          "hash": "m7YPSgobcoUcPHcdraDQ9g=="
         }
       },
       "is_incremental": false,
@@ -573,7 +597,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.Mapper.html",
-          "hash": "y12mQpzBj20fB0vSZRVo4Q=="
+          "hash": "PK9y2KVqHZN6x1bK1mKTag=="
         }
       },
       "is_incremental": false,
@@ -645,7 +669,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.Model.EntityDefinition.html",
-          "hash": "e8kWZNtzb8UvVyDa52hk8g=="
+          "hash": "SCxM/NtTMjPXrcWLE0xxtQ=="
         }
       },
       "is_incremental": false,
@@ -777,7 +801,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.Model.IEntityDefinition.html",
-          "hash": "BWLpKQoQ+jQgZlNYR1I6CA=="
+          "hash": "nw+FToK0cdqsGRMMcEMM7Q=="
         }
       },
       "is_incremental": false,
@@ -910,18 +934,6 @@
         ".html": {
           "relative_path": "api/Startitecture.Orm.Model.ISelection.html",
           "hash": "ygd+sdCo/lTE+DjbL371hA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Startitecture.Orm.Model.IStatementFactory.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Startitecture.Orm.Model.IStatementFactory.html",
-          "hash": "iLRsNrM/b1kkUEud6I2LEQ=="
         }
       },
       "is_incremental": false,
@@ -1101,7 +1113,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.Model.html",
-          "hash": "nhXboERsXld26E2dCmLxPw=="
+          "hash": "MxaKojuDZO9ECzGsC/w0zA=="
         }
       },
       "is_incremental": false,
@@ -1289,11 +1301,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Startitecture.Orm.SqlClient.TransactSqlFactory.yml",
+      "source_relative_path": "api/Startitecture.Orm.SqlClient.TransactSqlCompiler.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Startitecture.Orm.SqlClient.TransactSqlFactory.html",
-          "hash": "3ixrcCo0c66UBpiQuoRbTA=="
+          "relative_path": "api/Startitecture.Orm.SqlClient.TransactSqlCompiler.html",
+          "hash": "NEmGZLlYL0WwqQNcbJfbVA=="
         }
       },
       "is_incremental": false,
@@ -1317,7 +1329,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.SqlClient.html",
-          "hash": "zWZwwemJo4mboIEk4OItMg=="
+          "hash": "Yyo60HUn0R1z0C/yJNr3Tw=="
         }
       },
       "is_incremental": false,
@@ -2913,7 +2925,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "2RB6fMJzT/0HDZZDuVQE7Q=="
+          "hash": "DNZ5pClDpvfSuKeRAegpgA=="
         }
       },
       "is_incremental": false,
@@ -3003,7 +3015,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 241,
+          "total_file_count": 242,
           "skipped_file_count": 0
         },
         "TocDocumentProcessor": {

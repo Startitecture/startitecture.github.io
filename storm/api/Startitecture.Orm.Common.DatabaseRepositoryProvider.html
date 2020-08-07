@@ -118,16 +118,16 @@
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/DatabaseRepositoryProvider.cs&amp;version=GBmaster&amp;line=66">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/DatabaseRepositoryProvider.cs&amp;version=GBmaster&amp;line=58">View Source</a>
   </span>
   <a id="Startitecture_Orm_Common_DatabaseRepositoryProvider__ctor_" data-uid="Startitecture.Orm.Common.DatabaseRepositoryProvider.#ctor*"></a>
-  <h4 id="Startitecture_Orm_Common_DatabaseRepositoryProvider__ctor_Startitecture_Orm_Common_IDatabaseFactory_Startitecture_Orm_Model_IStatementFactory_" data-uid="Startitecture.Orm.Common.DatabaseRepositoryProvider.#ctor(Startitecture.Orm.Common.IDatabaseFactory,Startitecture.Orm.Model.IStatementFactory)">DatabaseRepositoryProvider(IDatabaseFactory, IStatementFactory)</h4>
+  <h4 id="Startitecture_Orm_Common_DatabaseRepositoryProvider__ctor_Startitecture_Orm_Common_IDatabaseContextFactory_" data-uid="Startitecture.Orm.Common.DatabaseRepositoryProvider.#ctor(Startitecture.Orm.Common.IDatabaseContextFactory)">DatabaseRepositoryProvider(IDatabaseContextFactory)</h4>
   <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="Startitecture.Orm.Common.DatabaseRepositoryProvider.html">DatabaseRepositoryProvider</a> class.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public DatabaseRepositoryProvider([NotNull] IDatabaseFactory databaseFactory, [NotNull] IStatementFactory statementFactory)</code></pre>
+    <pre><code class="lang-csharp hljs">public DatabaseRepositoryProvider([NotNull] IDatabaseContextFactory databaseContextFactory)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -140,31 +140,25 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Startitecture.Orm.Common.IDatabaseFactory.html">IDatabaseFactory</a></td>
-        <td><span class="parametername">databaseFactory</span></td>
-        <td><p>The database factory.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="Startitecture.Orm.Model.IStatementFactory.html">IStatementFactory</a></td>
-        <td><span class="parametername">statementFactory</span></td>
-        <td><p>The repository adapter.</p>
+        <td><a class="xref" href="Startitecture.Orm.Common.IDatabaseContextFactory.html">IDatabaseContextFactory</a></td>
+        <td><span class="parametername">databaseContextFactory</span></td>
+        <td><p>The database context factory.</p>
 </td>
       </tr>
     </tbody>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/DatabaseRepositoryProvider.cs&amp;version=GBmaster&amp;line=85">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/DatabaseRepositoryProvider.cs&amp;version=GBmaster&amp;line=73">View Source</a>
   </span>
   <a id="Startitecture_Orm_Common_DatabaseRepositoryProvider__ctor_" data-uid="Startitecture.Orm.Common.DatabaseRepositoryProvider.#ctor*"></a>
-  <h4 id="Startitecture_Orm_Common_DatabaseRepositoryProvider__ctor_Startitecture_Orm_Common_IDatabaseFactory_Startitecture_Orm_Model_IStatementFactory_System_Runtime_Caching_ObjectCache_" data-uid="Startitecture.Orm.Common.DatabaseRepositoryProvider.#ctor(Startitecture.Orm.Common.IDatabaseFactory,Startitecture.Orm.Model.IStatementFactory,System.Runtime.Caching.ObjectCache)">DatabaseRepositoryProvider(IDatabaseFactory, IStatementFactory, ObjectCache)</h4>
+  <h4 id="Startitecture_Orm_Common_DatabaseRepositoryProvider__ctor_Startitecture_Orm_Common_IDatabaseContextFactory_System_Runtime_Caching_ObjectCache_" data-uid="Startitecture.Orm.Common.DatabaseRepositoryProvider.#ctor(Startitecture.Orm.Common.IDatabaseContextFactory,System.Runtime.Caching.ObjectCache)">DatabaseRepositoryProvider(IDatabaseContextFactory, ObjectCache)</h4>
   <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="Startitecture.Orm.Common.DatabaseRepositoryProvider.html">DatabaseRepositoryProvider</a> class.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public DatabaseRepositoryProvider([NotNull] IDatabaseFactory databaseFactory, [NotNull] IStatementFactory statementFactory, [NotNull] ObjectCache entityCache)</code></pre>
+    <pre><code class="lang-csharp hljs">public DatabaseRepositoryProvider([NotNull] IDatabaseContextFactory databaseContextFactory, [NotNull] ObjectCache entityCache)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -177,15 +171,9 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Startitecture.Orm.Common.IDatabaseFactory.html">IDatabaseFactory</a></td>
-        <td><span class="parametername">databaseFactory</span></td>
-        <td><p>The database factory.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="Startitecture.Orm.Model.IStatementFactory.html">IStatementFactory</a></td>
-        <td><span class="parametername">statementFactory</span></td>
-        <td><p>The repository adapter.</p>
+        <td><a class="xref" href="Startitecture.Orm.Common.IDatabaseContextFactory.html">IDatabaseContextFactory</a></td>
+        <td><span class="parametername">databaseContextFactory</span></td>
+        <td><p>The database context factory.</p>
 </td>
       </tr>
       <tr>
@@ -200,7 +188,7 @@
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/DatabaseRepositoryProvider.cs&amp;version=GBmaster&amp;line=138">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/DatabaseRepositoryProvider.cs&amp;version=GBmaster&amp;line=119">View Source</a>
   </span>
   <a id="Startitecture_Orm_Common_DatabaseRepositoryProvider_CacheExpiration_" data-uid="Startitecture.Orm.Common.DatabaseRepositoryProvider.CacheExpiration*"></a>
   <h4 id="Startitecture_Orm_Common_DatabaseRepositoryProvider_CacheExpiration" data-uid="Startitecture.Orm.Common.DatabaseRepositoryProvider.CacheExpiration">CacheExpiration</h4>
@@ -228,7 +216,7 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/DatabaseRepositoryProvider.cs&amp;version=GBmaster&amp;line=129">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/DatabaseRepositoryProvider.cs&amp;version=GBmaster&amp;line=110">View Source</a>
   </span>
   <a id="Startitecture_Orm_Common_DatabaseRepositoryProvider_DatabaseContext_" data-uid="Startitecture.Orm.Common.DatabaseRepositoryProvider.DatabaseContext*"></a>
   <h4 id="Startitecture_Orm_Common_DatabaseRepositoryProvider_DatabaseContext" data-uid="Startitecture.Orm.Common.DatabaseRepositoryProvider.DatabaseContext">DatabaseContext</h4>
@@ -256,7 +244,7 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/DatabaseRepositoryProvider.cs&amp;version=GBmaster&amp;line=135">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/DatabaseRepositoryProvider.cs&amp;version=GBmaster&amp;line=116">View Source</a>
   </span>
   <a id="Startitecture_Orm_Common_DatabaseRepositoryProvider_EnableCaching_" data-uid="Startitecture.Orm.Common.DatabaseRepositoryProvider.EnableCaching*"></a>
   <h4 id="Startitecture_Orm_Common_DatabaseRepositoryProvider_EnableCaching" data-uid="Startitecture.Orm.Common.DatabaseRepositoryProvider.EnableCaching">EnableCaching</h4>
@@ -284,7 +272,7 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/DatabaseRepositoryProvider.cs&amp;version=GBmaster&amp;line=126">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/DatabaseRepositoryProvider.cs&amp;version=GBmaster&amp;line=107">View Source</a>
   </span>
   <a id="Startitecture_Orm_Common_DatabaseRepositoryProvider_EntityDefinitionProvider_" data-uid="Startitecture.Orm.Common.DatabaseRepositoryProvider.EntityDefinitionProvider*"></a>
   <h4 id="Startitecture_Orm_Common_DatabaseRepositoryProvider_EntityDefinitionProvider" data-uid="Startitecture.Orm.Common.DatabaseRepositoryProvider.EntityDefinitionProvider">EntityDefinitionProvider</h4>
@@ -312,7 +300,7 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/DatabaseRepositoryProvider.cs&amp;version=GBmaster&amp;line=132">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/DatabaseRepositoryProvider.cs&amp;version=GBmaster&amp;line=113">View Source</a>
   </span>
   <a id="Startitecture_Orm_Common_DatabaseRepositoryProvider_IsDisposed_" data-uid="Startitecture.Orm.Common.DatabaseRepositoryProvider.IsDisposed*"></a>
   <h4 id="Startitecture_Orm_Common_DatabaseRepositoryProvider_IsDisposed" data-uid="Startitecture.Orm.Common.DatabaseRepositoryProvider.IsDisposed">IsDisposed</h4>
@@ -342,7 +330,7 @@
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/DatabaseRepositoryProvider.cs&amp;version=GBmaster&amp;line=156">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/DatabaseRepositoryProvider.cs&amp;version=GBmaster&amp;line=137">View Source</a>
   </span>
   <a id="Startitecture_Orm_Common_DatabaseRepositoryProvider_ChangeDatabase_" data-uid="Startitecture.Orm.Common.DatabaseRepositoryProvider.ChangeDatabase*"></a>
   <h4 id="Startitecture_Orm_Common_DatabaseRepositoryProvider_ChangeDatabase_System_String_" data-uid="Startitecture.Orm.Common.DatabaseRepositoryProvider.ChangeDatabase(System.String)">ChangeDatabase(String)</h4>
@@ -373,7 +361,7 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/DatabaseRepositoryProvider.cs&amp;version=GBmaster&amp;line=214">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/DatabaseRepositoryProvider.cs&amp;version=GBmaster&amp;line=195">View Source</a>
   </span>
   <a id="Startitecture_Orm_Common_DatabaseRepositoryProvider_Contains_" data-uid="Startitecture.Orm.Common.DatabaseRepositoryProvider.Contains*"></a>
   <h4 id="Startitecture_Orm_Common_DatabaseRepositoryProvider_Contains__1_Startitecture_Orm_Model_EntitySet___0__" data-uid="Startitecture.Orm.Common.DatabaseRepositoryProvider.Contains``1(Startitecture.Orm.Model.EntitySet{``0})">Contains&lt;T&gt;(EntitySet&lt;T&gt;)</h4>
@@ -437,7 +425,7 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/DatabaseRepositoryProvider.cs&amp;version=GBmaster&amp;line=496">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/DatabaseRepositoryProvider.cs&amp;version=GBmaster&amp;line=488">View Source</a>
   </span>
   <a id="Startitecture_Orm_Common_DatabaseRepositoryProvider_Delete_" data-uid="Startitecture.Orm.Common.DatabaseRepositoryProvider.Delete*"></a>
   <h4 id="Startitecture_Orm_Common_DatabaseRepositoryProvider_Delete__1_Startitecture_Orm_Model_EntitySelection___0__" data-uid="Startitecture.Orm.Common.DatabaseRepositoryProvider.Delete``1(Startitecture.Orm.Model.EntitySelection{``0})">Delete&lt;T&gt;(EntitySelection&lt;T&gt;)</h4>
@@ -501,7 +489,7 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/DatabaseRepositoryProvider.cs&amp;version=GBmaster&amp;line=146">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/DatabaseRepositoryProvider.cs&amp;version=GBmaster&amp;line=127">View Source</a>
   </span>
   <a id="Startitecture_Orm_Common_DatabaseRepositoryProvider_Dispose_" data-uid="Startitecture.Orm.Common.DatabaseRepositoryProvider.Dispose*"></a>
   <h4 id="Startitecture_Orm_Common_DatabaseRepositoryProvider_Dispose" data-uid="Startitecture.Orm.Common.DatabaseRepositoryProvider.Dispose">Dispose()</h4>
@@ -513,7 +501,7 @@
   </div>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/DatabaseRepositoryProvider.cs&amp;version=GBmaster&amp;line=314">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/DatabaseRepositoryProvider.cs&amp;version=GBmaster&amp;line=295">View Source</a>
   </span>
   <a id="Startitecture_Orm_Common_DatabaseRepositoryProvider_DynamicFirstOrDefault_" data-uid="Startitecture.Orm.Common.DatabaseRepositoryProvider.DynamicFirstOrDefault*"></a>
   <h4 id="Startitecture_Orm_Common_DatabaseRepositoryProvider_DynamicFirstOrDefault_Startitecture_Orm_Model_ISelection_" data-uid="Startitecture.Orm.Common.DatabaseRepositoryProvider.DynamicFirstOrDefault(Startitecture.Orm.Model.ISelection)">DynamicFirstOrDefault(ISelection)</h4>
@@ -560,7 +548,7 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/DatabaseRepositoryProvider.cs&amp;version=GBmaster&amp;line=357">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/DatabaseRepositoryProvider.cs&amp;version=GBmaster&amp;line=338">View Source</a>
   </span>
   <a id="Startitecture_Orm_Common_DatabaseRepositoryProvider_DynamicSelect_" data-uid="Startitecture.Orm.Common.DatabaseRepositoryProvider.DynamicSelect*"></a>
   <h4 id="Startitecture_Orm_Common_DatabaseRepositoryProvider_DynamicSelect_Startitecture_Orm_Model_ISelection_" data-uid="Startitecture.Orm.Common.DatabaseRepositoryProvider.DynamicSelect(Startitecture.Orm.Model.ISelection)">DynamicSelect(ISelection)</h4>
@@ -607,7 +595,7 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/DatabaseRepositoryProvider.cs&amp;version=GBmaster&amp;line=526">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/DatabaseRepositoryProvider.cs&amp;version=GBmaster&amp;line=518">View Source</a>
   </span>
   <a id="Startitecture_Orm_Common_DatabaseRepositoryProvider_Execute_" data-uid="Startitecture.Orm.Common.DatabaseRepositoryProvider.Execute*"></a>
   <h4 id="Startitecture_Orm_Common_DatabaseRepositoryProvider_Execute_System_String_System_Object___" data-uid="Startitecture.Orm.Common.DatabaseRepositoryProvider.Execute(System.String,System.Object[])">Execute(String, Object[])</h4>
@@ -644,7 +632,7 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/DatabaseRepositoryProvider.cs&amp;version=GBmaster&amp;line=561">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/DatabaseRepositoryProvider.cs&amp;version=GBmaster&amp;line=553">View Source</a>
   </span>
   <a id="Startitecture_Orm_Common_DatabaseRepositoryProvider_ExecuteForResult_" data-uid="Startitecture.Orm.Common.DatabaseRepositoryProvider.ExecuteForResult*"></a>
   <h4 id="Startitecture_Orm_Common_DatabaseRepositoryProvider_ExecuteForResult_System_String_System_Object___" data-uid="Startitecture.Orm.Common.DatabaseRepositoryProvider.ExecuteForResult(System.String,System.Object[])">ExecuteForResult(String, Object[])</h4>
@@ -697,7 +685,7 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/DatabaseRepositoryProvider.cs&amp;version=GBmaster&amp;line=579">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/DatabaseRepositoryProvider.cs&amp;version=GBmaster&amp;line=571">View Source</a>
   </span>
   <a id="Startitecture_Orm_Common_DatabaseRepositoryProvider_ExecuteForResult_" data-uid="Startitecture.Orm.Common.DatabaseRepositoryProvider.ExecuteForResult*"></a>
   <h4 id="Startitecture_Orm_Common_DatabaseRepositoryProvider_ExecuteForResult__1_System_String_System_Object___" data-uid="Startitecture.Orm.Common.DatabaseRepositoryProvider.ExecuteForResult``1(System.String,System.Object[])">ExecuteForResult&lt;T&gt;(String, Object[])</h4>
@@ -766,7 +754,7 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/DatabaseRepositoryProvider.cs&amp;version=GBmaster&amp;line=543">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/DatabaseRepositoryProvider.cs&amp;version=GBmaster&amp;line=535">View Source</a>
   </span>
   <a id="Startitecture_Orm_Common_DatabaseRepositoryProvider_ExecuteScalar_" data-uid="Startitecture.Orm.Common.DatabaseRepositoryProvider.ExecuteScalar*"></a>
   <h4 id="Startitecture_Orm_Common_DatabaseRepositoryProvider_ExecuteScalar__1_System_String_System_Object___" data-uid="Startitecture.Orm.Common.DatabaseRepositoryProvider.ExecuteScalar``1(System.String,System.Object[])">ExecuteScalar&lt;T&gt;(String, Object[])</h4>
@@ -835,7 +823,7 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/DatabaseRepositoryProvider.cs&amp;version=GBmaster&amp;line=275">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/DatabaseRepositoryProvider.cs&amp;version=GBmaster&amp;line=256">View Source</a>
   </span>
   <a id="Startitecture_Orm_Common_DatabaseRepositoryProvider_FirstOrDefault_" data-uid="Startitecture.Orm.Common.DatabaseRepositoryProvider.FirstOrDefault*"></a>
   <h4 id="Startitecture_Orm_Common_DatabaseRepositoryProvider_FirstOrDefault__1_Startitecture_Orm_Model_EntitySelection___0__" data-uid="Startitecture.Orm.Common.DatabaseRepositoryProvider.FirstOrDefault``1(Startitecture.Orm.Model.EntitySelection{``0})">FirstOrDefault&lt;T&gt;(EntitySelection&lt;T&gt;)</h4>
@@ -899,7 +887,7 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/DatabaseRepositoryProvider.cs&amp;version=GBmaster&amp;line=246">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/DatabaseRepositoryProvider.cs&amp;version=GBmaster&amp;line=227">View Source</a>
   </span>
   <a id="Startitecture_Orm_Common_DatabaseRepositoryProvider_GetScalar_" data-uid="Startitecture.Orm.Common.DatabaseRepositoryProvider.GetScalar*"></a>
   <h4 id="Startitecture_Orm_Common_DatabaseRepositoryProvider_GetScalar__1_Startitecture_Orm_Model_ISelection_" data-uid="Startitecture.Orm.Common.DatabaseRepositoryProvider.GetScalar``1(Startitecture.Orm.Model.ISelection)">GetScalar&lt;T&gt;(ISelection)</h4>
@@ -962,7 +950,7 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/DatabaseRepositoryProvider.cs&amp;version=GBmaster&amp;line=386">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/DatabaseRepositoryProvider.cs&amp;version=GBmaster&amp;line=367">View Source</a>
   </span>
   <a id="Startitecture_Orm_Common_DatabaseRepositoryProvider_Insert_" data-uid="Startitecture.Orm.Common.DatabaseRepositoryProvider.Insert*"></a>
   <h4 id="Startitecture_Orm_Common_DatabaseRepositoryProvider_Insert__1___0_" data-uid="Startitecture.Orm.Common.DatabaseRepositoryProvider.Insert``1(``0)">Insert&lt;T&gt;(T)</h4>
@@ -1026,7 +1014,7 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/DatabaseRepositoryProvider.cs&amp;version=GBmaster&amp;line=327">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/DatabaseRepositoryProvider.cs&amp;version=GBmaster&amp;line=308">View Source</a>
   </span>
   <a id="Startitecture_Orm_Common_DatabaseRepositoryProvider_SelectEntities_" data-uid="Startitecture.Orm.Common.DatabaseRepositoryProvider.SelectEntities*"></a>
   <h4 id="Startitecture_Orm_Common_DatabaseRepositoryProvider_SelectEntities__1_Startitecture_Orm_Model_EntitySelection___0__" data-uid="Startitecture.Orm.Common.DatabaseRepositoryProvider.SelectEntities``1(Startitecture.Orm.Model.EntitySelection{``0})">SelectEntities&lt;T&gt;(EntitySelection&lt;T&gt;)</h4>
@@ -1090,7 +1078,7 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/DatabaseRepositoryProvider.cs&amp;version=GBmaster&amp;line=169">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/DatabaseRepositoryProvider.cs&amp;version=GBmaster&amp;line=150">View Source</a>
   </span>
   <a id="Startitecture_Orm_Common_DatabaseRepositoryProvider_StartTransaction_" data-uid="Startitecture.Orm.Common.DatabaseRepositoryProvider.StartTransaction*"></a>
   <h4 id="Startitecture_Orm_Common_DatabaseRepositoryProvider_StartTransaction" data-uid="Startitecture.Orm.Common.DatabaseRepositoryProvider.StartTransaction">StartTransaction()</h4>
@@ -1119,7 +1107,7 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/DatabaseRepositoryProvider.cs&amp;version=GBmaster&amp;line=191">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/DatabaseRepositoryProvider.cs&amp;version=GBmaster&amp;line=172">View Source</a>
   </span>
   <a id="Startitecture_Orm_Common_DatabaseRepositoryProvider_StartTransaction_" data-uid="Startitecture.Orm.Common.DatabaseRepositoryProvider.StartTransaction*"></a>
   <h4 id="Startitecture_Orm_Common_DatabaseRepositoryProvider_StartTransaction_System_Data_IsolationLevel_" data-uid="Startitecture.Orm.Common.DatabaseRepositoryProvider.StartTransaction(System.Data.IsolationLevel)">StartTransaction(IsolationLevel)</h4>
@@ -1166,7 +1154,7 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/DatabaseRepositoryProvider.cs&amp;version=GBmaster&amp;line=603">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/DatabaseRepositoryProvider.cs&amp;version=GBmaster&amp;line=595">View Source</a>
   </span>
   <a id="Startitecture_Orm_Common_DatabaseRepositoryProvider_ToString_" data-uid="Startitecture.Orm.Common.DatabaseRepositoryProvider.ToString*"></a>
   <h4 id="Startitecture_Orm_Common_DatabaseRepositoryProvider_ToString" data-uid="Startitecture.Orm.Common.DatabaseRepositoryProvider.ToString">ToString()</h4>
@@ -1197,7 +1185,7 @@
   <div><span class="xref">System.Object.ToString()</span></div>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/DatabaseRepositoryProvider.cs&amp;version=GBmaster&amp;line=425">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/DatabaseRepositoryProvider.cs&amp;version=GBmaster&amp;line=417">View Source</a>
   </span>
   <a id="Startitecture_Orm_Common_DatabaseRepositoryProvider_Update_" data-uid="Startitecture.Orm.Common.DatabaseRepositoryProvider.Update*"></a>
   <h4 id="Startitecture_Orm_Common_DatabaseRepositoryProvider_Update__1_Startitecture_Orm_Model_UpdateSet___0__" data-uid="Startitecture.Orm.Common.DatabaseRepositoryProvider.Update``1(Startitecture.Orm.Model.UpdateSet{``0})">Update&lt;T&gt;(UpdateSet&lt;T&gt;)</h4>
@@ -1264,7 +1252,7 @@
 </div>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/DatabaseRepositoryProvider.cs&amp;version=GBmaster&amp;line=455">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/DatabaseRepositoryProvider.cs&amp;version=GBmaster&amp;line=447">View Source</a>
   </span>
   <a id="Startitecture_Orm_Common_DatabaseRepositoryProvider_UpdateSingle_" data-uid="Startitecture.Orm.Common.DatabaseRepositoryProvider.UpdateSingle*"></a>
   <h4 id="Startitecture_Orm_Common_DatabaseRepositoryProvider_UpdateSingle__1___0_System_Linq_Expressions_Expression_System_Func___0_System_Object_____" data-uid="Startitecture.Orm.Common.DatabaseRepositoryProvider.UpdateSingle``1(``0,System.Linq.Expressions.Expression{System.Func{``0,System.Object}}[])">UpdateSingle&lt;T&gt;(T, Expression&lt;Func&lt;T, Object&gt;&gt;[])</h4>
@@ -1320,7 +1308,7 @@
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/DatabaseRepositoryProvider.cs&amp;version=GBmaster&amp;line=123">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/DatabaseRepositoryProvider.cs&amp;version=GBmaster&amp;line=104">View Source</a>
   </span>
   <h4 id="Startitecture_Orm_Common_DatabaseRepositoryProvider_Disposed" data-uid="Startitecture.Orm.Common.DatabaseRepositoryProvider.Disposed">Disposed</h4>
   <div class="markdown level1 summary"><p>Occurs when the provider is disposed.</p>

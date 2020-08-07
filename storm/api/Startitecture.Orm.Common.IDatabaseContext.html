@@ -232,11 +232,39 @@ TODO: Validate and test or remove this feature.</p>
       </tr>
     </tbody>
   </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/IDatabaseContext.cs&amp;version=GBmaster&amp;line=53">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Common_IDatabaseContext_StatementCompiler_" data-uid="Startitecture.Orm.Common.IDatabaseContext.StatementCompiler*"></a>
+  <h4 id="Startitecture_Orm_Common_IDatabaseContext_StatementCompiler" data-uid="Startitecture.Orm.Common.IDatabaseContext.StatementCompiler">StatementCompiler</h4>
+  <div class="markdown level1 summary"><p>Gets the statement compiler for the database context.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IStatementCompiler StatementCompiler { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Common.IStatementCompiler.html">IStatementCompiler</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="methods">Methods
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/IDatabaseContext.cs&amp;version=GBmaster&amp;line=64">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/IDatabaseContext.cs&amp;version=GBmaster&amp;line=69">View Source</a>
   </span>
   <a id="Startitecture_Orm_Common_IDatabaseContext_BeginTransaction_" data-uid="Startitecture.Orm.Common.IDatabaseContext.BeginTransaction*"></a>
   <h4 id="Startitecture_Orm_Common_IDatabaseContext_BeginTransaction" data-uid="Startitecture.Orm.Common.IDatabaseContext.BeginTransaction">BeginTransaction()</h4>
@@ -265,7 +293,7 @@ TODO: Validate and test or remove this feature.</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/IDatabaseContext.cs&amp;version=GBmaster&amp;line=78">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/IDatabaseContext.cs&amp;version=GBmaster&amp;line=83">View Source</a>
   </span>
   <a id="Startitecture_Orm_Common_IDatabaseContext_Execute_" data-uid="Startitecture.Orm.Common.IDatabaseContext.Execute*"></a>
   <h4 id="Startitecture_Orm_Common_IDatabaseContext_Execute_System_String_System_Object___" data-uid="Startitecture.Orm.Common.IDatabaseContext.Execute(System.String,System.Object[])">Execute(String, Object[])</h4>
@@ -318,7 +346,7 @@ TODO: Validate and test or remove this feature.</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/IDatabaseContext.cs&amp;version=GBmaster&amp;line=95">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/IDatabaseContext.cs&amp;version=GBmaster&amp;line=100">View Source</a>
   </span>
   <a id="Startitecture_Orm_Common_IDatabaseContext_ExecuteScalar_" data-uid="Startitecture.Orm.Common.IDatabaseContext.ExecuteScalar*"></a>
   <h4 id="Startitecture_Orm_Common_IDatabaseContext_ExecuteScalar__1_System_String_System_Object___" data-uid="Startitecture.Orm.Common.IDatabaseContext.ExecuteScalar``1(System.String,System.Object[])">ExecuteScalar&lt;T&gt;(String, Object[])</h4>
@@ -387,139 +415,7 @@ TODO: Validate and test or remove this feature.</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/IDatabaseContext.cs&amp;version=GBmaster&amp;line=133">View Source</a>
-  </span>
-  <a id="Startitecture_Orm_Common_IDatabaseContext_FirstOrDefault_" data-uid="Startitecture.Orm.Common.IDatabaseContext.FirstOrDefault*"></a>
-  <h4 id="Startitecture_Orm_Common_IDatabaseContext_FirstOrDefault__1_System_String_System_Object___" data-uid="Startitecture.Orm.Common.IDatabaseContext.FirstOrDefault``1(System.String,System.Object[])">FirstOrDefault&lt;T&gt;(String, Object[])</h4>
-  <div class="markdown level1 summary"><p>Runs a query and returns the first record, or the default value if no matching records</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">T FirstOrDefault&lt;T&gt;(string sql, params object[] args)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">sql</span></td>
-        <td><p>The SQL query</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Object</span>[]</td>
-        <td><span class="parametername">args</span></td>
-        <td><p>Arguments to any embedded parameters in the SQL statement</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">T</span></td>
-        <td><p>The first record in the result set, or default(T) if no matching rows</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">T</span></td>
-        <td><p>The Type representing a row in the result set</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/IDatabaseContext.cs&amp;version=GBmaster&amp;line=147">View Source</a>
-  </span>
-  <a id="Startitecture_Orm_Common_IDatabaseContext_Insert_" data-uid="Startitecture.Orm.Common.IDatabaseContext.Insert*"></a>
-  <h4 id="Startitecture_Orm_Common_IDatabaseContext_Insert__1___0_" data-uid="Startitecture.Orm.Common.IDatabaseContext.Insert``1(``0)">Insert&lt;T&gt;(T)</h4>
-  <div class="markdown level1 summary"><p>Performs an SQL Insert</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">object Insert&lt;T&gt;(T poco)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">T</span></td>
-        <td><span class="parametername">poco</span></td>
-        <td><p>The POCO object that specifies the column values to be inserted</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Object</span></td>
-        <td><p>The auto allocated primary key of the new record, or null for non-auto-increment tables</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">T</span></td>
-        <td><p>The type of entity being inserted.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/IDatabaseContext.cs&amp;version=GBmaster&amp;line=56">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/IDatabaseContext.cs&amp;version=GBmaster&amp;line=61">View Source</a>
   </span>
   <a id="Startitecture_Orm_Common_IDatabaseContext_OpenSharedConnection_" data-uid="Startitecture.Orm.Common.IDatabaseContext.OpenSharedConnection*"></a>
   <h4 id="Startitecture_Orm_Common_IDatabaseContext_OpenSharedConnection" data-uid="Startitecture.Orm.Common.IDatabaseContext.OpenSharedConnection">OpenSharedConnection()</h4>
@@ -535,7 +431,7 @@ TODO: Validate and test or remove this feature.</p>
 </div>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/IDatabaseContext.cs&amp;version=GBmaster&amp;line=116">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/IDatabaseContext.cs&amp;version=GBmaster&amp;line=121">View Source</a>
   </span>
   <a id="Startitecture_Orm_Common_IDatabaseContext_Query_" data-uid="Startitecture.Orm.Common.IDatabaseContext.Query*"></a>
   <h4 id="Startitecture_Orm_Common_IDatabaseContext_Query__1_System_String_System_Object___" data-uid="Startitecture.Orm.Common.IDatabaseContext.Query``1(System.String,System.Object[])">Query&lt;T&gt;(String, Object[])</h4>

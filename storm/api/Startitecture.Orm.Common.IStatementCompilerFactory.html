@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Namespace Startitecture.Orm.Mapper
+    <title>Interface IStatementCompilerFactory
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Namespace Startitecture.Orm.Mapper
+    <meta name="title" content="Interface IStatementCompilerFactory
    ">
     <meta name="generator" content="docfx 2.56.2.0">
     
@@ -68,50 +68,73 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Startitecture.Orm.Mapper">
+            <article class="content wrap" id="_content" data-uid="Startitecture.Orm.Common.IStatementCompilerFactory">
   
-  <h1 id="Startitecture_Orm_Mapper" data-uid="Startitecture.Orm.Mapper" class="text-break">Namespace Startitecture.Orm.Mapper
+  
+  <h1 id="Startitecture_Orm_Common_IStatementCompilerFactory" data-uid="Startitecture.Orm.Common.IStatementCompilerFactory" class="text-break">Interface IStatementCompilerFactory
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>The StatementCompilerFactory interface.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
-  <div class="markdown level0 remarks"></div>
-    <h3 id="classes">Classes
+  <h6><strong>Namespace</strong>: <a class="xref" href="Startitecture.Orm.Common.html">Startitecture.Orm.Common</a></h6>
+  <h6><strong>Assembly</strong>: Startitecture.Orm.Common.dll</h6>
+  <h5 id="Startitecture_Orm_Common_IStatementCompilerFactory_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface IStatementCompilerFactory</code></pre>
+  </div>
+  <h3 id="methods">Methods
   </h3>
-      <h4><a class="xref" href="Startitecture.Orm.Mapper.DatabaseContext.html">DatabaseContext</a></h4>
-      <section><p>Exposes a minimal database context to a repository provider.</p>
-</section>
-      <h4><a class="xref" href="Startitecture.Orm.Mapper.DefaultDatabaseContextFactory.html">DefaultDatabaseContextFactory</a></h4>
-      <section><p>The default database factory.</p>
-</section>
-      <h4><a class="xref" href="Startitecture.Orm.Mapper.ExtensionMethods.html">ExtensionMethods</a></h4>
-      <section><p>The extension methods.</p>
-</section>
-      <h4><a class="xref" href="Startitecture.Orm.Mapper.FlatPocoFactory.html">FlatPocoFactory</a></h4>
-      <section><p>Creates flattened POCOs for POCO data requests.</p>
-</section>
-      <h4><a class="xref" href="Startitecture.Orm.Mapper.Mappers.html">Mappers</a></h4>
-      <section><p>A static class for managing registration of IMapper instances.</p>
-</section>
-      <h4><a class="xref" href="Startitecture.Orm.Mapper.PocoDataRequest.html">PocoDataRequest</a></h4>
-      <section><p>Defines a POCO data request for a POCO factory. The hash code is unique to the entity and columns by order.</p>
-</section>
-      <h4><a class="xref" href="Startitecture.Orm.Mapper.PocoDelegateInfo.html">PocoDelegateInfo</a></h4>
-      <section><p>CContains metadata for a POCO delegate.</p>
-</section>
-      <h4><a class="xref" href="Startitecture.Orm.Mapper.RaisedPocoFactory.html">RaisedPocoFactory</a></h4>
-      <section><p>Creates POCOs with raised related entity POCOs for POCO data requests.</p>
-</section>
-      <h4><a class="xref" href="Startitecture.Orm.Mapper.StandardMapper.html">StandardMapper</a></h4>
-      <section><p>StandardMapper is the default implementation of IMapper.</p>
-</section>
-      <h4><a class="xref" href="Startitecture.Orm.Mapper.StructuredCommand-1.html">StructuredCommand&lt;TStructure&gt;</a></h4>
-      <section><p>The structured SQL command.</p>
-</section>
-    <h3 id="interfaces">Interfaces
-  </h3>
-      <h4><a class="xref" href="Startitecture.Orm.Mapper.IMapper.html">IMapper</a></h4>
-      <section><p>Provides a way to hook into the PetaPoco database to POCO mapping mechanism to either customize or completely replace it.</p>
-</section>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/IStatementCompilerFactory.cs&amp;version=GBmaster&amp;line=23">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Common_IStatementCompilerFactory_Create_" data-uid="Startitecture.Orm.Common.IStatementCompilerFactory.Create*"></a>
+  <h4 id="Startitecture_Orm_Common_IStatementCompilerFactory_Create_Startitecture_Orm_Common_IDatabaseContext_" data-uid="Startitecture.Orm.Common.IStatementCompilerFactory.Create(Startitecture.Orm.Common.IDatabaseContext)">Create(IDatabaseContext)</h4>
+  <div class="markdown level1 summary"><p>The create.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IStatementCompiler Create(IDatabaseContext databaseContext)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Common.IDatabaseContext.html">IDatabaseContext</a></td>
+        <td><span class="parametername">databaseContext</span></td>
+        <td><p>The database context.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Common.IStatementCompiler.html">IStatementCompiler</a></td>
+        <td><p>The <a class="xref" href="Startitecture.Orm.Common.IStatementCompiler.html">IStatementCompiler</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="Startitecture.Orm.Testing.Moq.ExtensionMethods.html#Startitecture_Orm_Testing_Moq_ExtensionMethods_MockDataReader__1___0_System_Collections_Generic_IEnumerable_Startitecture_Orm_Model_EntityAttributeDefinition__">ExtensionMethods.MockDataReader&lt;T&gt;(T, IEnumerable&lt;EntityAttributeDefinition&gt;)</a>
+  </div>
 </article>
           </div>
           
@@ -119,6 +142,9 @@
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
+                  <li>
+                    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/IStatementCompilerFactory.cs&amp;version=GBmaster&amp;line=12" class="contribution-link">View Source</a>
+                  </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
