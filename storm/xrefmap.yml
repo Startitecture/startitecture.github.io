@@ -5609,19 +5609,6 @@ references:
   isSpec: "True"
   fullName: Startitecture.Orm.Model.EntityDefinition.AllAttributes
   nameWithType: EntityDefinition.AllAttributes
-- uid: Startitecture.Orm.Model.EntityDefinition.AutoNumberPrimaryKey
-  name: AutoNumberPrimaryKey
-  href: api/Startitecture.Orm.Model.EntityDefinition.html#Startitecture_Orm_Model_EntityDefinition_AutoNumberPrimaryKey
-  commentId: P:Startitecture.Orm.Model.EntityDefinition.AutoNumberPrimaryKey
-  fullName: Startitecture.Orm.Model.EntityDefinition.AutoNumberPrimaryKey
-  nameWithType: EntityDefinition.AutoNumberPrimaryKey
-- uid: Startitecture.Orm.Model.EntityDefinition.AutoNumberPrimaryKey*
-  name: AutoNumberPrimaryKey
-  href: api/Startitecture.Orm.Model.EntityDefinition.html#Startitecture_Orm_Model_EntityDefinition_AutoNumberPrimaryKey_
-  commentId: Overload:Startitecture.Orm.Model.EntityDefinition.AutoNumberPrimaryKey
-  isSpec: "True"
-  fullName: Startitecture.Orm.Model.EntityDefinition.AutoNumberPrimaryKey
-  nameWithType: EntityDefinition.AutoNumberPrimaryKey
 - uid: Startitecture.Orm.Model.EntityDefinition.DefaultRelations
   name: DefaultRelations
   href: api/Startitecture.Orm.Model.EntityDefinition.html#Startitecture_Orm_Model_EntityDefinition_DefaultRelations
@@ -5764,6 +5751,19 @@ references:
   isSpec: "True"
   fullName: Startitecture.Orm.Model.EntityDefinition.ReturnableAttributes
   nameWithType: EntityDefinition.ReturnableAttributes
+- uid: Startitecture.Orm.Model.EntityDefinition.RowIdentity
+  name: RowIdentity
+  href: api/Startitecture.Orm.Model.EntityDefinition.html#Startitecture_Orm_Model_EntityDefinition_RowIdentity
+  commentId: P:Startitecture.Orm.Model.EntityDefinition.RowIdentity
+  fullName: Startitecture.Orm.Model.EntityDefinition.RowIdentity
+  nameWithType: EntityDefinition.RowIdentity
+- uid: Startitecture.Orm.Model.EntityDefinition.RowIdentity*
+  name: RowIdentity
+  href: api/Startitecture.Orm.Model.EntityDefinition.html#Startitecture_Orm_Model_EntityDefinition_RowIdentity_
+  commentId: Overload:Startitecture.Orm.Model.EntityDefinition.RowIdentity
+  isSpec: "True"
+  fullName: Startitecture.Orm.Model.EntityDefinition.RowIdentity
+  nameWithType: EntityDefinition.RowIdentity
 - uid: Startitecture.Orm.Model.EntityDefinition.UpdateableAttributes
   name: UpdateableAttributes
   href: api/Startitecture.Orm.Model.EntityDefinition.html#Startitecture_Orm_Model_EntityDefinition_UpdateableAttributes
@@ -7872,19 +7872,6 @@ references:
   isSpec: "True"
   fullName: Startitecture.Orm.Model.IEntityDefinition.AllAttributes
   nameWithType: IEntityDefinition.AllAttributes
-- uid: Startitecture.Orm.Model.IEntityDefinition.AutoNumberPrimaryKey
-  name: AutoNumberPrimaryKey
-  href: api/Startitecture.Orm.Model.IEntityDefinition.html#Startitecture_Orm_Model_IEntityDefinition_AutoNumberPrimaryKey
-  commentId: P:Startitecture.Orm.Model.IEntityDefinition.AutoNumberPrimaryKey
-  fullName: Startitecture.Orm.Model.IEntityDefinition.AutoNumberPrimaryKey
-  nameWithType: IEntityDefinition.AutoNumberPrimaryKey
-- uid: Startitecture.Orm.Model.IEntityDefinition.AutoNumberPrimaryKey*
-  name: AutoNumberPrimaryKey
-  href: api/Startitecture.Orm.Model.IEntityDefinition.html#Startitecture_Orm_Model_IEntityDefinition_AutoNumberPrimaryKey_
-  commentId: Overload:Startitecture.Orm.Model.IEntityDefinition.AutoNumberPrimaryKey
-  isSpec: "True"
-  fullName: Startitecture.Orm.Model.IEntityDefinition.AutoNumberPrimaryKey
-  nameWithType: IEntityDefinition.AutoNumberPrimaryKey
 - uid: Startitecture.Orm.Model.IEntityDefinition.DefaultRelations
   name: DefaultRelations
   href: api/Startitecture.Orm.Model.IEntityDefinition.html#Startitecture_Orm_Model_IEntityDefinition_DefaultRelations
@@ -8027,6 +8014,19 @@ references:
   isSpec: "True"
   fullName: Startitecture.Orm.Model.IEntityDefinition.ReturnableAttributes
   nameWithType: IEntityDefinition.ReturnableAttributes
+- uid: Startitecture.Orm.Model.IEntityDefinition.RowIdentity
+  name: RowIdentity
+  href: api/Startitecture.Orm.Model.IEntityDefinition.html#Startitecture_Orm_Model_IEntityDefinition_RowIdentity
+  commentId: P:Startitecture.Orm.Model.IEntityDefinition.RowIdentity
+  fullName: Startitecture.Orm.Model.IEntityDefinition.RowIdentity
+  nameWithType: IEntityDefinition.RowIdentity
+- uid: Startitecture.Orm.Model.IEntityDefinition.RowIdentity*
+  name: RowIdentity
+  href: api/Startitecture.Orm.Model.IEntityDefinition.html#Startitecture_Orm_Model_IEntityDefinition_RowIdentity_
+  commentId: Overload:Startitecture.Orm.Model.IEntityDefinition.RowIdentity
+  isSpec: "True"
+  fullName: Startitecture.Orm.Model.IEntityDefinition.RowIdentity
+  nameWithType: IEntityDefinition.RowIdentity
 - uid: Startitecture.Orm.Model.IEntityDefinition.UpdateableAttributes
   name: UpdateableAttributes
   href: api/Startitecture.Orm.Model.IEntityDefinition.html#Startitecture_Orm_Model_IEntityDefinition_UpdateableAttributes
@@ -10074,6 +10074,95 @@ references:
   isSpec: "True"
   fullName: Startitecture.Orm.Model.ValueState.Value
   nameWithType: ValueState.Value
+- uid: Startitecture.Orm.PostgreSql
+  name: Startitecture.Orm.PostgreSql
+  href: api/Startitecture.Orm.PostgreSql.html
+  commentId: N:Startitecture.Orm.PostgreSql
+  fullName: Startitecture.Orm.PostgreSql
+  nameWithType: Startitecture.Orm.PostgreSql
+- uid: Startitecture.Orm.PostgreSql.PostgreSqlCompiler
+  name: PostgreSqlCompiler
+  href: api/Startitecture.Orm.PostgreSql.PostgreSqlCompiler.html
+  commentId: T:Startitecture.Orm.PostgreSql.PostgreSqlCompiler
+  fullName: Startitecture.Orm.PostgreSql.PostgreSqlCompiler
+  nameWithType: PostgreSqlCompiler
+- uid: Startitecture.Orm.PostgreSql.PostgreSqlCompiler.#ctor(Startitecture.Orm.Model.IEntityDefinitionProvider)
+  name: PostgreSqlCompiler(IEntityDefinitionProvider)
+  href: api/Startitecture.Orm.PostgreSql.PostgreSqlCompiler.html#Startitecture_Orm_PostgreSql_PostgreSqlCompiler__ctor_Startitecture_Orm_Model_IEntityDefinitionProvider_
+  commentId: M:Startitecture.Orm.PostgreSql.PostgreSqlCompiler.#ctor(Startitecture.Orm.Model.IEntityDefinitionProvider)
+  fullName: Startitecture.Orm.PostgreSql.PostgreSqlCompiler.PostgreSqlCompiler(Startitecture.Orm.Model.IEntityDefinitionProvider)
+  nameWithType: PostgreSqlCompiler.PostgreSqlCompiler(IEntityDefinitionProvider)
+- uid: Startitecture.Orm.PostgreSql.PostgreSqlCompiler.#ctor*
+  name: PostgreSqlCompiler
+  href: api/Startitecture.Orm.PostgreSql.PostgreSqlCompiler.html#Startitecture_Orm_PostgreSql_PostgreSqlCompiler__ctor_
+  commentId: Overload:Startitecture.Orm.PostgreSql.PostgreSqlCompiler.#ctor
+  isSpec: "True"
+  fullName: Startitecture.Orm.PostgreSql.PostgreSqlCompiler.PostgreSqlCompiler
+  nameWithType: PostgreSqlCompiler.PostgreSqlCompiler
+- uid: Startitecture.Orm.PostgreSql.PostgreSqlCompiler.CaptureInsertedIdentity(System.String,Startitecture.Orm.Model.IEntityDefinition)
+  name: CaptureInsertedIdentity(String, IEntityDefinition)
+  href: api/Startitecture.Orm.PostgreSql.PostgreSqlCompiler.html#Startitecture_Orm_PostgreSql_PostgreSqlCompiler_CaptureInsertedIdentity_System_String_Startitecture_Orm_Model_IEntityDefinition_
+  commentId: M:Startitecture.Orm.PostgreSql.PostgreSqlCompiler.CaptureInsertedIdentity(System.String,Startitecture.Orm.Model.IEntityDefinition)
+  fullName: Startitecture.Orm.PostgreSql.PostgreSqlCompiler.CaptureInsertedIdentity(System.String, Startitecture.Orm.Model.IEntityDefinition)
+  nameWithType: PostgreSqlCompiler.CaptureInsertedIdentity(String, IEntityDefinition)
+- uid: Startitecture.Orm.PostgreSql.PostgreSqlCompiler.CaptureInsertedIdentity*
+  name: CaptureInsertedIdentity
+  href: api/Startitecture.Orm.PostgreSql.PostgreSqlCompiler.html#Startitecture_Orm_PostgreSql_PostgreSqlCompiler_CaptureInsertedIdentity_
+  commentId: Overload:Startitecture.Orm.PostgreSql.PostgreSqlCompiler.CaptureInsertedIdentity
+  isSpec: "True"
+  fullName: Startitecture.Orm.PostgreSql.PostgreSqlCompiler.CaptureInsertedIdentity
+  nameWithType: PostgreSqlCompiler.CaptureInsertedIdentity
+- uid: Startitecture.Orm.PostgreSql.PostgreSqlProviderFactory
+  name: PostgreSqlProviderFactory
+  href: api/Startitecture.Orm.PostgreSql.PostgreSqlProviderFactory.html
+  commentId: T:Startitecture.Orm.PostgreSql.PostgreSqlProviderFactory
+  fullName: Startitecture.Orm.PostgreSql.PostgreSqlProviderFactory
+  nameWithType: PostgreSqlProviderFactory
+- uid: Startitecture.Orm.PostgreSql.PostgreSqlProviderFactory.#ctor(System.String,Startitecture.Orm.Model.IEntityDefinitionProvider)
+  name: PostgreSqlProviderFactory(String, IEntityDefinitionProvider)
+  href: api/Startitecture.Orm.PostgreSql.PostgreSqlProviderFactory.html#Startitecture_Orm_PostgreSql_PostgreSqlProviderFactory__ctor_System_String_Startitecture_Orm_Model_IEntityDefinitionProvider_
+  commentId: M:Startitecture.Orm.PostgreSql.PostgreSqlProviderFactory.#ctor(System.String,Startitecture.Orm.Model.IEntityDefinitionProvider)
+  fullName: Startitecture.Orm.PostgreSql.PostgreSqlProviderFactory.PostgreSqlProviderFactory(System.String, Startitecture.Orm.Model.IEntityDefinitionProvider)
+  nameWithType: PostgreSqlProviderFactory.PostgreSqlProviderFactory(String, IEntityDefinitionProvider)
+- uid: Startitecture.Orm.PostgreSql.PostgreSqlProviderFactory.#ctor*
+  name: PostgreSqlProviderFactory
+  href: api/Startitecture.Orm.PostgreSql.PostgreSqlProviderFactory.html#Startitecture_Orm_PostgreSql_PostgreSqlProviderFactory__ctor_
+  commentId: Overload:Startitecture.Orm.PostgreSql.PostgreSqlProviderFactory.#ctor
+  isSpec: "True"
+  fullName: Startitecture.Orm.PostgreSql.PostgreSqlProviderFactory.PostgreSqlProviderFactory
+  nameWithType: PostgreSqlProviderFactory.PostgreSqlProviderFactory
+- uid: Startitecture.Orm.PostgreSql.PostgreSqlProviderFactory.Create
+  name: Create()
+  href: api/Startitecture.Orm.PostgreSql.PostgreSqlProviderFactory.html#Startitecture_Orm_PostgreSql_PostgreSqlProviderFactory_Create
+  commentId: M:Startitecture.Orm.PostgreSql.PostgreSqlProviderFactory.Create
+  fullName: Startitecture.Orm.PostgreSql.PostgreSqlProviderFactory.Create()
+  nameWithType: PostgreSqlProviderFactory.Create()
+- uid: Startitecture.Orm.PostgreSql.PostgreSqlProviderFactory.Create*
+  name: Create
+  href: api/Startitecture.Orm.PostgreSql.PostgreSqlProviderFactory.html#Startitecture_Orm_PostgreSql_PostgreSqlProviderFactory_Create_
+  commentId: Overload:Startitecture.Orm.PostgreSql.PostgreSqlProviderFactory.Create
+  isSpec: "True"
+  fullName: Startitecture.Orm.PostgreSql.PostgreSqlProviderFactory.Create
+  nameWithType: PostgreSqlProviderFactory.Create
+- uid: Startitecture.Orm.PostgreSql.PostgreSqlQualifier
+  name: PostgreSqlQualifier
+  href: api/Startitecture.Orm.PostgreSql.PostgreSqlQualifier.html
+  commentId: T:Startitecture.Orm.PostgreSql.PostgreSqlQualifier
+  fullName: Startitecture.Orm.PostgreSql.PostgreSqlQualifier
+  nameWithType: PostgreSqlQualifier
+- uid: Startitecture.Orm.PostgreSql.PostgreSqlQualifier.Escape(System.String)
+  name: Escape(String)
+  href: api/Startitecture.Orm.PostgreSql.PostgreSqlQualifier.html#Startitecture_Orm_PostgreSql_PostgreSqlQualifier_Escape_System_String_
+  commentId: M:Startitecture.Orm.PostgreSql.PostgreSqlQualifier.Escape(System.String)
+  fullName: Startitecture.Orm.PostgreSql.PostgreSqlQualifier.Escape(System.String)
+  nameWithType: PostgreSqlQualifier.Escape(String)
+- uid: Startitecture.Orm.PostgreSql.PostgreSqlQualifier.Escape*
+  name: Escape
+  href: api/Startitecture.Orm.PostgreSql.PostgreSqlQualifier.html#Startitecture_Orm_PostgreSql_PostgreSqlQualifier_Escape_
+  commentId: Overload:Startitecture.Orm.PostgreSql.PostgreSqlQualifier.Escape
+  isSpec: "True"
+  fullName: Startitecture.Orm.PostgreSql.PostgreSqlQualifier.Escape
+  nameWithType: PostgreSqlQualifier.Escape
 - uid: Startitecture.Orm.Schema
   name: Startitecture.Orm.Schema
   href: api/Startitecture.Orm.Schema.html
