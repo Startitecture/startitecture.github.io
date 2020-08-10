@@ -122,13 +122,13 @@
     <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Mapper/DefaultDatabaseContextFactory.cs&amp;version=GBmaster&amp;line=55">View Source</a>
   </span>
   <a id="Startitecture_Orm_Mapper_DefaultDatabaseContextFactory__ctor_" data-uid="Startitecture.Orm.Mapper.DefaultDatabaseContextFactory.#ctor*"></a>
-  <h4 id="Startitecture_Orm_Mapper_DefaultDatabaseContextFactory__ctor_System_String_System_String_Startitecture_Orm_Common_IStatementCompiler_" data-uid="Startitecture.Orm.Mapper.DefaultDatabaseContextFactory.#ctor(System.String,System.String,Startitecture.Orm.Common.IStatementCompiler)">DefaultDatabaseContextFactory(String, String, IStatementCompiler)</h4>
+  <h4 id="Startitecture_Orm_Mapper_DefaultDatabaseContextFactory__ctor_System_String_System_String_Startitecture_Orm_Common_IRepositoryAdapter_" data-uid="Startitecture.Orm.Mapper.DefaultDatabaseContextFactory.#ctor(System.String,System.String,Startitecture.Orm.Common.IRepositoryAdapter)">DefaultDatabaseContextFactory(String, String, IRepositoryAdapter)</h4>
   <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="Startitecture.Orm.Mapper.DefaultDatabaseContextFactory.html">DefaultDatabaseContextFactory</a> class.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public DefaultDatabaseContextFactory([NotNull] string connectionString, [NotNull] string providerName, [NotNull] IStatementCompiler statementCompiler)</code></pre>
+    <pre><code class="lang-csharp hljs">public DefaultDatabaseContextFactory([NotNull] string connectionString, [NotNull] string providerName, [NotNull] IRepositoryAdapter repositoryAdapter)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -153,8 +153,8 @@
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="Startitecture.Orm.Common.IStatementCompiler.html">IStatementCompiler</a></td>
-        <td><span class="parametername">statementCompiler</span></td>
+        <td><a class="xref" href="Startitecture.Orm.Common.IRepositoryAdapter.html">IRepositoryAdapter</a></td>
+        <td><span class="parametername">repositoryAdapter</span></td>
         <td><p>The definition provider.</p>
 </td>
       </tr>
@@ -176,7 +176,7 @@
       </tr>
       <tr>
         <td><span class="xref">System.ArgumentNullException</span></td>
-        <td><p><code data-dev-comment-type="paramref" class="paramref">statementCompiler</code> is null</p>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">repositoryAdapter</code> is null</p>
 </td>
       </tr>
     </tbody>

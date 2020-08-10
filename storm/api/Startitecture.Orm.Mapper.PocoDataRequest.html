@@ -110,16 +110,16 @@
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Mapper/PocoDataRequest.cs&amp;version=GBmaster&amp;line=53">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Mapper/PocoDataRequest.cs&amp;version=GBmaster&amp;line=57">View Source</a>
   </span>
   <a id="Startitecture_Orm_Mapper_PocoDataRequest__ctor_" data-uid="Startitecture.Orm.Mapper.PocoDataRequest.#ctor*"></a>
-  <h4 id="Startitecture_Orm_Mapper_PocoDataRequest__ctor_System_Data_IDataReader_Startitecture_Orm_Model_IEntityDefinition_" data-uid="Startitecture.Orm.Mapper.PocoDataRequest.#ctor(System.Data.IDataReader,Startitecture.Orm.Model.IEntityDefinition)">PocoDataRequest(IDataReader, IEntityDefinition)</h4>
+  <h4 id="Startitecture_Orm_Mapper_PocoDataRequest__ctor_System_Data_IDataReader_Startitecture_Orm_Model_IEntityDefinition_Startitecture_Orm_Common_IDatabaseContext_" data-uid="Startitecture.Orm.Mapper.PocoDataRequest.#ctor(System.Data.IDataReader,Startitecture.Orm.Model.IEntityDefinition,Startitecture.Orm.Common.IDatabaseContext)">PocoDataRequest(IDataReader, IEntityDefinition, IDatabaseContext)</h4>
   <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="Startitecture.Orm.Mapper.PocoDataRequest.html">PocoDataRequest</a> class.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public PocoDataRequest([NotNull] IDataReader dataReader, [NotNull] IEntityDefinition entityDefinition)</code></pre>
+    <pre><code class="lang-csharp hljs">public PocoDataRequest([NotNull] IDataReader dataReader, [NotNull] IEntityDefinition entityDefinition, [NotNull] IDatabaseContext databaseContext)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -143,20 +143,26 @@
         <td><p>The definition of the type represented by the <code data-dev-comment-type="paramref" class="paramref">dataReader</code>.</p>
 </td>
       </tr>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Common.IDatabaseContext.html">IDatabaseContext</a></td>
+        <td><span class="parametername">databaseContext</span></td>
+        <td><p>The database context for the request.</p>
+</td>
+      </tr>
     </tbody>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Mapper/PocoDataRequest.cs&amp;version=GBmaster&amp;line=83">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Mapper/PocoDataRequest.cs&amp;version=GBmaster&amp;line=94">View Source</a>
   </span>
   <a id="Startitecture_Orm_Mapper_PocoDataRequest__ctor_" data-uid="Startitecture.Orm.Mapper.PocoDataRequest.#ctor*"></a>
-  <h4 id="Startitecture_Orm_Mapper_PocoDataRequest__ctor_System_Data_IDataReader_System_Collections_Generic_IEnumerable_Startitecture_Orm_Model_EntityAttributeDefinition__" data-uid="Startitecture.Orm.Mapper.PocoDataRequest.#ctor(System.Data.IDataReader,System.Collections.Generic.IEnumerable{Startitecture.Orm.Model.EntityAttributeDefinition})">PocoDataRequest(IDataReader, IEnumerable&lt;EntityAttributeDefinition&gt;)</h4>
+  <h4 id="Startitecture_Orm_Mapper_PocoDataRequest__ctor_System_Data_IDataReader_System_Collections_Generic_IEnumerable_Startitecture_Orm_Model_EntityAttributeDefinition__Startitecture_Orm_Common_IDatabaseContext_" data-uid="Startitecture.Orm.Mapper.PocoDataRequest.#ctor(System.Data.IDataReader,System.Collections.Generic.IEnumerable{Startitecture.Orm.Model.EntityAttributeDefinition},Startitecture.Orm.Common.IDatabaseContext)">PocoDataRequest(IDataReader, IEnumerable&lt;EntityAttributeDefinition&gt;, IDatabaseContext)</h4>
   <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="Startitecture.Orm.Mapper.PocoDataRequest.html">PocoDataRequest</a> class.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public PocoDataRequest([NotNull] IDataReader dataReader, [NotNull] IEnumerable&lt;EntityAttributeDefinition&gt; attributeDefinitions)</code></pre>
+    <pre><code class="lang-csharp hljs">public PocoDataRequest([NotNull] IDataReader dataReader, [NotNull] IEnumerable&lt;EntityAttributeDefinition&gt; attributeDefinitions, [NotNull] IDatabaseContext databaseContext)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -178,6 +184,12 @@
         <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Startitecture.Orm.Model.EntityAttributeDefinition.html">EntityAttributeDefinition</a>&gt;</td>
         <td><span class="parametername">attributeDefinitions</span></td>
         <td><p>The attribute definitions.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Common.IDatabaseContext.html">IDatabaseContext</a></td>
+        <td><span class="parametername">databaseContext</span></td>
+        <td><p>The database context for the request.</p>
 </td>
       </tr>
     </tbody>
@@ -202,7 +214,7 @@
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Mapper/PocoDataRequest.cs&amp;version=GBmaster&amp;line=114">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Mapper/PocoDataRequest.cs&amp;version=GBmaster&amp;line=124">View Source</a>
   </span>
   <a id="Startitecture_Orm_Mapper_PocoDataRequest_AttributeDefinitions_" data-uid="Startitecture.Orm.Mapper.PocoDataRequest.AttributeDefinitions*"></a>
   <h4 id="Startitecture_Orm_Mapper_PocoDataRequest_AttributeDefinitions" data-uid="Startitecture.Orm.Mapper.PocoDataRequest.AttributeDefinitions">AttributeDefinitions</h4>
@@ -230,7 +242,35 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Mapper/PocoDataRequest.cs&amp;version=GBmaster&amp;line=109">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Mapper/PocoDataRequest.cs&amp;version=GBmaster&amp;line=129">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Mapper_PocoDataRequest_DatabaseContext_" data-uid="Startitecture.Orm.Mapper.PocoDataRequest.DatabaseContext*"></a>
+  <h4 id="Startitecture_Orm_Mapper_PocoDataRequest_DatabaseContext" data-uid="Startitecture.Orm.Mapper.PocoDataRequest.DatabaseContext">DatabaseContext</h4>
+  <div class="markdown level1 summary"><p>Gets the database context for the request.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IDatabaseContext DatabaseContext { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Common.IDatabaseContext.html">IDatabaseContext</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Mapper/PocoDataRequest.cs&amp;version=GBmaster&amp;line=119">View Source</a>
   </span>
   <a id="Startitecture_Orm_Mapper_PocoDataRequest_DataReader_" data-uid="Startitecture.Orm.Mapper.PocoDataRequest.DataReader*"></a>
   <h4 id="Startitecture_Orm_Mapper_PocoDataRequest_DataReader" data-uid="Startitecture.Orm.Mapper.PocoDataRequest.DataReader">DataReader</h4>
@@ -258,7 +298,7 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Mapper/PocoDataRequest.cs&amp;version=GBmaster&amp;line=119">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Mapper/PocoDataRequest.cs&amp;version=GBmaster&amp;line=134">View Source</a>
   </span>
   <a id="Startitecture_Orm_Mapper_PocoDataRequest_FieldCount_" data-uid="Startitecture.Orm.Mapper.PocoDataRequest.FieldCount*"></a>
   <h4 id="Startitecture_Orm_Mapper_PocoDataRequest_FieldCount" data-uid="Startitecture.Orm.Mapper.PocoDataRequest.FieldCount">FieldCount</h4>
@@ -286,7 +326,7 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Mapper/PocoDataRequest.cs&amp;version=GBmaster&amp;line=124">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Mapper/PocoDataRequest.cs&amp;version=GBmaster&amp;line=139">View Source</a>
   </span>
   <a id="Startitecture_Orm_Mapper_PocoDataRequest_FirstColumn_" data-uid="Startitecture.Orm.Mapper.PocoDataRequest.FirstColumn*"></a>
   <h4 id="Startitecture_Orm_Mapper_PocoDataRequest_FirstColumn" data-uid="Startitecture.Orm.Mapper.PocoDataRequest.FirstColumn">FirstColumn</h4>
@@ -316,7 +356,7 @@
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Mapper/PocoDataRequest.cs&amp;version=GBmaster&amp;line=210">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Mapper/PocoDataRequest.cs&amp;version=GBmaster&amp;line=225">View Source</a>
   </span>
   <a id="Startitecture_Orm_Mapper_PocoDataRequest_Equals_" data-uid="Startitecture.Orm.Mapper.PocoDataRequest.Equals*"></a>
   <h4 id="Startitecture_Orm_Mapper_PocoDataRequest_Equals_Startitecture_Orm_Mapper_PocoDataRequest_" data-uid="Startitecture.Orm.Mapper.PocoDataRequest.Equals(Startitecture.Orm.Mapper.PocoDataRequest)">Equals(PocoDataRequest)</h4>
@@ -363,7 +403,7 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Mapper/PocoDataRequest.cs&amp;version=GBmaster&amp;line=196">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Mapper/PocoDataRequest.cs&amp;version=GBmaster&amp;line=211">View Source</a>
   </span>
   <a id="Startitecture_Orm_Mapper_PocoDataRequest_Equals_" data-uid="Startitecture.Orm.Mapper.PocoDataRequest.Equals*"></a>
   <h4 id="Startitecture_Orm_Mapper_PocoDataRequest_Equals_System_Object_" data-uid="Startitecture.Orm.Mapper.PocoDataRequest.Equals(System.Object)">Equals(Object)</h4>
@@ -412,7 +452,7 @@
   <div><span class="xref">System.Object.Equals(System.Object)</span></div>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Mapper/PocoDataRequest.cs&amp;version=GBmaster&amp;line=181">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Mapper/PocoDataRequest.cs&amp;version=GBmaster&amp;line=196">View Source</a>
   </span>
   <a id="Startitecture_Orm_Mapper_PocoDataRequest_GetHashCode_" data-uid="Startitecture.Orm.Mapper.PocoDataRequest.GetHashCode*"></a>
   <h4 id="Startitecture_Orm_Mapper_PocoDataRequest_GetHashCode" data-uid="Startitecture.Orm.Mapper.PocoDataRequest.GetHashCode">GetHashCode()</h4>
@@ -443,7 +483,7 @@
   <div><span class="xref">System.Object.GetHashCode()</span></div>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Mapper/PocoDataRequest.cs&amp;version=GBmaster&amp;line=169">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Mapper/PocoDataRequest.cs&amp;version=GBmaster&amp;line=184">View Source</a>
   </span>
   <a id="Startitecture_Orm_Mapper_PocoDataRequest_ToString_" data-uid="Startitecture.Orm.Mapper.PocoDataRequest.ToString*"></a>
   <h4 id="Startitecture_Orm_Mapper_PocoDataRequest_ToString" data-uid="Startitecture.Orm.Mapper.PocoDataRequest.ToString">ToString()</h4>
@@ -476,7 +516,7 @@
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Mapper/PocoDataRequest.cs&amp;version=GBmaster&amp;line=140">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Mapper/PocoDataRequest.cs&amp;version=GBmaster&amp;line=155">View Source</a>
   </span>
   <a id="Startitecture_Orm_Mapper_PocoDataRequest_op_Equality_" data-uid="Startitecture.Orm.Mapper.PocoDataRequest.op_Equality*"></a>
   <h4 id="Startitecture_Orm_Mapper_PocoDataRequest_op_Equality_Startitecture_Orm_Mapper_PocoDataRequest_Startitecture_Orm_Mapper_PocoDataRequest_" data-uid="Startitecture.Orm.Mapper.PocoDataRequest.op_Equality(Startitecture.Orm.Mapper.PocoDataRequest,Startitecture.Orm.Mapper.PocoDataRequest)">Equality(PocoDataRequest, PocoDataRequest)</h4>
@@ -529,7 +569,7 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Mapper/PocoDataRequest.cs&amp;version=GBmaster&amp;line=157">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Mapper/PocoDataRequest.cs&amp;version=GBmaster&amp;line=172">View Source</a>
   </span>
   <a id="Startitecture_Orm_Mapper_PocoDataRequest_op_Inequality_" data-uid="Startitecture.Orm.Mapper.PocoDataRequest.op_Inequality*"></a>
   <h4 id="Startitecture_Orm_Mapper_PocoDataRequest_op_Inequality_Startitecture_Orm_Mapper_PocoDataRequest_Startitecture_Orm_Mapper_PocoDataRequest_" data-uid="Startitecture.Orm.Mapper.PocoDataRequest.op_Inequality(Startitecture.Orm.Mapper.PocoDataRequest,Startitecture.Orm.Mapper.PocoDataRequest)">Inequality(PocoDataRequest, PocoDataRequest)</h4>
@@ -596,7 +636,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Mapper/PocoDataRequest.cs&amp;version=GBmaster&amp;line=22" class="contribution-link">View Source</a>
+                    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Mapper/PocoDataRequest.cs&amp;version=GBmaster&amp;line=23" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

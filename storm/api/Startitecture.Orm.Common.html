@@ -87,7 +87,7 @@
       <section><p>A base class for data table loaders.</p>
 </section>
       <h4><a class="xref" href="Startitecture.Orm.Common.EntityBase.html">EntityBase</a></h4>
-      <section><p>The transaction entity base.</p>
+      <section><p>The base class for all entities created by the T4 template. Extend this class as needed for common properties and methods.</p>
 </section>
       <h4><a class="xref" href="Startitecture.Orm.Common.EntityRepository-2.html">EntityRepository&lt;TModel, TEntity&gt;</a></h4>
       <section><p>A base class for entity repositories.</p>
@@ -101,11 +101,8 @@
       <h4><a class="xref" href="Startitecture.Orm.Common.ReadOnlyRepository-2.html">ReadOnlyRepository&lt;TModel, TEntity&gt;</a></h4>
       <section><p>The view repository.</p>
 </section>
-      <h4><a class="xref" href="Startitecture.Orm.Common.StatementCompiler.html">StatementCompiler</a></h4>
+      <h4><a class="xref" href="Startitecture.Orm.Common.RepositoryAdapter.html">RepositoryAdapter</a></h4>
       <section><p>The statement factory.</p>
-</section>
-      <h4><a class="xref" href="Startitecture.Orm.Common.TransactionContainer.html">TransactionContainer</a></h4>
-      <section><p>Provides a event-aware implementation of the <a class="xref" href="Startitecture.Orm.Model.ITransactionContext.html">ITransactionContext</a> interface.</p>
 </section>
     <h3 id="interfaces">Interfaces
   </h3>
@@ -119,9 +116,6 @@
       <section><p>Provides an interface for classes that contain database contexts.</p>
 </section>
       <h4><a class="xref" href="Startitecture.Orm.Common.IRepositoryAdapter.html">IRepositoryAdapter</a></h4>
-      <section><p>Provides an interface for interacting with data in a repository.</p>
-</section>
-      <h4><a class="xref" href="Startitecture.Orm.Common.IStatementCompiler.html">IStatementCompiler</a></h4>
       <section><p>Provides an interface for creating data manipulation language (DML) statements.</p>
 </section>
       <h4><a class="xref" href="Startitecture.Orm.Common.IStatementCompilerFactory.html">IStatementCompilerFactory</a></h4>
@@ -132,6 +126,9 @@
 </section>
       <h4><a class="xref" href="Startitecture.Orm.Common.IStructuredCommandProvider.html">IStructuredCommandProvider</a></h4>
       <section><p>The StructuredCommandProvider interface.</p>
+</section>
+      <h4><a class="xref" href="Startitecture.Orm.Common.IValueMapper.html">IValueMapper</a></h4>
+      <section><p>Provides an interface for mapping one value to another.</p>
 </section>
 </article>
           </div>

@@ -84,17 +84,10 @@
   </div>
   <div classs="implements">
     <h5>Implements</h5>
-    <div><a class="xref" href="Startitecture.Orm.Model.ITransactionContext.html">ITransactionContext</a></div>
     <div><span class="xref">System.IEquatable</span>&lt;<a class="xref" href="Startitecture.Orm.Testing.Entities.OtherAggregateRow.html">OtherAggregateRow</a>&gt;</div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
-    <div>
-      <a class="xref" href="Startitecture.Orm.Common.EntityBase.html#Startitecture_Orm_Common_EntityBase_TransactionProvider">EntityBase.TransactionProvider</a>
-    </div>
-    <div>
-      <a class="xref" href="Startitecture.Orm.Common.EntityBase.html#Startitecture_Orm_Common_EntityBase_SetTransactionProvider_Startitecture_Orm_Model_IRepositoryProvider_">EntityBase.SetTransactionProvider(IRepositoryProvider)</a>
-    </div>
     <div>
       <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
     </div>
@@ -113,7 +106,7 @@
   <h5 id="Startitecture_Orm_Testing_Entities_OtherAggregateRow_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[Table(&quot;OtherAggregate&quot;, Schema = &quot;dbo&quot;)]
-public class OtherAggregateRow : EntityBase, ITransactionContext, IEquatable&lt;OtherAggregateRow&gt;</code></pre>
+public class OtherAggregateRow : EntityBase, IEquatable&lt;OtherAggregateRow&gt;</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
@@ -499,9 +492,6 @@ public int OtherAggregateId { get; set; }</code></pre>
     </tbody>
   </table>
   <h3 id="implements">Implements</h3>
-  <div>
-      <a class="xref" href="Startitecture.Orm.Model.ITransactionContext.html">ITransactionContext</a>
-  </div>
   <div>
       <span class="xref">System.IEquatable&lt;T&gt;</span>
   </div>

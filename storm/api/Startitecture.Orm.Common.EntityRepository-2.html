@@ -154,7 +154,7 @@
   <h6><strong>Assembly</strong>: Startitecture.Orm.Common.dll</h6>
   <h5 id="Startitecture_Orm_Common_EntityRepository_2_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class EntityRepository&lt;TModel, TEntity&gt; : ReadOnlyRepository&lt;TModel, TEntity&gt;, IEntityRepository&lt;TModel&gt;, IReadOnlyRepository&lt;TModel&gt; where TEntity : class, ITransactionContext, new()</code></pre>
+    <pre><code class="lang-csharp hljs">public class EntityRepository&lt;TModel, TEntity&gt; : ReadOnlyRepository&lt;TModel, TEntity&gt;, IEntityRepository&lt;TModel&gt;, IReadOnlyRepository&lt;TModel&gt; where TEntity : class, new()</code></pre>
   </div>
   <h5 class="typeParameters">Type Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -185,7 +185,7 @@ a sliding expiration of 30 seconds.</p>
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/EntityRepository.cs&amp;version=GBmaster&amp;line=46">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/EntityRepository.cs&amp;version=GBmaster&amp;line=49">View Source</a>
   </span>
   <a id="Startitecture_Orm_Common_EntityRepository_2__ctor_" data-uid="Startitecture.Orm.Common.EntityRepository`2.#ctor*"></a>
   <h4 id="Startitecture_Orm_Common_EntityRepository_2__ctor_Startitecture_Orm_Model_IRepositoryProvider_Startitecture_Orm_Model_IEntityMapper_" data-uid="Startitecture.Orm.Common.EntityRepository`2.#ctor(Startitecture.Orm.Model.IRepositoryProvider,Startitecture.Orm.Model.IEntityMapper)">EntityRepository(IRepositoryProvider, IEntityMapper)</h4>
@@ -222,7 +222,7 @@ a sliding expiration of 30 seconds.</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/EntityRepository.cs&amp;version=GBmaster&amp;line=63">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/EntityRepository.cs&amp;version=GBmaster&amp;line=66">View Source</a>
   </span>
   <a id="Startitecture_Orm_Common_EntityRepository_2__ctor_" data-uid="Startitecture.Orm.Common.EntityRepository`2.#ctor*"></a>
   <h4 id="Startitecture_Orm_Common_EntityRepository_2__ctor_Startitecture_Orm_Model_IRepositoryProvider_Startitecture_Orm_Model_IEntityMapper_System_Collections_Generic_IComparer__1__" data-uid="Startitecture.Orm.Common.EntityRepository`2.#ctor(Startitecture.Orm.Model.IRepositoryProvider,Startitecture.Orm.Model.IEntityMapper,System.Collections.Generic.IComparer{`1})">EntityRepository(IRepositoryProvider, IEntityMapper, IComparer&lt;TEntity&gt;)</h4>
@@ -267,7 +267,7 @@ a sliding expiration of 30 seconds.</p>
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/EntityRepository.cs&amp;version=GBmaster&amp;line=83">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/EntityRepository.cs&amp;version=GBmaster&amp;line=86">View Source</a>
   </span>
   <a id="Startitecture_Orm_Common_EntityRepository_2_Delete_" data-uid="Startitecture.Orm.Common.EntityRepository`2.Delete*"></a>
   <h4 id="Startitecture_Orm_Common_EntityRepository_2_Delete__1___0_" data-uid="Startitecture.Orm.Common.EntityRepository`2.Delete``1(``0)">Delete&lt;TItem&gt;(TItem)</h4>
@@ -330,7 +330,7 @@ a sliding expiration of 30 seconds.</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/EntityRepository.cs&amp;version=GBmaster&amp;line=96">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/EntityRepository.cs&amp;version=GBmaster&amp;line=99">View Source</a>
   </span>
   <a id="Startitecture_Orm_Common_EntityRepository_2_Delete_" data-uid="Startitecture.Orm.Common.EntityRepository`2.Delete*"></a>
   <h4 id="Startitecture_Orm_Common_EntityRepository_2_Delete__1_Startitecture_Orm_Model_EntitySelection___0__" data-uid="Startitecture.Orm.Common.EntityRepository`2.Delete``1(Startitecture.Orm.Model.EntitySelection{``0})">Delete&lt;TItem&gt;(EntitySelection&lt;TItem&gt;)</h4>
@@ -393,7 +393,7 @@ a sliding expiration of 30 seconds.</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/EntityRepository.cs&amp;version=GBmaster&amp;line=72">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/EntityRepository.cs&amp;version=GBmaster&amp;line=75">View Source</a>
   </span>
   <a id="Startitecture_Orm_Common_EntityRepository_2_Save_" data-uid="Startitecture.Orm.Common.EntityRepository`2.Save*"></a>
   <h4 id="Startitecture_Orm_Common_EntityRepository_2_Save__0_" data-uid="Startitecture.Orm.Common.EntityRepository`2.Save(`0)">Save(TModel)</h4>
@@ -457,7 +457,7 @@ a sliding expiration of 30 seconds.</p>
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/EntityRepository.cs&amp;version=GBmaster&amp;line=34" class="contribution-link">View Source</a>
+                    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/EntityRepository.cs&amp;version=GBmaster&amp;line=37" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

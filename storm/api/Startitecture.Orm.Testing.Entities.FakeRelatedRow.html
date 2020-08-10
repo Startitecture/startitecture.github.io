@@ -81,10 +81,6 @@
     <div class="level0"><span class="xref">System.Object</span></div>
     <div class="level1"><span class="xref">FakeRelatedRow</span></div>
   </div>
-  <div classs="implements">
-    <h5>Implements</h5>
-    <div><a class="xref" href="Startitecture.Orm.Model.ITransactionContext.html">ITransactionContext</a></div>
-  </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
@@ -114,13 +110,13 @@
   <h5 id="Startitecture_Orm_Testing_Entities_FakeRelatedRow_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[Table(&quot;Related&quot;, Schema = &quot;someschema&quot;)]
-public class FakeRelatedRow : ITransactionContext</code></pre>
+public class FakeRelatedRow</code></pre>
   </div>
   <h3 id="properties">Properties
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Testing.Entities/FakeRelatedRow.cs&amp;version=GBmaster&amp;line=32">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Testing.Entities/FakeRelatedRow.cs&amp;version=GBmaster&amp;line=31">View Source</a>
   </span>
   <a id="Startitecture_Orm_Testing_Entities_FakeRelatedRow_FakeDataId_" data-uid="Startitecture.Orm.Testing.Entities.FakeRelatedRow.FakeDataId*"></a>
   <h4 id="Startitecture_Orm_Testing_Entities_FakeRelatedRow_FakeDataId" data-uid="Startitecture.Orm.Testing.Entities.FakeRelatedRow.FakeDataId">FakeDataId</h4>
@@ -149,7 +145,7 @@ public int FakeDataId { get; set; }</code></pre>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Testing.Entities/FakeRelatedRow.cs&amp;version=GBmaster&amp;line=25">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Testing.Entities/FakeRelatedRow.cs&amp;version=GBmaster&amp;line=24">View Source</a>
   </span>
   <a id="Startitecture_Orm_Testing_Entities_FakeRelatedRow_RelatedId_" data-uid="Startitecture.Orm.Testing.Entities.FakeRelatedRow.RelatedId*"></a>
   <h4 id="Startitecture_Orm_Testing_Entities_FakeRelatedRow_RelatedId" data-uid="Startitecture.Orm.Testing.Entities.FakeRelatedRow.RelatedId">RelatedId</h4>
@@ -179,7 +175,7 @@ public int RelatedId { get; set; }</code></pre>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Testing.Entities/FakeRelatedRow.cs&amp;version=GBmaster&amp;line=38">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Testing.Entities/FakeRelatedRow.cs&amp;version=GBmaster&amp;line=37">View Source</a>
   </span>
   <a id="Startitecture_Orm_Testing_Entities_FakeRelatedRow_RelatedProperty_" data-uid="Startitecture.Orm.Testing.Entities.FakeRelatedRow.RelatedProperty*"></a>
   <h4 id="Startitecture_Orm_Testing_Entities_FakeRelatedRow_RelatedProperty" data-uid="Startitecture.Orm.Testing.Entities.FakeRelatedRow.RelatedProperty">RelatedProperty</h4>
@@ -206,71 +202,6 @@ public string RelatedProperty { get; set; }</code></pre>
       </tr>
     </tbody>
   </table>
-  
-  <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Testing.Entities/FakeRelatedRow.cs&amp;version=GBmaster&amp;line=44">View Source</a>
-  </span>
-  <a id="Startitecture_Orm_Testing_Entities_FakeRelatedRow_TransactionProvider_" data-uid="Startitecture.Orm.Testing.Entities.FakeRelatedRow.TransactionProvider*"></a>
-  <h4 id="Startitecture_Orm_Testing_Entities_FakeRelatedRow_TransactionProvider" data-uid="Startitecture.Orm.Testing.Entities.FakeRelatedRow.TransactionProvider">TransactionProvider</h4>
-  <div class="markdown level1 summary"><p>Gets the transaction provider.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IRepositoryProvider TransactionProvider { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Startitecture.Orm.Model.IRepositoryProvider.html">IRepositoryProvider</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="methods">Methods
-  </h3>
-  
-  <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Testing.Entities/FakeRelatedRow.cs&amp;version=GBmaster&amp;line=53">View Source</a>
-  </span>
-  <a id="Startitecture_Orm_Testing_Entities_FakeRelatedRow_SetTransactionProvider_" data-uid="Startitecture.Orm.Testing.Entities.FakeRelatedRow.SetTransactionProvider*"></a>
-  <h4 id="Startitecture_Orm_Testing_Entities_FakeRelatedRow_SetTransactionProvider_Startitecture_Orm_Model_IRepositoryProvider_" data-uid="Startitecture.Orm.Testing.Entities.FakeRelatedRow.SetTransactionProvider(Startitecture.Orm.Model.IRepositoryProvider)">SetTransactionProvider(IRepositoryProvider)</h4>
-  <div class="markdown level1 summary"><p>The set transaction provider.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void SetTransactionProvider(IRepositoryProvider repositoryProvider)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Startitecture.Orm.Model.IRepositoryProvider.html">IRepositoryProvider</a></td>
-        <td><span class="parametername">repositoryProvider</span></td>
-        <td><p>The repository provider.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="implements">Implements</h3>
-  <div>
-      <a class="xref" href="Startitecture.Orm.Model.ITransactionContext.html">ITransactionContext</a>
-  </div>
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>
       <a class="xref" href="Startitecture.Orm.Testing.Moq.ExtensionMethods.html#Startitecture_Orm_Testing_Moq_ExtensionMethods_MockDataReader__1___0_System_Collections_Generic_IEnumerable_Startitecture_Orm_Model_EntityAttributeDefinition__">ExtensionMethods.MockDataReader&lt;T&gt;(T, IEnumerable&lt;EntityAttributeDefinition&gt;)</a>
@@ -283,7 +214,7 @@ public string RelatedProperty { get; set; }</code></pre>
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Testing.Entities/FakeRelatedRow.cs&amp;version=GBmaster&amp;line=19" class="contribution-link">View Source</a>
+                    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Testing.Entities/FakeRelatedRow.cs&amp;version=GBmaster&amp;line=18" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

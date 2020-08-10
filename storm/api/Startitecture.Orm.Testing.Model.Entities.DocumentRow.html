@@ -82,18 +82,8 @@
     <div class="level1"><a class="xref" href="Startitecture.Orm.Common.EntityBase.html">EntityBase</a></div>
     <div class="level2"><span class="xref">DocumentRow</span></div>
   </div>
-  <div classs="implements">
-    <h5>Implements</h5>
-    <div><a class="xref" href="Startitecture.Orm.Model.ITransactionContext.html">ITransactionContext</a></div>
-  </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
-    <div>
-      <a class="xref" href="Startitecture.Orm.Common.EntityBase.html#Startitecture_Orm_Common_EntityBase_TransactionProvider">EntityBase.TransactionProvider</a>
-    </div>
-    <div>
-      <a class="xref" href="Startitecture.Orm.Common.EntityBase.html#Startitecture_Orm_Common_EntityBase_SetTransactionProvider_Startitecture_Orm_Model_IRepositoryProvider_">EntityBase.SetTransactionProvider(IRepositoryProvider)</a>
-    </div>
     <div>
       <span class="xref">System.Object.Equals(System.Object)</span>
     </div>
@@ -121,7 +111,7 @@
   <h5 id="Startitecture_Orm_Testing_Model_Entities_DocumentRow_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[Table(&quot;Document&quot;, Schema = &quot;dbo&quot;)]
-public class DocumentRow : EntityBase, ITransactionContext</code></pre>
+public class DocumentRow : EntityBase</code></pre>
   </div>
   <h3 id="properties">Properties
   </h3>
@@ -242,10 +232,6 @@ public string Identifier { get; set; }</code></pre>
       </tr>
     </tbody>
   </table>
-  <h3 id="implements">Implements</h3>
-  <div>
-      <a class="xref" href="Startitecture.Orm.Model.ITransactionContext.html">ITransactionContext</a>
-  </div>
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>
       <a class="xref" href="Startitecture.Orm.Testing.Moq.ExtensionMethods.html#Startitecture_Orm_Testing_Moq_ExtensionMethods_MockDataReader__1___0_System_Collections_Generic_IEnumerable_Startitecture_Orm_Model_EntityAttributeDefinition__">ExtensionMethods.MockDataReader&lt;T&gt;(T, IEnumerable&lt;EntityAttributeDefinition&gt;)</a>

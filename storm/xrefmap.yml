@@ -2699,32 +2699,6 @@ references:
   commentId: T:Startitecture.Orm.Common.EntityBase
   fullName: Startitecture.Orm.Common.EntityBase
   nameWithType: EntityBase
-- uid: Startitecture.Orm.Common.EntityBase.SetTransactionProvider(Startitecture.Orm.Model.IRepositoryProvider)
-  name: SetTransactionProvider(IRepositoryProvider)
-  href: api/Startitecture.Orm.Common.EntityBase.html#Startitecture_Orm_Common_EntityBase_SetTransactionProvider_Startitecture_Orm_Model_IRepositoryProvider_
-  commentId: M:Startitecture.Orm.Common.EntityBase.SetTransactionProvider(Startitecture.Orm.Model.IRepositoryProvider)
-  fullName: Startitecture.Orm.Common.EntityBase.SetTransactionProvider(Startitecture.Orm.Model.IRepositoryProvider)
-  nameWithType: EntityBase.SetTransactionProvider(IRepositoryProvider)
-- uid: Startitecture.Orm.Common.EntityBase.SetTransactionProvider*
-  name: SetTransactionProvider
-  href: api/Startitecture.Orm.Common.EntityBase.html#Startitecture_Orm_Common_EntityBase_SetTransactionProvider_
-  commentId: Overload:Startitecture.Orm.Common.EntityBase.SetTransactionProvider
-  isSpec: "True"
-  fullName: Startitecture.Orm.Common.EntityBase.SetTransactionProvider
-  nameWithType: EntityBase.SetTransactionProvider
-- uid: Startitecture.Orm.Common.EntityBase.TransactionProvider
-  name: TransactionProvider
-  href: api/Startitecture.Orm.Common.EntityBase.html#Startitecture_Orm_Common_EntityBase_TransactionProvider
-  commentId: P:Startitecture.Orm.Common.EntityBase.TransactionProvider
-  fullName: Startitecture.Orm.Common.EntityBase.TransactionProvider
-  nameWithType: EntityBase.TransactionProvider
-- uid: Startitecture.Orm.Common.EntityBase.TransactionProvider*
-  name: TransactionProvider
-  href: api/Startitecture.Orm.Common.EntityBase.html#Startitecture_Orm_Common_EntityBase_TransactionProvider_
-  commentId: Overload:Startitecture.Orm.Common.EntityBase.TransactionProvider
-  isSpec: "True"
-  fullName: Startitecture.Orm.Common.EntityBase.TransactionProvider
-  nameWithType: EntityBase.TransactionProvider
 - uid: Startitecture.Orm.Common.EntityRepository`2
   name: EntityRepository<TModel, TEntity>
   href: api/Startitecture.Orm.Common.EntityRepository-2.html
@@ -2849,32 +2823,6 @@ references:
   isSpec: "True"
   fullName: Startitecture.Orm.Common.IDatabaseContext.Connection
   nameWithType: IDatabaseContext.Connection
-- uid: Startitecture.Orm.Common.IDatabaseContext.DefinitionProvider
-  name: DefinitionProvider
-  href: api/Startitecture.Orm.Common.IDatabaseContext.html#Startitecture_Orm_Common_IDatabaseContext_DefinitionProvider
-  commentId: P:Startitecture.Orm.Common.IDatabaseContext.DefinitionProvider
-  fullName: Startitecture.Orm.Common.IDatabaseContext.DefinitionProvider
-  nameWithType: IDatabaseContext.DefinitionProvider
-- uid: Startitecture.Orm.Common.IDatabaseContext.DefinitionProvider*
-  name: DefinitionProvider
-  href: api/Startitecture.Orm.Common.IDatabaseContext.html#Startitecture_Orm_Common_IDatabaseContext_DefinitionProvider_
-  commentId: Overload:Startitecture.Orm.Common.IDatabaseContext.DefinitionProvider
-  isSpec: "True"
-  fullName: Startitecture.Orm.Common.IDatabaseContext.DefinitionProvider
-  nameWithType: IDatabaseContext.DefinitionProvider
-- uid: Startitecture.Orm.Common.IDatabaseContext.EnableNamedParameters
-  name: EnableNamedParameters
-  href: api/Startitecture.Orm.Common.IDatabaseContext.html#Startitecture_Orm_Common_IDatabaseContext_EnableNamedParameters
-  commentId: P:Startitecture.Orm.Common.IDatabaseContext.EnableNamedParameters
-  fullName: Startitecture.Orm.Common.IDatabaseContext.EnableNamedParameters
-  nameWithType: IDatabaseContext.EnableNamedParameters
-- uid: Startitecture.Orm.Common.IDatabaseContext.EnableNamedParameters*
-  name: EnableNamedParameters
-  href: api/Startitecture.Orm.Common.IDatabaseContext.html#Startitecture_Orm_Common_IDatabaseContext_EnableNamedParameters_
-  commentId: Overload:Startitecture.Orm.Common.IDatabaseContext.EnableNamedParameters
-  isSpec: "True"
-  fullName: Startitecture.Orm.Common.IDatabaseContext.EnableNamedParameters
-  nameWithType: IDatabaseContext.EnableNamedParameters
 - uid: Startitecture.Orm.Common.IDatabaseContext.Execute(System.String,System.Object[])
   name: Execute(String, Object[])
   href: api/Startitecture.Orm.Common.IDatabaseContext.html#Startitecture_Orm_Common_IDatabaseContext_Execute_System_String_System_Object___
@@ -2907,6 +2855,19 @@ references:
   fullName.vb: Startitecture.Orm.Common.IDatabaseContext.ExecuteScalar(Of T)(System.String, System.Object())
   nameWithType: IDatabaseContext.ExecuteScalar<T>(String, Object[])
   nameWithType.vb: IDatabaseContext.ExecuteScalar(Of T)(String, Object())
+- uid: Startitecture.Orm.Common.IDatabaseContext.GetValueMapper(System.Type,System.Type)
+  name: GetValueMapper(Type, Type)
+  href: api/Startitecture.Orm.Common.IDatabaseContext.html#Startitecture_Orm_Common_IDatabaseContext_GetValueMapper_System_Type_System_Type_
+  commentId: M:Startitecture.Orm.Common.IDatabaseContext.GetValueMapper(System.Type,System.Type)
+  fullName: Startitecture.Orm.Common.IDatabaseContext.GetValueMapper(System.Type, System.Type)
+  nameWithType: IDatabaseContext.GetValueMapper(Type, Type)
+- uid: Startitecture.Orm.Common.IDatabaseContext.GetValueMapper*
+  name: GetValueMapper
+  href: api/Startitecture.Orm.Common.IDatabaseContext.html#Startitecture_Orm_Common_IDatabaseContext_GetValueMapper_
+  commentId: Overload:Startitecture.Orm.Common.IDatabaseContext.GetValueMapper
+  isSpec: "True"
+  fullName: Startitecture.Orm.Common.IDatabaseContext.GetValueMapper
+  nameWithType: IDatabaseContext.GetValueMapper
 - uid: Startitecture.Orm.Common.IDatabaseContext.OnetimeCommandTimeout
   name: OnetimeCommandTimeout
   href: api/Startitecture.Orm.Common.IDatabaseContext.html#Startitecture_Orm_Common_IDatabaseContext_OnetimeCommandTimeout
@@ -2949,19 +2910,19 @@ references:
   fullName.vb: Startitecture.Orm.Common.IDatabaseContext.Query(Of T)(System.String, System.Object())
   nameWithType: IDatabaseContext.Query<T>(String, Object[])
   nameWithType.vb: IDatabaseContext.Query(Of T)(String, Object())
-- uid: Startitecture.Orm.Common.IDatabaseContext.StatementCompiler
-  name: StatementCompiler
-  href: api/Startitecture.Orm.Common.IDatabaseContext.html#Startitecture_Orm_Common_IDatabaseContext_StatementCompiler
-  commentId: P:Startitecture.Orm.Common.IDatabaseContext.StatementCompiler
-  fullName: Startitecture.Orm.Common.IDatabaseContext.StatementCompiler
-  nameWithType: IDatabaseContext.StatementCompiler
-- uid: Startitecture.Orm.Common.IDatabaseContext.StatementCompiler*
-  name: StatementCompiler
-  href: api/Startitecture.Orm.Common.IDatabaseContext.html#Startitecture_Orm_Common_IDatabaseContext_StatementCompiler_
-  commentId: Overload:Startitecture.Orm.Common.IDatabaseContext.StatementCompiler
+- uid: Startitecture.Orm.Common.IDatabaseContext.RepositoryAdapter
+  name: RepositoryAdapter
+  href: api/Startitecture.Orm.Common.IDatabaseContext.html#Startitecture_Orm_Common_IDatabaseContext_RepositoryAdapter
+  commentId: P:Startitecture.Orm.Common.IDatabaseContext.RepositoryAdapter
+  fullName: Startitecture.Orm.Common.IDatabaseContext.RepositoryAdapter
+  nameWithType: IDatabaseContext.RepositoryAdapter
+- uid: Startitecture.Orm.Common.IDatabaseContext.RepositoryAdapter*
+  name: RepositoryAdapter
+  href: api/Startitecture.Orm.Common.IDatabaseContext.html#Startitecture_Orm_Common_IDatabaseContext_RepositoryAdapter_
+  commentId: Overload:Startitecture.Orm.Common.IDatabaseContext.RepositoryAdapter
   isSpec: "True"
-  fullName: Startitecture.Orm.Common.IDatabaseContext.StatementCompiler
-  nameWithType: IDatabaseContext.StatementCompiler
+  fullName: Startitecture.Orm.Common.IDatabaseContext.RepositoryAdapter
+  nameWithType: IDatabaseContext.RepositoryAdapter
 - uid: Startitecture.Orm.Common.IDatabaseContextFactory
   name: IDatabaseContextFactory
   href: api/Startitecture.Orm.Common.IDatabaseContextFactory.html
@@ -3006,231 +2967,139 @@ references:
   commentId: T:Startitecture.Orm.Common.IRepositoryAdapter
   fullName: Startitecture.Orm.Common.IRepositoryAdapter
   nameWithType: IRepositoryAdapter
-- uid: Startitecture.Orm.Common.IRepositoryAdapter.Contains*
-  name: Contains
-  href: api/Startitecture.Orm.Common.IRepositoryAdapter.html#Startitecture_Orm_Common_IRepositoryAdapter_Contains_
-  commentId: Overload:Startitecture.Orm.Common.IRepositoryAdapter.Contains
-  isSpec: "True"
-  fullName: Startitecture.Orm.Common.IRepositoryAdapter.Contains
-  nameWithType: IRepositoryAdapter.Contains
-- uid: Startitecture.Orm.Common.IRepositoryAdapter.Contains``1(Startitecture.Orm.Model.EntitySelection{``0})
-  name: Contains<TDataItem>(EntitySelection<TDataItem>)
-  href: api/Startitecture.Orm.Common.IRepositoryAdapter.html#Startitecture_Orm_Common_IRepositoryAdapter_Contains__1_Startitecture_Orm_Model_EntitySelection___0__
-  commentId: M:Startitecture.Orm.Common.IRepositoryAdapter.Contains``1(Startitecture.Orm.Model.EntitySelection{``0})
-  name.vb: Contains(Of TDataItem)(EntitySelection(Of TDataItem))
-  fullName: Startitecture.Orm.Common.IRepositoryAdapter.Contains<TDataItem>(Startitecture.Orm.Model.EntitySelection<TDataItem>)
-  fullName.vb: Startitecture.Orm.Common.IRepositoryAdapter.Contains(Of TDataItem)(Startitecture.Orm.Model.EntitySelection(Of TDataItem))
-  nameWithType: IRepositoryAdapter.Contains<TDataItem>(EntitySelection<TDataItem>)
-  nameWithType.vb: IRepositoryAdapter.Contains(Of TDataItem)(EntitySelection(Of TDataItem))
-- uid: Startitecture.Orm.Common.IRepositoryAdapter.DeleteSelection*
-  name: DeleteSelection
-  href: api/Startitecture.Orm.Common.IRepositoryAdapter.html#Startitecture_Orm_Common_IRepositoryAdapter_DeleteSelection_
-  commentId: Overload:Startitecture.Orm.Common.IRepositoryAdapter.DeleteSelection
-  isSpec: "True"
-  fullName: Startitecture.Orm.Common.IRepositoryAdapter.DeleteSelection
-  nameWithType: IRepositoryAdapter.DeleteSelection
-- uid: Startitecture.Orm.Common.IRepositoryAdapter.DeleteSelection``1(Startitecture.Orm.Model.EntitySelection{``0})
-  name: DeleteSelection<TDataItem>(EntitySelection<TDataItem>)
-  href: api/Startitecture.Orm.Common.IRepositoryAdapter.html#Startitecture_Orm_Common_IRepositoryAdapter_DeleteSelection__1_Startitecture_Orm_Model_EntitySelection___0__
-  commentId: M:Startitecture.Orm.Common.IRepositoryAdapter.DeleteSelection``1(Startitecture.Orm.Model.EntitySelection{``0})
-  name.vb: DeleteSelection(Of TDataItem)(EntitySelection(Of TDataItem))
-  fullName: Startitecture.Orm.Common.IRepositoryAdapter.DeleteSelection<TDataItem>(Startitecture.Orm.Model.EntitySelection<TDataItem>)
-  fullName.vb: Startitecture.Orm.Common.IRepositoryAdapter.DeleteSelection(Of TDataItem)(Startitecture.Orm.Model.EntitySelection(Of TDataItem))
-  nameWithType: IRepositoryAdapter.DeleteSelection<TDataItem>(EntitySelection<TDataItem>)
-  nameWithType.vb: IRepositoryAdapter.DeleteSelection(Of TDataItem)(EntitySelection(Of TDataItem))
-- uid: Startitecture.Orm.Common.IRepositoryAdapter.ExecuteScalar*
-  name: ExecuteScalar
-  href: api/Startitecture.Orm.Common.IRepositoryAdapter.html#Startitecture_Orm_Common_IRepositoryAdapter_ExecuteScalar_
-  commentId: Overload:Startitecture.Orm.Common.IRepositoryAdapter.ExecuteScalar
-  isSpec: "True"
-  fullName: Startitecture.Orm.Common.IRepositoryAdapter.ExecuteScalar
-  nameWithType: IRepositoryAdapter.ExecuteScalar
-- uid: Startitecture.Orm.Common.IRepositoryAdapter.ExecuteScalar``1(Startitecture.Orm.Model.ISelection)
-  name: ExecuteScalar<T>(ISelection)
-  href: api/Startitecture.Orm.Common.IRepositoryAdapter.html#Startitecture_Orm_Common_IRepositoryAdapter_ExecuteScalar__1_Startitecture_Orm_Model_ISelection_
-  commentId: M:Startitecture.Orm.Common.IRepositoryAdapter.ExecuteScalar``1(Startitecture.Orm.Model.ISelection)
-  name.vb: ExecuteScalar(Of T)(ISelection)
-  fullName: Startitecture.Orm.Common.IRepositoryAdapter.ExecuteScalar<T>(Startitecture.Orm.Model.ISelection)
-  fullName.vb: Startitecture.Orm.Common.IRepositoryAdapter.ExecuteScalar(Of T)(Startitecture.Orm.Model.ISelection)
-  nameWithType: IRepositoryAdapter.ExecuteScalar<T>(ISelection)
-  nameWithType.vb: IRepositoryAdapter.ExecuteScalar(Of T)(ISelection)
-- uid: Startitecture.Orm.Common.IRepositoryAdapter.FirstOrDefault*
-  name: FirstOrDefault
-  href: api/Startitecture.Orm.Common.IRepositoryAdapter.html#Startitecture_Orm_Common_IRepositoryAdapter_FirstOrDefault_
-  commentId: Overload:Startitecture.Orm.Common.IRepositoryAdapter.FirstOrDefault
-  isSpec: "True"
-  fullName: Startitecture.Orm.Common.IRepositoryAdapter.FirstOrDefault
-  nameWithType: IRepositoryAdapter.FirstOrDefault
-- uid: Startitecture.Orm.Common.IRepositoryAdapter.FirstOrDefault``1(Startitecture.Orm.Model.EntitySelection{``0})
-  name: FirstOrDefault<TDataItem>(EntitySelection<TDataItem>)
-  href: api/Startitecture.Orm.Common.IRepositoryAdapter.html#Startitecture_Orm_Common_IRepositoryAdapter_FirstOrDefault__1_Startitecture_Orm_Model_EntitySelection___0__
-  commentId: M:Startitecture.Orm.Common.IRepositoryAdapter.FirstOrDefault``1(Startitecture.Orm.Model.EntitySelection{``0})
-  name.vb: FirstOrDefault(Of TDataItem)(EntitySelection(Of TDataItem))
-  fullName: Startitecture.Orm.Common.IRepositoryAdapter.FirstOrDefault<TDataItem>(Startitecture.Orm.Model.EntitySelection<TDataItem>)
-  fullName.vb: Startitecture.Orm.Common.IRepositoryAdapter.FirstOrDefault(Of TDataItem)(Startitecture.Orm.Model.EntitySelection(Of TDataItem))
-  nameWithType: IRepositoryAdapter.FirstOrDefault<TDataItem>(EntitySelection<TDataItem>)
-  nameWithType.vb: IRepositoryAdapter.FirstOrDefault(Of TDataItem)(EntitySelection(Of TDataItem))
-- uid: Startitecture.Orm.Common.IRepositoryAdapter.Insert*
-  name: Insert
-  href: api/Startitecture.Orm.Common.IRepositoryAdapter.html#Startitecture_Orm_Common_IRepositoryAdapter_Insert_
-  commentId: Overload:Startitecture.Orm.Common.IRepositoryAdapter.Insert
-  isSpec: "True"
-  fullName: Startitecture.Orm.Common.IRepositoryAdapter.Insert
-  nameWithType: IRepositoryAdapter.Insert
-- uid: Startitecture.Orm.Common.IRepositoryAdapter.Insert``1(``0)
-  name: Insert<TDataItem>(TDataItem)
-  href: api/Startitecture.Orm.Common.IRepositoryAdapter.html#Startitecture_Orm_Common_IRepositoryAdapter_Insert__1___0_
-  commentId: M:Startitecture.Orm.Common.IRepositoryAdapter.Insert``1(``0)
-  name.vb: Insert(Of TDataItem)(TDataItem)
-  fullName: Startitecture.Orm.Common.IRepositoryAdapter.Insert<TDataItem>(TDataItem)
-  fullName.vb: Startitecture.Orm.Common.IRepositoryAdapter.Insert(Of TDataItem)(TDataItem)
-  nameWithType: IRepositoryAdapter.Insert<TDataItem>(TDataItem)
-  nameWithType.vb: IRepositoryAdapter.Insert(Of TDataItem)(TDataItem)
-- uid: Startitecture.Orm.Common.IRepositoryAdapter.SelectItems*
-  name: SelectItems
-  href: api/Startitecture.Orm.Common.IRepositoryAdapter.html#Startitecture_Orm_Common_IRepositoryAdapter_SelectItems_
-  commentId: Overload:Startitecture.Orm.Common.IRepositoryAdapter.SelectItems
-  isSpec: "True"
-  fullName: Startitecture.Orm.Common.IRepositoryAdapter.SelectItems
-  nameWithType: IRepositoryAdapter.SelectItems
-- uid: Startitecture.Orm.Common.IRepositoryAdapter.SelectItems``1(Startitecture.Orm.Model.EntitySelection{``0})
-  name: SelectItems<TDataItem>(EntitySelection<TDataItem>)
-  href: api/Startitecture.Orm.Common.IRepositoryAdapter.html#Startitecture_Orm_Common_IRepositoryAdapter_SelectItems__1_Startitecture_Orm_Model_EntitySelection___0__
-  commentId: M:Startitecture.Orm.Common.IRepositoryAdapter.SelectItems``1(Startitecture.Orm.Model.EntitySelection{``0})
-  name.vb: SelectItems(Of TDataItem)(EntitySelection(Of TDataItem))
-  fullName: Startitecture.Orm.Common.IRepositoryAdapter.SelectItems<TDataItem>(Startitecture.Orm.Model.EntitySelection<TDataItem>)
-  fullName.vb: Startitecture.Orm.Common.IRepositoryAdapter.SelectItems(Of TDataItem)(Startitecture.Orm.Model.EntitySelection(Of TDataItem))
-  nameWithType: IRepositoryAdapter.SelectItems<TDataItem>(EntitySelection<TDataItem>)
-  nameWithType.vb: IRepositoryAdapter.SelectItems(Of TDataItem)(EntitySelection(Of TDataItem))
-- uid: Startitecture.Orm.Common.IRepositoryAdapter.Update*
-  name: Update
-  href: api/Startitecture.Orm.Common.IRepositoryAdapter.html#Startitecture_Orm_Common_IRepositoryAdapter_Update_
-  commentId: Overload:Startitecture.Orm.Common.IRepositoryAdapter.Update
-  isSpec: "True"
-  fullName: Startitecture.Orm.Common.IRepositoryAdapter.Update
-  nameWithType: IRepositoryAdapter.Update
-- uid: Startitecture.Orm.Common.IRepositoryAdapter.Update``1(``0,Startitecture.Orm.Model.EntitySelection{``0},System.Linq.Expressions.Expression{System.Func{``0,System.Object}}[])
-  name: Update<TDataItem>(TDataItem, EntitySelection<TDataItem>, Expression<Func<TDataItem, Object>>[])
-  href: api/Startitecture.Orm.Common.IRepositoryAdapter.html#Startitecture_Orm_Common_IRepositoryAdapter_Update__1___0_Startitecture_Orm_Model_EntitySelection___0__System_Linq_Expressions_Expression_System_Func___0_System_Object_____
-  commentId: M:Startitecture.Orm.Common.IRepositoryAdapter.Update``1(``0,Startitecture.Orm.Model.EntitySelection{``0},System.Linq.Expressions.Expression{System.Func{``0,System.Object}}[])
-  name.vb: Update(Of TDataItem)(TDataItem, EntitySelection(Of TDataItem), Expression(Of Func(Of TDataItem, Object))())
-  fullName: Startitecture.Orm.Common.IRepositoryAdapter.Update<TDataItem>(TDataItem, Startitecture.Orm.Model.EntitySelection<TDataItem>, System.Linq.Expressions.Expression<System.Func<TDataItem, System.Object>>[])
-  fullName.vb: Startitecture.Orm.Common.IRepositoryAdapter.Update(Of TDataItem)(TDataItem, Startitecture.Orm.Model.EntitySelection(Of TDataItem), System.Linq.Expressions.Expression(Of System.Func(Of TDataItem, System.Object))())
-  nameWithType: IRepositoryAdapter.Update<TDataItem>(TDataItem, EntitySelection<TDataItem>, Expression<Func<TDataItem, Object>>[])
-  nameWithType.vb: IRepositoryAdapter.Update(Of TDataItem)(TDataItem, EntitySelection(Of TDataItem), Expression(Of Func(Of TDataItem, Object))())
-- uid: Startitecture.Orm.Common.IStatementCompiler
-  name: IStatementCompiler
-  href: api/Startitecture.Orm.Common.IStatementCompiler.html
-  commentId: T:Startitecture.Orm.Common.IStatementCompiler
-  fullName: Startitecture.Orm.Common.IStatementCompiler
-  nameWithType: IStatementCompiler
-- uid: Startitecture.Orm.Common.IStatementCompiler.AddPrefix(System.String)
+- uid: Startitecture.Orm.Common.IRepositoryAdapter.AddPrefix(System.String)
   name: AddPrefix(String)
-  href: api/Startitecture.Orm.Common.IStatementCompiler.html#Startitecture_Orm_Common_IStatementCompiler_AddPrefix_System_String_
-  commentId: M:Startitecture.Orm.Common.IStatementCompiler.AddPrefix(System.String)
-  fullName: Startitecture.Orm.Common.IStatementCompiler.AddPrefix(System.String)
-  nameWithType: IStatementCompiler.AddPrefix(String)
-- uid: Startitecture.Orm.Common.IStatementCompiler.AddPrefix*
+  href: api/Startitecture.Orm.Common.IRepositoryAdapter.html#Startitecture_Orm_Common_IRepositoryAdapter_AddPrefix_System_String_
+  commentId: M:Startitecture.Orm.Common.IRepositoryAdapter.AddPrefix(System.String)
+  fullName: Startitecture.Orm.Common.IRepositoryAdapter.AddPrefix(System.String)
+  nameWithType: IRepositoryAdapter.AddPrefix(String)
+- uid: Startitecture.Orm.Common.IRepositoryAdapter.AddPrefix*
   name: AddPrefix
-  href: api/Startitecture.Orm.Common.IStatementCompiler.html#Startitecture_Orm_Common_IStatementCompiler_AddPrefix_
-  commentId: Overload:Startitecture.Orm.Common.IStatementCompiler.AddPrefix
+  href: api/Startitecture.Orm.Common.IRepositoryAdapter.html#Startitecture_Orm_Common_IRepositoryAdapter_AddPrefix_
+  commentId: Overload:Startitecture.Orm.Common.IRepositoryAdapter.AddPrefix
   isSpec: "True"
-  fullName: Startitecture.Orm.Common.IStatementCompiler.AddPrefix
-  nameWithType: IStatementCompiler.AddPrefix
-- uid: Startitecture.Orm.Common.IStatementCompiler.CreateDeletionStatement(Startitecture.Orm.Model.IEntitySet)
+  fullName: Startitecture.Orm.Common.IRepositoryAdapter.AddPrefix
+  nameWithType: IRepositoryAdapter.AddPrefix
+- uid: Startitecture.Orm.Common.IRepositoryAdapter.CreateDeletionStatement(Startitecture.Orm.Model.IEntitySet)
   name: CreateDeletionStatement(IEntitySet)
-  href: api/Startitecture.Orm.Common.IStatementCompiler.html#Startitecture_Orm_Common_IStatementCompiler_CreateDeletionStatement_Startitecture_Orm_Model_IEntitySet_
-  commentId: M:Startitecture.Orm.Common.IStatementCompiler.CreateDeletionStatement(Startitecture.Orm.Model.IEntitySet)
-  fullName: Startitecture.Orm.Common.IStatementCompiler.CreateDeletionStatement(Startitecture.Orm.Model.IEntitySet)
-  nameWithType: IStatementCompiler.CreateDeletionStatement(IEntitySet)
-- uid: Startitecture.Orm.Common.IStatementCompiler.CreateDeletionStatement*
+  href: api/Startitecture.Orm.Common.IRepositoryAdapter.html#Startitecture_Orm_Common_IRepositoryAdapter_CreateDeletionStatement_Startitecture_Orm_Model_IEntitySet_
+  commentId: M:Startitecture.Orm.Common.IRepositoryAdapter.CreateDeletionStatement(Startitecture.Orm.Model.IEntitySet)
+  fullName: Startitecture.Orm.Common.IRepositoryAdapter.CreateDeletionStatement(Startitecture.Orm.Model.IEntitySet)
+  nameWithType: IRepositoryAdapter.CreateDeletionStatement(IEntitySet)
+- uid: Startitecture.Orm.Common.IRepositoryAdapter.CreateDeletionStatement*
   name: CreateDeletionStatement
-  href: api/Startitecture.Orm.Common.IStatementCompiler.html#Startitecture_Orm_Common_IStatementCompiler_CreateDeletionStatement_
-  commentId: Overload:Startitecture.Orm.Common.IStatementCompiler.CreateDeletionStatement
+  href: api/Startitecture.Orm.Common.IRepositoryAdapter.html#Startitecture_Orm_Common_IRepositoryAdapter_CreateDeletionStatement_
+  commentId: Overload:Startitecture.Orm.Common.IRepositoryAdapter.CreateDeletionStatement
   isSpec: "True"
-  fullName: Startitecture.Orm.Common.IStatementCompiler.CreateDeletionStatement
-  nameWithType: IStatementCompiler.CreateDeletionStatement
-- uid: Startitecture.Orm.Common.IStatementCompiler.CreateExistsStatement(Startitecture.Orm.Model.IEntitySet)
+  fullName: Startitecture.Orm.Common.IRepositoryAdapter.CreateDeletionStatement
+  nameWithType: IRepositoryAdapter.CreateDeletionStatement
+- uid: Startitecture.Orm.Common.IRepositoryAdapter.CreateExistsStatement(Startitecture.Orm.Model.IEntitySet)
   name: CreateExistsStatement(IEntitySet)
-  href: api/Startitecture.Orm.Common.IStatementCompiler.html#Startitecture_Orm_Common_IStatementCompiler_CreateExistsStatement_Startitecture_Orm_Model_IEntitySet_
-  commentId: M:Startitecture.Orm.Common.IStatementCompiler.CreateExistsStatement(Startitecture.Orm.Model.IEntitySet)
-  fullName: Startitecture.Orm.Common.IStatementCompiler.CreateExistsStatement(Startitecture.Orm.Model.IEntitySet)
-  nameWithType: IStatementCompiler.CreateExistsStatement(IEntitySet)
-- uid: Startitecture.Orm.Common.IStatementCompiler.CreateExistsStatement*
+  href: api/Startitecture.Orm.Common.IRepositoryAdapter.html#Startitecture_Orm_Common_IRepositoryAdapter_CreateExistsStatement_Startitecture_Orm_Model_IEntitySet_
+  commentId: M:Startitecture.Orm.Common.IRepositoryAdapter.CreateExistsStatement(Startitecture.Orm.Model.IEntitySet)
+  fullName: Startitecture.Orm.Common.IRepositoryAdapter.CreateExistsStatement(Startitecture.Orm.Model.IEntitySet)
+  nameWithType: IRepositoryAdapter.CreateExistsStatement(IEntitySet)
+- uid: Startitecture.Orm.Common.IRepositoryAdapter.CreateExistsStatement*
   name: CreateExistsStatement
-  href: api/Startitecture.Orm.Common.IStatementCompiler.html#Startitecture_Orm_Common_IStatementCompiler_CreateExistsStatement_
-  commentId: Overload:Startitecture.Orm.Common.IStatementCompiler.CreateExistsStatement
+  href: api/Startitecture.Orm.Common.IRepositoryAdapter.html#Startitecture_Orm_Common_IRepositoryAdapter_CreateExistsStatement_
+  commentId: Overload:Startitecture.Orm.Common.IRepositoryAdapter.CreateExistsStatement
   isSpec: "True"
-  fullName: Startitecture.Orm.Common.IStatementCompiler.CreateExistsStatement
-  nameWithType: IStatementCompiler.CreateExistsStatement
-- uid: Startitecture.Orm.Common.IStatementCompiler.CreateInsertionStatement*
+  fullName: Startitecture.Orm.Common.IRepositoryAdapter.CreateExistsStatement
+  nameWithType: IRepositoryAdapter.CreateExistsStatement
+- uid: Startitecture.Orm.Common.IRepositoryAdapter.CreateInsertionStatement*
   name: CreateInsertionStatement
-  href: api/Startitecture.Orm.Common.IStatementCompiler.html#Startitecture_Orm_Common_IStatementCompiler_CreateInsertionStatement_
-  commentId: Overload:Startitecture.Orm.Common.IStatementCompiler.CreateInsertionStatement
+  href: api/Startitecture.Orm.Common.IRepositoryAdapter.html#Startitecture_Orm_Common_IRepositoryAdapter_CreateInsertionStatement_
+  commentId: Overload:Startitecture.Orm.Common.IRepositoryAdapter.CreateInsertionStatement
   isSpec: "True"
-  fullName: Startitecture.Orm.Common.IStatementCompiler.CreateInsertionStatement
-  nameWithType: IStatementCompiler.CreateInsertionStatement
-- uid: Startitecture.Orm.Common.IStatementCompiler.CreateInsertionStatement``1
+  fullName: Startitecture.Orm.Common.IRepositoryAdapter.CreateInsertionStatement
+  nameWithType: IRepositoryAdapter.CreateInsertionStatement
+- uid: Startitecture.Orm.Common.IRepositoryAdapter.CreateInsertionStatement``1
   name: CreateInsertionStatement<T>()
-  href: api/Startitecture.Orm.Common.IStatementCompiler.html#Startitecture_Orm_Common_IStatementCompiler_CreateInsertionStatement__1
-  commentId: M:Startitecture.Orm.Common.IStatementCompiler.CreateInsertionStatement``1
+  href: api/Startitecture.Orm.Common.IRepositoryAdapter.html#Startitecture_Orm_Common_IRepositoryAdapter_CreateInsertionStatement__1
+  commentId: M:Startitecture.Orm.Common.IRepositoryAdapter.CreateInsertionStatement``1
   name.vb: CreateInsertionStatement(Of T)()
-  fullName: Startitecture.Orm.Common.IStatementCompiler.CreateInsertionStatement<T>()
-  fullName.vb: Startitecture.Orm.Common.IStatementCompiler.CreateInsertionStatement(Of T)()
-  nameWithType: IStatementCompiler.CreateInsertionStatement<T>()
-  nameWithType.vb: IStatementCompiler.CreateInsertionStatement(Of T)()
-- uid: Startitecture.Orm.Common.IStatementCompiler.CreateParameter(System.Data.IDbCommand,System.String,System.Object)
+  fullName: Startitecture.Orm.Common.IRepositoryAdapter.CreateInsertionStatement<T>()
+  fullName.vb: Startitecture.Orm.Common.IRepositoryAdapter.CreateInsertionStatement(Of T)()
+  nameWithType: IRepositoryAdapter.CreateInsertionStatement<T>()
+  nameWithType.vb: IRepositoryAdapter.CreateInsertionStatement(Of T)()
+- uid: Startitecture.Orm.Common.IRepositoryAdapter.CreateParameter(System.Data.IDbCommand,System.String,System.Object)
   name: CreateParameter(IDbCommand, String, Object)
-  href: api/Startitecture.Orm.Common.IStatementCompiler.html#Startitecture_Orm_Common_IStatementCompiler_CreateParameter_System_Data_IDbCommand_System_String_System_Object_
-  commentId: M:Startitecture.Orm.Common.IStatementCompiler.CreateParameter(System.Data.IDbCommand,System.String,System.Object)
-  fullName: Startitecture.Orm.Common.IStatementCompiler.CreateParameter(System.Data.IDbCommand, System.String, System.Object)
-  nameWithType: IStatementCompiler.CreateParameter(IDbCommand, String, Object)
-- uid: Startitecture.Orm.Common.IStatementCompiler.CreateParameter*
+  href: api/Startitecture.Orm.Common.IRepositoryAdapter.html#Startitecture_Orm_Common_IRepositoryAdapter_CreateParameter_System_Data_IDbCommand_System_String_System_Object_
+  commentId: M:Startitecture.Orm.Common.IRepositoryAdapter.CreateParameter(System.Data.IDbCommand,System.String,System.Object)
+  fullName: Startitecture.Orm.Common.IRepositoryAdapter.CreateParameter(System.Data.IDbCommand, System.String, System.Object)
+  nameWithType: IRepositoryAdapter.CreateParameter(IDbCommand, String, Object)
+- uid: Startitecture.Orm.Common.IRepositoryAdapter.CreateParameter*
   name: CreateParameter
-  href: api/Startitecture.Orm.Common.IStatementCompiler.html#Startitecture_Orm_Common_IStatementCompiler_CreateParameter_
-  commentId: Overload:Startitecture.Orm.Common.IStatementCompiler.CreateParameter
+  href: api/Startitecture.Orm.Common.IRepositoryAdapter.html#Startitecture_Orm_Common_IRepositoryAdapter_CreateParameter_
+  commentId: Overload:Startitecture.Orm.Common.IRepositoryAdapter.CreateParameter
   isSpec: "True"
-  fullName: Startitecture.Orm.Common.IStatementCompiler.CreateParameter
-  nameWithType: IStatementCompiler.CreateParameter
-- uid: Startitecture.Orm.Common.IStatementCompiler.CreateSelectionStatement(Startitecture.Orm.Model.ISelection)
+  fullName: Startitecture.Orm.Common.IRepositoryAdapter.CreateParameter
+  nameWithType: IRepositoryAdapter.CreateParameter
+- uid: Startitecture.Orm.Common.IRepositoryAdapter.CreateSelectionStatement(Startitecture.Orm.Model.ISelection)
   name: CreateSelectionStatement(ISelection)
-  href: api/Startitecture.Orm.Common.IStatementCompiler.html#Startitecture_Orm_Common_IStatementCompiler_CreateSelectionStatement_Startitecture_Orm_Model_ISelection_
-  commentId: M:Startitecture.Orm.Common.IStatementCompiler.CreateSelectionStatement(Startitecture.Orm.Model.ISelection)
-  fullName: Startitecture.Orm.Common.IStatementCompiler.CreateSelectionStatement(Startitecture.Orm.Model.ISelection)
-  nameWithType: IStatementCompiler.CreateSelectionStatement(ISelection)
-- uid: Startitecture.Orm.Common.IStatementCompiler.CreateSelectionStatement*
+  href: api/Startitecture.Orm.Common.IRepositoryAdapter.html#Startitecture_Orm_Common_IRepositoryAdapter_CreateSelectionStatement_Startitecture_Orm_Model_ISelection_
+  commentId: M:Startitecture.Orm.Common.IRepositoryAdapter.CreateSelectionStatement(Startitecture.Orm.Model.ISelection)
+  fullName: Startitecture.Orm.Common.IRepositoryAdapter.CreateSelectionStatement(Startitecture.Orm.Model.ISelection)
+  nameWithType: IRepositoryAdapter.CreateSelectionStatement(ISelection)
+- uid: Startitecture.Orm.Common.IRepositoryAdapter.CreateSelectionStatement*
   name: CreateSelectionStatement
-  href: api/Startitecture.Orm.Common.IStatementCompiler.html#Startitecture_Orm_Common_IStatementCompiler_CreateSelectionStatement_
-  commentId: Overload:Startitecture.Orm.Common.IStatementCompiler.CreateSelectionStatement
+  href: api/Startitecture.Orm.Common.IRepositoryAdapter.html#Startitecture_Orm_Common_IRepositoryAdapter_CreateSelectionStatement_
+  commentId: Overload:Startitecture.Orm.Common.IRepositoryAdapter.CreateSelectionStatement
   isSpec: "True"
-  fullName: Startitecture.Orm.Common.IStatementCompiler.CreateSelectionStatement
-  nameWithType: IStatementCompiler.CreateSelectionStatement
-- uid: Startitecture.Orm.Common.IStatementCompiler.CreateUpdateStatement(Startitecture.Orm.Model.IUpdateSet)
+  fullName: Startitecture.Orm.Common.IRepositoryAdapter.CreateSelectionStatement
+  nameWithType: IRepositoryAdapter.CreateSelectionStatement
+- uid: Startitecture.Orm.Common.IRepositoryAdapter.CreateUpdateStatement(Startitecture.Orm.Model.IUpdateSet)
   name: CreateUpdateStatement(IUpdateSet)
-  href: api/Startitecture.Orm.Common.IStatementCompiler.html#Startitecture_Orm_Common_IStatementCompiler_CreateUpdateStatement_Startitecture_Orm_Model_IUpdateSet_
-  commentId: M:Startitecture.Orm.Common.IStatementCompiler.CreateUpdateStatement(Startitecture.Orm.Model.IUpdateSet)
-  fullName: Startitecture.Orm.Common.IStatementCompiler.CreateUpdateStatement(Startitecture.Orm.Model.IUpdateSet)
-  nameWithType: IStatementCompiler.CreateUpdateStatement(IUpdateSet)
-- uid: Startitecture.Orm.Common.IStatementCompiler.CreateUpdateStatement*
+  href: api/Startitecture.Orm.Common.IRepositoryAdapter.html#Startitecture_Orm_Common_IRepositoryAdapter_CreateUpdateStatement_Startitecture_Orm_Model_IUpdateSet_
+  commentId: M:Startitecture.Orm.Common.IRepositoryAdapter.CreateUpdateStatement(Startitecture.Orm.Model.IUpdateSet)
+  fullName: Startitecture.Orm.Common.IRepositoryAdapter.CreateUpdateStatement(Startitecture.Orm.Model.IUpdateSet)
+  nameWithType: IRepositoryAdapter.CreateUpdateStatement(IUpdateSet)
+- uid: Startitecture.Orm.Common.IRepositoryAdapter.CreateUpdateStatement*
   name: CreateUpdateStatement
-  href: api/Startitecture.Orm.Common.IStatementCompiler.html#Startitecture_Orm_Common_IStatementCompiler_CreateUpdateStatement_
-  commentId: Overload:Startitecture.Orm.Common.IStatementCompiler.CreateUpdateStatement
+  href: api/Startitecture.Orm.Common.IRepositoryAdapter.html#Startitecture_Orm_Common_IRepositoryAdapter_CreateUpdateStatement_
+  commentId: Overload:Startitecture.Orm.Common.IRepositoryAdapter.CreateUpdateStatement
   isSpec: "True"
-  fullName: Startitecture.Orm.Common.IStatementCompiler.CreateUpdateStatement
-  nameWithType: IStatementCompiler.CreateUpdateStatement
-- uid: Startitecture.Orm.Common.IStatementCompiler.DefinitionProvider
+  fullName: Startitecture.Orm.Common.IRepositoryAdapter.CreateUpdateStatement
+  nameWithType: IRepositoryAdapter.CreateUpdateStatement
+- uid: Startitecture.Orm.Common.IRepositoryAdapter.DefinitionProvider
   name: DefinitionProvider
-  href: api/Startitecture.Orm.Common.IStatementCompiler.html#Startitecture_Orm_Common_IStatementCompiler_DefinitionProvider
-  commentId: P:Startitecture.Orm.Common.IStatementCompiler.DefinitionProvider
-  fullName: Startitecture.Orm.Common.IStatementCompiler.DefinitionProvider
-  nameWithType: IStatementCompiler.DefinitionProvider
-- uid: Startitecture.Orm.Common.IStatementCompiler.DefinitionProvider*
+  href: api/Startitecture.Orm.Common.IRepositoryAdapter.html#Startitecture_Orm_Common_IRepositoryAdapter_DefinitionProvider
+  commentId: P:Startitecture.Orm.Common.IRepositoryAdapter.DefinitionProvider
+  fullName: Startitecture.Orm.Common.IRepositoryAdapter.DefinitionProvider
+  nameWithType: IRepositoryAdapter.DefinitionProvider
+- uid: Startitecture.Orm.Common.IRepositoryAdapter.DefinitionProvider*
   name: DefinitionProvider
-  href: api/Startitecture.Orm.Common.IStatementCompiler.html#Startitecture_Orm_Common_IStatementCompiler_DefinitionProvider_
-  commentId: Overload:Startitecture.Orm.Common.IStatementCompiler.DefinitionProvider
+  href: api/Startitecture.Orm.Common.IRepositoryAdapter.html#Startitecture_Orm_Common_IRepositoryAdapter_DefinitionProvider_
+  commentId: Overload:Startitecture.Orm.Common.IRepositoryAdapter.DefinitionProvider
   isSpec: "True"
-  fullName: Startitecture.Orm.Common.IStatementCompiler.DefinitionProvider
-  nameWithType: IStatementCompiler.DefinitionProvider
+  fullName: Startitecture.Orm.Common.IRepositoryAdapter.DefinitionProvider
+  nameWithType: IRepositoryAdapter.DefinitionProvider
+- uid: Startitecture.Orm.Common.IRepositoryAdapter.NameQualifier
+  name: NameQualifier
+  href: api/Startitecture.Orm.Common.IRepositoryAdapter.html#Startitecture_Orm_Common_IRepositoryAdapter_NameQualifier
+  commentId: P:Startitecture.Orm.Common.IRepositoryAdapter.NameQualifier
+  fullName: Startitecture.Orm.Common.IRepositoryAdapter.NameQualifier
+  nameWithType: IRepositoryAdapter.NameQualifier
+- uid: Startitecture.Orm.Common.IRepositoryAdapter.NameQualifier*
+  name: NameQualifier
+  href: api/Startitecture.Orm.Common.IRepositoryAdapter.html#Startitecture_Orm_Common_IRepositoryAdapter_NameQualifier_
+  commentId: Overload:Startitecture.Orm.Common.IRepositoryAdapter.NameQualifier
+  isSpec: "True"
+  fullName: Startitecture.Orm.Common.IRepositoryAdapter.NameQualifier
+  nameWithType: IRepositoryAdapter.NameQualifier
+- uid: Startitecture.Orm.Common.IRepositoryAdapter.ValueMappers
+  name: ValueMappers
+  href: api/Startitecture.Orm.Common.IRepositoryAdapter.html#Startitecture_Orm_Common_IRepositoryAdapter_ValueMappers
+  commentId: P:Startitecture.Orm.Common.IRepositoryAdapter.ValueMappers
+  fullName: Startitecture.Orm.Common.IRepositoryAdapter.ValueMappers
+  nameWithType: IRepositoryAdapter.ValueMappers
+- uid: Startitecture.Orm.Common.IRepositoryAdapter.ValueMappers*
+  name: ValueMappers
+  href: api/Startitecture.Orm.Common.IRepositoryAdapter.html#Startitecture_Orm_Common_IRepositoryAdapter_ValueMappers_
+  commentId: Overload:Startitecture.Orm.Common.IRepositoryAdapter.ValueMappers
+  isSpec: "True"
+  fullName: Startitecture.Orm.Common.IRepositoryAdapter.ValueMappers
+  nameWithType: IRepositoryAdapter.ValueMappers
 - uid: Startitecture.Orm.Common.IStatementCompilerFactory
   name: IStatementCompilerFactory
   href: api/Startitecture.Orm.Common.IStatementCompilerFactory.html
@@ -3314,32 +3183,38 @@ references:
   isSpec: "True"
   fullName: Startitecture.Orm.Common.IStructuredCommandProvider.CreateCommand
   nameWithType: IStructuredCommandProvider.CreateCommand
-- uid: Startitecture.Orm.Common.IStructuredCommandProvider.EntityDefinitionProvider
-  name: EntityDefinitionProvider
-  href: api/Startitecture.Orm.Common.IStructuredCommandProvider.html#Startitecture_Orm_Common_IStructuredCommandProvider_EntityDefinitionProvider
-  commentId: P:Startitecture.Orm.Common.IStructuredCommandProvider.EntityDefinitionProvider
-  fullName: Startitecture.Orm.Common.IStructuredCommandProvider.EntityDefinitionProvider
-  nameWithType: IStructuredCommandProvider.EntityDefinitionProvider
-- uid: Startitecture.Orm.Common.IStructuredCommandProvider.EntityDefinitionProvider*
-  name: EntityDefinitionProvider
-  href: api/Startitecture.Orm.Common.IStructuredCommandProvider.html#Startitecture_Orm_Common_IStructuredCommandProvider_EntityDefinitionProvider_
-  commentId: Overload:Startitecture.Orm.Common.IStructuredCommandProvider.EntityDefinitionProvider
+- uid: Startitecture.Orm.Common.IStructuredCommandProvider.DatabaseContext
+  name: DatabaseContext
+  href: api/Startitecture.Orm.Common.IStructuredCommandProvider.html#Startitecture_Orm_Common_IStructuredCommandProvider_DatabaseContext
+  commentId: P:Startitecture.Orm.Common.IStructuredCommandProvider.DatabaseContext
+  fullName: Startitecture.Orm.Common.IStructuredCommandProvider.DatabaseContext
+  nameWithType: IStructuredCommandProvider.DatabaseContext
+- uid: Startitecture.Orm.Common.IStructuredCommandProvider.DatabaseContext*
+  name: DatabaseContext
+  href: api/Startitecture.Orm.Common.IStructuredCommandProvider.html#Startitecture_Orm_Common_IStructuredCommandProvider_DatabaseContext_
+  commentId: Overload:Startitecture.Orm.Common.IStructuredCommandProvider.DatabaseContext
   isSpec: "True"
-  fullName: Startitecture.Orm.Common.IStructuredCommandProvider.EntityDefinitionProvider
-  nameWithType: IStructuredCommandProvider.EntityDefinitionProvider
-- uid: Startitecture.Orm.Common.IStructuredCommandProvider.NameQualifier
-  name: NameQualifier
-  href: api/Startitecture.Orm.Common.IStructuredCommandProvider.html#Startitecture_Orm_Common_IStructuredCommandProvider_NameQualifier
-  commentId: P:Startitecture.Orm.Common.IStructuredCommandProvider.NameQualifier
-  fullName: Startitecture.Orm.Common.IStructuredCommandProvider.NameQualifier
-  nameWithType: IStructuredCommandProvider.NameQualifier
-- uid: Startitecture.Orm.Common.IStructuredCommandProvider.NameQualifier*
-  name: NameQualifier
-  href: api/Startitecture.Orm.Common.IStructuredCommandProvider.html#Startitecture_Orm_Common_IStructuredCommandProvider_NameQualifier_
-  commentId: Overload:Startitecture.Orm.Common.IStructuredCommandProvider.NameQualifier
+  fullName: Startitecture.Orm.Common.IStructuredCommandProvider.DatabaseContext
+  nameWithType: IStructuredCommandProvider.DatabaseContext
+- uid: Startitecture.Orm.Common.IValueMapper
+  name: IValueMapper
+  href: api/Startitecture.Orm.Common.IValueMapper.html
+  commentId: T:Startitecture.Orm.Common.IValueMapper
+  fullName: Startitecture.Orm.Common.IValueMapper
+  nameWithType: IValueMapper
+- uid: Startitecture.Orm.Common.IValueMapper.Convert(System.Object)
+  name: Convert(Object)
+  href: api/Startitecture.Orm.Common.IValueMapper.html#Startitecture_Orm_Common_IValueMapper_Convert_System_Object_
+  commentId: M:Startitecture.Orm.Common.IValueMapper.Convert(System.Object)
+  fullName: Startitecture.Orm.Common.IValueMapper.Convert(System.Object)
+  nameWithType: IValueMapper.Convert(Object)
+- uid: Startitecture.Orm.Common.IValueMapper.Convert*
+  name: Convert
+  href: api/Startitecture.Orm.Common.IValueMapper.html#Startitecture_Orm_Common_IValueMapper_Convert_
+  commentId: Overload:Startitecture.Orm.Common.IValueMapper.Convert
   isSpec: "True"
-  fullName: Startitecture.Orm.Common.IStructuredCommandProvider.NameQualifier
-  nameWithType: IStructuredCommandProvider.NameQualifier
+  fullName: Startitecture.Orm.Common.IValueMapper.Convert
+  nameWithType: IValueMapper.Convert
 - uid: Startitecture.Orm.Common.JoinClause
   name: JoinClause
   href: api/Startitecture.Orm.Common.JoinClause.html
@@ -3712,273 +3587,270 @@ references:
   fullName.vb: Startitecture.Orm.Common.ReadOnlyRepository(Of TModel, TEntity).SelectEntities(Of TItem)(Startitecture.Orm.Model.EntitySelection(Of TItem))
   nameWithType: ReadOnlyRepository<TModel, TEntity>.SelectEntities<TItem>(EntitySelection<TItem>)
   nameWithType.vb: ReadOnlyRepository(Of TModel, TEntity).SelectEntities(Of TItem)(EntitySelection(Of TItem))
-- uid: Startitecture.Orm.Common.StatementCompiler
-  name: StatementCompiler
-  href: api/Startitecture.Orm.Common.StatementCompiler.html
-  commentId: T:Startitecture.Orm.Common.StatementCompiler
-  fullName: Startitecture.Orm.Common.StatementCompiler
-  nameWithType: StatementCompiler
-- uid: Startitecture.Orm.Common.StatementCompiler.#ctor(Startitecture.Orm.Model.IEntityDefinitionProvider,Startitecture.Orm.Model.INameQualifier)
-  name: StatementCompiler(IEntityDefinitionProvider, INameQualifier)
-  href: api/Startitecture.Orm.Common.StatementCompiler.html#Startitecture_Orm_Common_StatementCompiler__ctor_Startitecture_Orm_Model_IEntityDefinitionProvider_Startitecture_Orm_Model_INameQualifier_
-  commentId: M:Startitecture.Orm.Common.StatementCompiler.#ctor(Startitecture.Orm.Model.IEntityDefinitionProvider,Startitecture.Orm.Model.INameQualifier)
-  fullName: Startitecture.Orm.Common.StatementCompiler.StatementCompiler(Startitecture.Orm.Model.IEntityDefinitionProvider, Startitecture.Orm.Model.INameQualifier)
-  nameWithType: StatementCompiler.StatementCompiler(IEntityDefinitionProvider, INameQualifier)
-- uid: Startitecture.Orm.Common.StatementCompiler.#ctor*
-  name: StatementCompiler
-  href: api/Startitecture.Orm.Common.StatementCompiler.html#Startitecture_Orm_Common_StatementCompiler__ctor_
-  commentId: Overload:Startitecture.Orm.Common.StatementCompiler.#ctor
+- uid: Startitecture.Orm.Common.RepositoryAdapter
+  name: RepositoryAdapter
+  href: api/Startitecture.Orm.Common.RepositoryAdapter.html
+  commentId: T:Startitecture.Orm.Common.RepositoryAdapter
+  fullName: Startitecture.Orm.Common.RepositoryAdapter
+  nameWithType: RepositoryAdapter
+- uid: Startitecture.Orm.Common.RepositoryAdapter.#ctor(Startitecture.Orm.Model.IEntityDefinitionProvider,Startitecture.Orm.Model.INameQualifier)
+  name: RepositoryAdapter(IEntityDefinitionProvider, INameQualifier)
+  href: api/Startitecture.Orm.Common.RepositoryAdapter.html#Startitecture_Orm_Common_RepositoryAdapter__ctor_Startitecture_Orm_Model_IEntityDefinitionProvider_Startitecture_Orm_Model_INameQualifier_
+  commentId: M:Startitecture.Orm.Common.RepositoryAdapter.#ctor(Startitecture.Orm.Model.IEntityDefinitionProvider,Startitecture.Orm.Model.INameQualifier)
+  fullName: Startitecture.Orm.Common.RepositoryAdapter.RepositoryAdapter(Startitecture.Orm.Model.IEntityDefinitionProvider, Startitecture.Orm.Model.INameQualifier)
+  nameWithType: RepositoryAdapter.RepositoryAdapter(IEntityDefinitionProvider, INameQualifier)
+- uid: Startitecture.Orm.Common.RepositoryAdapter.#ctor*
+  name: RepositoryAdapter
+  href: api/Startitecture.Orm.Common.RepositoryAdapter.html#Startitecture_Orm_Common_RepositoryAdapter__ctor_
+  commentId: Overload:Startitecture.Orm.Common.RepositoryAdapter.#ctor
   isSpec: "True"
-  fullName: Startitecture.Orm.Common.StatementCompiler.StatementCompiler
-  nameWithType: StatementCompiler.StatementCompiler
-- uid: Startitecture.Orm.Common.StatementCompiler.AddPrefix(System.String)
+  fullName: Startitecture.Orm.Common.RepositoryAdapter.RepositoryAdapter
+  nameWithType: RepositoryAdapter.RepositoryAdapter
+- uid: Startitecture.Orm.Common.RepositoryAdapter.AddPrefix(System.String)
   name: AddPrefix(String)
-  href: api/Startitecture.Orm.Common.StatementCompiler.html#Startitecture_Orm_Common_StatementCompiler_AddPrefix_System_String_
-  commentId: M:Startitecture.Orm.Common.StatementCompiler.AddPrefix(System.String)
-  fullName: Startitecture.Orm.Common.StatementCompiler.AddPrefix(System.String)
-  nameWithType: StatementCompiler.AddPrefix(String)
-- uid: Startitecture.Orm.Common.StatementCompiler.AddPrefix*
+  href: api/Startitecture.Orm.Common.RepositoryAdapter.html#Startitecture_Orm_Common_RepositoryAdapter_AddPrefix_System_String_
+  commentId: M:Startitecture.Orm.Common.RepositoryAdapter.AddPrefix(System.String)
+  fullName: Startitecture.Orm.Common.RepositoryAdapter.AddPrefix(System.String)
+  nameWithType: RepositoryAdapter.AddPrefix(String)
+- uid: Startitecture.Orm.Common.RepositoryAdapter.AddPrefix*
   name: AddPrefix
-  href: api/Startitecture.Orm.Common.StatementCompiler.html#Startitecture_Orm_Common_StatementCompiler_AddPrefix_
-  commentId: Overload:Startitecture.Orm.Common.StatementCompiler.AddPrefix
+  href: api/Startitecture.Orm.Common.RepositoryAdapter.html#Startitecture_Orm_Common_RepositoryAdapter_AddPrefix_
+  commentId: Overload:Startitecture.Orm.Common.RepositoryAdapter.AddPrefix
   isSpec: "True"
-  fullName: Startitecture.Orm.Common.StatementCompiler.AddPrefix
-  nameWithType: StatementCompiler.AddPrefix
-- uid: Startitecture.Orm.Common.StatementCompiler.AddTokens(Startitecture.Orm.Model.FilterType,System.Object,System.Collections.Generic.ICollection{System.String},System.String,System.Collections.Generic.IReadOnlyCollection{System.Object},System.Int32)
+  fullName: Startitecture.Orm.Common.RepositoryAdapter.AddPrefix
+  nameWithType: RepositoryAdapter.AddPrefix
+- uid: Startitecture.Orm.Common.RepositoryAdapter.AddTokens(Startitecture.Orm.Model.FilterType,System.Object,System.Collections.Generic.ICollection{System.String},System.String,System.Collections.Generic.IReadOnlyCollection{System.Object},System.Int32)
   name: AddTokens(FilterType, Object, ICollection<String>, String, IReadOnlyCollection<Object>, Int32)
-  href: api/Startitecture.Orm.Common.StatementCompiler.html#Startitecture_Orm_Common_StatementCompiler_AddTokens_Startitecture_Orm_Model_FilterType_System_Object_System_Collections_Generic_ICollection_System_String__System_String_System_Collections_Generic_IReadOnlyCollection_System_Object__System_Int32_
-  commentId: M:Startitecture.Orm.Common.StatementCompiler.AddTokens(Startitecture.Orm.Model.FilterType,System.Object,System.Collections.Generic.ICollection{System.String},System.String,System.Collections.Generic.IReadOnlyCollection{System.Object},System.Int32)
+  href: api/Startitecture.Orm.Common.RepositoryAdapter.html#Startitecture_Orm_Common_RepositoryAdapter_AddTokens_Startitecture_Orm_Model_FilterType_System_Object_System_Collections_Generic_ICollection_System_String__System_String_System_Collections_Generic_IReadOnlyCollection_System_Object__System_Int32_
+  commentId: M:Startitecture.Orm.Common.RepositoryAdapter.AddTokens(Startitecture.Orm.Model.FilterType,System.Object,System.Collections.Generic.ICollection{System.String},System.String,System.Collections.Generic.IReadOnlyCollection{System.Object},System.Int32)
   name.vb: AddTokens(FilterType, Object, ICollection(Of String), String, IReadOnlyCollection(Of Object), Int32)
-  fullName: Startitecture.Orm.Common.StatementCompiler.AddTokens(Startitecture.Orm.Model.FilterType, System.Object, System.Collections.Generic.ICollection<System.String>, System.String, System.Collections.Generic.IReadOnlyCollection<System.Object>, System.Int32)
-  fullName.vb: Startitecture.Orm.Common.StatementCompiler.AddTokens(Startitecture.Orm.Model.FilterType, System.Object, System.Collections.Generic.ICollection(Of System.String), System.String, System.Collections.Generic.IReadOnlyCollection(Of System.Object), System.Int32)
-  nameWithType: StatementCompiler.AddTokens(FilterType, Object, ICollection<String>, String, IReadOnlyCollection<Object>, Int32)
-  nameWithType.vb: StatementCompiler.AddTokens(FilterType, Object, ICollection(Of String), String, IReadOnlyCollection(Of Object), Int32)
-- uid: Startitecture.Orm.Common.StatementCompiler.AddTokens*
+  fullName: Startitecture.Orm.Common.RepositoryAdapter.AddTokens(Startitecture.Orm.Model.FilterType, System.Object, System.Collections.Generic.ICollection<System.String>, System.String, System.Collections.Generic.IReadOnlyCollection<System.Object>, System.Int32)
+  fullName.vb: Startitecture.Orm.Common.RepositoryAdapter.AddTokens(Startitecture.Orm.Model.FilterType, System.Object, System.Collections.Generic.ICollection(Of System.String), System.String, System.Collections.Generic.IReadOnlyCollection(Of System.Object), System.Int32)
+  nameWithType: RepositoryAdapter.AddTokens(FilterType, Object, ICollection<String>, String, IReadOnlyCollection<Object>, Int32)
+  nameWithType.vb: RepositoryAdapter.AddTokens(FilterType, Object, ICollection(Of String), String, IReadOnlyCollection(Of Object), Int32)
+- uid: Startitecture.Orm.Common.RepositoryAdapter.AddTokens*
   name: AddTokens
-  href: api/Startitecture.Orm.Common.StatementCompiler.html#Startitecture_Orm_Common_StatementCompiler_AddTokens_
-  commentId: Overload:Startitecture.Orm.Common.StatementCompiler.AddTokens
+  href: api/Startitecture.Orm.Common.RepositoryAdapter.html#Startitecture_Orm_Common_RepositoryAdapter_AddTokens_
+  commentId: Overload:Startitecture.Orm.Common.RepositoryAdapter.AddTokens
   isSpec: "True"
-  fullName: Startitecture.Orm.Common.StatementCompiler.AddTokens
-  nameWithType: StatementCompiler.AddTokens
-- uid: Startitecture.Orm.Common.StatementCompiler.CaptureInsertedIdentity(System.String,Startitecture.Orm.Model.IEntityDefinition)
+  fullName: Startitecture.Orm.Common.RepositoryAdapter.AddTokens
+  nameWithType: RepositoryAdapter.AddTokens
+- uid: Startitecture.Orm.Common.RepositoryAdapter.CaptureInsertedIdentity(System.String,Startitecture.Orm.Model.IEntityDefinition)
   name: CaptureInsertedIdentity(String, IEntityDefinition)
-  href: api/Startitecture.Orm.Common.StatementCompiler.html#Startitecture_Orm_Common_StatementCompiler_CaptureInsertedIdentity_System_String_Startitecture_Orm_Model_IEntityDefinition_
-  commentId: M:Startitecture.Orm.Common.StatementCompiler.CaptureInsertedIdentity(System.String,Startitecture.Orm.Model.IEntityDefinition)
-  fullName: Startitecture.Orm.Common.StatementCompiler.CaptureInsertedIdentity(System.String, Startitecture.Orm.Model.IEntityDefinition)
-  nameWithType: StatementCompiler.CaptureInsertedIdentity(String, IEntityDefinition)
-- uid: Startitecture.Orm.Common.StatementCompiler.CaptureInsertedIdentity*
+  href: api/Startitecture.Orm.Common.RepositoryAdapter.html#Startitecture_Orm_Common_RepositoryAdapter_CaptureInsertedIdentity_System_String_Startitecture_Orm_Model_IEntityDefinition_
+  commentId: M:Startitecture.Orm.Common.RepositoryAdapter.CaptureInsertedIdentity(System.String,Startitecture.Orm.Model.IEntityDefinition)
+  fullName: Startitecture.Orm.Common.RepositoryAdapter.CaptureInsertedIdentity(System.String, Startitecture.Orm.Model.IEntityDefinition)
+  nameWithType: RepositoryAdapter.CaptureInsertedIdentity(String, IEntityDefinition)
+- uid: Startitecture.Orm.Common.RepositoryAdapter.CaptureInsertedIdentity*
   name: CaptureInsertedIdentity
-  href: api/Startitecture.Orm.Common.StatementCompiler.html#Startitecture_Orm_Common_StatementCompiler_CaptureInsertedIdentity_
-  commentId: Overload:Startitecture.Orm.Common.StatementCompiler.CaptureInsertedIdentity
+  href: api/Startitecture.Orm.Common.RepositoryAdapter.html#Startitecture_Orm_Common_RepositoryAdapter_CaptureInsertedIdentity_
+  commentId: Overload:Startitecture.Orm.Common.RepositoryAdapter.CaptureInsertedIdentity
   isSpec: "True"
-  fullName: Startitecture.Orm.Common.StatementCompiler.CaptureInsertedIdentity
-  nameWithType: StatementCompiler.CaptureInsertedIdentity
-- uid: Startitecture.Orm.Common.StatementCompiler.CreateDeletionStatement(Startitecture.Orm.Model.IEntitySet)
+  fullName: Startitecture.Orm.Common.RepositoryAdapter.CaptureInsertedIdentity
+  nameWithType: RepositoryAdapter.CaptureInsertedIdentity
+- uid: Startitecture.Orm.Common.RepositoryAdapter.CreateDeletionStatement(Startitecture.Orm.Model.IEntitySet)
   name: CreateDeletionStatement(IEntitySet)
-  href: api/Startitecture.Orm.Common.StatementCompiler.html#Startitecture_Orm_Common_StatementCompiler_CreateDeletionStatement_Startitecture_Orm_Model_IEntitySet_
-  commentId: M:Startitecture.Orm.Common.StatementCompiler.CreateDeletionStatement(Startitecture.Orm.Model.IEntitySet)
-  fullName: Startitecture.Orm.Common.StatementCompiler.CreateDeletionStatement(Startitecture.Orm.Model.IEntitySet)
-  nameWithType: StatementCompiler.CreateDeletionStatement(IEntitySet)
-- uid: Startitecture.Orm.Common.StatementCompiler.CreateDeletionStatement*
+  href: api/Startitecture.Orm.Common.RepositoryAdapter.html#Startitecture_Orm_Common_RepositoryAdapter_CreateDeletionStatement_Startitecture_Orm_Model_IEntitySet_
+  commentId: M:Startitecture.Orm.Common.RepositoryAdapter.CreateDeletionStatement(Startitecture.Orm.Model.IEntitySet)
+  fullName: Startitecture.Orm.Common.RepositoryAdapter.CreateDeletionStatement(Startitecture.Orm.Model.IEntitySet)
+  nameWithType: RepositoryAdapter.CreateDeletionStatement(IEntitySet)
+- uid: Startitecture.Orm.Common.RepositoryAdapter.CreateDeletionStatement*
   name: CreateDeletionStatement
-  href: api/Startitecture.Orm.Common.StatementCompiler.html#Startitecture_Orm_Common_StatementCompiler_CreateDeletionStatement_
-  commentId: Overload:Startitecture.Orm.Common.StatementCompiler.CreateDeletionStatement
+  href: api/Startitecture.Orm.Common.RepositoryAdapter.html#Startitecture_Orm_Common_RepositoryAdapter_CreateDeletionStatement_
+  commentId: Overload:Startitecture.Orm.Common.RepositoryAdapter.CreateDeletionStatement
   isSpec: "True"
-  fullName: Startitecture.Orm.Common.StatementCompiler.CreateDeletionStatement
-  nameWithType: StatementCompiler.CreateDeletionStatement
-- uid: Startitecture.Orm.Common.StatementCompiler.CreateEntitySetStatement(Startitecture.Orm.Model.IEntitySet,Startitecture.Orm.Model.IEntityDefinition,System.Int32,System.Int32)
+  fullName: Startitecture.Orm.Common.RepositoryAdapter.CreateDeletionStatement
+  nameWithType: RepositoryAdapter.CreateDeletionStatement
+- uid: Startitecture.Orm.Common.RepositoryAdapter.CreateEntitySetStatement(Startitecture.Orm.Model.IEntitySet,Startitecture.Orm.Model.IEntityDefinition,System.Int32,System.Int32)
   name: CreateEntitySetStatement(IEntitySet, IEntityDefinition, Int32, Int32)
-  href: api/Startitecture.Orm.Common.StatementCompiler.html#Startitecture_Orm_Common_StatementCompiler_CreateEntitySetStatement_Startitecture_Orm_Model_IEntitySet_Startitecture_Orm_Model_IEntityDefinition_System_Int32_System_Int32_
-  commentId: M:Startitecture.Orm.Common.StatementCompiler.CreateEntitySetStatement(Startitecture.Orm.Model.IEntitySet,Startitecture.Orm.Model.IEntityDefinition,System.Int32,System.Int32)
-  fullName: Startitecture.Orm.Common.StatementCompiler.CreateEntitySetStatement(Startitecture.Orm.Model.IEntitySet, Startitecture.Orm.Model.IEntityDefinition, System.Int32, System.Int32)
-  nameWithType: StatementCompiler.CreateEntitySetStatement(IEntitySet, IEntityDefinition, Int32, Int32)
-- uid: Startitecture.Orm.Common.StatementCompiler.CreateEntitySetStatement*
+  href: api/Startitecture.Orm.Common.RepositoryAdapter.html#Startitecture_Orm_Common_RepositoryAdapter_CreateEntitySetStatement_Startitecture_Orm_Model_IEntitySet_Startitecture_Orm_Model_IEntityDefinition_System_Int32_System_Int32_
+  commentId: M:Startitecture.Orm.Common.RepositoryAdapter.CreateEntitySetStatement(Startitecture.Orm.Model.IEntitySet,Startitecture.Orm.Model.IEntityDefinition,System.Int32,System.Int32)
+  fullName: Startitecture.Orm.Common.RepositoryAdapter.CreateEntitySetStatement(Startitecture.Orm.Model.IEntitySet, Startitecture.Orm.Model.IEntityDefinition, System.Int32, System.Int32)
+  nameWithType: RepositoryAdapter.CreateEntitySetStatement(IEntitySet, IEntityDefinition, Int32, Int32)
+- uid: Startitecture.Orm.Common.RepositoryAdapter.CreateEntitySetStatement*
   name: CreateEntitySetStatement
-  href: api/Startitecture.Orm.Common.StatementCompiler.html#Startitecture_Orm_Common_StatementCompiler_CreateEntitySetStatement_
-  commentId: Overload:Startitecture.Orm.Common.StatementCompiler.CreateEntitySetStatement
+  href: api/Startitecture.Orm.Common.RepositoryAdapter.html#Startitecture_Orm_Common_RepositoryAdapter_CreateEntitySetStatement_
+  commentId: Overload:Startitecture.Orm.Common.RepositoryAdapter.CreateEntitySetStatement
   isSpec: "True"
-  fullName: Startitecture.Orm.Common.StatementCompiler.CreateEntitySetStatement
-  nameWithType: StatementCompiler.CreateEntitySetStatement
-- uid: Startitecture.Orm.Common.StatementCompiler.CreateExistsStatement(Startitecture.Orm.Model.IEntitySet)
+  fullName: Startitecture.Orm.Common.RepositoryAdapter.CreateEntitySetStatement
+  nameWithType: RepositoryAdapter.CreateEntitySetStatement
+- uid: Startitecture.Orm.Common.RepositoryAdapter.CreateExistsStatement(Startitecture.Orm.Model.IEntitySet)
   name: CreateExistsStatement(IEntitySet)
-  href: api/Startitecture.Orm.Common.StatementCompiler.html#Startitecture_Orm_Common_StatementCompiler_CreateExistsStatement_Startitecture_Orm_Model_IEntitySet_
-  commentId: M:Startitecture.Orm.Common.StatementCompiler.CreateExistsStatement(Startitecture.Orm.Model.IEntitySet)
-  fullName: Startitecture.Orm.Common.StatementCompiler.CreateExistsStatement(Startitecture.Orm.Model.IEntitySet)
-  nameWithType: StatementCompiler.CreateExistsStatement(IEntitySet)
-- uid: Startitecture.Orm.Common.StatementCompiler.CreateExistsStatement*
+  href: api/Startitecture.Orm.Common.RepositoryAdapter.html#Startitecture_Orm_Common_RepositoryAdapter_CreateExistsStatement_Startitecture_Orm_Model_IEntitySet_
+  commentId: M:Startitecture.Orm.Common.RepositoryAdapter.CreateExistsStatement(Startitecture.Orm.Model.IEntitySet)
+  fullName: Startitecture.Orm.Common.RepositoryAdapter.CreateExistsStatement(Startitecture.Orm.Model.IEntitySet)
+  nameWithType: RepositoryAdapter.CreateExistsStatement(IEntitySet)
+- uid: Startitecture.Orm.Common.RepositoryAdapter.CreateExistsStatement*
   name: CreateExistsStatement
-  href: api/Startitecture.Orm.Common.StatementCompiler.html#Startitecture_Orm_Common_StatementCompiler_CreateExistsStatement_
-  commentId: Overload:Startitecture.Orm.Common.StatementCompiler.CreateExistsStatement
+  href: api/Startitecture.Orm.Common.RepositoryAdapter.html#Startitecture_Orm_Common_RepositoryAdapter_CreateExistsStatement_
+  commentId: Overload:Startitecture.Orm.Common.RepositoryAdapter.CreateExistsStatement
   isSpec: "True"
-  fullName: Startitecture.Orm.Common.StatementCompiler.CreateExistsStatement
-  nameWithType: StatementCompiler.CreateExistsStatement
-- uid: Startitecture.Orm.Common.StatementCompiler.CreateInsertionStatement*
+  fullName: Startitecture.Orm.Common.RepositoryAdapter.CreateExistsStatement
+  nameWithType: RepositoryAdapter.CreateExistsStatement
+- uid: Startitecture.Orm.Common.RepositoryAdapter.CreateInsertionStatement*
   name: CreateInsertionStatement
-  href: api/Startitecture.Orm.Common.StatementCompiler.html#Startitecture_Orm_Common_StatementCompiler_CreateInsertionStatement_
-  commentId: Overload:Startitecture.Orm.Common.StatementCompiler.CreateInsertionStatement
+  href: api/Startitecture.Orm.Common.RepositoryAdapter.html#Startitecture_Orm_Common_RepositoryAdapter_CreateInsertionStatement_
+  commentId: Overload:Startitecture.Orm.Common.RepositoryAdapter.CreateInsertionStatement
   isSpec: "True"
-  fullName: Startitecture.Orm.Common.StatementCompiler.CreateInsertionStatement
-  nameWithType: StatementCompiler.CreateInsertionStatement
-- uid: Startitecture.Orm.Common.StatementCompiler.CreateInsertionStatement``1
+  fullName: Startitecture.Orm.Common.RepositoryAdapter.CreateInsertionStatement
+  nameWithType: RepositoryAdapter.CreateInsertionStatement
+- uid: Startitecture.Orm.Common.RepositoryAdapter.CreateInsertionStatement``1
   name: CreateInsertionStatement<T>()
-  href: api/Startitecture.Orm.Common.StatementCompiler.html#Startitecture_Orm_Common_StatementCompiler_CreateInsertionStatement__1
-  commentId: M:Startitecture.Orm.Common.StatementCompiler.CreateInsertionStatement``1
+  href: api/Startitecture.Orm.Common.RepositoryAdapter.html#Startitecture_Orm_Common_RepositoryAdapter_CreateInsertionStatement__1
+  commentId: M:Startitecture.Orm.Common.RepositoryAdapter.CreateInsertionStatement``1
   name.vb: CreateInsertionStatement(Of T)()
-  fullName: Startitecture.Orm.Common.StatementCompiler.CreateInsertionStatement<T>()
-  fullName.vb: Startitecture.Orm.Common.StatementCompiler.CreateInsertionStatement(Of T)()
-  nameWithType: StatementCompiler.CreateInsertionStatement<T>()
-  nameWithType.vb: StatementCompiler.CreateInsertionStatement(Of T)()
-- uid: Startitecture.Orm.Common.StatementCompiler.CreateParameter(System.Data.IDbCommand,System.String,System.Object)
+  fullName: Startitecture.Orm.Common.RepositoryAdapter.CreateInsertionStatement<T>()
+  fullName.vb: Startitecture.Orm.Common.RepositoryAdapter.CreateInsertionStatement(Of T)()
+  nameWithType: RepositoryAdapter.CreateInsertionStatement<T>()
+  nameWithType.vb: RepositoryAdapter.CreateInsertionStatement(Of T)()
+- uid: Startitecture.Orm.Common.RepositoryAdapter.CreateParameter(System.Data.IDbCommand,System.String,System.Object)
   name: CreateParameter(IDbCommand, String, Object)
-  href: api/Startitecture.Orm.Common.StatementCompiler.html#Startitecture_Orm_Common_StatementCompiler_CreateParameter_System_Data_IDbCommand_System_String_System_Object_
-  commentId: M:Startitecture.Orm.Common.StatementCompiler.CreateParameter(System.Data.IDbCommand,System.String,System.Object)
-  fullName: Startitecture.Orm.Common.StatementCompiler.CreateParameter(System.Data.IDbCommand, System.String, System.Object)
-  nameWithType: StatementCompiler.CreateParameter(IDbCommand, String, Object)
-- uid: Startitecture.Orm.Common.StatementCompiler.CreateParameter*
+  href: api/Startitecture.Orm.Common.RepositoryAdapter.html#Startitecture_Orm_Common_RepositoryAdapter_CreateParameter_System_Data_IDbCommand_System_String_System_Object_
+  commentId: M:Startitecture.Orm.Common.RepositoryAdapter.CreateParameter(System.Data.IDbCommand,System.String,System.Object)
+  fullName: Startitecture.Orm.Common.RepositoryAdapter.CreateParameter(System.Data.IDbCommand, System.String, System.Object)
+  nameWithType: RepositoryAdapter.CreateParameter(IDbCommand, String, Object)
+- uid: Startitecture.Orm.Common.RepositoryAdapter.CreateParameter*
   name: CreateParameter
-  href: api/Startitecture.Orm.Common.StatementCompiler.html#Startitecture_Orm_Common_StatementCompiler_CreateParameter_
-  commentId: Overload:Startitecture.Orm.Common.StatementCompiler.CreateParameter
+  href: api/Startitecture.Orm.Common.RepositoryAdapter.html#Startitecture_Orm_Common_RepositoryAdapter_CreateParameter_
+  commentId: Overload:Startitecture.Orm.Common.RepositoryAdapter.CreateParameter
   isSpec: "True"
-  fullName: Startitecture.Orm.Common.StatementCompiler.CreateParameter
-  nameWithType: StatementCompiler.CreateParameter
-- uid: Startitecture.Orm.Common.StatementCompiler.CreateSelectionStatement(Startitecture.Orm.Model.IEntitySet,Startitecture.Orm.Model.IEntityDefinition,System.Collections.Generic.IEnumerable{System.String},System.Int32,System.Int32)
+  fullName: Startitecture.Orm.Common.RepositoryAdapter.CreateParameter
+  nameWithType: RepositoryAdapter.CreateParameter
+- uid: Startitecture.Orm.Common.RepositoryAdapter.CreateSelectionStatement(Startitecture.Orm.Model.IEntitySet,Startitecture.Orm.Model.IEntityDefinition,System.Collections.Generic.IEnumerable{System.String},System.Int32,System.Int32)
   name: CreateSelectionStatement(IEntitySet, IEntityDefinition, IEnumerable<String>, Int32, Int32)
-  href: api/Startitecture.Orm.Common.StatementCompiler.html#Startitecture_Orm_Common_StatementCompiler_CreateSelectionStatement_Startitecture_Orm_Model_IEntitySet_Startitecture_Orm_Model_IEntityDefinition_System_Collections_Generic_IEnumerable_System_String__System_Int32_System_Int32_
-  commentId: M:Startitecture.Orm.Common.StatementCompiler.CreateSelectionStatement(Startitecture.Orm.Model.IEntitySet,Startitecture.Orm.Model.IEntityDefinition,System.Collections.Generic.IEnumerable{System.String},System.Int32,System.Int32)
+  href: api/Startitecture.Orm.Common.RepositoryAdapter.html#Startitecture_Orm_Common_RepositoryAdapter_CreateSelectionStatement_Startitecture_Orm_Model_IEntitySet_Startitecture_Orm_Model_IEntityDefinition_System_Collections_Generic_IEnumerable_System_String__System_Int32_System_Int32_
+  commentId: M:Startitecture.Orm.Common.RepositoryAdapter.CreateSelectionStatement(Startitecture.Orm.Model.IEntitySet,Startitecture.Orm.Model.IEntityDefinition,System.Collections.Generic.IEnumerable{System.String},System.Int32,System.Int32)
   name.vb: CreateSelectionStatement(IEntitySet, IEntityDefinition, IEnumerable(Of String), Int32, Int32)
-  fullName: Startitecture.Orm.Common.StatementCompiler.CreateSelectionStatement(Startitecture.Orm.Model.IEntitySet, Startitecture.Orm.Model.IEntityDefinition, System.Collections.Generic.IEnumerable<System.String>, System.Int32, System.Int32)
-  fullName.vb: Startitecture.Orm.Common.StatementCompiler.CreateSelectionStatement(Startitecture.Orm.Model.IEntitySet, Startitecture.Orm.Model.IEntityDefinition, System.Collections.Generic.IEnumerable(Of System.String), System.Int32, System.Int32)
-  nameWithType: StatementCompiler.CreateSelectionStatement(IEntitySet, IEntityDefinition, IEnumerable<String>, Int32, Int32)
-  nameWithType.vb: StatementCompiler.CreateSelectionStatement(IEntitySet, IEntityDefinition, IEnumerable(Of String), Int32, Int32)
-- uid: Startitecture.Orm.Common.StatementCompiler.CreateSelectionStatement(Startitecture.Orm.Model.ISelection)
+  fullName: Startitecture.Orm.Common.RepositoryAdapter.CreateSelectionStatement(Startitecture.Orm.Model.IEntitySet, Startitecture.Orm.Model.IEntityDefinition, System.Collections.Generic.IEnumerable<System.String>, System.Int32, System.Int32)
+  fullName.vb: Startitecture.Orm.Common.RepositoryAdapter.CreateSelectionStatement(Startitecture.Orm.Model.IEntitySet, Startitecture.Orm.Model.IEntityDefinition, System.Collections.Generic.IEnumerable(Of System.String), System.Int32, System.Int32)
+  nameWithType: RepositoryAdapter.CreateSelectionStatement(IEntitySet, IEntityDefinition, IEnumerable<String>, Int32, Int32)
+  nameWithType.vb: RepositoryAdapter.CreateSelectionStatement(IEntitySet, IEntityDefinition, IEnumerable(Of String), Int32, Int32)
+- uid: Startitecture.Orm.Common.RepositoryAdapter.CreateSelectionStatement(Startitecture.Orm.Model.ISelection)
   name: CreateSelectionStatement(ISelection)
-  href: api/Startitecture.Orm.Common.StatementCompiler.html#Startitecture_Orm_Common_StatementCompiler_CreateSelectionStatement_Startitecture_Orm_Model_ISelection_
-  commentId: M:Startitecture.Orm.Common.StatementCompiler.CreateSelectionStatement(Startitecture.Orm.Model.ISelection)
-  fullName: Startitecture.Orm.Common.StatementCompiler.CreateSelectionStatement(Startitecture.Orm.Model.ISelection)
-  nameWithType: StatementCompiler.CreateSelectionStatement(ISelection)
-- uid: Startitecture.Orm.Common.StatementCompiler.CreateSelectionStatement*
+  href: api/Startitecture.Orm.Common.RepositoryAdapter.html#Startitecture_Orm_Common_RepositoryAdapter_CreateSelectionStatement_Startitecture_Orm_Model_ISelection_
+  commentId: M:Startitecture.Orm.Common.RepositoryAdapter.CreateSelectionStatement(Startitecture.Orm.Model.ISelection)
+  fullName: Startitecture.Orm.Common.RepositoryAdapter.CreateSelectionStatement(Startitecture.Orm.Model.ISelection)
+  nameWithType: RepositoryAdapter.CreateSelectionStatement(ISelection)
+- uid: Startitecture.Orm.Common.RepositoryAdapter.CreateSelectionStatement*
   name: CreateSelectionStatement
-  href: api/Startitecture.Orm.Common.StatementCompiler.html#Startitecture_Orm_Common_StatementCompiler_CreateSelectionStatement_
-  commentId: Overload:Startitecture.Orm.Common.StatementCompiler.CreateSelectionStatement
+  href: api/Startitecture.Orm.Common.RepositoryAdapter.html#Startitecture_Orm_Common_RepositoryAdapter_CreateSelectionStatement_
+  commentId: Overload:Startitecture.Orm.Common.RepositoryAdapter.CreateSelectionStatement
   isSpec: "True"
-  fullName: Startitecture.Orm.Common.StatementCompiler.CreateSelectionStatement
-  nameWithType: StatementCompiler.CreateSelectionStatement
-- uid: Startitecture.Orm.Common.StatementCompiler.CreateTableExpression(Startitecture.Orm.Model.IEntitySet,Startitecture.Orm.Model.IEntityDefinition,System.String,System.Boolean)
-  name: CreateTableExpression(IEntitySet, IEntityDefinition, String, Boolean)
-  href: api/Startitecture.Orm.Common.StatementCompiler.html#Startitecture_Orm_Common_StatementCompiler_CreateTableExpression_Startitecture_Orm_Model_IEntitySet_Startitecture_Orm_Model_IEntityDefinition_System_String_System_Boolean_
-  commentId: M:Startitecture.Orm.Common.StatementCompiler.CreateTableExpression(Startitecture.Orm.Model.IEntitySet,Startitecture.Orm.Model.IEntityDefinition,System.String,System.Boolean)
-  fullName: Startitecture.Orm.Common.StatementCompiler.CreateTableExpression(Startitecture.Orm.Model.IEntitySet, Startitecture.Orm.Model.IEntityDefinition, System.String, System.Boolean)
-  nameWithType: StatementCompiler.CreateTableExpression(IEntitySet, IEntityDefinition, String, Boolean)
-- uid: Startitecture.Orm.Common.StatementCompiler.CreateTableExpression*
+  fullName: Startitecture.Orm.Common.RepositoryAdapter.CreateSelectionStatement
+  nameWithType: RepositoryAdapter.CreateSelectionStatement
+- uid: Startitecture.Orm.Common.RepositoryAdapter.CreateTableExpression(Startitecture.Orm.Model.IEntitySet,Startitecture.Orm.Model.IEntityDefinition,System.String)
+  name: CreateTableExpression(IEntitySet, IEntityDefinition, String)
+  href: api/Startitecture.Orm.Common.RepositoryAdapter.html#Startitecture_Orm_Common_RepositoryAdapter_CreateTableExpression_Startitecture_Orm_Model_IEntitySet_Startitecture_Orm_Model_IEntityDefinition_System_String_
+  commentId: M:Startitecture.Orm.Common.RepositoryAdapter.CreateTableExpression(Startitecture.Orm.Model.IEntitySet,Startitecture.Orm.Model.IEntityDefinition,System.String)
+  fullName: Startitecture.Orm.Common.RepositoryAdapter.CreateTableExpression(Startitecture.Orm.Model.IEntitySet, Startitecture.Orm.Model.IEntityDefinition, System.String)
+  nameWithType: RepositoryAdapter.CreateTableExpression(IEntitySet, IEntityDefinition, String)
+- uid: Startitecture.Orm.Common.RepositoryAdapter.CreateTableExpression*
   name: CreateTableExpression
-  href: api/Startitecture.Orm.Common.StatementCompiler.html#Startitecture_Orm_Common_StatementCompiler_CreateTableExpression_
-  commentId: Overload:Startitecture.Orm.Common.StatementCompiler.CreateTableExpression
+  href: api/Startitecture.Orm.Common.RepositoryAdapter.html#Startitecture_Orm_Common_RepositoryAdapter_CreateTableExpression_
+  commentId: Overload:Startitecture.Orm.Common.RepositoryAdapter.CreateTableExpression
   isSpec: "True"
-  fullName: Startitecture.Orm.Common.StatementCompiler.CreateTableExpression
-  nameWithType: StatementCompiler.CreateTableExpression
-- uid: Startitecture.Orm.Common.StatementCompiler.CreateUpdateStatement(Startitecture.Orm.Model.IUpdateSet)
+  fullName: Startitecture.Orm.Common.RepositoryAdapter.CreateTableExpression
+  nameWithType: RepositoryAdapter.CreateTableExpression
+- uid: Startitecture.Orm.Common.RepositoryAdapter.CreateUpdateStatement(Startitecture.Orm.Model.IUpdateSet)
   name: CreateUpdateStatement(IUpdateSet)
-  href: api/Startitecture.Orm.Common.StatementCompiler.html#Startitecture_Orm_Common_StatementCompiler_CreateUpdateStatement_Startitecture_Orm_Model_IUpdateSet_
-  commentId: M:Startitecture.Orm.Common.StatementCompiler.CreateUpdateStatement(Startitecture.Orm.Model.IUpdateSet)
-  fullName: Startitecture.Orm.Common.StatementCompiler.CreateUpdateStatement(Startitecture.Orm.Model.IUpdateSet)
-  nameWithType: StatementCompiler.CreateUpdateStatement(IUpdateSet)
-- uid: Startitecture.Orm.Common.StatementCompiler.CreateUpdateStatement*
+  href: api/Startitecture.Orm.Common.RepositoryAdapter.html#Startitecture_Orm_Common_RepositoryAdapter_CreateUpdateStatement_Startitecture_Orm_Model_IUpdateSet_
+  commentId: M:Startitecture.Orm.Common.RepositoryAdapter.CreateUpdateStatement(Startitecture.Orm.Model.IUpdateSet)
+  fullName: Startitecture.Orm.Common.RepositoryAdapter.CreateUpdateStatement(Startitecture.Orm.Model.IUpdateSet)
+  nameWithType: RepositoryAdapter.CreateUpdateStatement(IUpdateSet)
+- uid: Startitecture.Orm.Common.RepositoryAdapter.CreateUpdateStatement*
   name: CreateUpdateStatement
-  href: api/Startitecture.Orm.Common.StatementCompiler.html#Startitecture_Orm_Common_StatementCompiler_CreateUpdateStatement_
-  commentId: Overload:Startitecture.Orm.Common.StatementCompiler.CreateUpdateStatement
+  href: api/Startitecture.Orm.Common.RepositoryAdapter.html#Startitecture_Orm_Common_RepositoryAdapter_CreateUpdateStatement_
+  commentId: Overload:Startitecture.Orm.Common.RepositoryAdapter.CreateUpdateStatement
   isSpec: "True"
-  fullName: Startitecture.Orm.Common.StatementCompiler.CreateUpdateStatement
-  nameWithType: StatementCompiler.CreateUpdateStatement
-- uid: Startitecture.Orm.Common.StatementCompiler.DefinitionProvider
+  fullName: Startitecture.Orm.Common.RepositoryAdapter.CreateUpdateStatement
+  nameWithType: RepositoryAdapter.CreateUpdateStatement
+- uid: Startitecture.Orm.Common.RepositoryAdapter.DefinitionProvider
   name: DefinitionProvider
-  href: api/Startitecture.Orm.Common.StatementCompiler.html#Startitecture_Orm_Common_StatementCompiler_DefinitionProvider
-  commentId: P:Startitecture.Orm.Common.StatementCompiler.DefinitionProvider
-  fullName: Startitecture.Orm.Common.StatementCompiler.DefinitionProvider
-  nameWithType: StatementCompiler.DefinitionProvider
-- uid: Startitecture.Orm.Common.StatementCompiler.DefinitionProvider*
+  href: api/Startitecture.Orm.Common.RepositoryAdapter.html#Startitecture_Orm_Common_RepositoryAdapter_DefinitionProvider
+  commentId: P:Startitecture.Orm.Common.RepositoryAdapter.DefinitionProvider
+  fullName: Startitecture.Orm.Common.RepositoryAdapter.DefinitionProvider
+  nameWithType: RepositoryAdapter.DefinitionProvider
+- uid: Startitecture.Orm.Common.RepositoryAdapter.DefinitionProvider*
   name: DefinitionProvider
-  href: api/Startitecture.Orm.Common.StatementCompiler.html#Startitecture_Orm_Common_StatementCompiler_DefinitionProvider_
-  commentId: Overload:Startitecture.Orm.Common.StatementCompiler.DefinitionProvider
+  href: api/Startitecture.Orm.Common.RepositoryAdapter.html#Startitecture_Orm_Common_RepositoryAdapter_DefinitionProvider_
+  commentId: Overload:Startitecture.Orm.Common.RepositoryAdapter.DefinitionProvider
   isSpec: "True"
-  fullName: Startitecture.Orm.Common.StatementCompiler.DefinitionProvider
-  nameWithType: StatementCompiler.DefinitionProvider
-- uid: Startitecture.Orm.Common.StatementCompiler.GetExclusionFilter(System.String,System.Int32,System.Collections.Generic.IEnumerable{System.Object})
+  fullName: Startitecture.Orm.Common.RepositoryAdapter.DefinitionProvider
+  nameWithType: RepositoryAdapter.DefinitionProvider
+- uid: Startitecture.Orm.Common.RepositoryAdapter.GetExclusionFilter(System.String,System.Int32,System.Collections.Generic.IEnumerable{System.Object})
   name: GetExclusionFilter(String, Int32, IEnumerable<Object>)
-  href: api/Startitecture.Orm.Common.StatementCompiler.html#Startitecture_Orm_Common_StatementCompiler_GetExclusionFilter_System_String_System_Int32_System_Collections_Generic_IEnumerable_System_Object__
-  commentId: M:Startitecture.Orm.Common.StatementCompiler.GetExclusionFilter(System.String,System.Int32,System.Collections.Generic.IEnumerable{System.Object})
+  href: api/Startitecture.Orm.Common.RepositoryAdapter.html#Startitecture_Orm_Common_RepositoryAdapter_GetExclusionFilter_System_String_System_Int32_System_Collections_Generic_IEnumerable_System_Object__
+  commentId: M:Startitecture.Orm.Common.RepositoryAdapter.GetExclusionFilter(System.String,System.Int32,System.Collections.Generic.IEnumerable{System.Object})
   name.vb: GetExclusionFilter(String, Int32, IEnumerable(Of Object))
-  fullName: Startitecture.Orm.Common.StatementCompiler.GetExclusionFilter(System.String, System.Int32, System.Collections.Generic.IEnumerable<System.Object>)
-  fullName.vb: Startitecture.Orm.Common.StatementCompiler.GetExclusionFilter(System.String, System.Int32, System.Collections.Generic.IEnumerable(Of System.Object))
-  nameWithType: StatementCompiler.GetExclusionFilter(String, Int32, IEnumerable<Object>)
-  nameWithType.vb: StatementCompiler.GetExclusionFilter(String, Int32, IEnumerable(Of Object))
-- uid: Startitecture.Orm.Common.StatementCompiler.GetExclusionFilter*
+  fullName: Startitecture.Orm.Common.RepositoryAdapter.GetExclusionFilter(System.String, System.Int32, System.Collections.Generic.IEnumerable<System.Object>)
+  fullName.vb: Startitecture.Orm.Common.RepositoryAdapter.GetExclusionFilter(System.String, System.Int32, System.Collections.Generic.IEnumerable(Of System.Object))
+  nameWithType: RepositoryAdapter.GetExclusionFilter(String, Int32, IEnumerable<Object>)
+  nameWithType.vb: RepositoryAdapter.GetExclusionFilter(String, Int32, IEnumerable(Of Object))
+- uid: Startitecture.Orm.Common.RepositoryAdapter.GetExclusionFilter*
   name: GetExclusionFilter
-  href: api/Startitecture.Orm.Common.StatementCompiler.html#Startitecture_Orm_Common_StatementCompiler_GetExclusionFilter_
-  commentId: Overload:Startitecture.Orm.Common.StatementCompiler.GetExclusionFilter
+  href: api/Startitecture.Orm.Common.RepositoryAdapter.html#Startitecture_Orm_Common_RepositoryAdapter_GetExclusionFilter_
+  commentId: Overload:Startitecture.Orm.Common.RepositoryAdapter.GetExclusionFilter
   isSpec: "True"
-  fullName: Startitecture.Orm.Common.StatementCompiler.GetExclusionFilter
-  nameWithType: StatementCompiler.GetExclusionFilter
-- uid: Startitecture.Orm.Common.StatementCompiler.GetInclusionFilter(System.String,System.Int32,System.Collections.Generic.IEnumerable{System.Object})
+  fullName: Startitecture.Orm.Common.RepositoryAdapter.GetExclusionFilter
+  nameWithType: RepositoryAdapter.GetExclusionFilter
+- uid: Startitecture.Orm.Common.RepositoryAdapter.GetInclusionFilter(System.String,System.Int32,System.Collections.Generic.IEnumerable{System.Object})
   name: GetInclusionFilter(String, Int32, IEnumerable<Object>)
-  href: api/Startitecture.Orm.Common.StatementCompiler.html#Startitecture_Orm_Common_StatementCompiler_GetInclusionFilter_System_String_System_Int32_System_Collections_Generic_IEnumerable_System_Object__
-  commentId: M:Startitecture.Orm.Common.StatementCompiler.GetInclusionFilter(System.String,System.Int32,System.Collections.Generic.IEnumerable{System.Object})
+  href: api/Startitecture.Orm.Common.RepositoryAdapter.html#Startitecture_Orm_Common_RepositoryAdapter_GetInclusionFilter_System_String_System_Int32_System_Collections_Generic_IEnumerable_System_Object__
+  commentId: M:Startitecture.Orm.Common.RepositoryAdapter.GetInclusionFilter(System.String,System.Int32,System.Collections.Generic.IEnumerable{System.Object})
   name.vb: GetInclusionFilter(String, Int32, IEnumerable(Of Object))
-  fullName: Startitecture.Orm.Common.StatementCompiler.GetInclusionFilter(System.String, System.Int32, System.Collections.Generic.IEnumerable<System.Object>)
-  fullName.vb: Startitecture.Orm.Common.StatementCompiler.GetInclusionFilter(System.String, System.Int32, System.Collections.Generic.IEnumerable(Of System.Object))
-  nameWithType: StatementCompiler.GetInclusionFilter(String, Int32, IEnumerable<Object>)
-  nameWithType.vb: StatementCompiler.GetInclusionFilter(String, Int32, IEnumerable(Of Object))
-- uid: Startitecture.Orm.Common.StatementCompiler.GetInclusionFilter*
+  fullName: Startitecture.Orm.Common.RepositoryAdapter.GetInclusionFilter(System.String, System.Int32, System.Collections.Generic.IEnumerable<System.Object>)
+  fullName.vb: Startitecture.Orm.Common.RepositoryAdapter.GetInclusionFilter(System.String, System.Int32, System.Collections.Generic.IEnumerable(Of System.Object))
+  nameWithType: RepositoryAdapter.GetInclusionFilter(String, Int32, IEnumerable<Object>)
+  nameWithType.vb: RepositoryAdapter.GetInclusionFilter(String, Int32, IEnumerable(Of Object))
+- uid: Startitecture.Orm.Common.RepositoryAdapter.GetInclusionFilter*
   name: GetInclusionFilter
-  href: api/Startitecture.Orm.Common.StatementCompiler.html#Startitecture_Orm_Common_StatementCompiler_GetInclusionFilter_
-  commentId: Overload:Startitecture.Orm.Common.StatementCompiler.GetInclusionFilter
+  href: api/Startitecture.Orm.Common.RepositoryAdapter.html#Startitecture_Orm_Common_RepositoryAdapter_GetInclusionFilter_
+  commentId: Overload:Startitecture.Orm.Common.RepositoryAdapter.GetInclusionFilter
   isSpec: "True"
-  fullName: Startitecture.Orm.Common.StatementCompiler.GetInclusionFilter
-  nameWithType: StatementCompiler.GetInclusionFilter
-- uid: Startitecture.Orm.Common.StatementCompiler.NameQualifier
+  fullName: Startitecture.Orm.Common.RepositoryAdapter.GetInclusionFilter
+  nameWithType: RepositoryAdapter.GetInclusionFilter
+- uid: Startitecture.Orm.Common.RepositoryAdapter.GetSelectionStatement(Startitecture.Orm.Model.IEntitySet,System.Collections.Generic.IEnumerable{System.String})
+  name: GetSelectionStatement(IEntitySet, IEnumerable<String>)
+  href: api/Startitecture.Orm.Common.RepositoryAdapter.html#Startitecture_Orm_Common_RepositoryAdapter_GetSelectionStatement_Startitecture_Orm_Model_IEntitySet_System_Collections_Generic_IEnumerable_System_String__
+  commentId: M:Startitecture.Orm.Common.RepositoryAdapter.GetSelectionStatement(Startitecture.Orm.Model.IEntitySet,System.Collections.Generic.IEnumerable{System.String})
+  name.vb: GetSelectionStatement(IEntitySet, IEnumerable(Of String))
+  fullName: Startitecture.Orm.Common.RepositoryAdapter.GetSelectionStatement(Startitecture.Orm.Model.IEntitySet, System.Collections.Generic.IEnumerable<System.String>)
+  fullName.vb: Startitecture.Orm.Common.RepositoryAdapter.GetSelectionStatement(Startitecture.Orm.Model.IEntitySet, System.Collections.Generic.IEnumerable(Of System.String))
+  nameWithType: RepositoryAdapter.GetSelectionStatement(IEntitySet, IEnumerable<String>)
+  nameWithType.vb: RepositoryAdapter.GetSelectionStatement(IEntitySet, IEnumerable(Of String))
+- uid: Startitecture.Orm.Common.RepositoryAdapter.GetSelectionStatement*
+  name: GetSelectionStatement
+  href: api/Startitecture.Orm.Common.RepositoryAdapter.html#Startitecture_Orm_Common_RepositoryAdapter_GetSelectionStatement_
+  commentId: Overload:Startitecture.Orm.Common.RepositoryAdapter.GetSelectionStatement
+  isSpec: "True"
+  fullName: Startitecture.Orm.Common.RepositoryAdapter.GetSelectionStatement
+  nameWithType: RepositoryAdapter.GetSelectionStatement
+- uid: Startitecture.Orm.Common.RepositoryAdapter.NameQualifier
   name: NameQualifier
-  href: api/Startitecture.Orm.Common.StatementCompiler.html#Startitecture_Orm_Common_StatementCompiler_NameQualifier
-  commentId: P:Startitecture.Orm.Common.StatementCompiler.NameQualifier
-  fullName: Startitecture.Orm.Common.StatementCompiler.NameQualifier
-  nameWithType: StatementCompiler.NameQualifier
-- uid: Startitecture.Orm.Common.StatementCompiler.NameQualifier*
+  href: api/Startitecture.Orm.Common.RepositoryAdapter.html#Startitecture_Orm_Common_RepositoryAdapter_NameQualifier
+  commentId: P:Startitecture.Orm.Common.RepositoryAdapter.NameQualifier
+  fullName: Startitecture.Orm.Common.RepositoryAdapter.NameQualifier
+  nameWithType: RepositoryAdapter.NameQualifier
+- uid: Startitecture.Orm.Common.RepositoryAdapter.NameQualifier*
   name: NameQualifier
-  href: api/Startitecture.Orm.Common.StatementCompiler.html#Startitecture_Orm_Common_StatementCompiler_NameQualifier_
-  commentId: Overload:Startitecture.Orm.Common.StatementCompiler.NameQualifier
+  href: api/Startitecture.Orm.Common.RepositoryAdapter.html#Startitecture_Orm_Common_RepositoryAdapter_NameQualifier_
+  commentId: Overload:Startitecture.Orm.Common.RepositoryAdapter.NameQualifier
   isSpec: "True"
-  fullName: Startitecture.Orm.Common.StatementCompiler.NameQualifier
-  nameWithType: StatementCompiler.NameQualifier
-- uid: Startitecture.Orm.Common.TransactionContainer
-  name: TransactionContainer
-  href: api/Startitecture.Orm.Common.TransactionContainer.html
-  commentId: T:Startitecture.Orm.Common.TransactionContainer
-  fullName: Startitecture.Orm.Common.TransactionContainer
-  nameWithType: TransactionContainer
-- uid: Startitecture.Orm.Common.TransactionContainer.SetTransactionProvider(Startitecture.Orm.Model.IRepositoryProvider)
-  name: SetTransactionProvider(IRepositoryProvider)
-  href: api/Startitecture.Orm.Common.TransactionContainer.html#Startitecture_Orm_Common_TransactionContainer_SetTransactionProvider_Startitecture_Orm_Model_IRepositoryProvider_
-  commentId: M:Startitecture.Orm.Common.TransactionContainer.SetTransactionProvider(Startitecture.Orm.Model.IRepositoryProvider)
-  fullName: Startitecture.Orm.Common.TransactionContainer.SetTransactionProvider(Startitecture.Orm.Model.IRepositoryProvider)
-  nameWithType: TransactionContainer.SetTransactionProvider(IRepositoryProvider)
-- uid: Startitecture.Orm.Common.TransactionContainer.SetTransactionProvider*
-  name: SetTransactionProvider
-  href: api/Startitecture.Orm.Common.TransactionContainer.html#Startitecture_Orm_Common_TransactionContainer_SetTransactionProvider_
-  commentId: Overload:Startitecture.Orm.Common.TransactionContainer.SetTransactionProvider
+  fullName: Startitecture.Orm.Common.RepositoryAdapter.NameQualifier
+  nameWithType: RepositoryAdapter.NameQualifier
+- uid: Startitecture.Orm.Common.RepositoryAdapter.ValueMappers
+  name: ValueMappers
+  href: api/Startitecture.Orm.Common.RepositoryAdapter.html#Startitecture_Orm_Common_RepositoryAdapter_ValueMappers
+  commentId: P:Startitecture.Orm.Common.RepositoryAdapter.ValueMappers
+  fullName: Startitecture.Orm.Common.RepositoryAdapter.ValueMappers
+  nameWithType: RepositoryAdapter.ValueMappers
+- uid: Startitecture.Orm.Common.RepositoryAdapter.ValueMappers*
+  name: ValueMappers
+  href: api/Startitecture.Orm.Common.RepositoryAdapter.html#Startitecture_Orm_Common_RepositoryAdapter_ValueMappers_
+  commentId: Overload:Startitecture.Orm.Common.RepositoryAdapter.ValueMappers
   isSpec: "True"
-  fullName: Startitecture.Orm.Common.TransactionContainer.SetTransactionProvider
-  nameWithType: TransactionContainer.SetTransactionProvider
-- uid: Startitecture.Orm.Common.TransactionContainer.TransactionProvider
-  name: TransactionProvider
-  href: api/Startitecture.Orm.Common.TransactionContainer.html#Startitecture_Orm_Common_TransactionContainer_TransactionProvider
-  commentId: P:Startitecture.Orm.Common.TransactionContainer.TransactionProvider
-  fullName: Startitecture.Orm.Common.TransactionContainer.TransactionProvider
-  nameWithType: TransactionContainer.TransactionProvider
-- uid: Startitecture.Orm.Common.TransactionContainer.TransactionProvider*
-  name: TransactionProvider
-  href: api/Startitecture.Orm.Common.TransactionContainer.html#Startitecture_Orm_Common_TransactionContainer_TransactionProvider_
-  commentId: Overload:Startitecture.Orm.Common.TransactionContainer.TransactionProvider
-  isSpec: "True"
-  fullName: Startitecture.Orm.Common.TransactionContainer.TransactionProvider
-  nameWithType: TransactionContainer.TransactionProvider
+  fullName: Startitecture.Orm.Common.RepositoryAdapter.ValueMappers
+  nameWithType: RepositoryAdapter.ValueMappers
 - uid: Startitecture.Orm.Mapper
   name: Startitecture.Orm.Mapper
   href: api/Startitecture.Orm.Mapper.html
@@ -3991,24 +3863,24 @@ references:
   commentId: T:Startitecture.Orm.Mapper.DatabaseContext
   fullName: Startitecture.Orm.Mapper.DatabaseContext
   nameWithType: DatabaseContext
-- uid: Startitecture.Orm.Mapper.DatabaseContext.#ctor(System.Data.IDbConnection,Startitecture.Orm.Model.IEntityDefinitionProvider,Startitecture.Orm.Common.IStatementCompiler)
-  name: DatabaseContext(IDbConnection, IEntityDefinitionProvider, IStatementCompiler)
-  href: api/Startitecture.Orm.Mapper.DatabaseContext.html#Startitecture_Orm_Mapper_DatabaseContext__ctor_System_Data_IDbConnection_Startitecture_Orm_Model_IEntityDefinitionProvider_Startitecture_Orm_Common_IStatementCompiler_
-  commentId: M:Startitecture.Orm.Mapper.DatabaseContext.#ctor(System.Data.IDbConnection,Startitecture.Orm.Model.IEntityDefinitionProvider,Startitecture.Orm.Common.IStatementCompiler)
-  fullName: Startitecture.Orm.Mapper.DatabaseContext.DatabaseContext(System.Data.IDbConnection, Startitecture.Orm.Model.IEntityDefinitionProvider, Startitecture.Orm.Common.IStatementCompiler)
-  nameWithType: DatabaseContext.DatabaseContext(IDbConnection, IEntityDefinitionProvider, IStatementCompiler)
-- uid: Startitecture.Orm.Mapper.DatabaseContext.#ctor(System.String,System.Data.Common.DbProviderFactory,Startitecture.Orm.Common.IStatementCompiler)
-  name: DatabaseContext(String, DbProviderFactory, IStatementCompiler)
-  href: api/Startitecture.Orm.Mapper.DatabaseContext.html#Startitecture_Orm_Mapper_DatabaseContext__ctor_System_String_System_Data_Common_DbProviderFactory_Startitecture_Orm_Common_IStatementCompiler_
-  commentId: M:Startitecture.Orm.Mapper.DatabaseContext.#ctor(System.String,System.Data.Common.DbProviderFactory,Startitecture.Orm.Common.IStatementCompiler)
-  fullName: Startitecture.Orm.Mapper.DatabaseContext.DatabaseContext(System.String, System.Data.Common.DbProviderFactory, Startitecture.Orm.Common.IStatementCompiler)
-  nameWithType: DatabaseContext.DatabaseContext(String, DbProviderFactory, IStatementCompiler)
-- uid: Startitecture.Orm.Mapper.DatabaseContext.#ctor(System.String,System.String,Startitecture.Orm.Common.IStatementCompiler)
-  name: DatabaseContext(String, String, IStatementCompiler)
-  href: api/Startitecture.Orm.Mapper.DatabaseContext.html#Startitecture_Orm_Mapper_DatabaseContext__ctor_System_String_System_String_Startitecture_Orm_Common_IStatementCompiler_
-  commentId: M:Startitecture.Orm.Mapper.DatabaseContext.#ctor(System.String,System.String,Startitecture.Orm.Common.IStatementCompiler)
-  fullName: Startitecture.Orm.Mapper.DatabaseContext.DatabaseContext(System.String, System.String, Startitecture.Orm.Common.IStatementCompiler)
-  nameWithType: DatabaseContext.DatabaseContext(String, String, IStatementCompiler)
+- uid: Startitecture.Orm.Mapper.DatabaseContext.#ctor(System.Data.IDbConnection,Startitecture.Orm.Common.IRepositoryAdapter)
+  name: DatabaseContext(IDbConnection, IRepositoryAdapter)
+  href: api/Startitecture.Orm.Mapper.DatabaseContext.html#Startitecture_Orm_Mapper_DatabaseContext__ctor_System_Data_IDbConnection_Startitecture_Orm_Common_IRepositoryAdapter_
+  commentId: M:Startitecture.Orm.Mapper.DatabaseContext.#ctor(System.Data.IDbConnection,Startitecture.Orm.Common.IRepositoryAdapter)
+  fullName: Startitecture.Orm.Mapper.DatabaseContext.DatabaseContext(System.Data.IDbConnection, Startitecture.Orm.Common.IRepositoryAdapter)
+  nameWithType: DatabaseContext.DatabaseContext(IDbConnection, IRepositoryAdapter)
+- uid: Startitecture.Orm.Mapper.DatabaseContext.#ctor(System.String,System.Data.Common.DbProviderFactory,Startitecture.Orm.Common.IRepositoryAdapter)
+  name: DatabaseContext(String, DbProviderFactory, IRepositoryAdapter)
+  href: api/Startitecture.Orm.Mapper.DatabaseContext.html#Startitecture_Orm_Mapper_DatabaseContext__ctor_System_String_System_Data_Common_DbProviderFactory_Startitecture_Orm_Common_IRepositoryAdapter_
+  commentId: M:Startitecture.Orm.Mapper.DatabaseContext.#ctor(System.String,System.Data.Common.DbProviderFactory,Startitecture.Orm.Common.IRepositoryAdapter)
+  fullName: Startitecture.Orm.Mapper.DatabaseContext.DatabaseContext(System.String, System.Data.Common.DbProviderFactory, Startitecture.Orm.Common.IRepositoryAdapter)
+  nameWithType: DatabaseContext.DatabaseContext(String, DbProviderFactory, IRepositoryAdapter)
+- uid: Startitecture.Orm.Mapper.DatabaseContext.#ctor(System.String,System.String,Startitecture.Orm.Common.IRepositoryAdapter)
+  name: DatabaseContext(String, String, IRepositoryAdapter)
+  href: api/Startitecture.Orm.Mapper.DatabaseContext.html#Startitecture_Orm_Mapper_DatabaseContext__ctor_System_String_System_String_Startitecture_Orm_Common_IRepositoryAdapter_
+  commentId: M:Startitecture.Orm.Mapper.DatabaseContext.#ctor(System.String,System.String,Startitecture.Orm.Common.IRepositoryAdapter)
+  fullName: Startitecture.Orm.Mapper.DatabaseContext.DatabaseContext(System.String, System.String, Startitecture.Orm.Common.IRepositoryAdapter)
+  nameWithType: DatabaseContext.DatabaseContext(String, String, IRepositoryAdapter)
 - uid: Startitecture.Orm.Mapper.DatabaseContext.#ctor*
   name: DatabaseContext
   href: api/Startitecture.Orm.Mapper.DatabaseContext.html#Startitecture_Orm_Mapper_DatabaseContext__ctor_
@@ -4055,19 +3927,6 @@ references:
   isSpec: "True"
   fullName: Startitecture.Orm.Mapper.DatabaseContext.Connection
   nameWithType: DatabaseContext.Connection
-- uid: Startitecture.Orm.Mapper.DatabaseContext.DefinitionProvider
-  name: DefinitionProvider
-  href: api/Startitecture.Orm.Mapper.DatabaseContext.html#Startitecture_Orm_Mapper_DatabaseContext_DefinitionProvider
-  commentId: P:Startitecture.Orm.Mapper.DatabaseContext.DefinitionProvider
-  fullName: Startitecture.Orm.Mapper.DatabaseContext.DefinitionProvider
-  nameWithType: DatabaseContext.DefinitionProvider
-- uid: Startitecture.Orm.Mapper.DatabaseContext.DefinitionProvider*
-  name: DefinitionProvider
-  href: api/Startitecture.Orm.Mapper.DatabaseContext.html#Startitecture_Orm_Mapper_DatabaseContext_DefinitionProvider_
-  commentId: Overload:Startitecture.Orm.Mapper.DatabaseContext.DefinitionProvider
-  isSpec: "True"
-  fullName: Startitecture.Orm.Mapper.DatabaseContext.DefinitionProvider
-  nameWithType: DatabaseContext.DefinitionProvider
 - uid: Startitecture.Orm.Mapper.DatabaseContext.Dispose
   name: Dispose()
   href: api/Startitecture.Orm.Mapper.DatabaseContext.html#Startitecture_Orm_Mapper_DatabaseContext_Dispose
@@ -4087,19 +3946,6 @@ references:
   isSpec: "True"
   fullName: Startitecture.Orm.Mapper.DatabaseContext.Dispose
   nameWithType: DatabaseContext.Dispose
-- uid: Startitecture.Orm.Mapper.DatabaseContext.EnableNamedParameters
-  name: EnableNamedParameters
-  href: api/Startitecture.Orm.Mapper.DatabaseContext.html#Startitecture_Orm_Mapper_DatabaseContext_EnableNamedParameters
-  commentId: P:Startitecture.Orm.Mapper.DatabaseContext.EnableNamedParameters
-  fullName: Startitecture.Orm.Mapper.DatabaseContext.EnableNamedParameters
-  nameWithType: DatabaseContext.EnableNamedParameters
-- uid: Startitecture.Orm.Mapper.DatabaseContext.EnableNamedParameters*
-  name: EnableNamedParameters
-  href: api/Startitecture.Orm.Mapper.DatabaseContext.html#Startitecture_Orm_Mapper_DatabaseContext_EnableNamedParameters_
-  commentId: Overload:Startitecture.Orm.Mapper.DatabaseContext.EnableNamedParameters
-  isSpec: "True"
-  fullName: Startitecture.Orm.Mapper.DatabaseContext.EnableNamedParameters
-  nameWithType: DatabaseContext.EnableNamedParameters
 - uid: Startitecture.Orm.Mapper.DatabaseContext.Execute(System.String,System.Object[])
   name: Execute(String, Object[])
   href: api/Startitecture.Orm.Mapper.DatabaseContext.html#Startitecture_Orm_Mapper_DatabaseContext_Execute_System_String_System_Object___
@@ -4132,6 +3978,19 @@ references:
   fullName.vb: Startitecture.Orm.Mapper.DatabaseContext.ExecuteScalar(Of T)(System.String, System.Object())
   nameWithType: DatabaseContext.ExecuteScalar<T>(String, Object[])
   nameWithType.vb: DatabaseContext.ExecuteScalar(Of T)(String, Object())
+- uid: Startitecture.Orm.Mapper.DatabaseContext.GetValueMapper(System.Type,System.Type)
+  name: GetValueMapper(Type, Type)
+  href: api/Startitecture.Orm.Mapper.DatabaseContext.html#Startitecture_Orm_Mapper_DatabaseContext_GetValueMapper_System_Type_System_Type_
+  commentId: M:Startitecture.Orm.Mapper.DatabaseContext.GetValueMapper(System.Type,System.Type)
+  fullName: Startitecture.Orm.Mapper.DatabaseContext.GetValueMapper(System.Type, System.Type)
+  nameWithType: DatabaseContext.GetValueMapper(Type, Type)
+- uid: Startitecture.Orm.Mapper.DatabaseContext.GetValueMapper*
+  name: GetValueMapper
+  href: api/Startitecture.Orm.Mapper.DatabaseContext.html#Startitecture_Orm_Mapper_DatabaseContext_GetValueMapper_
+  commentId: Overload:Startitecture.Orm.Mapper.DatabaseContext.GetValueMapper
+  isSpec: "True"
+  fullName: Startitecture.Orm.Mapper.DatabaseContext.GetValueMapper
+  nameWithType: DatabaseContext.GetValueMapper
 - uid: Startitecture.Orm.Mapper.DatabaseContext.OnetimeCommandTimeout
   name: OnetimeCommandTimeout
   href: api/Startitecture.Orm.Mapper.DatabaseContext.html#Startitecture_Orm_Mapper_DatabaseContext_OnetimeCommandTimeout
@@ -4174,31 +4033,31 @@ references:
   fullName.vb: Startitecture.Orm.Mapper.DatabaseContext.Query(Of T)(System.String, System.Object())
   nameWithType: DatabaseContext.Query<T>(String, Object[])
   nameWithType.vb: DatabaseContext.Query(Of T)(String, Object())
-- uid: Startitecture.Orm.Mapper.DatabaseContext.StatementCompiler
-  name: StatementCompiler
-  href: api/Startitecture.Orm.Mapper.DatabaseContext.html#Startitecture_Orm_Mapper_DatabaseContext_StatementCompiler
-  commentId: P:Startitecture.Orm.Mapper.DatabaseContext.StatementCompiler
-  fullName: Startitecture.Orm.Mapper.DatabaseContext.StatementCompiler
-  nameWithType: DatabaseContext.StatementCompiler
-- uid: Startitecture.Orm.Mapper.DatabaseContext.StatementCompiler*
-  name: StatementCompiler
-  href: api/Startitecture.Orm.Mapper.DatabaseContext.html#Startitecture_Orm_Mapper_DatabaseContext_StatementCompiler_
-  commentId: Overload:Startitecture.Orm.Mapper.DatabaseContext.StatementCompiler
+- uid: Startitecture.Orm.Mapper.DatabaseContext.RepositoryAdapter
+  name: RepositoryAdapter
+  href: api/Startitecture.Orm.Mapper.DatabaseContext.html#Startitecture_Orm_Mapper_DatabaseContext_RepositoryAdapter
+  commentId: P:Startitecture.Orm.Mapper.DatabaseContext.RepositoryAdapter
+  fullName: Startitecture.Orm.Mapper.DatabaseContext.RepositoryAdapter
+  nameWithType: DatabaseContext.RepositoryAdapter
+- uid: Startitecture.Orm.Mapper.DatabaseContext.RepositoryAdapter*
+  name: RepositoryAdapter
+  href: api/Startitecture.Orm.Mapper.DatabaseContext.html#Startitecture_Orm_Mapper_DatabaseContext_RepositoryAdapter_
+  commentId: Overload:Startitecture.Orm.Mapper.DatabaseContext.RepositoryAdapter
   isSpec: "True"
-  fullName: Startitecture.Orm.Mapper.DatabaseContext.StatementCompiler
-  nameWithType: DatabaseContext.StatementCompiler
+  fullName: Startitecture.Orm.Mapper.DatabaseContext.RepositoryAdapter
+  nameWithType: DatabaseContext.RepositoryAdapter
 - uid: Startitecture.Orm.Mapper.DefaultDatabaseContextFactory
   name: DefaultDatabaseContextFactory
   href: api/Startitecture.Orm.Mapper.DefaultDatabaseContextFactory.html
   commentId: T:Startitecture.Orm.Mapper.DefaultDatabaseContextFactory
   fullName: Startitecture.Orm.Mapper.DefaultDatabaseContextFactory
   nameWithType: DefaultDatabaseContextFactory
-- uid: Startitecture.Orm.Mapper.DefaultDatabaseContextFactory.#ctor(System.String,System.String,Startitecture.Orm.Common.IStatementCompiler)
-  name: DefaultDatabaseContextFactory(String, String, IStatementCompiler)
-  href: api/Startitecture.Orm.Mapper.DefaultDatabaseContextFactory.html#Startitecture_Orm_Mapper_DefaultDatabaseContextFactory__ctor_System_String_System_String_Startitecture_Orm_Common_IStatementCompiler_
-  commentId: M:Startitecture.Orm.Mapper.DefaultDatabaseContextFactory.#ctor(System.String,System.String,Startitecture.Orm.Common.IStatementCompiler)
-  fullName: Startitecture.Orm.Mapper.DefaultDatabaseContextFactory.DefaultDatabaseContextFactory(System.String, System.String, Startitecture.Orm.Common.IStatementCompiler)
-  nameWithType: DefaultDatabaseContextFactory.DefaultDatabaseContextFactory(String, String, IStatementCompiler)
+- uid: Startitecture.Orm.Mapper.DefaultDatabaseContextFactory.#ctor(System.String,System.String,Startitecture.Orm.Common.IRepositoryAdapter)
+  name: DefaultDatabaseContextFactory(String, String, IRepositoryAdapter)
+  href: api/Startitecture.Orm.Mapper.DefaultDatabaseContextFactory.html#Startitecture_Orm_Mapper_DefaultDatabaseContextFactory__ctor_System_String_System_String_Startitecture_Orm_Common_IRepositoryAdapter_
+  commentId: M:Startitecture.Orm.Mapper.DefaultDatabaseContextFactory.#ctor(System.String,System.String,Startitecture.Orm.Common.IRepositoryAdapter)
+  fullName: Startitecture.Orm.Mapper.DefaultDatabaseContextFactory.DefaultDatabaseContextFactory(System.String, System.String, Startitecture.Orm.Common.IRepositoryAdapter)
+  nameWithType: DefaultDatabaseContextFactory.DefaultDatabaseContextFactory(String, String, IRepositoryAdapter)
 - uid: Startitecture.Orm.Mapper.DefaultDatabaseContextFactory.#ctor*
   name: DefaultDatabaseContextFactory
   href: api/Startitecture.Orm.Mapper.DefaultDatabaseContextFactory.html#Startitecture_Orm_Mapper_DefaultDatabaseContextFactory__ctor_
@@ -4288,122 +4147,27 @@ references:
   isSpec: "True"
   fullName: Startitecture.Orm.Mapper.FlatPocoFactory.ReturnableFactory
   nameWithType: FlatPocoFactory.ReturnableFactory
-- uid: Startitecture.Orm.Mapper.IMapper
-  name: IMapper
-  href: api/Startitecture.Orm.Mapper.IMapper.html
-  commentId: T:Startitecture.Orm.Mapper.IMapper
-  fullName: Startitecture.Orm.Mapper.IMapper
-  nameWithType: IMapper
-- uid: Startitecture.Orm.Mapper.IMapper.GetFromDbConverter(System.Reflection.PropertyInfo,System.Type)
-  name: GetFromDbConverter(PropertyInfo, Type)
-  href: api/Startitecture.Orm.Mapper.IMapper.html#Startitecture_Orm_Mapper_IMapper_GetFromDbConverter_System_Reflection_PropertyInfo_System_Type_
-  commentId: M:Startitecture.Orm.Mapper.IMapper.GetFromDbConverter(System.Reflection.PropertyInfo,System.Type)
-  fullName: Startitecture.Orm.Mapper.IMapper.GetFromDbConverter(System.Reflection.PropertyInfo, System.Type)
-  nameWithType: IMapper.GetFromDbConverter(PropertyInfo, Type)
-- uid: Startitecture.Orm.Mapper.IMapper.GetFromDbConverter*
-  name: GetFromDbConverter
-  href: api/Startitecture.Orm.Mapper.IMapper.html#Startitecture_Orm_Mapper_IMapper_GetFromDbConverter_
-  commentId: Overload:Startitecture.Orm.Mapper.IMapper.GetFromDbConverter
-  isSpec: "True"
-  fullName: Startitecture.Orm.Mapper.IMapper.GetFromDbConverter
-  nameWithType: IMapper.GetFromDbConverter
-- uid: Startitecture.Orm.Mapper.IMapper.GetToDbConverter(System.Reflection.PropertyInfo)
-  name: GetToDbConverter(PropertyInfo)
-  href: api/Startitecture.Orm.Mapper.IMapper.html#Startitecture_Orm_Mapper_IMapper_GetToDbConverter_System_Reflection_PropertyInfo_
-  commentId: M:Startitecture.Orm.Mapper.IMapper.GetToDbConverter(System.Reflection.PropertyInfo)
-  fullName: Startitecture.Orm.Mapper.IMapper.GetToDbConverter(System.Reflection.PropertyInfo)
-  nameWithType: IMapper.GetToDbConverter(PropertyInfo)
-- uid: Startitecture.Orm.Mapper.IMapper.GetToDbConverter*
-  name: GetToDbConverter
-  href: api/Startitecture.Orm.Mapper.IMapper.html#Startitecture_Orm_Mapper_IMapper_GetToDbConverter_
-  commentId: Overload:Startitecture.Orm.Mapper.IMapper.GetToDbConverter
-  isSpec: "True"
-  fullName: Startitecture.Orm.Mapper.IMapper.GetToDbConverter
-  nameWithType: IMapper.GetToDbConverter
-- uid: Startitecture.Orm.Mapper.Mappers
-  name: Mappers
-  href: api/Startitecture.Orm.Mapper.Mappers.html
-  commentId: T:Startitecture.Orm.Mapper.Mappers
-  fullName: Startitecture.Orm.Mapper.Mappers
-  nameWithType: Mappers
-- uid: Startitecture.Orm.Mapper.Mappers.GetMapper(System.Type)
-  name: GetMapper(Type)
-  href: api/Startitecture.Orm.Mapper.Mappers.html#Startitecture_Orm_Mapper_Mappers_GetMapper_System_Type_
-  commentId: M:Startitecture.Orm.Mapper.Mappers.GetMapper(System.Type)
-  fullName: Startitecture.Orm.Mapper.Mappers.GetMapper(System.Type)
-  nameWithType: Mappers.GetMapper(Type)
-- uid: Startitecture.Orm.Mapper.Mappers.GetMapper*
-  name: GetMapper
-  href: api/Startitecture.Orm.Mapper.Mappers.html#Startitecture_Orm_Mapper_Mappers_GetMapper_
-  commentId: Overload:Startitecture.Orm.Mapper.Mappers.GetMapper
-  isSpec: "True"
-  fullName: Startitecture.Orm.Mapper.Mappers.GetMapper
-  nameWithType: Mappers.GetMapper
-- uid: Startitecture.Orm.Mapper.Mappers.Register(System.Reflection.Assembly,Startitecture.Orm.Mapper.IMapper)
-  name: Register(Assembly, IMapper)
-  href: api/Startitecture.Orm.Mapper.Mappers.html#Startitecture_Orm_Mapper_Mappers_Register_System_Reflection_Assembly_Startitecture_Orm_Mapper_IMapper_
-  commentId: M:Startitecture.Orm.Mapper.Mappers.Register(System.Reflection.Assembly,Startitecture.Orm.Mapper.IMapper)
-  fullName: Startitecture.Orm.Mapper.Mappers.Register(System.Reflection.Assembly, Startitecture.Orm.Mapper.IMapper)
-  nameWithType: Mappers.Register(Assembly, IMapper)
-- uid: Startitecture.Orm.Mapper.Mappers.Register(System.Type,Startitecture.Orm.Mapper.IMapper)
-  name: Register(Type, IMapper)
-  href: api/Startitecture.Orm.Mapper.Mappers.html#Startitecture_Orm_Mapper_Mappers_Register_System_Type_Startitecture_Orm_Mapper_IMapper_
-  commentId: M:Startitecture.Orm.Mapper.Mappers.Register(System.Type,Startitecture.Orm.Mapper.IMapper)
-  fullName: Startitecture.Orm.Mapper.Mappers.Register(System.Type, Startitecture.Orm.Mapper.IMapper)
-  nameWithType: Mappers.Register(Type, IMapper)
-- uid: Startitecture.Orm.Mapper.Mappers.Register*
-  name: Register
-  href: api/Startitecture.Orm.Mapper.Mappers.html#Startitecture_Orm_Mapper_Mappers_Register_
-  commentId: Overload:Startitecture.Orm.Mapper.Mappers.Register
-  isSpec: "True"
-  fullName: Startitecture.Orm.Mapper.Mappers.Register
-  nameWithType: Mappers.Register
-- uid: Startitecture.Orm.Mapper.Mappers.Revoke(Startitecture.Orm.Mapper.IMapper)
-  name: Revoke(IMapper)
-  href: api/Startitecture.Orm.Mapper.Mappers.html#Startitecture_Orm_Mapper_Mappers_Revoke_Startitecture_Orm_Mapper_IMapper_
-  commentId: M:Startitecture.Orm.Mapper.Mappers.Revoke(Startitecture.Orm.Mapper.IMapper)
-  fullName: Startitecture.Orm.Mapper.Mappers.Revoke(Startitecture.Orm.Mapper.IMapper)
-  nameWithType: Mappers.Revoke(IMapper)
-- uid: Startitecture.Orm.Mapper.Mappers.Revoke(System.Reflection.Assembly)
-  name: Revoke(Assembly)
-  href: api/Startitecture.Orm.Mapper.Mappers.html#Startitecture_Orm_Mapper_Mappers_Revoke_System_Reflection_Assembly_
-  commentId: M:Startitecture.Orm.Mapper.Mappers.Revoke(System.Reflection.Assembly)
-  fullName: Startitecture.Orm.Mapper.Mappers.Revoke(System.Reflection.Assembly)
-  nameWithType: Mappers.Revoke(Assembly)
-- uid: Startitecture.Orm.Mapper.Mappers.Revoke(System.Type)
-  name: Revoke(Type)
-  href: api/Startitecture.Orm.Mapper.Mappers.html#Startitecture_Orm_Mapper_Mappers_Revoke_System_Type_
-  commentId: M:Startitecture.Orm.Mapper.Mappers.Revoke(System.Type)
-  fullName: Startitecture.Orm.Mapper.Mappers.Revoke(System.Type)
-  nameWithType: Mappers.Revoke(Type)
-- uid: Startitecture.Orm.Mapper.Mappers.Revoke*
-  name: Revoke
-  href: api/Startitecture.Orm.Mapper.Mappers.html#Startitecture_Orm_Mapper_Mappers_Revoke_
-  commentId: Overload:Startitecture.Orm.Mapper.Mappers.Revoke
-  isSpec: "True"
-  fullName: Startitecture.Orm.Mapper.Mappers.Revoke
-  nameWithType: Mappers.Revoke
 - uid: Startitecture.Orm.Mapper.PocoDataRequest
   name: PocoDataRequest
   href: api/Startitecture.Orm.Mapper.PocoDataRequest.html
   commentId: T:Startitecture.Orm.Mapper.PocoDataRequest
   fullName: Startitecture.Orm.Mapper.PocoDataRequest
   nameWithType: PocoDataRequest
-- uid: Startitecture.Orm.Mapper.PocoDataRequest.#ctor(System.Data.IDataReader,Startitecture.Orm.Model.IEntityDefinition)
-  name: PocoDataRequest(IDataReader, IEntityDefinition)
-  href: api/Startitecture.Orm.Mapper.PocoDataRequest.html#Startitecture_Orm_Mapper_PocoDataRequest__ctor_System_Data_IDataReader_Startitecture_Orm_Model_IEntityDefinition_
-  commentId: M:Startitecture.Orm.Mapper.PocoDataRequest.#ctor(System.Data.IDataReader,Startitecture.Orm.Model.IEntityDefinition)
-  fullName: Startitecture.Orm.Mapper.PocoDataRequest.PocoDataRequest(System.Data.IDataReader, Startitecture.Orm.Model.IEntityDefinition)
-  nameWithType: PocoDataRequest.PocoDataRequest(IDataReader, IEntityDefinition)
-- uid: Startitecture.Orm.Mapper.PocoDataRequest.#ctor(System.Data.IDataReader,System.Collections.Generic.IEnumerable{Startitecture.Orm.Model.EntityAttributeDefinition})
-  name: PocoDataRequest(IDataReader, IEnumerable<EntityAttributeDefinition>)
-  href: api/Startitecture.Orm.Mapper.PocoDataRequest.html#Startitecture_Orm_Mapper_PocoDataRequest__ctor_System_Data_IDataReader_System_Collections_Generic_IEnumerable_Startitecture_Orm_Model_EntityAttributeDefinition__
-  commentId: M:Startitecture.Orm.Mapper.PocoDataRequest.#ctor(System.Data.IDataReader,System.Collections.Generic.IEnumerable{Startitecture.Orm.Model.EntityAttributeDefinition})
-  name.vb: PocoDataRequest(IDataReader, IEnumerable(Of EntityAttributeDefinition))
-  fullName: Startitecture.Orm.Mapper.PocoDataRequest.PocoDataRequest(System.Data.IDataReader, System.Collections.Generic.IEnumerable<Startitecture.Orm.Model.EntityAttributeDefinition>)
-  fullName.vb: Startitecture.Orm.Mapper.PocoDataRequest.PocoDataRequest(System.Data.IDataReader, System.Collections.Generic.IEnumerable(Of Startitecture.Orm.Model.EntityAttributeDefinition))
-  nameWithType: PocoDataRequest.PocoDataRequest(IDataReader, IEnumerable<EntityAttributeDefinition>)
-  nameWithType.vb: PocoDataRequest.PocoDataRequest(IDataReader, IEnumerable(Of EntityAttributeDefinition))
+- uid: Startitecture.Orm.Mapper.PocoDataRequest.#ctor(System.Data.IDataReader,Startitecture.Orm.Model.IEntityDefinition,Startitecture.Orm.Common.IDatabaseContext)
+  name: PocoDataRequest(IDataReader, IEntityDefinition, IDatabaseContext)
+  href: api/Startitecture.Orm.Mapper.PocoDataRequest.html#Startitecture_Orm_Mapper_PocoDataRequest__ctor_System_Data_IDataReader_Startitecture_Orm_Model_IEntityDefinition_Startitecture_Orm_Common_IDatabaseContext_
+  commentId: M:Startitecture.Orm.Mapper.PocoDataRequest.#ctor(System.Data.IDataReader,Startitecture.Orm.Model.IEntityDefinition,Startitecture.Orm.Common.IDatabaseContext)
+  fullName: Startitecture.Orm.Mapper.PocoDataRequest.PocoDataRequest(System.Data.IDataReader, Startitecture.Orm.Model.IEntityDefinition, Startitecture.Orm.Common.IDatabaseContext)
+  nameWithType: PocoDataRequest.PocoDataRequest(IDataReader, IEntityDefinition, IDatabaseContext)
+- uid: Startitecture.Orm.Mapper.PocoDataRequest.#ctor(System.Data.IDataReader,System.Collections.Generic.IEnumerable{Startitecture.Orm.Model.EntityAttributeDefinition},Startitecture.Orm.Common.IDatabaseContext)
+  name: PocoDataRequest(IDataReader, IEnumerable<EntityAttributeDefinition>, IDatabaseContext)
+  href: api/Startitecture.Orm.Mapper.PocoDataRequest.html#Startitecture_Orm_Mapper_PocoDataRequest__ctor_System_Data_IDataReader_System_Collections_Generic_IEnumerable_Startitecture_Orm_Model_EntityAttributeDefinition__Startitecture_Orm_Common_IDatabaseContext_
+  commentId: M:Startitecture.Orm.Mapper.PocoDataRequest.#ctor(System.Data.IDataReader,System.Collections.Generic.IEnumerable{Startitecture.Orm.Model.EntityAttributeDefinition},Startitecture.Orm.Common.IDatabaseContext)
+  name.vb: PocoDataRequest(IDataReader, IEnumerable(Of EntityAttributeDefinition), IDatabaseContext)
+  fullName: Startitecture.Orm.Mapper.PocoDataRequest.PocoDataRequest(System.Data.IDataReader, System.Collections.Generic.IEnumerable<Startitecture.Orm.Model.EntityAttributeDefinition>, Startitecture.Orm.Common.IDatabaseContext)
+  fullName.vb: Startitecture.Orm.Mapper.PocoDataRequest.PocoDataRequest(System.Data.IDataReader, System.Collections.Generic.IEnumerable(Of Startitecture.Orm.Model.EntityAttributeDefinition), Startitecture.Orm.Common.IDatabaseContext)
+  nameWithType: PocoDataRequest.PocoDataRequest(IDataReader, IEnumerable<EntityAttributeDefinition>, IDatabaseContext)
+  nameWithType.vb: PocoDataRequest.PocoDataRequest(IDataReader, IEnumerable(Of EntityAttributeDefinition), IDatabaseContext)
 - uid: Startitecture.Orm.Mapper.PocoDataRequest.#ctor*
   name: PocoDataRequest
   href: api/Startitecture.Orm.Mapper.PocoDataRequest.html#Startitecture_Orm_Mapper_PocoDataRequest__ctor_
@@ -4424,6 +4188,19 @@ references:
   isSpec: "True"
   fullName: Startitecture.Orm.Mapper.PocoDataRequest.AttributeDefinitions
   nameWithType: PocoDataRequest.AttributeDefinitions
+- uid: Startitecture.Orm.Mapper.PocoDataRequest.DatabaseContext
+  name: DatabaseContext
+  href: api/Startitecture.Orm.Mapper.PocoDataRequest.html#Startitecture_Orm_Mapper_PocoDataRequest_DatabaseContext
+  commentId: P:Startitecture.Orm.Mapper.PocoDataRequest.DatabaseContext
+  fullName: Startitecture.Orm.Mapper.PocoDataRequest.DatabaseContext
+  nameWithType: PocoDataRequest.DatabaseContext
+- uid: Startitecture.Orm.Mapper.PocoDataRequest.DatabaseContext*
+  name: DatabaseContext
+  href: api/Startitecture.Orm.Mapper.PocoDataRequest.html#Startitecture_Orm_Mapper_PocoDataRequest_DatabaseContext_
+  commentId: Overload:Startitecture.Orm.Mapper.PocoDataRequest.DatabaseContext
+  isSpec: "True"
+  fullName: Startitecture.Orm.Mapper.PocoDataRequest.DatabaseContext
+  nameWithType: PocoDataRequest.DatabaseContext
 - uid: Startitecture.Orm.Mapper.PocoDataRequest.DataReader
   name: DataReader
   href: api/Startitecture.Orm.Mapper.PocoDataRequest.html#Startitecture_Orm_Mapper_PocoDataRequest_DataReader
@@ -4614,38 +4391,6 @@ references:
   isSpec: "True"
   fullName: Startitecture.Orm.Mapper.RaisedPocoFactory.Dispose
   nameWithType: RaisedPocoFactory.Dispose
-- uid: Startitecture.Orm.Mapper.StandardMapper
-  name: StandardMapper
-  href: api/Startitecture.Orm.Mapper.StandardMapper.html
-  commentId: T:Startitecture.Orm.Mapper.StandardMapper
-  fullName: Startitecture.Orm.Mapper.StandardMapper
-  nameWithType: StandardMapper
-- uid: Startitecture.Orm.Mapper.StandardMapper.GetFromDbConverter(System.Reflection.PropertyInfo,System.Type)
-  name: GetFromDbConverter(PropertyInfo, Type)
-  href: api/Startitecture.Orm.Mapper.StandardMapper.html#Startitecture_Orm_Mapper_StandardMapper_GetFromDbConverter_System_Reflection_PropertyInfo_System_Type_
-  commentId: M:Startitecture.Orm.Mapper.StandardMapper.GetFromDbConverter(System.Reflection.PropertyInfo,System.Type)
-  fullName: Startitecture.Orm.Mapper.StandardMapper.GetFromDbConverter(System.Reflection.PropertyInfo, System.Type)
-  nameWithType: StandardMapper.GetFromDbConverter(PropertyInfo, Type)
-- uid: Startitecture.Orm.Mapper.StandardMapper.GetFromDbConverter*
-  name: GetFromDbConverter
-  href: api/Startitecture.Orm.Mapper.StandardMapper.html#Startitecture_Orm_Mapper_StandardMapper_GetFromDbConverter_
-  commentId: Overload:Startitecture.Orm.Mapper.StandardMapper.GetFromDbConverter
-  isSpec: "True"
-  fullName: Startitecture.Orm.Mapper.StandardMapper.GetFromDbConverter
-  nameWithType: StandardMapper.GetFromDbConverter
-- uid: Startitecture.Orm.Mapper.StandardMapper.GetToDbConverter(System.Reflection.PropertyInfo)
-  name: GetToDbConverter(PropertyInfo)
-  href: api/Startitecture.Orm.Mapper.StandardMapper.html#Startitecture_Orm_Mapper_StandardMapper_GetToDbConverter_System_Reflection_PropertyInfo_
-  commentId: M:Startitecture.Orm.Mapper.StandardMapper.GetToDbConverter(System.Reflection.PropertyInfo)
-  fullName: Startitecture.Orm.Mapper.StandardMapper.GetToDbConverter(System.Reflection.PropertyInfo)
-  nameWithType: StandardMapper.GetToDbConverter(PropertyInfo)
-- uid: Startitecture.Orm.Mapper.StandardMapper.GetToDbConverter*
-  name: GetToDbConverter
-  href: api/Startitecture.Orm.Mapper.StandardMapper.html#Startitecture_Orm_Mapper_StandardMapper_GetToDbConverter_
-  commentId: Overload:Startitecture.Orm.Mapper.StandardMapper.GetToDbConverter
-  isSpec: "True"
-  fullName: Startitecture.Orm.Mapper.StandardMapper.GetToDbConverter
-  nameWithType: StandardMapper.GetToDbConverter
 - uid: Startitecture.Orm.Mapper.StructuredCommand`1
   name: StructuredCommand<TStructure>
   href: api/Startitecture.Orm.Mapper.StructuredCommand-1.html
@@ -8969,38 +8714,6 @@ references:
   isSpec: "True"
   fullName: Startitecture.Orm.Model.ISelection.SelectExpressions
   nameWithType: ISelection.SelectExpressions
-- uid: Startitecture.Orm.Model.ITransactionContext
-  name: ITransactionContext
-  href: api/Startitecture.Orm.Model.ITransactionContext.html
-  commentId: T:Startitecture.Orm.Model.ITransactionContext
-  fullName: Startitecture.Orm.Model.ITransactionContext
-  nameWithType: ITransactionContext
-- uid: Startitecture.Orm.Model.ITransactionContext.SetTransactionProvider(Startitecture.Orm.Model.IRepositoryProvider)
-  name: SetTransactionProvider(IRepositoryProvider)
-  href: api/Startitecture.Orm.Model.ITransactionContext.html#Startitecture_Orm_Model_ITransactionContext_SetTransactionProvider_Startitecture_Orm_Model_IRepositoryProvider_
-  commentId: M:Startitecture.Orm.Model.ITransactionContext.SetTransactionProvider(Startitecture.Orm.Model.IRepositoryProvider)
-  fullName: Startitecture.Orm.Model.ITransactionContext.SetTransactionProvider(Startitecture.Orm.Model.IRepositoryProvider)
-  nameWithType: ITransactionContext.SetTransactionProvider(IRepositoryProvider)
-- uid: Startitecture.Orm.Model.ITransactionContext.SetTransactionProvider*
-  name: SetTransactionProvider
-  href: api/Startitecture.Orm.Model.ITransactionContext.html#Startitecture_Orm_Model_ITransactionContext_SetTransactionProvider_
-  commentId: Overload:Startitecture.Orm.Model.ITransactionContext.SetTransactionProvider
-  isSpec: "True"
-  fullName: Startitecture.Orm.Model.ITransactionContext.SetTransactionProvider
-  nameWithType: ITransactionContext.SetTransactionProvider
-- uid: Startitecture.Orm.Model.ITransactionContext.TransactionProvider
-  name: TransactionProvider
-  href: api/Startitecture.Orm.Model.ITransactionContext.html#Startitecture_Orm_Model_ITransactionContext_TransactionProvider
-  commentId: P:Startitecture.Orm.Model.ITransactionContext.TransactionProvider
-  fullName: Startitecture.Orm.Model.ITransactionContext.TransactionProvider
-  nameWithType: ITransactionContext.TransactionProvider
-- uid: Startitecture.Orm.Model.ITransactionContext.TransactionProvider*
-  name: TransactionProvider
-  href: api/Startitecture.Orm.Model.ITransactionContext.html#Startitecture_Orm_Model_ITransactionContext_TransactionProvider_
-  commentId: Overload:Startitecture.Orm.Model.ITransactionContext.TransactionProvider
-  isSpec: "True"
-  fullName: Startitecture.Orm.Model.ITransactionContext.TransactionProvider
-  nameWithType: ITransactionContext.TransactionProvider
 - uid: Startitecture.Orm.Model.IUpdateSet
   name: IUpdateSet
   href: api/Startitecture.Orm.Model.IUpdateSet.html
@@ -10080,38 +9793,64 @@ references:
   commentId: N:Startitecture.Orm.PostgreSql
   fullName: Startitecture.Orm.PostgreSql
   nameWithType: Startitecture.Orm.PostgreSql
-- uid: Startitecture.Orm.PostgreSql.PostgreSqlCompiler
-  name: PostgreSqlCompiler
-  href: api/Startitecture.Orm.PostgreSql.PostgreSqlCompiler.html
-  commentId: T:Startitecture.Orm.PostgreSql.PostgreSqlCompiler
-  fullName: Startitecture.Orm.PostgreSql.PostgreSqlCompiler
-  nameWithType: PostgreSqlCompiler
-- uid: Startitecture.Orm.PostgreSql.PostgreSqlCompiler.#ctor(Startitecture.Orm.Model.IEntityDefinitionProvider)
-  name: PostgreSqlCompiler(IEntityDefinitionProvider)
-  href: api/Startitecture.Orm.PostgreSql.PostgreSqlCompiler.html#Startitecture_Orm_PostgreSql_PostgreSqlCompiler__ctor_Startitecture_Orm_Model_IEntityDefinitionProvider_
-  commentId: M:Startitecture.Orm.PostgreSql.PostgreSqlCompiler.#ctor(Startitecture.Orm.Model.IEntityDefinitionProvider)
-  fullName: Startitecture.Orm.PostgreSql.PostgreSqlCompiler.PostgreSqlCompiler(Startitecture.Orm.Model.IEntityDefinitionProvider)
-  nameWithType: PostgreSqlCompiler.PostgreSqlCompiler(IEntityDefinitionProvider)
-- uid: Startitecture.Orm.PostgreSql.PostgreSqlCompiler.#ctor*
-  name: PostgreSqlCompiler
-  href: api/Startitecture.Orm.PostgreSql.PostgreSqlCompiler.html#Startitecture_Orm_PostgreSql_PostgreSqlCompiler__ctor_
-  commentId: Overload:Startitecture.Orm.PostgreSql.PostgreSqlCompiler.#ctor
+- uid: Startitecture.Orm.PostgreSql.PostgreSqlAdapter
+  name: PostgreSqlAdapter
+  href: api/Startitecture.Orm.PostgreSql.PostgreSqlAdapter.html
+  commentId: T:Startitecture.Orm.PostgreSql.PostgreSqlAdapter
+  fullName: Startitecture.Orm.PostgreSql.PostgreSqlAdapter
+  nameWithType: PostgreSqlAdapter
+- uid: Startitecture.Orm.PostgreSql.PostgreSqlAdapter.#ctor(Startitecture.Orm.Model.IEntityDefinitionProvider)
+  name: PostgreSqlAdapter(IEntityDefinitionProvider)
+  href: api/Startitecture.Orm.PostgreSql.PostgreSqlAdapter.html#Startitecture_Orm_PostgreSql_PostgreSqlAdapter__ctor_Startitecture_Orm_Model_IEntityDefinitionProvider_
+  commentId: M:Startitecture.Orm.PostgreSql.PostgreSqlAdapter.#ctor(Startitecture.Orm.Model.IEntityDefinitionProvider)
+  fullName: Startitecture.Orm.PostgreSql.PostgreSqlAdapter.PostgreSqlAdapter(Startitecture.Orm.Model.IEntityDefinitionProvider)
+  nameWithType: PostgreSqlAdapter.PostgreSqlAdapter(IEntityDefinitionProvider)
+- uid: Startitecture.Orm.PostgreSql.PostgreSqlAdapter.#ctor*
+  name: PostgreSqlAdapter
+  href: api/Startitecture.Orm.PostgreSql.PostgreSqlAdapter.html#Startitecture_Orm_PostgreSql_PostgreSqlAdapter__ctor_
+  commentId: Overload:Startitecture.Orm.PostgreSql.PostgreSqlAdapter.#ctor
   isSpec: "True"
-  fullName: Startitecture.Orm.PostgreSql.PostgreSqlCompiler.PostgreSqlCompiler
-  nameWithType: PostgreSqlCompiler.PostgreSqlCompiler
-- uid: Startitecture.Orm.PostgreSql.PostgreSqlCompiler.CaptureInsertedIdentity(System.String,Startitecture.Orm.Model.IEntityDefinition)
+  fullName: Startitecture.Orm.PostgreSql.PostgreSqlAdapter.PostgreSqlAdapter
+  nameWithType: PostgreSqlAdapter.PostgreSqlAdapter
+- uid: Startitecture.Orm.PostgreSql.PostgreSqlAdapter.CaptureInsertedIdentity(System.String,Startitecture.Orm.Model.IEntityDefinition)
   name: CaptureInsertedIdentity(String, IEntityDefinition)
-  href: api/Startitecture.Orm.PostgreSql.PostgreSqlCompiler.html#Startitecture_Orm_PostgreSql_PostgreSqlCompiler_CaptureInsertedIdentity_System_String_Startitecture_Orm_Model_IEntityDefinition_
-  commentId: M:Startitecture.Orm.PostgreSql.PostgreSqlCompiler.CaptureInsertedIdentity(System.String,Startitecture.Orm.Model.IEntityDefinition)
-  fullName: Startitecture.Orm.PostgreSql.PostgreSqlCompiler.CaptureInsertedIdentity(System.String, Startitecture.Orm.Model.IEntityDefinition)
-  nameWithType: PostgreSqlCompiler.CaptureInsertedIdentity(String, IEntityDefinition)
-- uid: Startitecture.Orm.PostgreSql.PostgreSqlCompiler.CaptureInsertedIdentity*
+  href: api/Startitecture.Orm.PostgreSql.PostgreSqlAdapter.html#Startitecture_Orm_PostgreSql_PostgreSqlAdapter_CaptureInsertedIdentity_System_String_Startitecture_Orm_Model_IEntityDefinition_
+  commentId: M:Startitecture.Orm.PostgreSql.PostgreSqlAdapter.CaptureInsertedIdentity(System.String,Startitecture.Orm.Model.IEntityDefinition)
+  fullName: Startitecture.Orm.PostgreSql.PostgreSqlAdapter.CaptureInsertedIdentity(System.String, Startitecture.Orm.Model.IEntityDefinition)
+  nameWithType: PostgreSqlAdapter.CaptureInsertedIdentity(String, IEntityDefinition)
+- uid: Startitecture.Orm.PostgreSql.PostgreSqlAdapter.CaptureInsertedIdentity*
   name: CaptureInsertedIdentity
-  href: api/Startitecture.Orm.PostgreSql.PostgreSqlCompiler.html#Startitecture_Orm_PostgreSql_PostgreSqlCompiler_CaptureInsertedIdentity_
-  commentId: Overload:Startitecture.Orm.PostgreSql.PostgreSqlCompiler.CaptureInsertedIdentity
+  href: api/Startitecture.Orm.PostgreSql.PostgreSqlAdapter.html#Startitecture_Orm_PostgreSql_PostgreSqlAdapter_CaptureInsertedIdentity_
+  commentId: Overload:Startitecture.Orm.PostgreSql.PostgreSqlAdapter.CaptureInsertedIdentity
   isSpec: "True"
-  fullName: Startitecture.Orm.PostgreSql.PostgreSqlCompiler.CaptureInsertedIdentity
-  nameWithType: PostgreSqlCompiler.CaptureInsertedIdentity
+  fullName: Startitecture.Orm.PostgreSql.PostgreSqlAdapter.CaptureInsertedIdentity
+  nameWithType: PostgreSqlAdapter.CaptureInsertedIdentity
+- uid: Startitecture.Orm.PostgreSql.PostgreSqlAdapter.CreateExistsStatement(Startitecture.Orm.Model.IEntitySet)
+  name: CreateExistsStatement(IEntitySet)
+  href: api/Startitecture.Orm.PostgreSql.PostgreSqlAdapter.html#Startitecture_Orm_PostgreSql_PostgreSqlAdapter_CreateExistsStatement_Startitecture_Orm_Model_IEntitySet_
+  commentId: M:Startitecture.Orm.PostgreSql.PostgreSqlAdapter.CreateExistsStatement(Startitecture.Orm.Model.IEntitySet)
+  fullName: Startitecture.Orm.PostgreSql.PostgreSqlAdapter.CreateExistsStatement(Startitecture.Orm.Model.IEntitySet)
+  nameWithType: PostgreSqlAdapter.CreateExistsStatement(IEntitySet)
+- uid: Startitecture.Orm.PostgreSql.PostgreSqlAdapter.CreateExistsStatement*
+  name: CreateExistsStatement
+  href: api/Startitecture.Orm.PostgreSql.PostgreSqlAdapter.html#Startitecture_Orm_PostgreSql_PostgreSqlAdapter_CreateExistsStatement_
+  commentId: Overload:Startitecture.Orm.PostgreSql.PostgreSqlAdapter.CreateExistsStatement
+  isSpec: "True"
+  fullName: Startitecture.Orm.PostgreSql.PostgreSqlAdapter.CreateExistsStatement
+  nameWithType: PostgreSqlAdapter.CreateExistsStatement
+- uid: Startitecture.Orm.PostgreSql.PostgreSqlAdapter.ValueMappers
+  name: ValueMappers
+  href: api/Startitecture.Orm.PostgreSql.PostgreSqlAdapter.html#Startitecture_Orm_PostgreSql_PostgreSqlAdapter_ValueMappers
+  commentId: P:Startitecture.Orm.PostgreSql.PostgreSqlAdapter.ValueMappers
+  fullName: Startitecture.Orm.PostgreSql.PostgreSqlAdapter.ValueMappers
+  nameWithType: PostgreSqlAdapter.ValueMappers
+- uid: Startitecture.Orm.PostgreSql.PostgreSqlAdapter.ValueMappers*
+  name: ValueMappers
+  href: api/Startitecture.Orm.PostgreSql.PostgreSqlAdapter.html#Startitecture_Orm_PostgreSql_PostgreSqlAdapter_ValueMappers_
+  commentId: Overload:Startitecture.Orm.PostgreSql.PostgreSqlAdapter.ValueMappers
+  isSpec: "True"
+  fullName: Startitecture.Orm.PostgreSql.PostgreSqlAdapter.ValueMappers
+  nameWithType: PostgreSqlAdapter.ValueMappers
 - uid: Startitecture.Orm.PostgreSql.PostgreSqlProviderFactory
   name: PostgreSqlProviderFactory
   href: api/Startitecture.Orm.PostgreSql.PostgreSqlProviderFactory.html
@@ -11170,32 +10909,19 @@ references:
   isSpec: "True"
   fullName: Startitecture.Orm.SqlClient.TableValuedCommandProvider.CreateCommand
   nameWithType: TableValuedCommandProvider.CreateCommand
-- uid: Startitecture.Orm.SqlClient.TableValuedCommandProvider.EntityDefinitionProvider
-  name: EntityDefinitionProvider
-  href: api/Startitecture.Orm.SqlClient.TableValuedCommandProvider.html#Startitecture_Orm_SqlClient_TableValuedCommandProvider_EntityDefinitionProvider
-  commentId: P:Startitecture.Orm.SqlClient.TableValuedCommandProvider.EntityDefinitionProvider
-  fullName: Startitecture.Orm.SqlClient.TableValuedCommandProvider.EntityDefinitionProvider
-  nameWithType: TableValuedCommandProvider.EntityDefinitionProvider
-- uid: Startitecture.Orm.SqlClient.TableValuedCommandProvider.EntityDefinitionProvider*
-  name: EntityDefinitionProvider
-  href: api/Startitecture.Orm.SqlClient.TableValuedCommandProvider.html#Startitecture_Orm_SqlClient_TableValuedCommandProvider_EntityDefinitionProvider_
-  commentId: Overload:Startitecture.Orm.SqlClient.TableValuedCommandProvider.EntityDefinitionProvider
+- uid: Startitecture.Orm.SqlClient.TableValuedCommandProvider.DatabaseContext
+  name: DatabaseContext
+  href: api/Startitecture.Orm.SqlClient.TableValuedCommandProvider.html#Startitecture_Orm_SqlClient_TableValuedCommandProvider_DatabaseContext
+  commentId: P:Startitecture.Orm.SqlClient.TableValuedCommandProvider.DatabaseContext
+  fullName: Startitecture.Orm.SqlClient.TableValuedCommandProvider.DatabaseContext
+  nameWithType: TableValuedCommandProvider.DatabaseContext
+- uid: Startitecture.Orm.SqlClient.TableValuedCommandProvider.DatabaseContext*
+  name: DatabaseContext
+  href: api/Startitecture.Orm.SqlClient.TableValuedCommandProvider.html#Startitecture_Orm_SqlClient_TableValuedCommandProvider_DatabaseContext_
+  commentId: Overload:Startitecture.Orm.SqlClient.TableValuedCommandProvider.DatabaseContext
   isSpec: "True"
-  fullName: Startitecture.Orm.SqlClient.TableValuedCommandProvider.EntityDefinitionProvider
-  nameWithType: TableValuedCommandProvider.EntityDefinitionProvider
-- uid: Startitecture.Orm.SqlClient.TableValuedCommandProvider.NameQualifier
-  name: NameQualifier
-  href: api/Startitecture.Orm.SqlClient.TableValuedCommandProvider.html#Startitecture_Orm_SqlClient_TableValuedCommandProvider_NameQualifier
-  commentId: P:Startitecture.Orm.SqlClient.TableValuedCommandProvider.NameQualifier
-  fullName: Startitecture.Orm.SqlClient.TableValuedCommandProvider.NameQualifier
-  nameWithType: TableValuedCommandProvider.NameQualifier
-- uid: Startitecture.Orm.SqlClient.TableValuedCommandProvider.NameQualifier*
-  name: NameQualifier
-  href: api/Startitecture.Orm.SqlClient.TableValuedCommandProvider.html#Startitecture_Orm_SqlClient_TableValuedCommandProvider_NameQualifier_
-  commentId: Overload:Startitecture.Orm.SqlClient.TableValuedCommandProvider.NameQualifier
-  isSpec: "True"
-  fullName: Startitecture.Orm.SqlClient.TableValuedCommandProvider.NameQualifier
-  nameWithType: TableValuedCommandProvider.NameQualifier
+  fullName: Startitecture.Orm.SqlClient.TableValuedCommandProvider.DatabaseContext
+  nameWithType: TableValuedCommandProvider.DatabaseContext
 - uid: Startitecture.Orm.SqlClient.TableValuedInsert`1
   name: TableValuedInsert<TStructure>
   href: api/Startitecture.Orm.SqlClient.TableValuedInsert-1.html
@@ -11442,38 +11168,64 @@ references:
   fullName.vb: Startitecture.Orm.SqlClient.TableValuedMerge(Of TStructure).SelectFromInserted
   nameWithType: TableValuedMerge<TStructure>.SelectFromInserted
   nameWithType.vb: TableValuedMerge(Of TStructure).SelectFromInserted
-- uid: Startitecture.Orm.SqlClient.TransactSqlCompiler
-  name: TransactSqlCompiler
-  href: api/Startitecture.Orm.SqlClient.TransactSqlCompiler.html
-  commentId: T:Startitecture.Orm.SqlClient.TransactSqlCompiler
-  fullName: Startitecture.Orm.SqlClient.TransactSqlCompiler
-  nameWithType: TransactSqlCompiler
-- uid: Startitecture.Orm.SqlClient.TransactSqlCompiler.#ctor(Startitecture.Orm.Model.IEntityDefinitionProvider)
-  name: TransactSqlCompiler(IEntityDefinitionProvider)
-  href: api/Startitecture.Orm.SqlClient.TransactSqlCompiler.html#Startitecture_Orm_SqlClient_TransactSqlCompiler__ctor_Startitecture_Orm_Model_IEntityDefinitionProvider_
-  commentId: M:Startitecture.Orm.SqlClient.TransactSqlCompiler.#ctor(Startitecture.Orm.Model.IEntityDefinitionProvider)
-  fullName: Startitecture.Orm.SqlClient.TransactSqlCompiler.TransactSqlCompiler(Startitecture.Orm.Model.IEntityDefinitionProvider)
-  nameWithType: TransactSqlCompiler.TransactSqlCompiler(IEntityDefinitionProvider)
-- uid: Startitecture.Orm.SqlClient.TransactSqlCompiler.#ctor*
-  name: TransactSqlCompiler
-  href: api/Startitecture.Orm.SqlClient.TransactSqlCompiler.html#Startitecture_Orm_SqlClient_TransactSqlCompiler__ctor_
-  commentId: Overload:Startitecture.Orm.SqlClient.TransactSqlCompiler.#ctor
+- uid: Startitecture.Orm.SqlClient.TransactSqlAdapter
+  name: TransactSqlAdapter
+  href: api/Startitecture.Orm.SqlClient.TransactSqlAdapter.html
+  commentId: T:Startitecture.Orm.SqlClient.TransactSqlAdapter
+  fullName: Startitecture.Orm.SqlClient.TransactSqlAdapter
+  nameWithType: TransactSqlAdapter
+- uid: Startitecture.Orm.SqlClient.TransactSqlAdapter.#ctor(Startitecture.Orm.Model.IEntityDefinitionProvider)
+  name: TransactSqlAdapter(IEntityDefinitionProvider)
+  href: api/Startitecture.Orm.SqlClient.TransactSqlAdapter.html#Startitecture_Orm_SqlClient_TransactSqlAdapter__ctor_Startitecture_Orm_Model_IEntityDefinitionProvider_
+  commentId: M:Startitecture.Orm.SqlClient.TransactSqlAdapter.#ctor(Startitecture.Orm.Model.IEntityDefinitionProvider)
+  fullName: Startitecture.Orm.SqlClient.TransactSqlAdapter.TransactSqlAdapter(Startitecture.Orm.Model.IEntityDefinitionProvider)
+  nameWithType: TransactSqlAdapter.TransactSqlAdapter(IEntityDefinitionProvider)
+- uid: Startitecture.Orm.SqlClient.TransactSqlAdapter.#ctor*
+  name: TransactSqlAdapter
+  href: api/Startitecture.Orm.SqlClient.TransactSqlAdapter.html#Startitecture_Orm_SqlClient_TransactSqlAdapter__ctor_
+  commentId: Overload:Startitecture.Orm.SqlClient.TransactSqlAdapter.#ctor
   isSpec: "True"
-  fullName: Startitecture.Orm.SqlClient.TransactSqlCompiler.TransactSqlCompiler
-  nameWithType: TransactSqlCompiler.TransactSqlCompiler
-- uid: Startitecture.Orm.SqlClient.TransactSqlCompiler.CaptureInsertedIdentity(System.String,Startitecture.Orm.Model.IEntityDefinition)
+  fullName: Startitecture.Orm.SqlClient.TransactSqlAdapter.TransactSqlAdapter
+  nameWithType: TransactSqlAdapter.TransactSqlAdapter
+- uid: Startitecture.Orm.SqlClient.TransactSqlAdapter.CaptureInsertedIdentity(System.String,Startitecture.Orm.Model.IEntityDefinition)
   name: CaptureInsertedIdentity(String, IEntityDefinition)
-  href: api/Startitecture.Orm.SqlClient.TransactSqlCompiler.html#Startitecture_Orm_SqlClient_TransactSqlCompiler_CaptureInsertedIdentity_System_String_Startitecture_Orm_Model_IEntityDefinition_
-  commentId: M:Startitecture.Orm.SqlClient.TransactSqlCompiler.CaptureInsertedIdentity(System.String,Startitecture.Orm.Model.IEntityDefinition)
-  fullName: Startitecture.Orm.SqlClient.TransactSqlCompiler.CaptureInsertedIdentity(System.String, Startitecture.Orm.Model.IEntityDefinition)
-  nameWithType: TransactSqlCompiler.CaptureInsertedIdentity(String, IEntityDefinition)
-- uid: Startitecture.Orm.SqlClient.TransactSqlCompiler.CaptureInsertedIdentity*
+  href: api/Startitecture.Orm.SqlClient.TransactSqlAdapter.html#Startitecture_Orm_SqlClient_TransactSqlAdapter_CaptureInsertedIdentity_System_String_Startitecture_Orm_Model_IEntityDefinition_
+  commentId: M:Startitecture.Orm.SqlClient.TransactSqlAdapter.CaptureInsertedIdentity(System.String,Startitecture.Orm.Model.IEntityDefinition)
+  fullName: Startitecture.Orm.SqlClient.TransactSqlAdapter.CaptureInsertedIdentity(System.String, Startitecture.Orm.Model.IEntityDefinition)
+  nameWithType: TransactSqlAdapter.CaptureInsertedIdentity(String, IEntityDefinition)
+- uid: Startitecture.Orm.SqlClient.TransactSqlAdapter.CaptureInsertedIdentity*
   name: CaptureInsertedIdentity
-  href: api/Startitecture.Orm.SqlClient.TransactSqlCompiler.html#Startitecture_Orm_SqlClient_TransactSqlCompiler_CaptureInsertedIdentity_
-  commentId: Overload:Startitecture.Orm.SqlClient.TransactSqlCompiler.CaptureInsertedIdentity
+  href: api/Startitecture.Orm.SqlClient.TransactSqlAdapter.html#Startitecture_Orm_SqlClient_TransactSqlAdapter_CaptureInsertedIdentity_
+  commentId: Overload:Startitecture.Orm.SqlClient.TransactSqlAdapter.CaptureInsertedIdentity
   isSpec: "True"
-  fullName: Startitecture.Orm.SqlClient.TransactSqlCompiler.CaptureInsertedIdentity
-  nameWithType: TransactSqlCompiler.CaptureInsertedIdentity
+  fullName: Startitecture.Orm.SqlClient.TransactSqlAdapter.CaptureInsertedIdentity
+  nameWithType: TransactSqlAdapter.CaptureInsertedIdentity
+- uid: Startitecture.Orm.SqlClient.TransactSqlAdapter.CreateSelectionStatement(Startitecture.Orm.Model.ISelection)
+  name: CreateSelectionStatement(ISelection)
+  href: api/Startitecture.Orm.SqlClient.TransactSqlAdapter.html#Startitecture_Orm_SqlClient_TransactSqlAdapter_CreateSelectionStatement_Startitecture_Orm_Model_ISelection_
+  commentId: M:Startitecture.Orm.SqlClient.TransactSqlAdapter.CreateSelectionStatement(Startitecture.Orm.Model.ISelection)
+  fullName: Startitecture.Orm.SqlClient.TransactSqlAdapter.CreateSelectionStatement(Startitecture.Orm.Model.ISelection)
+  nameWithType: TransactSqlAdapter.CreateSelectionStatement(ISelection)
+- uid: Startitecture.Orm.SqlClient.TransactSqlAdapter.CreateSelectionStatement*
+  name: CreateSelectionStatement
+  href: api/Startitecture.Orm.SqlClient.TransactSqlAdapter.html#Startitecture_Orm_SqlClient_TransactSqlAdapter_CreateSelectionStatement_
+  commentId: Overload:Startitecture.Orm.SqlClient.TransactSqlAdapter.CreateSelectionStatement
+  isSpec: "True"
+  fullName: Startitecture.Orm.SqlClient.TransactSqlAdapter.CreateSelectionStatement
+  nameWithType: TransactSqlAdapter.CreateSelectionStatement
+- uid: Startitecture.Orm.SqlClient.TransactSqlAdapter.ValueMappers
+  name: ValueMappers
+  href: api/Startitecture.Orm.SqlClient.TransactSqlAdapter.html#Startitecture_Orm_SqlClient_TransactSqlAdapter_ValueMappers
+  commentId: P:Startitecture.Orm.SqlClient.TransactSqlAdapter.ValueMappers
+  fullName: Startitecture.Orm.SqlClient.TransactSqlAdapter.ValueMappers
+  nameWithType: TransactSqlAdapter.ValueMappers
+- uid: Startitecture.Orm.SqlClient.TransactSqlAdapter.ValueMappers*
+  name: ValueMappers
+  href: api/Startitecture.Orm.SqlClient.TransactSqlAdapter.html#Startitecture_Orm_SqlClient_TransactSqlAdapter_ValueMappers_
+  commentId: Overload:Startitecture.Orm.SqlClient.TransactSqlAdapter.ValueMappers
+  isSpec: "True"
+  fullName: Startitecture.Orm.SqlClient.TransactSqlAdapter.ValueMappers
+  nameWithType: TransactSqlAdapter.ValueMappers
 - uid: Startitecture.Orm.SqlClient.TransactSqlQualifier
   name: TransactSqlQualifier
   href: api/Startitecture.Orm.SqlClient.TransactSqlQualifier.html
@@ -13109,32 +12861,6 @@ references:
   isSpec: "True"
   fullName: Startitecture.Orm.Testing.Entities.DataRow.RelatedDependency
   nameWithType: DataRow.RelatedDependency
-- uid: Startitecture.Orm.Testing.Entities.DataRow.SetTransactionProvider(Startitecture.Orm.Model.IRepositoryProvider)
-  name: SetTransactionProvider(IRepositoryProvider)
-  href: api/Startitecture.Orm.Testing.Entities.DataRow.html#Startitecture_Orm_Testing_Entities_DataRow_SetTransactionProvider_Startitecture_Orm_Model_IRepositoryProvider_
-  commentId: M:Startitecture.Orm.Testing.Entities.DataRow.SetTransactionProvider(Startitecture.Orm.Model.IRepositoryProvider)
-  fullName: Startitecture.Orm.Testing.Entities.DataRow.SetTransactionProvider(Startitecture.Orm.Model.IRepositoryProvider)
-  nameWithType: DataRow.SetTransactionProvider(IRepositoryProvider)
-- uid: Startitecture.Orm.Testing.Entities.DataRow.SetTransactionProvider*
-  name: SetTransactionProvider
-  href: api/Startitecture.Orm.Testing.Entities.DataRow.html#Startitecture_Orm_Testing_Entities_DataRow_SetTransactionProvider_
-  commentId: Overload:Startitecture.Orm.Testing.Entities.DataRow.SetTransactionProvider
-  isSpec: "True"
-  fullName: Startitecture.Orm.Testing.Entities.DataRow.SetTransactionProvider
-  nameWithType: DataRow.SetTransactionProvider
-- uid: Startitecture.Orm.Testing.Entities.DataRow.TransactionProvider
-  name: TransactionProvider
-  href: api/Startitecture.Orm.Testing.Entities.DataRow.html#Startitecture_Orm_Testing_Entities_DataRow_TransactionProvider
-  commentId: P:Startitecture.Orm.Testing.Entities.DataRow.TransactionProvider
-  fullName: Startitecture.Orm.Testing.Entities.DataRow.TransactionProvider
-  nameWithType: DataRow.TransactionProvider
-- uid: Startitecture.Orm.Testing.Entities.DataRow.TransactionProvider*
-  name: TransactionProvider
-  href: api/Startitecture.Orm.Testing.Entities.DataRow.html#Startitecture_Orm_Testing_Entities_DataRow_TransactionProvider_
-  commentId: Overload:Startitecture.Orm.Testing.Entities.DataRow.TransactionProvider
-  isSpec: "True"
-  fullName: Startitecture.Orm.Testing.Entities.DataRow.TransactionProvider
-  nameWithType: DataRow.TransactionProvider
 - uid: Startitecture.Orm.Testing.Entities.DataRow.ValueColumn
   name: ValueColumn
   href: api/Startitecture.Orm.Testing.Entities.DataRow.html#Startitecture_Orm_Testing_Entities_DataRow_ValueColumn
@@ -13878,32 +13604,6 @@ references:
   isSpec: "True"
   fullName: Startitecture.Orm.Testing.Entities.FakeRelatedRow.RelatedProperty
   nameWithType: FakeRelatedRow.RelatedProperty
-- uid: Startitecture.Orm.Testing.Entities.FakeRelatedRow.SetTransactionProvider(Startitecture.Orm.Model.IRepositoryProvider)
-  name: SetTransactionProvider(IRepositoryProvider)
-  href: api/Startitecture.Orm.Testing.Entities.FakeRelatedRow.html#Startitecture_Orm_Testing_Entities_FakeRelatedRow_SetTransactionProvider_Startitecture_Orm_Model_IRepositoryProvider_
-  commentId: M:Startitecture.Orm.Testing.Entities.FakeRelatedRow.SetTransactionProvider(Startitecture.Orm.Model.IRepositoryProvider)
-  fullName: Startitecture.Orm.Testing.Entities.FakeRelatedRow.SetTransactionProvider(Startitecture.Orm.Model.IRepositoryProvider)
-  nameWithType: FakeRelatedRow.SetTransactionProvider(IRepositoryProvider)
-- uid: Startitecture.Orm.Testing.Entities.FakeRelatedRow.SetTransactionProvider*
-  name: SetTransactionProvider
-  href: api/Startitecture.Orm.Testing.Entities.FakeRelatedRow.html#Startitecture_Orm_Testing_Entities_FakeRelatedRow_SetTransactionProvider_
-  commentId: Overload:Startitecture.Orm.Testing.Entities.FakeRelatedRow.SetTransactionProvider
-  isSpec: "True"
-  fullName: Startitecture.Orm.Testing.Entities.FakeRelatedRow.SetTransactionProvider
-  nameWithType: FakeRelatedRow.SetTransactionProvider
-- uid: Startitecture.Orm.Testing.Entities.FakeRelatedRow.TransactionProvider
-  name: TransactionProvider
-  href: api/Startitecture.Orm.Testing.Entities.FakeRelatedRow.html#Startitecture_Orm_Testing_Entities_FakeRelatedRow_TransactionProvider
-  commentId: P:Startitecture.Orm.Testing.Entities.FakeRelatedRow.TransactionProvider
-  fullName: Startitecture.Orm.Testing.Entities.FakeRelatedRow.TransactionProvider
-  nameWithType: FakeRelatedRow.TransactionProvider
-- uid: Startitecture.Orm.Testing.Entities.FakeRelatedRow.TransactionProvider*
-  name: TransactionProvider
-  href: api/Startitecture.Orm.Testing.Entities.FakeRelatedRow.html#Startitecture_Orm_Testing_Entities_FakeRelatedRow_TransactionProvider_
-  commentId: Overload:Startitecture.Orm.Testing.Entities.FakeRelatedRow.TransactionProvider
-  isSpec: "True"
-  fullName: Startitecture.Orm.Testing.Entities.FakeRelatedRow.TransactionProvider
-  nameWithType: FakeRelatedRow.TransactionProvider
 - uid: Startitecture.Orm.Testing.Entities.FieldRow
   name: FieldRow
   href: api/Startitecture.Orm.Testing.Entities.FieldRow.html

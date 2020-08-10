@@ -1,0 +1,386 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class PostgreSqlAdapter
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class PostgreSqlAdapter
+   ">
+    <meta name="generator" content="docfx 2.56.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Startitecture.Orm.PostgreSql.PostgreSqlAdapter">
+  
+  
+  <h1 id="Startitecture_Orm_PostgreSql_PostgreSqlAdapter" data-uid="Startitecture.Orm.PostgreSql.PostgreSqlAdapter" class="text-break">Class PostgreSqlAdapter
+  </h1>
+  <div class="markdown level0 summary"><p>The postgre sql compiler.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="Startitecture.Orm.Common.RepositoryAdapter.html">RepositoryAdapter</a></div>
+    <div class="level2"><span class="xref">PostgreSqlAdapter</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="Startitecture.Orm.Common.IRepositoryAdapter.html">IRepositoryAdapter</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Startitecture.Orm.Common.RepositoryAdapter.html#Startitecture_Orm_Common_RepositoryAdapter_DefinitionProvider">RepositoryAdapter.DefinitionProvider</a>
+    </div>
+    <div>
+      <a class="xref" href="Startitecture.Orm.Common.RepositoryAdapter.html#Startitecture_Orm_Common_RepositoryAdapter_NameQualifier">RepositoryAdapter.NameQualifier</a>
+    </div>
+    <div>
+      <a class="xref" href="Startitecture.Orm.Common.RepositoryAdapter.html#Startitecture_Orm_Common_RepositoryAdapter_CreateSelectionStatement_Startitecture_Orm_Model_ISelection_">RepositoryAdapter.CreateSelectionStatement(ISelection)</a>
+    </div>
+    <div>
+      <a class="xref" href="Startitecture.Orm.Common.RepositoryAdapter.html#Startitecture_Orm_Common_RepositoryAdapter_CreateUpdateStatement_Startitecture_Orm_Model_IUpdateSet_">RepositoryAdapter.CreateUpdateStatement(IUpdateSet)</a>
+    </div>
+    <div>
+      <a class="xref" href="Startitecture.Orm.Common.RepositoryAdapter.html#Startitecture_Orm_Common_RepositoryAdapter_CreateDeletionStatement_Startitecture_Orm_Model_IEntitySet_">RepositoryAdapter.CreateDeletionStatement(IEntitySet)</a>
+    </div>
+    <div>
+      <a class="xref" href="Startitecture.Orm.Common.RepositoryAdapter.html#Startitecture_Orm_Common_RepositoryAdapter_CreateInsertionStatement__1">RepositoryAdapter.CreateInsertionStatement&lt;T&gt;()</a>
+    </div>
+    <div>
+      <a class="xref" href="Startitecture.Orm.Common.RepositoryAdapter.html#Startitecture_Orm_Common_RepositoryAdapter_AddPrefix_System_String_">RepositoryAdapter.AddPrefix(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="Startitecture.Orm.Common.RepositoryAdapter.html#Startitecture_Orm_Common_RepositoryAdapter_CreateParameter_System_Data_IDbCommand_System_String_System_Object_">RepositoryAdapter.CreateParameter(IDbCommand, String, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="Startitecture.Orm.Common.RepositoryAdapter.html#Startitecture_Orm_Common_RepositoryAdapter_GetSelectionStatement_Startitecture_Orm_Model_IEntitySet_System_Collections_Generic_IEnumerable_System_String__">RepositoryAdapter.GetSelectionStatement(IEntitySet, IEnumerable&lt;String&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="Startitecture.Orm.Common.RepositoryAdapter.html#Startitecture_Orm_Common_RepositoryAdapter_GetInclusionFilter_System_String_System_Int32_System_Collections_Generic_IEnumerable_System_Object__">RepositoryAdapter.GetInclusionFilter(String, Int32, IEnumerable&lt;Object&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="Startitecture.Orm.Common.RepositoryAdapter.html#Startitecture_Orm_Common_RepositoryAdapter_GetExclusionFilter_System_String_System_Int32_System_Collections_Generic_IEnumerable_System_Object__">RepositoryAdapter.GetExclusionFilter(String, Int32, IEnumerable&lt;Object&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="Startitecture.Orm.Common.RepositoryAdapter.html#Startitecture_Orm_Common_RepositoryAdapter_AddTokens_Startitecture_Orm_Model_FilterType_System_Object_System_Collections_Generic_ICollection_System_String__System_String_System_Collections_Generic_IReadOnlyCollection_System_Object__System_Int32_">RepositoryAdapter.AddTokens(FilterType, Object, ICollection&lt;String&gt;, String, IReadOnlyCollection&lt;Object&gt;, Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="Startitecture.Orm.Common.RepositoryAdapter.html#Startitecture_Orm_Common_RepositoryAdapter_CreateSelectionStatement_Startitecture_Orm_Model_IEntitySet_Startitecture_Orm_Model_IEntityDefinition_System_Collections_Generic_IEnumerable_System_String__System_Int32_System_Int32_">RepositoryAdapter.CreateSelectionStatement(IEntitySet, IEntityDefinition, IEnumerable&lt;String&gt;, Int32, Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="Startitecture.Orm.Common.RepositoryAdapter.html#Startitecture_Orm_Common_RepositoryAdapter_CreateEntitySetStatement_Startitecture_Orm_Model_IEntitySet_Startitecture_Orm_Model_IEntityDefinition_System_Int32_System_Int32_">RepositoryAdapter.CreateEntitySetStatement(IEntitySet, IEntityDefinition, Int32, Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="Startitecture.Orm.Common.RepositoryAdapter.html#Startitecture_Orm_Common_RepositoryAdapter_CreateTableExpression_Startitecture_Orm_Model_IEntitySet_Startitecture_Orm_Model_IEntityDefinition_System_String_">RepositoryAdapter.CreateTableExpression(IEntitySet, IEntityDefinition, String)</a>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Startitecture.Orm.PostgreSql.html">Startitecture.Orm.PostgreSql</a></h6>
+  <h6><strong>Assembly</strong>: Startitecture.Orm.PostgreSql.dll</h6>
+  <h5 id="Startitecture_Orm_PostgreSql_PostgreSqlAdapter_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class PostgreSqlAdapter : RepositoryAdapter, IRepositoryAdapter</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.PostgreSql/PostgreSqlAdapter.cs&amp;version=GBmaster&amp;line=37">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_PostgreSql_PostgreSqlAdapter__ctor_" data-uid="Startitecture.Orm.PostgreSql.PostgreSqlAdapter.#ctor*"></a>
+  <h4 id="Startitecture_Orm_PostgreSql_PostgreSqlAdapter__ctor_Startitecture_Orm_Model_IEntityDefinitionProvider_" data-uid="Startitecture.Orm.PostgreSql.PostgreSqlAdapter.#ctor(Startitecture.Orm.Model.IEntityDefinitionProvider)">PostgreSqlAdapter(IEntityDefinitionProvider)</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="Startitecture.Orm.PostgreSql.PostgreSqlAdapter.html">PostgreSqlAdapter</a> class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PostgreSqlAdapter([NotNull] IEntityDefinitionProvider definitionProvider)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Model.IEntityDefinitionProvider.html">IEntityDefinitionProvider</a></td>
+        <td><span class="parametername">definitionProvider</span></td>
+        <td><p>The definition provider.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.PostgreSql/PostgreSqlAdapter.cs&amp;version=GBmaster&amp;line=43">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_PostgreSql_PostgreSqlAdapter_ValueMappers_" data-uid="Startitecture.Orm.PostgreSql.PostgreSqlAdapter.ValueMappers*"></a>
+  <h4 id="Startitecture_Orm_PostgreSql_PostgreSqlAdapter_ValueMappers" data-uid="Startitecture.Orm.PostgreSql.PostgreSqlAdapter.ValueMappers">ValueMappers</h4>
+  <div class="markdown level1 summary"><p>Gets the value mappers for the repository adapter.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override IReadOnlyDictionary&lt;Tuple&lt;Type, Type&gt;, IValueMapper&gt; ValueMappers { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IReadOnlyDictionary</span>&lt;<span class="xref">System.Tuple</span>&lt;<span class="xref">System.Type</span>, <span class="xref">System.Type</span>&gt;, <a class="xref" href="Startitecture.Orm.Common.IValueMapper.html">IValueMapper</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Startitecture.Orm.Common.RepositoryAdapter.html#Startitecture_Orm_Common_RepositoryAdapter_ValueMappers">RepositoryAdapter.ValueMappers</a></div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.PostgreSql/PostgreSqlAdapter.cs&amp;version=GBmaster&amp;line=59">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_PostgreSql_PostgreSqlAdapter_CaptureInsertedIdentity_" data-uid="Startitecture.Orm.PostgreSql.PostgreSqlAdapter.CaptureInsertedIdentity*"></a>
+  <h4 id="Startitecture_Orm_PostgreSql_PostgreSqlAdapter_CaptureInsertedIdentity_System_String_Startitecture_Orm_Model_IEntityDefinition_" data-uid="Startitecture.Orm.PostgreSql.PostgreSqlAdapter.CaptureInsertedIdentity(System.String,Startitecture.Orm.Model.IEntityDefinition)">CaptureInsertedIdentity(String, IEntityDefinition)</h4>
+  <div class="markdown level1 summary"><p>The capture inserted identity.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override string CaptureInsertedIdentity([NotNull] string commandText, [NotNull] IEntityDefinition definition)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">commandText</span></td>
+        <td><p>The command text.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Model.IEntityDefinition.html">IEntityDefinition</a></td>
+        <td><span class="parametername">definition</span></td>
+        <td><p>The definition.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The <span class="xref">System.String</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Startitecture.Orm.Common.RepositoryAdapter.html#Startitecture_Orm_Common_RepositoryAdapter_CaptureInsertedIdentity_System_String_Startitecture_Orm_Model_IEntityDefinition_">RepositoryAdapter.CaptureInsertedIdentity(String, IEntityDefinition)</a></div>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.PostgreSql/PostgreSqlAdapter.cs&amp;version=GBmaster&amp;line=46">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_PostgreSql_PostgreSqlAdapter_CreateExistsStatement_" data-uid="Startitecture.Orm.PostgreSql.PostgreSqlAdapter.CreateExistsStatement*"></a>
+  <h4 id="Startitecture_Orm_PostgreSql_PostgreSqlAdapter_CreateExistsStatement_Startitecture_Orm_Model_IEntitySet_" data-uid="Startitecture.Orm.PostgreSql.PostgreSqlAdapter.CreateExistsStatement(Startitecture.Orm.Model.IEntitySet)">CreateExistsStatement(IEntitySet)</h4>
+  <div class="markdown level1 summary"><p>Creates a query language statement to determine if any results exist for the specified <code data-dev-comment-type="paramref" class="paramref">entitySet</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string CreateExistsStatement(IEntitySet entitySet)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Model.IEntitySet.html">IEntitySet</a></td>
+        <td><span class="parametername">entitySet</span></td>
+        <td><p>The entity set to test for existence.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The query language statement as a <span class="xref">System.String</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Startitecture.Orm.Common.RepositoryAdapter.html#Startitecture_Orm_Common_RepositoryAdapter_CreateExistsStatement_Startitecture_Orm_Model_IEntitySet_">RepositoryAdapter.CreateExistsStatement(IEntitySet)</a></div>
+  <h5 id="Startitecture_Orm_PostgreSql_PostgreSqlAdapter_CreateExistsStatement_Startitecture_Orm_Model_IEntitySet__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This implementation will create an IF EXISTS ({statement}) SELECT 1 ELSE SELECT 0 wrapper around the selection. For
+best performance,
+include only a single, non-nullable column in the selection, ideally a clustered key column.</p>
+</div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="Startitecture.Orm.Common.IRepositoryAdapter.html">IRepositoryAdapter</a>
+  </div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="Startitecture.Orm.Testing.Moq.ExtensionMethods.html#Startitecture_Orm_Testing_Moq_ExtensionMethods_MockDataReader__1___0_System_Collections_Generic_IEnumerable_Startitecture_Orm_Model_EntityAttributeDefinition__">ExtensionMethods.MockDataReader&lt;T&gt;(T, IEnumerable&lt;EntityAttributeDefinition&gt;)</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.PostgreSql/PostgreSqlAdapter.cs&amp;version=GBmaster&amp;line=23" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
