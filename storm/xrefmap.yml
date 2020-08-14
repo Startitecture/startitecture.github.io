@@ -2967,19 +2967,6 @@ references:
   commentId: T:Startitecture.Orm.Common.IRepositoryAdapter
   fullName: Startitecture.Orm.Common.IRepositoryAdapter
   nameWithType: IRepositoryAdapter
-- uid: Startitecture.Orm.Common.IRepositoryAdapter.AddPrefix(System.String)
-  name: AddPrefix(String)
-  href: api/Startitecture.Orm.Common.IRepositoryAdapter.html#Startitecture_Orm_Common_IRepositoryAdapter_AddPrefix_System_String_
-  commentId: M:Startitecture.Orm.Common.IRepositoryAdapter.AddPrefix(System.String)
-  fullName: Startitecture.Orm.Common.IRepositoryAdapter.AddPrefix(System.String)
-  nameWithType: IRepositoryAdapter.AddPrefix(String)
-- uid: Startitecture.Orm.Common.IRepositoryAdapter.AddPrefix*
-  name: AddPrefix
-  href: api/Startitecture.Orm.Common.IRepositoryAdapter.html#Startitecture_Orm_Common_IRepositoryAdapter_AddPrefix_
-  commentId: Overload:Startitecture.Orm.Common.IRepositoryAdapter.AddPrefix
-  isSpec: "True"
-  fullName: Startitecture.Orm.Common.IRepositoryAdapter.AddPrefix
-  nameWithType: IRepositoryAdapter.AddPrefix
 - uid: Startitecture.Orm.Common.IRepositoryAdapter.CreateDeletionStatement(Startitecture.Orm.Model.IEntitySet)
   name: CreateDeletionStatement(IEntitySet)
   href: api/Startitecture.Orm.Common.IRepositoryAdapter.html#Startitecture_Orm_Common_IRepositoryAdapter_CreateDeletionStatement_Startitecture_Orm_Model_IEntitySet_
@@ -3170,12 +3157,6 @@ references:
   commentId: T:Startitecture.Orm.Common.IStructuredCommandProvider
   fullName: Startitecture.Orm.Common.IStructuredCommandProvider
   nameWithType: IStructuredCommandProvider
-- uid: Startitecture.Orm.Common.IStructuredCommandProvider.CreateCommand(Startitecture.Orm.Common.IStructuredCommand,System.Data.DataTable,System.Data.IDbTransaction)
-  name: CreateCommand(IStructuredCommand, DataTable, IDbTransaction)
-  href: api/Startitecture.Orm.Common.IStructuredCommandProvider.html#Startitecture_Orm_Common_IStructuredCommandProvider_CreateCommand_Startitecture_Orm_Common_IStructuredCommand_System_Data_DataTable_System_Data_IDbTransaction_
-  commentId: M:Startitecture.Orm.Common.IStructuredCommandProvider.CreateCommand(Startitecture.Orm.Common.IStructuredCommand,System.Data.DataTable,System.Data.IDbTransaction)
-  fullName: Startitecture.Orm.Common.IStructuredCommandProvider.CreateCommand(Startitecture.Orm.Common.IStructuredCommand, System.Data.DataTable, System.Data.IDbTransaction)
-  nameWithType: IStructuredCommandProvider.CreateCommand(IStructuredCommand, DataTable, IDbTransaction)
 - uid: Startitecture.Orm.Common.IStructuredCommandProvider.CreateCommand*
   name: CreateCommand
   href: api/Startitecture.Orm.Common.IStructuredCommandProvider.html#Startitecture_Orm_Common_IStructuredCommandProvider_CreateCommand_
@@ -3183,6 +3164,15 @@ references:
   isSpec: "True"
   fullName: Startitecture.Orm.Common.IStructuredCommandProvider.CreateCommand
   nameWithType: IStructuredCommandProvider.CreateCommand
+- uid: Startitecture.Orm.Common.IStructuredCommandProvider.CreateCommand``1(Startitecture.Orm.Common.IStructuredCommand,System.Collections.Generic.IEnumerable{``0},System.Data.IDbTransaction)
+  name: CreateCommand<T>(IStructuredCommand, IEnumerable<T>, IDbTransaction)
+  href: api/Startitecture.Orm.Common.IStructuredCommandProvider.html#Startitecture_Orm_Common_IStructuredCommandProvider_CreateCommand__1_Startitecture_Orm_Common_IStructuredCommand_System_Collections_Generic_IEnumerable___0__System_Data_IDbTransaction_
+  commentId: M:Startitecture.Orm.Common.IStructuredCommandProvider.CreateCommand``1(Startitecture.Orm.Common.IStructuredCommand,System.Collections.Generic.IEnumerable{``0},System.Data.IDbTransaction)
+  name.vb: CreateCommand(Of T)(IStructuredCommand, IEnumerable(Of T), IDbTransaction)
+  fullName: Startitecture.Orm.Common.IStructuredCommandProvider.CreateCommand<T>(Startitecture.Orm.Common.IStructuredCommand, System.Collections.Generic.IEnumerable<T>, System.Data.IDbTransaction)
+  fullName.vb: Startitecture.Orm.Common.IStructuredCommandProvider.CreateCommand(Of T)(Startitecture.Orm.Common.IStructuredCommand, System.Collections.Generic.IEnumerable(Of T), System.Data.IDbTransaction)
+  nameWithType: IStructuredCommandProvider.CreateCommand<T>(IStructuredCommand, IEnumerable<T>, IDbTransaction)
+  nameWithType.vb: IStructuredCommandProvider.CreateCommand(Of T)(IStructuredCommand, IEnumerable(Of T), IDbTransaction)
 - uid: Startitecture.Orm.Common.IStructuredCommandProvider.DatabaseContext
   name: DatabaseContext
   href: api/Startitecture.Orm.Common.IStructuredCommandProvider.html#Startitecture_Orm_Common_IStructuredCommandProvider_DatabaseContext
@@ -3269,6 +3259,19 @@ references:
   commentId: T:Startitecture.Orm.Common.NameQualifier
   fullName: Startitecture.Orm.Common.NameQualifier
   nameWithType: NameQualifier
+- uid: Startitecture.Orm.Common.NameQualifier.AddParameterPrefix(System.String)
+  name: AddParameterPrefix(String)
+  href: api/Startitecture.Orm.Common.NameQualifier.html#Startitecture_Orm_Common_NameQualifier_AddParameterPrefix_System_String_
+  commentId: M:Startitecture.Orm.Common.NameQualifier.AddParameterPrefix(System.String)
+  fullName: Startitecture.Orm.Common.NameQualifier.AddParameterPrefix(System.String)
+  nameWithType: NameQualifier.AddParameterPrefix(String)
+- uid: Startitecture.Orm.Common.NameQualifier.AddParameterPrefix*
+  name: AddParameterPrefix
+  href: api/Startitecture.Orm.Common.NameQualifier.html#Startitecture_Orm_Common_NameQualifier_AddParameterPrefix_
+  commentId: Overload:Startitecture.Orm.Common.NameQualifier.AddParameterPrefix
+  isSpec: "True"
+  fullName: Startitecture.Orm.Common.NameQualifier.AddParameterPrefix
+  nameWithType: NameQualifier.AddParameterPrefix
 - uid: Startitecture.Orm.Common.NameQualifier.Escape(System.String)
   name: Escape(String)
   href: api/Startitecture.Orm.Common.NameQualifier.html#Startitecture_Orm_Common_NameQualifier_Escape_System_String_
@@ -3606,19 +3609,6 @@ references:
   isSpec: "True"
   fullName: Startitecture.Orm.Common.RepositoryAdapter.RepositoryAdapter
   nameWithType: RepositoryAdapter.RepositoryAdapter
-- uid: Startitecture.Orm.Common.RepositoryAdapter.AddPrefix(System.String)
-  name: AddPrefix(String)
-  href: api/Startitecture.Orm.Common.RepositoryAdapter.html#Startitecture_Orm_Common_RepositoryAdapter_AddPrefix_System_String_
-  commentId: M:Startitecture.Orm.Common.RepositoryAdapter.AddPrefix(System.String)
-  fullName: Startitecture.Orm.Common.RepositoryAdapter.AddPrefix(System.String)
-  nameWithType: RepositoryAdapter.AddPrefix(String)
-- uid: Startitecture.Orm.Common.RepositoryAdapter.AddPrefix*
-  name: AddPrefix
-  href: api/Startitecture.Orm.Common.RepositoryAdapter.html#Startitecture_Orm_Common_RepositoryAdapter_AddPrefix_
-  commentId: Overload:Startitecture.Orm.Common.RepositoryAdapter.AddPrefix
-  isSpec: "True"
-  fullName: Startitecture.Orm.Common.RepositoryAdapter.AddPrefix
-  nameWithType: RepositoryAdapter.AddPrefix
 - uid: Startitecture.Orm.Common.RepositoryAdapter.AddTokens(Startitecture.Orm.Model.FilterType,System.Object,System.Collections.Generic.ICollection{System.String},System.String,System.Collections.Generic.IReadOnlyCollection{System.Object},System.Int32)
   name: AddTokens(FilterType, Object, ICollection<String>, String, IReadOnlyCollection<Object>, Int32)
   href: api/Startitecture.Orm.Common.RepositoryAdapter.html#Startitecture_Orm_Common_RepositoryAdapter_AddTokens_Startitecture_Orm_Model_FilterType_System_Object_System_Collections_Generic_ICollection_System_String__System_String_System_Collections_Generic_IReadOnlyCollection_System_Object__System_Int32_
@@ -8138,6 +8128,19 @@ references:
   commentId: T:Startitecture.Orm.Model.INameQualifier
   fullName: Startitecture.Orm.Model.INameQualifier
   nameWithType: INameQualifier
+- uid: Startitecture.Orm.Model.INameQualifier.AddParameterPrefix(System.String)
+  name: AddParameterPrefix(String)
+  href: api/Startitecture.Orm.Model.INameQualifier.html#Startitecture_Orm_Model_INameQualifier_AddParameterPrefix_System_String_
+  commentId: M:Startitecture.Orm.Model.INameQualifier.AddParameterPrefix(System.String)
+  fullName: Startitecture.Orm.Model.INameQualifier.AddParameterPrefix(System.String)
+  nameWithType: INameQualifier.AddParameterPrefix(String)
+- uid: Startitecture.Orm.Model.INameQualifier.AddParameterPrefix*
+  name: AddParameterPrefix
+  href: api/Startitecture.Orm.Model.INameQualifier.html#Startitecture_Orm_Model_INameQualifier_AddParameterPrefix_
+  commentId: Overload:Startitecture.Orm.Model.INameQualifier.AddParameterPrefix
+  isSpec: "True"
+  fullName: Startitecture.Orm.Model.INameQualifier.AddParameterPrefix
+  nameWithType: INameQualifier.AddParameterPrefix
 - uid: Startitecture.Orm.Model.INameQualifier.Escape(System.String)
   name: Escape(String)
   href: api/Startitecture.Orm.Model.INameQualifier.html#Startitecture_Orm_Model_INameQualifier_Escape_System_String_
@@ -9793,6 +9796,176 @@ references:
   commentId: N:Startitecture.Orm.PostgreSql
   fullName: Startitecture.Orm.PostgreSql
   nameWithType: Startitecture.Orm.PostgreSql
+- uid: Startitecture.Orm.PostgreSql.JsonCommandProvider
+  name: JsonCommandProvider
+  href: api/Startitecture.Orm.PostgreSql.JsonCommandProvider.html
+  commentId: T:Startitecture.Orm.PostgreSql.JsonCommandProvider
+  fullName: Startitecture.Orm.PostgreSql.JsonCommandProvider
+  nameWithType: JsonCommandProvider
+- uid: Startitecture.Orm.PostgreSql.JsonCommandProvider.#ctor(Startitecture.Orm.Common.IDatabaseContext)
+  name: JsonCommandProvider(IDatabaseContext)
+  href: api/Startitecture.Orm.PostgreSql.JsonCommandProvider.html#Startitecture_Orm_PostgreSql_JsonCommandProvider__ctor_Startitecture_Orm_Common_IDatabaseContext_
+  commentId: M:Startitecture.Orm.PostgreSql.JsonCommandProvider.#ctor(Startitecture.Orm.Common.IDatabaseContext)
+  fullName: Startitecture.Orm.PostgreSql.JsonCommandProvider.JsonCommandProvider(Startitecture.Orm.Common.IDatabaseContext)
+  nameWithType: JsonCommandProvider.JsonCommandProvider(IDatabaseContext)
+- uid: Startitecture.Orm.PostgreSql.JsonCommandProvider.#ctor*
+  name: JsonCommandProvider
+  href: api/Startitecture.Orm.PostgreSql.JsonCommandProvider.html#Startitecture_Orm_PostgreSql_JsonCommandProvider__ctor_
+  commentId: Overload:Startitecture.Orm.PostgreSql.JsonCommandProvider.#ctor
+  isSpec: "True"
+  fullName: Startitecture.Orm.PostgreSql.JsonCommandProvider.JsonCommandProvider
+  nameWithType: JsonCommandProvider.JsonCommandProvider
+- uid: Startitecture.Orm.PostgreSql.JsonCommandProvider.CreateCommand*
+  name: CreateCommand
+  href: api/Startitecture.Orm.PostgreSql.JsonCommandProvider.html#Startitecture_Orm_PostgreSql_JsonCommandProvider_CreateCommand_
+  commentId: Overload:Startitecture.Orm.PostgreSql.JsonCommandProvider.CreateCommand
+  isSpec: "True"
+  fullName: Startitecture.Orm.PostgreSql.JsonCommandProvider.CreateCommand
+  nameWithType: JsonCommandProvider.CreateCommand
+- uid: Startitecture.Orm.PostgreSql.JsonCommandProvider.CreateCommand``1(Startitecture.Orm.Common.IStructuredCommand,System.Collections.Generic.IEnumerable{``0},System.Data.IDbTransaction)
+  name: CreateCommand<T>(IStructuredCommand, IEnumerable<T>, IDbTransaction)
+  href: api/Startitecture.Orm.PostgreSql.JsonCommandProvider.html#Startitecture_Orm_PostgreSql_JsonCommandProvider_CreateCommand__1_Startitecture_Orm_Common_IStructuredCommand_System_Collections_Generic_IEnumerable___0__System_Data_IDbTransaction_
+  commentId: M:Startitecture.Orm.PostgreSql.JsonCommandProvider.CreateCommand``1(Startitecture.Orm.Common.IStructuredCommand,System.Collections.Generic.IEnumerable{``0},System.Data.IDbTransaction)
+  name.vb: CreateCommand(Of T)(IStructuredCommand, IEnumerable(Of T), IDbTransaction)
+  fullName: Startitecture.Orm.PostgreSql.JsonCommandProvider.CreateCommand<T>(Startitecture.Orm.Common.IStructuredCommand, System.Collections.Generic.IEnumerable<T>, System.Data.IDbTransaction)
+  fullName.vb: Startitecture.Orm.PostgreSql.JsonCommandProvider.CreateCommand(Of T)(Startitecture.Orm.Common.IStructuredCommand, System.Collections.Generic.IEnumerable(Of T), System.Data.IDbTransaction)
+  nameWithType: JsonCommandProvider.CreateCommand<T>(IStructuredCommand, IEnumerable<T>, IDbTransaction)
+  nameWithType.vb: JsonCommandProvider.CreateCommand(Of T)(IStructuredCommand, IEnumerable(Of T), IDbTransaction)
+- uid: Startitecture.Orm.PostgreSql.JsonCommandProvider.DatabaseContext
+  name: DatabaseContext
+  href: api/Startitecture.Orm.PostgreSql.JsonCommandProvider.html#Startitecture_Orm_PostgreSql_JsonCommandProvider_DatabaseContext
+  commentId: P:Startitecture.Orm.PostgreSql.JsonCommandProvider.DatabaseContext
+  fullName: Startitecture.Orm.PostgreSql.JsonCommandProvider.DatabaseContext
+  nameWithType: JsonCommandProvider.DatabaseContext
+- uid: Startitecture.Orm.PostgreSql.JsonCommandProvider.DatabaseContext*
+  name: DatabaseContext
+  href: api/Startitecture.Orm.PostgreSql.JsonCommandProvider.html#Startitecture_Orm_PostgreSql_JsonCommandProvider_DatabaseContext_
+  commentId: Overload:Startitecture.Orm.PostgreSql.JsonCommandProvider.DatabaseContext
+  isSpec: "True"
+  fullName: Startitecture.Orm.PostgreSql.JsonCommandProvider.DatabaseContext
+  nameWithType: JsonCommandProvider.DatabaseContext
+- uid: Startitecture.Orm.PostgreSql.JsonInsert`1
+  name: JsonInsert<T>
+  href: api/Startitecture.Orm.PostgreSql.JsonInsert-1.html
+  commentId: T:Startitecture.Orm.PostgreSql.JsonInsert`1
+  name.vb: JsonInsert(Of T)
+  fullName: Startitecture.Orm.PostgreSql.JsonInsert<T>
+  fullName.vb: Startitecture.Orm.PostgreSql.JsonInsert(Of T)
+  nameWithType: JsonInsert<T>
+  nameWithType.vb: JsonInsert(Of T)
+- uid: Startitecture.Orm.PostgreSql.JsonInsert`1.#ctor(Startitecture.Orm.Common.IStructuredCommandProvider)
+  name: JsonInsert(IStructuredCommandProvider)
+  href: api/Startitecture.Orm.PostgreSql.JsonInsert-1.html#Startitecture_Orm_PostgreSql_JsonInsert_1__ctor_Startitecture_Orm_Common_IStructuredCommandProvider_
+  commentId: M:Startitecture.Orm.PostgreSql.JsonInsert`1.#ctor(Startitecture.Orm.Common.IStructuredCommandProvider)
+  fullName: Startitecture.Orm.PostgreSql.JsonInsert<T>.JsonInsert(Startitecture.Orm.Common.IStructuredCommandProvider)
+  fullName.vb: Startitecture.Orm.PostgreSql.JsonInsert(Of T).JsonInsert(Startitecture.Orm.Common.IStructuredCommandProvider)
+  nameWithType: JsonInsert<T>.JsonInsert(IStructuredCommandProvider)
+  nameWithType.vb: JsonInsert(Of T).JsonInsert(IStructuredCommandProvider)
+- uid: Startitecture.Orm.PostgreSql.JsonInsert`1.#ctor(Startitecture.Orm.Common.IStructuredCommandProvider,System.Data.IDbTransaction)
+  name: JsonInsert(IStructuredCommandProvider, IDbTransaction)
+  href: api/Startitecture.Orm.PostgreSql.JsonInsert-1.html#Startitecture_Orm_PostgreSql_JsonInsert_1__ctor_Startitecture_Orm_Common_IStructuredCommandProvider_System_Data_IDbTransaction_
+  commentId: M:Startitecture.Orm.PostgreSql.JsonInsert`1.#ctor(Startitecture.Orm.Common.IStructuredCommandProvider,System.Data.IDbTransaction)
+  fullName: Startitecture.Orm.PostgreSql.JsonInsert<T>.JsonInsert(Startitecture.Orm.Common.IStructuredCommandProvider, System.Data.IDbTransaction)
+  fullName.vb: Startitecture.Orm.PostgreSql.JsonInsert(Of T).JsonInsert(Startitecture.Orm.Common.IStructuredCommandProvider, System.Data.IDbTransaction)
+  nameWithType: JsonInsert<T>.JsonInsert(IStructuredCommandProvider, IDbTransaction)
+  nameWithType.vb: JsonInsert(Of T).JsonInsert(IStructuredCommandProvider, IDbTransaction)
+- uid: Startitecture.Orm.PostgreSql.JsonInsert`1.#ctor*
+  name: JsonInsert
+  href: api/Startitecture.Orm.PostgreSql.JsonInsert-1.html#Startitecture_Orm_PostgreSql_JsonInsert_1__ctor_
+  commentId: Overload:Startitecture.Orm.PostgreSql.JsonInsert`1.#ctor
+  isSpec: "True"
+  fullName: Startitecture.Orm.PostgreSql.JsonInsert<T>.JsonInsert
+  fullName.vb: Startitecture.Orm.PostgreSql.JsonInsert(Of T).JsonInsert
+  nameWithType: JsonInsert<T>.JsonInsert
+  nameWithType.vb: JsonInsert(Of T).JsonInsert
+- uid: Startitecture.Orm.PostgreSql.JsonInsert`1.CommandText
+  name: CommandText
+  href: api/Startitecture.Orm.PostgreSql.JsonInsert-1.html#Startitecture_Orm_PostgreSql_JsonInsert_1_CommandText
+  commentId: P:Startitecture.Orm.PostgreSql.JsonInsert`1.CommandText
+  fullName: Startitecture.Orm.PostgreSql.JsonInsert<T>.CommandText
+  fullName.vb: Startitecture.Orm.PostgreSql.JsonInsert(Of T).CommandText
+  nameWithType: JsonInsert<T>.CommandText
+  nameWithType.vb: JsonInsert(Of T).CommandText
+- uid: Startitecture.Orm.PostgreSql.JsonInsert`1.CommandText*
+  name: CommandText
+  href: api/Startitecture.Orm.PostgreSql.JsonInsert-1.html#Startitecture_Orm_PostgreSql_JsonInsert_1_CommandText_
+  commentId: Overload:Startitecture.Orm.PostgreSql.JsonInsert`1.CommandText
+  isSpec: "True"
+  fullName: Startitecture.Orm.PostgreSql.JsonInsert<T>.CommandText
+  fullName.vb: Startitecture.Orm.PostgreSql.JsonInsert(Of T).CommandText
+  nameWithType: JsonInsert<T>.CommandText
+  nameWithType.vb: JsonInsert(Of T).CommandText
+- uid: Startitecture.Orm.PostgreSql.JsonInsert`1.From(System.Linq.Expressions.Expression{System.Func{`0,System.Object}}[])
+  name: From(Expression<Func<T, Object>>[])
+  href: api/Startitecture.Orm.PostgreSql.JsonInsert-1.html#Startitecture_Orm_PostgreSql_JsonInsert_1_From_System_Linq_Expressions_Expression_System_Func__0_System_Object_____
+  commentId: M:Startitecture.Orm.PostgreSql.JsonInsert`1.From(System.Linq.Expressions.Expression{System.Func{`0,System.Object}}[])
+  name.vb: From(Expression(Of Func(Of T, Object))())
+  fullName: Startitecture.Orm.PostgreSql.JsonInsert<T>.From(System.Linq.Expressions.Expression<System.Func<T, System.Object>>[])
+  fullName.vb: Startitecture.Orm.PostgreSql.JsonInsert(Of T).From(System.Linq.Expressions.Expression(Of System.Func(Of T, System.Object))())
+  nameWithType: JsonInsert<T>.From(Expression<Func<T, Object>>[])
+  nameWithType.vb: JsonInsert(Of T).From(Expression(Of Func(Of T, Object))())
+- uid: Startitecture.Orm.PostgreSql.JsonInsert`1.From*
+  name: From
+  href: api/Startitecture.Orm.PostgreSql.JsonInsert-1.html#Startitecture_Orm_PostgreSql_JsonInsert_1_From_
+  commentId: Overload:Startitecture.Orm.PostgreSql.JsonInsert`1.From
+  isSpec: "True"
+  fullName: Startitecture.Orm.PostgreSql.JsonInsert<T>.From
+  fullName.vb: Startitecture.Orm.PostgreSql.JsonInsert(Of T).From
+  nameWithType: JsonInsert<T>.From
+  nameWithType.vb: JsonInsert(Of T).From
+- uid: Startitecture.Orm.PostgreSql.JsonInsert`1.InsertInto*
+  name: InsertInto
+  href: api/Startitecture.Orm.PostgreSql.JsonInsert-1.html#Startitecture_Orm_PostgreSql_JsonInsert_1_InsertInto_
+  commentId: Overload:Startitecture.Orm.PostgreSql.JsonInsert`1.InsertInto
+  isSpec: "True"
+  fullName: Startitecture.Orm.PostgreSql.JsonInsert<T>.InsertInto
+  fullName.vb: Startitecture.Orm.PostgreSql.JsonInsert(Of T).InsertInto
+  nameWithType: JsonInsert<T>.InsertInto
+  nameWithType.vb: JsonInsert(Of T).InsertInto
+- uid: Startitecture.Orm.PostgreSql.JsonInsert`1.InsertInto``1(System.Collections.Generic.IEnumerable{`0},System.Linq.Expressions.Expression{System.Func{``0,System.Object}}[])
+  name: InsertInto<TEntity>(IEnumerable<T>, Expression<Func<TEntity, Object>>[])
+  href: api/Startitecture.Orm.PostgreSql.JsonInsert-1.html#Startitecture_Orm_PostgreSql_JsonInsert_1_InsertInto__1_System_Collections_Generic_IEnumerable__0__System_Linq_Expressions_Expression_System_Func___0_System_Object_____
+  commentId: M:Startitecture.Orm.PostgreSql.JsonInsert`1.InsertInto``1(System.Collections.Generic.IEnumerable{`0},System.Linq.Expressions.Expression{System.Func{``0,System.Object}}[])
+  name.vb: InsertInto(Of TEntity)(IEnumerable(Of T), Expression(Of Func(Of TEntity, Object))())
+  fullName: Startitecture.Orm.PostgreSql.JsonInsert<T>.InsertInto<TEntity>(System.Collections.Generic.IEnumerable<T>, System.Linq.Expressions.Expression<System.Func<TEntity, System.Object>>[])
+  fullName.vb: Startitecture.Orm.PostgreSql.JsonInsert(Of T).InsertInto(Of TEntity)(System.Collections.Generic.IEnumerable(Of T), System.Linq.Expressions.Expression(Of System.Func(Of TEntity, System.Object))())
+  nameWithType: JsonInsert<T>.InsertInto<TEntity>(IEnumerable<T>, Expression<Func<TEntity, Object>>[])
+  nameWithType.vb: JsonInsert(Of T).InsertInto(Of TEntity)(IEnumerable(Of T), Expression(Of Func(Of TEntity, Object))())
+- uid: Startitecture.Orm.PostgreSql.JsonInsert`1.SelectResults(System.Linq.Expressions.Expression{System.Func{`0,System.Object}}[])
+  name: SelectResults(Expression<Func<T, Object>>[])
+  href: api/Startitecture.Orm.PostgreSql.JsonInsert-1.html#Startitecture_Orm_PostgreSql_JsonInsert_1_SelectResults_System_Linq_Expressions_Expression_System_Func__0_System_Object_____
+  commentId: M:Startitecture.Orm.PostgreSql.JsonInsert`1.SelectResults(System.Linq.Expressions.Expression{System.Func{`0,System.Object}}[])
+  name.vb: SelectResults(Expression(Of Func(Of T, Object))())
+  fullName: Startitecture.Orm.PostgreSql.JsonInsert<T>.SelectResults(System.Linq.Expressions.Expression<System.Func<T, System.Object>>[])
+  fullName.vb: Startitecture.Orm.PostgreSql.JsonInsert(Of T).SelectResults(System.Linq.Expressions.Expression(Of System.Func(Of T, System.Object))())
+  nameWithType: JsonInsert<T>.SelectResults(Expression<Func<T, Object>>[])
+  nameWithType.vb: JsonInsert(Of T).SelectResults(Expression(Of Func(Of T, Object))())
+- uid: Startitecture.Orm.PostgreSql.JsonInsert`1.SelectResults*
+  name: SelectResults
+  href: api/Startitecture.Orm.PostgreSql.JsonInsert-1.html#Startitecture_Orm_PostgreSql_JsonInsert_1_SelectResults_
+  commentId: Overload:Startitecture.Orm.PostgreSql.JsonInsert`1.SelectResults
+  isSpec: "True"
+  fullName: Startitecture.Orm.PostgreSql.JsonInsert<T>.SelectResults
+  fullName.vb: Startitecture.Orm.PostgreSql.JsonInsert(Of T).SelectResults
+  nameWithType: JsonInsert<T>.SelectResults
+  nameWithType.vb: JsonInsert(Of T).SelectResults
+- uid: Startitecture.Orm.PostgreSql.JsonInsert`1.StructureTypeName
+  name: StructureTypeName
+  href: api/Startitecture.Orm.PostgreSql.JsonInsert-1.html#Startitecture_Orm_PostgreSql_JsonInsert_1_StructureTypeName
+  commentId: P:Startitecture.Orm.PostgreSql.JsonInsert`1.StructureTypeName
+  fullName: Startitecture.Orm.PostgreSql.JsonInsert<T>.StructureTypeName
+  fullName.vb: Startitecture.Orm.PostgreSql.JsonInsert(Of T).StructureTypeName
+  nameWithType: JsonInsert<T>.StructureTypeName
+  nameWithType.vb: JsonInsert(Of T).StructureTypeName
+- uid: Startitecture.Orm.PostgreSql.JsonInsert`1.StructureTypeName*
+  name: StructureTypeName
+  href: api/Startitecture.Orm.PostgreSql.JsonInsert-1.html#Startitecture_Orm_PostgreSql_JsonInsert_1_StructureTypeName_
+  commentId: Overload:Startitecture.Orm.PostgreSql.JsonInsert`1.StructureTypeName
+  isSpec: "True"
+  fullName: Startitecture.Orm.PostgreSql.JsonInsert<T>.StructureTypeName
+  fullName.vb: Startitecture.Orm.PostgreSql.JsonInsert(Of T).StructureTypeName
+  nameWithType: JsonInsert<T>.StructureTypeName
+  nameWithType.vb: JsonInsert(Of T).StructureTypeName
 - uid: Startitecture.Orm.PostgreSql.PostgreSqlAdapter
   name: PostgreSqlAdapter
   href: api/Startitecture.Orm.PostgreSql.PostgreSqlAdapter.html
@@ -10883,12 +11056,12 @@ references:
   commentId: T:Startitecture.Orm.SqlClient.TableValuedCommandProvider
   fullName: Startitecture.Orm.SqlClient.TableValuedCommandProvider
   nameWithType: TableValuedCommandProvider
-- uid: Startitecture.Orm.SqlClient.TableValuedCommandProvider.#ctor(Startitecture.Orm.Common.IDatabaseContextProvider)
-  name: TableValuedCommandProvider(IDatabaseContextProvider)
-  href: api/Startitecture.Orm.SqlClient.TableValuedCommandProvider.html#Startitecture_Orm_SqlClient_TableValuedCommandProvider__ctor_Startitecture_Orm_Common_IDatabaseContextProvider_
-  commentId: M:Startitecture.Orm.SqlClient.TableValuedCommandProvider.#ctor(Startitecture.Orm.Common.IDatabaseContextProvider)
-  fullName: Startitecture.Orm.SqlClient.TableValuedCommandProvider.TableValuedCommandProvider(Startitecture.Orm.Common.IDatabaseContextProvider)
-  nameWithType: TableValuedCommandProvider.TableValuedCommandProvider(IDatabaseContextProvider)
+- uid: Startitecture.Orm.SqlClient.TableValuedCommandProvider.#ctor(Startitecture.Orm.Common.IDatabaseContext)
+  name: TableValuedCommandProvider(IDatabaseContext)
+  href: api/Startitecture.Orm.SqlClient.TableValuedCommandProvider.html#Startitecture_Orm_SqlClient_TableValuedCommandProvider__ctor_Startitecture_Orm_Common_IDatabaseContext_
+  commentId: M:Startitecture.Orm.SqlClient.TableValuedCommandProvider.#ctor(Startitecture.Orm.Common.IDatabaseContext)
+  fullName: Startitecture.Orm.SqlClient.TableValuedCommandProvider.TableValuedCommandProvider(Startitecture.Orm.Common.IDatabaseContext)
+  nameWithType: TableValuedCommandProvider.TableValuedCommandProvider(IDatabaseContext)
 - uid: Startitecture.Orm.SqlClient.TableValuedCommandProvider.#ctor*
   name: TableValuedCommandProvider
   href: api/Startitecture.Orm.SqlClient.TableValuedCommandProvider.html#Startitecture_Orm_SqlClient_TableValuedCommandProvider__ctor_
@@ -10896,12 +11069,6 @@ references:
   isSpec: "True"
   fullName: Startitecture.Orm.SqlClient.TableValuedCommandProvider.TableValuedCommandProvider
   nameWithType: TableValuedCommandProvider.TableValuedCommandProvider
-- uid: Startitecture.Orm.SqlClient.TableValuedCommandProvider.CreateCommand(Startitecture.Orm.Common.IStructuredCommand,System.Data.DataTable,System.Data.IDbTransaction)
-  name: CreateCommand(IStructuredCommand, DataTable, IDbTransaction)
-  href: api/Startitecture.Orm.SqlClient.TableValuedCommandProvider.html#Startitecture_Orm_SqlClient_TableValuedCommandProvider_CreateCommand_Startitecture_Orm_Common_IStructuredCommand_System_Data_DataTable_System_Data_IDbTransaction_
-  commentId: M:Startitecture.Orm.SqlClient.TableValuedCommandProvider.CreateCommand(Startitecture.Orm.Common.IStructuredCommand,System.Data.DataTable,System.Data.IDbTransaction)
-  fullName: Startitecture.Orm.SqlClient.TableValuedCommandProvider.CreateCommand(Startitecture.Orm.Common.IStructuredCommand, System.Data.DataTable, System.Data.IDbTransaction)
-  nameWithType: TableValuedCommandProvider.CreateCommand(IStructuredCommand, DataTable, IDbTransaction)
 - uid: Startitecture.Orm.SqlClient.TableValuedCommandProvider.CreateCommand*
   name: CreateCommand
   href: api/Startitecture.Orm.SqlClient.TableValuedCommandProvider.html#Startitecture_Orm_SqlClient_TableValuedCommandProvider_CreateCommand_
@@ -10909,6 +11076,15 @@ references:
   isSpec: "True"
   fullName: Startitecture.Orm.SqlClient.TableValuedCommandProvider.CreateCommand
   nameWithType: TableValuedCommandProvider.CreateCommand
+- uid: Startitecture.Orm.SqlClient.TableValuedCommandProvider.CreateCommand``1(Startitecture.Orm.Common.IStructuredCommand,System.Collections.Generic.IEnumerable{``0},System.Data.IDbTransaction)
+  name: CreateCommand<T>(IStructuredCommand, IEnumerable<T>, IDbTransaction)
+  href: api/Startitecture.Orm.SqlClient.TableValuedCommandProvider.html#Startitecture_Orm_SqlClient_TableValuedCommandProvider_CreateCommand__1_Startitecture_Orm_Common_IStructuredCommand_System_Collections_Generic_IEnumerable___0__System_Data_IDbTransaction_
+  commentId: M:Startitecture.Orm.SqlClient.TableValuedCommandProvider.CreateCommand``1(Startitecture.Orm.Common.IStructuredCommand,System.Collections.Generic.IEnumerable{``0},System.Data.IDbTransaction)
+  name.vb: CreateCommand(Of T)(IStructuredCommand, IEnumerable(Of T), IDbTransaction)
+  fullName: Startitecture.Orm.SqlClient.TableValuedCommandProvider.CreateCommand<T>(Startitecture.Orm.Common.IStructuredCommand, System.Collections.Generic.IEnumerable<T>, System.Data.IDbTransaction)
+  fullName.vb: Startitecture.Orm.SqlClient.TableValuedCommandProvider.CreateCommand(Of T)(Startitecture.Orm.Common.IStructuredCommand, System.Collections.Generic.IEnumerable(Of T), System.Data.IDbTransaction)
+  nameWithType: TableValuedCommandProvider.CreateCommand<T>(IStructuredCommand, IEnumerable<T>, IDbTransaction)
+  nameWithType.vb: TableValuedCommandProvider.CreateCommand(Of T)(IStructuredCommand, IEnumerable(Of T), IDbTransaction)
 - uid: Startitecture.Orm.SqlClient.TableValuedCommandProvider.DatabaseContext
   name: DatabaseContext
   href: api/Startitecture.Orm.SqlClient.TableValuedCommandProvider.html#Startitecture_Orm_SqlClient_TableValuedCommandProvider_DatabaseContext
@@ -11027,6 +11203,23 @@ references:
   fullName.vb: Startitecture.Orm.SqlClient.TableValuedInsert(Of TStructure).SelectResults
   nameWithType: TableValuedInsert<TStructure>.SelectResults
   nameWithType.vb: TableValuedInsert(Of TStructure).SelectResults
+- uid: Startitecture.Orm.SqlClient.TableValuedInsert`1.StructureTypeName
+  name: StructureTypeName
+  href: api/Startitecture.Orm.SqlClient.TableValuedInsert-1.html#Startitecture_Orm_SqlClient_TableValuedInsert_1_StructureTypeName
+  commentId: P:Startitecture.Orm.SqlClient.TableValuedInsert`1.StructureTypeName
+  fullName: Startitecture.Orm.SqlClient.TableValuedInsert<TStructure>.StructureTypeName
+  fullName.vb: Startitecture.Orm.SqlClient.TableValuedInsert(Of TStructure).StructureTypeName
+  nameWithType: TableValuedInsert<TStructure>.StructureTypeName
+  nameWithType.vb: TableValuedInsert(Of TStructure).StructureTypeName
+- uid: Startitecture.Orm.SqlClient.TableValuedInsert`1.StructureTypeName*
+  name: StructureTypeName
+  href: api/Startitecture.Orm.SqlClient.TableValuedInsert-1.html#Startitecture_Orm_SqlClient_TableValuedInsert_1_StructureTypeName_
+  commentId: Overload:Startitecture.Orm.SqlClient.TableValuedInsert`1.StructureTypeName
+  isSpec: "True"
+  fullName: Startitecture.Orm.SqlClient.TableValuedInsert<TStructure>.StructureTypeName
+  fullName.vb: Startitecture.Orm.SqlClient.TableValuedInsert(Of TStructure).StructureTypeName
+  nameWithType: TableValuedInsert<TStructure>.StructureTypeName
+  nameWithType.vb: TableValuedInsert(Of TStructure).StructureTypeName
 - uid: Startitecture.Orm.SqlClient.TableValuedMerge`1
   name: TableValuedMerge<TStructure>
   href: api/Startitecture.Orm.SqlClient.TableValuedMerge-1.html
@@ -11168,6 +11361,23 @@ references:
   fullName.vb: Startitecture.Orm.SqlClient.TableValuedMerge(Of TStructure).SelectFromInserted
   nameWithType: TableValuedMerge<TStructure>.SelectFromInserted
   nameWithType.vb: TableValuedMerge(Of TStructure).SelectFromInserted
+- uid: Startitecture.Orm.SqlClient.TableValuedMerge`1.StructureTypeName
+  name: StructureTypeName
+  href: api/Startitecture.Orm.SqlClient.TableValuedMerge-1.html#Startitecture_Orm_SqlClient_TableValuedMerge_1_StructureTypeName
+  commentId: P:Startitecture.Orm.SqlClient.TableValuedMerge`1.StructureTypeName
+  fullName: Startitecture.Orm.SqlClient.TableValuedMerge<TStructure>.StructureTypeName
+  fullName.vb: Startitecture.Orm.SqlClient.TableValuedMerge(Of TStructure).StructureTypeName
+  nameWithType: TableValuedMerge<TStructure>.StructureTypeName
+  nameWithType.vb: TableValuedMerge(Of TStructure).StructureTypeName
+- uid: Startitecture.Orm.SqlClient.TableValuedMerge`1.StructureTypeName*
+  name: StructureTypeName
+  href: api/Startitecture.Orm.SqlClient.TableValuedMerge-1.html#Startitecture_Orm_SqlClient_TableValuedMerge_1_StructureTypeName_
+  commentId: Overload:Startitecture.Orm.SqlClient.TableValuedMerge`1.StructureTypeName
+  isSpec: "True"
+  fullName: Startitecture.Orm.SqlClient.TableValuedMerge<TStructure>.StructureTypeName
+  fullName.vb: Startitecture.Orm.SqlClient.TableValuedMerge(Of TStructure).StructureTypeName
+  nameWithType: TableValuedMerge<TStructure>.StructureTypeName
+  nameWithType.vb: TableValuedMerge(Of TStructure).StructureTypeName
 - uid: Startitecture.Orm.SqlClient.TransactSqlAdapter
   name: TransactSqlAdapter
   href: api/Startitecture.Orm.SqlClient.TransactSqlAdapter.html

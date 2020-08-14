@@ -119,16 +119,16 @@
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.SqlClient/TableValuedCommandProvider.cs&amp;version=GBmaster&amp;line=38">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.SqlClient/TableValuedCommandProvider.cs&amp;version=GBmaster&amp;line=34">View Source</a>
   </span>
   <a id="Startitecture_Orm_SqlClient_TableValuedCommandProvider__ctor_" data-uid="Startitecture.Orm.SqlClient.TableValuedCommandProvider.#ctor*"></a>
-  <h4 id="Startitecture_Orm_SqlClient_TableValuedCommandProvider__ctor_Startitecture_Orm_Common_IDatabaseContextProvider_" data-uid="Startitecture.Orm.SqlClient.TableValuedCommandProvider.#ctor(Startitecture.Orm.Common.IDatabaseContextProvider)">TableValuedCommandProvider(IDatabaseContextProvider)</h4>
+  <h4 id="Startitecture_Orm_SqlClient_TableValuedCommandProvider__ctor_Startitecture_Orm_Common_IDatabaseContext_" data-uid="Startitecture.Orm.SqlClient.TableValuedCommandProvider.#ctor(Startitecture.Orm.Common.IDatabaseContext)">TableValuedCommandProvider(IDatabaseContext)</h4>
   <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="Startitecture.Orm.SqlClient.TableValuedCommandProvider.html">TableValuedCommandProvider</a> class.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public TableValuedCommandProvider([NotNull] IDatabaseContextProvider contextProvider)</code></pre>
+    <pre><code class="lang-csharp hljs">public TableValuedCommandProvider([NotNull] IDatabaseContext databaseContext)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -141,8 +141,8 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Startitecture.Orm.Common.IDatabaseContextProvider.html">IDatabaseContextProvider</a></td>
-        <td><span class="parametername">contextProvider</span></td>
+        <td><a class="xref" href="Startitecture.Orm.Common.IDatabaseContext.html">IDatabaseContext</a></td>
+        <td><span class="parametername">databaseContext</span></td>
         <td><p>The context provider.</p>
 </td>
       </tr>
@@ -152,7 +152,7 @@
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.SqlClient/TableValuedCommandProvider.cs&amp;version=GBmaster&amp;line=45">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.SqlClient/TableValuedCommandProvider.cs&amp;version=GBmaster&amp;line=40">View Source</a>
   </span>
   <a id="Startitecture_Orm_SqlClient_TableValuedCommandProvider_DatabaseContext_" data-uid="Startitecture.Orm.SqlClient.TableValuedCommandProvider.DatabaseContext*"></a>
   <h4 id="Startitecture_Orm_SqlClient_TableValuedCommandProvider_DatabaseContext" data-uid="Startitecture.Orm.SqlClient.TableValuedCommandProvider.DatabaseContext">DatabaseContext</h4>
@@ -182,16 +182,16 @@
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.SqlClient/TableValuedCommandProvider.cs&amp;version=GBmaster&amp;line=65">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.SqlClient/TableValuedCommandProvider.cs&amp;version=GBmaster&amp;line=63">View Source</a>
   </span>
   <a id="Startitecture_Orm_SqlClient_TableValuedCommandProvider_CreateCommand_" data-uid="Startitecture.Orm.SqlClient.TableValuedCommandProvider.CreateCommand*"></a>
-  <h4 id="Startitecture_Orm_SqlClient_TableValuedCommandProvider_CreateCommand_Startitecture_Orm_Common_IStructuredCommand_System_Data_DataTable_System_Data_IDbTransaction_" data-uid="Startitecture.Orm.SqlClient.TableValuedCommandProvider.CreateCommand(Startitecture.Orm.Common.IStructuredCommand,System.Data.DataTable,System.Data.IDbTransaction)">CreateCommand(IStructuredCommand, DataTable, IDbTransaction)</h4>
+  <h4 id="Startitecture_Orm_SqlClient_TableValuedCommandProvider_CreateCommand__1_Startitecture_Orm_Common_IStructuredCommand_System_Collections_Generic_IEnumerable___0__System_Data_IDbTransaction_" data-uid="Startitecture.Orm.SqlClient.TableValuedCommandProvider.CreateCommand``1(Startitecture.Orm.Common.IStructuredCommand,System.Collections.Generic.IEnumerable{``0},System.Data.IDbTransaction)">CreateCommand&lt;T&gt;(IStructuredCommand, IEnumerable&lt;T&gt;, IDbTransaction)</h4>
   <div class="markdown level1 summary"><p>Creates an <span class="xref">System.Data.IDbCommand</span> for the specified <code data-dev-comment-type="paramref" class="paramref">structuredCommand</code>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IDbCommand CreateCommand([NotNull] IStructuredCommand structuredCommand, [NotNull] DataTable dataTable, IDbTransaction transaction)</code></pre>
+    <pre><code class="lang-csharp hljs">public IDbCommand CreateCommand&lt;T&gt;(IStructuredCommand structuredCommand, IEnumerable&lt;T&gt; items, IDbTransaction transaction)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -210,9 +210,9 @@
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Data.DataTable</span></td>
-        <td><span class="parametername">dataTable</span></td>
-        <td><p>The data table to include with the command.</p>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;T&gt;</td>
+        <td><span class="parametername">items</span></td>
+        <td><p>The items to pass to the command.</p>
 </td>
       </tr>
       <tr>
@@ -235,6 +235,22 @@
       <tr>
         <td><span class="xref">System.Data.IDbCommand</span></td>
         <td><p>An <span class="xref">System.Data.IDbCommand</span> that will execute the structured command.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of items in the structured command.</p>
 </td>
       </tr>
     </tbody>
@@ -271,7 +287,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.SqlClient/TableValuedCommandProvider.cs&amp;version=GBmaster&amp;line=25" class="contribution-link">View Source</a>
+                    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.SqlClient/TableValuedCommandProvider.cs&amp;version=GBmaster&amp;line=26" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
