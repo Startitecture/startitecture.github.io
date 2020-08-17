@@ -79,29 +79,35 @@
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><a class="xref" href="Startitecture.Orm.Mapper.StructuredCommand-1.html">StructuredCommand</a>&lt;T&gt;</div>
+    <div class="level1"><a class="xref" href="Startitecture.Orm.Mapper.TableCommand-1.html">TableCommand</a>&lt;T&gt;</div>
     <div class="level2"><span class="xref">JsonInsert&lt;T&gt;</span></div>
   </div>
   <div classs="implements">
     <h5>Implements</h5>
-    <div><a class="xref" href="Startitecture.Orm.Common.IStructuredCommand.html">IStructuredCommand</a></div>
+    <div><a class="xref" href="Startitecture.Orm.Common.ITableCommand.html">ITableCommand</a></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
-      <a class="xref" href="Startitecture.Orm.Mapper.StructuredCommand-1.html#Startitecture_Orm_Mapper_StructuredCommand_1_Parameter">StructuredCommand&lt;T&gt;.Parameter</a>
+      <a class="xref" href="Startitecture.Orm.Mapper.TableCommand-1.html#Startitecture_Orm_Mapper_TableCommand_1_ParameterName">TableCommand&lt;T&gt;.ParameterName</a>
     </div>
     <div>
-      <a class="xref" href="Startitecture.Orm.Mapper.StructuredCommand-1.html#Startitecture_Orm_Mapper_StructuredCommand_1_Items">StructuredCommand&lt;T&gt;.Items</a>
+      <a class="xref" href="Startitecture.Orm.Mapper.TableCommand-1.html#Startitecture_Orm_Mapper_TableCommand_1_TableCommandProvider">TableCommand&lt;T&gt;.TableCommandProvider</a>
     </div>
     <div>
-      <a class="xref" href="Startitecture.Orm.Mapper.StructuredCommand-1.html#Startitecture_Orm_Mapper_StructuredCommand_1_StructuredCommandProvider">StructuredCommand&lt;T&gt;.StructuredCommandProvider</a>
+      <a class="xref" href="Startitecture.Orm.Mapper.TableCommand-1.html#Startitecture_Orm_Mapper_TableCommand_1_EntityDefinition">TableCommand&lt;T&gt;.EntityDefinition</a>
     </div>
     <div>
-      <a class="xref" href="Startitecture.Orm.Mapper.StructuredCommand-1.html#Startitecture_Orm_Mapper_StructuredCommand_1_Execute">StructuredCommand&lt;T&gt;.Execute()</a>
+      <a class="xref" href="Startitecture.Orm.Mapper.TableCommand-1.html#Startitecture_Orm_Mapper_TableCommand_1_ItemDefinition">TableCommand&lt;T&gt;.ItemDefinition</a>
     </div>
     <div>
-      <a class="xref" href="Startitecture.Orm.Mapper.StructuredCommand-1.html#Startitecture_Orm_Mapper_StructuredCommand_1_ExecuteForResults">StructuredCommand&lt;T&gt;.ExecuteForResults()</a>
+      <a class="xref" href="Startitecture.Orm.Mapper.TableCommand-1.html#Startitecture_Orm_Mapper_TableCommand_1_ItemType">TableCommand&lt;T&gt;.ItemType</a>
+    </div>
+    <div>
+      <a class="xref" href="Startitecture.Orm.Mapper.TableCommand-1.html#Startitecture_Orm_Mapper_TableCommand_1_Execute__1_System_Collections_Generic_IEnumerable___0__">TableCommand&lt;T&gt;.Execute&lt;TItem&gt;(IEnumerable&lt;TItem&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="Startitecture.Orm.Mapper.TableCommand-1.html#Startitecture_Orm_Mapper_TableCommand_1_ExecuteForResults__1_System_Collections_Generic_IEnumerable___0__">TableCommand&lt;T&gt;.ExecuteForResults&lt;TItem&gt;(IEnumerable&lt;TItem&gt;)</a>
     </div>
     <div>
       <span class="xref">System.Object.Equals(System.Object)</span>
@@ -129,7 +135,7 @@
   <h6><strong>Assembly</strong>: Startitecture.Orm.PostgreSql.dll</h6>
   <h5 id="Startitecture_Orm_PostgreSql_JsonInsert_1_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class JsonInsert&lt;T&gt; : StructuredCommand&lt;T&gt;, IStructuredCommand</code></pre>
+    <pre><code class="lang-csharp hljs">public class JsonInsert&lt;T&gt; : TableCommand&lt;T&gt;, ITableCommand</code></pre>
   </div>
   <h5 class="typeParameters">Type Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -151,16 +157,16 @@
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.PostgreSql/JsonInsert.cs&amp;version=GBmaster&amp;line=66">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.PostgreSql/JsonInsert.cs&amp;version=GBmaster&amp;line=76">View Source</a>
   </span>
   <a id="Startitecture_Orm_PostgreSql_JsonInsert_1__ctor_" data-uid="Startitecture.Orm.PostgreSql.JsonInsert`1.#ctor*"></a>
-  <h4 id="Startitecture_Orm_PostgreSql_JsonInsert_1__ctor_Startitecture_Orm_Common_IStructuredCommandProvider_" data-uid="Startitecture.Orm.PostgreSql.JsonInsert`1.#ctor(Startitecture.Orm.Common.IStructuredCommandProvider)">JsonInsert(IStructuredCommandProvider)</h4>
+  <h4 id="Startitecture_Orm_PostgreSql_JsonInsert_1__ctor_Startitecture_Orm_Common_ITableCommandProvider_" data-uid="Startitecture.Orm.PostgreSql.JsonInsert`1.#ctor(Startitecture.Orm.Common.ITableCommandProvider)">JsonInsert(ITableCommandProvider)</h4>
   <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="Startitecture.Orm.PostgreSql.JsonInsert-1.html">JsonInsert&lt;T&gt;</a> class.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public JsonInsert([NotNull] IStructuredCommandProvider structuredCommandProvider)</code></pre>
+    <pre><code class="lang-csharp hljs">public JsonInsert([NotNull] ITableCommandProvider tableCommandProvider)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -173,8 +179,8 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Startitecture.Orm.Common.IStructuredCommandProvider.html">IStructuredCommandProvider</a></td>
-        <td><span class="parametername">structuredCommandProvider</span></td>
+        <td><a class="xref" href="Startitecture.Orm.Common.ITableCommandProvider.html">ITableCommandProvider</a></td>
+        <td><span class="parametername">tableCommandProvider</span></td>
         <td><p>The structured command provider.</p>
 </td>
       </tr>
@@ -182,16 +188,16 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.PostgreSql/JsonInsert.cs&amp;version=GBmaster&amp;line=82">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.PostgreSql/JsonInsert.cs&amp;version=GBmaster&amp;line=92">View Source</a>
   </span>
   <a id="Startitecture_Orm_PostgreSql_JsonInsert_1__ctor_" data-uid="Startitecture.Orm.PostgreSql.JsonInsert`1.#ctor*"></a>
-  <h4 id="Startitecture_Orm_PostgreSql_JsonInsert_1__ctor_Startitecture_Orm_Common_IStructuredCommandProvider_System_Data_IDbTransaction_" data-uid="Startitecture.Orm.PostgreSql.JsonInsert`1.#ctor(Startitecture.Orm.Common.IStructuredCommandProvider,System.Data.IDbTransaction)">JsonInsert(IStructuredCommandProvider, IDbTransaction)</h4>
+  <h4 id="Startitecture_Orm_PostgreSql_JsonInsert_1__ctor_Startitecture_Orm_Common_ITableCommandProvider_System_Data_IDbTransaction_" data-uid="Startitecture.Orm.PostgreSql.JsonInsert`1.#ctor(Startitecture.Orm.Common.ITableCommandProvider,System.Data.IDbTransaction)">JsonInsert(ITableCommandProvider, IDbTransaction)</h4>
   <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="Startitecture.Orm.PostgreSql.JsonInsert-1.html">JsonInsert&lt;T&gt;</a> class.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public JsonInsert([NotNull] IStructuredCommandProvider structuredCommandProvider, IDbTransaction databaseTransaction)</code></pre>
+    <pre><code class="lang-csharp hljs">public JsonInsert([NotNull] ITableCommandProvider tableCommandProvider, IDbTransaction databaseTransaction)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -204,8 +210,8 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Startitecture.Orm.Common.IStructuredCommandProvider.html">IStructuredCommandProvider</a></td>
-        <td><span class="parametername">structuredCommandProvider</span></td>
+        <td><a class="xref" href="Startitecture.Orm.Common.ITableCommandProvider.html">ITableCommandProvider</a></td>
+        <td><span class="parametername">tableCommandProvider</span></td>
         <td><p>The structured command provider.</p>
 </td>
       </tr>
@@ -221,7 +227,7 @@
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.PostgreSql/JsonInsert.cs&amp;version=GBmaster&amp;line=93">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.PostgreSql/JsonInsert.cs&amp;version=GBmaster&amp;line=100">View Source</a>
   </span>
   <a id="Startitecture_Orm_PostgreSql_JsonInsert_1_CommandText_" data-uid="Startitecture.Orm.PostgreSql.JsonInsert`1.CommandText*"></a>
   <h4 id="Startitecture_Orm_PostgreSql_JsonInsert_1_CommandText" data-uid="Startitecture.Orm.PostgreSql.JsonInsert`1.CommandText">CommandText</h4>
@@ -248,51 +254,21 @@
     </tbody>
   </table>
   <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">Startitecture.Orm.Mapper.StructuredCommand&lt;T&gt;.CommandText</span></div>
-  
-  <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.PostgreSql/JsonInsert.cs&amp;version=GBmaster&amp;line=90">View Source</a>
-  </span>
-  <a id="Startitecture_Orm_PostgreSql_JsonInsert_1_StructureTypeName_" data-uid="Startitecture.Orm.PostgreSql.JsonInsert`1.StructureTypeName*"></a>
-  <h4 id="Startitecture_Orm_PostgreSql_JsonInsert_1_StructureTypeName" data-uid="Startitecture.Orm.PostgreSql.JsonInsert`1.StructureTypeName">StructureTypeName</h4>
-  <div class="markdown level1 summary"><p>Gets the structure type name.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override string StructureTypeName { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">Startitecture.Orm.Mapper.StructuredCommand&lt;T&gt;.StructureTypeName</span></div>
+  <div><span class="xref">Startitecture.Orm.Mapper.TableCommand&lt;T&gt;.CommandText</span></div>
   <h3 id="methods">Methods
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.PostgreSql/JsonInsert.cs&amp;version=GBmaster&amp;line=139">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.PostgreSql/JsonInsert.cs&amp;version=GBmaster&amp;line=133">View Source</a>
   </span>
   <a id="Startitecture_Orm_PostgreSql_JsonInsert_1_From_" data-uid="Startitecture.Orm.PostgreSql.JsonInsert`1.From*"></a>
-  <h4 id="Startitecture_Orm_PostgreSql_JsonInsert_1_From_System_Linq_Expressions_Expression_System_Func__0_System_Object_____" data-uid="Startitecture.Orm.PostgreSql.JsonInsert`1.From(System.Linq.Expressions.Expression{System.Func{`0,System.Object}}[])">From(Expression&lt;Func&lt;T, Object&gt;&gt;[])</h4>
+  <h4 id="Startitecture_Orm_PostgreSql_JsonInsert_1_From__1_System_Linq_Expressions_Expression_System_Func___0_System_Object_____" data-uid="Startitecture.Orm.PostgreSql.JsonInsert`1.From``1(System.Linq.Expressions.Expression{System.Func{``0,System.Object}}[])">From&lt;TItem&gt;(Expression&lt;Func&lt;TItem, Object&gt;&gt;[])</h4>
   <div class="markdown level1 summary"><p>Specifies the columns to select into the table.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public JsonInsert&lt;T&gt; From([NotNull] params Expression&lt;Func&lt;T, object&gt;&gt;[] fromColumns)</code></pre>
+    <pre><code class="lang-csharp hljs">public JsonInsert&lt;T&gt; From&lt;TItem&gt;([NotNull] params Expression&lt;Func&lt;TItem, object&gt;&gt;[] fromColumns)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -305,78 +281,9 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Linq.Expressions.Expression</span>&lt;<span class="xref">System.Func</span>&lt;T, <span class="xref">System.Object</span>&gt;&gt;[]</td>
+        <td><span class="xref">System.Linq.Expressions.Expression</span>&lt;<span class="xref">System.Func</span>&lt;TItem, <span class="xref">System.Object</span>&gt;&gt;[]</td>
         <td><span class="parametername">fromColumns</span></td>
         <td><p>The columns to select into the table. These must be the same number of columns as target columns..</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Startitecture.Orm.PostgreSql.JsonInsert-1.html">JsonInsert</a>&lt;T&gt;</td>
-        <td><p>The current <a class="xref" href="Startitecture.Orm.PostgreSql.JsonInsert-1.html">JsonInsert&lt;T&gt;</a>.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="exceptions">Exceptions</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Condition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.ArgumentNullException</span></td>
-        <td><p><code data-dev-comment-type="paramref" class="paramref">fromColumns</code> is null.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.PostgreSql/JsonInsert.cs&amp;version=GBmaster&amp;line=110">View Source</a>
-  </span>
-  <a id="Startitecture_Orm_PostgreSql_JsonInsert_1_InsertInto_" data-uid="Startitecture.Orm.PostgreSql.JsonInsert`1.InsertInto*"></a>
-  <h4 id="Startitecture_Orm_PostgreSql_JsonInsert_1_InsertInto__1_System_Collections_Generic_IEnumerable__0__System_Linq_Expressions_Expression_System_Func___0_System_Object_____" data-uid="Startitecture.Orm.PostgreSql.JsonInsert`1.InsertInto``1(System.Collections.Generic.IEnumerable{`0},System.Linq.Expressions.Expression{System.Func{``0,System.Object}}[])">InsertInto&lt;TEntity&gt;(IEnumerable&lt;T&gt;, Expression&lt;Func&lt;TEntity, Object&gt;&gt;[])</h4>
-  <div class="markdown level1 summary"><p>Declares the table to insert into.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public JsonInsert&lt;T&gt; InsertInto&lt;TEntity&gt;([NotNull] IEnumerable&lt;T&gt; insertItems, params Expression&lt;Func&lt;TEntity, object&gt;&gt;[] targetColumns)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;T&gt;</td>
-        <td><span class="parametername">insertItems</span></td>
-        <td><p>The entities to insert.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Linq.Expressions.Expression</span>&lt;<span class="xref">System.Func</span>&lt;TEntity, <span class="xref">System.Object</span>&gt;&gt;[]</td>
-        <td><span class="parametername">targetColumns</span></td>
-        <td><p>The target columns of the insert table.</p>
 </td>
       </tr>
     </tbody>
@@ -407,24 +314,163 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="parametername">TEntity</span></td>
-        <td><p>The type of entity to insert the table into.</p>
+        <td><span class="parametername">TItem</span></td>
+        <td><p>The type of items to insert into the table.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">fromColumns</code> is null.</p>
 </td>
       </tr>
     </tbody>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.PostgreSql/JsonInsert.cs&amp;version=GBmaster&amp;line=160">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.PostgreSql/JsonInsert.cs&amp;version=GBmaster&amp;line=111">View Source</a>
   </span>
-  <a id="Startitecture_Orm_PostgreSql_JsonInsert_1_SelectResults_" data-uid="Startitecture.Orm.PostgreSql.JsonInsert`1.SelectResults*"></a>
-  <h4 id="Startitecture_Orm_PostgreSql_JsonInsert_1_SelectResults_System_Linq_Expressions_Expression_System_Func__0_System_Object_____" data-uid="Startitecture.Orm.PostgreSql.JsonInsert`1.SelectResults(System.Linq.Expressions.Expression{System.Func{`0,System.Object}}[])">SelectResults(Expression&lt;Func&lt;T, Object&gt;&gt;[])</h4>
+  <a id="Startitecture_Orm_PostgreSql_JsonInsert_1_InsertInto_" data-uid="Startitecture.Orm.PostgreSql.JsonInsert`1.InsertInto*"></a>
+  <h4 id="Startitecture_Orm_PostgreSql_JsonInsert_1_InsertInto_System_Linq_Expressions_Expression_System_Func__0_System_Object_____" data-uid="Startitecture.Orm.PostgreSql.JsonInsert`1.InsertInto(System.Linq.Expressions.Expression{System.Func{`0,System.Object}}[])">InsertInto(Expression&lt;Func&lt;T, Object&gt;&gt;[])</h4>
+  <div class="markdown level1 summary"><p>Declares the table to insert into.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public JsonInsert&lt;T&gt; InsertInto(params Expression&lt;Func&lt;T, object&gt;&gt;[] targetColumns)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Linq.Expressions.Expression</span>&lt;<span class="xref">System.Func</span>&lt;T, <span class="xref">System.Object</span>&gt;&gt;[]</td>
+        <td><span class="parametername">targetColumns</span></td>
+        <td><p>The target columns of the insert table.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.PostgreSql.JsonInsert-1.html">JsonInsert</a>&lt;T&gt;</td>
+        <td><p>The current <a class="xref" href="Startitecture.Orm.PostgreSql.JsonInsert-1.html">JsonInsert&lt;T&gt;</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.PostgreSql/JsonInsert.cs&amp;version=GBmaster&amp;line=151">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_PostgreSql_JsonInsert_1_OnConflictDoNothing_" data-uid="Startitecture.Orm.PostgreSql.JsonInsert`1.OnConflictDoNothing*"></a>
+  <h4 id="Startitecture_Orm_PostgreSql_JsonInsert_1_OnConflictDoNothing" data-uid="Startitecture.Orm.PostgreSql.JsonInsert`1.OnConflictDoNothing">OnConflictDoNothing()</h4>
+  <div class="markdown level1 summary"><p>Specifies that on a constraint violation, the row will not be inserted and no error will be raised.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public JsonInsert&lt;T&gt; OnConflictDoNothing()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.PostgreSql.JsonInsert-1.html">JsonInsert</a>&lt;T&gt;</td>
+        <td><p>The current <a class="xref" href="Startitecture.Orm.PostgreSql.JsonInsert-1.html">JsonInsert&lt;T&gt;</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.PostgreSql/JsonInsert.cs&amp;version=GBmaster&amp;line=166">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_PostgreSql_JsonInsert_1_OnConflictDoUpdate_" data-uid="Startitecture.Orm.PostgreSql.JsonInsert`1.OnConflictDoUpdate*"></a>
+  <h4 id="Startitecture_Orm_PostgreSql_JsonInsert_1_OnConflictDoUpdate_System_Linq_Expressions_Expression_System_Func__0_System_Object_____" data-uid="Startitecture.Orm.PostgreSql.JsonInsert`1.OnConflictDoUpdate(System.Linq.Expressions.Expression{System.Func{`0,System.Object}}[])">OnConflictDoUpdate(Expression&lt;Func&lt;T, Object&gt;&gt;[])</h4>
+  <div class="markdown level1 summary"><p>Specify the attributes</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public JsonInsert&lt;T&gt; OnConflictDoUpdate([NotNull] params Expression&lt;Func&lt;T, object&gt;&gt;[] constraintHintAttributes)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Linq.Expressions.Expression</span>&lt;<span class="xref">System.Func</span>&lt;T, <span class="xref">System.Object</span>&gt;&gt;[]</td>
+        <td><span class="parametername">constraintHintAttributes</span></td>
+        <td><p>The constraint hint attributes.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.PostgreSql.JsonInsert-1.html">JsonInsert</a>&lt;T&gt;</td>
+        <td><p>The current <a class="xref" href="Startitecture.Orm.PostgreSql.JsonInsert-1.html">JsonInsert&lt;T&gt;</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.PostgreSql/JsonInsert.cs&amp;version=GBmaster&amp;line=214">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_PostgreSql_JsonInsert_1_Returning_" data-uid="Startitecture.Orm.PostgreSql.JsonInsert`1.Returning*"></a>
+  <h4 id="Startitecture_Orm_PostgreSql_JsonInsert_1_Returning_System_Linq_Expressions_Expression_System_Func__0_System_Object_____" data-uid="Startitecture.Orm.PostgreSql.JsonInsert`1.Returning(System.Linq.Expressions.Expression{System.Func{`0,System.Object}}[])">Returning(Expression&lt;Func&lt;T, Object&gt;&gt;[])</h4>
   <div class="markdown level1 summary"><p>Select the results of the insert, using the specified match keys to link the inserted values with the original values.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public JsonInsert&lt;T&gt; SelectResults(params Expression&lt;Func&lt;T, object&gt;&gt;[] matchProperties)</code></pre>
+    <pre><code class="lang-csharp hljs">public JsonInsert&lt;T&gt; Returning(params Expression&lt;Func&lt;T, object&gt;&gt;[] matchProperties)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -460,9 +506,73 @@
       </tr>
     </tbody>
   </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.PostgreSql/JsonInsert.cs&amp;version=GBmaster&amp;line=192">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_PostgreSql_JsonInsert_1_Upsert_" data-uid="Startitecture.Orm.PostgreSql.JsonInsert`1.Upsert*"></a>
+  <h4 id="Startitecture_Orm_PostgreSql_JsonInsert_1_Upsert_System_Linq_Expressions_Expression_System_Func__0_System_Object_____" data-uid="Startitecture.Orm.PostgreSql.JsonInsert`1.Upsert(System.Linq.Expressions.Expression{System.Func{`0,System.Object}}[])">Upsert(Expression&lt;Func&lt;T, Object&gt;&gt;[])</h4>
+  <div class="markdown level1 summary"><p>Defines the source attributes to upsert from. These should be in the same order as non-database generated
+columns in the target table.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public JsonInsert&lt;T&gt; Upsert([NotNull] params Expression&lt;Func&lt;T, object&gt;&gt;[] targetColumns)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Linq.Expressions.Expression</span>&lt;<span class="xref">System.Func</span>&lt;T, <span class="xref">System.Object</span>&gt;&gt;[]</td>
+        <td><span class="parametername">targetColumns</span></td>
+        <td><p>The update source attributes.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.PostgreSql.JsonInsert-1.html">JsonInsert</a>&lt;T&gt;</td>
+        <td><p>The current <a class="xref" href="Startitecture.Orm.PostgreSql.JsonInsert-1.html">JsonInsert&lt;T&gt;</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">targetColumns</code> is null.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="implements">Implements</h3>
   <div>
-      <a class="xref" href="Startitecture.Orm.Common.IStructuredCommand.html">IStructuredCommand</a>
+      <a class="xref" href="Startitecture.Orm.Common.ITableCommand.html">ITableCommand</a>
   </div>
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>

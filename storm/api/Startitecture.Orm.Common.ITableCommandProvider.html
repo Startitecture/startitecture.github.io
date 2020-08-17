@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class JsonCommandProvider
+    <title>Interface ITableCommandProvider
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class JsonCommandProvider
+    <meta name="title" content="Interface ITableCommandProvider
    ">
     <meta name="generator" content="docfx 2.56.2.0">
     
@@ -68,100 +68,34 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Startitecture.Orm.PostgreSql.JsonCommandProvider">
+            <article class="content wrap" id="_content" data-uid="Startitecture.Orm.Common.ITableCommandProvider">
   
   
-  <h1 id="Startitecture_Orm_PostgreSql_JsonCommandProvider" data-uid="Startitecture.Orm.PostgreSql.JsonCommandProvider" class="text-break">Class JsonCommandProvider
+  <h1 id="Startitecture_Orm_Common_ITableCommandProvider" data-uid="Startitecture.Orm.Common.ITableCommandProvider" class="text-break">Interface ITableCommandProvider
   </h1>
-  <div class="markdown level0 summary"><p>The json command provider.</p>
+  <div class="markdown level0 summary"><p>An interface for a table command provider, which abstracts the underlying database from the command.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
-  <div class="inheritance">
-    <h5>Inheritance</h5>
-    <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">JsonCommandProvider</span></div>
-  </div>
-  <div classs="implements">
-    <h5>Implements</h5>
-    <div><a class="xref" href="Startitecture.Orm.Common.ITableCommandProvider.html">ITableCommandProvider</a></div>
-  </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetHashCode()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetType()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.MemberwiseClone()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ToString()</span>
-    </div>
-  </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Startitecture.Orm.PostgreSql.html">Startitecture.Orm.PostgreSql</a></h6>
-  <h6><strong>Assembly</strong>: Startitecture.Orm.PostgreSql.dll</h6>
-  <h5 id="Startitecture_Orm_PostgreSql_JsonCommandProvider_syntax">Syntax</h5>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Startitecture.Orm.Common.html">Startitecture.Orm.Common</a></h6>
+  <h6><strong>Assembly</strong>: Startitecture.Orm.Common.dll</h6>
+  <h5 id="Startitecture_Orm_Common_ITableCommandProvider_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class JsonCommandProvider : ITableCommandProvider</code></pre>
+    <pre><code class="lang-csharp hljs">public interface ITableCommandProvider</code></pre>
   </div>
-  <h3 id="constructors">Constructors
-  </h3>
-  
-  <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.PostgreSql/JsonCommandProvider.cs&amp;version=GBmaster&amp;line=33">View Source</a>
-  </span>
-  <a id="Startitecture_Orm_PostgreSql_JsonCommandProvider__ctor_" data-uid="Startitecture.Orm.PostgreSql.JsonCommandProvider.#ctor*"></a>
-  <h4 id="Startitecture_Orm_PostgreSql_JsonCommandProvider__ctor_Startitecture_Orm_Common_IDatabaseContext_" data-uid="Startitecture.Orm.PostgreSql.JsonCommandProvider.#ctor(Startitecture.Orm.Common.IDatabaseContext)">JsonCommandProvider(IDatabaseContext)</h4>
-  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="Startitecture.Orm.PostgreSql.JsonCommandProvider.html">JsonCommandProvider</a> class.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public JsonCommandProvider([NotNull] IDatabaseContext databaseContext)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Startitecture.Orm.Common.IDatabaseContext.html">IDatabaseContext</a></td>
-        <td><span class="parametername">databaseContext</span></td>
-        <td><p>The database context.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
   <h3 id="properties">Properties
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.PostgreSql/JsonCommandProvider.cs&amp;version=GBmaster&amp;line=39">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/ITableCommandProvider.cs&amp;version=GBmaster&amp;line=25">View Source</a>
   </span>
-  <a id="Startitecture_Orm_PostgreSql_JsonCommandProvider_DatabaseContext_" data-uid="Startitecture.Orm.PostgreSql.JsonCommandProvider.DatabaseContext*"></a>
-  <h4 id="Startitecture_Orm_PostgreSql_JsonCommandProvider_DatabaseContext" data-uid="Startitecture.Orm.PostgreSql.JsonCommandProvider.DatabaseContext">DatabaseContext</h4>
+  <a id="Startitecture_Orm_Common_ITableCommandProvider_DatabaseContext_" data-uid="Startitecture.Orm.Common.ITableCommandProvider.DatabaseContext*"></a>
+  <h4 id="Startitecture_Orm_Common_ITableCommandProvider_DatabaseContext" data-uid="Startitecture.Orm.Common.ITableCommandProvider.DatabaseContext">DatabaseContext</h4>
   <div class="markdown level1 summary"><p>Gets the database context for the table command.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IDatabaseContext DatabaseContext { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">IDatabaseContext DatabaseContext { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -182,16 +116,16 @@
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.PostgreSql/JsonCommandProvider.cs&amp;version=GBmaster&amp;line=42">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/ITableCommandProvider.cs&amp;version=GBmaster&amp;line=45">View Source</a>
   </span>
-  <a id="Startitecture_Orm_PostgreSql_JsonCommandProvider_CreateCommand_" data-uid="Startitecture.Orm.PostgreSql.JsonCommandProvider.CreateCommand*"></a>
-  <h4 id="Startitecture_Orm_PostgreSql_JsonCommandProvider_CreateCommand__1_Startitecture_Orm_Common_ITableCommand_System_Collections_Generic_IEnumerable___0__System_Data_IDbTransaction_" data-uid="Startitecture.Orm.PostgreSql.JsonCommandProvider.CreateCommand``1(Startitecture.Orm.Common.ITableCommand,System.Collections.Generic.IEnumerable{``0},System.Data.IDbTransaction)">CreateCommand&lt;T&gt;(ITableCommand, IEnumerable&lt;T&gt;, IDbTransaction)</h4>
+  <a id="Startitecture_Orm_Common_ITableCommandProvider_CreateCommand_" data-uid="Startitecture.Orm.Common.ITableCommandProvider.CreateCommand*"></a>
+  <h4 id="Startitecture_Orm_Common_ITableCommandProvider_CreateCommand__1_Startitecture_Orm_Common_ITableCommand_System_Collections_Generic_IEnumerable___0__System_Data_IDbTransaction_" data-uid="Startitecture.Orm.Common.ITableCommandProvider.CreateCommand``1(Startitecture.Orm.Common.ITableCommand,System.Collections.Generic.IEnumerable{``0},System.Data.IDbTransaction)">CreateCommand&lt;T&gt;(ITableCommand, IEnumerable&lt;T&gt;, IDbTransaction)</h4>
   <div class="markdown level1 summary"><p>Creates an <span class="xref">System.Data.IDbCommand</span> for the specified <code data-dev-comment-type="paramref" class="paramref">tableCommand</code>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IDbCommand CreateCommand&lt;T&gt;(ITableCommand tableCommand, IEnumerable&lt;T&gt; items, IDbTransaction transaction)</code></pre>
+    <pre><code class="lang-csharp hljs">IDbCommand CreateCommand&lt;T&gt;([NotNull] ITableCommand tableCommand, [NotNull] IEnumerable&lt;T&gt; items, IDbTransaction transaction)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -255,10 +189,6 @@
       </tr>
     </tbody>
   </table>
-  <h3 id="implements">Implements</h3>
-  <div>
-      <a class="xref" href="Startitecture.Orm.Common.ITableCommandProvider.html">ITableCommandProvider</a>
-  </div>
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>
       <a class="xref" href="Startitecture.Orm.Testing.Moq.ExtensionMethods.html#Startitecture_Orm_Testing_Moq_ExtensionMethods_MockDataReader__1___0_System_Collections_Generic_IEnumerable_Startitecture_Orm_Model_EntityAttributeDefinition__">ExtensionMethods.MockDataReader&lt;T&gt;(T, IEnumerable&lt;EntityAttributeDefinition&gt;)</a>
@@ -271,7 +201,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.PostgreSql/JsonCommandProvider.cs&amp;version=GBmaster&amp;line=25" class="contribution-link">View Source</a>
+                    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/ITableCommandProvider.cs&amp;version=GBmaster&amp;line=20" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Namespace Startitecture.Orm.Mapper
+    <title>Enum InsertConflictAction
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Namespace Startitecture.Orm.Mapper
+    <meta name="title" content="Enum InsertConflictAction
    ">
     <meta name="generator" content="docfx 2.56.2.0">
     
@@ -68,39 +68,51 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Startitecture.Orm.Mapper">
+            <article class="content wrap" id="_content" data-uid="Startitecture.Orm.PostgreSql.InsertConflictAction">
   
-  <h1 id="Startitecture_Orm_Mapper" data-uid="Startitecture.Orm.Mapper" class="text-break">Namespace Startitecture.Orm.Mapper
+  
+  <h1 id="Startitecture_Orm_PostgreSql_InsertConflictAction" data-uid="Startitecture.Orm.PostgreSql.InsertConflictAction" class="text-break">Enum InsertConflictAction
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>An enumeration of actions to take when an INSERT operation causes a constraint violation.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
-  <div class="markdown level0 remarks"></div>
-    <h3 id="classes">Classes
+  <h6><strong>Namespace</strong>: <a class="xref" href="Startitecture.Orm.PostgreSql.html">Startitecture.Orm.PostgreSql</a></h6>
+  <h6><strong>Assembly</strong>: Startitecture.Orm.PostgreSql.dll</h6>
+  <h5 id="Startitecture_Orm_PostgreSql_InsertConflictAction_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public enum InsertConflictAction</code></pre>
+  </div>
+  <h3 id="fields">Fields
   </h3>
-      <h4><a class="xref" href="Startitecture.Orm.Mapper.DatabaseContext.html">DatabaseContext</a></h4>
-      <section><p>Exposes a minimal database context to a repository provider.</p>
-</section>
-      <h4><a class="xref" href="Startitecture.Orm.Mapper.DefaultDatabaseContextFactory.html">DefaultDatabaseContextFactory</a></h4>
-      <section><p>The default database factory.</p>
-</section>
-      <h4><a class="xref" href="Startitecture.Orm.Mapper.ExtensionMethods.html">ExtensionMethods</a></h4>
-      <section><p>The extension methods.</p>
-</section>
-      <h4><a class="xref" href="Startitecture.Orm.Mapper.FlatPocoFactory.html">FlatPocoFactory</a></h4>
-      <section><p>Creates flattened POCOs for POCO data requests.</p>
-</section>
-      <h4><a class="xref" href="Startitecture.Orm.Mapper.PocoDataRequest.html">PocoDataRequest</a></h4>
-      <section><p>Defines a POCO data request for a POCO factory. The hash code is unique to the entity and columns by order.</p>
-</section>
-      <h4><a class="xref" href="Startitecture.Orm.Mapper.PocoDelegateInfo.html">PocoDelegateInfo</a></h4>
-      <section><p>CContains metadata for a POCO delegate.</p>
-</section>
-      <h4><a class="xref" href="Startitecture.Orm.Mapper.RaisedPocoFactory.html">RaisedPocoFactory</a></h4>
-      <section><p>Creates POCOs with raised related entity POCOs for POCO data requests.</p>
-</section>
-      <h4><a class="xref" href="Startitecture.Orm.Mapper.TableCommand-1.html">TableCommand&lt;T&gt;</a></h4>
-      <section><p>Base class for SQL table commands.</p>
-</section>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    <thead>
+    <tbody>
+      <tr>
+        <td id="Startitecture_Orm_PostgreSql_InsertConflictAction_DoNothing">DoNothing</td>
+        <td><p>Does nothing for the affected row (skip insert).</p>
+</td>
+      </tr>
+      <tr>
+        <td id="Startitecture_Orm_PostgreSql_InsertConflictAction_RaiseConstraintViolation">RaiseConstraintViolation</td>
+        <td><p>Allows the constraint violation to be raised.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="Startitecture_Orm_PostgreSql_InsertConflictAction_Update">Update</td>
+        <td><p>Updates the row with the source row.</p>
+</td>
+      </tr>
+    </tbody>
+  </thead></thead></table>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="Startitecture.Orm.Testing.Moq.ExtensionMethods.html#Startitecture_Orm_Testing_Moq_ExtensionMethods_MockDataReader__1___0_System_Collections_Generic_IEnumerable_Startitecture_Orm_Model_EntityAttributeDefinition__">ExtensionMethods.MockDataReader&lt;InsertConflictAction&gt;(IEnumerable&lt;EntityAttributeDefinition&gt;)</a>
+  </div>
 </article>
           </div>
           
@@ -108,6 +120,9 @@
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
+                  <li>
+                    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.PostgreSql/InsertConflictAction.cs&amp;version=GBmaster&amp;line=15" class="contribution-link">View Source</a>
+                  </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
