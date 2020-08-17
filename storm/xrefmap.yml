@@ -4867,12 +4867,6 @@ references:
   isSpec: "True"
   fullName: Startitecture.Orm.Model.EntityAttributeDefinition.CompareTo
   nameWithType: EntityAttributeDefinition.CompareTo
-- uid: Startitecture.Orm.Model.EntityAttributeDefinition.Empty
-  name: Empty
-  href: api/Startitecture.Orm.Model.EntityAttributeDefinition.html#Startitecture_Orm_Model_EntityAttributeDefinition_Empty
-  commentId: F:Startitecture.Orm.Model.EntityAttributeDefinition.Empty
-  fullName: Startitecture.Orm.Model.EntityAttributeDefinition.Empty
-  nameWithType: EntityAttributeDefinition.Empty
 - uid: Startitecture.Orm.Model.EntityAttributeDefinition.Entity
   name: Entity
   href: api/Startitecture.Orm.Model.EntityAttributeDefinition.html#Startitecture_Orm_Model_EntityAttributeDefinition_Entity
@@ -4957,6 +4951,19 @@ references:
   isSpec: "True"
   fullName: Startitecture.Orm.Model.EntityAttributeDefinition.GetValueMethod
   nameWithType: EntityAttributeDefinition.GetValueMethod
+- uid: Startitecture.Orm.Model.EntityAttributeDefinition.IsComputed
+  name: IsComputed
+  href: api/Startitecture.Orm.Model.EntityAttributeDefinition.html#Startitecture_Orm_Model_EntityAttributeDefinition_IsComputed
+  commentId: P:Startitecture.Orm.Model.EntityAttributeDefinition.IsComputed
+  fullName: Startitecture.Orm.Model.EntityAttributeDefinition.IsComputed
+  nameWithType: EntityAttributeDefinition.IsComputed
+- uid: Startitecture.Orm.Model.EntityAttributeDefinition.IsComputed*
+  name: IsComputed
+  href: api/Startitecture.Orm.Model.EntityAttributeDefinition.html#Startitecture_Orm_Model_EntityAttributeDefinition_IsComputed_
+  commentId: Overload:Startitecture.Orm.Model.EntityAttributeDefinition.IsComputed
+  isSpec: "True"
+  fullName: Startitecture.Orm.Model.EntityAttributeDefinition.IsComputed
+  nameWithType: EntityAttributeDefinition.IsComputed
 - uid: Startitecture.Orm.Model.EntityAttributeDefinition.IsDirect
   name: IsDirect
   href: api/Startitecture.Orm.Model.EntityAttributeDefinition.html#Startitecture_Orm_Model_EntityAttributeDefinition_IsDirect
@@ -5210,6 +5217,12 @@ references:
   commentId: T:Startitecture.Orm.Model.EntityAttributeTypes
   fullName: Startitecture.Orm.Model.EntityAttributeTypes
   nameWithType: EntityAttributeTypes
+- uid: Startitecture.Orm.Model.EntityAttributeTypes.Computed
+  name: Computed
+  href: api/Startitecture.Orm.Model.EntityAttributeTypes.html#Startitecture_Orm_Model_EntityAttributeTypes_Computed
+  commentId: F:Startitecture.Orm.Model.EntityAttributeTypes.Computed
+  fullName: Startitecture.Orm.Model.EntityAttributeTypes.Computed
+  nameWithType: EntityAttributeTypes.Computed
 - uid: Startitecture.Orm.Model.EntityAttributeTypes.DirectAttribute
   name: DirectAttribute
   href: api/Startitecture.Orm.Model.EntityAttributeTypes.html#Startitecture_Orm_Model_EntityAttributeTypes_DirectAttribute
@@ -10126,19 +10139,19 @@ references:
   commentId: T:Startitecture.Orm.Schema.DataAnnotationsDefinitionProvider
   fullName: Startitecture.Orm.Schema.DataAnnotationsDefinitionProvider
   nameWithType: DataAnnotationsDefinitionProvider
-- uid: Startitecture.Orm.Schema.DataAnnotationsDefinitionProvider.GetAttributes(System.Type)
-  name: GetAttributes(Type)
-  href: api/Startitecture.Orm.Schema.DataAnnotationsDefinitionProvider.html#Startitecture_Orm_Schema_DataAnnotationsDefinitionProvider_GetAttributes_System_Type_
-  commentId: M:Startitecture.Orm.Schema.DataAnnotationsDefinitionProvider.GetAttributes(System.Type)
-  fullName: Startitecture.Orm.Schema.DataAnnotationsDefinitionProvider.GetAttributes(System.Type)
-  nameWithType: DataAnnotationsDefinitionProvider.GetAttributes(Type)
-- uid: Startitecture.Orm.Schema.DataAnnotationsDefinitionProvider.GetAttributes*
-  name: GetAttributes
-  href: api/Startitecture.Orm.Schema.DataAnnotationsDefinitionProvider.html#Startitecture_Orm_Schema_DataAnnotationsDefinitionProvider_GetAttributes_
-  commentId: Overload:Startitecture.Orm.Schema.DataAnnotationsDefinitionProvider.GetAttributes
+- uid: Startitecture.Orm.Schema.DataAnnotationsDefinitionProvider.GetAttributeReferences(System.Type)
+  name: GetAttributeReferences(Type)
+  href: api/Startitecture.Orm.Schema.DataAnnotationsDefinitionProvider.html#Startitecture_Orm_Schema_DataAnnotationsDefinitionProvider_GetAttributeReferences_System_Type_
+  commentId: M:Startitecture.Orm.Schema.DataAnnotationsDefinitionProvider.GetAttributeReferences(System.Type)
+  fullName: Startitecture.Orm.Schema.DataAnnotationsDefinitionProvider.GetAttributeReferences(System.Type)
+  nameWithType: DataAnnotationsDefinitionProvider.GetAttributeReferences(Type)
+- uid: Startitecture.Orm.Schema.DataAnnotationsDefinitionProvider.GetAttributeReferences*
+  name: GetAttributeReferences
+  href: api/Startitecture.Orm.Schema.DataAnnotationsDefinitionProvider.html#Startitecture_Orm_Schema_DataAnnotationsDefinitionProvider_GetAttributeReferences_
+  commentId: Overload:Startitecture.Orm.Schema.DataAnnotationsDefinitionProvider.GetAttributeReferences
   isSpec: "True"
-  fullName: Startitecture.Orm.Schema.DataAnnotationsDefinitionProvider.GetAttributes
-  nameWithType: DataAnnotationsDefinitionProvider.GetAttributes
+  fullName: Startitecture.Orm.Schema.DataAnnotationsDefinitionProvider.GetAttributeReferences
+  nameWithType: DataAnnotationsDefinitionProvider.GetAttributeReferences
 - uid: Startitecture.Orm.Schema.DataAnnotationsDefinitionProvider.GetDirectPropertyInfos(System.Collections.Generic.IEnumerable{System.Reflection.PropertyInfo})
   name: GetDirectPropertyInfos(IEnumerable<PropertyInfo>)
   href: api/Startitecture.Orm.Schema.DataAnnotationsDefinitionProvider.html#Startitecture_Orm_Schema_DataAnnotationsDefinitionProvider_GetDirectPropertyInfos_System_Collections_Generic_IEnumerable_System_Reflection_PropertyInfo__
@@ -10258,6 +10271,19 @@ references:
   isSpec: "True"
   fullName: Startitecture.Orm.Schema.DataAnnotationsDefinitionProvider.GetRelationPropertyInfos
   nameWithType: DataAnnotationsDefinitionProvider.GetRelationPropertyInfos
+- uid: Startitecture.Orm.Schema.DataAnnotationsDefinitionProvider.IsComputed(System.Reflection.PropertyInfo)
+  name: IsComputed(PropertyInfo)
+  href: api/Startitecture.Orm.Schema.DataAnnotationsDefinitionProvider.html#Startitecture_Orm_Schema_DataAnnotationsDefinitionProvider_IsComputed_System_Reflection_PropertyInfo_
+  commentId: M:Startitecture.Orm.Schema.DataAnnotationsDefinitionProvider.IsComputed(System.Reflection.PropertyInfo)
+  fullName: Startitecture.Orm.Schema.DataAnnotationsDefinitionProvider.IsComputed(System.Reflection.PropertyInfo)
+  nameWithType: DataAnnotationsDefinitionProvider.IsComputed(PropertyInfo)
+- uid: Startitecture.Orm.Schema.DataAnnotationsDefinitionProvider.IsComputed*
+  name: IsComputed
+  href: api/Startitecture.Orm.Schema.DataAnnotationsDefinitionProvider.html#Startitecture_Orm_Schema_DataAnnotationsDefinitionProvider_IsComputed_
+  commentId: Overload:Startitecture.Orm.Schema.DataAnnotationsDefinitionProvider.IsComputed
+  isSpec: "True"
+  fullName: Startitecture.Orm.Schema.DataAnnotationsDefinitionProvider.IsComputed
+  nameWithType: DataAnnotationsDefinitionProvider.IsComputed
 - uid: Startitecture.Orm.Schema.DataAnnotationsDefinitionProvider.IsIdentity(System.Reflection.PropertyInfo)
   name: IsIdentity(PropertyInfo)
   href: api/Startitecture.Orm.Schema.DataAnnotationsDefinitionProvider.html#Startitecture_Orm_Schema_DataAnnotationsDefinitionProvider_IsIdentity_System_Reflection_PropertyInfo_
@@ -10290,19 +10316,19 @@ references:
   commentId: T:Startitecture.Orm.Schema.DefinitionProviderBase
   fullName: Startitecture.Orm.Schema.DefinitionProviderBase
   nameWithType: DefinitionProviderBase
-- uid: Startitecture.Orm.Schema.DefinitionProviderBase.GetAttributes(System.Type)
-  name: GetAttributes(Type)
-  href: api/Startitecture.Orm.Schema.DefinitionProviderBase.html#Startitecture_Orm_Schema_DefinitionProviderBase_GetAttributes_System_Type_
-  commentId: M:Startitecture.Orm.Schema.DefinitionProviderBase.GetAttributes(System.Type)
-  fullName: Startitecture.Orm.Schema.DefinitionProviderBase.GetAttributes(System.Type)
-  nameWithType: DefinitionProviderBase.GetAttributes(Type)
-- uid: Startitecture.Orm.Schema.DefinitionProviderBase.GetAttributes*
-  name: GetAttributes
-  href: api/Startitecture.Orm.Schema.DefinitionProviderBase.html#Startitecture_Orm_Schema_DefinitionProviderBase_GetAttributes_
-  commentId: Overload:Startitecture.Orm.Schema.DefinitionProviderBase.GetAttributes
+- uid: Startitecture.Orm.Schema.DefinitionProviderBase.GetAttributeReferences(System.Type)
+  name: GetAttributeReferences(Type)
+  href: api/Startitecture.Orm.Schema.DefinitionProviderBase.html#Startitecture_Orm_Schema_DefinitionProviderBase_GetAttributeReferences_System_Type_
+  commentId: M:Startitecture.Orm.Schema.DefinitionProviderBase.GetAttributeReferences(System.Type)
+  fullName: Startitecture.Orm.Schema.DefinitionProviderBase.GetAttributeReferences(System.Type)
+  nameWithType: DefinitionProviderBase.GetAttributeReferences(Type)
+- uid: Startitecture.Orm.Schema.DefinitionProviderBase.GetAttributeReferences*
+  name: GetAttributeReferences
+  href: api/Startitecture.Orm.Schema.DefinitionProviderBase.html#Startitecture_Orm_Schema_DefinitionProviderBase_GetAttributeReferences_
+  commentId: Overload:Startitecture.Orm.Schema.DefinitionProviderBase.GetAttributeReferences
   isSpec: "True"
-  fullName: Startitecture.Orm.Schema.DefinitionProviderBase.GetAttributes
-  nameWithType: DefinitionProviderBase.GetAttributes
+  fullName: Startitecture.Orm.Schema.DefinitionProviderBase.GetAttributeReferences
+  nameWithType: DefinitionProviderBase.GetAttributeReferences
 - uid: Startitecture.Orm.Schema.DefinitionProviderBase.GetDirectPropertyInfos(System.Collections.Generic.IEnumerable{System.Reflection.PropertyInfo})
   name: GetDirectPropertyInfos(IEnumerable<PropertyInfo>)
   href: api/Startitecture.Orm.Schema.DefinitionProviderBase.html#Startitecture_Orm_Schema_DefinitionProviderBase_GetDirectPropertyInfos_System_Collections_Generic_IEnumerable_System_Reflection_PropertyInfo__
@@ -10448,6 +10474,19 @@ references:
   isSpec: "True"
   fullName: Startitecture.Orm.Schema.DefinitionProviderBase.GetRelationPropertyInfos
   nameWithType: DefinitionProviderBase.GetRelationPropertyInfos
+- uid: Startitecture.Orm.Schema.DefinitionProviderBase.IsComputed(System.Reflection.PropertyInfo)
+  name: IsComputed(PropertyInfo)
+  href: api/Startitecture.Orm.Schema.DefinitionProviderBase.html#Startitecture_Orm_Schema_DefinitionProviderBase_IsComputed_System_Reflection_PropertyInfo_
+  commentId: M:Startitecture.Orm.Schema.DefinitionProviderBase.IsComputed(System.Reflection.PropertyInfo)
+  fullName: Startitecture.Orm.Schema.DefinitionProviderBase.IsComputed(System.Reflection.PropertyInfo)
+  nameWithType: DefinitionProviderBase.IsComputed(PropertyInfo)
+- uid: Startitecture.Orm.Schema.DefinitionProviderBase.IsComputed*
+  name: IsComputed
+  href: api/Startitecture.Orm.Schema.DefinitionProviderBase.html#Startitecture_Orm_Schema_DefinitionProviderBase_IsComputed_
+  commentId: Overload:Startitecture.Orm.Schema.DefinitionProviderBase.IsComputed
+  isSpec: "True"
+  fullName: Startitecture.Orm.Schema.DefinitionProviderBase.IsComputed
+  nameWithType: DefinitionProviderBase.IsComputed
 - uid: Startitecture.Orm.Schema.DefinitionProviderBase.IsIdentity(System.Reflection.PropertyInfo)
   name: IsIdentity(PropertyInfo)
   href: api/Startitecture.Orm.Schema.DefinitionProviderBase.html#Startitecture_Orm_Schema_DefinitionProviderBase_IsIdentity_System_Reflection_PropertyInfo_

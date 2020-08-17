@@ -122,14 +122,14 @@
   <span class="small pull-right mobile-hide">
     <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Schema/DefinitionProviderBase.cs&amp;version=GBmaster&amp;line=211">View Source</a>
   </span>
-  <a id="Startitecture_Orm_Schema_DefinitionProviderBase_GetAttributes_" data-uid="Startitecture.Orm.Schema.DefinitionProviderBase.GetAttributes*"></a>
-  <h4 id="Startitecture_Orm_Schema_DefinitionProviderBase_GetAttributes_System_Type_" data-uid="Startitecture.Orm.Schema.DefinitionProviderBase.GetAttributes(System.Type)">GetAttributes(Type)</h4>
+  <a id="Startitecture_Orm_Schema_DefinitionProviderBase_GetAttributeReferences_" data-uid="Startitecture.Orm.Schema.DefinitionProviderBase.GetAttributeReferences*"></a>
+  <h4 id="Startitecture_Orm_Schema_DefinitionProviderBase_GetAttributeReferences_System_Type_" data-uid="Startitecture.Orm.Schema.DefinitionProviderBase.GetAttributeReferences(System.Type)">GetAttributeReferences(Type)</h4>
   <div class="markdown level1 summary"><p>Gets the attribute references for the <code data-dev-comment-type="paramref" class="paramref">entityType</code>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected abstract IEnumerable&lt;AttributeReference&gt; GetAttributes(Type entityType)</code></pre>
+    <pre><code class="lang-csharp hljs">protected abstract IEnumerable&lt;AttributeReference&gt; GetAttributeReferences(Type entityType)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -678,6 +678,53 @@
       <tr>
         <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Reflection.PropertyInfo</span>&gt;</td>
         <td><p>An <span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span> of <span class="xref">System.Reflection.PropertyInfo</span> items.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Schema/DefinitionProviderBase.cs&amp;version=GBmaster&amp;line=244">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Schema_DefinitionProviderBase_IsComputed_" data-uid="Startitecture.Orm.Schema.DefinitionProviderBase.IsComputed*"></a>
+  <h4 id="Startitecture_Orm_Schema_DefinitionProviderBase_IsComputed_System_Reflection_PropertyInfo_" data-uid="Startitecture.Orm.Schema.DefinitionProviderBase.IsComputed(System.Reflection.PropertyInfo)">IsComputed(PropertyInfo)</h4>
+  <div class="markdown level1 summary"><p>Determines whether the property is a computed column or not.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected abstract bool IsComputed(PropertyInfo entityProperty)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Reflection.PropertyInfo</span></td>
+        <td><span class="parametername">entityProperty</span></td>
+        <td><p>The property info to evaluate.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><code>true</code> if the property is a computed column; otherwise, <code>false</code>.</p>
 </td>
       </tr>
     </tbody>

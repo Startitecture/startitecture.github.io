@@ -135,16 +135,16 @@
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Schema/DataAnnotationsDefinitionProvider.cs&amp;version=GBmaster&amp;line=191">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Schema/DataAnnotationsDefinitionProvider.cs&amp;version=GBmaster&amp;line=197">View Source</a>
   </span>
-  <a id="Startitecture_Orm_Schema_DataAnnotationsDefinitionProvider_GetAttributes_" data-uid="Startitecture.Orm.Schema.DataAnnotationsDefinitionProvider.GetAttributes*"></a>
-  <h4 id="Startitecture_Orm_Schema_DataAnnotationsDefinitionProvider_GetAttributes_System_Type_" data-uid="Startitecture.Orm.Schema.DataAnnotationsDefinitionProvider.GetAttributes(System.Type)">GetAttributes(Type)</h4>
+  <a id="Startitecture_Orm_Schema_DataAnnotationsDefinitionProvider_GetAttributeReferences_" data-uid="Startitecture.Orm.Schema.DataAnnotationsDefinitionProvider.GetAttributeReferences*"></a>
+  <h4 id="Startitecture_Orm_Schema_DataAnnotationsDefinitionProvider_GetAttributeReferences_System_Type_" data-uid="Startitecture.Orm.Schema.DataAnnotationsDefinitionProvider.GetAttributeReferences(System.Type)">GetAttributeReferences(Type)</h4>
   <div class="markdown level1 summary"><p>Gets the attribute references for the <code data-dev-comment-type="paramref" class="paramref">entityType</code>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override IEnumerable&lt;AttributeReference&gt; GetAttributes([NotNull] Type entityType)</code></pre>
+    <pre><code class="lang-csharp hljs">protected override IEnumerable&lt;AttributeReference&gt; GetAttributeReferences([NotNull] Type entityType)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -181,7 +181,7 @@
     </tbody>
   </table>
   <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="Startitecture.Orm.Schema.DefinitionProviderBase.html#Startitecture_Orm_Schema_DefinitionProviderBase_GetAttributes_System_Type_">DefinitionProviderBase.GetAttributes(Type)</a></div>
+  <div><a class="xref" href="Startitecture.Orm.Schema.DefinitionProviderBase.html#Startitecture_Orm_Schema_DefinitionProviderBase_GetAttributeReferences_System_Type_">DefinitionProviderBase.GetAttributeReferences(Type)</a></div>
   
   <span class="small pull-right mobile-hide">
     <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Schema/DataAnnotationsDefinitionProvider.cs&amp;version=GBmaster&amp;line=135">View Source</a>
@@ -429,7 +429,7 @@
   <div><a class="xref" href="Startitecture.Orm.Schema.DefinitionProviderBase.html#Startitecture_Orm_Schema_DefinitionProviderBase_GetFilteredEntityProperties_System_Type_">DefinitionProviderBase.GetFilteredEntityProperties(Type)</a></div>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Schema/DataAnnotationsDefinitionProvider.cs&amp;version=GBmaster&amp;line=185">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Schema/DataAnnotationsDefinitionProvider.cs&amp;version=GBmaster&amp;line=191">View Source</a>
   </span>
   <a id="Startitecture_Orm_Schema_DataAnnotationsDefinitionProvider_GetOrdinal_" data-uid="Startitecture.Orm.Schema.DataAnnotationsDefinitionProvider.GetOrdinal*"></a>
   <h4 id="Startitecture_Orm_Schema_DataAnnotationsDefinitionProvider_GetOrdinal_System_Reflection_PropertyInfo_" data-uid="Startitecture.Orm.Schema.DataAnnotationsDefinitionProvider.GetOrdinal(System.Reflection.PropertyInfo)">GetOrdinal(PropertyInfo)</h4>
@@ -623,6 +623,55 @@
   </table>
   <h5 class="overrides">Overrides</h5>
   <div><a class="xref" href="Startitecture.Orm.Schema.DefinitionProviderBase.html#Startitecture_Orm_Schema_DefinitionProviderBase_GetRelationPropertyInfos_System_Collections_Generic_IEnumerable_System_Reflection_PropertyInfo__">DefinitionProviderBase.GetRelationPropertyInfos(IEnumerable&lt;PropertyInfo&gt;)</a></div>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Schema/DataAnnotationsDefinitionProvider.cs&amp;version=GBmaster&amp;line=185">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Schema_DataAnnotationsDefinitionProvider_IsComputed_" data-uid="Startitecture.Orm.Schema.DataAnnotationsDefinitionProvider.IsComputed*"></a>
+  <h4 id="Startitecture_Orm_Schema_DataAnnotationsDefinitionProvider_IsComputed_System_Reflection_PropertyInfo_" data-uid="Startitecture.Orm.Schema.DataAnnotationsDefinitionProvider.IsComputed(System.Reflection.PropertyInfo)">IsComputed(PropertyInfo)</h4>
+  <div class="markdown level1 summary"><p>Determines whether the property is a computed column or not.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override bool IsComputed(PropertyInfo entityProperty)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Reflection.PropertyInfo</span></td>
+        <td><span class="parametername">entityProperty</span></td>
+        <td><p>The property info to evaluate.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><code>true</code> if the property is a computed column; otherwise, <code>false</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Startitecture.Orm.Schema.DefinitionProviderBase.html#Startitecture_Orm_Schema_DefinitionProviderBase_IsComputed_System_Reflection_PropertyInfo_">DefinitionProviderBase.IsComputed(PropertyInfo)</a></div>
   
   <span class="small pull-right mobile-hide">
     <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Schema/DataAnnotationsDefinitionProvider.cs&amp;version=GBmaster&amp;line=179">View Source</a>
