@@ -83,7 +83,7 @@
   </div>
   <div classs="implements">
     <h5>Implements</h5>
-    <div><a class="xref" href="Startitecture.Orm.Model.IRepositoryProviderFactory.html">IRepositoryProviderFactory</a></div>
+    <div><a class="xref" href="Startitecture.Orm.Common.IRepositoryProviderFactory.html">IRepositoryProviderFactory</a></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -119,16 +119,16 @@
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.PostgreSql/PostgreSqlProviderFactory.cs&amp;version=GBmaster&amp;line=58">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.PostgreSql/PostgreSqlProviderFactory.cs&amp;version=GBmaster&amp;line=46">View Source</a>
   </span>
   <a id="Startitecture_Orm_PostgreSql_PostgreSqlProviderFactory__ctor_" data-uid="Startitecture.Orm.PostgreSql.PostgreSqlProviderFactory.#ctor*"></a>
-  <h4 id="Startitecture_Orm_PostgreSql_PostgreSqlProviderFactory__ctor_System_String_Startitecture_Orm_Model_IEntityDefinitionProvider_" data-uid="Startitecture.Orm.PostgreSql.PostgreSqlProviderFactory.#ctor(System.String,Startitecture.Orm.Model.IEntityDefinitionProvider)">PostgreSqlProviderFactory(String, IEntityDefinitionProvider)</h4>
+  <h4 id="Startitecture_Orm_PostgreSql_PostgreSqlProviderFactory__ctor_Startitecture_Orm_Model_IEntityDefinitionProvider_" data-uid="Startitecture.Orm.PostgreSql.PostgreSqlProviderFactory.#ctor(Startitecture.Orm.Model.IEntityDefinitionProvider)">PostgreSqlProviderFactory(IEntityDefinitionProvider)</h4>
   <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="Startitecture.Orm.PostgreSql.PostgreSqlProviderFactory.html">PostgreSqlProviderFactory</a> class.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public PostgreSqlProviderFactory([NotNull] string connectionString, [NotNull] IEntityDefinitionProvider definitionProvider)</code></pre>
+    <pre><code class="lang-csharp hljs">public PostgreSqlProviderFactory([NotNull] IEntityDefinitionProvider definitionProvider)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -140,12 +140,6 @@
       </tr>
     </thead>
     <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">connectionString</span></td>
-        <td><p>The connection string.</p>
-</td>
-      </tr>
       <tr>
         <td><a class="xref" href="Startitecture.Orm.Model.IEntityDefinitionProvider.html">IEntityDefinitionProvider</a></td>
         <td><span class="parametername">definitionProvider</span></td>
@@ -168,28 +162,41 @@
         <td><p><code data-dev-comment-type="paramref" class="paramref">definitionProvider</code> is null.</p>
 </td>
       </tr>
-      <tr>
-        <td><span class="xref">System.ArgumentException</span></td>
-        <td><p><code data-dev-comment-type="paramref" class="paramref">connectionString</code> is null or whitespace.</p>
-</td>
-      </tr>
     </tbody>
   </table>
   <h3 id="methods">Methods
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.PostgreSql/PostgreSqlProviderFactory.cs&amp;version=GBmaster&amp;line=70">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.PostgreSql/PostgreSqlProviderFactory.cs&amp;version=GBmaster&amp;line=52">View Source</a>
   </span>
   <a id="Startitecture_Orm_PostgreSql_PostgreSqlProviderFactory_Create_" data-uid="Startitecture.Orm.PostgreSql.PostgreSqlProviderFactory.Create*"></a>
-  <h4 id="Startitecture_Orm_PostgreSql_PostgreSqlProviderFactory_Create" data-uid="Startitecture.Orm.PostgreSql.PostgreSqlProviderFactory.Create">Create()</h4>
-  <div class="markdown level1 summary"><p>Creates an <a class="xref" href="Startitecture.Orm.Model.IRepositoryProvider.html">IRepositoryProvider</a>.</p>
+  <h4 id="Startitecture_Orm_PostgreSql_PostgreSqlProviderFactory_Create_System_String_" data-uid="Startitecture.Orm.PostgreSql.PostgreSqlProviderFactory.Create(System.String)">Create(String)</h4>
+  <div class="markdown level1 summary"><p>Creates an <a class="xref" href="Startitecture.Orm.Common.IRepositoryProvider.html">IRepositoryProvider</a>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IRepositoryProvider Create()</code></pre>
+    <pre><code class="lang-csharp hljs">public IRepositoryProvider Create(string connectionString)</code></pre>
   </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">connectionString</span></td>
+        <td><p>The connection string to the repository.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -200,15 +207,15 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Startitecture.Orm.Model.IRepositoryProvider.html">IRepositoryProvider</a></td>
-        <td><p>An <a class="xref" href="Startitecture.Orm.Model.IRepositoryProvider.html">IRepositoryProvider</a>.</p>
+        <td><a class="xref" href="Startitecture.Orm.Common.IRepositoryProvider.html">IRepositoryProvider</a></td>
+        <td><p>An <a class="xref" href="Startitecture.Orm.Common.IRepositoryProvider.html">IRepositoryProvider</a>.</p>
 </td>
       </tr>
     </tbody>
   </table>
   <h3 id="implements">Implements</h3>
   <div>
-      <a class="xref" href="Startitecture.Orm.Model.IRepositoryProviderFactory.html">IRepositoryProviderFactory</a>
+      <a class="xref" href="Startitecture.Orm.Common.IRepositoryProviderFactory.html">IRepositoryProviderFactory</a>
   </div>
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>
@@ -222,7 +229,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.PostgreSql/PostgreSqlProviderFactory.cs&amp;version=GBmaster&amp;line=26" class="contribution-link">View Source</a>
+                    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.PostgreSql/PostgreSqlProviderFactory.cs&amp;version=GBmaster&amp;line=25" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

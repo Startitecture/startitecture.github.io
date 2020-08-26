@@ -385,45 +385,16 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.PostgreSql/JsonInsert.cs&amp;version=GBmaster&amp;line=151">View Source</a>
-  </span>
-  <a id="Startitecture_Orm_PostgreSql_JsonInsert_1_OnConflictDoNothing_" data-uid="Startitecture.Orm.PostgreSql.JsonInsert`1.OnConflictDoNothing*"></a>
-  <h4 id="Startitecture_Orm_PostgreSql_JsonInsert_1_OnConflictDoNothing" data-uid="Startitecture.Orm.PostgreSql.JsonInsert`1.OnConflictDoNothing">OnConflictDoNothing()</h4>
-  <div class="markdown level1 summary"><p>Specifies that on a constraint violation, the row will not be inserted and no error will be raised.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public JsonInsert&lt;T&gt; OnConflictDoNothing()</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Startitecture.Orm.PostgreSql.JsonInsert-1.html">JsonInsert</a>&lt;T&gt;</td>
-        <td><p>The current <a class="xref" href="Startitecture.Orm.PostgreSql.JsonInsert-1.html">JsonInsert&lt;T&gt;</a>.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  <span class="small pull-right mobile-hide">
     <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.PostgreSql/JsonInsert.cs&amp;version=GBmaster&amp;line=166">View Source</a>
   </span>
-  <a id="Startitecture_Orm_PostgreSql_JsonInsert_1_OnConflictDoUpdate_" data-uid="Startitecture.Orm.PostgreSql.JsonInsert`1.OnConflictDoUpdate*"></a>
-  <h4 id="Startitecture_Orm_PostgreSql_JsonInsert_1_OnConflictDoUpdate_System_Linq_Expressions_Expression_System_Func__0_System_Object_____" data-uid="Startitecture.Orm.PostgreSql.JsonInsert`1.OnConflictDoUpdate(System.Linq.Expressions.Expression{System.Func{`0,System.Object}}[])">OnConflictDoUpdate(Expression&lt;Func&lt;T, Object&gt;&gt;[])</h4>
+  <a id="Startitecture_Orm_PostgreSql_JsonInsert_1_OnConflict_" data-uid="Startitecture.Orm.PostgreSql.JsonInsert`1.OnConflict*"></a>
+  <h4 id="Startitecture_Orm_PostgreSql_JsonInsert_1_OnConflict_System_Linq_Expressions_Expression_System_Func__0_System_Object_____" data-uid="Startitecture.Orm.PostgreSql.JsonInsert`1.OnConflict(System.Linq.Expressions.Expression{System.Func{`0,System.Object}}[])">OnConflict(Expression&lt;Func&lt;T, Object&gt;&gt;[])</h4>
   <div class="markdown level1 summary"><p>Specify the attributes to update when there is a constraint violation.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public JsonInsert&lt;T&gt; OnConflictDoUpdate([NotNull] params Expression&lt;Func&lt;T, object&gt;&gt;[] constraintHintAttributes)</code></pre>
+    <pre><code class="lang-csharp hljs">public JsonInsert&lt;T&gt; OnConflict([NotNull] params Expression&lt;Func&lt;T, object&gt;&gt;[] constraintHintAttributes)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -443,6 +414,35 @@
       </tr>
     </tbody>
   </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.PostgreSql.JsonInsert-1.html">JsonInsert</a>&lt;T&gt;</td>
+        <td><p>The current <a class="xref" href="Startitecture.Orm.PostgreSql.JsonInsert-1.html">JsonInsert&lt;T&gt;</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.PostgreSql/JsonInsert.cs&amp;version=GBmaster&amp;line=151">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_PostgreSql_JsonInsert_1_OnConflictDoNothing_" data-uid="Startitecture.Orm.PostgreSql.JsonInsert`1.OnConflictDoNothing*"></a>
+  <h4 id="Startitecture_Orm_PostgreSql_JsonInsert_1_OnConflictDoNothing" data-uid="Startitecture.Orm.PostgreSql.JsonInsert`1.OnConflictDoNothing">OnConflictDoNothing()</h4>
+  <div class="markdown level1 summary"><p>Specifies that on a constraint violation, the row will not be inserted and no error will be raised.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public JsonInsert&lt;T&gt; OnConflictDoNothing()</code></pre>
+  </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>

@@ -2664,21 +2664,21 @@ references:
   fullName.vb: Startitecture.Orm.Common.EntityRepository(Of TModel, TEntity)
   nameWithType: EntityRepository<TModel, TEntity>
   nameWithType.vb: EntityRepository(Of TModel, TEntity)
-- uid: Startitecture.Orm.Common.EntityRepository`2.#ctor(Startitecture.Orm.Model.IRepositoryProvider,Startitecture.Orm.Model.IEntityMapper)
+- uid: Startitecture.Orm.Common.EntityRepository`2.#ctor(Startitecture.Orm.Common.IRepositoryProvider,Startitecture.Orm.Model.IEntityMapper)
   name: EntityRepository(IRepositoryProvider, IEntityMapper)
-  href: api/Startitecture.Orm.Common.EntityRepository-2.html#Startitecture_Orm_Common_EntityRepository_2__ctor_Startitecture_Orm_Model_IRepositoryProvider_Startitecture_Orm_Model_IEntityMapper_
-  commentId: M:Startitecture.Orm.Common.EntityRepository`2.#ctor(Startitecture.Orm.Model.IRepositoryProvider,Startitecture.Orm.Model.IEntityMapper)
-  fullName: Startitecture.Orm.Common.EntityRepository<TModel, TEntity>.EntityRepository(Startitecture.Orm.Model.IRepositoryProvider, Startitecture.Orm.Model.IEntityMapper)
-  fullName.vb: Startitecture.Orm.Common.EntityRepository(Of TModel, TEntity).EntityRepository(Startitecture.Orm.Model.IRepositoryProvider, Startitecture.Orm.Model.IEntityMapper)
+  href: api/Startitecture.Orm.Common.EntityRepository-2.html#Startitecture_Orm_Common_EntityRepository_2__ctor_Startitecture_Orm_Common_IRepositoryProvider_Startitecture_Orm_Model_IEntityMapper_
+  commentId: M:Startitecture.Orm.Common.EntityRepository`2.#ctor(Startitecture.Orm.Common.IRepositoryProvider,Startitecture.Orm.Model.IEntityMapper)
+  fullName: Startitecture.Orm.Common.EntityRepository<TModel, TEntity>.EntityRepository(Startitecture.Orm.Common.IRepositoryProvider, Startitecture.Orm.Model.IEntityMapper)
+  fullName.vb: Startitecture.Orm.Common.EntityRepository(Of TModel, TEntity).EntityRepository(Startitecture.Orm.Common.IRepositoryProvider, Startitecture.Orm.Model.IEntityMapper)
   nameWithType: EntityRepository<TModel, TEntity>.EntityRepository(IRepositoryProvider, IEntityMapper)
   nameWithType.vb: EntityRepository(Of TModel, TEntity).EntityRepository(IRepositoryProvider, IEntityMapper)
-- uid: Startitecture.Orm.Common.EntityRepository`2.#ctor(Startitecture.Orm.Model.IRepositoryProvider,Startitecture.Orm.Model.IEntityMapper,System.Collections.Generic.IComparer{`1})
+- uid: Startitecture.Orm.Common.EntityRepository`2.#ctor(Startitecture.Orm.Common.IRepositoryProvider,Startitecture.Orm.Model.IEntityMapper,System.Collections.Generic.IComparer{`1})
   name: EntityRepository(IRepositoryProvider, IEntityMapper, IComparer<TEntity>)
-  href: api/Startitecture.Orm.Common.EntityRepository-2.html#Startitecture_Orm_Common_EntityRepository_2__ctor_Startitecture_Orm_Model_IRepositoryProvider_Startitecture_Orm_Model_IEntityMapper_System_Collections_Generic_IComparer__1__
-  commentId: M:Startitecture.Orm.Common.EntityRepository`2.#ctor(Startitecture.Orm.Model.IRepositoryProvider,Startitecture.Orm.Model.IEntityMapper,System.Collections.Generic.IComparer{`1})
+  href: api/Startitecture.Orm.Common.EntityRepository-2.html#Startitecture_Orm_Common_EntityRepository_2__ctor_Startitecture_Orm_Common_IRepositoryProvider_Startitecture_Orm_Model_IEntityMapper_System_Collections_Generic_IComparer__1__
+  commentId: M:Startitecture.Orm.Common.EntityRepository`2.#ctor(Startitecture.Orm.Common.IRepositoryProvider,Startitecture.Orm.Model.IEntityMapper,System.Collections.Generic.IComparer{`1})
   name.vb: EntityRepository(IRepositoryProvider, IEntityMapper, IComparer(Of TEntity))
-  fullName: Startitecture.Orm.Common.EntityRepository<TModel, TEntity>.EntityRepository(Startitecture.Orm.Model.IRepositoryProvider, Startitecture.Orm.Model.IEntityMapper, System.Collections.Generic.IComparer<TEntity>)
-  fullName.vb: Startitecture.Orm.Common.EntityRepository(Of TModel, TEntity).EntityRepository(Startitecture.Orm.Model.IRepositoryProvider, Startitecture.Orm.Model.IEntityMapper, System.Collections.Generic.IComparer(Of TEntity))
+  fullName: Startitecture.Orm.Common.EntityRepository<TModel, TEntity>.EntityRepository(Startitecture.Orm.Common.IRepositoryProvider, Startitecture.Orm.Model.IEntityMapper, System.Collections.Generic.IComparer<TEntity>)
+  fullName.vb: Startitecture.Orm.Common.EntityRepository(Of TModel, TEntity).EntityRepository(Startitecture.Orm.Common.IRepositoryProvider, Startitecture.Orm.Model.IEntityMapper, System.Collections.Generic.IComparer(Of TEntity))
   nameWithType: EntityRepository<TModel, TEntity>.EntityRepository(IRepositoryProvider, IEntityMapper, IComparer<TEntity>)
   nameWithType.vb: EntityRepository(Of TModel, TEntity).EntityRepository(IRepositoryProvider, IEntityMapper, IComparer(Of TEntity))
 - uid: Startitecture.Orm.Common.EntityRepository`2.#ctor*
@@ -3043,6 +3043,345 @@ references:
   isSpec: "True"
   fullName: Startitecture.Orm.Common.IRepositoryAdapter.ValueMappers
   nameWithType: IRepositoryAdapter.ValueMappers
+- uid: Startitecture.Orm.Common.IRepositoryProvider
+  name: IRepositoryProvider
+  href: api/Startitecture.Orm.Common.IRepositoryProvider.html
+  commentId: T:Startitecture.Orm.Common.IRepositoryProvider
+  fullName: Startitecture.Orm.Common.IRepositoryProvider
+  nameWithType: IRepositoryProvider
+- uid: Startitecture.Orm.Common.IRepositoryProvider.CacheExpiration
+  name: CacheExpiration
+  href: api/Startitecture.Orm.Common.IRepositoryProvider.html#Startitecture_Orm_Common_IRepositoryProvider_CacheExpiration
+  commentId: P:Startitecture.Orm.Common.IRepositoryProvider.CacheExpiration
+  fullName: Startitecture.Orm.Common.IRepositoryProvider.CacheExpiration
+  nameWithType: IRepositoryProvider.CacheExpiration
+- uid: Startitecture.Orm.Common.IRepositoryProvider.CacheExpiration*
+  name: CacheExpiration
+  href: api/Startitecture.Orm.Common.IRepositoryProvider.html#Startitecture_Orm_Common_IRepositoryProvider_CacheExpiration_
+  commentId: Overload:Startitecture.Orm.Common.IRepositoryProvider.CacheExpiration
+  isSpec: "True"
+  fullName: Startitecture.Orm.Common.IRepositoryProvider.CacheExpiration
+  nameWithType: IRepositoryProvider.CacheExpiration
+- uid: Startitecture.Orm.Common.IRepositoryProvider.ChangeDatabase(System.String)
+  name: ChangeDatabase(String)
+  href: api/Startitecture.Orm.Common.IRepositoryProvider.html#Startitecture_Orm_Common_IRepositoryProvider_ChangeDatabase_System_String_
+  commentId: M:Startitecture.Orm.Common.IRepositoryProvider.ChangeDatabase(System.String)
+  fullName: Startitecture.Orm.Common.IRepositoryProvider.ChangeDatabase(System.String)
+  nameWithType: IRepositoryProvider.ChangeDatabase(String)
+- uid: Startitecture.Orm.Common.IRepositoryProvider.ChangeDatabase*
+  name: ChangeDatabase
+  href: api/Startitecture.Orm.Common.IRepositoryProvider.html#Startitecture_Orm_Common_IRepositoryProvider_ChangeDatabase_
+  commentId: Overload:Startitecture.Orm.Common.IRepositoryProvider.ChangeDatabase
+  isSpec: "True"
+  fullName: Startitecture.Orm.Common.IRepositoryProvider.ChangeDatabase
+  nameWithType: IRepositoryProvider.ChangeDatabase
+- uid: Startitecture.Orm.Common.IRepositoryProvider.Contains*
+  name: Contains
+  href: api/Startitecture.Orm.Common.IRepositoryProvider.html#Startitecture_Orm_Common_IRepositoryProvider_Contains_
+  commentId: Overload:Startitecture.Orm.Common.IRepositoryProvider.Contains
+  isSpec: "True"
+  fullName: Startitecture.Orm.Common.IRepositoryProvider.Contains
+  nameWithType: IRepositoryProvider.Contains
+- uid: Startitecture.Orm.Common.IRepositoryProvider.Contains``1(Startitecture.Orm.Model.EntitySet{``0})
+  name: Contains<T>(EntitySet<T>)
+  href: api/Startitecture.Orm.Common.IRepositoryProvider.html#Startitecture_Orm_Common_IRepositoryProvider_Contains__1_Startitecture_Orm_Model_EntitySet___0__
+  commentId: M:Startitecture.Orm.Common.IRepositoryProvider.Contains``1(Startitecture.Orm.Model.EntitySet{``0})
+  name.vb: Contains(Of T)(EntitySet(Of T))
+  fullName: Startitecture.Orm.Common.IRepositoryProvider.Contains<T>(Startitecture.Orm.Model.EntitySet<T>)
+  fullName.vb: Startitecture.Orm.Common.IRepositoryProvider.Contains(Of T)(Startitecture.Orm.Model.EntitySet(Of T))
+  nameWithType: IRepositoryProvider.Contains<T>(EntitySet<T>)
+  nameWithType.vb: IRepositoryProvider.Contains(Of T)(EntitySet(Of T))
+- uid: Startitecture.Orm.Common.IRepositoryProvider.DatabaseContext
+  name: DatabaseContext
+  href: api/Startitecture.Orm.Common.IRepositoryProvider.html#Startitecture_Orm_Common_IRepositoryProvider_DatabaseContext
+  commentId: P:Startitecture.Orm.Common.IRepositoryProvider.DatabaseContext
+  fullName: Startitecture.Orm.Common.IRepositoryProvider.DatabaseContext
+  nameWithType: IRepositoryProvider.DatabaseContext
+- uid: Startitecture.Orm.Common.IRepositoryProvider.DatabaseContext*
+  name: DatabaseContext
+  href: api/Startitecture.Orm.Common.IRepositoryProvider.html#Startitecture_Orm_Common_IRepositoryProvider_DatabaseContext_
+  commentId: Overload:Startitecture.Orm.Common.IRepositoryProvider.DatabaseContext
+  isSpec: "True"
+  fullName: Startitecture.Orm.Common.IRepositoryProvider.DatabaseContext
+  nameWithType: IRepositoryProvider.DatabaseContext
+- uid: Startitecture.Orm.Common.IRepositoryProvider.Delete*
+  name: Delete
+  href: api/Startitecture.Orm.Common.IRepositoryProvider.html#Startitecture_Orm_Common_IRepositoryProvider_Delete_
+  commentId: Overload:Startitecture.Orm.Common.IRepositoryProvider.Delete
+  isSpec: "True"
+  fullName: Startitecture.Orm.Common.IRepositoryProvider.Delete
+  nameWithType: IRepositoryProvider.Delete
+- uid: Startitecture.Orm.Common.IRepositoryProvider.Delete``1(Startitecture.Orm.Model.EntitySelection{``0})
+  name: Delete<T>(EntitySelection<T>)
+  href: api/Startitecture.Orm.Common.IRepositoryProvider.html#Startitecture_Orm_Common_IRepositoryProvider_Delete__1_Startitecture_Orm_Model_EntitySelection___0__
+  commentId: M:Startitecture.Orm.Common.IRepositoryProvider.Delete``1(Startitecture.Orm.Model.EntitySelection{``0})
+  name.vb: Delete(Of T)(EntitySelection(Of T))
+  fullName: Startitecture.Orm.Common.IRepositoryProvider.Delete<T>(Startitecture.Orm.Model.EntitySelection<T>)
+  fullName.vb: Startitecture.Orm.Common.IRepositoryProvider.Delete(Of T)(Startitecture.Orm.Model.EntitySelection(Of T))
+  nameWithType: IRepositoryProvider.Delete<T>(EntitySelection<T>)
+  nameWithType.vb: IRepositoryProvider.Delete(Of T)(EntitySelection(Of T))
+- uid: Startitecture.Orm.Common.IRepositoryProvider.Disposed
+  name: Disposed
+  href: api/Startitecture.Orm.Common.IRepositoryProvider.html#Startitecture_Orm_Common_IRepositoryProvider_Disposed
+  commentId: E:Startitecture.Orm.Common.IRepositoryProvider.Disposed
+  fullName: Startitecture.Orm.Common.IRepositoryProvider.Disposed
+  nameWithType: IRepositoryProvider.Disposed
+- uid: Startitecture.Orm.Common.IRepositoryProvider.DynamicFirstOrDefault(Startitecture.Orm.Model.ISelection)
+  name: DynamicFirstOrDefault(ISelection)
+  href: api/Startitecture.Orm.Common.IRepositoryProvider.html#Startitecture_Orm_Common_IRepositoryProvider_DynamicFirstOrDefault_Startitecture_Orm_Model_ISelection_
+  commentId: M:Startitecture.Orm.Common.IRepositoryProvider.DynamicFirstOrDefault(Startitecture.Orm.Model.ISelection)
+  fullName: Startitecture.Orm.Common.IRepositoryProvider.DynamicFirstOrDefault(Startitecture.Orm.Model.ISelection)
+  nameWithType: IRepositoryProvider.DynamicFirstOrDefault(ISelection)
+- uid: Startitecture.Orm.Common.IRepositoryProvider.DynamicFirstOrDefault*
+  name: DynamicFirstOrDefault
+  href: api/Startitecture.Orm.Common.IRepositoryProvider.html#Startitecture_Orm_Common_IRepositoryProvider_DynamicFirstOrDefault_
+  commentId: Overload:Startitecture.Orm.Common.IRepositoryProvider.DynamicFirstOrDefault
+  isSpec: "True"
+  fullName: Startitecture.Orm.Common.IRepositoryProvider.DynamicFirstOrDefault
+  nameWithType: IRepositoryProvider.DynamicFirstOrDefault
+- uid: Startitecture.Orm.Common.IRepositoryProvider.DynamicSelect(Startitecture.Orm.Model.ISelection)
+  name: DynamicSelect(ISelection)
+  href: api/Startitecture.Orm.Common.IRepositoryProvider.html#Startitecture_Orm_Common_IRepositoryProvider_DynamicSelect_Startitecture_Orm_Model_ISelection_
+  commentId: M:Startitecture.Orm.Common.IRepositoryProvider.DynamicSelect(Startitecture.Orm.Model.ISelection)
+  fullName: Startitecture.Orm.Common.IRepositoryProvider.DynamicSelect(Startitecture.Orm.Model.ISelection)
+  nameWithType: IRepositoryProvider.DynamicSelect(ISelection)
+- uid: Startitecture.Orm.Common.IRepositoryProvider.DynamicSelect*
+  name: DynamicSelect
+  href: api/Startitecture.Orm.Common.IRepositoryProvider.html#Startitecture_Orm_Common_IRepositoryProvider_DynamicSelect_
+  commentId: Overload:Startitecture.Orm.Common.IRepositoryProvider.DynamicSelect
+  isSpec: "True"
+  fullName: Startitecture.Orm.Common.IRepositoryProvider.DynamicSelect
+  nameWithType: IRepositoryProvider.DynamicSelect
+- uid: Startitecture.Orm.Common.IRepositoryProvider.EnableCaching
+  name: EnableCaching
+  href: api/Startitecture.Orm.Common.IRepositoryProvider.html#Startitecture_Orm_Common_IRepositoryProvider_EnableCaching
+  commentId: P:Startitecture.Orm.Common.IRepositoryProvider.EnableCaching
+  fullName: Startitecture.Orm.Common.IRepositoryProvider.EnableCaching
+  nameWithType: IRepositoryProvider.EnableCaching
+- uid: Startitecture.Orm.Common.IRepositoryProvider.EnableCaching*
+  name: EnableCaching
+  href: api/Startitecture.Orm.Common.IRepositoryProvider.html#Startitecture_Orm_Common_IRepositoryProvider_EnableCaching_
+  commentId: Overload:Startitecture.Orm.Common.IRepositoryProvider.EnableCaching
+  isSpec: "True"
+  fullName: Startitecture.Orm.Common.IRepositoryProvider.EnableCaching
+  nameWithType: IRepositoryProvider.EnableCaching
+- uid: Startitecture.Orm.Common.IRepositoryProvider.EntityDefinitionProvider
+  name: EntityDefinitionProvider
+  href: api/Startitecture.Orm.Common.IRepositoryProvider.html#Startitecture_Orm_Common_IRepositoryProvider_EntityDefinitionProvider
+  commentId: P:Startitecture.Orm.Common.IRepositoryProvider.EntityDefinitionProvider
+  fullName: Startitecture.Orm.Common.IRepositoryProvider.EntityDefinitionProvider
+  nameWithType: IRepositoryProvider.EntityDefinitionProvider
+- uid: Startitecture.Orm.Common.IRepositoryProvider.EntityDefinitionProvider*
+  name: EntityDefinitionProvider
+  href: api/Startitecture.Orm.Common.IRepositoryProvider.html#Startitecture_Orm_Common_IRepositoryProvider_EntityDefinitionProvider_
+  commentId: Overload:Startitecture.Orm.Common.IRepositoryProvider.EntityDefinitionProvider
+  isSpec: "True"
+  fullName: Startitecture.Orm.Common.IRepositoryProvider.EntityDefinitionProvider
+  nameWithType: IRepositoryProvider.EntityDefinitionProvider
+- uid: Startitecture.Orm.Common.IRepositoryProvider.Execute(System.String,System.Object[])
+  name: Execute(String, Object[])
+  href: api/Startitecture.Orm.Common.IRepositoryProvider.html#Startitecture_Orm_Common_IRepositoryProvider_Execute_System_String_System_Object___
+  commentId: M:Startitecture.Orm.Common.IRepositoryProvider.Execute(System.String,System.Object[])
+  name.vb: Execute(String, Object())
+  fullName: Startitecture.Orm.Common.IRepositoryProvider.Execute(System.String, System.Object[])
+  fullName.vb: Startitecture.Orm.Common.IRepositoryProvider.Execute(System.String, System.Object())
+  nameWithType: IRepositoryProvider.Execute(String, Object[])
+  nameWithType.vb: IRepositoryProvider.Execute(String, Object())
+- uid: Startitecture.Orm.Common.IRepositoryProvider.Execute*
+  name: Execute
+  href: api/Startitecture.Orm.Common.IRepositoryProvider.html#Startitecture_Orm_Common_IRepositoryProvider_Execute_
+  commentId: Overload:Startitecture.Orm.Common.IRepositoryProvider.Execute
+  isSpec: "True"
+  fullName: Startitecture.Orm.Common.IRepositoryProvider.Execute
+  nameWithType: IRepositoryProvider.Execute
+- uid: Startitecture.Orm.Common.IRepositoryProvider.ExecuteForResult(System.String,System.Object[])
+  name: ExecuteForResult(String, Object[])
+  href: api/Startitecture.Orm.Common.IRepositoryProvider.html#Startitecture_Orm_Common_IRepositoryProvider_ExecuteForResult_System_String_System_Object___
+  commentId: M:Startitecture.Orm.Common.IRepositoryProvider.ExecuteForResult(System.String,System.Object[])
+  name.vb: ExecuteForResult(String, Object())
+  fullName: Startitecture.Orm.Common.IRepositoryProvider.ExecuteForResult(System.String, System.Object[])
+  fullName.vb: Startitecture.Orm.Common.IRepositoryProvider.ExecuteForResult(System.String, System.Object())
+  nameWithType: IRepositoryProvider.ExecuteForResult(String, Object[])
+  nameWithType.vb: IRepositoryProvider.ExecuteForResult(String, Object())
+- uid: Startitecture.Orm.Common.IRepositoryProvider.ExecuteForResult*
+  name: ExecuteForResult
+  href: api/Startitecture.Orm.Common.IRepositoryProvider.html#Startitecture_Orm_Common_IRepositoryProvider_ExecuteForResult_
+  commentId: Overload:Startitecture.Orm.Common.IRepositoryProvider.ExecuteForResult
+  isSpec: "True"
+  fullName: Startitecture.Orm.Common.IRepositoryProvider.ExecuteForResult
+  nameWithType: IRepositoryProvider.ExecuteForResult
+- uid: Startitecture.Orm.Common.IRepositoryProvider.ExecuteForResult``1(System.String,System.Object[])
+  name: ExecuteForResult<T>(String, Object[])
+  href: api/Startitecture.Orm.Common.IRepositoryProvider.html#Startitecture_Orm_Common_IRepositoryProvider_ExecuteForResult__1_System_String_System_Object___
+  commentId: M:Startitecture.Orm.Common.IRepositoryProvider.ExecuteForResult``1(System.String,System.Object[])
+  name.vb: ExecuteForResult(Of T)(String, Object())
+  fullName: Startitecture.Orm.Common.IRepositoryProvider.ExecuteForResult<T>(System.String, System.Object[])
+  fullName.vb: Startitecture.Orm.Common.IRepositoryProvider.ExecuteForResult(Of T)(System.String, System.Object())
+  nameWithType: IRepositoryProvider.ExecuteForResult<T>(String, Object[])
+  nameWithType.vb: IRepositoryProvider.ExecuteForResult(Of T)(String, Object())
+- uid: Startitecture.Orm.Common.IRepositoryProvider.ExecuteScalar*
+  name: ExecuteScalar
+  href: api/Startitecture.Orm.Common.IRepositoryProvider.html#Startitecture_Orm_Common_IRepositoryProvider_ExecuteScalar_
+  commentId: Overload:Startitecture.Orm.Common.IRepositoryProvider.ExecuteScalar
+  isSpec: "True"
+  fullName: Startitecture.Orm.Common.IRepositoryProvider.ExecuteScalar
+  nameWithType: IRepositoryProvider.ExecuteScalar
+- uid: Startitecture.Orm.Common.IRepositoryProvider.ExecuteScalar``1(System.String,System.Object[])
+  name: ExecuteScalar<T>(String, Object[])
+  href: api/Startitecture.Orm.Common.IRepositoryProvider.html#Startitecture_Orm_Common_IRepositoryProvider_ExecuteScalar__1_System_String_System_Object___
+  commentId: M:Startitecture.Orm.Common.IRepositoryProvider.ExecuteScalar``1(System.String,System.Object[])
+  name.vb: ExecuteScalar(Of T)(String, Object())
+  fullName: Startitecture.Orm.Common.IRepositoryProvider.ExecuteScalar<T>(System.String, System.Object[])
+  fullName.vb: Startitecture.Orm.Common.IRepositoryProvider.ExecuteScalar(Of T)(System.String, System.Object())
+  nameWithType: IRepositoryProvider.ExecuteScalar<T>(String, Object[])
+  nameWithType.vb: IRepositoryProvider.ExecuteScalar(Of T)(String, Object())
+- uid: Startitecture.Orm.Common.IRepositoryProvider.FirstOrDefault*
+  name: FirstOrDefault
+  href: api/Startitecture.Orm.Common.IRepositoryProvider.html#Startitecture_Orm_Common_IRepositoryProvider_FirstOrDefault_
+  commentId: Overload:Startitecture.Orm.Common.IRepositoryProvider.FirstOrDefault
+  isSpec: "True"
+  fullName: Startitecture.Orm.Common.IRepositoryProvider.FirstOrDefault
+  nameWithType: IRepositoryProvider.FirstOrDefault
+- uid: Startitecture.Orm.Common.IRepositoryProvider.FirstOrDefault``1(Startitecture.Orm.Model.EntitySelection{``0})
+  name: FirstOrDefault<T>(EntitySelection<T>)
+  href: api/Startitecture.Orm.Common.IRepositoryProvider.html#Startitecture_Orm_Common_IRepositoryProvider_FirstOrDefault__1_Startitecture_Orm_Model_EntitySelection___0__
+  commentId: M:Startitecture.Orm.Common.IRepositoryProvider.FirstOrDefault``1(Startitecture.Orm.Model.EntitySelection{``0})
+  name.vb: FirstOrDefault(Of T)(EntitySelection(Of T))
+  fullName: Startitecture.Orm.Common.IRepositoryProvider.FirstOrDefault<T>(Startitecture.Orm.Model.EntitySelection<T>)
+  fullName.vb: Startitecture.Orm.Common.IRepositoryProvider.FirstOrDefault(Of T)(Startitecture.Orm.Model.EntitySelection(Of T))
+  nameWithType: IRepositoryProvider.FirstOrDefault<T>(EntitySelection<T>)
+  nameWithType.vb: IRepositoryProvider.FirstOrDefault(Of T)(EntitySelection(Of T))
+- uid: Startitecture.Orm.Common.IRepositoryProvider.GetScalar*
+  name: GetScalar
+  href: api/Startitecture.Orm.Common.IRepositoryProvider.html#Startitecture_Orm_Common_IRepositoryProvider_GetScalar_
+  commentId: Overload:Startitecture.Orm.Common.IRepositoryProvider.GetScalar
+  isSpec: "True"
+  fullName: Startitecture.Orm.Common.IRepositoryProvider.GetScalar
+  nameWithType: IRepositoryProvider.GetScalar
+- uid: Startitecture.Orm.Common.IRepositoryProvider.GetScalar``1(Startitecture.Orm.Model.ISelection)
+  name: GetScalar<T>(ISelection)
+  href: api/Startitecture.Orm.Common.IRepositoryProvider.html#Startitecture_Orm_Common_IRepositoryProvider_GetScalar__1_Startitecture_Orm_Model_ISelection_
+  commentId: M:Startitecture.Orm.Common.IRepositoryProvider.GetScalar``1(Startitecture.Orm.Model.ISelection)
+  name.vb: GetScalar(Of T)(ISelection)
+  fullName: Startitecture.Orm.Common.IRepositoryProvider.GetScalar<T>(Startitecture.Orm.Model.ISelection)
+  fullName.vb: Startitecture.Orm.Common.IRepositoryProvider.GetScalar(Of T)(Startitecture.Orm.Model.ISelection)
+  nameWithType: IRepositoryProvider.GetScalar<T>(ISelection)
+  nameWithType.vb: IRepositoryProvider.GetScalar(Of T)(ISelection)
+- uid: Startitecture.Orm.Common.IRepositoryProvider.Insert*
+  name: Insert
+  href: api/Startitecture.Orm.Common.IRepositoryProvider.html#Startitecture_Orm_Common_IRepositoryProvider_Insert_
+  commentId: Overload:Startitecture.Orm.Common.IRepositoryProvider.Insert
+  isSpec: "True"
+  fullName: Startitecture.Orm.Common.IRepositoryProvider.Insert
+  nameWithType: IRepositoryProvider.Insert
+- uid: Startitecture.Orm.Common.IRepositoryProvider.Insert``1(``0)
+  name: Insert<T>(T)
+  href: api/Startitecture.Orm.Common.IRepositoryProvider.html#Startitecture_Orm_Common_IRepositoryProvider_Insert__1___0_
+  commentId: M:Startitecture.Orm.Common.IRepositoryProvider.Insert``1(``0)
+  name.vb: Insert(Of T)(T)
+  fullName: Startitecture.Orm.Common.IRepositoryProvider.Insert<T>(T)
+  fullName.vb: Startitecture.Orm.Common.IRepositoryProvider.Insert(Of T)(T)
+  nameWithType: IRepositoryProvider.Insert<T>(T)
+  nameWithType.vb: IRepositoryProvider.Insert(Of T)(T)
+- uid: Startitecture.Orm.Common.IRepositoryProvider.IsDisposed
+  name: IsDisposed
+  href: api/Startitecture.Orm.Common.IRepositoryProvider.html#Startitecture_Orm_Common_IRepositoryProvider_IsDisposed
+  commentId: P:Startitecture.Orm.Common.IRepositoryProvider.IsDisposed
+  fullName: Startitecture.Orm.Common.IRepositoryProvider.IsDisposed
+  nameWithType: IRepositoryProvider.IsDisposed
+- uid: Startitecture.Orm.Common.IRepositoryProvider.IsDisposed*
+  name: IsDisposed
+  href: api/Startitecture.Orm.Common.IRepositoryProvider.html#Startitecture_Orm_Common_IRepositoryProvider_IsDisposed_
+  commentId: Overload:Startitecture.Orm.Common.IRepositoryProvider.IsDisposed
+  isSpec: "True"
+  fullName: Startitecture.Orm.Common.IRepositoryProvider.IsDisposed
+  nameWithType: IRepositoryProvider.IsDisposed
+- uid: Startitecture.Orm.Common.IRepositoryProvider.SelectEntities*
+  name: SelectEntities
+  href: api/Startitecture.Orm.Common.IRepositoryProvider.html#Startitecture_Orm_Common_IRepositoryProvider_SelectEntities_
+  commentId: Overload:Startitecture.Orm.Common.IRepositoryProvider.SelectEntities
+  isSpec: "True"
+  fullName: Startitecture.Orm.Common.IRepositoryProvider.SelectEntities
+  nameWithType: IRepositoryProvider.SelectEntities
+- uid: Startitecture.Orm.Common.IRepositoryProvider.SelectEntities``1(Startitecture.Orm.Model.EntitySelection{``0})
+  name: SelectEntities<T>(EntitySelection<T>)
+  href: api/Startitecture.Orm.Common.IRepositoryProvider.html#Startitecture_Orm_Common_IRepositoryProvider_SelectEntities__1_Startitecture_Orm_Model_EntitySelection___0__
+  commentId: M:Startitecture.Orm.Common.IRepositoryProvider.SelectEntities``1(Startitecture.Orm.Model.EntitySelection{``0})
+  name.vb: SelectEntities(Of T)(EntitySelection(Of T))
+  fullName: Startitecture.Orm.Common.IRepositoryProvider.SelectEntities<T>(Startitecture.Orm.Model.EntitySelection<T>)
+  fullName.vb: Startitecture.Orm.Common.IRepositoryProvider.SelectEntities(Of T)(Startitecture.Orm.Model.EntitySelection(Of T))
+  nameWithType: IRepositoryProvider.SelectEntities<T>(EntitySelection<T>)
+  nameWithType.vb: IRepositoryProvider.SelectEntities(Of T)(EntitySelection(Of T))
+- uid: Startitecture.Orm.Common.IRepositoryProvider.StartTransaction
+  name: StartTransaction()
+  href: api/Startitecture.Orm.Common.IRepositoryProvider.html#Startitecture_Orm_Common_IRepositoryProvider_StartTransaction
+  commentId: M:Startitecture.Orm.Common.IRepositoryProvider.StartTransaction
+  fullName: Startitecture.Orm.Common.IRepositoryProvider.StartTransaction()
+  nameWithType: IRepositoryProvider.StartTransaction()
+- uid: Startitecture.Orm.Common.IRepositoryProvider.StartTransaction(System.Data.IsolationLevel)
+  name: StartTransaction(IsolationLevel)
+  href: api/Startitecture.Orm.Common.IRepositoryProvider.html#Startitecture_Orm_Common_IRepositoryProvider_StartTransaction_System_Data_IsolationLevel_
+  commentId: M:Startitecture.Orm.Common.IRepositoryProvider.StartTransaction(System.Data.IsolationLevel)
+  fullName: Startitecture.Orm.Common.IRepositoryProvider.StartTransaction(System.Data.IsolationLevel)
+  nameWithType: IRepositoryProvider.StartTransaction(IsolationLevel)
+- uid: Startitecture.Orm.Common.IRepositoryProvider.StartTransaction*
+  name: StartTransaction
+  href: api/Startitecture.Orm.Common.IRepositoryProvider.html#Startitecture_Orm_Common_IRepositoryProvider_StartTransaction_
+  commentId: Overload:Startitecture.Orm.Common.IRepositoryProvider.StartTransaction
+  isSpec: "True"
+  fullName: Startitecture.Orm.Common.IRepositoryProvider.StartTransaction
+  nameWithType: IRepositoryProvider.StartTransaction
+- uid: Startitecture.Orm.Common.IRepositoryProvider.Update*
+  name: Update
+  href: api/Startitecture.Orm.Common.IRepositoryProvider.html#Startitecture_Orm_Common_IRepositoryProvider_Update_
+  commentId: Overload:Startitecture.Orm.Common.IRepositoryProvider.Update
+  isSpec: "True"
+  fullName: Startitecture.Orm.Common.IRepositoryProvider.Update
+  nameWithType: IRepositoryProvider.Update
+- uid: Startitecture.Orm.Common.IRepositoryProvider.Update``1(Startitecture.Orm.Model.UpdateSet{``0})
+  name: Update<T>(UpdateSet<T>)
+  href: api/Startitecture.Orm.Common.IRepositoryProvider.html#Startitecture_Orm_Common_IRepositoryProvider_Update__1_Startitecture_Orm_Model_UpdateSet___0__
+  commentId: M:Startitecture.Orm.Common.IRepositoryProvider.Update``1(Startitecture.Orm.Model.UpdateSet{``0})
+  name.vb: Update(Of T)(UpdateSet(Of T))
+  fullName: Startitecture.Orm.Common.IRepositoryProvider.Update<T>(Startitecture.Orm.Model.UpdateSet<T>)
+  fullName.vb: Startitecture.Orm.Common.IRepositoryProvider.Update(Of T)(Startitecture.Orm.Model.UpdateSet(Of T))
+  nameWithType: IRepositoryProvider.Update<T>(UpdateSet<T>)
+  nameWithType.vb: IRepositoryProvider.Update(Of T)(UpdateSet(Of T))
+- uid: Startitecture.Orm.Common.IRepositoryProvider.UpdateSingle*
+  name: UpdateSingle
+  href: api/Startitecture.Orm.Common.IRepositoryProvider.html#Startitecture_Orm_Common_IRepositoryProvider_UpdateSingle_
+  commentId: Overload:Startitecture.Orm.Common.IRepositoryProvider.UpdateSingle
+  isSpec: "True"
+  fullName: Startitecture.Orm.Common.IRepositoryProvider.UpdateSingle
+  nameWithType: IRepositoryProvider.UpdateSingle
+- uid: Startitecture.Orm.Common.IRepositoryProvider.UpdateSingle``1(``0,System.Linq.Expressions.Expression{System.Func{``0,System.Object}}[])
+  name: UpdateSingle<T>(T, Expression<Func<T, Object>>[])
+  href: api/Startitecture.Orm.Common.IRepositoryProvider.html#Startitecture_Orm_Common_IRepositoryProvider_UpdateSingle__1___0_System_Linq_Expressions_Expression_System_Func___0_System_Object_____
+  commentId: M:Startitecture.Orm.Common.IRepositoryProvider.UpdateSingle``1(``0,System.Linq.Expressions.Expression{System.Func{``0,System.Object}}[])
+  name.vb: UpdateSingle(Of T)(T, Expression(Of Func(Of T, Object))())
+  fullName: Startitecture.Orm.Common.IRepositoryProvider.UpdateSingle<T>(T, System.Linq.Expressions.Expression<System.Func<T, System.Object>>[])
+  fullName.vb: Startitecture.Orm.Common.IRepositoryProvider.UpdateSingle(Of T)(T, System.Linq.Expressions.Expression(Of System.Func(Of T, System.Object))())
+  nameWithType: IRepositoryProvider.UpdateSingle<T>(T, Expression<Func<T, Object>>[])
+  nameWithType.vb: IRepositoryProvider.UpdateSingle(Of T)(T, Expression(Of Func(Of T, Object))())
+- uid: Startitecture.Orm.Common.IRepositoryProviderFactory
+  name: IRepositoryProviderFactory
+  href: api/Startitecture.Orm.Common.IRepositoryProviderFactory.html
+  commentId: T:Startitecture.Orm.Common.IRepositoryProviderFactory
+  fullName: Startitecture.Orm.Common.IRepositoryProviderFactory
+  nameWithType: IRepositoryProviderFactory
+- uid: Startitecture.Orm.Common.IRepositoryProviderFactory.Create(System.String)
+  name: Create(String)
+  href: api/Startitecture.Orm.Common.IRepositoryProviderFactory.html#Startitecture_Orm_Common_IRepositoryProviderFactory_Create_System_String_
+  commentId: M:Startitecture.Orm.Common.IRepositoryProviderFactory.Create(System.String)
+  fullName: Startitecture.Orm.Common.IRepositoryProviderFactory.Create(System.String)
+  nameWithType: IRepositoryProviderFactory.Create(String)
+- uid: Startitecture.Orm.Common.IRepositoryProviderFactory.Create*
+  name: Create
+  href: api/Startitecture.Orm.Common.IRepositoryProviderFactory.html#Startitecture_Orm_Common_IRepositoryProviderFactory_Create_
+  commentId: Overload:Startitecture.Orm.Common.IRepositoryProviderFactory.Create
+  isSpec: "True"
+  fullName: Startitecture.Orm.Common.IRepositoryProviderFactory.Create
+  nameWithType: IRepositoryProviderFactory.Create
 - uid: Startitecture.Orm.Common.IStatementCompilerFactory
   name: IStatementCompilerFactory
   href: api/Startitecture.Orm.Common.IStatementCompilerFactory.html
@@ -3295,22 +3634,22 @@ references:
   fullName.vb: Startitecture.Orm.Common.ReadOnlyRepository(Of TModel, TEntity)
   nameWithType: ReadOnlyRepository<TModel, TEntity>
   nameWithType.vb: ReadOnlyRepository(Of TModel, TEntity)
-- uid: Startitecture.Orm.Common.ReadOnlyRepository`2.#ctor(Startitecture.Orm.Model.IRepositoryProvider,Startitecture.Orm.Model.IEntityMapper,System.Collections.Generic.IComparer{`1},System.Linq.Expressions.Expression{System.Func{`1,System.Object}}[])
+- uid: Startitecture.Orm.Common.ReadOnlyRepository`2.#ctor(Startitecture.Orm.Common.IRepositoryProvider,Startitecture.Orm.Model.IEntityMapper,System.Collections.Generic.IComparer{`1},System.Linq.Expressions.Expression{System.Func{`1,System.Object}}[])
   name: ReadOnlyRepository(IRepositoryProvider, IEntityMapper, IComparer<TEntity>, Expression<Func<TEntity, Object>>[])
-  href: api/Startitecture.Orm.Common.ReadOnlyRepository-2.html#Startitecture_Orm_Common_ReadOnlyRepository_2__ctor_Startitecture_Orm_Model_IRepositoryProvider_Startitecture_Orm_Model_IEntityMapper_System_Collections_Generic_IComparer__1__System_Linq_Expressions_Expression_System_Func__1_System_Object_____
-  commentId: M:Startitecture.Orm.Common.ReadOnlyRepository`2.#ctor(Startitecture.Orm.Model.IRepositoryProvider,Startitecture.Orm.Model.IEntityMapper,System.Collections.Generic.IComparer{`1},System.Linq.Expressions.Expression{System.Func{`1,System.Object}}[])
+  href: api/Startitecture.Orm.Common.ReadOnlyRepository-2.html#Startitecture_Orm_Common_ReadOnlyRepository_2__ctor_Startitecture_Orm_Common_IRepositoryProvider_Startitecture_Orm_Model_IEntityMapper_System_Collections_Generic_IComparer__1__System_Linq_Expressions_Expression_System_Func__1_System_Object_____
+  commentId: M:Startitecture.Orm.Common.ReadOnlyRepository`2.#ctor(Startitecture.Orm.Common.IRepositoryProvider,Startitecture.Orm.Model.IEntityMapper,System.Collections.Generic.IComparer{`1},System.Linq.Expressions.Expression{System.Func{`1,System.Object}}[])
   name.vb: ReadOnlyRepository(IRepositoryProvider, IEntityMapper, IComparer(Of TEntity), Expression(Of Func(Of TEntity, Object))())
-  fullName: Startitecture.Orm.Common.ReadOnlyRepository<TModel, TEntity>.ReadOnlyRepository(Startitecture.Orm.Model.IRepositoryProvider, Startitecture.Orm.Model.IEntityMapper, System.Collections.Generic.IComparer<TEntity>, System.Linq.Expressions.Expression<System.Func<TEntity, System.Object>>[])
-  fullName.vb: Startitecture.Orm.Common.ReadOnlyRepository(Of TModel, TEntity).ReadOnlyRepository(Startitecture.Orm.Model.IRepositoryProvider, Startitecture.Orm.Model.IEntityMapper, System.Collections.Generic.IComparer(Of TEntity), System.Linq.Expressions.Expression(Of System.Func(Of TEntity, System.Object))())
+  fullName: Startitecture.Orm.Common.ReadOnlyRepository<TModel, TEntity>.ReadOnlyRepository(Startitecture.Orm.Common.IRepositoryProvider, Startitecture.Orm.Model.IEntityMapper, System.Collections.Generic.IComparer<TEntity>, System.Linq.Expressions.Expression<System.Func<TEntity, System.Object>>[])
+  fullName.vb: Startitecture.Orm.Common.ReadOnlyRepository(Of TModel, TEntity).ReadOnlyRepository(Startitecture.Orm.Common.IRepositoryProvider, Startitecture.Orm.Model.IEntityMapper, System.Collections.Generic.IComparer(Of TEntity), System.Linq.Expressions.Expression(Of System.Func(Of TEntity, System.Object))())
   nameWithType: ReadOnlyRepository<TModel, TEntity>.ReadOnlyRepository(IRepositoryProvider, IEntityMapper, IComparer<TEntity>, Expression<Func<TEntity, Object>>[])
   nameWithType.vb: ReadOnlyRepository(Of TModel, TEntity).ReadOnlyRepository(IRepositoryProvider, IEntityMapper, IComparer(Of TEntity), Expression(Of Func(Of TEntity, Object))())
-- uid: Startitecture.Orm.Common.ReadOnlyRepository`2.#ctor(Startitecture.Orm.Model.IRepositoryProvider,Startitecture.Orm.Model.IEntityMapper,System.Linq.Expressions.Expression{System.Func{`1,System.Object}}[])
+- uid: Startitecture.Orm.Common.ReadOnlyRepository`2.#ctor(Startitecture.Orm.Common.IRepositoryProvider,Startitecture.Orm.Model.IEntityMapper,System.Linq.Expressions.Expression{System.Func{`1,System.Object}}[])
   name: ReadOnlyRepository(IRepositoryProvider, IEntityMapper, Expression<Func<TEntity, Object>>[])
-  href: api/Startitecture.Orm.Common.ReadOnlyRepository-2.html#Startitecture_Orm_Common_ReadOnlyRepository_2__ctor_Startitecture_Orm_Model_IRepositoryProvider_Startitecture_Orm_Model_IEntityMapper_System_Linq_Expressions_Expression_System_Func__1_System_Object_____
-  commentId: M:Startitecture.Orm.Common.ReadOnlyRepository`2.#ctor(Startitecture.Orm.Model.IRepositoryProvider,Startitecture.Orm.Model.IEntityMapper,System.Linq.Expressions.Expression{System.Func{`1,System.Object}}[])
+  href: api/Startitecture.Orm.Common.ReadOnlyRepository-2.html#Startitecture_Orm_Common_ReadOnlyRepository_2__ctor_Startitecture_Orm_Common_IRepositoryProvider_Startitecture_Orm_Model_IEntityMapper_System_Linq_Expressions_Expression_System_Func__1_System_Object_____
+  commentId: M:Startitecture.Orm.Common.ReadOnlyRepository`2.#ctor(Startitecture.Orm.Common.IRepositoryProvider,Startitecture.Orm.Model.IEntityMapper,System.Linq.Expressions.Expression{System.Func{`1,System.Object}}[])
   name.vb: ReadOnlyRepository(IRepositoryProvider, IEntityMapper, Expression(Of Func(Of TEntity, Object))())
-  fullName: Startitecture.Orm.Common.ReadOnlyRepository<TModel, TEntity>.ReadOnlyRepository(Startitecture.Orm.Model.IRepositoryProvider, Startitecture.Orm.Model.IEntityMapper, System.Linq.Expressions.Expression<System.Func<TEntity, System.Object>>[])
-  fullName.vb: Startitecture.Orm.Common.ReadOnlyRepository(Of TModel, TEntity).ReadOnlyRepository(Startitecture.Orm.Model.IRepositoryProvider, Startitecture.Orm.Model.IEntityMapper, System.Linq.Expressions.Expression(Of System.Func(Of TEntity, System.Object))())
+  fullName: Startitecture.Orm.Common.ReadOnlyRepository<TModel, TEntity>.ReadOnlyRepository(Startitecture.Orm.Common.IRepositoryProvider, Startitecture.Orm.Model.IEntityMapper, System.Linq.Expressions.Expression<System.Func<TEntity, System.Object>>[])
+  fullName.vb: Startitecture.Orm.Common.ReadOnlyRepository(Of TModel, TEntity).ReadOnlyRepository(Startitecture.Orm.Common.IRepositoryProvider, Startitecture.Orm.Model.IEntityMapper, System.Linq.Expressions.Expression(Of System.Func(Of TEntity, System.Object))())
   nameWithType: ReadOnlyRepository<TModel, TEntity>.ReadOnlyRepository(IRepositoryProvider, IEntityMapper, Expression<Func<TEntity, Object>>[])
   nameWithType.vb: ReadOnlyRepository(Of TModel, TEntity).ReadOnlyRepository(IRepositoryProvider, IEntityMapper, Expression(Of Func(Of TEntity, Object))())
 - uid: Startitecture.Orm.Common.ReadOnlyRepository`2.#ctor*
@@ -8364,332 +8703,6 @@ references:
   fullName.vb: Startitecture.Orm.Model.IReadOnlyRepository(Of TModel).SelectEntities(Of TItem)(Startitecture.Orm.Model.EntitySelection(Of TItem))
   nameWithType: IReadOnlyRepository<TModel>.SelectEntities<TItem>(EntitySelection<TItem>)
   nameWithType.vb: IReadOnlyRepository(Of TModel).SelectEntities(Of TItem)(EntitySelection(Of TItem))
-- uid: Startitecture.Orm.Model.IRepositoryProvider
-  name: IRepositoryProvider
-  href: api/Startitecture.Orm.Model.IRepositoryProvider.html
-  commentId: T:Startitecture.Orm.Model.IRepositoryProvider
-  fullName: Startitecture.Orm.Model.IRepositoryProvider
-  nameWithType: IRepositoryProvider
-- uid: Startitecture.Orm.Model.IRepositoryProvider.CacheExpiration
-  name: CacheExpiration
-  href: api/Startitecture.Orm.Model.IRepositoryProvider.html#Startitecture_Orm_Model_IRepositoryProvider_CacheExpiration
-  commentId: P:Startitecture.Orm.Model.IRepositoryProvider.CacheExpiration
-  fullName: Startitecture.Orm.Model.IRepositoryProvider.CacheExpiration
-  nameWithType: IRepositoryProvider.CacheExpiration
-- uid: Startitecture.Orm.Model.IRepositoryProvider.CacheExpiration*
-  name: CacheExpiration
-  href: api/Startitecture.Orm.Model.IRepositoryProvider.html#Startitecture_Orm_Model_IRepositoryProvider_CacheExpiration_
-  commentId: Overload:Startitecture.Orm.Model.IRepositoryProvider.CacheExpiration
-  isSpec: "True"
-  fullName: Startitecture.Orm.Model.IRepositoryProvider.CacheExpiration
-  nameWithType: IRepositoryProvider.CacheExpiration
-- uid: Startitecture.Orm.Model.IRepositoryProvider.ChangeDatabase(System.String)
-  name: ChangeDatabase(String)
-  href: api/Startitecture.Orm.Model.IRepositoryProvider.html#Startitecture_Orm_Model_IRepositoryProvider_ChangeDatabase_System_String_
-  commentId: M:Startitecture.Orm.Model.IRepositoryProvider.ChangeDatabase(System.String)
-  fullName: Startitecture.Orm.Model.IRepositoryProvider.ChangeDatabase(System.String)
-  nameWithType: IRepositoryProvider.ChangeDatabase(String)
-- uid: Startitecture.Orm.Model.IRepositoryProvider.ChangeDatabase*
-  name: ChangeDatabase
-  href: api/Startitecture.Orm.Model.IRepositoryProvider.html#Startitecture_Orm_Model_IRepositoryProvider_ChangeDatabase_
-  commentId: Overload:Startitecture.Orm.Model.IRepositoryProvider.ChangeDatabase
-  isSpec: "True"
-  fullName: Startitecture.Orm.Model.IRepositoryProvider.ChangeDatabase
-  nameWithType: IRepositoryProvider.ChangeDatabase
-- uid: Startitecture.Orm.Model.IRepositoryProvider.Contains*
-  name: Contains
-  href: api/Startitecture.Orm.Model.IRepositoryProvider.html#Startitecture_Orm_Model_IRepositoryProvider_Contains_
-  commentId: Overload:Startitecture.Orm.Model.IRepositoryProvider.Contains
-  isSpec: "True"
-  fullName: Startitecture.Orm.Model.IRepositoryProvider.Contains
-  nameWithType: IRepositoryProvider.Contains
-- uid: Startitecture.Orm.Model.IRepositoryProvider.Contains``1(Startitecture.Orm.Model.EntitySet{``0})
-  name: Contains<T>(EntitySet<T>)
-  href: api/Startitecture.Orm.Model.IRepositoryProvider.html#Startitecture_Orm_Model_IRepositoryProvider_Contains__1_Startitecture_Orm_Model_EntitySet___0__
-  commentId: M:Startitecture.Orm.Model.IRepositoryProvider.Contains``1(Startitecture.Orm.Model.EntitySet{``0})
-  name.vb: Contains(Of T)(EntitySet(Of T))
-  fullName: Startitecture.Orm.Model.IRepositoryProvider.Contains<T>(Startitecture.Orm.Model.EntitySet<T>)
-  fullName.vb: Startitecture.Orm.Model.IRepositoryProvider.Contains(Of T)(Startitecture.Orm.Model.EntitySet(Of T))
-  nameWithType: IRepositoryProvider.Contains<T>(EntitySet<T>)
-  nameWithType.vb: IRepositoryProvider.Contains(Of T)(EntitySet(Of T))
-- uid: Startitecture.Orm.Model.IRepositoryProvider.Delete*
-  name: Delete
-  href: api/Startitecture.Orm.Model.IRepositoryProvider.html#Startitecture_Orm_Model_IRepositoryProvider_Delete_
-  commentId: Overload:Startitecture.Orm.Model.IRepositoryProvider.Delete
-  isSpec: "True"
-  fullName: Startitecture.Orm.Model.IRepositoryProvider.Delete
-  nameWithType: IRepositoryProvider.Delete
-- uid: Startitecture.Orm.Model.IRepositoryProvider.Delete``1(Startitecture.Orm.Model.EntitySelection{``0})
-  name: Delete<T>(EntitySelection<T>)
-  href: api/Startitecture.Orm.Model.IRepositoryProvider.html#Startitecture_Orm_Model_IRepositoryProvider_Delete__1_Startitecture_Orm_Model_EntitySelection___0__
-  commentId: M:Startitecture.Orm.Model.IRepositoryProvider.Delete``1(Startitecture.Orm.Model.EntitySelection{``0})
-  name.vb: Delete(Of T)(EntitySelection(Of T))
-  fullName: Startitecture.Orm.Model.IRepositoryProvider.Delete<T>(Startitecture.Orm.Model.EntitySelection<T>)
-  fullName.vb: Startitecture.Orm.Model.IRepositoryProvider.Delete(Of T)(Startitecture.Orm.Model.EntitySelection(Of T))
-  nameWithType: IRepositoryProvider.Delete<T>(EntitySelection<T>)
-  nameWithType.vb: IRepositoryProvider.Delete(Of T)(EntitySelection(Of T))
-- uid: Startitecture.Orm.Model.IRepositoryProvider.Disposed
-  name: Disposed
-  href: api/Startitecture.Orm.Model.IRepositoryProvider.html#Startitecture_Orm_Model_IRepositoryProvider_Disposed
-  commentId: E:Startitecture.Orm.Model.IRepositoryProvider.Disposed
-  fullName: Startitecture.Orm.Model.IRepositoryProvider.Disposed
-  nameWithType: IRepositoryProvider.Disposed
-- uid: Startitecture.Orm.Model.IRepositoryProvider.DynamicFirstOrDefault(Startitecture.Orm.Model.ISelection)
-  name: DynamicFirstOrDefault(ISelection)
-  href: api/Startitecture.Orm.Model.IRepositoryProvider.html#Startitecture_Orm_Model_IRepositoryProvider_DynamicFirstOrDefault_Startitecture_Orm_Model_ISelection_
-  commentId: M:Startitecture.Orm.Model.IRepositoryProvider.DynamicFirstOrDefault(Startitecture.Orm.Model.ISelection)
-  fullName: Startitecture.Orm.Model.IRepositoryProvider.DynamicFirstOrDefault(Startitecture.Orm.Model.ISelection)
-  nameWithType: IRepositoryProvider.DynamicFirstOrDefault(ISelection)
-- uid: Startitecture.Orm.Model.IRepositoryProvider.DynamicFirstOrDefault*
-  name: DynamicFirstOrDefault
-  href: api/Startitecture.Orm.Model.IRepositoryProvider.html#Startitecture_Orm_Model_IRepositoryProvider_DynamicFirstOrDefault_
-  commentId: Overload:Startitecture.Orm.Model.IRepositoryProvider.DynamicFirstOrDefault
-  isSpec: "True"
-  fullName: Startitecture.Orm.Model.IRepositoryProvider.DynamicFirstOrDefault
-  nameWithType: IRepositoryProvider.DynamicFirstOrDefault
-- uid: Startitecture.Orm.Model.IRepositoryProvider.DynamicSelect(Startitecture.Orm.Model.ISelection)
-  name: DynamicSelect(ISelection)
-  href: api/Startitecture.Orm.Model.IRepositoryProvider.html#Startitecture_Orm_Model_IRepositoryProvider_DynamicSelect_Startitecture_Orm_Model_ISelection_
-  commentId: M:Startitecture.Orm.Model.IRepositoryProvider.DynamicSelect(Startitecture.Orm.Model.ISelection)
-  fullName: Startitecture.Orm.Model.IRepositoryProvider.DynamicSelect(Startitecture.Orm.Model.ISelection)
-  nameWithType: IRepositoryProvider.DynamicSelect(ISelection)
-- uid: Startitecture.Orm.Model.IRepositoryProvider.DynamicSelect*
-  name: DynamicSelect
-  href: api/Startitecture.Orm.Model.IRepositoryProvider.html#Startitecture_Orm_Model_IRepositoryProvider_DynamicSelect_
-  commentId: Overload:Startitecture.Orm.Model.IRepositoryProvider.DynamicSelect
-  isSpec: "True"
-  fullName: Startitecture.Orm.Model.IRepositoryProvider.DynamicSelect
-  nameWithType: IRepositoryProvider.DynamicSelect
-- uid: Startitecture.Orm.Model.IRepositoryProvider.EnableCaching
-  name: EnableCaching
-  href: api/Startitecture.Orm.Model.IRepositoryProvider.html#Startitecture_Orm_Model_IRepositoryProvider_EnableCaching
-  commentId: P:Startitecture.Orm.Model.IRepositoryProvider.EnableCaching
-  fullName: Startitecture.Orm.Model.IRepositoryProvider.EnableCaching
-  nameWithType: IRepositoryProvider.EnableCaching
-- uid: Startitecture.Orm.Model.IRepositoryProvider.EnableCaching*
-  name: EnableCaching
-  href: api/Startitecture.Orm.Model.IRepositoryProvider.html#Startitecture_Orm_Model_IRepositoryProvider_EnableCaching_
-  commentId: Overload:Startitecture.Orm.Model.IRepositoryProvider.EnableCaching
-  isSpec: "True"
-  fullName: Startitecture.Orm.Model.IRepositoryProvider.EnableCaching
-  nameWithType: IRepositoryProvider.EnableCaching
-- uid: Startitecture.Orm.Model.IRepositoryProvider.EntityDefinitionProvider
-  name: EntityDefinitionProvider
-  href: api/Startitecture.Orm.Model.IRepositoryProvider.html#Startitecture_Orm_Model_IRepositoryProvider_EntityDefinitionProvider
-  commentId: P:Startitecture.Orm.Model.IRepositoryProvider.EntityDefinitionProvider
-  fullName: Startitecture.Orm.Model.IRepositoryProvider.EntityDefinitionProvider
-  nameWithType: IRepositoryProvider.EntityDefinitionProvider
-- uid: Startitecture.Orm.Model.IRepositoryProvider.EntityDefinitionProvider*
-  name: EntityDefinitionProvider
-  href: api/Startitecture.Orm.Model.IRepositoryProvider.html#Startitecture_Orm_Model_IRepositoryProvider_EntityDefinitionProvider_
-  commentId: Overload:Startitecture.Orm.Model.IRepositoryProvider.EntityDefinitionProvider
-  isSpec: "True"
-  fullName: Startitecture.Orm.Model.IRepositoryProvider.EntityDefinitionProvider
-  nameWithType: IRepositoryProvider.EntityDefinitionProvider
-- uid: Startitecture.Orm.Model.IRepositoryProvider.Execute(System.String,System.Object[])
-  name: Execute(String, Object[])
-  href: api/Startitecture.Orm.Model.IRepositoryProvider.html#Startitecture_Orm_Model_IRepositoryProvider_Execute_System_String_System_Object___
-  commentId: M:Startitecture.Orm.Model.IRepositoryProvider.Execute(System.String,System.Object[])
-  name.vb: Execute(String, Object())
-  fullName: Startitecture.Orm.Model.IRepositoryProvider.Execute(System.String, System.Object[])
-  fullName.vb: Startitecture.Orm.Model.IRepositoryProvider.Execute(System.String, System.Object())
-  nameWithType: IRepositoryProvider.Execute(String, Object[])
-  nameWithType.vb: IRepositoryProvider.Execute(String, Object())
-- uid: Startitecture.Orm.Model.IRepositoryProvider.Execute*
-  name: Execute
-  href: api/Startitecture.Orm.Model.IRepositoryProvider.html#Startitecture_Orm_Model_IRepositoryProvider_Execute_
-  commentId: Overload:Startitecture.Orm.Model.IRepositoryProvider.Execute
-  isSpec: "True"
-  fullName: Startitecture.Orm.Model.IRepositoryProvider.Execute
-  nameWithType: IRepositoryProvider.Execute
-- uid: Startitecture.Orm.Model.IRepositoryProvider.ExecuteForResult(System.String,System.Object[])
-  name: ExecuteForResult(String, Object[])
-  href: api/Startitecture.Orm.Model.IRepositoryProvider.html#Startitecture_Orm_Model_IRepositoryProvider_ExecuteForResult_System_String_System_Object___
-  commentId: M:Startitecture.Orm.Model.IRepositoryProvider.ExecuteForResult(System.String,System.Object[])
-  name.vb: ExecuteForResult(String, Object())
-  fullName: Startitecture.Orm.Model.IRepositoryProvider.ExecuteForResult(System.String, System.Object[])
-  fullName.vb: Startitecture.Orm.Model.IRepositoryProvider.ExecuteForResult(System.String, System.Object())
-  nameWithType: IRepositoryProvider.ExecuteForResult(String, Object[])
-  nameWithType.vb: IRepositoryProvider.ExecuteForResult(String, Object())
-- uid: Startitecture.Orm.Model.IRepositoryProvider.ExecuteForResult*
-  name: ExecuteForResult
-  href: api/Startitecture.Orm.Model.IRepositoryProvider.html#Startitecture_Orm_Model_IRepositoryProvider_ExecuteForResult_
-  commentId: Overload:Startitecture.Orm.Model.IRepositoryProvider.ExecuteForResult
-  isSpec: "True"
-  fullName: Startitecture.Orm.Model.IRepositoryProvider.ExecuteForResult
-  nameWithType: IRepositoryProvider.ExecuteForResult
-- uid: Startitecture.Orm.Model.IRepositoryProvider.ExecuteForResult``1(System.String,System.Object[])
-  name: ExecuteForResult<T>(String, Object[])
-  href: api/Startitecture.Orm.Model.IRepositoryProvider.html#Startitecture_Orm_Model_IRepositoryProvider_ExecuteForResult__1_System_String_System_Object___
-  commentId: M:Startitecture.Orm.Model.IRepositoryProvider.ExecuteForResult``1(System.String,System.Object[])
-  name.vb: ExecuteForResult(Of T)(String, Object())
-  fullName: Startitecture.Orm.Model.IRepositoryProvider.ExecuteForResult<T>(System.String, System.Object[])
-  fullName.vb: Startitecture.Orm.Model.IRepositoryProvider.ExecuteForResult(Of T)(System.String, System.Object())
-  nameWithType: IRepositoryProvider.ExecuteForResult<T>(String, Object[])
-  nameWithType.vb: IRepositoryProvider.ExecuteForResult(Of T)(String, Object())
-- uid: Startitecture.Orm.Model.IRepositoryProvider.ExecuteScalar*
-  name: ExecuteScalar
-  href: api/Startitecture.Orm.Model.IRepositoryProvider.html#Startitecture_Orm_Model_IRepositoryProvider_ExecuteScalar_
-  commentId: Overload:Startitecture.Orm.Model.IRepositoryProvider.ExecuteScalar
-  isSpec: "True"
-  fullName: Startitecture.Orm.Model.IRepositoryProvider.ExecuteScalar
-  nameWithType: IRepositoryProvider.ExecuteScalar
-- uid: Startitecture.Orm.Model.IRepositoryProvider.ExecuteScalar``1(System.String,System.Object[])
-  name: ExecuteScalar<T>(String, Object[])
-  href: api/Startitecture.Orm.Model.IRepositoryProvider.html#Startitecture_Orm_Model_IRepositoryProvider_ExecuteScalar__1_System_String_System_Object___
-  commentId: M:Startitecture.Orm.Model.IRepositoryProvider.ExecuteScalar``1(System.String,System.Object[])
-  name.vb: ExecuteScalar(Of T)(String, Object())
-  fullName: Startitecture.Orm.Model.IRepositoryProvider.ExecuteScalar<T>(System.String, System.Object[])
-  fullName.vb: Startitecture.Orm.Model.IRepositoryProvider.ExecuteScalar(Of T)(System.String, System.Object())
-  nameWithType: IRepositoryProvider.ExecuteScalar<T>(String, Object[])
-  nameWithType.vb: IRepositoryProvider.ExecuteScalar(Of T)(String, Object())
-- uid: Startitecture.Orm.Model.IRepositoryProvider.FirstOrDefault*
-  name: FirstOrDefault
-  href: api/Startitecture.Orm.Model.IRepositoryProvider.html#Startitecture_Orm_Model_IRepositoryProvider_FirstOrDefault_
-  commentId: Overload:Startitecture.Orm.Model.IRepositoryProvider.FirstOrDefault
-  isSpec: "True"
-  fullName: Startitecture.Orm.Model.IRepositoryProvider.FirstOrDefault
-  nameWithType: IRepositoryProvider.FirstOrDefault
-- uid: Startitecture.Orm.Model.IRepositoryProvider.FirstOrDefault``1(Startitecture.Orm.Model.EntitySelection{``0})
-  name: FirstOrDefault<T>(EntitySelection<T>)
-  href: api/Startitecture.Orm.Model.IRepositoryProvider.html#Startitecture_Orm_Model_IRepositoryProvider_FirstOrDefault__1_Startitecture_Orm_Model_EntitySelection___0__
-  commentId: M:Startitecture.Orm.Model.IRepositoryProvider.FirstOrDefault``1(Startitecture.Orm.Model.EntitySelection{``0})
-  name.vb: FirstOrDefault(Of T)(EntitySelection(Of T))
-  fullName: Startitecture.Orm.Model.IRepositoryProvider.FirstOrDefault<T>(Startitecture.Orm.Model.EntitySelection<T>)
-  fullName.vb: Startitecture.Orm.Model.IRepositoryProvider.FirstOrDefault(Of T)(Startitecture.Orm.Model.EntitySelection(Of T))
-  nameWithType: IRepositoryProvider.FirstOrDefault<T>(EntitySelection<T>)
-  nameWithType.vb: IRepositoryProvider.FirstOrDefault(Of T)(EntitySelection(Of T))
-- uid: Startitecture.Orm.Model.IRepositoryProvider.GetScalar*
-  name: GetScalar
-  href: api/Startitecture.Orm.Model.IRepositoryProvider.html#Startitecture_Orm_Model_IRepositoryProvider_GetScalar_
-  commentId: Overload:Startitecture.Orm.Model.IRepositoryProvider.GetScalar
-  isSpec: "True"
-  fullName: Startitecture.Orm.Model.IRepositoryProvider.GetScalar
-  nameWithType: IRepositoryProvider.GetScalar
-- uid: Startitecture.Orm.Model.IRepositoryProvider.GetScalar``1(Startitecture.Orm.Model.ISelection)
-  name: GetScalar<T>(ISelection)
-  href: api/Startitecture.Orm.Model.IRepositoryProvider.html#Startitecture_Orm_Model_IRepositoryProvider_GetScalar__1_Startitecture_Orm_Model_ISelection_
-  commentId: M:Startitecture.Orm.Model.IRepositoryProvider.GetScalar``1(Startitecture.Orm.Model.ISelection)
-  name.vb: GetScalar(Of T)(ISelection)
-  fullName: Startitecture.Orm.Model.IRepositoryProvider.GetScalar<T>(Startitecture.Orm.Model.ISelection)
-  fullName.vb: Startitecture.Orm.Model.IRepositoryProvider.GetScalar(Of T)(Startitecture.Orm.Model.ISelection)
-  nameWithType: IRepositoryProvider.GetScalar<T>(ISelection)
-  nameWithType.vb: IRepositoryProvider.GetScalar(Of T)(ISelection)
-- uid: Startitecture.Orm.Model.IRepositoryProvider.Insert*
-  name: Insert
-  href: api/Startitecture.Orm.Model.IRepositoryProvider.html#Startitecture_Orm_Model_IRepositoryProvider_Insert_
-  commentId: Overload:Startitecture.Orm.Model.IRepositoryProvider.Insert
-  isSpec: "True"
-  fullName: Startitecture.Orm.Model.IRepositoryProvider.Insert
-  nameWithType: IRepositoryProvider.Insert
-- uid: Startitecture.Orm.Model.IRepositoryProvider.Insert``1(``0)
-  name: Insert<T>(T)
-  href: api/Startitecture.Orm.Model.IRepositoryProvider.html#Startitecture_Orm_Model_IRepositoryProvider_Insert__1___0_
-  commentId: M:Startitecture.Orm.Model.IRepositoryProvider.Insert``1(``0)
-  name.vb: Insert(Of T)(T)
-  fullName: Startitecture.Orm.Model.IRepositoryProvider.Insert<T>(T)
-  fullName.vb: Startitecture.Orm.Model.IRepositoryProvider.Insert(Of T)(T)
-  nameWithType: IRepositoryProvider.Insert<T>(T)
-  nameWithType.vb: IRepositoryProvider.Insert(Of T)(T)
-- uid: Startitecture.Orm.Model.IRepositoryProvider.IsDisposed
-  name: IsDisposed
-  href: api/Startitecture.Orm.Model.IRepositoryProvider.html#Startitecture_Orm_Model_IRepositoryProvider_IsDisposed
-  commentId: P:Startitecture.Orm.Model.IRepositoryProvider.IsDisposed
-  fullName: Startitecture.Orm.Model.IRepositoryProvider.IsDisposed
-  nameWithType: IRepositoryProvider.IsDisposed
-- uid: Startitecture.Orm.Model.IRepositoryProvider.IsDisposed*
-  name: IsDisposed
-  href: api/Startitecture.Orm.Model.IRepositoryProvider.html#Startitecture_Orm_Model_IRepositoryProvider_IsDisposed_
-  commentId: Overload:Startitecture.Orm.Model.IRepositoryProvider.IsDisposed
-  isSpec: "True"
-  fullName: Startitecture.Orm.Model.IRepositoryProvider.IsDisposed
-  nameWithType: IRepositoryProvider.IsDisposed
-- uid: Startitecture.Orm.Model.IRepositoryProvider.SelectEntities*
-  name: SelectEntities
-  href: api/Startitecture.Orm.Model.IRepositoryProvider.html#Startitecture_Orm_Model_IRepositoryProvider_SelectEntities_
-  commentId: Overload:Startitecture.Orm.Model.IRepositoryProvider.SelectEntities
-  isSpec: "True"
-  fullName: Startitecture.Orm.Model.IRepositoryProvider.SelectEntities
-  nameWithType: IRepositoryProvider.SelectEntities
-- uid: Startitecture.Orm.Model.IRepositoryProvider.SelectEntities``1(Startitecture.Orm.Model.EntitySelection{``0})
-  name: SelectEntities<T>(EntitySelection<T>)
-  href: api/Startitecture.Orm.Model.IRepositoryProvider.html#Startitecture_Orm_Model_IRepositoryProvider_SelectEntities__1_Startitecture_Orm_Model_EntitySelection___0__
-  commentId: M:Startitecture.Orm.Model.IRepositoryProvider.SelectEntities``1(Startitecture.Orm.Model.EntitySelection{``0})
-  name.vb: SelectEntities(Of T)(EntitySelection(Of T))
-  fullName: Startitecture.Orm.Model.IRepositoryProvider.SelectEntities<T>(Startitecture.Orm.Model.EntitySelection<T>)
-  fullName.vb: Startitecture.Orm.Model.IRepositoryProvider.SelectEntities(Of T)(Startitecture.Orm.Model.EntitySelection(Of T))
-  nameWithType: IRepositoryProvider.SelectEntities<T>(EntitySelection<T>)
-  nameWithType.vb: IRepositoryProvider.SelectEntities(Of T)(EntitySelection(Of T))
-- uid: Startitecture.Orm.Model.IRepositoryProvider.StartTransaction
-  name: StartTransaction()
-  href: api/Startitecture.Orm.Model.IRepositoryProvider.html#Startitecture_Orm_Model_IRepositoryProvider_StartTransaction
-  commentId: M:Startitecture.Orm.Model.IRepositoryProvider.StartTransaction
-  fullName: Startitecture.Orm.Model.IRepositoryProvider.StartTransaction()
-  nameWithType: IRepositoryProvider.StartTransaction()
-- uid: Startitecture.Orm.Model.IRepositoryProvider.StartTransaction(System.Data.IsolationLevel)
-  name: StartTransaction(IsolationLevel)
-  href: api/Startitecture.Orm.Model.IRepositoryProvider.html#Startitecture_Orm_Model_IRepositoryProvider_StartTransaction_System_Data_IsolationLevel_
-  commentId: M:Startitecture.Orm.Model.IRepositoryProvider.StartTransaction(System.Data.IsolationLevel)
-  fullName: Startitecture.Orm.Model.IRepositoryProvider.StartTransaction(System.Data.IsolationLevel)
-  nameWithType: IRepositoryProvider.StartTransaction(IsolationLevel)
-- uid: Startitecture.Orm.Model.IRepositoryProvider.StartTransaction*
-  name: StartTransaction
-  href: api/Startitecture.Orm.Model.IRepositoryProvider.html#Startitecture_Orm_Model_IRepositoryProvider_StartTransaction_
-  commentId: Overload:Startitecture.Orm.Model.IRepositoryProvider.StartTransaction
-  isSpec: "True"
-  fullName: Startitecture.Orm.Model.IRepositoryProvider.StartTransaction
-  nameWithType: IRepositoryProvider.StartTransaction
-- uid: Startitecture.Orm.Model.IRepositoryProvider.Update*
-  name: Update
-  href: api/Startitecture.Orm.Model.IRepositoryProvider.html#Startitecture_Orm_Model_IRepositoryProvider_Update_
-  commentId: Overload:Startitecture.Orm.Model.IRepositoryProvider.Update
-  isSpec: "True"
-  fullName: Startitecture.Orm.Model.IRepositoryProvider.Update
-  nameWithType: IRepositoryProvider.Update
-- uid: Startitecture.Orm.Model.IRepositoryProvider.Update``1(Startitecture.Orm.Model.UpdateSet{``0})
-  name: Update<T>(UpdateSet<T>)
-  href: api/Startitecture.Orm.Model.IRepositoryProvider.html#Startitecture_Orm_Model_IRepositoryProvider_Update__1_Startitecture_Orm_Model_UpdateSet___0__
-  commentId: M:Startitecture.Orm.Model.IRepositoryProvider.Update``1(Startitecture.Orm.Model.UpdateSet{``0})
-  name.vb: Update(Of T)(UpdateSet(Of T))
-  fullName: Startitecture.Orm.Model.IRepositoryProvider.Update<T>(Startitecture.Orm.Model.UpdateSet<T>)
-  fullName.vb: Startitecture.Orm.Model.IRepositoryProvider.Update(Of T)(Startitecture.Orm.Model.UpdateSet(Of T))
-  nameWithType: IRepositoryProvider.Update<T>(UpdateSet<T>)
-  nameWithType.vb: IRepositoryProvider.Update(Of T)(UpdateSet(Of T))
-- uid: Startitecture.Orm.Model.IRepositoryProvider.UpdateSingle*
-  name: UpdateSingle
-  href: api/Startitecture.Orm.Model.IRepositoryProvider.html#Startitecture_Orm_Model_IRepositoryProvider_UpdateSingle_
-  commentId: Overload:Startitecture.Orm.Model.IRepositoryProvider.UpdateSingle
-  isSpec: "True"
-  fullName: Startitecture.Orm.Model.IRepositoryProvider.UpdateSingle
-  nameWithType: IRepositoryProvider.UpdateSingle
-- uid: Startitecture.Orm.Model.IRepositoryProvider.UpdateSingle``1(``0,System.Linq.Expressions.Expression{System.Func{``0,System.Object}}[])
-  name: UpdateSingle<T>(T, Expression<Func<T, Object>>[])
-  href: api/Startitecture.Orm.Model.IRepositoryProvider.html#Startitecture_Orm_Model_IRepositoryProvider_UpdateSingle__1___0_System_Linq_Expressions_Expression_System_Func___0_System_Object_____
-  commentId: M:Startitecture.Orm.Model.IRepositoryProvider.UpdateSingle``1(``0,System.Linq.Expressions.Expression{System.Func{``0,System.Object}}[])
-  name.vb: UpdateSingle(Of T)(T, Expression(Of Func(Of T, Object))())
-  fullName: Startitecture.Orm.Model.IRepositoryProvider.UpdateSingle<T>(T, System.Linq.Expressions.Expression<System.Func<T, System.Object>>[])
-  fullName.vb: Startitecture.Orm.Model.IRepositoryProvider.UpdateSingle(Of T)(T, System.Linq.Expressions.Expression(Of System.Func(Of T, System.Object))())
-  nameWithType: IRepositoryProvider.UpdateSingle<T>(T, Expression<Func<T, Object>>[])
-  nameWithType.vb: IRepositoryProvider.UpdateSingle(Of T)(T, Expression(Of Func(Of T, Object))())
-- uid: Startitecture.Orm.Model.IRepositoryProviderFactory
-  name: IRepositoryProviderFactory
-  href: api/Startitecture.Orm.Model.IRepositoryProviderFactory.html
-  commentId: T:Startitecture.Orm.Model.IRepositoryProviderFactory
-  fullName: Startitecture.Orm.Model.IRepositoryProviderFactory
-  nameWithType: IRepositoryProviderFactory
-- uid: Startitecture.Orm.Model.IRepositoryProviderFactory.Create
-  name: Create()
-  href: api/Startitecture.Orm.Model.IRepositoryProviderFactory.html#Startitecture_Orm_Model_IRepositoryProviderFactory_Create
-  commentId: M:Startitecture.Orm.Model.IRepositoryProviderFactory.Create
-  fullName: Startitecture.Orm.Model.IRepositoryProviderFactory.Create()
-  nameWithType: IRepositoryProviderFactory.Create()
-- uid: Startitecture.Orm.Model.IRepositoryProviderFactory.Create*
-  name: Create
-  href: api/Startitecture.Orm.Model.IRepositoryProviderFactory.html#Startitecture_Orm_Model_IRepositoryProviderFactory_Create_
-  commentId: Overload:Startitecture.Orm.Model.IRepositoryProviderFactory.Create
-  isSpec: "True"
-  fullName: Startitecture.Orm.Model.IRepositoryProviderFactory.Create
-  nameWithType: IRepositoryProviderFactory.Create
 - uid: Startitecture.Orm.Model.ISelection
   name: ISelection
   href: api/Startitecture.Orm.Model.ISelection.html
@@ -9947,6 +9960,24 @@ references:
   fullName.vb: Startitecture.Orm.PostgreSql.JsonInsert(Of T).InsertInto
   nameWithType: JsonInsert<T>.InsertInto
   nameWithType.vb: JsonInsert(Of T).InsertInto
+- uid: Startitecture.Orm.PostgreSql.JsonInsert`1.OnConflict(System.Linq.Expressions.Expression{System.Func{`0,System.Object}}[])
+  name: OnConflict(Expression<Func<T, Object>>[])
+  href: api/Startitecture.Orm.PostgreSql.JsonInsert-1.html#Startitecture_Orm_PostgreSql_JsonInsert_1_OnConflict_System_Linq_Expressions_Expression_System_Func__0_System_Object_____
+  commentId: M:Startitecture.Orm.PostgreSql.JsonInsert`1.OnConflict(System.Linq.Expressions.Expression{System.Func{`0,System.Object}}[])
+  name.vb: OnConflict(Expression(Of Func(Of T, Object))())
+  fullName: Startitecture.Orm.PostgreSql.JsonInsert<T>.OnConflict(System.Linq.Expressions.Expression<System.Func<T, System.Object>>[])
+  fullName.vb: Startitecture.Orm.PostgreSql.JsonInsert(Of T).OnConflict(System.Linq.Expressions.Expression(Of System.Func(Of T, System.Object))())
+  nameWithType: JsonInsert<T>.OnConflict(Expression<Func<T, Object>>[])
+  nameWithType.vb: JsonInsert(Of T).OnConflict(Expression(Of Func(Of T, Object))())
+- uid: Startitecture.Orm.PostgreSql.JsonInsert`1.OnConflict*
+  name: OnConflict
+  href: api/Startitecture.Orm.PostgreSql.JsonInsert-1.html#Startitecture_Orm_PostgreSql_JsonInsert_1_OnConflict_
+  commentId: Overload:Startitecture.Orm.PostgreSql.JsonInsert`1.OnConflict
+  isSpec: "True"
+  fullName: Startitecture.Orm.PostgreSql.JsonInsert<T>.OnConflict
+  fullName.vb: Startitecture.Orm.PostgreSql.JsonInsert(Of T).OnConflict
+  nameWithType: JsonInsert<T>.OnConflict
+  nameWithType.vb: JsonInsert(Of T).OnConflict
 - uid: Startitecture.Orm.PostgreSql.JsonInsert`1.OnConflictDoNothing
   name: OnConflictDoNothing()
   href: api/Startitecture.Orm.PostgreSql.JsonInsert-1.html#Startitecture_Orm_PostgreSql_JsonInsert_1_OnConflictDoNothing
@@ -9964,24 +9995,6 @@ references:
   fullName.vb: Startitecture.Orm.PostgreSql.JsonInsert(Of T).OnConflictDoNothing
   nameWithType: JsonInsert<T>.OnConflictDoNothing
   nameWithType.vb: JsonInsert(Of T).OnConflictDoNothing
-- uid: Startitecture.Orm.PostgreSql.JsonInsert`1.OnConflictDoUpdate(System.Linq.Expressions.Expression{System.Func{`0,System.Object}}[])
-  name: OnConflictDoUpdate(Expression<Func<T, Object>>[])
-  href: api/Startitecture.Orm.PostgreSql.JsonInsert-1.html#Startitecture_Orm_PostgreSql_JsonInsert_1_OnConflictDoUpdate_System_Linq_Expressions_Expression_System_Func__0_System_Object_____
-  commentId: M:Startitecture.Orm.PostgreSql.JsonInsert`1.OnConflictDoUpdate(System.Linq.Expressions.Expression{System.Func{`0,System.Object}}[])
-  name.vb: OnConflictDoUpdate(Expression(Of Func(Of T, Object))())
-  fullName: Startitecture.Orm.PostgreSql.JsonInsert<T>.OnConflictDoUpdate(System.Linq.Expressions.Expression<System.Func<T, System.Object>>[])
-  fullName.vb: Startitecture.Orm.PostgreSql.JsonInsert(Of T).OnConflictDoUpdate(System.Linq.Expressions.Expression(Of System.Func(Of T, System.Object))())
-  nameWithType: JsonInsert<T>.OnConflictDoUpdate(Expression<Func<T, Object>>[])
-  nameWithType.vb: JsonInsert(Of T).OnConflictDoUpdate(Expression(Of Func(Of T, Object))())
-- uid: Startitecture.Orm.PostgreSql.JsonInsert`1.OnConflictDoUpdate*
-  name: OnConflictDoUpdate
-  href: api/Startitecture.Orm.PostgreSql.JsonInsert-1.html#Startitecture_Orm_PostgreSql_JsonInsert_1_OnConflictDoUpdate_
-  commentId: Overload:Startitecture.Orm.PostgreSql.JsonInsert`1.OnConflictDoUpdate
-  isSpec: "True"
-  fullName: Startitecture.Orm.PostgreSql.JsonInsert<T>.OnConflictDoUpdate
-  fullName.vb: Startitecture.Orm.PostgreSql.JsonInsert(Of T).OnConflictDoUpdate
-  nameWithType: JsonInsert<T>.OnConflictDoUpdate
-  nameWithType.vb: JsonInsert(Of T).OnConflictDoUpdate
 - uid: Startitecture.Orm.PostgreSql.JsonInsert`1.Returning(System.Linq.Expressions.Expression{System.Func{`0,System.Object}}[])
   name: Returning(Expression<Func<T, Object>>[])
   href: api/Startitecture.Orm.PostgreSql.JsonInsert-1.html#Startitecture_Orm_PostgreSql_JsonInsert_1_Returning_System_Linq_Expressions_Expression_System_Func__0_System_Object_____
@@ -10082,12 +10095,12 @@ references:
   commentId: T:Startitecture.Orm.PostgreSql.PostgreSqlProviderFactory
   fullName: Startitecture.Orm.PostgreSql.PostgreSqlProviderFactory
   nameWithType: PostgreSqlProviderFactory
-- uid: Startitecture.Orm.PostgreSql.PostgreSqlProviderFactory.#ctor(System.String,Startitecture.Orm.Model.IEntityDefinitionProvider)
-  name: PostgreSqlProviderFactory(String, IEntityDefinitionProvider)
-  href: api/Startitecture.Orm.PostgreSql.PostgreSqlProviderFactory.html#Startitecture_Orm_PostgreSql_PostgreSqlProviderFactory__ctor_System_String_Startitecture_Orm_Model_IEntityDefinitionProvider_
-  commentId: M:Startitecture.Orm.PostgreSql.PostgreSqlProviderFactory.#ctor(System.String,Startitecture.Orm.Model.IEntityDefinitionProvider)
-  fullName: Startitecture.Orm.PostgreSql.PostgreSqlProviderFactory.PostgreSqlProviderFactory(System.String, Startitecture.Orm.Model.IEntityDefinitionProvider)
-  nameWithType: PostgreSqlProviderFactory.PostgreSqlProviderFactory(String, IEntityDefinitionProvider)
+- uid: Startitecture.Orm.PostgreSql.PostgreSqlProviderFactory.#ctor(Startitecture.Orm.Model.IEntityDefinitionProvider)
+  name: PostgreSqlProviderFactory(IEntityDefinitionProvider)
+  href: api/Startitecture.Orm.PostgreSql.PostgreSqlProviderFactory.html#Startitecture_Orm_PostgreSql_PostgreSqlProviderFactory__ctor_Startitecture_Orm_Model_IEntityDefinitionProvider_
+  commentId: M:Startitecture.Orm.PostgreSql.PostgreSqlProviderFactory.#ctor(Startitecture.Orm.Model.IEntityDefinitionProvider)
+  fullName: Startitecture.Orm.PostgreSql.PostgreSqlProviderFactory.PostgreSqlProviderFactory(Startitecture.Orm.Model.IEntityDefinitionProvider)
+  nameWithType: PostgreSqlProviderFactory.PostgreSqlProviderFactory(IEntityDefinitionProvider)
 - uid: Startitecture.Orm.PostgreSql.PostgreSqlProviderFactory.#ctor*
   name: PostgreSqlProviderFactory
   href: api/Startitecture.Orm.PostgreSql.PostgreSqlProviderFactory.html#Startitecture_Orm_PostgreSql_PostgreSqlProviderFactory__ctor_
@@ -10095,12 +10108,12 @@ references:
   isSpec: "True"
   fullName: Startitecture.Orm.PostgreSql.PostgreSqlProviderFactory.PostgreSqlProviderFactory
   nameWithType: PostgreSqlProviderFactory.PostgreSqlProviderFactory
-- uid: Startitecture.Orm.PostgreSql.PostgreSqlProviderFactory.Create
-  name: Create()
-  href: api/Startitecture.Orm.PostgreSql.PostgreSqlProviderFactory.html#Startitecture_Orm_PostgreSql_PostgreSqlProviderFactory_Create
-  commentId: M:Startitecture.Orm.PostgreSql.PostgreSqlProviderFactory.Create
-  fullName: Startitecture.Orm.PostgreSql.PostgreSqlProviderFactory.Create()
-  nameWithType: PostgreSqlProviderFactory.Create()
+- uid: Startitecture.Orm.PostgreSql.PostgreSqlProviderFactory.Create(System.String)
+  name: Create(String)
+  href: api/Startitecture.Orm.PostgreSql.PostgreSqlProviderFactory.html#Startitecture_Orm_PostgreSql_PostgreSqlProviderFactory_Create_System_String_
+  commentId: M:Startitecture.Orm.PostgreSql.PostgreSqlProviderFactory.Create(System.String)
+  fullName: Startitecture.Orm.PostgreSql.PostgreSqlProviderFactory.Create(System.String)
+  nameWithType: PostgreSqlProviderFactory.Create(String)
 - uid: Startitecture.Orm.PostgreSql.PostgreSqlProviderFactory.Create*
   name: Create
   href: api/Startitecture.Orm.PostgreSql.PostgreSqlProviderFactory.html#Startitecture_Orm_PostgreSql_PostgreSqlProviderFactory_Create_
@@ -10127,6 +10140,95 @@ references:
   isSpec: "True"
   fullName: Startitecture.Orm.PostgreSql.PostgreSqlQualifier.Escape
   nameWithType: PostgreSqlQualifier.Escape
+- uid: Startitecture.Orm.PostgreSql.PostgreSqlRepository`2
+  name: PostgreSqlRepository<TModel, TEntity>
+  href: api/Startitecture.Orm.PostgreSql.PostgreSqlRepository-2.html
+  commentId: T:Startitecture.Orm.PostgreSql.PostgreSqlRepository`2
+  name.vb: PostgreSqlRepository(Of TModel, TEntity)
+  fullName: Startitecture.Orm.PostgreSql.PostgreSqlRepository<TModel, TEntity>
+  fullName.vb: Startitecture.Orm.PostgreSql.PostgreSqlRepository(Of TModel, TEntity)
+  nameWithType: PostgreSqlRepository<TModel, TEntity>
+  nameWithType.vb: PostgreSqlRepository(Of TModel, TEntity)
+- uid: Startitecture.Orm.PostgreSql.PostgreSqlRepository`2.#ctor(Startitecture.Orm.Common.IRepositoryProvider,Startitecture.Orm.Model.IEntityMapper)
+  name: PostgreSqlRepository(IRepositoryProvider, IEntityMapper)
+  href: api/Startitecture.Orm.PostgreSql.PostgreSqlRepository-2.html#Startitecture_Orm_PostgreSql_PostgreSqlRepository_2__ctor_Startitecture_Orm_Common_IRepositoryProvider_Startitecture_Orm_Model_IEntityMapper_
+  commentId: M:Startitecture.Orm.PostgreSql.PostgreSqlRepository`2.#ctor(Startitecture.Orm.Common.IRepositoryProvider,Startitecture.Orm.Model.IEntityMapper)
+  fullName: Startitecture.Orm.PostgreSql.PostgreSqlRepository<TModel, TEntity>.PostgreSqlRepository(Startitecture.Orm.Common.IRepositoryProvider, Startitecture.Orm.Model.IEntityMapper)
+  fullName.vb: Startitecture.Orm.PostgreSql.PostgreSqlRepository(Of TModel, TEntity).PostgreSqlRepository(Startitecture.Orm.Common.IRepositoryProvider, Startitecture.Orm.Model.IEntityMapper)
+  nameWithType: PostgreSqlRepository<TModel, TEntity>.PostgreSqlRepository(IRepositoryProvider, IEntityMapper)
+  nameWithType.vb: PostgreSqlRepository(Of TModel, TEntity).PostgreSqlRepository(IRepositoryProvider, IEntityMapper)
+- uid: Startitecture.Orm.PostgreSql.PostgreSqlRepository`2.#ctor(Startitecture.Orm.Common.IRepositoryProvider,Startitecture.Orm.Model.IEntityMapper,System.Collections.Generic.IComparer{`1})
+  name: PostgreSqlRepository(IRepositoryProvider, IEntityMapper, IComparer<TEntity>)
+  href: api/Startitecture.Orm.PostgreSql.PostgreSqlRepository-2.html#Startitecture_Orm_PostgreSql_PostgreSqlRepository_2__ctor_Startitecture_Orm_Common_IRepositoryProvider_Startitecture_Orm_Model_IEntityMapper_System_Collections_Generic_IComparer__1__
+  commentId: M:Startitecture.Orm.PostgreSql.PostgreSqlRepository`2.#ctor(Startitecture.Orm.Common.IRepositoryProvider,Startitecture.Orm.Model.IEntityMapper,System.Collections.Generic.IComparer{`1})
+  name.vb: PostgreSqlRepository(IRepositoryProvider, IEntityMapper, IComparer(Of TEntity))
+  fullName: Startitecture.Orm.PostgreSql.PostgreSqlRepository<TModel, TEntity>.PostgreSqlRepository(Startitecture.Orm.Common.IRepositoryProvider, Startitecture.Orm.Model.IEntityMapper, System.Collections.Generic.IComparer<TEntity>)
+  fullName.vb: Startitecture.Orm.PostgreSql.PostgreSqlRepository(Of TModel, TEntity).PostgreSqlRepository(Startitecture.Orm.Common.IRepositoryProvider, Startitecture.Orm.Model.IEntityMapper, System.Collections.Generic.IComparer(Of TEntity))
+  nameWithType: PostgreSqlRepository<TModel, TEntity>.PostgreSqlRepository(IRepositoryProvider, IEntityMapper, IComparer<TEntity>)
+  nameWithType.vb: PostgreSqlRepository(Of TModel, TEntity).PostgreSqlRepository(IRepositoryProvider, IEntityMapper, IComparer(Of TEntity))
+- uid: Startitecture.Orm.PostgreSql.PostgreSqlRepository`2.#ctor*
+  name: PostgreSqlRepository
+  href: api/Startitecture.Orm.PostgreSql.PostgreSqlRepository-2.html#Startitecture_Orm_PostgreSql_PostgreSqlRepository_2__ctor_
+  commentId: Overload:Startitecture.Orm.PostgreSql.PostgreSqlRepository`2.#ctor
+  isSpec: "True"
+  fullName: Startitecture.Orm.PostgreSql.PostgreSqlRepository<TModel, TEntity>.PostgreSqlRepository
+  fullName.vb: Startitecture.Orm.PostgreSql.PostgreSqlRepository(Of TModel, TEntity).PostgreSqlRepository
+  nameWithType: PostgreSqlRepository<TModel, TEntity>.PostgreSqlRepository
+  nameWithType.vb: PostgreSqlRepository(Of TModel, TEntity).PostgreSqlRepository
+- uid: Startitecture.Orm.PostgreSql.PostgreSqlRepository`2.Insert*
+  name: Insert
+  href: api/Startitecture.Orm.PostgreSql.PostgreSqlRepository-2.html#Startitecture_Orm_PostgreSql_PostgreSqlRepository_2_Insert_
+  commentId: Overload:Startitecture.Orm.PostgreSql.PostgreSqlRepository`2.Insert
+  isSpec: "True"
+  fullName: Startitecture.Orm.PostgreSql.PostgreSqlRepository<TModel, TEntity>.Insert
+  fullName.vb: Startitecture.Orm.PostgreSql.PostgreSqlRepository(Of TModel, TEntity).Insert
+  nameWithType: PostgreSqlRepository<TModel, TEntity>.Insert
+  nameWithType.vb: PostgreSqlRepository(Of TModel, TEntity).Insert
+- uid: Startitecture.Orm.PostgreSql.PostgreSqlRepository`2.Insert``1(System.Collections.Generic.IEnumerable{``0},System.Action{Startitecture.Orm.PostgreSql.JsonInsert{`1}})
+  name: Insert<TItem>(IEnumerable<TItem>, Action<JsonInsert<TEntity>>)
+  href: api/Startitecture.Orm.PostgreSql.PostgreSqlRepository-2.html#Startitecture_Orm_PostgreSql_PostgreSqlRepository_2_Insert__1_System_Collections_Generic_IEnumerable___0__System_Action_Startitecture_Orm_PostgreSql_JsonInsert__1___
+  commentId: M:Startitecture.Orm.PostgreSql.PostgreSqlRepository`2.Insert``1(System.Collections.Generic.IEnumerable{``0},System.Action{Startitecture.Orm.PostgreSql.JsonInsert{`1}})
+  name.vb: Insert(Of TItem)(IEnumerable(Of TItem), Action(Of JsonInsert(Of TEntity)))
+  fullName: Startitecture.Orm.PostgreSql.PostgreSqlRepository<TModel, TEntity>.Insert<TItem>(System.Collections.Generic.IEnumerable<TItem>, System.Action<Startitecture.Orm.PostgreSql.JsonInsert<TEntity>>)
+  fullName.vb: Startitecture.Orm.PostgreSql.PostgreSqlRepository(Of TModel, TEntity).Insert(Of TItem)(System.Collections.Generic.IEnumerable(Of TItem), System.Action(Of Startitecture.Orm.PostgreSql.JsonInsert(Of TEntity)))
+  nameWithType: PostgreSqlRepository<TModel, TEntity>.Insert<TItem>(IEnumerable<TItem>, Action<JsonInsert<TEntity>>)
+  nameWithType.vb: PostgreSqlRepository(Of TModel, TEntity).Insert(Of TItem)(IEnumerable(Of TItem), Action(Of JsonInsert(Of TEntity)))
+- uid: Startitecture.Orm.PostgreSql.PostgreSqlRepository`2.Insert``1(System.Collections.Generic.IEnumerable{``0},System.Data.IDbTransaction,System.Action{Startitecture.Orm.PostgreSql.JsonInsert{`1}})
+  name: Insert<TItem>(IEnumerable<TItem>, IDbTransaction, Action<JsonInsert<TEntity>>)
+  href: api/Startitecture.Orm.PostgreSql.PostgreSqlRepository-2.html#Startitecture_Orm_PostgreSql_PostgreSqlRepository_2_Insert__1_System_Collections_Generic_IEnumerable___0__System_Data_IDbTransaction_System_Action_Startitecture_Orm_PostgreSql_JsonInsert__1___
+  commentId: M:Startitecture.Orm.PostgreSql.PostgreSqlRepository`2.Insert``1(System.Collections.Generic.IEnumerable{``0},System.Data.IDbTransaction,System.Action{Startitecture.Orm.PostgreSql.JsonInsert{`1}})
+  name.vb: Insert(Of TItem)(IEnumerable(Of TItem), IDbTransaction, Action(Of JsonInsert(Of TEntity)))
+  fullName: Startitecture.Orm.PostgreSql.PostgreSqlRepository<TModel, TEntity>.Insert<TItem>(System.Collections.Generic.IEnumerable<TItem>, System.Data.IDbTransaction, System.Action<Startitecture.Orm.PostgreSql.JsonInsert<TEntity>>)
+  fullName.vb: Startitecture.Orm.PostgreSql.PostgreSqlRepository(Of TModel, TEntity).Insert(Of TItem)(System.Collections.Generic.IEnumerable(Of TItem), System.Data.IDbTransaction, System.Action(Of Startitecture.Orm.PostgreSql.JsonInsert(Of TEntity)))
+  nameWithType: PostgreSqlRepository<TModel, TEntity>.Insert<TItem>(IEnumerable<TItem>, IDbTransaction, Action<JsonInsert<TEntity>>)
+  nameWithType.vb: PostgreSqlRepository(Of TModel, TEntity).Insert(Of TItem)(IEnumerable(Of TItem), IDbTransaction, Action(Of JsonInsert(Of TEntity)))
+- uid: Startitecture.Orm.PostgreSql.PostgreSqlRepository`2.InsertForResults*
+  name: InsertForResults
+  href: api/Startitecture.Orm.PostgreSql.PostgreSqlRepository-2.html#Startitecture_Orm_PostgreSql_PostgreSqlRepository_2_InsertForResults_
+  commentId: Overload:Startitecture.Orm.PostgreSql.PostgreSqlRepository`2.InsertForResults
+  isSpec: "True"
+  fullName: Startitecture.Orm.PostgreSql.PostgreSqlRepository<TModel, TEntity>.InsertForResults
+  fullName.vb: Startitecture.Orm.PostgreSql.PostgreSqlRepository(Of TModel, TEntity).InsertForResults
+  nameWithType: PostgreSqlRepository<TModel, TEntity>.InsertForResults
+  nameWithType.vb: PostgreSqlRepository(Of TModel, TEntity).InsertForResults
+- uid: Startitecture.Orm.PostgreSql.PostgreSqlRepository`2.InsertForResults``1(System.Collections.Generic.IEnumerable{``0},System.Action{Startitecture.Orm.PostgreSql.JsonInsert{`1}})
+  name: InsertForResults<TItem>(IEnumerable<TItem>, Action<JsonInsert<TEntity>>)
+  href: api/Startitecture.Orm.PostgreSql.PostgreSqlRepository-2.html#Startitecture_Orm_PostgreSql_PostgreSqlRepository_2_InsertForResults__1_System_Collections_Generic_IEnumerable___0__System_Action_Startitecture_Orm_PostgreSql_JsonInsert__1___
+  commentId: M:Startitecture.Orm.PostgreSql.PostgreSqlRepository`2.InsertForResults``1(System.Collections.Generic.IEnumerable{``0},System.Action{Startitecture.Orm.PostgreSql.JsonInsert{`1}})
+  name.vb: InsertForResults(Of TItem)(IEnumerable(Of TItem), Action(Of JsonInsert(Of TEntity)))
+  fullName: Startitecture.Orm.PostgreSql.PostgreSqlRepository<TModel, TEntity>.InsertForResults<TItem>(System.Collections.Generic.IEnumerable<TItem>, System.Action<Startitecture.Orm.PostgreSql.JsonInsert<TEntity>>)
+  fullName.vb: Startitecture.Orm.PostgreSql.PostgreSqlRepository(Of TModel, TEntity).InsertForResults(Of TItem)(System.Collections.Generic.IEnumerable(Of TItem), System.Action(Of Startitecture.Orm.PostgreSql.JsonInsert(Of TEntity)))
+  nameWithType: PostgreSqlRepository<TModel, TEntity>.InsertForResults<TItem>(IEnumerable<TItem>, Action<JsonInsert<TEntity>>)
+  nameWithType.vb: PostgreSqlRepository(Of TModel, TEntity).InsertForResults(Of TItem)(IEnumerable(Of TItem), Action(Of JsonInsert(Of TEntity)))
+- uid: Startitecture.Orm.PostgreSql.PostgreSqlRepository`2.InsertForResults``1(System.Collections.Generic.IEnumerable{``0},System.Data.IDbTransaction,System.Action{Startitecture.Orm.PostgreSql.JsonInsert{`1}})
+  name: InsertForResults<TItem>(IEnumerable<TItem>, IDbTransaction, Action<JsonInsert<TEntity>>)
+  href: api/Startitecture.Orm.PostgreSql.PostgreSqlRepository-2.html#Startitecture_Orm_PostgreSql_PostgreSqlRepository_2_InsertForResults__1_System_Collections_Generic_IEnumerable___0__System_Data_IDbTransaction_System_Action_Startitecture_Orm_PostgreSql_JsonInsert__1___
+  commentId: M:Startitecture.Orm.PostgreSql.PostgreSqlRepository`2.InsertForResults``1(System.Collections.Generic.IEnumerable{``0},System.Data.IDbTransaction,System.Action{Startitecture.Orm.PostgreSql.JsonInsert{`1}})
+  name.vb: InsertForResults(Of TItem)(IEnumerable(Of TItem), IDbTransaction, Action(Of JsonInsert(Of TEntity)))
+  fullName: Startitecture.Orm.PostgreSql.PostgreSqlRepository<TModel, TEntity>.InsertForResults<TItem>(System.Collections.Generic.IEnumerable<TItem>, System.Data.IDbTransaction, System.Action<Startitecture.Orm.PostgreSql.JsonInsert<TEntity>>)
+  fullName.vb: Startitecture.Orm.PostgreSql.PostgreSqlRepository(Of TModel, TEntity).InsertForResults(Of TItem)(System.Collections.Generic.IEnumerable(Of TItem), System.Data.IDbTransaction, System.Action(Of Startitecture.Orm.PostgreSql.JsonInsert(Of TEntity)))
+  nameWithType: PostgreSqlRepository<TModel, TEntity>.InsertForResults<TItem>(IEnumerable<TItem>, IDbTransaction, Action<JsonInsert<TEntity>>)
+  nameWithType.vb: PostgreSqlRepository(Of TModel, TEntity).InsertForResults(Of TItem)(IEnumerable(Of TItem), IDbTransaction, Action(Of JsonInsert(Of TEntity)))
 - uid: Startitecture.Orm.Schema
   name: Startitecture.Orm.Schema
   href: api/Startitecture.Orm.Schema.html
@@ -11146,12 +11248,12 @@ references:
   commentId: T:Startitecture.Orm.SqlClient.SqlClientProviderFactory
   fullName: Startitecture.Orm.SqlClient.SqlClientProviderFactory
   nameWithType: SqlClientProviderFactory
-- uid: Startitecture.Orm.SqlClient.SqlClientProviderFactory.#ctor(System.String,Startitecture.Orm.Model.IEntityDefinitionProvider)
-  name: SqlClientProviderFactory(String, IEntityDefinitionProvider)
-  href: api/Startitecture.Orm.SqlClient.SqlClientProviderFactory.html#Startitecture_Orm_SqlClient_SqlClientProviderFactory__ctor_System_String_Startitecture_Orm_Model_IEntityDefinitionProvider_
-  commentId: M:Startitecture.Orm.SqlClient.SqlClientProviderFactory.#ctor(System.String,Startitecture.Orm.Model.IEntityDefinitionProvider)
-  fullName: Startitecture.Orm.SqlClient.SqlClientProviderFactory.SqlClientProviderFactory(System.String, Startitecture.Orm.Model.IEntityDefinitionProvider)
-  nameWithType: SqlClientProviderFactory.SqlClientProviderFactory(String, IEntityDefinitionProvider)
+- uid: Startitecture.Orm.SqlClient.SqlClientProviderFactory.#ctor(Startitecture.Orm.Model.IEntityDefinitionProvider)
+  name: SqlClientProviderFactory(IEntityDefinitionProvider)
+  href: api/Startitecture.Orm.SqlClient.SqlClientProviderFactory.html#Startitecture_Orm_SqlClient_SqlClientProviderFactory__ctor_Startitecture_Orm_Model_IEntityDefinitionProvider_
+  commentId: M:Startitecture.Orm.SqlClient.SqlClientProviderFactory.#ctor(Startitecture.Orm.Model.IEntityDefinitionProvider)
+  fullName: Startitecture.Orm.SqlClient.SqlClientProviderFactory.SqlClientProviderFactory(Startitecture.Orm.Model.IEntityDefinitionProvider)
+  nameWithType: SqlClientProviderFactory.SqlClientProviderFactory(IEntityDefinitionProvider)
 - uid: Startitecture.Orm.SqlClient.SqlClientProviderFactory.#ctor*
   name: SqlClientProviderFactory
   href: api/Startitecture.Orm.SqlClient.SqlClientProviderFactory.html#Startitecture_Orm_SqlClient_SqlClientProviderFactory__ctor_
@@ -11159,12 +11261,12 @@ references:
   isSpec: "True"
   fullName: Startitecture.Orm.SqlClient.SqlClientProviderFactory.SqlClientProviderFactory
   nameWithType: SqlClientProviderFactory.SqlClientProviderFactory
-- uid: Startitecture.Orm.SqlClient.SqlClientProviderFactory.Create
-  name: Create()
-  href: api/Startitecture.Orm.SqlClient.SqlClientProviderFactory.html#Startitecture_Orm_SqlClient_SqlClientProviderFactory_Create
-  commentId: M:Startitecture.Orm.SqlClient.SqlClientProviderFactory.Create
-  fullName: Startitecture.Orm.SqlClient.SqlClientProviderFactory.Create()
-  nameWithType: SqlClientProviderFactory.Create()
+- uid: Startitecture.Orm.SqlClient.SqlClientProviderFactory.Create(System.String)
+  name: Create(String)
+  href: api/Startitecture.Orm.SqlClient.SqlClientProviderFactory.html#Startitecture_Orm_SqlClient_SqlClientProviderFactory_Create_System_String_
+  commentId: M:Startitecture.Orm.SqlClient.SqlClientProviderFactory.Create(System.String)
+  fullName: Startitecture.Orm.SqlClient.SqlClientProviderFactory.Create(System.String)
+  nameWithType: SqlClientProviderFactory.Create(String)
 - uid: Startitecture.Orm.SqlClient.SqlClientProviderFactory.Create*
   name: Create
   href: api/Startitecture.Orm.SqlClient.SqlClientProviderFactory.html#Startitecture_Orm_SqlClient_SqlClientProviderFactory_Create_
@@ -11172,6 +11274,140 @@ references:
   isSpec: "True"
   fullName: Startitecture.Orm.SqlClient.SqlClientProviderFactory.Create
   nameWithType: SqlClientProviderFactory.Create
+- uid: Startitecture.Orm.SqlClient.SqlClientRepository`2
+  name: SqlClientRepository<TModel, TEntity>
+  href: api/Startitecture.Orm.SqlClient.SqlClientRepository-2.html
+  commentId: T:Startitecture.Orm.SqlClient.SqlClientRepository`2
+  name.vb: SqlClientRepository(Of TModel, TEntity)
+  fullName: Startitecture.Orm.SqlClient.SqlClientRepository<TModel, TEntity>
+  fullName.vb: Startitecture.Orm.SqlClient.SqlClientRepository(Of TModel, TEntity)
+  nameWithType: SqlClientRepository<TModel, TEntity>
+  nameWithType.vb: SqlClientRepository(Of TModel, TEntity)
+- uid: Startitecture.Orm.SqlClient.SqlClientRepository`2.#ctor(Startitecture.Orm.Common.IRepositoryProvider,Startitecture.Orm.Model.IEntityMapper)
+  name: SqlClientRepository(IRepositoryProvider, IEntityMapper)
+  href: api/Startitecture.Orm.SqlClient.SqlClientRepository-2.html#Startitecture_Orm_SqlClient_SqlClientRepository_2__ctor_Startitecture_Orm_Common_IRepositoryProvider_Startitecture_Orm_Model_IEntityMapper_
+  commentId: M:Startitecture.Orm.SqlClient.SqlClientRepository`2.#ctor(Startitecture.Orm.Common.IRepositoryProvider,Startitecture.Orm.Model.IEntityMapper)
+  fullName: Startitecture.Orm.SqlClient.SqlClientRepository<TModel, TEntity>.SqlClientRepository(Startitecture.Orm.Common.IRepositoryProvider, Startitecture.Orm.Model.IEntityMapper)
+  fullName.vb: Startitecture.Orm.SqlClient.SqlClientRepository(Of TModel, TEntity).SqlClientRepository(Startitecture.Orm.Common.IRepositoryProvider, Startitecture.Orm.Model.IEntityMapper)
+  nameWithType: SqlClientRepository<TModel, TEntity>.SqlClientRepository(IRepositoryProvider, IEntityMapper)
+  nameWithType.vb: SqlClientRepository(Of TModel, TEntity).SqlClientRepository(IRepositoryProvider, IEntityMapper)
+- uid: Startitecture.Orm.SqlClient.SqlClientRepository`2.#ctor(Startitecture.Orm.Common.IRepositoryProvider,Startitecture.Orm.Model.IEntityMapper,System.Collections.Generic.IComparer{`1})
+  name: SqlClientRepository(IRepositoryProvider, IEntityMapper, IComparer<TEntity>)
+  href: api/Startitecture.Orm.SqlClient.SqlClientRepository-2.html#Startitecture_Orm_SqlClient_SqlClientRepository_2__ctor_Startitecture_Orm_Common_IRepositoryProvider_Startitecture_Orm_Model_IEntityMapper_System_Collections_Generic_IComparer__1__
+  commentId: M:Startitecture.Orm.SqlClient.SqlClientRepository`2.#ctor(Startitecture.Orm.Common.IRepositoryProvider,Startitecture.Orm.Model.IEntityMapper,System.Collections.Generic.IComparer{`1})
+  name.vb: SqlClientRepository(IRepositoryProvider, IEntityMapper, IComparer(Of TEntity))
+  fullName: Startitecture.Orm.SqlClient.SqlClientRepository<TModel, TEntity>.SqlClientRepository(Startitecture.Orm.Common.IRepositoryProvider, Startitecture.Orm.Model.IEntityMapper, System.Collections.Generic.IComparer<TEntity>)
+  fullName.vb: Startitecture.Orm.SqlClient.SqlClientRepository(Of TModel, TEntity).SqlClientRepository(Startitecture.Orm.Common.IRepositoryProvider, Startitecture.Orm.Model.IEntityMapper, System.Collections.Generic.IComparer(Of TEntity))
+  nameWithType: SqlClientRepository<TModel, TEntity>.SqlClientRepository(IRepositoryProvider, IEntityMapper, IComparer<TEntity>)
+  nameWithType.vb: SqlClientRepository(Of TModel, TEntity).SqlClientRepository(IRepositoryProvider, IEntityMapper, IComparer(Of TEntity))
+- uid: Startitecture.Orm.SqlClient.SqlClientRepository`2.#ctor*
+  name: SqlClientRepository
+  href: api/Startitecture.Orm.SqlClient.SqlClientRepository-2.html#Startitecture_Orm_SqlClient_SqlClientRepository_2__ctor_
+  commentId: Overload:Startitecture.Orm.SqlClient.SqlClientRepository`2.#ctor
+  isSpec: "True"
+  fullName: Startitecture.Orm.SqlClient.SqlClientRepository<TModel, TEntity>.SqlClientRepository
+  fullName.vb: Startitecture.Orm.SqlClient.SqlClientRepository(Of TModel, TEntity).SqlClientRepository
+  nameWithType: SqlClientRepository<TModel, TEntity>.SqlClientRepository
+  nameWithType.vb: SqlClientRepository(Of TModel, TEntity).SqlClientRepository
+- uid: Startitecture.Orm.SqlClient.SqlClientRepository`2.Insert*
+  name: Insert
+  href: api/Startitecture.Orm.SqlClient.SqlClientRepository-2.html#Startitecture_Orm_SqlClient_SqlClientRepository_2_Insert_
+  commentId: Overload:Startitecture.Orm.SqlClient.SqlClientRepository`2.Insert
+  isSpec: "True"
+  fullName: Startitecture.Orm.SqlClient.SqlClientRepository<TModel, TEntity>.Insert
+  fullName.vb: Startitecture.Orm.SqlClient.SqlClientRepository(Of TModel, TEntity).Insert
+  nameWithType: SqlClientRepository<TModel, TEntity>.Insert
+  nameWithType.vb: SqlClientRepository(Of TModel, TEntity).Insert
+- uid: Startitecture.Orm.SqlClient.SqlClientRepository`2.Insert``1(System.Collections.Generic.IEnumerable{``0})
+  name: Insert<TItem>(IEnumerable<TItem>)
+  href: api/Startitecture.Orm.SqlClient.SqlClientRepository-2.html#Startitecture_Orm_SqlClient_SqlClientRepository_2_Insert__1_System_Collections_Generic_IEnumerable___0__
+  commentId: M:Startitecture.Orm.SqlClient.SqlClientRepository`2.Insert``1(System.Collections.Generic.IEnumerable{``0})
+  name.vb: Insert(Of TItem)(IEnumerable(Of TItem))
+  fullName: Startitecture.Orm.SqlClient.SqlClientRepository<TModel, TEntity>.Insert<TItem>(System.Collections.Generic.IEnumerable<TItem>)
+  fullName.vb: Startitecture.Orm.SqlClient.SqlClientRepository(Of TModel, TEntity).Insert(Of TItem)(System.Collections.Generic.IEnumerable(Of TItem))
+  nameWithType: SqlClientRepository<TModel, TEntity>.Insert<TItem>(IEnumerable<TItem>)
+  nameWithType.vb: SqlClientRepository(Of TModel, TEntity).Insert(Of TItem)(IEnumerable(Of TItem))
+- uid: Startitecture.Orm.SqlClient.SqlClientRepository`2.Insert``1(System.Collections.Generic.IEnumerable{``0},System.Action{Startitecture.Orm.SqlClient.TableValuedInsert{`1}})
+  name: Insert<TItem>(IEnumerable<TItem>, Action<TableValuedInsert<TEntity>>)
+  href: api/Startitecture.Orm.SqlClient.SqlClientRepository-2.html#Startitecture_Orm_SqlClient_SqlClientRepository_2_Insert__1_System_Collections_Generic_IEnumerable___0__System_Action_Startitecture_Orm_SqlClient_TableValuedInsert__1___
+  commentId: M:Startitecture.Orm.SqlClient.SqlClientRepository`2.Insert``1(System.Collections.Generic.IEnumerable{``0},System.Action{Startitecture.Orm.SqlClient.TableValuedInsert{`1}})
+  name.vb: Insert(Of TItem)(IEnumerable(Of TItem), Action(Of TableValuedInsert(Of TEntity)))
+  fullName: Startitecture.Orm.SqlClient.SqlClientRepository<TModel, TEntity>.Insert<TItem>(System.Collections.Generic.IEnumerable<TItem>, System.Action<Startitecture.Orm.SqlClient.TableValuedInsert<TEntity>>)
+  fullName.vb: Startitecture.Orm.SqlClient.SqlClientRepository(Of TModel, TEntity).Insert(Of TItem)(System.Collections.Generic.IEnumerable(Of TItem), System.Action(Of Startitecture.Orm.SqlClient.TableValuedInsert(Of TEntity)))
+  nameWithType: SqlClientRepository<TModel, TEntity>.Insert<TItem>(IEnumerable<TItem>, Action<TableValuedInsert<TEntity>>)
+  nameWithType.vb: SqlClientRepository(Of TModel, TEntity).Insert(Of TItem)(IEnumerable(Of TItem), Action(Of TableValuedInsert(Of TEntity)))
+- uid: Startitecture.Orm.SqlClient.SqlClientRepository`2.Insert``1(System.Collections.Generic.IEnumerable{``0},System.Data.IDbTransaction,System.Action{Startitecture.Orm.SqlClient.TableValuedInsert{`1}})
+  name: Insert<TItem>(IEnumerable<TItem>, IDbTransaction, Action<TableValuedInsert<TEntity>>)
+  href: api/Startitecture.Orm.SqlClient.SqlClientRepository-2.html#Startitecture_Orm_SqlClient_SqlClientRepository_2_Insert__1_System_Collections_Generic_IEnumerable___0__System_Data_IDbTransaction_System_Action_Startitecture_Orm_SqlClient_TableValuedInsert__1___
+  commentId: M:Startitecture.Orm.SqlClient.SqlClientRepository`2.Insert``1(System.Collections.Generic.IEnumerable{``0},System.Data.IDbTransaction,System.Action{Startitecture.Orm.SqlClient.TableValuedInsert{`1}})
+  name.vb: Insert(Of TItem)(IEnumerable(Of TItem), IDbTransaction, Action(Of TableValuedInsert(Of TEntity)))
+  fullName: Startitecture.Orm.SqlClient.SqlClientRepository<TModel, TEntity>.Insert<TItem>(System.Collections.Generic.IEnumerable<TItem>, System.Data.IDbTransaction, System.Action<Startitecture.Orm.SqlClient.TableValuedInsert<TEntity>>)
+  fullName.vb: Startitecture.Orm.SqlClient.SqlClientRepository(Of TModel, TEntity).Insert(Of TItem)(System.Collections.Generic.IEnumerable(Of TItem), System.Data.IDbTransaction, System.Action(Of Startitecture.Orm.SqlClient.TableValuedInsert(Of TEntity)))
+  nameWithType: SqlClientRepository<TModel, TEntity>.Insert<TItem>(IEnumerable<TItem>, IDbTransaction, Action<TableValuedInsert<TEntity>>)
+  nameWithType.vb: SqlClientRepository(Of TModel, TEntity).Insert(Of TItem)(IEnumerable(Of TItem), IDbTransaction, Action(Of TableValuedInsert(Of TEntity)))
+- uid: Startitecture.Orm.SqlClient.SqlClientRepository`2.InsertForResults*
+  name: InsertForResults
+  href: api/Startitecture.Orm.SqlClient.SqlClientRepository-2.html#Startitecture_Orm_SqlClient_SqlClientRepository_2_InsertForResults_
+  commentId: Overload:Startitecture.Orm.SqlClient.SqlClientRepository`2.InsertForResults
+  isSpec: "True"
+  fullName: Startitecture.Orm.SqlClient.SqlClientRepository<TModel, TEntity>.InsertForResults
+  fullName.vb: Startitecture.Orm.SqlClient.SqlClientRepository(Of TModel, TEntity).InsertForResults
+  nameWithType: SqlClientRepository<TModel, TEntity>.InsertForResults
+  nameWithType.vb: SqlClientRepository(Of TModel, TEntity).InsertForResults
+- uid: Startitecture.Orm.SqlClient.SqlClientRepository`2.InsertForResults``1(System.Collections.Generic.IEnumerable{``0},System.Action{Startitecture.Orm.SqlClient.TableValuedInsert{`1}})
+  name: InsertForResults<TItem>(IEnumerable<TItem>, Action<TableValuedInsert<TEntity>>)
+  href: api/Startitecture.Orm.SqlClient.SqlClientRepository-2.html#Startitecture_Orm_SqlClient_SqlClientRepository_2_InsertForResults__1_System_Collections_Generic_IEnumerable___0__System_Action_Startitecture_Orm_SqlClient_TableValuedInsert__1___
+  commentId: M:Startitecture.Orm.SqlClient.SqlClientRepository`2.InsertForResults``1(System.Collections.Generic.IEnumerable{``0},System.Action{Startitecture.Orm.SqlClient.TableValuedInsert{`1}})
+  name.vb: InsertForResults(Of TItem)(IEnumerable(Of TItem), Action(Of TableValuedInsert(Of TEntity)))
+  fullName: Startitecture.Orm.SqlClient.SqlClientRepository<TModel, TEntity>.InsertForResults<TItem>(System.Collections.Generic.IEnumerable<TItem>, System.Action<Startitecture.Orm.SqlClient.TableValuedInsert<TEntity>>)
+  fullName.vb: Startitecture.Orm.SqlClient.SqlClientRepository(Of TModel, TEntity).InsertForResults(Of TItem)(System.Collections.Generic.IEnumerable(Of TItem), System.Action(Of Startitecture.Orm.SqlClient.TableValuedInsert(Of TEntity)))
+  nameWithType: SqlClientRepository<TModel, TEntity>.InsertForResults<TItem>(IEnumerable<TItem>, Action<TableValuedInsert<TEntity>>)
+  nameWithType.vb: SqlClientRepository(Of TModel, TEntity).InsertForResults(Of TItem)(IEnumerable(Of TItem), Action(Of TableValuedInsert(Of TEntity)))
+- uid: Startitecture.Orm.SqlClient.SqlClientRepository`2.InsertForResults``1(System.Collections.Generic.IEnumerable{``0},System.Data.IDbTransaction,System.Action{Startitecture.Orm.SqlClient.TableValuedInsert{`1}})
+  name: InsertForResults<TItem>(IEnumerable<TItem>, IDbTransaction, Action<TableValuedInsert<TEntity>>)
+  href: api/Startitecture.Orm.SqlClient.SqlClientRepository-2.html#Startitecture_Orm_SqlClient_SqlClientRepository_2_InsertForResults__1_System_Collections_Generic_IEnumerable___0__System_Data_IDbTransaction_System_Action_Startitecture_Orm_SqlClient_TableValuedInsert__1___
+  commentId: M:Startitecture.Orm.SqlClient.SqlClientRepository`2.InsertForResults``1(System.Collections.Generic.IEnumerable{``0},System.Data.IDbTransaction,System.Action{Startitecture.Orm.SqlClient.TableValuedInsert{`1}})
+  name.vb: InsertForResults(Of TItem)(IEnumerable(Of TItem), IDbTransaction, Action(Of TableValuedInsert(Of TEntity)))
+  fullName: Startitecture.Orm.SqlClient.SqlClientRepository<TModel, TEntity>.InsertForResults<TItem>(System.Collections.Generic.IEnumerable<TItem>, System.Data.IDbTransaction, System.Action<Startitecture.Orm.SqlClient.TableValuedInsert<TEntity>>)
+  fullName.vb: Startitecture.Orm.SqlClient.SqlClientRepository(Of TModel, TEntity).InsertForResults(Of TItem)(System.Collections.Generic.IEnumerable(Of TItem), System.Data.IDbTransaction, System.Action(Of Startitecture.Orm.SqlClient.TableValuedInsert(Of TEntity)))
+  nameWithType: SqlClientRepository<TModel, TEntity>.InsertForResults<TItem>(IEnumerable<TItem>, IDbTransaction, Action<TableValuedInsert<TEntity>>)
+  nameWithType.vb: SqlClientRepository(Of TModel, TEntity).InsertForResults(Of TItem)(IEnumerable(Of TItem), IDbTransaction, Action(Of TableValuedInsert(Of TEntity)))
+- uid: Startitecture.Orm.SqlClient.SqlClientRepository`2.Merge*
+  name: Merge
+  href: api/Startitecture.Orm.SqlClient.SqlClientRepository-2.html#Startitecture_Orm_SqlClient_SqlClientRepository_2_Merge_
+  commentId: Overload:Startitecture.Orm.SqlClient.SqlClientRepository`2.Merge
+  isSpec: "True"
+  fullName: Startitecture.Orm.SqlClient.SqlClientRepository<TModel, TEntity>.Merge
+  fullName.vb: Startitecture.Orm.SqlClient.SqlClientRepository(Of TModel, TEntity).Merge
+  nameWithType: SqlClientRepository<TModel, TEntity>.Merge
+  nameWithType.vb: SqlClientRepository(Of TModel, TEntity).Merge
+- uid: Startitecture.Orm.SqlClient.SqlClientRepository`2.Merge``1(System.Collections.Generic.IEnumerable{``0},System.Data.IDbTransaction,System.Action{Startitecture.Orm.SqlClient.TableValuedMerge{`1}})
+  name: Merge<TItem>(IEnumerable<TItem>, IDbTransaction, Action<TableValuedMerge<TEntity>>)
+  href: api/Startitecture.Orm.SqlClient.SqlClientRepository-2.html#Startitecture_Orm_SqlClient_SqlClientRepository_2_Merge__1_System_Collections_Generic_IEnumerable___0__System_Data_IDbTransaction_System_Action_Startitecture_Orm_SqlClient_TableValuedMerge__1___
+  commentId: M:Startitecture.Orm.SqlClient.SqlClientRepository`2.Merge``1(System.Collections.Generic.IEnumerable{``0},System.Data.IDbTransaction,System.Action{Startitecture.Orm.SqlClient.TableValuedMerge{`1}})
+  name.vb: Merge(Of TItem)(IEnumerable(Of TItem), IDbTransaction, Action(Of TableValuedMerge(Of TEntity)))
+  fullName: Startitecture.Orm.SqlClient.SqlClientRepository<TModel, TEntity>.Merge<TItem>(System.Collections.Generic.IEnumerable<TItem>, System.Data.IDbTransaction, System.Action<Startitecture.Orm.SqlClient.TableValuedMerge<TEntity>>)
+  fullName.vb: Startitecture.Orm.SqlClient.SqlClientRepository(Of TModel, TEntity).Merge(Of TItem)(System.Collections.Generic.IEnumerable(Of TItem), System.Data.IDbTransaction, System.Action(Of Startitecture.Orm.SqlClient.TableValuedMerge(Of TEntity)))
+  nameWithType: SqlClientRepository<TModel, TEntity>.Merge<TItem>(IEnumerable<TItem>, IDbTransaction, Action<TableValuedMerge<TEntity>>)
+  nameWithType.vb: SqlClientRepository(Of TModel, TEntity).Merge(Of TItem)(IEnumerable(Of TItem), IDbTransaction, Action(Of TableValuedMerge(Of TEntity)))
+- uid: Startitecture.Orm.SqlClient.SqlClientRepository`2.MergeForResults*
+  name: MergeForResults
+  href: api/Startitecture.Orm.SqlClient.SqlClientRepository-2.html#Startitecture_Orm_SqlClient_SqlClientRepository_2_MergeForResults_
+  commentId: Overload:Startitecture.Orm.SqlClient.SqlClientRepository`2.MergeForResults
+  isSpec: "True"
+  fullName: Startitecture.Orm.SqlClient.SqlClientRepository<TModel, TEntity>.MergeForResults
+  fullName.vb: Startitecture.Orm.SqlClient.SqlClientRepository(Of TModel, TEntity).MergeForResults
+  nameWithType: SqlClientRepository<TModel, TEntity>.MergeForResults
+  nameWithType.vb: SqlClientRepository(Of TModel, TEntity).MergeForResults
+- uid: Startitecture.Orm.SqlClient.SqlClientRepository`2.MergeForResults``1(System.Collections.Generic.IEnumerable{``0},System.Data.IDbTransaction,System.Action{Startitecture.Orm.SqlClient.TableValuedMerge{`1}})
+  name: MergeForResults<TItem>(IEnumerable<TItem>, IDbTransaction, Action<TableValuedMerge<TEntity>>)
+  href: api/Startitecture.Orm.SqlClient.SqlClientRepository-2.html#Startitecture_Orm_SqlClient_SqlClientRepository_2_MergeForResults__1_System_Collections_Generic_IEnumerable___0__System_Data_IDbTransaction_System_Action_Startitecture_Orm_SqlClient_TableValuedMerge__1___
+  commentId: M:Startitecture.Orm.SqlClient.SqlClientRepository`2.MergeForResults``1(System.Collections.Generic.IEnumerable{``0},System.Data.IDbTransaction,System.Action{Startitecture.Orm.SqlClient.TableValuedMerge{`1}})
+  name.vb: MergeForResults(Of TItem)(IEnumerable(Of TItem), IDbTransaction, Action(Of TableValuedMerge(Of TEntity)))
+  fullName: Startitecture.Orm.SqlClient.SqlClientRepository<TModel, TEntity>.MergeForResults<TItem>(System.Collections.Generic.IEnumerable<TItem>, System.Data.IDbTransaction, System.Action<Startitecture.Orm.SqlClient.TableValuedMerge<TEntity>>)
+  fullName.vb: Startitecture.Orm.SqlClient.SqlClientRepository(Of TModel, TEntity).MergeForResults(Of TItem)(System.Collections.Generic.IEnumerable(Of TItem), System.Data.IDbTransaction, System.Action(Of Startitecture.Orm.SqlClient.TableValuedMerge(Of TEntity)))
+  nameWithType: SqlClientRepository<TModel, TEntity>.MergeForResults<TItem>(IEnumerable<TItem>, IDbTransaction, Action<TableValuedMerge<TEntity>>)
+  nameWithType.vb: SqlClientRepository(Of TModel, TEntity).MergeForResults(Of TItem)(IEnumerable(Of TItem), IDbTransaction, Action(Of TableValuedMerge(Of TEntity)))
 - uid: Startitecture.Orm.SqlClient.TableValuedCommandProvider
   name: TableValuedCommandProvider
   href: api/Startitecture.Orm.SqlClient.TableValuedCommandProvider.html
@@ -11412,24 +11648,6 @@ references:
   fullName.vb: Startitecture.Orm.SqlClient.TableValuedMerge(Of T).From(Of TStructure)(System.Linq.Expressions.Expression(Of System.Func(Of TStructure, System.Object))())
   nameWithType: TableValuedMerge<T>.From<TStructure>(Expression<Func<TStructure, Object>>[])
   nameWithType.vb: TableValuedMerge(Of T).From(Of TStructure)(Expression(Of Func(Of TStructure, Object))())
-- uid: Startitecture.Orm.SqlClient.TableValuedMerge`1.MergeInto(System.Linq.Expressions.Expression{System.Func{`0,System.Object}}[])
-  name: MergeInto(Expression<Func<T, Object>>[])
-  href: api/Startitecture.Orm.SqlClient.TableValuedMerge-1.html#Startitecture_Orm_SqlClient_TableValuedMerge_1_MergeInto_System_Linq_Expressions_Expression_System_Func__0_System_Object_____
-  commentId: M:Startitecture.Orm.SqlClient.TableValuedMerge`1.MergeInto(System.Linq.Expressions.Expression{System.Func{`0,System.Object}}[])
-  name.vb: MergeInto(Expression(Of Func(Of T, Object))())
-  fullName: Startitecture.Orm.SqlClient.TableValuedMerge<T>.MergeInto(System.Linq.Expressions.Expression<System.Func<T, System.Object>>[])
-  fullName.vb: Startitecture.Orm.SqlClient.TableValuedMerge(Of T).MergeInto(System.Linq.Expressions.Expression(Of System.Func(Of T, System.Object))())
-  nameWithType: TableValuedMerge<T>.MergeInto(Expression<Func<T, Object>>[])
-  nameWithType.vb: TableValuedMerge(Of T).MergeInto(Expression(Of Func(Of T, Object))())
-- uid: Startitecture.Orm.SqlClient.TableValuedMerge`1.MergeInto*
-  name: MergeInto
-  href: api/Startitecture.Orm.SqlClient.TableValuedMerge-1.html#Startitecture_Orm_SqlClient_TableValuedMerge_1_MergeInto_
-  commentId: Overload:Startitecture.Orm.SqlClient.TableValuedMerge`1.MergeInto
-  isSpec: "True"
-  fullName: Startitecture.Orm.SqlClient.TableValuedMerge<T>.MergeInto
-  fullName.vb: Startitecture.Orm.SqlClient.TableValuedMerge(Of T).MergeInto
-  nameWithType: TableValuedMerge<T>.MergeInto
-  nameWithType.vb: TableValuedMerge(Of T).MergeInto
 - uid: Startitecture.Orm.SqlClient.TableValuedMerge`1.On*
   name: On
   href: api/Startitecture.Orm.SqlClient.TableValuedMerge-1.html#Startitecture_Orm_SqlClient_TableValuedMerge_1_On_
@@ -11448,6 +11666,24 @@ references:
   fullName.vb: Startitecture.Orm.SqlClient.TableValuedMerge(Of T).On(Of TItem)(System.Linq.Expressions.Expression(Of System.Func(Of TItem, System.Object)), System.Linq.Expressions.Expression(Of System.Func(Of T, System.Object)))
   nameWithType: TableValuedMerge<T>.On<TItem>(Expression<Func<TItem, Object>>, Expression<Func<T, Object>>)
   nameWithType.vb: TableValuedMerge(Of T).On(Of TItem)(Expression(Of Func(Of TItem, Object)), Expression(Of Func(Of T, Object)))
+- uid: Startitecture.Orm.SqlClient.TableValuedMerge`1.OnImplicit(System.Linq.Expressions.Expression{System.Func{`0,System.Object}}[])
+  name: OnImplicit(Expression<Func<T, Object>>[])
+  href: api/Startitecture.Orm.SqlClient.TableValuedMerge-1.html#Startitecture_Orm_SqlClient_TableValuedMerge_1_OnImplicit_System_Linq_Expressions_Expression_System_Func__0_System_Object_____
+  commentId: M:Startitecture.Orm.SqlClient.TableValuedMerge`1.OnImplicit(System.Linq.Expressions.Expression{System.Func{`0,System.Object}}[])
+  name.vb: OnImplicit(Expression(Of Func(Of T, Object))())
+  fullName: Startitecture.Orm.SqlClient.TableValuedMerge<T>.OnImplicit(System.Linq.Expressions.Expression<System.Func<T, System.Object>>[])
+  fullName.vb: Startitecture.Orm.SqlClient.TableValuedMerge(Of T).OnImplicit(System.Linq.Expressions.Expression(Of System.Func(Of T, System.Object))())
+  nameWithType: TableValuedMerge<T>.OnImplicit(Expression<Func<T, Object>>[])
+  nameWithType.vb: TableValuedMerge(Of T).OnImplicit(Expression(Of Func(Of T, Object))())
+- uid: Startitecture.Orm.SqlClient.TableValuedMerge`1.OnImplicit*
+  name: OnImplicit
+  href: api/Startitecture.Orm.SqlClient.TableValuedMerge-1.html#Startitecture_Orm_SqlClient_TableValuedMerge_1_OnImplicit_
+  commentId: Overload:Startitecture.Orm.SqlClient.TableValuedMerge`1.OnImplicit
+  isSpec: "True"
+  fullName: Startitecture.Orm.SqlClient.TableValuedMerge<T>.OnImplicit
+  fullName.vb: Startitecture.Orm.SqlClient.TableValuedMerge(Of T).OnImplicit
+  nameWithType: TableValuedMerge<T>.OnImplicit
+  nameWithType.vb: TableValuedMerge(Of T).OnImplicit
 - uid: Startitecture.Orm.SqlClient.TableValuedMerge`1.SelectFromInserted(System.Linq.Expressions.Expression{System.Func{`0,System.Object}}[])
   name: SelectFromInserted(Expression<Func<T, Object>>[])
   href: api/Startitecture.Orm.SqlClient.TableValuedMerge-1.html#Startitecture_Orm_SqlClient_TableValuedMerge_1_SelectFromInserted_System_Linq_Expressions_Expression_System_Func__0_System_Object_____
