@@ -37,9 +37,8 @@
               </button>
               
               <a class="navbar-brand" href="../index.html">
-                <img id="logo" class="svg" src="../logo.svg" alt="">
-              </a>
-            </div>
+                <img id="logo" class="svg" src="../logo.png" style="max-width:100%;max-height:100%;" alt="">
+              </a>    </div>
             <div class="collapse navbar-collapse" id="navbar">
               <form class="navbar-form navbar-right" role="search" id="search">
                 <div class="form-group">
@@ -78,10 +77,10 @@
     <h3 id="classes">Classes
   </h3>
       <h4><a class="xref" href="Startitecture.Orm.Model.AttributeLocation.html">AttributeLocation</a></h4>
-      <section><p>The attribute location.</p>
+      <section><p>Defines the location of an attribute on an entity.</p>
 </section>
       <h4><a class="xref" href="Startitecture.Orm.Model.AttributeReference.html">AttributeReference</a></h4>
-      <section><p>The attribute reference.</p>
+      <section><p>Represents a reference to an entity attribute.</p>
 </section>
       <h4><a class="xref" href="Startitecture.Orm.Model.EntityDefinition.html">EntityDefinition</a></h4>
       <section><p>Contains metadata for a data entity.
@@ -91,10 +90,10 @@ TODO: Do sorted set by column ordinals</p>
       <section><p>Represents a table expression.</p>
 </section>
       <h4><a class="xref" href="Startitecture.Orm.Model.EntityReference.html">EntityReference</a></h4>
-      <section><p>The related entity reference.</p>
+      <section><p>Contains a reference to an entity.</p>
 </section>
       <h4><a class="xref" href="Startitecture.Orm.Model.EntityRelation.html">EntityRelation</a></h4>
-      <section><p>The base class for defining relations between two entities.</p>
+      <section><p>Defines a relation between two entities.</p>
 </section>
       <h4><a class="xref" href="Startitecture.Orm.Model.EntityRelationSet-1.html">EntityRelationSet&lt;TItem&gt;</a></h4>
       <section><p>Contains a set of entity relations.</p>
@@ -109,7 +108,7 @@ TODO: Do sorted set by column ordinals</p>
       <section><p>Contains a reference to a linked selection with the link type.</p>
 </section>
       <h4><a class="xref" href="Startitecture.Orm.Model.OrderExpression.html">OrderExpression</a></h4>
-      <section><p>The order expression.</p>
+      <section><p>Represents a single ORDER BY column clause.</p>
 </section>
       <h4><a class="xref" href="Startitecture.Orm.Model.RepositoryException.html">RepositoryException</a></h4>
       <section><p>Thrown when there is an error accessing a data repository.</p>
@@ -130,7 +129,7 @@ TODO: Do sorted set by column ordinals</p>
       <section><p>Contains a filter for a specific item attribute.</p>
 </section>
       <h4><a class="xref" href="Startitecture.Orm.Model.ValueState.html">ValueState</a></h4>
-      <section><p>The value state.</p>
+      <section><p>Represents a value state for an attribute.</p>
 </section>
     <h3 id="structs">Structs
   </h3>
@@ -141,7 +140,7 @@ TODO: Do sorted set by column ordinals</p>
       <section><p>Contains the location for a data entity.</p>
 </section>
       <h4><a class="xref" href="Startitecture.Orm.Model.ResolvedAttributeLocation.html">ResolvedAttributeLocation</a></h4>
-      <section><p>The resolved attribute location.</p>
+      <section><p>Defines the location of a resolved attribute.</p>
 </section>
     <h3 id="interfaces">Interfaces
   </h3>
@@ -170,13 +169,13 @@ TODO: Do sorted set by column ordinals</p>
       <section><p>Provides an interface for specifying a set of entities.</p>
 </section>
       <h4><a class="xref" href="Startitecture.Orm.Model.INameQualifier.html">INameQualifier</a></h4>
-      <section><p>The NameQualifier interface.</p>
+      <section><p>Provides an interface for qualifying and escaping names for a specific SQL platform.</p>
 </section>
       <h4><a class="xref" href="Startitecture.Orm.Model.IReadOnlyRepository-1.html">IReadOnlyRepository&lt;TModel&gt;</a></h4>
       <section><p>Provides an interface for classes that allow read-only access to repository data.</p>
 </section>
       <h4><a class="xref" href="Startitecture.Orm.Model.ISelection.html">ISelection</a></h4>
-      <section><p>The selection interface.</p>
+      <section><p>Provides an interface for selecting entities in a repository.</p>
 </section>
       <h4><a class="xref" href="Startitecture.Orm.Model.IUpdateSet.html">IUpdateSet</a></h4>
       <section><p>Provides an interface to expose common properties of an update set.</p>
@@ -184,7 +183,7 @@ TODO: Do sorted set by column ordinals</p>
     <h3 id="enums">Enums
   </h3>
       <h4><a class="xref" href="Startitecture.Orm.Model.AggregateFunction.html">AggregateFunction</a></h4>
-      <section><p>The aggregate function.</p>
+      <section><p>An enumeration of SQL aggregate functions that can be applied to a column.</p>
 </section>
       <h4><a class="xref" href="Startitecture.Orm.Model.EntityAttributeTypes.html">EntityAttributeTypes</a></h4>
       <section><p>Contains the types of an entity attribute.</p>
@@ -193,7 +192,7 @@ TODO: Do sorted set by column ordinals</p>
       <section><p>An enumeration of the relation types between two entities.</p>
 </section>
       <h4><a class="xref" href="Startitecture.Orm.Model.FilterType.html">FilterType</a></h4>
-      <section><p>The filter type.</p>
+      <section><p>An enumeration of supported SQL filters.</p>
 </section>
       <h4><a class="xref" href="Startitecture.Orm.Model.SelectionLinkType.html">SelectionLinkType</a></h4>
       <section><p>An enumeration of the link types between selection statements.</p>

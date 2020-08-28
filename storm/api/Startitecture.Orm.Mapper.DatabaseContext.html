@@ -37,9 +37,8 @@
               </button>
               
               <a class="navbar-brand" href="../index.html">
-                <img id="logo" class="svg" src="../logo.svg" alt="">
-              </a>
-            </div>
+                <img id="logo" class="svg" src="../logo.png" style="max-width:100%;max-height:100%;" alt="">
+              </a>    </div>
             <div class="collapse navbar-collapse" id="navbar">
               <form class="navbar-form navbar-right" role="search" id="search">
                 <div class="form-group">
@@ -426,11 +425,11 @@ Construct a database using a supplied connections string and optionally a provid
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Mapper/DatabaseContext.cs&amp;version=GBmaster&amp;line=240">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Mapper/DatabaseContext.cs&amp;version=GBmaster&amp;line=230">View Source</a>
   </span>
   <a id="Startitecture_Orm_Mapper_DatabaseContext_BeginTransaction_" data-uid="Startitecture.Orm.Mapper.DatabaseContext.BeginTransaction*"></a>
   <h4 id="Startitecture_Orm_Mapper_DatabaseContext_BeginTransaction" data-uid="Startitecture.Orm.Mapper.DatabaseContext.BeginTransaction">BeginTransaction()</h4>
-  <div class="markdown level1 summary"><p>Starts a transaction scope, see GetTransaction() for recommended usage</p>
+  <div class="markdown level1 summary"><p>Begins a transaction for the current database context.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -448,14 +447,14 @@ Construct a database using a supplied connections string and optionally a provid
     <tbody>
       <tr>
         <td><span class="xref">System.Data.IDbTransaction</span></td>
-        <td><p>A new <span class="xref">System.Data.IDbTransaction</span>, or the current transaction if a transaction has already been started.</p>
+        <td><p>The <span class="xref">System.Data.IDbTransaction</span> that was opened with this call.</p>
 </td>
       </tr>
     </tbody>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Mapper/DatabaseContext.cs&amp;version=GBmaster&amp;line=421">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Mapper/DatabaseContext.cs&amp;version=GBmaster&amp;line=368">View Source</a>
   </span>
   <a id="Startitecture_Orm_Mapper_DatabaseContext_Dispose_" data-uid="Startitecture.Orm.Mapper.DatabaseContext.Dispose*"></a>
   <h4 id="Startitecture_Orm_Mapper_DatabaseContext_Dispose" data-uid="Startitecture.Orm.Mapper.DatabaseContext.Dispose">Dispose()</h4>
@@ -467,7 +466,7 @@ Construct a database using a supplied connections string and optionally a provid
   </div>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Mapper/DatabaseContext.cs&amp;version=GBmaster&amp;line=437">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Mapper/DatabaseContext.cs&amp;version=GBmaster&amp;line=384">View Source</a>
   </span>
   <a id="Startitecture_Orm_Mapper_DatabaseContext_Dispose_" data-uid="Startitecture.Orm.Mapper.DatabaseContext.Dispose*"></a>
   <h4 id="Startitecture_Orm_Mapper_DatabaseContext_Dispose_System_Boolean_" data-uid="Startitecture.Orm.Mapper.DatabaseContext.Dispose(System.Boolean)">Dispose(Boolean)</h4>
@@ -498,11 +497,11 @@ Construct a database using a supplied connections string and optionally a provid
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Mapper/DatabaseContext.cs&amp;version=GBmaster&amp;line=269">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Mapper/DatabaseContext.cs&amp;version=GBmaster&amp;line=248">View Source</a>
   </span>
   <a id="Startitecture_Orm_Mapper_DatabaseContext_Execute_" data-uid="Startitecture.Orm.Mapper.DatabaseContext.Execute*"></a>
   <h4 id="Startitecture_Orm_Mapper_DatabaseContext_Execute_System_String_System_Object___" data-uid="Startitecture.Orm.Mapper.DatabaseContext.Execute(System.String,System.Object[])">Execute(String, Object[])</h4>
-  <div class="markdown level1 summary"><p>Executes a non-query command</p>
+  <div class="markdown level1 summary"><p>Executes a non-query command.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -522,13 +521,13 @@ Construct a database using a supplied connections string and optionally a provid
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">sql</span></td>
-        <td><p>The SQL statement to execute</p>
+        <td><p>The SQL statement to execute.</p>
 </td>
       </tr>
       <tr>
         <td><span class="xref">System.Object</span>[]</td>
         <td><span class="parametername">args</span></td>
-        <td><p>Arguments to any embedded parameters in the SQL</p>
+        <td><p>Arguments to any embedded parameters in the SQL.</p>
 </td>
       </tr>
     </tbody>
@@ -544,14 +543,14 @@ Construct a database using a supplied connections string and optionally a provid
     <tbody>
       <tr>
         <td><span class="xref">System.Int32</span></td>
-        <td><p>The number of rows affected</p>
+        <td><p>The number of rows affected.</p>
 </td>
       </tr>
     </tbody>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Mapper/DatabaseContext.cs&amp;version=GBmaster&amp;line=305">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Mapper/DatabaseContext.cs&amp;version=GBmaster&amp;line=270">View Source</a>
   </span>
   <a id="Startitecture_Orm_Mapper_DatabaseContext_ExecuteScalar_" data-uid="Startitecture.Orm.Mapper.DatabaseContext.ExecuteScalar*"></a>
   <h4 id="Startitecture_Orm_Mapper_DatabaseContext_ExecuteScalar__1_System_String_System_Object___" data-uid="Startitecture.Orm.Mapper.DatabaseContext.ExecuteScalar``1(System.String,System.Object[])">ExecuteScalar&lt;T&gt;(String, Object[])</h4>
@@ -575,13 +574,13 @@ Construct a database using a supplied connections string and optionally a provid
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">sql</span></td>
-        <td><p>The SQL query to execute</p>
+        <td><p>The SQL query to execute.</p>
 </td>
       </tr>
       <tr>
         <td><span class="xref">System.Object</span>[]</td>
         <td><span class="parametername">args</span></td>
-        <td><p>Arguments to any embedded parameters in the SQL</p>
+        <td><p>Arguments to any embedded parameters in the SQL.</p>
 </td>
       </tr>
     </tbody>
@@ -597,7 +596,7 @@ Construct a database using a supplied connections string and optionally a provid
     <tbody>
       <tr>
         <td><span class="xref">T</span></td>
-        <td><p>The scalar value cast to T</p>
+        <td><p>The scalar value cast to <code data-dev-comment-type="typeparamref" class="typeparamref">T</code>.</p>
 </td>
       </tr>
     </tbody>
@@ -613,14 +612,14 @@ Construct a database using a supplied connections string and optionally a provid
     <tbody>
       <tr>
         <td><span class="parametername">T</span></td>
-        <td><p>The type that the result value should be cast to</p>
+        <td><p>The type that the result value should be cast to.</p>
 </td>
       </tr>
     </tbody>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Mapper/DatabaseContext.cs&amp;version=GBmaster&amp;line=401">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Mapper/DatabaseContext.cs&amp;version=GBmaster&amp;line=348">View Source</a>
   </span>
   <a id="Startitecture_Orm_Mapper_DatabaseContext_GetValueMapper_" data-uid="Startitecture.Orm.Mapper.DatabaseContext.GetValueMapper*"></a>
   <h4 id="Startitecture_Orm_Mapper_DatabaseContext_GetValueMapper_System_Type_System_Type_" data-uid="Startitecture.Orm.Mapper.DatabaseContext.GetValueMapper(System.Type,System.Type)">GetValueMapper(Type, Type)</h4>
@@ -673,7 +672,7 @@ Construct a database using a supplied connections string and optionally a provid
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Mapper/DatabaseContext.cs&amp;version=GBmaster&amp;line=208">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Mapper/DatabaseContext.cs&amp;version=GBmaster&amp;line=203">View Source</a>
   </span>
   <a id="Startitecture_Orm_Mapper_DatabaseContext_OpenSharedConnection_" data-uid="Startitecture.Orm.Mapper.DatabaseContext.OpenSharedConnection*"></a>
   <h4 id="Startitecture_Orm_Mapper_DatabaseContext_OpenSharedConnection" data-uid="Startitecture.Orm.Mapper.DatabaseContext.OpenSharedConnection">OpenSharedConnection()</h4>
@@ -684,12 +683,9 @@ Construct a database using a supplied connections string and optionally a provid
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void OpenSharedConnection()</code></pre>
   </div>
-  <h5 id="Startitecture_Orm_Mapper_DatabaseContext_OpenSharedConnection_remarks">Remarks</h5>
-  <div class="markdown level1 remarks"><p>Calls to Open/CloseSharedConnection are reference counted and should be balanced</p>
-</div>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Mapper/DatabaseContext.cs&amp;version=GBmaster&amp;line=358">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Mapper/DatabaseContext.cs&amp;version=GBmaster&amp;line=305">View Source</a>
   </span>
   <a id="Startitecture_Orm_Mapper_DatabaseContext_Query_" data-uid="Startitecture.Orm.Mapper.DatabaseContext.Query*"></a>
   <h4 id="Startitecture_Orm_Mapper_DatabaseContext_Query__1_System_String_System_Object___" data-uid="Startitecture.Orm.Mapper.DatabaseContext.Query``1(System.String,System.Object[])">Query&lt;T&gt;(String, Object[])</h4>
@@ -766,10 +762,6 @@ In cases where this is an issue, consider using Fetch which returns the results 
   </div>
   <div>
       <span class="xref">System.IDisposable</span>
-  </div>
-  <h3 id="extensionmethods">Extension Methods</h3>
-  <div>
-      <a class="xref" href="Startitecture.Orm.Testing.Moq.ExtensionMethods.html#Startitecture_Orm_Testing_Moq_ExtensionMethods_MockDataReader__1___0_System_Collections_Generic_IEnumerable_Startitecture_Orm_Model_EntityAttributeDefinition__">ExtensionMethods.MockDataReader&lt;T&gt;(T, IEnumerable&lt;EntityAttributeDefinition&gt;)</a>
   </div>
 </article>
           </div>

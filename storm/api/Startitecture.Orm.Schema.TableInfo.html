@@ -37,9 +37,8 @@
               </button>
               
               <a class="navbar-brand" href="../index.html">
-                <img id="logo" class="svg" src="../logo.svg" alt="">
-              </a>
-            </div>
+                <img id="logo" class="svg" src="../logo.png" style="max-width:100%;max-height:100%;" alt="">
+              </a>    </div>
             <div class="collapse navbar-collapse" id="navbar">
               <form class="navbar-form navbar-right" role="search" id="search">
                 <div class="form-group">
@@ -104,13 +103,14 @@
   <h6><strong>Assembly</strong>: Startitecture.Orm.Schema.dll</h6>
   <h5 id="Startitecture_Orm_Schema_TableInfo_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class TableInfo : IEquatable&lt;TableInfo&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;TableInfo is only used by DatabaseType and its inheritors, which are deprecated.&quot;)]
+public class TableInfo : IEquatable&lt;TableInfo&gt;</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Schema/TableInfo.cs&amp;version=GBmaster&amp;line=39">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Schema/TableInfo.cs&amp;version=GBmaster&amp;line=40">View Source</a>
   </span>
   <a id="Startitecture_Orm_Schema_TableInfo__ctor_" data-uid="Startitecture.Orm.Schema.TableInfo.#ctor*"></a>
   <h4 id="Startitecture_Orm_Schema_TableInfo__ctor_System_String_" data-uid="Startitecture.Orm.Schema.TableInfo.#ctor(System.String)">TableInfo(String)</h4>
@@ -141,7 +141,7 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Schema/TableInfo.cs&amp;version=GBmaster&amp;line=53">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Schema/TableInfo.cs&amp;version=GBmaster&amp;line=54">View Source</a>
   </span>
   <a id="Startitecture_Orm_Schema_TableInfo__ctor_" data-uid="Startitecture.Orm.Schema.TableInfo.#ctor*"></a>
   <h4 id="Startitecture_Orm_Schema_TableInfo__ctor_System_String_System_String_" data-uid="Startitecture.Orm.Schema.TableInfo.#ctor(System.String,System.String)">TableInfo(String, String)</h4>
@@ -180,7 +180,7 @@
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Schema/TableInfo.cs&amp;version=GBmaster&amp;line=64">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Schema/TableInfo.cs&amp;version=GBmaster&amp;line=65">View Source</a>
   </span>
   <a id="Startitecture_Orm_Schema_TableInfo_AutoIncrement_" data-uid="Startitecture.Orm.Schema.TableInfo.AutoIncrement*"></a>
   <h4 id="Startitecture_Orm_Schema_TableInfo_AutoIncrement" data-uid="Startitecture.Orm.Schema.TableInfo.AutoIncrement">AutoIncrement</h4>
@@ -208,7 +208,7 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Schema/TableInfo.cs&amp;version=GBmaster&amp;line=69">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Schema/TableInfo.cs&amp;version=GBmaster&amp;line=70">View Source</a>
   </span>
   <a id="Startitecture_Orm_Schema_TableInfo_PrimaryKey_" data-uid="Startitecture.Orm.Schema.TableInfo.PrimaryKey*"></a>
   <h4 id="Startitecture_Orm_Schema_TableInfo_PrimaryKey" data-uid="Startitecture.Orm.Schema.TableInfo.PrimaryKey">PrimaryKey</h4>
@@ -236,7 +236,7 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Schema/TableInfo.cs&amp;version=GBmaster&amp;line=74">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Schema/TableInfo.cs&amp;version=GBmaster&amp;line=75">View Source</a>
   </span>
   <a id="Startitecture_Orm_Schema_TableInfo_SequenceName_" data-uid="Startitecture.Orm.Schema.TableInfo.SequenceName*"></a>
   <h4 id="Startitecture_Orm_Schema_TableInfo_SequenceName" data-uid="Startitecture.Orm.Schema.TableInfo.SequenceName">SequenceName</h4>
@@ -264,7 +264,7 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Schema/TableInfo.cs&amp;version=GBmaster&amp;line=79">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Schema/TableInfo.cs&amp;version=GBmaster&amp;line=80">View Source</a>
   </span>
   <a id="Startitecture_Orm_Schema_TableInfo_TableName_" data-uid="Startitecture.Orm.Schema.TableInfo.TableName*"></a>
   <h4 id="Startitecture_Orm_Schema_TableInfo_TableName" data-uid="Startitecture.Orm.Schema.TableInfo.TableName">TableName</h4>
@@ -294,7 +294,7 @@
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Schema/TableInfo.cs&amp;version=GBmaster&amp;line=162">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Schema/TableInfo.cs&amp;version=GBmaster&amp;line=163">View Source</a>
   </span>
   <a id="Startitecture_Orm_Schema_TableInfo_Equals_" data-uid="Startitecture.Orm.Schema.TableInfo.Equals*"></a>
   <h4 id="Startitecture_Orm_Schema_TableInfo_Equals_Startitecture_Orm_Schema_TableInfo_" data-uid="Startitecture.Orm.Schema.TableInfo.Equals(Startitecture.Orm.Schema.TableInfo)">Equals(TableInfo)</h4>
@@ -341,7 +341,7 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Schema/TableInfo.cs&amp;version=GBmaster&amp;line=150">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Schema/TableInfo.cs&amp;version=GBmaster&amp;line=151">View Source</a>
   </span>
   <a id="Startitecture_Orm_Schema_TableInfo_Equals_" data-uid="Startitecture.Orm.Schema.TableInfo.Equals*"></a>
   <h4 id="Startitecture_Orm_Schema_TableInfo_Equals_System_Object_" data-uid="Startitecture.Orm.Schema.TableInfo.Equals(System.Object)">Equals(Object)</h4>
@@ -390,7 +390,7 @@
   <div><span class="xref">System.Object.Equals(System.Object)</span></div>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Schema/TableInfo.cs&amp;version=GBmaster&amp;line=138">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Schema/TableInfo.cs&amp;version=GBmaster&amp;line=139">View Source</a>
   </span>
   <a id="Startitecture_Orm_Schema_TableInfo_GetHashCode_" data-uid="Startitecture.Orm.Schema.TableInfo.GetHashCode*"></a>
   <h4 id="Startitecture_Orm_Schema_TableInfo_GetHashCode" data-uid="Startitecture.Orm.Schema.TableInfo.GetHashCode">GetHashCode()</h4>
@@ -421,7 +421,7 @@
   <div><span class="xref">System.Object.GetHashCode()</span></div>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Schema/TableInfo.cs&amp;version=GBmaster&amp;line=126">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Schema/TableInfo.cs&amp;version=GBmaster&amp;line=127">View Source</a>
   </span>
   <a id="Startitecture_Orm_Schema_TableInfo_ToString_" data-uid="Startitecture.Orm.Schema.TableInfo.ToString*"></a>
   <h4 id="Startitecture_Orm_Schema_TableInfo_ToString" data-uid="Startitecture.Orm.Schema.TableInfo.ToString">ToString()</h4>
@@ -454,7 +454,7 @@
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Schema/TableInfo.cs&amp;version=GBmaster&amp;line=97">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Schema/TableInfo.cs&amp;version=GBmaster&amp;line=98">View Source</a>
   </span>
   <a id="Startitecture_Orm_Schema_TableInfo_op_Equality_" data-uid="Startitecture.Orm.Schema.TableInfo.op_Equality*"></a>
   <h4 id="Startitecture_Orm_Schema_TableInfo_op_Equality_Startitecture_Orm_Schema_TableInfo_Startitecture_Orm_Schema_TableInfo_" data-uid="Startitecture.Orm.Schema.TableInfo.op_Equality(Startitecture.Orm.Schema.TableInfo,Startitecture.Orm.Schema.TableInfo)">Equality(TableInfo, TableInfo)</h4>
@@ -507,7 +507,7 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Schema/TableInfo.cs&amp;version=GBmaster&amp;line=114">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Schema/TableInfo.cs&amp;version=GBmaster&amp;line=115">View Source</a>
   </span>
   <a id="Startitecture_Orm_Schema_TableInfo_op_Inequality_" data-uid="Startitecture.Orm.Schema.TableInfo.op_Inequality*"></a>
   <h4 id="Startitecture_Orm_Schema_TableInfo_op_Inequality_Startitecture_Orm_Schema_TableInfo_Startitecture_Orm_Schema_TableInfo_" data-uid="Startitecture.Orm.Schema.TableInfo.op_Inequality(Startitecture.Orm.Schema.TableInfo,Startitecture.Orm.Schema.TableInfo)">Inequality(TableInfo, TableInfo)</h4>
@@ -561,10 +561,6 @@
   <h3 id="implements">Implements</h3>
   <div>
       <span class="xref">System.IEquatable&lt;T&gt;</span>
-  </div>
-  <h3 id="extensionmethods">Extension Methods</h3>
-  <div>
-      <a class="xref" href="Startitecture.Orm.Testing.Moq.ExtensionMethods.html#Startitecture_Orm_Testing_Moq_ExtensionMethods_MockDataReader__1___0_System_Collections_Generic_IEnumerable_Startitecture_Orm_Model_EntityAttributeDefinition__">ExtensionMethods.MockDataReader&lt;T&gt;(T, IEnumerable&lt;EntityAttributeDefinition&gt;)</a>
   </div>
 </article>
           </div>

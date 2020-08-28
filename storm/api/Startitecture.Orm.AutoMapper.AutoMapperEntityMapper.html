@@ -37,9 +37,8 @@
               </button>
               
               <a class="navbar-brand" href="../index.html">
-                <img id="logo" class="svg" src="../logo.svg" alt="">
-              </a>
-            </div>
+                <img id="logo" class="svg" src="../logo.png" style="max-width:100%;max-height:100%;" alt="">
+              </a>    </div>
             <div class="collapse navbar-collapse" id="navbar">
               <form class="navbar-form navbar-right" role="search" id="search">
                 <div class="form-group">
@@ -221,7 +220,7 @@
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.AutoMapper/AutoMapperEntityMapper.cs&amp;version=GBmaster&amp;line=95">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.AutoMapper/AutoMapperEntityMapper.cs&amp;version=GBmaster&amp;line=78">View Source</a>
   </span>
   <a id="Startitecture_Orm_AutoMapper_AutoMapperEntityMapper_Map_" data-uid="Startitecture.Orm.AutoMapper.AutoMapperEntityMapper.Map*"></a>
   <h4 id="Startitecture_Orm_AutoMapper_AutoMapperEntityMapper_Map__1_System_Object_" data-uid="Startitecture.Orm.AutoMapper.AutoMapperEntityMapper.Map``1(System.Object)">Map&lt;TOutput&gt;(Object)</h4>
@@ -292,11 +291,6 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.ArgumentNullException</span></td>
-        <td><p><code data-dev-comment-type="paramref" class="paramref">input</code> was null.</p>
-</td>
-      </tr>
-      <tr>
         <td><span class="xref">Startitecture.Core.OperationException</span></td>
         <td><p>A mapping failed between the input and output type. The inner exception will contain details of the failure.</p>
 </td>
@@ -305,7 +299,7 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.AutoMapper/AutoMapperEntityMapper.cs&amp;version=GBmaster&amp;line=121">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.AutoMapper/AutoMapperEntityMapper.cs&amp;version=GBmaster&amp;line=87">View Source</a>
   </span>
   <a id="Startitecture_Orm_AutoMapper_AutoMapperEntityMapper_Map_" data-uid="Startitecture.Orm.AutoMapper.AutoMapperEntityMapper.Map*"></a>
   <h4 id="Startitecture_Orm_AutoMapper_AutoMapperEntityMapper_Map__1_System_Object_System_Func_System_Type_System_Object__" data-uid="Startitecture.Orm.AutoMapper.AutoMapperEntityMapper.Map``1(System.Object,System.Func{System.Type,System.Object})">Map&lt;TOutput&gt;(Object, Func&lt;Type, Object&gt;)</h4>
@@ -335,7 +329,7 @@
       <tr>
         <td><span class="xref">System.Func</span>&lt;<span class="xref">System.Type</span>, <span class="xref">System.Object</span>&gt;</td>
         <td><span class="parametername">serviceConstructor</span></td>
-        <td><p>The service constructor.</p>
+        <td><p>The service constructor to use to create the new object.</p>
 </td>
       </tr>
     </tbody>
@@ -386,20 +380,15 @@
         <td><p><code data-dev-comment-type="paramref" class="paramref">input</code> was null.</p>
 </td>
       </tr>
-      <tr>
-        <td><span class="xref">Startitecture.Core.OperationException</span></td>
-        <td><p>A mapping failed between the input and output type. The inner exception will contain details of the failure.</p>
-</td>
-      </tr>
     </tbody>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.AutoMapper/AutoMapperEntityMapper.cs&amp;version=GBmaster&amp;line=164">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.AutoMapper/AutoMapperEntityMapper.cs&amp;version=GBmaster&amp;line=110">View Source</a>
   </span>
   <a id="Startitecture_Orm_AutoMapper_AutoMapperEntityMapper_MapTo_" data-uid="Startitecture.Orm.AutoMapper.AutoMapperEntityMapper.MapTo*"></a>
   <h4 id="Startitecture_Orm_AutoMapper_AutoMapperEntityMapper_MapTo__2___0___1_" data-uid="Startitecture.Orm.AutoMapper.AutoMapperEntityMapper.MapTo``2(``0,``1)">MapTo&lt;TInput, TOutput&gt;(TInput, TOutput)</h4>
-  <div class="markdown level1 summary"><p>Maps one object type to another object type.</p>
+  <div class="markdown level1 summary"><p>Maps one object to an object of a different type.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -419,14 +408,12 @@
       <tr>
         <td><span class="xref">TInput</span></td>
         <td><span class="parametername">input</span></td>
-        <td><p>The input object.</p>
-</td>
+        <td></td>
       </tr>
       <tr>
         <td><span class="xref">TOutput</span></td>
         <td><span class="parametername">output</span></td>
-        <td><p>The output object.</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -441,7 +428,7 @@
     <tbody>
       <tr>
         <td><span class="xref">TOutput</span></td>
-        <td><p>The mapped object as a <code data-dev-comment-type="typeparamref" class="typeparamref">TOutput</code>.</p>
+        <td><p>The mapped object as a <code data-dev-comment-type="typeparamref" class="typeparamref">TDestination</code>.</p>
 </td>
       </tr>
     </tbody>
@@ -457,13 +444,11 @@
     <tbody>
       <tr>
         <td><span class="parametername">TInput</span></td>
-        <td><p>The type of object to map from.</p>
-</td>
+        <td></td>
       </tr>
       <tr>
         <td><span class="parametername">TOutput</span></td>
-        <td><p>The type of object to map to.</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -481,20 +466,11 @@
         <td><p><code data-dev-comment-type="paramref" class="paramref">input</code> is null.</p>
 </td>
       </tr>
-      <tr>
-        <td><span class="xref">Startitecture.Core.OperationException</span></td>
-        <td><p>The mapping could not be performed because a supported mapping has not been configured.</p>
-</td>
-      </tr>
     </tbody>
   </table>
   <h3 id="implements">Implements</h3>
   <div>
       <a class="xref" href="Startitecture.Orm.Model.IEntityMapper.html">IEntityMapper</a>
-  </div>
-  <h3 id="extensionmethods">Extension Methods</h3>
-  <div>
-      <a class="xref" href="Startitecture.Orm.Testing.Moq.ExtensionMethods.html#Startitecture_Orm_Testing_Moq_ExtensionMethods_MockDataReader__1___0_System_Collections_Generic_IEnumerable_Startitecture_Orm_Model_EntityAttributeDefinition__">ExtensionMethods.MockDataReader&lt;T&gt;(T, IEnumerable&lt;EntityAttributeDefinition&gt;)</a>
   </div>
 </article>
           </div>

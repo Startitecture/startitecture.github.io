@@ -37,9 +37,8 @@
               </button>
               
               <a class="navbar-brand" href="../index.html">
-                <img id="logo" class="svg" src="../logo.svg" alt="">
-              </a>
-            </div>
+                <img id="logo" class="svg" src="../logo.png" style="max-width:100%;max-height:100%;" alt="">
+              </a>    </div>
             <div class="collapse navbar-collapse" id="navbar">
               <form class="navbar-form navbar-right" role="search" id="search">
                 <div class="form-group">
@@ -73,7 +72,7 @@
   
   <h1 id="Startitecture_Orm_Model_AggregateFunction" data-uid="Startitecture.Orm.Model.AggregateFunction" class="text-break">Enum AggregateFunction
   </h1>
-  <div class="markdown level0 summary"><p>The aggregate function.</p>
+  <div class="markdown level0 summary"><p>An enumeration of SQL aggregate functions that can be applied to a column.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Startitecture.Orm.Model.html">Startitecture.Orm.Model</a></h6>
@@ -93,21 +92,37 @@
     <thead>
     <tbody>
       <tr>
+        <td id="Startitecture_Orm_Model_AggregateFunction_Avg">Avg</td>
+        <td><p>Gets the average of all the returned values.</p>
+</td>
+      </tr>
+      <tr>
         <td id="Startitecture_Orm_Model_AggregateFunction_Count">Count</td>
-        <td><p>The count.</p>
+        <td><p>Gets the count of all returned values.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="Startitecture_Orm_Model_AggregateFunction_Max">Max</td>
+        <td><p>Gets the maximum value of all the returned values.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="Startitecture_Orm_Model_AggregateFunction_Min">Min</td>
+        <td><p>Gets the minimum value of all the returned values.</p>
 </td>
       </tr>
       <tr>
         <td id="Startitecture_Orm_Model_AggregateFunction_None">None</td>
-        <td><p>The none.</p>
+        <td><p>Does not apply any aggregate function.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="Startitecture_Orm_Model_AggregateFunction_Sum">Sum</td>
+        <td><p>Gets the sum of all returned values.</p>
 </td>
       </tr>
     </tbody>
   </thead></thead></table>
-  <h3 id="extensionmethods">Extension Methods</h3>
-  <div>
-      <a class="xref" href="Startitecture.Orm.Testing.Moq.ExtensionMethods.html#Startitecture_Orm_Testing_Moq_ExtensionMethods_MockDataReader__1___0_System_Collections_Generic_IEnumerable_Startitecture_Orm_Model_EntityAttributeDefinition__">ExtensionMethods.MockDataReader&lt;AggregateFunction&gt;(IEnumerable&lt;EntityAttributeDefinition&gt;)</a>
-  </div>
 </article>
           </div>
           
@@ -116,7 +131,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/AggregateFunction.cs&amp;version=GBmaster&amp;line=12" class="contribution-link">View Source</a>
+                    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/AggregateFunction.cs&amp;version=GBmaster&amp;line=15" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

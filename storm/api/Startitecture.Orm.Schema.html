@@ -37,9 +37,8 @@
               </button>
               
               <a class="navbar-brand" href="../index.html">
-                <img id="logo" class="svg" src="../logo.svg" alt="">
-              </a>
-            </div>
+                <img id="logo" class="svg" src="../logo.png" style="max-width:100%;max-height:100%;" alt="">
+              </a>    </div>
             <div class="collapse navbar-collapse" id="navbar">
               <form class="navbar-form navbar-right" role="search" id="search">
                 <div class="form-group">
@@ -78,7 +77,7 @@
     <h3 id="classes">Classes
   </h3>
       <h4><a class="xref" href="Startitecture.Orm.Schema.DataAnnotationsDefinitionProvider.html">DataAnnotationsDefinitionProvider</a></h4>
-      <section><p>The data annotations definition provider.</p>
+      <section><p>Generates <a class="xref" href="Startitecture.Orm.Model.IEntityDefinition.html">IEntityDefinition</a> instances using the <span class="xref">System.ComponentModel.DataAnnotations</span> namespace.</p>
 </section>
       <h4><a class="xref" href="Startitecture.Orm.Schema.DefinitionProviderBase.html">DefinitionProviderBase</a></h4>
       <section><p>The definition provider base class.</p>
@@ -90,7 +89,8 @@
       <section><p>Declares properties that shouldn't be included in selection statements.</p>
 </section>
       <h4><a class="xref" href="Startitecture.Orm.Schema.IndexAttribute.html">IndexAttribute</a></h4>
-      <section><p>The index attribute.</p>
+      <section><p>This attribute is a public clone of the index attribute included in the EntityFramework package. This allows the reverse POCO generator to
+generate index attributes without requiring the EntityFramework package.</p>
 </section>
       <h4><a class="xref" href="Startitecture.Orm.Schema.RelatedEntityAttribute.html">RelatedEntityAttribute</a></h4>
       <section><p>Marks a property as a related attribute from another table.</p>
@@ -102,7 +102,7 @@
       <section><p>Used by IMapper to override table bindings for an object.</p>
 </section>
       <h4><a class="xref" href="Startitecture.Orm.Schema.TableTypeAttribute.html">TableTypeAttribute</a></h4>
-      <section><p>The table type attribute.</p>
+      <section><p>Declares that a class represents a user-defined table type.</p>
 </section>
     <h3 id="structs">Structs
   </h3>

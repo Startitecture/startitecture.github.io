@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Startitecture.Orm (ST/orm) </title>
+    <title>Startitecture.Orm (ST/ORM) </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Startitecture.Orm (ST/orm) ">
+    <meta name="title" content="Startitecture.Orm (ST/ORM) ">
     <meta name="generator" content="docfx 2.56.2.0">
     
     <link rel="shortcut icon" href="favicon.ico">
@@ -35,9 +35,8 @@
               </button>
               
               <a class="navbar-brand" href="index.html">
-                <img id="logo" class="svg" src="logo.svg" alt="">
-              </a>
-            </div>
+                <img id="logo" class="svg" src="logo.png" style="max-width:100%;max-height:100%;" alt="">
+              </a>    </div>
             <div class="collapse navbar-collapse" id="navbar">
               <form class="navbar-form navbar-right" role="search" id="search">
                 <div class="form-group">
@@ -60,19 +59,20 @@
         <div class="article row grid">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-<h1 id="startitectureorm-storm">Startitecture.Orm (ST/orm)</h1>
+<h1 id="startitectureorm-storm">Startitecture.Orm (ST/ORM)</h1>
 
-<p>ST/orm is an object-relational mapper that combines the speed of ORMs like <a href="https://github.com/StackExchange/Dapper">Dapper</a> and <a href="https://github.com/CollaboratingPlatypus/PetaPoco/wiki">PetaPoco</a> with the rich POCO composition and query features of traditional ORMs.</p>
-<p>Initially based on the work done in PetaPoco, ST/orm represents an 8 year journey in schema modeling, query language, data design, and object hyrdration, built (and re-built) for use in private corporations. <a href="https://startitecture.com">Startitecture</a> has gained the rights to redistribute those substantial modifications from the original PetaPoco library as a fully open source package.</p>
+<p>ST/ORM is an object-relational mapper that combines the speed of ORMs like <a href="https://github.com/StackExchange/Dapper">Dapper</a> and <a href="https://github.com/CollaboratingPlatypus/PetaPoco/wiki">PetaPoco</a> with the rich POCO composition and query features of traditional ORMs.</p>
+<p>Initially based on the work done in PetaPoco, ST/ORM represents an 8 year journey in schema modeling, query language, data design, and object hyrdration, built (and re-built) for use in private corporations. <a href="https://startitecture.com">Startitecture</a> has gained the rights to redistribute those substantial modifications from the original open source PetaPoco library as a fully open source package.</p>
+<p>The full API documentation for ST/ORM is available <a href="https://startitecture.github.io/storm/">here</a>.</p>
 <h2 id="vision">Vision</h2>
-<p>ST/orm is designed with a single purpose - to overcome the inherent problems in using ORM entties as dual purpose domain models and data representations while increasing productivity of development.</p>
+<p>ST/ORM is designed with a single purpose - to overcome the inherent problems in using ORM POCOs as dual purpose domain and data models, while maintaining or increasing development productivity.</p>
 <p>In any complex application, domain (runtine) models and data (persistence) models will diverge, and developers are faced with a variety of unpleasant choices:</p>
 <ol>
 <li>Extend ORM data entities to support domain model methods and properties and deal with the performace issues of traditonal ORMs</li>
 <li>Build anemic domain models based on entities, increasing coupling and decreasing cohesion in the application layer</li>
 <li>Build fully separate domain and data models, and rely either on significant customization or application-layer aggregation for hyrdating complex entity aggregates</li>
 </ol>
-<p>ST/orm eliminates these issues by:</p>
+<p>ST/ORM eliminates these issues by:</p>
 <ul>
 <li>Maintaining the original IL hydration model found in PetaPoco and Dapper</li>
 <li>Extending it to support an unlimited object graph</li>
@@ -81,22 +81,776 @@
 <li>Out-of-the-box support for CRUD operations using the repository pattern</li>
 <li>Providing a fluent query interface for unlimited LEFT and INNER JOINS</li>
 <li>Supporting an ever-increasing subset of set-based SQL predicates</li>
-<li>Supporting MERGE and INSERT operations with table valued parameters (SQL Server) or JSON (PostgreSQL, coming soon)</li>
+<li>Supporting MERGE and INSERT operations with table valued parameters (SQL Server) or JSON (PostgreSQL)</li>
 </ul>
-<p>In future releases, ST/orm will add support for:</p>
-<ul>
-<li>Paging queries</li>
-<li>Query results with dynamics</li>
-<li>MySQL, Oracle, and SQLite</li>
-<li>Oracle</li>
-</ul>
-<p>In addition to functionality, ST/orm is fully customizable, with interfaces for every facet of operation, including Object-Object mapping. ST/orm has been tested with version 9.0.0 of <a href="https://automapper.org/">AutoMapper</a> with object graph self-referencing intact. That means if it can be mapped, it can be directly hydrated by a ST/orm Entity Repository. (To integrate AutoMapper, install the <a href="https://www.nuget.org/packages/Startitecture.Orm.AutoMapper/">Startitecture.Orm.AutoMapper</a> package.)</p>
+<p>In future releases, ST/ORM will add support for MySQL, Oracle, and SQLite.</p>
+<p>In addition to functionality, ST/ORM is fully customizable, with interfaces for every facet of operation, including Object-Object mapping. ST/ORM has been tested with version 10.0.0 of <a href="https://automapper.org/">AutoMapper</a> with object graph self-referencing intact. That means if it can be mapped, it can be directly hydrated by a ST/ORM Entity Repository. (To integrate AutoMapper, install the <a href="https://www.nuget.org/packages/Startitecture.Orm.AutoMapper/">Startitecture.Orm.AutoMapper</a> package.)</p>
 <h2 id="quick-start-guide">Quick Start Guide</h2>
 <p>To get started, install the <a href="https://www.nuget.org/packages/Startitecture.Orm/">Startitecture.Orm</a> NuGet package. For setting up POCO entities, refer to the readme.txt in the project.</p>
+<p><em>(Note: at this time, POCO generation is only supported for platforms outside SQL Server. However, it is possible to manually create them anand they will work with any database adapter.)</em></p>
+<p>Next, install the NuGet package appropriate for the target database (<a href="https://www.nuget.org/packages/Startitecture.Orm.SqlClient/">Startitecture.Orm.SqlClient</a> for SQL Server or <a href="https://www.nuget.org/packages/Startitecture.Orm.PostgreSql/">Startitecture.Orm.PostgreSql</a> for PostgreSQL).</p>
+<h3 id="complex-pocos">Complex POCOs</h3>
+<p>ST/ORM will work with individual POCOs representing a single entity, but its real power comes from the ability to represent and query aggregate entities in a database as complex objects. ST/ORM relies on explicitly composed POCO classes for greater control.</p>
+<p>Generated POCOs can be extended and composed with other POCOs to create entity aggregates:</p>
+<pre><code class="lang-C#">public partial class DomainAggregateRow : IEquatable&lt;DomainAggregateRow&gt;
+{
+    /// &lt;summary&gt;
+    /// Gets or sets the sub container.
+    /// &lt;/summary&gt;
+    [Relation]
+    public SubContainerRow SubContainer { get; set; }
+
+    /// &lt;summary&gt;
+    /// Gets or sets the aggregate option.
+    /// &lt;/summary&gt;
+    [Relation]
+    public AggregateOptionRow AggregateOption { get; set; }
+
+    /// &lt;summary&gt;
+    /// Gets or sets the template.
+    /// &lt;/summary&gt;
+    [Relation]
+    public TemplateRow Template { get; set; }
+
+    /// &lt;summary&gt;
+    /// Gets or sets the category attribute.
+    /// &lt;/summary&gt;
+    [Relation]
+    public CategoryAttributeRow CategoryAttribute { get; set; }
+
+    /// &lt;summary&gt;
+    /// Gets or sets the created by.
+    /// &lt;/summary&gt;
+    [Relation]
+    public DomainIdentityRow CreatedBy { get; set; }
+
+    /// &lt;summary&gt;
+    /// Gets or sets the last modified by.
+    /// &lt;/summary&gt;
+    [Relation]
+    public DomainIdentityRow LastModifiedBy { get; set; }
+
+    /// &lt;summary&gt;
+    /// Gets or sets the other aggregate.
+    /// &lt;/summary&gt;
+    [Relation]
+    public OtherAggregateRow OtherAggregate { get; set; }
+}
+
+public partial class SubContainerRow : IEquatable&lt;SubContainerRow&gt;
+{
+    /// &lt;summary&gt;
+    /// Gets or sets the top container.
+    /// &lt;/summary&gt;
+    [Relation]
+    public TopContainerRow TopContainer { get; set; }
+}
+</code></pre>
+<p>There are no limitations on complexity, and ST/ORM will traverse the entire object graph while automatically short-cutting any circular references.</p>
+<h3 id="idatabasecontext">IDatabaseContext</h3>
+<p>ST/ORM provides multiple options for database interaction. The lowest level is the <code>IDatabaseContext</code> interface, which provides access to the <code>IDbConnection</code>, contains a method for starting an <code>IDbTransaction</code>, and exposes execution and query methods for executing parameterized SQL statements.</p>
+<p>Example using the <code>ExecuteScalar</code> and <code>Query</code> methods:</p>
+<pre><code class="lang-C#">var connectionString = ConfigurationRoot.GetConnectionString(&quot;MasterDatabase&quot;);
+var definitionProvider = new DataAnnotationsDefinitionProvider();
+var repositoryAdapter = new TransactSqlAdapter(definitionProvider);
+
+using (var target = new DatabaseContext(connectionString, providerName, repositoryAdapter))
+{
+    var tableCount = target.ExecuteScalar&lt;int&gt;(&quot;SELECT COUNT(1) FROM sys.tables WHERE [type] = @0&quot;, 'U');
+    Assert.AreNotEqual(0, tableCount);
+
+    var tables = target.Query&lt;dynamic&gt;(&quot;SELECT * FROM sys.tables WHERE [type] = @0&quot;, 'U').ToList();
+    Assert.IsTrue(tables.Any());
+    Assert.IsNotNull(tables.FirstOrDefault()?.name);
+    Assert.IsTrue(tables.FirstOrDefault()?.object_id &gt; 0);
+}
+</code></pre>
+<p>Above, the <code>dynamic</code> type is used - ST/ORM (like PetaPoco and Dapper) automatically creates properties on dynamic objects based on the columns in the <code>IDataReader</code>.</p>
+<h3 id="irepositoryprovider">IRepositoryProvider</h3>
+<p>The next level for database interaction is the <code>IRepositoryProvider</code> interface, which expands upon <code>IDatabaseContext</code> with common CRUD operation methods, and encapsulates SQL queries with <code>EntitySelection&lt;T&gt;</code> and <code>IEntitySelection</code>. The fluent SQL creation language includes support for <code>COUNT()</code>, paging operations, UNIONS, INTERSECTS, and EXCEPT clauses, and very limited support for CTEs (the CTE will be joined to the main query by explicit column matching as a filter).</p>
+<p>A full example below:</p>
+<pre><code class="lang-C#">List&lt;DomainAggregateRow&gt; expectedPage1;
+List&lt;DomainAggregateRow&gt; expectedPage2;
+
+var providerFactory = new SqlClientProviderFactory(new DataAnnotationsDefinitionProvider());
+
+using (var target = providerFactory.Create(ConfigurationRoot.GetConnectionString(&quot;OrmTestDb&quot;)))
+{
+    var topContainer2 = new TopContainerRow
+                            {
+                                Name = $&quot;UNIT_TEST:TopContainer2-{Generator.Next(int.MaxValue)}&quot;
+                            };
+
+    target.Insert(topContainer2);
+
+    var subContainerA = new SubContainerRow
+                            {
+                                Name = $&quot;UNIT_TEST:SubContainerA-{Generator.Next(int.MaxValue)}&quot;,
+                                TopContainer = topContainer2,
+                                TopContainerId = topContainer2.TopContainerId
+                            };
+
+    target.Insert(subContainerA);
+
+    var categoryAttribute20 = new CategoryAttributeRow
+                                    {
+                                        Name = $&quot;UNIT_TEST:CatAttr20-{Generator.Next(int.MaxValue)}&quot;,
+                                        IsActive = true,
+                                        IsSystem = false
+                                    };
+
+    target.Insert(categoryAttribute20);
+
+    var timBobIdentity = new DomainIdentityRow
+                                {
+                                    FirstName = &quot;Tim&quot;,
+                                    LastName = &quot;Bob&quot;,
+                                    UniqueIdentifier = $&quot;UNIT_TEST:timbob@unittest.com-{Generator.Next(int.MaxValue)}&quot;
+                                };
+
+    target.Insert(timBobIdentity);
+
+    var fooBarIdentity = new DomainIdentityRow
+                                {
+                                    FirstName = &quot;Foo&quot;,
+                                    LastName = &quot;Bar&quot;,
+                                    UniqueIdentifier = $&quot;UNIT_TEST:foobar@unittest.com-{Generator.Next(int.MaxValue)}&quot;
+                                };
+
+    target.Insert(fooBarIdentity);
+
+    var otherAggregate10 = new OtherAggregateRow
+                                {
+                                    Name = $&quot;UNIT_TEST:OtherAggregate10-{Generator.Next(int.MaxValue)}&quot;,
+                                    AggregateOptionTypeId = 3
+                                };
+
+    target.Insert(otherAggregate10);
+
+    var template23 = new TemplateRow
+                            {
+                                Name = $&quot;UNIT_TEST:Template23-{Generator.Next(int.MaxValue)}&quot;
+                            };
+
+    target.Insert(template23);
+
+    var aggregateOption1 = new AggregateOptionRow
+                                {
+                                    Name = $&quot;UNIT_TEST:AgOption1-{Generator.Next(int.MaxValue)}&quot;,
+                                    AggregateOptionTypeId = 2,
+                                    Value = 439034.0332m
+                                };
+
+    var aggregateOption2 = new AggregateOptionRow
+                                {
+                                    Name = $&quot;UNIT_TEST:AgOption2-{Generator.Next(int.MaxValue)}&quot;,
+                                    AggregateOptionTypeId = 4,
+                                    Value = 32453253
+                                };
+
+    var domainAggregate1 = new DomainAggregateRow
+                                {
+                                    AggregateOption = aggregateOption1,
+                                    CategoryAttribute = categoryAttribute20,
+                                    CategoryAttributeId = categoryAttribute20.CategoryAttributeId,
+                                    Name = $&quot;UNIT_TEST:Aggregate1-{Generator.Next(int.MaxValue)}&quot;,
+                                    Description = &quot;My First Domain Aggregate&quot;,
+                                    CreatedBy = timBobIdentity,
+                                    CreatedByDomainIdentityId = timBobIdentity.DomainIdentityId,
+                                    CreatedTime = DateTimeOffset.Now.AddMonths(-1),
+                                    LastModifiedBy = fooBarIdentity,
+                                    LastModifiedByDomainIdentityId = fooBarIdentity.DomainIdentityId,
+                                    LastModifiedTime = DateTimeOffset.Now,
+                                    SubContainer = subContainerA,
+                                    SubContainerId = subContainerA.SubContainerId,
+                                    Template = template23,
+                                    TemplateId = template23.TemplateId
+                                };
+
+    target.Insert(domainAggregate1);
+
+    var domainAggregate2 = new DomainAggregateRow
+                                {
+                                    AggregateOption = aggregateOption2,
+                                    CategoryAttribute = categoryAttribute20,
+                                    CategoryAttributeId = categoryAttribute20.CategoryAttributeId,
+                                    Name = $&quot;UNIT_TEST:Aggregate2-{Generator.Next(int.MaxValue)}&quot;,
+                                    Description = &quot;My Second Domain Aggregate&quot;,
+                                    CreatedBy = timBobIdentity,
+                                    CreatedByDomainIdentityId = timBobIdentity.DomainIdentityId,
+                                    CreatedTime = DateTimeOffset.Now.AddMonths(-1),
+                                    LastModifiedBy = fooBarIdentity,
+                                    LastModifiedByDomainIdentityId = fooBarIdentity.DomainIdentityId,
+                                    LastModifiedTime = DateTimeOffset.Now,
+                                    OtherAggregate = otherAggregate10,
+                                    SubContainer = subContainerA,
+                                    SubContainerId = subContainerA.SubContainerId,
+                                    Template = template23,
+                                    TemplateId = template23.TemplateId
+                                };
+
+    target.Insert(domainAggregate2);
+
+    var domainAggregate3 = new DomainAggregateRow
+                                {
+                                    CategoryAttribute = categoryAttribute20,
+                                    CategoryAttributeId = categoryAttribute20.CategoryAttributeId,
+                                    Name = $&quot;UNIT_TEST:Aggregate3-{Generator.Next(int.MaxValue)}&quot;,
+                                    Description = &quot;My Third Domain Aggregate&quot;,
+                                    CreatedBy = timBobIdentity,
+                                    CreatedByDomainIdentityId = timBobIdentity.DomainIdentityId,
+                                    CreatedTime = DateTimeOffset.Now.AddMonths(-1),
+                                    LastModifiedBy = timBobIdentity,
+                                    LastModifiedByDomainIdentityId = timBobIdentity.DomainIdentityId,
+                                    LastModifiedTime = DateTimeOffset.Now,
+                                    SubContainer = subContainerA,
+                                    SubContainerId = subContainerA.SubContainerId,
+                                    Template = template23,
+                                    TemplateId = template23.TemplateId
+                                };
+
+    target.Insert(domainAggregate3);
+
+    var domainAggregate4 = new DomainAggregateRow
+                                {
+                                    CategoryAttribute = categoryAttribute20,
+                                    CategoryAttributeId = categoryAttribute20.CategoryAttributeId,
+                                    Name = $&quot;UNIT_TEST:Aggregate4-{Generator.Next(int.MaxValue)}&quot;,
+                                    Description = &quot;My Fourth Domain Aggregate&quot;,
+                                    CreatedBy = timBobIdentity,
+                                    CreatedByDomainIdentityId = timBobIdentity.DomainIdentityId,
+                                    CreatedTime = DateTimeOffset.Now.AddMonths(-1),
+                                    LastModifiedBy = timBobIdentity,
+                                    LastModifiedByDomainIdentityId = timBobIdentity.DomainIdentityId,
+                                    LastModifiedTime = DateTimeOffset.Now,
+                                    SubContainer = subContainerA,
+                                    SubContainerId = subContainerA.SubContainerId,
+                                    Template = template23,
+                                    TemplateId = template23.TemplateId
+                                };
+
+    target.Insert(domainAggregate4);
+
+    var domainAggregate5 = new DomainAggregateRow
+                                {
+                                    CategoryAttribute = categoryAttribute20,
+                                    CategoryAttributeId = categoryAttribute20.CategoryAttributeId,
+                                    Name = $&quot;UNIT_TEST:Aggregate5-{Generator.Next(int.MaxValue)}&quot;,
+                                    Description = &quot;My Fifth Domain Aggregate&quot;,
+                                    CreatedBy = timBobIdentity,
+                                    CreatedByDomainIdentityId = timBobIdentity.DomainIdentityId,
+                                    CreatedTime = DateTimeOffset.Now.AddMonths(-1),
+                                    LastModifiedBy = timBobIdentity,
+                                    LastModifiedByDomainIdentityId = timBobIdentity.DomainIdentityId,
+                                    LastModifiedTime = DateTimeOffset.Now,
+                                    SubContainer = subContainerA,
+                                    SubContainerId = subContainerA.SubContainerId,
+                                    Template = template23,
+                                    TemplateId = template23.TemplateId
+                                };
+
+    target.Insert(domainAggregate5);
+
+    aggregateOption1.AggregateOptionId = domainAggregate1.DomainAggregateId;
+    target.Insert(aggregateOption1);
+
+    aggregateOption2.AggregateOptionId = domainAggregate2.DomainAggregateId;
+    target.Insert(aggregateOption2);
+
+    var associationRow = new AssociationRow
+                                {
+                                    DomainAggregateId = domainAggregate2.DomainAggregateId,
+                                    OtherAggregateId = otherAggregate10.OtherAggregateId
+                                };
+
+    target.Insert(associationRow);
+
+    expectedPage1 = new List&lt;DomainAggregateRow&gt;
+                        {
+                            domainAggregate1,
+                            domainAggregate2,
+                            domainAggregate3
+                        };
+
+    expectedPage2 = new List&lt;DomainAggregateRow&gt;
+                        {
+                            domainAggregate4,
+                            domainAggregate5
+                        };
+}
+
+using (var target = providerFactory.Create(ConfigurationRoot.GetConnectionString(&quot;OrmTestDb&quot;)))
+{
+    var countQuery = Select.From&lt;DomainAggregateRow&gt;()
+        .Count(row =&gt; row.DomainAggregateId)
+        .WhereEqual(row =&gt; row.SubContainerId, expectedPage1.First().SubContainerId)
+        .InnerJoin(row =&gt; row.SubContainerId, row =&gt; row.SubContainer.SubContainerId);
+
+    var count = target.GetScalar&lt;int&gt;(countQuery);
+
+    Assert.AreEqual(5, count);
+
+    var tableExpression = Select.From&lt;DomainAggregateRow&gt;(row =&gt; row.DomainAggregateId)
+        .WhereEqual(row =&gt; row.SubContainerId, expectedPage1.First().SubContainerId)
+        .LeftJoin&lt;AssociationRow&gt;(row =&gt; row.DomainAggregateId, row =&gt; row.DomainAggregateId)
+        .LeftJoin&lt;AssociationRow, OtherAggregateRow&gt;(row =&gt; row.OtherAggregateId, row =&gt; row.OtherAggregateId)
+        .InnerJoin(row =&gt; row.CategoryAttributeId, row =&gt; row.CategoryAttribute.CategoryAttributeId)
+        .InnerJoin(row =&gt; row.CreatedByDomainIdentityId, row =&gt; row.CreatedBy.DomainIdentityId)
+        .LeftJoin(row =&gt; row.DomainAggregateId, row =&gt; row.AggregateOption.AggregateOptionId)
+        .InnerJoin(row =&gt; row.LastModifiedByDomainIdentityId, row =&gt; row.LastModifiedBy.DomainIdentityId)
+        .InnerJoin(row =&gt; row.SubContainerId, row =&gt; row.SubContainer.SubContainerId)
+        .InnerJoin(row =&gt; row.SubContainer.TopContainerId, row =&gt; row.SubContainer.TopContainer.TopContainerId)
+        .InnerJoin(row =&gt; row.TemplateId, row =&gt; row.Template.TemplateId)
+        .Skip(0)
+        .Take(3)
+        .OrderBy(row =&gt; row.Name);
+
+    var selection = Select.From&lt;DomainAggregateRow&gt;()
+        .WhereEqual(row =&gt; row.SubContainerId, expectedPage1.First().SubContainerId)
+        .LeftJoin&lt;AssociationRow&gt;(row =&gt; row.DomainAggregateId, row =&gt; row.DomainAggregateId)
+        .LeftJoin&lt;AssociationRow, OtherAggregateRow&gt;(row =&gt; row.OtherAggregateId, row =&gt; row.OtherAggregateId)
+        .InnerJoin(row =&gt; row.CategoryAttributeId, row =&gt; row.CategoryAttribute.CategoryAttributeId)
+        .InnerJoin(row =&gt; row.CreatedByDomainIdentityId, row =&gt; row.CreatedBy.DomainIdentityId)
+        .LeftJoin(row =&gt; row.DomainAggregateId, row =&gt; row.AggregateOption.AggregateOptionId)
+        .InnerJoin(row =&gt; row.LastModifiedByDomainIdentityId, row =&gt; row.LastModifiedBy.DomainIdentityId)
+        .InnerJoin(row =&gt; row.SubContainerId, row =&gt; row.SubContainer.SubContainerId)
+        .InnerJoin(row =&gt; row.SubContainer.TopContainerId, row =&gt; row.SubContainer.TopContainer.TopContainerId)
+        .InnerJoin(row =&gt; row.TemplateId, row =&gt; row.Template.TemplateId)
+        .OrderBy(row =&gt; row.Name)
+        .WithAs(tableExpression, &quot;pgCte&quot;, set =&gt; set.InnerJoin(row =&gt; row.DomainAggregateId, row =&gt; row.DomainAggregateId));
+
+    var actualPage1 = target.SelectEntities(selection).ToList();
+    Assert.AreEqual(
+        expectedPage1.First(),
+        actualPage1.First(),
+        string.Join(Environment.NewLine, expectedPage1.First().GetDifferences(actualPage1.First())));
+
+    CollectionAssert.AreEqual(expectedPage1, actualPage1);
+
+    // Advance the number of rows
+    selection.ParentExpression.TableSelection.Page.SetPage(2);
+
+    var actualPage2 = target.SelectEntities(selection).ToList();
+    Assert.AreEqual(
+        expectedPage2.First(),
+        actualPage2.First(),
+        string.Join(Environment.NewLine, expectedPage2.First().GetDifferences(actualPage2.First())));
+
+    CollectionAssert.AreEqual(expectedPage2, actualPage2);
+}
+</code></pre>
+<h3 id="ientityrepository">IEntityRepository</h3>
+<p>The final level of database interaction is the <code>IEntityRepository&lt;TModel&gt;</code> interface, which adds entity to domain model mapping via an <code>IEntityMapper</code>. It is possible to use the latest version of <a href="https://automapper.org/">AutoMapper</a> with the <a href="https://www.nuget.org/packages/Startitecture.Orm.AutoMapper/">Startitecture.Orm.AutoMapper</a> NuGet package.</p>
+<p>Both the SQL Server (<code>SqlClientRepository&lt;TModel, TEntity&gt;</code>) and PostgreSQL (<code>PostgreSqlRepository&lt;TModel, TEntity&gt;</code>) implementations contain additional methods for insert and merge (or upsert) of multiple rows.</p>
+<h4 id="sqlclientrepository">SqlClientRepository</h4>
+<p>For SQL Server, INSERT and MERGE commands using a table-valued parameter (TVP) require a user-defined table type (UDTT) in the target database, represented in code using a POCO:</p>
+<pre><code class="lang-C#">/// &lt;summary&gt;
+/// Represents a user-defined table type for the &lt;see cref=&quot;FieldRow&quot;/&gt; entity.
+/// &lt;/summary&gt;
+[TableType(&quot;FieldTableType&quot;)]
+[Table(&quot;Field&quot;, Schema = &quot;dbo&quot;)]
+public class FieldTableTypeRow
+{
+    /// &lt;summary&gt;
+    /// Gets or sets the field ID.
+    /// &lt;/summary&gt;
+    [Column(Order = 1)]
+    [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+    public int? FieldId { get; set; }
+
+    /// &lt;summary&gt;
+    /// Gets or sets the name.
+    /// &lt;/summary&gt;
+    [Column(Order = 2)]
+    public string Name { get; set; }
+
+    /// &lt;summary&gt;
+    /// Gets or sets the description.
+    /// &lt;/summary&gt;
+    [Column(Order = 3)]
+    public string Description { get; set; }
+}
+</code></pre>
+<p>The same UDTT can be used for both inserts and merges.</p>
+<p>Multiple row insert for SQL Server:</p>
+<pre><code class="lang-C#">var internalId = new Field
+                        {
+                            Name = &quot;INS_Internal ID&quot;,
+                            Description = &quot;Unique ID used internally&quot;
+                        };
+
+var firstName = new Field
+                    {
+                        Name = &quot;INS_First Name&quot;,
+                        Description = &quot;The person's first name&quot;
+                    };
+
+var lastName = new Field
+                    {
+                        Name = &quot;INS_Last Name&quot;,
+                        Description = &quot;The person's last name&quot;
+                    };
+
+var yearlyWage = new Field
+                        {
+                            Name = &quot;INS_Yearly Wage&quot;,
+                            Description = &quot;The base wage paid year over year.&quot;
+                        };
+
+var hireDate = new Field
+                    {
+                        Name = &quot;INS_Hire Date&quot;,
+                        Description = &quot;The date and time of hire for the person&quot;
+                    };
+
+var bonusTarget = new Field
+                        {
+                            Name = &quot;INS_Bonus Target&quot;,
+                            Description = &quot;The target bonus for the person&quot;
+                        };
+
+var contactNumbers = new Field
+                            {
+                                Name = &quot;INS_Contact Numbers&quot;,
+                                Description = &quot;A list of contact numbers for the person in order of preference&quot;
+                            };
+
+var expected = new List&lt;Field&gt;
+                    {
+                        internalId,
+                        firstName,
+                        lastName,
+                        yearlyWage,
+                        hireDate,
+                        bonusTarget,
+                        contactNumbers
+                    };
+            
+var providerFactory = new SqlClientProviderFactory(new DataAnnotationsDefinitionProvider());
+var entityMapper = this.mapperFactory.Create();
+
+using (var provider = providerFactory.Create(ConfigurationRoot.GetConnectionString(&quot;OrmTestDb&quot;)))
+{
+    var transaction = provider.StartTransaction();
+    var fieldRepository = new SqlClientRepository&lt;Field, FieldRow&gt;(provider, entityMapper);
+    var fieldValueRepository = new SqlClientRepository&lt;FieldValue, FieldValueRow&gt;(provider, entityMapper);
+
+    var fieldSelection = Select.From&lt;FieldRow&gt;().WhereEqual(row =&gt; row.Name, &quot;INS_%&quot;);
+    var fieldValuesToDelete = fieldRepository.DynamicSelect(fieldSelection.Select(row =&gt; row.FieldId));
+    fieldValueRepository.Delete(
+        Select.From&lt;FieldValueRow&gt;().Include(row =&gt; row.FieldId, fieldValuesToDelete.Select(o =&gt; (int)o.FieldId).ToArray()));
+
+    fieldRepository.Delete(fieldSelection);
+
+    var fieldRows = from f in expected
+                    select new FieldTableTypeRow
+                                {
+                                    Name = f.Name,
+                                    Description = f.Description
+                                };
+
+    // Select results by name because the TVP won't have the IDs without joins
+    var results = fieldRepository.InsertForResults(
+            fieldRows,
+            transaction,
+            insert =&gt; insert.SelectResults(row =&gt; row.Name))
+        .ToList();
+                
+    transaction.Commit();
+
+    var actual = entityMapper.Map&lt;List&lt;Field&gt;&gt;(results);
+    CollectionAssert.AreEquivalent(expected, actual);
+}
+</code></pre>
+<p>MERGE with SQL Server:</p>
+<pre><code class="lang-C#">var internalId = new Field
+                        {
+                            Name = &quot;MERGE_Existing_Internal ID&quot;,
+                            Description = &quot;Unique ID used internally&quot;
+                        };
+
+var firstName = new Field
+                    {
+                        Name = &quot;MERGE_Existing_First Name&quot;,
+                        Description = &quot;The person's first name&quot;
+                    };
+
+var lastName = new Field
+                    {
+                        Name = &quot;MERGE_Existing_Last Name&quot;,
+                        Description = &quot;The person's last name&quot;
+                    };
+
+var yearlyWage = new Field
+                        {
+                            Name = &quot;MERGE_Existing_Yearly Wage&quot;,
+                            Description = &quot;The base wage paid year over year.&quot;
+                        };
+
+var hireDate = new Field
+                    {
+                        Name = &quot;MERGE_NonExisting_Hire Date&quot;,
+                        Description = &quot;The date and time of hire for the person&quot;
+                    };
+
+var bonusTarget = new Field
+                        {
+                            Name = &quot;MERGE_NonExisting_Bonus Target&quot;,
+                            Description = &quot;The target bonus for the person&quot;
+                        };
+
+var contactNumbers = new Field
+                            {
+                                Name = &quot;MERGE_NonExisting_Contact Numbers&quot;,
+                                Description = &quot;A list of contact numbers for the person in order of preference&quot;
+                            };
+
+var fields = new List&lt;Field&gt;
+                    {
+                        internalId,
+                        firstName,
+                        lastName,
+                        yearlyWage,
+                        hireDate,
+                        bonusTarget,
+                        contactNumbers
+                    };
+            
+var mapper = this.mapperFactory.Create();
+var providerFactory = new SqlClientProviderFactory(new DataAnnotationsDefinitionProvider());
+
+using (var provider = providerFactory.Create(ConfigurationRoot.GetConnectionString(&quot;OrmTestDb&quot;)))
+{
+    var transaction = provider.StartTransaction();
+    var fieldRepository = new SqlClientRepository&lt;Field, FieldRow&gt;(provider, mapper);
+    fieldRepository.Merge(
+        from f in fields
+        select new FieldTableTypeRow
+                    {
+                        Name = f.Name,
+                        Description = f.Description
+                    },
+        transaction,
+        merge =&gt; merge.On&lt;FieldTableTypeRow&gt;(row =&gt; row.Name, row =&gt; row.Name));
+
+    transaction.Commit();
+}
+</code></pre>
+<h4 id="postresqlrepository">PostreSqlRepository</h4>
+<p>PostgreSQL, via the NPGSQL ADO.NET provider, supports the direct translation of BCL types to JSONB parameters, so no additional types are required. In the example below, the same UDTT POCOs are reused for convenience but they could just as easily be REST contract DTOs without decoration.</p>
+<pre><code class="lang-C#">var mapper = this.mapperFactory.Create();
+var providerFactory = new PostgreSqlProviderFactory(new DataAnnotationsDefinitionProvider());
+
+using (var provider = providerFactory.Create(ConfigurationRoot.GetConnectionString(&quot;OrmTestDbPg&quot;)))
+{
+    var identityRepository = new PostgreSqlRepository&lt;DomainIdentity, DomainIdentityRow&gt;(provider, mapper);
+
+    var domainIdentity = identityRepository.FirstOrDefault(
+                                Select.From&lt;DomainIdentity&gt;().WhereEqual(identity =&gt; identity.UniqueIdentifier, Environment.UserName))
+                            ?? identityRepository.Save(
+                                new DomainIdentity(Environment.UserName)
+                                    {
+                                        FirstName = &quot;King&quot;,
+                                        MiddleName = &quot;T.&quot;,
+                                        LastName = &quot;Animal&quot;
+                                    });
+
+    var expected = new GenericSubmission(&quot;My Submission&quot;, domainIdentity);
+    var internalId = new Field
+                            {
+                                Name = &quot;Internal ID&quot;,
+                                Description = &quot;Unique ID used internally&quot;
+                            };
+
+    var firstName = new Field
+                        {
+                            Name = &quot;First Name&quot;,
+                            Description = &quot;The person's first name&quot;
+                        };
+
+    var lastName = new Field
+                        {
+                            Name = &quot;Last Name&quot;,
+                            Description = &quot;The person's last name&quot;
+                        };
+
+    var yearlyWage = new Field
+                            {
+                                Name = &quot;Yearly Wage&quot;,
+                                Description = &quot;The base wage paid year over year.&quot;
+                            };
+
+    var hireDate = new Field
+                        {
+                            Name = &quot;Hire Date&quot;,
+                            Description = &quot;The date and time of hire for the person&quot;
+                        };
+
+    var bonusTarget = new Field
+                            {
+                                Name = &quot;Bonus Target&quot;,
+                                Description = &quot;The target bonus for the person&quot;
+                            };
+
+    var contactNumbers = new Field
+                                {
+                                    Name = &quot;Contact Numbers&quot;,
+                                    Description = &quot;A list of contact numbers for the person in order of preference&quot;
+                                };
+
+    expected.SetValue(internalId, 9234);
+    expected.SetValue(firstName, &quot;Dan&quot;);
+    expected.SetValue(lastName, &quot;The Man&quot;);
+    expected.SetValue(yearlyWage, 75100.35m);
+    expected.SetValue(hireDate, DateTimeOffset.Now);
+    expected.SetValue(bonusTarget, 1.59834578934);
+    expected.SetValue(
+        contactNumbers,
+        new List&lt;string&gt;
+            {
+                &quot;423-222-2252&quot;,
+                &quot;615-982-0012&quot;,
+                &quot;+1-555-252-5521&quot;
+            });
+
+    expected.Submit();
+
+    var fieldRepository = new PostgreSqlRepository&lt;Field, FieldRow&gt;(provider, mapper);
+
+    var fields = expected.SubmissionValues.Select(value =&gt; value.Field).Distinct().ToDictionary(field =&gt; field.Name, field =&gt; field);
+    var inclusionValues = fields.Keys.ToArray();
+    var existingFields = fieldRepository.SelectEntities(new EntitySelection&lt;Field&gt;().Include(field =&gt; field.Name, inclusionValues));
+
+    foreach (var field in existingFields)
+    {
+        var output = fields[field.Name];
+        mapper.MapTo(field, output);
+    }
+
+    foreach (var field in fields.Values.Where(field =&gt; field.FieldId.HasValue == false))
+    {
+        fieldRepository.Save(field);
+    }
+
+    var submissionRepository = new PostgreSqlRepository&lt;GenericSubmission, GenericSubmissionRow&gt;(provider, mapper);
+
+    var transaction = provider.StartTransaction();
+    submissionRepository.Save(expected);
+
+    var submissionId = expected.GenericSubmissionId.GetValueOrDefault();
+    Assert.AreNotEqual(0, submissionId);
+
+    var fieldValueRepository = new PostgreSqlRepository&lt;FieldValue, FieldValueRow&gt;(provider, mapper);
+
+    // Do the field values
+    var valuesList = from v in expected.SubmissionValues
+                        select new FieldValueRow
+                                {
+                                    FieldId = v.Field.FieldId.GetValueOrDefault(),
+                                    LastModifiedByDomainIdentifierId = domainIdentity.DomainIdentityId.GetValueOrDefault(),
+                                    LastModifiedTime = expected.SubmittedTime
+                                };
+
+    var insertedValues = fieldValueRepository.InsertForResults(
+            valuesList,
+            transaction,
+            insert =&gt; insert.Returning(
+                row =&gt; row.FieldValueId,
+                row =&gt; row.FieldId,
+                row =&gt; row.LastModifiedByDomainIdentifierId,
+                row =&gt; row.LastModifiedTime))
+        .ToDictionary(row =&gt; row.FieldId, row =&gt; row);
+
+    // Map back to the domain object if needed.
+    foreach (var value in expected.SubmissionValues.Where(value =&gt; value.FieldValueId.HasValue == false))
+    {
+        var input = insertedValues[value.Field.FieldId.GetValueOrDefault()];
+        mapper.MapTo(input, value);
+    }
+
+    var fieldValueElementRepository = new PostgreSqlRepository&lt;FieldValueElement, FieldValueElementRow&gt;(provider, mapper);
+
+    // Do the field value elements
+    var elementsList = (from e in expected.SubmissionValues.SelectMany(value =&gt; value.Elements)
+                        select new FieldValueElementTableTypeRow
+                                    {
+                                        FieldValueElementId = e.FieldValueElementId,
+                                        FieldValueId = e.FieldValue.FieldValueId.GetValueOrDefault(),
+                                        Order = e.Order,
+                                        DateElement = e.Element as DateTimeOffset? ?? e.Element as DateTime?,
+                                        FloatElement = e.Element as double? ?? e.Element as float?,
+                                        IntegerElement =
+                                            e.Element as long? ?? e.Element as int? ?? e.Element as short? ?? e.Element as byte?,
+                                        MoneyElement = e.Element as decimal?,
+                                        TextElement = e.Element as string // here we actually want it to be null if it is not a string
+                                    }).ToDictionary(row =&gt; new Tuple&lt;long, int&gt;(row.FieldValueId, row.Order));
+
+    var insertedElements = fieldValueElementRepository.InsertForResults(
+            elementsList.Values,
+            transaction,
+            insert =&gt; insert.Returning(row =&gt; row.FieldValueElementId, row =&gt; row.FieldValueId, row =&gt; row.Order))
+        .ToDictionary(row =&gt; new Tuple&lt;long, int&gt;(row.FieldValueId, row.Order));
+
+    foreach (var element in expected.SubmissionValues.SelectMany(value =&gt; value.Elements))
+    {
+        var key = new Tuple&lt;long, int&gt;(element.FieldValue.FieldValueId.GetValueOrDefault(), element.Order);
+        var input = insertedElements[key];
+        mapper.MapTo(input, element);
+        elementsList[key].FieldValueElementId = input.FieldValueElementId;
+    }
+
+    var dateElementRepository = new PostgreSqlRepository&lt;FieldValueElement, DateElementRow&gt;(provider, mapper);
+    dateElementRepository.Insert(
+        elementsList.Values.Where(row =&gt; row.DateElement.HasValue),
+        transaction,
+        insert =&gt; insert.InsertInto(row =&gt; row.DateElementId, row =&gt; row.Value)
+            .From&lt;FieldValueElementTableTypeRow&gt;(row =&gt; row.FieldValueElementId, row =&gt; row.DateElement));
+
+    var floatElementRepository = new PostgreSqlRepository&lt;FieldValueElement, FloatElementRow&gt;(provider, mapper);
+    floatElementRepository.Insert(
+        elementsList.Values.Where(row =&gt; row.FloatElement.HasValue),
+        transaction,
+        insert =&gt; insert.InsertInto(row =&gt; row.FloatElementId, row =&gt; row.Value)
+            .From&lt;FieldValueElementTableTypeRow&gt;(row =&gt; row.FieldValueElementId, row =&gt; row.FloatElement));
+
+    var integerElementRepository = new PostgreSqlRepository&lt;FieldValueElement, IntegerElementRow&gt;(provider, mapper);
+    integerElementRepository.Insert(
+        elementsList.Values.Where(row =&gt; row.IntegerElement.HasValue),
+        transaction,
+        insert =&gt; insert.InsertInto(row =&gt; row.IntegerElementId, row =&gt; row.Value)
+            .From&lt;FieldValueElementTableTypeRow&gt;(row =&gt; row.FieldValueElementId, row =&gt; row.IntegerElement));
+
+    var moneyElementRepository = new PostgreSqlRepository&lt;FieldValueElement, MoneyElementRow&gt;(provider, mapper);
+    moneyElementRepository.Insert(
+        elementsList.Values.Where(row =&gt; row.MoneyElement.HasValue),
+        transaction,
+        insert =&gt; insert.InsertInto(row =&gt; row.MoneyElementId, row =&gt; row.Value)
+            .From&lt;FieldValueElementTableTypeRow&gt;(row =&gt; row.FieldValueElementId, row =&gt; row.MoneyElement));
+
+    var textElementRepository = new PostgreSqlRepository&lt;FieldValueElement, TextElementRow&gt;(provider, mapper);
+    textElementRepository.Insert(
+        elementsList.Values.Where(row =&gt; row.TextElement != null),
+        transaction,
+        insert =&gt; insert.InsertInto(row =&gt; row.TextElementId, row =&gt; row.Value)
+            .From&lt;FieldValueElementTableTypeRow&gt;(row =&gt; row.FieldValueElementId, row =&gt; row.TextElement));
+
+    // Attach the values to the submission
+    var genericValueSubmissions = from v in insertedValues.Values
+                                    select new GenericSubmissionValueRow
+                                                {
+                                                    GenericSubmissionId = submissionId,
+                                                    GenericSubmissionValueId = v.FieldValueId
+                                                };
+
+    var genericSubmissionValueRepository = new PostgreSqlRepository&lt;FieldValue, GenericSubmissionValueRow&gt;(provider, mapper);
+    genericSubmissionValueRepository.Insert(genericValueSubmissions, transaction, null);
+    transaction.Commit();
+}
+</code></pre>
 <h2 id="contributions">Contributions</h2>
 <p>To raise an issue or feature request, please visit the <a href="https://github.com/Startitecture/Core/issues">Issues section</a> of our <a href="https://github.com/Startitecture/Core">GitHub</a> repository. For faster resolution, please consider a <a href="https://github.com/Startitecture/Core/pulls">pull request</a> that includes unit tests.</p>
 <h2 id="license">License</h2>
-<p>The code and API documentation for ST/orm are licensed under <a href="https://www.apache.org/licenses/LICENSE-2.0">Apache 2.0</a>.</p>
+<p>The code and API documentation for ST/ORM are licensed under <a href="https://www.apache.org/licenses/LICENSE-2.0">Apache 2.0</a>.</p>
 </article>
           </div>
           
