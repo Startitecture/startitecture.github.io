@@ -9,19 +9,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.AutoMapper.AutoMapperEntityMapper.html",
-          "hash": "g7X0dfWPQFQToabo2ChRkQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Startitecture.Orm.AutoMapper.EntityMapperFactory.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Startitecture.Orm.AutoMapper.EntityMapperFactory.html",
-          "hash": "+oG5w5WWVo0ehBzDVe37fQ=="
+          "hash": "X8gQ082PG87wsj0aJnNttA=="
         }
       },
       "is_incremental": false,
@@ -45,7 +33,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.AutoMapper.html",
-          "hash": "JOTnL1IA3PUCwKVZwOgC7A=="
+          "hash": "jrzv9EDahbHz7eMPrZuYGg=="
         }
       },
       "is_incremental": false,
@@ -1185,7 +1173,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "9CK3JuhN4TDA3yYTFbvqEQ=="
+          "hash": "sRXzDlaRAbklLdO2X4qaxQ=="
         }
       },
       "is_incremental": false,
@@ -1275,7 +1263,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 97,
+          "total_file_count": 96,
           "skipped_file_count": 0
         },
         "TocDocumentProcessor": {

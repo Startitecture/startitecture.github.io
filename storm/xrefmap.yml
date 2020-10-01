@@ -13,21 +13,12 @@ references:
   commentId: T:Startitecture.Orm.AutoMapper.AutoMapperEntityMapper
   fullName: Startitecture.Orm.AutoMapper.AutoMapperEntityMapper
   nameWithType: AutoMapperEntityMapper
-- uid: Startitecture.Orm.AutoMapper.AutoMapperEntityMapper.#ctor(AutoMapper.IConfigurationProvider)
-  name: AutoMapperEntityMapper(IConfigurationProvider)
-  href: api/Startitecture.Orm.AutoMapper.AutoMapperEntityMapper.html#Startitecture_Orm_AutoMapper_AutoMapperEntityMapper__ctor_AutoMapper_IConfigurationProvider_
-  commentId: M:Startitecture.Orm.AutoMapper.AutoMapperEntityMapper.#ctor(AutoMapper.IConfigurationProvider)
-  fullName: Startitecture.Orm.AutoMapper.AutoMapperEntityMapper.AutoMapperEntityMapper(AutoMapper.IConfigurationProvider)
-  nameWithType: AutoMapperEntityMapper.AutoMapperEntityMapper(IConfigurationProvider)
-- uid: Startitecture.Orm.AutoMapper.AutoMapperEntityMapper.#ctor(AutoMapper.IConfigurationProvider,System.Func{System.Type,System.Object})
-  name: AutoMapperEntityMapper(IConfigurationProvider, Func<Type, Object>)
-  href: api/Startitecture.Orm.AutoMapper.AutoMapperEntityMapper.html#Startitecture_Orm_AutoMapper_AutoMapperEntityMapper__ctor_AutoMapper_IConfigurationProvider_System_Func_System_Type_System_Object__
-  commentId: M:Startitecture.Orm.AutoMapper.AutoMapperEntityMapper.#ctor(AutoMapper.IConfigurationProvider,System.Func{System.Type,System.Object})
-  name.vb: AutoMapperEntityMapper(IConfigurationProvider, Func(Of Type, Object))
-  fullName: Startitecture.Orm.AutoMapper.AutoMapperEntityMapper.AutoMapperEntityMapper(AutoMapper.IConfigurationProvider, System.Func<System.Type, System.Object>)
-  fullName.vb: Startitecture.Orm.AutoMapper.AutoMapperEntityMapper.AutoMapperEntityMapper(AutoMapper.IConfigurationProvider, System.Func(Of System.Type, System.Object))
-  nameWithType: AutoMapperEntityMapper.AutoMapperEntityMapper(IConfigurationProvider, Func<Type, Object>)
-  nameWithType.vb: AutoMapperEntityMapper.AutoMapperEntityMapper(IConfigurationProvider, Func(Of Type, Object))
+- uid: Startitecture.Orm.AutoMapper.AutoMapperEntityMapper.#ctor(AutoMapper.IMapper)
+  name: AutoMapperEntityMapper(IMapper)
+  href: api/Startitecture.Orm.AutoMapper.AutoMapperEntityMapper.html#Startitecture_Orm_AutoMapper_AutoMapperEntityMapper__ctor_AutoMapper_IMapper_
+  commentId: M:Startitecture.Orm.AutoMapper.AutoMapperEntityMapper.#ctor(AutoMapper.IMapper)
+  fullName: Startitecture.Orm.AutoMapper.AutoMapperEntityMapper.AutoMapperEntityMapper(AutoMapper.IMapper)
+  nameWithType: AutoMapperEntityMapper.AutoMapperEntityMapper(IMapper)
 - uid: Startitecture.Orm.AutoMapper.AutoMapperEntityMapper.#ctor*
   name: AutoMapperEntityMapper
   href: api/Startitecture.Orm.AutoMapper.AutoMapperEntityMapper.html#Startitecture_Orm_AutoMapper_AutoMapperEntityMapper__ctor_
@@ -76,47 +67,6 @@ references:
   fullName.vb: Startitecture.Orm.AutoMapper.AutoMapperEntityMapper.MapTo(Of TInput, TOutput)(TInput, TOutput)
   nameWithType: AutoMapperEntityMapper.MapTo<TInput, TOutput>(TInput, TOutput)
   nameWithType.vb: AutoMapperEntityMapper.MapTo(Of TInput, TOutput)(TInput, TOutput)
-- uid: Startitecture.Orm.AutoMapper.EntityMapperFactory
-  name: EntityMapperFactory
-  href: api/Startitecture.Orm.AutoMapper.EntityMapperFactory.html
-  commentId: T:Startitecture.Orm.AutoMapper.EntityMapperFactory
-  fullName: Startitecture.Orm.AutoMapper.EntityMapperFactory
-  nameWithType: EntityMapperFactory
-- uid: Startitecture.Orm.AutoMapper.EntityMapperFactory.#ctor(AutoMapper.IConfigurationProvider)
-  name: EntityMapperFactory(IConfigurationProvider)
-  href: api/Startitecture.Orm.AutoMapper.EntityMapperFactory.html#Startitecture_Orm_AutoMapper_EntityMapperFactory__ctor_AutoMapper_IConfigurationProvider_
-  commentId: M:Startitecture.Orm.AutoMapper.EntityMapperFactory.#ctor(AutoMapper.IConfigurationProvider)
-  fullName: Startitecture.Orm.AutoMapper.EntityMapperFactory.EntityMapperFactory(AutoMapper.IConfigurationProvider)
-  nameWithType: EntityMapperFactory.EntityMapperFactory(IConfigurationProvider)
-- uid: Startitecture.Orm.AutoMapper.EntityMapperFactory.#ctor(AutoMapper.IConfigurationProvider,System.Func{System.Type,System.Object})
-  name: EntityMapperFactory(IConfigurationProvider, Func<Type, Object>)
-  href: api/Startitecture.Orm.AutoMapper.EntityMapperFactory.html#Startitecture_Orm_AutoMapper_EntityMapperFactory__ctor_AutoMapper_IConfigurationProvider_System_Func_System_Type_System_Object__
-  commentId: M:Startitecture.Orm.AutoMapper.EntityMapperFactory.#ctor(AutoMapper.IConfigurationProvider,System.Func{System.Type,System.Object})
-  name.vb: EntityMapperFactory(IConfigurationProvider, Func(Of Type, Object))
-  fullName: Startitecture.Orm.AutoMapper.EntityMapperFactory.EntityMapperFactory(AutoMapper.IConfigurationProvider, System.Func<System.Type, System.Object>)
-  fullName.vb: Startitecture.Orm.AutoMapper.EntityMapperFactory.EntityMapperFactory(AutoMapper.IConfigurationProvider, System.Func(Of System.Type, System.Object))
-  nameWithType: EntityMapperFactory.EntityMapperFactory(IConfigurationProvider, Func<Type, Object>)
-  nameWithType.vb: EntityMapperFactory.EntityMapperFactory(IConfigurationProvider, Func(Of Type, Object))
-- uid: Startitecture.Orm.AutoMapper.EntityMapperFactory.#ctor*
-  name: EntityMapperFactory
-  href: api/Startitecture.Orm.AutoMapper.EntityMapperFactory.html#Startitecture_Orm_AutoMapper_EntityMapperFactory__ctor_
-  commentId: Overload:Startitecture.Orm.AutoMapper.EntityMapperFactory.#ctor
-  isSpec: "True"
-  fullName: Startitecture.Orm.AutoMapper.EntityMapperFactory.EntityMapperFactory
-  nameWithType: EntityMapperFactory.EntityMapperFactory
-- uid: Startitecture.Orm.AutoMapper.EntityMapperFactory.Create
-  name: Create()
-  href: api/Startitecture.Orm.AutoMapper.EntityMapperFactory.html#Startitecture_Orm_AutoMapper_EntityMapperFactory_Create
-  commentId: M:Startitecture.Orm.AutoMapper.EntityMapperFactory.Create
-  fullName: Startitecture.Orm.AutoMapper.EntityMapperFactory.Create()
-  nameWithType: EntityMapperFactory.Create()
-- uid: Startitecture.Orm.AutoMapper.EntityMapperFactory.Create*
-  name: Create
-  href: api/Startitecture.Orm.AutoMapper.EntityMapperFactory.html#Startitecture_Orm_AutoMapper_EntityMapperFactory_Create_
-  commentId: Overload:Startitecture.Orm.AutoMapper.EntityMapperFactory.Create
-  isSpec: "True"
-  fullName: Startitecture.Orm.AutoMapper.EntityMapperFactory.Create
-  nameWithType: EntityMapperFactory.Create
 - uid: Startitecture.Orm.AutoMapper.ExtensionMethods
   name: ExtensionMethods
   href: api/Startitecture.Orm.AutoMapper.ExtensionMethods.html
