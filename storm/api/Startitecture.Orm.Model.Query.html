@@ -1,0 +1,583 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class Query
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class Query
+   ">
+    <meta name="generator" content="docfx 2.56.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.png" style="max-width:100%;max-height:100%;" alt="">
+              </a>    </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Startitecture.Orm.Model.Query">
+  
+  
+  <h1 id="Startitecture_Orm_Model_Query" data-uid="Startitecture.Orm.Model.Query" class="text-break">Class Query
+  </h1>
+  <div class="markdown level0 summary"><p>A static class for creating entity selections.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">Query</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Startitecture.Orm.Model.html">Startitecture.Orm.Model</a></h6>
+  <h6><strong>Assembly</strong>: Startitecture.Orm.Model.dll</h6>
+  <h5 id="Startitecture_Orm_Model_Query_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class Query</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/Query.cs&amp;version=GBmaster&amp;line=58">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Model_Query_From_" data-uid="Startitecture.Orm.Model.Query.From*"></a>
+  <h4 id="Startitecture_Orm_Model_Query_From__1" data-uid="Startitecture.Orm.Model.Query.From``1">From&lt;T&gt;()</h4>
+  <div class="markdown level1 summary"><p>Creates an entity set for the specified entity type.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static EntitySet&lt;T&gt; From&lt;T&gt;()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Model.EntitySet-1.html">EntitySet</a>&lt;T&gt;</td>
+        <td><p>A new <a class="xref" href="Startitecture.Orm.Model.EntitySet-1.html">EntitySet&lt;T&gt;</a>for the specified type.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of entity to query.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/Query.cs&amp;version=GBmaster&amp;line=99">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Model_Query_From_" data-uid="Startitecture.Orm.Model.Query.From*"></a>
+  <h4 id="Startitecture_Orm_Model_Query_From__1_System_Action_Startitecture_Orm_Model_EntityRelationSet___0___" data-uid="Startitecture.Orm.Model.Query.From``1(System.Action{Startitecture.Orm.Model.EntityRelationSet{``0}})">From&lt;T&gt;(Action&lt;EntityRelationSet&lt;T&gt;&gt;)</h4>
+  <div class="markdown level1 summary"><p>Creates an entity set for the specified entity type.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static EntitySet&lt;T&gt; From&lt;T&gt;(Action&lt;EntityRelationSet&lt;T&gt;&gt; setRelations)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="Startitecture.Orm.Model.EntityRelationSet-1.html">EntityRelationSet</a>&lt;T&gt;&gt;</td>
+        <td><span class="parametername">setRelations</span></td>
+        <td><p>Set the relations for the entity set.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Model.EntitySet-1.html">EntitySet</a>&lt;T&gt;</td>
+        <td><p>A new <a class="xref" href="Startitecture.Orm.Model.EntitySet-1.html">EntitySet&lt;T&gt;</a>for the specified type.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of entity to query.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/Query.cs&amp;version=GBmaster&amp;line=39">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Model_Query_Select_" data-uid="Startitecture.Orm.Model.Query.Select*"></a>
+  <h4 id="Startitecture_Orm_Model_Query_Select__1_System_Linq_Expressions_Expression_System_Func___0_System_Object_____" data-uid="Startitecture.Orm.Model.Query.Select``1(System.Linq.Expressions.Expression{System.Func{``0,System.Object}}[])">Select&lt;T&gt;(Expression&lt;Func&lt;T, Object&gt;&gt;[])</h4>
+  <div class="markdown level1 summary"><p>Creates an entity selection for the specified entity type.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static EntitySelection&lt;T&gt; Select&lt;T&gt;([NotNull] params Expression&lt;Func&lt;T, object&gt;&gt;[] selections)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Linq.Expressions.Expression</span>&lt;<span class="xref">System.Func</span>&lt;T, <span class="xref">System.Object</span>&gt;&gt;[]</td>
+        <td><span class="parametername">selections</span></td>
+        <td><p>The properties to return.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Model.EntitySelection-1.html">EntitySelection</a>&lt;T&gt;</td>
+        <td><p>A new <a class="xref" href="Startitecture.Orm.Model.EntitySelection-1.html">EntitySelection&lt;T&gt;</a> for the specified type.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of entity to query.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">selections</code> is null.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/Query.cs&amp;version=GBmaster&amp;line=75">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Model_Query_SelectEntities_" data-uid="Startitecture.Orm.Model.Query.SelectEntities*"></a>
+  <h4 id="Startitecture_Orm_Model_Query_SelectEntities__1_System_Action_Startitecture_Orm_Model_EntitySelection___0___" data-uid="Startitecture.Orm.Model.Query.SelectEntities``1(System.Action{Startitecture.Orm.Model.EntitySelection{``0}})">SelectEntities&lt;T&gt;(Action&lt;EntitySelection&lt;T&gt;&gt;)</h4>
+  <div class="markdown level1 summary"><p>Creates an entity selection for the specified entity type.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static EntitySelection&lt;T&gt; SelectEntities&lt;T&gt;([NotNull] Action&lt;EntitySelection&lt;T&gt;&gt; defineSelection)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="Startitecture.Orm.Model.EntitySelection-1.html">EntitySelection</a>&lt;T&gt;&gt;</td>
+        <td><span class="parametername">defineSelection</span></td>
+        <td><p>Defines the selection to return.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Model.EntitySelection-1.html">EntitySelection</a>&lt;T&gt;</td>
+        <td><p>A new <a class="xref" href="Startitecture.Orm.Model.EntitySelection-1.html">EntitySelection&lt;T&gt;</a> for the specified type.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of entity to query.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/Query.cs&amp;version=GBmaster&amp;line=125">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Model_Query_With_" data-uid="Startitecture.Orm.Model.Query.With*"></a>
+  <h4 id="Startitecture_Orm_Model_Query_With__1_Startitecture_Orm_Model_EntitySelection___0__System_String_" data-uid="Startitecture.Orm.Model.Query.With``1(Startitecture.Orm.Model.EntitySelection{``0},System.String)">With&lt;TExpression&gt;(EntitySelection&lt;TExpression&gt;, String)</h4>
+  <div class="markdown level1 summary"><p>Creates an entity expression to use with a subsequent query.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static EntityExpression&lt;TExpression&gt; With&lt;TExpression&gt;([NotNull] EntitySelection&lt;TExpression&gt; selection, [NotNull] string name)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Model.EntitySelection-1.html">EntitySelection</a>&lt;TExpression&gt;</td>
+        <td><span class="parametername">selection</span></td>
+        <td><p>The entity selection for the expression.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>The name of the expression.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Model.EntityExpression-1.html">EntityExpression</a>&lt;TExpression&gt;</td>
+        <td><p>A new <a class="xref" href="Startitecture.Orm.Model.EntityExpression-1.html">EntityExpression&lt;T&gt;</a> for the <code data-dev-comment-type="typeparamref" class="typeparamref">TExpression</code> entity.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TExpression</span></td>
+        <td><p>The type of entity the expression will query.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">selection</code> is null.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">name</code> is null or whitespace.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/Query.cs&amp;version=GBmaster&amp;line=163">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Model_Query_With_" data-uid="Startitecture.Orm.Model.Query.With*"></a>
+  <h4 id="Startitecture_Orm_Model_Query_With__1_System_Action_Startitecture_Orm_Model_EntitySelection___0___System_String_" data-uid="Startitecture.Orm.Model.Query.With``1(System.Action{Startitecture.Orm.Model.EntitySelection{``0}},System.String)">With&lt;TExpression&gt;(Action&lt;EntitySelection&lt;TExpression&gt;&gt;, String)</h4>
+  <div class="markdown level1 summary"><p>Creates an entity expression to use with a subsequent query.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static EntityExpression&lt;TExpression&gt; With&lt;TExpression&gt;([NotNull] Action&lt;EntitySelection&lt;TExpression&gt;&gt; selectAction, [NotNull] string name)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="Startitecture.Orm.Model.EntitySelection-1.html">EntitySelection</a>&lt;TExpression&gt;&gt;</td>
+        <td><span class="parametername">selectAction</span></td>
+        <td><p>The entity selection action for the expression.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>The name of the expression.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Model.EntityExpression-1.html">EntityExpression</a>&lt;TExpression&gt;</td>
+        <td><p>A new <a class="xref" href="Startitecture.Orm.Model.EntityExpression-1.html">EntityExpression&lt;T&gt;</a> for the <code data-dev-comment-type="typeparamref" class="typeparamref">TExpression</code> entity.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TExpression</span></td>
+        <td><p>The type of entity the expression will query.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">selectAction</code> is null.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">name</code> is null or whitespace.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/Query.cs&amp;version=GBmaster&amp;line=21" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

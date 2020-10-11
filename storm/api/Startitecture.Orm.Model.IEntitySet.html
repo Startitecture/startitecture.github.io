@@ -85,7 +85,7 @@
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/IEntitySet.cs&amp;version=GBmaster&amp;line=20">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/IEntitySet.cs&amp;version=GBmaster&amp;line=23">View Source</a>
   </span>
   <a id="Startitecture_Orm_Model_IEntitySet_EntityType_" data-uid="Startitecture.Orm.Model.IEntitySet.EntityType*"></a>
   <h4 id="Startitecture_Orm_Model_IEntitySet_EntityType" data-uid="Startitecture.Orm.Model.IEntitySet.EntityType">EntityType</h4>
@@ -113,7 +113,7 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/IEntitySet.cs&amp;version=GBmaster&amp;line=40">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/IEntitySet.cs&amp;version=GBmaster&amp;line=43">View Source</a>
   </span>
   <a id="Startitecture_Orm_Model_IEntitySet_Filters_" data-uid="Startitecture.Orm.Model.IEntitySet.Filters*"></a>
   <h4 id="Startitecture_Orm_Model_IEntitySet_Filters" data-uid="Startitecture.Orm.Model.IEntitySet.Filters">Filters</h4>
@@ -122,7 +122,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">IEnumerable&lt;ValueFilter&gt; Filters { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">IEnumerable&lt;IValueFilter&gt; Filters { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -134,14 +134,14 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Startitecture.Orm.Model.ValueFilter.html">ValueFilter</a>&gt;</td>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Startitecture.Orm.Model.IValueFilter.html">IValueFilter</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/IEntitySet.cs&amp;version=GBmaster&amp;line=45">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/IEntitySet.cs&amp;version=GBmaster&amp;line=48">View Source</a>
   </span>
   <a id="Startitecture_Orm_Model_IEntitySet_LinkedSelection_" data-uid="Startitecture.Orm.Model.IEntitySet.LinkedSelection*"></a>
   <h4 id="Startitecture_Orm_Model_IEntitySet_LinkedSelection" data-uid="Startitecture.Orm.Model.IEntitySet.LinkedSelection">LinkedSelection</h4>
@@ -169,16 +169,16 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/IEntitySet.cs&amp;version=GBmaster&amp;line=25">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/IEntitySet.cs&amp;version=GBmaster&amp;line=58">View Source</a>
   </span>
-  <a id="Startitecture_Orm_Model_IEntitySet_ParentExpression_" data-uid="Startitecture.Orm.Model.IEntitySet.ParentExpression*"></a>
-  <h4 id="Startitecture_Orm_Model_IEntitySet_ParentExpression" data-uid="Startitecture.Orm.Model.IEntitySet.ParentExpression">ParentExpression</h4>
-  <div class="markdown level1 summary"><p>Gets the parent expression for the set operation.</p>
+  <a id="Startitecture_Orm_Model_IEntitySet_OrderByExpressions_" data-uid="Startitecture.Orm.Model.IEntitySet.OrderByExpressions*"></a>
+  <h4 id="Startitecture_Orm_Model_IEntitySet_OrderByExpressions" data-uid="Startitecture.Orm.Model.IEntitySet.OrderByExpressions">OrderByExpressions</h4>
+  <div class="markdown level1 summary"><p>Gets the ORDER BY expressions for the entity set.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">EntityExpression ParentExpression { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">IEnumerable&lt;OrderExpression&gt; OrderByExpressions { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -190,14 +190,70 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Startitecture.Orm.Model.EntityExpression.html">EntityExpression</a></td>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Startitecture.Orm.Model.OrderExpression.html">OrderExpression</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/IEntitySet.cs&amp;version=GBmaster&amp;line=35">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/IEntitySet.cs&amp;version=GBmaster&amp;line=53">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Model_IEntitySet_Page_" data-uid="Startitecture.Orm.Model.IEntitySet.Page*"></a>
+  <h4 id="Startitecture_Orm_Model_IEntitySet_Page" data-uid="Startitecture.Orm.Model.IEntitySet.Page">Page</h4>
+  <div class="markdown level1 summary"><p>Gets the page settings for the entity set.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ResultPage Page { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Model.ResultPage.html">ResultPage</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/IEntitySet.cs&amp;version=GBmaster&amp;line=28">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Model_IEntitySet_ParentExpression_" data-uid="Startitecture.Orm.Model.IEntitySet.ParentExpression*"></a>
+  <h4 id="Startitecture_Orm_Model_IEntitySet_ParentExpression" data-uid="Startitecture.Orm.Model.IEntitySet.ParentExpression">ParentExpression</h4>
+  <div class="markdown level1 summary"><p>Gets the parent expression for the set operation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IEntityExpression ParentExpression { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Model.IEntityExpression.html">IEntityExpression</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/IEntitySet.cs&amp;version=GBmaster&amp;line=38">View Source</a>
   </span>
   <a id="Startitecture_Orm_Model_IEntitySet_PropertyValues_" data-uid="Startitecture.Orm.Model.IEntitySet.PropertyValues*"></a>
   <h4 id="Startitecture_Orm_Model_IEntitySet_PropertyValues" data-uid="Startitecture.Orm.Model.IEntitySet.PropertyValues">PropertyValues</h4>
@@ -225,7 +281,7 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/IEntitySet.cs&amp;version=GBmaster&amp;line=30">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/IEntitySet.cs&amp;version=GBmaster&amp;line=33">View Source</a>
   </span>
   <a id="Startitecture_Orm_Model_IEntitySet_Relations_" data-uid="Startitecture.Orm.Model.IEntitySet.Relations*"></a>
   <h4 id="Startitecture_Orm_Model_IEntitySet_Relations" data-uid="Startitecture.Orm.Model.IEntitySet.Relations">Relations</h4>
@@ -251,6 +307,54 @@
       </tr>
     </tbody>
   </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/IEntitySet.cs&amp;version=GBmaster&amp;line=69">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Model_IEntitySet_MapSet_" data-uid="Startitecture.Orm.Model.IEntitySet.MapSet*"></a>
+  <h4 id="Startitecture_Orm_Model_IEntitySet_MapSet__1" data-uid="Startitecture.Orm.Model.IEntitySet.MapSet``1">MapSet&lt;TDestEntity&gt;()</h4>
+  <div class="markdown level1 summary"><p>Maps the current selection to the target selection type.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">EntitySet&lt;TDestEntity&gt; MapSet&lt;TDestEntity&gt;()
+    where TDestEntity : class, new()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Model.EntitySet-1.html">EntitySet</a>&lt;TDestEntity&gt;</td>
+        <td><p>An <a class="xref" href="Startitecture.Orm.Model.EntitySet-1.html">EntitySet&lt;T&gt;</a> for the destination type.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TDestEntity</span></td>
+        <td><p>The destination entity type.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
 </article>
           </div>
           
@@ -259,7 +363,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/IEntitySet.cs&amp;version=GBmaster&amp;line=15" class="contribution-link">View Source</a>
+                    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/IEntitySet.cs&amp;version=GBmaster&amp;line=18" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

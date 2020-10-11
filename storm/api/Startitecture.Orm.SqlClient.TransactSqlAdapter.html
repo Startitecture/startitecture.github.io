@@ -118,18 +118,6 @@
       <a class="xref" href="Startitecture.Orm.Common.RepositoryAdapter.html#Startitecture_Orm_Common_RepositoryAdapter_GetExclusionFilter_System_String_System_Int32_System_Collections_Generic_IEnumerable_System_Object__">RepositoryAdapter.GetExclusionFilter(String, Int32, IEnumerable&lt;Object&gt;)</a>
     </div>
     <div>
-      <a class="xref" href="Startitecture.Orm.Common.RepositoryAdapter.html#Startitecture_Orm_Common_RepositoryAdapter_AddTokens_Startitecture_Orm_Model_FilterType_System_Object_System_Collections_Generic_ICollection_System_String__System_String_System_Collections_Generic_IReadOnlyCollection_System_Object__System_Int32_">RepositoryAdapter.AddTokens(FilterType, Object, ICollection&lt;String&gt;, String, IReadOnlyCollection&lt;Object&gt;, Int32)</a>
-    </div>
-    <div>
-      <a class="xref" href="Startitecture.Orm.Common.RepositoryAdapter.html#Startitecture_Orm_Common_RepositoryAdapter_CreateSelectionStatement_Startitecture_Orm_Model_IEntitySet_Startitecture_Orm_Model_IEntityDefinition_System_Collections_Generic_IEnumerable_System_String__System_Int32_System_Int32_">RepositoryAdapter.CreateSelectionStatement(IEntitySet, IEntityDefinition, IEnumerable&lt;String&gt;, Int32, Int32)</a>
-    </div>
-    <div>
-      <a class="xref" href="Startitecture.Orm.Common.RepositoryAdapter.html#Startitecture_Orm_Common_RepositoryAdapter_CreateEntitySetStatement_Startitecture_Orm_Model_IEntitySet_Startitecture_Orm_Model_IEntityDefinition_System_Int32_System_Int32_">RepositoryAdapter.CreateEntitySetStatement(IEntitySet, IEntityDefinition, Int32, Int32)</a>
-    </div>
-    <div>
-      <a class="xref" href="Startitecture.Orm.Common.RepositoryAdapter.html#Startitecture_Orm_Common_RepositoryAdapter_CreateTableExpression_Startitecture_Orm_Model_IEntitySet_Startitecture_Orm_Model_IEntityDefinition_System_String_">RepositoryAdapter.CreateTableExpression(IEntitySet, IEntityDefinition, String)</a>
-    </div>
-    <div>
       <span class="xref">System.Object.Equals(System.Object)</span>
     </div>
     <div>
@@ -284,13 +272,13 @@
     <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.SqlClient/TransactSqlAdapter.cs&amp;version=GBmaster&amp;line=47">View Source</a>
   </span>
   <a id="Startitecture_Orm_SqlClient_TransactSqlAdapter_CreateSelectionStatement_" data-uid="Startitecture.Orm.SqlClient.TransactSqlAdapter.CreateSelectionStatement*"></a>
-  <h4 id="Startitecture_Orm_SqlClient_TransactSqlAdapter_CreateSelectionStatement_Startitecture_Orm_Model_ISelection_" data-uid="Startitecture.Orm.SqlClient.TransactSqlAdapter.CreateSelectionStatement(Startitecture.Orm.Model.ISelection)">CreateSelectionStatement(ISelection)</h4>
-  <div class="markdown level1 summary"><p>Creates a query language selection statement for the specified <code data-dev-comment-type="paramref" class="paramref">selection</code>.</p>
+  <h4 id="Startitecture_Orm_SqlClient_TransactSqlAdapter_CreateSelectionStatement_Startitecture_Orm_Model_IEntitySet_" data-uid="Startitecture.Orm.SqlClient.TransactSqlAdapter.CreateSelectionStatement(Startitecture.Orm.Model.IEntitySet)">CreateSelectionStatement(IEntitySet)</h4>
+  <div class="markdown level1 summary"><p>Creates a query language selection statement for the specified <code data-dev-comment-type="paramref" class="paramref">entitySet</code>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override string CreateSelectionStatement(ISelection selection)</code></pre>
+    <pre><code class="lang-csharp hljs">public override string CreateSelectionStatement(IEntitySet entitySet)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -303,8 +291,8 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Startitecture.Orm.Model.ISelection.html">ISelection</a></td>
-        <td><span class="parametername">selection</span></td>
+        <td><a class="xref" href="Startitecture.Orm.Model.IEntitySet.html">IEntitySet</a></td>
+        <td><span class="parametername">entitySet</span></td>
         <td><p>The selection to create the statement for.</p>
 </td>
       </tr>
@@ -327,8 +315,8 @@
     </tbody>
   </table>
   <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="Startitecture.Orm.Common.RepositoryAdapter.html#Startitecture_Orm_Common_RepositoryAdapter_CreateSelectionStatement_Startitecture_Orm_Model_ISelection_">RepositoryAdapter.CreateSelectionStatement(ISelection)</a></div>
-  <h5 id="Startitecture_Orm_SqlClient_TransactSqlAdapter_CreateSelectionStatement_Startitecture_Orm_Model_ISelection__remarks">Remarks</h5>
+  <div><a class="xref" href="Startitecture.Orm.Common.RepositoryAdapter.html#Startitecture_Orm_Common_RepositoryAdapter_CreateSelectionStatement_Startitecture_Orm_Model_IEntitySet_">RepositoryAdapter.CreateSelectionStatement(IEntitySet)</a></div>
+  <h5 id="Startitecture_Orm_SqlClient_TransactSqlAdapter_CreateSelectionStatement_Startitecture_Orm_Model_IEntitySet__remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>At this time, creating paging statements that include UNION, INTERSECT and EXCEPT clauses is not supported.</p>
 </div>
   <h3 id="implements">Implements</h3>

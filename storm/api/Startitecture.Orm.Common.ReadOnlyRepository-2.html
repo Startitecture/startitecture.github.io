@@ -292,7 +292,7 @@
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/ReadOnlyRepository.cs&amp;version=GBmaster&amp;line=287">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/ReadOnlyRepository.cs&amp;version=GBmaster&amp;line=299">View Source</a>
   </span>
   <a id="Startitecture_Orm_Common_ReadOnlyRepository_2_ConstructEntity_" data-uid="Startitecture.Orm.Common.ReadOnlyRepository`2.ConstructEntity*"></a>
   <h4 id="Startitecture_Orm_Common_ReadOnlyRepository_2_ConstructEntity__1_" data-uid="Startitecture.Orm.Common.ReadOnlyRepository`2.ConstructEntity(`1)">ConstructEntity(TEntity)</h4>
@@ -418,7 +418,7 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/ReadOnlyRepository.cs&amp;version=GBmaster&amp;line=146">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/ReadOnlyRepository.cs&amp;version=GBmaster&amp;line=147">View Source</a>
   </span>
   <a id="Startitecture_Orm_Common_ReadOnlyRepository_2_Contains_" data-uid="Startitecture.Orm.Common.ReadOnlyRepository`2.Contains*"></a>
   <h4 id="Startitecture_Orm_Common_ReadOnlyRepository_2_Contains__1_Startitecture_Orm_Model_EntitySet___0__" data-uid="Startitecture.Orm.Common.ReadOnlyRepository`2.Contains``1(Startitecture.Orm.Model.EntitySet{``0})">Contains&lt;TItem&gt;(EntitySet&lt;TItem&gt;)</h4>
@@ -497,16 +497,16 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/ReadOnlyRepository.cs&amp;version=GBmaster&amp;line=210">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/ReadOnlyRepository.cs&amp;version=GBmaster&amp;line=220">View Source</a>
   </span>
   <a id="Startitecture_Orm_Common_ReadOnlyRepository_2_DynamicFirstOrDefault_" data-uid="Startitecture.Orm.Common.ReadOnlyRepository`2.DynamicFirstOrDefault*"></a>
-  <h4 id="Startitecture_Orm_Common_ReadOnlyRepository_2_DynamicFirstOrDefault__1_Startitecture_Orm_Model_EntitySelection___0__" data-uid="Startitecture.Orm.Common.ReadOnlyRepository`2.DynamicFirstOrDefault``1(Startitecture.Orm.Model.EntitySelection{``0})">DynamicFirstOrDefault&lt;TItem&gt;(EntitySelection&lt;TItem&gt;)</h4>
+  <h4 id="Startitecture_Orm_Common_ReadOnlyRepository_2_DynamicFirstOrDefault_Startitecture_Orm_Model_ISelection_" data-uid="Startitecture.Orm.Common.ReadOnlyRepository`2.DynamicFirstOrDefault(Startitecture.Orm.Model.ISelection)">DynamicFirstOrDefault(ISelection)</h4>
   <div class="markdown level1 summary"><p>Gets the first matching result of the <code data-dev-comment-type="paramref" class="paramref">selection</code> as a dynamic object.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public dynamic DynamicFirstOrDefault&lt;TItem&gt;([NotNull] EntitySelection&lt;TItem&gt; selection)</code></pre>
+    <pre><code class="lang-csharp hljs">public dynamic DynamicFirstOrDefault([NotNull] ISelection selection)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -519,7 +519,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Startitecture.Orm.Model.EntitySelection-1.html">EntitySelection</a>&lt;TItem&gt;</td>
+        <td><a class="xref" href="Startitecture.Orm.Model.ISelection.html">ISelection</a></td>
         <td><span class="parametername">selection</span></td>
         <td><p>The selection to use to query the repository.</p>
 </td>
@@ -542,25 +542,9 @@
       </tr>
     </tbody>
   </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">TItem</span></td>
-        <td><p>The type of item the selection is based on.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/ReadOnlyRepository.cs&amp;version=GBmaster&amp;line=242">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/ReadOnlyRepository.cs&amp;version=GBmaster&amp;line=252">View Source</a>
   </span>
   <a id="Startitecture_Orm_Common_ReadOnlyRepository_2_DynamicSelect_" data-uid="Startitecture.Orm.Common.ReadOnlyRepository`2.DynamicSelect*"></a>
   <h4 id="Startitecture_Orm_Common_ReadOnlyRepository_2_DynamicSelect__1_Startitecture_Orm_Model_EntitySelection___0__" data-uid="Startitecture.Orm.Common.ReadOnlyRepository`2.DynamicSelect``1(Startitecture.Orm.Model.EntitySelection{``0})">DynamicSelect&lt;TItem&gt;(EntitySelection&lt;TItem&gt;)</h4>
@@ -623,7 +607,71 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/ReadOnlyRepository.cs&amp;version=GBmaster&amp;line=157">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/ReadOnlyRepository.cs&amp;version=GBmaster&amp;line=206">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Common_ReadOnlyRepository_2_FirstOrDefault_" data-uid="Startitecture.Orm.Common.ReadOnlyRepository`2.FirstOrDefault*"></a>
+  <h4 id="Startitecture_Orm_Common_ReadOnlyRepository_2_FirstOrDefault_System_Action_Startitecture_Orm_Model_EntitySet__0___" data-uid="Startitecture.Orm.Common.ReadOnlyRepository`2.FirstOrDefault(System.Action{Startitecture.Orm.Model.EntitySet{`0}})">FirstOrDefault(Action&lt;EntitySet&lt;TModel&gt;&gt;)</h4>
+  <div class="markdown level1 summary"><p>Gets the first matching item of the selection. To ensure repeatable results, use unique column criteria.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TModel FirstOrDefault([NotNull] Action&lt;EntitySet&lt;TModel&gt;&gt; defineSet)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="Startitecture.Orm.Model.EntitySet-1.html">EntitySet</a>&lt;TModel&gt;&gt;</td>
+        <td><span class="parametername">defineSet</span></td>
+        <td><p>Define the set to use to query the repository.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TModel</span></td>
+        <td><p>The first <code data-dev-comment-type="typeparamref" class="typeparamref">TModel</code> in the repository matching the candidate item's identifier or unique key, or a
+default value of the <code data-dev-comment-type="typeparamref" class="typeparamref">TModel</code> type if no entity could be found using the candidate.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">defineSet</code> is null.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/ReadOnlyRepository.cs&amp;version=GBmaster&amp;line=158">View Source</a>
   </span>
   <a id="Startitecture_Orm_Common_ReadOnlyRepository_2_FirstOrDefault_" data-uid="Startitecture.Orm.Common.ReadOnlyRepository`2.FirstOrDefault*"></a>
   <h4 id="Startitecture_Orm_Common_ReadOnlyRepository_2_FirstOrDefault__1___0_" data-uid="Startitecture.Orm.Common.ReadOnlyRepository`2.FirstOrDefault``1(``0)">FirstOrDefault&lt;TItem&gt;(TItem)</h4>
@@ -703,16 +751,16 @@ default value of the <code data-dev-comment-type="typeparamref" class="typeparam
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/ReadOnlyRepository.cs&amp;version=GBmaster&amp;line=198">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/ReadOnlyRepository.cs&amp;version=GBmaster&amp;line=194">View Source</a>
   </span>
   <a id="Startitecture_Orm_Common_ReadOnlyRepository_2_FirstOrDefault_" data-uid="Startitecture.Orm.Common.ReadOnlyRepository`2.FirstOrDefault*"></a>
-  <h4 id="Startitecture_Orm_Common_ReadOnlyRepository_2_FirstOrDefault__1_Startitecture_Orm_Model_EntitySelection___0__" data-uid="Startitecture.Orm.Common.ReadOnlyRepository`2.FirstOrDefault``1(Startitecture.Orm.Model.EntitySelection{``0})">FirstOrDefault&lt;TItem&gt;(EntitySelection&lt;TItem&gt;)</h4>
+  <h4 id="Startitecture_Orm_Common_ReadOnlyRepository_2_FirstOrDefault__1_Startitecture_Orm_Model_EntitySet___0__" data-uid="Startitecture.Orm.Common.ReadOnlyRepository`2.FirstOrDefault``1(Startitecture.Orm.Model.EntitySet{``0})">FirstOrDefault&lt;TItem&gt;(EntitySet&lt;TItem&gt;)</h4>
   <div class="markdown level1 summary"><p>Gets the first matching item of the selection. To ensure repeatable results, use unique column criteria.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public TModel FirstOrDefault&lt;TItem&gt;([NotNull] EntitySelection&lt;TItem&gt; selection)</code></pre>
+    <pre><code class="lang-csharp hljs">public TModel FirstOrDefault&lt;TItem&gt;([NotNull] EntitySet&lt;TItem&gt; selection)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -725,7 +773,7 @@ default value of the <code data-dev-comment-type="typeparamref" class="typeparam
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Startitecture.Orm.Model.EntitySelection-1.html">EntitySelection</a>&lt;TItem&gt;</td>
+        <td><a class="xref" href="Startitecture.Orm.Model.EntitySet-1.html">EntitySet</a>&lt;TItem&gt;</td>
         <td><span class="parametername">selection</span></td>
         <td><p>The selection to use to query the repository.</p>
 </td>
@@ -783,7 +831,7 @@ default value of the <code data-dev-comment-type="typeparamref" class="typeparam
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/ReadOnlyRepository.cs&amp;version=GBmaster&amp;line=313">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/ReadOnlyRepository.cs&amp;version=GBmaster&amp;line=325">View Source</a>
   </span>
   <a id="Startitecture_Orm_Common_ReadOnlyRepository_2_GetExampleEntity_" data-uid="Startitecture.Orm.Common.ReadOnlyRepository`2.GetExampleEntity*"></a>
   <h4 id="Startitecture_Orm_Common_ReadOnlyRepository_2_GetExampleEntity__1___0_" data-uid="Startitecture.Orm.Common.ReadOnlyRepository`2.GetExampleEntity``1(``0)">GetExampleEntity&lt;TItem&gt;(TItem)</h4>
@@ -870,7 +918,7 @@ unique key are set from the dynamic, or all matching primary key values if no un
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/ReadOnlyRepository.cs&amp;version=GBmaster&amp;line=261">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/ReadOnlyRepository.cs&amp;version=GBmaster&amp;line=271">View Source</a>
   </span>
   <a id="Startitecture_Orm_Common_ReadOnlyRepository_2_GetUniqueItemSelection_" data-uid="Startitecture.Orm.Common.ReadOnlyRepository`2.GetUniqueItemSelection*"></a>
   <h4 id="Startitecture_Orm_Common_ReadOnlyRepository_2_GetUniqueItemSelection__1_" data-uid="Startitecture.Orm.Common.ReadOnlyRepository`2.GetUniqueItemSelection(`1)">GetUniqueItemSelection(TEntity)</h4>
@@ -917,7 +965,7 @@ unique key are set from the dynamic, or all matching primary key values if no un
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/ReadOnlyRepository.cs&amp;version=GBmaster&amp;line=221">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/ReadOnlyRepository.cs&amp;version=GBmaster&amp;line=231">View Source</a>
   </span>
   <a id="Startitecture_Orm_Common_ReadOnlyRepository_2_SelectAll_" data-uid="Startitecture.Orm.Common.ReadOnlyRepository`2.SelectAll*"></a>
   <h4 id="Startitecture_Orm_Common_ReadOnlyRepository_2_SelectAll" data-uid="Startitecture.Orm.Common.ReadOnlyRepository`2.SelectAll">SelectAll()</h4>
@@ -946,16 +994,16 @@ unique key are set from the dynamic, or all matching primary key values if no un
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/ReadOnlyRepository.cs&amp;version=GBmaster&amp;line=229">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/ReadOnlyRepository.cs&amp;version=GBmaster&amp;line=239">View Source</a>
   </span>
   <a id="Startitecture_Orm_Common_ReadOnlyRepository_2_SelectEntities_" data-uid="Startitecture.Orm.Common.ReadOnlyRepository`2.SelectEntities*"></a>
-  <h4 id="Startitecture_Orm_Common_ReadOnlyRepository_2_SelectEntities__1_Startitecture_Orm_Model_EntitySelection___0__" data-uid="Startitecture.Orm.Common.ReadOnlyRepository`2.SelectEntities``1(Startitecture.Orm.Model.EntitySelection{``0})">SelectEntities&lt;TItem&gt;(EntitySelection&lt;TItem&gt;)</h4>
+  <h4 id="Startitecture_Orm_Common_ReadOnlyRepository_2_SelectEntities__1_Startitecture_Orm_Model_EntitySet___0__" data-uid="Startitecture.Orm.Common.ReadOnlyRepository`2.SelectEntities``1(Startitecture.Orm.Model.EntitySet{``0})">SelectEntities&lt;TItem&gt;(EntitySet&lt;TItem&gt;)</h4>
   <div class="markdown level1 summary"><p>Returns a collection of domain models matching the <code data-dev-comment-type="paramref" class="paramref">selection</code> for the specified data item type.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IEnumerable&lt;TModel&gt; SelectEntities&lt;TItem&gt;([NotNull] EntitySelection&lt;TItem&gt; selection)</code></pre>
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;TModel&gt; SelectEntities&lt;TItem&gt;([NotNull] EntitySet&lt;TItem&gt; selection)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -968,7 +1016,7 @@ unique key are set from the dynamic, or all matching primary key values if no un
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Startitecture.Orm.Model.EntitySelection-1.html">EntitySelection</a>&lt;TItem&gt;</td>
+        <td><a class="xref" href="Startitecture.Orm.Model.EntitySet-1.html">EntitySet</a>&lt;TItem&gt;</td>
         <td><span class="parametername">selection</span></td>
         <td><p>The selection to use to query the repository.</p>
 </td>

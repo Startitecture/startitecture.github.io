@@ -79,6 +79,10 @@
       <h4><a class="xref" href="Startitecture.Orm.Model.AttributeLocation.html">AttributeLocation</a></h4>
       <section><p>Defines the location of an attribute on an entity.</p>
 </section>
+      <h4><a class="xref" href="Startitecture.Orm.Model.AttributeMatch-2.html">AttributeMatch&lt;TSource, TRelation&gt;</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Startitecture.Orm.Model.AttributeMatchSet-2.html">AttributeMatchSet&lt;TSource, TRelation&gt;</a></h4>
+      <section></section>
       <h4><a class="xref" href="Startitecture.Orm.Model.AttributeReference.html">AttributeReference</a></h4>
       <section><p>Represents a reference to an entity attribute.</p>
 </section>
@@ -86,8 +90,8 @@
       <section><p>Contains metadata for a data entity.
 TODO: Do sorted set by column ordinals</p>
 </section>
-      <h4><a class="xref" href="Startitecture.Orm.Model.EntityExpression.html">EntityExpression</a></h4>
-      <section><p>Represents a table expression.</p>
+      <h4><a class="xref" href="Startitecture.Orm.Model.EntityExpression-1.html">EntityExpression&lt;T&gt;</a></h4>
+      <section><p>Expresses a named entity selection that is related to another entity set or selection.</p>
 </section>
       <h4><a class="xref" href="Startitecture.Orm.Model.EntityReference.html">EntityReference</a></h4>
       <section><p>Contains a reference to an entity.</p>
@@ -95,7 +99,7 @@ TODO: Do sorted set by column ordinals</p>
       <h4><a class="xref" href="Startitecture.Orm.Model.EntityRelation.html">EntityRelation</a></h4>
       <section><p>Defines a relation between two entities.</p>
 </section>
-      <h4><a class="xref" href="Startitecture.Orm.Model.EntityRelationSet-1.html">EntityRelationSet&lt;TItem&gt;</a></h4>
+      <h4><a class="xref" href="Startitecture.Orm.Model.EntityRelationSet-1.html">EntityRelationSet&lt;TEntity&gt;</a></h4>
       <section><p>Contains a set of entity relations.</p>
 </section>
       <h4><a class="xref" href="Startitecture.Orm.Model.EntitySelection-1.html">EntitySelection&lt;T&gt;</a></h4>
@@ -104,11 +108,22 @@ TODO: Do sorted set by column ordinals</p>
       <h4><a class="xref" href="Startitecture.Orm.Model.EntitySet-1.html">EntitySet&lt;T&gt;</a></h4>
       <section><p>Specifies a set of entities in a repository.</p>
 </section>
+      <h4><a class="xref" href="Startitecture.Orm.Model.ExtensionMethods.html">ExtensionMethods</a></h4>
+      <section></section>
       <h4><a class="xref" href="Startitecture.Orm.Model.LinkedSelection.html">LinkedSelection</a></h4>
       <section><p>Contains a reference to a linked selection with the link type.</p>
 </section>
       <h4><a class="xref" href="Startitecture.Orm.Model.OrderExpression.html">OrderExpression</a></h4>
       <section><p>Represents a single ORDER BY column clause.</p>
+</section>
+      <h4><a class="xref" href="Startitecture.Orm.Model.OrderExpressionSet-1.html">OrderExpressionSet&lt;T&gt;</a></h4>
+      <section><p>Defines a sort order for an entity of type <code data-dev-comment-type="typeparamref" class="typeparamref">T</code>.</p>
+</section>
+      <h4><a class="xref" href="Startitecture.Orm.Model.Query.html">Query</a></h4>
+      <section><p>A static class for creating entity selections.</p>
+</section>
+      <h4><a class="xref" href="Startitecture.Orm.Model.RelationExpression.html">RelationExpression</a></h4>
+      <section><p>Expresses an entity set that is related to another entity set or selection.</p>
 </section>
       <h4><a class="xref" href="Startitecture.Orm.Model.RepositoryException.html">RepositoryException</a></h4>
       <section><p>Thrown when there is an error accessing a data repository.</p>
@@ -116,17 +131,20 @@ TODO: Do sorted set by column ordinals</p>
       <h4><a class="xref" href="Startitecture.Orm.Model.ResultPage.html">ResultPage</a></h4>
       <section><p>Defines a subset of results to return within a result set.</p>
 </section>
-      <h4><a class="xref" href="Startitecture.Orm.Model.Select.html">Select</a></h4>
-      <section><p>A static class for creating Transact-SQL queries.</p>
-</section>
       <h4><a class="xref" href="Startitecture.Orm.Model.SelectExpression.html">SelectExpression</a></h4>
       <section><p>Represents a selection expression for a query.</p>
+</section>
+      <h4><a class="xref" href="Startitecture.Orm.Model.Subset.html">Subset</a></h4>
+      <section><p>Defines a subset of a result set.</p>
 </section>
       <h4><a class="xref" href="Startitecture.Orm.Model.UpdateSet-1.html">UpdateSet&lt;T&gt;</a></h4>
       <section><p>Represents an update set specification for an entity.</p>
 </section>
       <h4><a class="xref" href="Startitecture.Orm.Model.ValueFilter.html">ValueFilter</a></h4>
       <section><p>Contains a filter for a specific item attribute.</p>
+</section>
+      <h4><a class="xref" href="Startitecture.Orm.Model.ValueFilterSet-1.html">ValueFilterSet&lt;T&gt;</a></h4>
+      <section><p>Creates filters for the results of an entity selection.</p>
 </section>
       <h4><a class="xref" href="Startitecture.Orm.Model.ValueState.html">ValueState</a></h4>
       <section><p>Represents a value state for an attribute.</p>
@@ -153,6 +171,8 @@ TODO: Do sorted set by column ordinals</p>
       <h4><a class="xref" href="Startitecture.Orm.Model.IEntityDefinitionProvider.html">IEntityDefinitionProvider</a></h4>
       <section><p>Provides an interface to classes that define the definitions of entity types.</p>
 </section>
+      <h4><a class="xref" href="Startitecture.Orm.Model.IEntityExpression.html">IEntityExpression</a></h4>
+      <section></section>
       <h4><a class="xref" href="Startitecture.Orm.Model.IEntityMapper.html">IEntityMapper</a></h4>
       <section><p>Provides an interface to an entity mapper.</p>
 </section>
@@ -179,6 +199,9 @@ TODO: Do sorted set by column ordinals</p>
 </section>
       <h4><a class="xref" href="Startitecture.Orm.Model.IUpdateSet.html">IUpdateSet</a></h4>
       <section><p>Provides an interface to expose common properties of an update set.</p>
+</section>
+      <h4><a class="xref" href="Startitecture.Orm.Model.IValueFilter.html">IValueFilter</a></h4>
+      <section><p>Provides an interface for a value filter on a specific attribute.</p>
 </section>
     <h3 id="enums">Enums
   </h3>

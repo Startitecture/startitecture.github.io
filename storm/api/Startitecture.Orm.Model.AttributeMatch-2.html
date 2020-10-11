@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class LinkedSelection
+    <title>Class AttributeMatch&lt;TSource, TRelation&gt;
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class LinkedSelection
+    <meta name="title" content="Class AttributeMatch&lt;TSource, TRelation&gt;
    ">
     <meta name="generator" content="docfx 2.56.2.0">
     
@@ -67,18 +67,17 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Startitecture.Orm.Model.LinkedSelection">
+            <article class="content wrap" id="_content" data-uid="Startitecture.Orm.Model.AttributeMatch`2">
   
   
-  <h1 id="Startitecture_Orm_Model_LinkedSelection" data-uid="Startitecture.Orm.Model.LinkedSelection" class="text-break">Class LinkedSelection
+  <h1 id="Startitecture_Orm_Model_AttributeMatch_2" data-uid="Startitecture.Orm.Model.AttributeMatch`2" class="text-break">Class AttributeMatch&lt;TSource, TRelation&gt;
   </h1>
-  <div class="markdown level0 summary"><p>Contains a reference to a linked selection with the link type.</p>
-</div>
+  <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">LinkedSelection</span></div>
+    <div class="level1"><span class="xref">AttributeMatch&lt;TSource, TRelation&gt;</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -100,27 +99,48 @@
     <div>
       <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
     </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Startitecture.Orm.Model.html">Startitecture.Orm.Model</a></h6>
   <h6><strong>Assembly</strong>: Startitecture.Orm.Model.dll</h6>
-  <h5 id="Startitecture_Orm_Model_LinkedSelection_syntax">Syntax</h5>
+  <h5 id="Startitecture_Orm_Model_AttributeMatch_2_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class LinkedSelection</code></pre>
+    <pre><code class="lang-csharp hljs">public class AttributeMatch&lt;TSource, TRelation&gt;</code></pre>
   </div>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TSource</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TRelation</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="constructors">Constructors
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/LinkedSelection.cs&amp;version=GBmaster&amp;line=33">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/AttributeMatch.cs&amp;version=GBmaster&amp;line=10">View Source</a>
   </span>
-  <a id="Startitecture_Orm_Model_LinkedSelection__ctor_" data-uid="Startitecture.Orm.Model.LinkedSelection.#ctor*"></a>
-  <h4 id="Startitecture_Orm_Model_LinkedSelection__ctor_Startitecture_Orm_Model_IEntitySet_Startitecture_Orm_Model_SelectionLinkType_" data-uid="Startitecture.Orm.Model.LinkedSelection.#ctor(Startitecture.Orm.Model.IEntitySet,Startitecture.Orm.Model.SelectionLinkType)">LinkedSelection(IEntitySet, SelectionLinkType)</h4>
-  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="Startitecture.Orm.Model.LinkedSelection.html">LinkedSelection</a> class.</p>
-</div>
+  <a id="Startitecture_Orm_Model_AttributeMatch_2__ctor_" data-uid="Startitecture.Orm.Model.AttributeMatch`2.#ctor*"></a>
+  <h4 id="Startitecture_Orm_Model_AttributeMatch_2__ctor_System_Linq_Expressions_Expression_System_Func__0_System_Object___System_Linq_Expressions_Expression_System_Func__1_System_Object___" data-uid="Startitecture.Orm.Model.AttributeMatch`2.#ctor(System.Linq.Expressions.Expression{System.Func{`0,System.Object}},System.Linq.Expressions.Expression{System.Func{`1,System.Object}})">AttributeMatch(Expression&lt;Func&lt;TSource, Object&gt;&gt;, Expression&lt;Func&lt;TRelation, Object&gt;&gt;)</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public LinkedSelection([NotNull] IEntitySet selection, SelectionLinkType linkType)</code></pre>
+    <pre><code class="lang-csharp hljs">public AttributeMatch([NotNull] Expression&lt;Func&lt;TSource, object&gt;&gt; sourceExpression, [NotNull] Expression&lt;Func&lt;TRelation, object&gt;&gt; relationExpression)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -133,32 +153,14 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Startitecture.Orm.Model.IEntitySet.html">IEntitySet</a></td>
-        <td><span class="parametername">selection</span></td>
-        <td><p>The parent selection.</p>
-</td>
+        <td><span class="xref">System.Linq.Expressions.Expression</span>&lt;<span class="xref">System.Func</span>&lt;TSource, <span class="xref">System.Object</span>&gt;&gt;</td>
+        <td><span class="parametername">sourceExpression</span></td>
+        <td></td>
       </tr>
       <tr>
-        <td><a class="xref" href="Startitecture.Orm.Model.SelectionLinkType.html">SelectionLinkType</a></td>
-        <td><span class="parametername">linkType</span></td>
-        <td><p>The link type.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="exceptions">Exceptions</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Condition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.ArgumentNullException</span></td>
-        <td><p><code data-dev-comment-type="paramref" class="paramref">selection</code> is null.</p>
-</td>
+        <td><span class="xref">System.Linq.Expressions.Expression</span>&lt;<span class="xref">System.Func</span>&lt;TRelation, <span class="xref">System.Object</span>&gt;&gt;</td>
+        <td><span class="parametername">relationExpression</span></td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -166,75 +168,17 @@
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/LinkedSelection.cs&amp;version=GBmaster&amp;line=44">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/AttributeMatch.cs&amp;version=GBmaster&amp;line=18">View Source</a>
   </span>
-  <a id="Startitecture_Orm_Model_LinkedSelection_LinkType_" data-uid="Startitecture.Orm.Model.LinkedSelection.LinkType*"></a>
-  <h4 id="Startitecture_Orm_Model_LinkedSelection_LinkType" data-uid="Startitecture.Orm.Model.LinkedSelection.LinkType">LinkType</h4>
-  <div class="markdown level1 summary"><p>Gets the link type.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public SelectionLinkType LinkType { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Startitecture.Orm.Model.SelectionLinkType.html">SelectionLinkType</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/LinkedSelection.cs&amp;version=GBmaster&amp;line=49">View Source</a>
-  </span>
-  <a id="Startitecture_Orm_Model_LinkedSelection_Selection_" data-uid="Startitecture.Orm.Model.LinkedSelection.Selection*"></a>
-  <h4 id="Startitecture_Orm_Model_LinkedSelection_Selection" data-uid="Startitecture.Orm.Model.LinkedSelection.Selection">Selection</h4>
-  <div class="markdown level1 summary"><p>Gets the linked selection.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IEntitySet Selection { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Startitecture.Orm.Model.IEntitySet.html">IEntitySet</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="methods">Methods
-  </h3>
-  
-  <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/LinkedSelection.cs&amp;version=GBmaster&amp;line=54">View Source</a>
-  </span>
-  <a id="Startitecture_Orm_Model_LinkedSelection_ToString_" data-uid="Startitecture.Orm.Model.LinkedSelection.ToString*"></a>
-  <h4 id="Startitecture_Orm_Model_LinkedSelection_ToString" data-uid="Startitecture.Orm.Model.LinkedSelection.ToString">ToString()</h4>
+  <a id="Startitecture_Orm_Model_AttributeMatch_2_RelationExpression_" data-uid="Startitecture.Orm.Model.AttributeMatch`2.RelationExpression*"></a>
+  <h4 id="Startitecture_Orm_Model_AttributeMatch_2_RelationExpression" data-uid="Startitecture.Orm.Model.AttributeMatch`2.RelationExpression">RelationExpression</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+    <pre><code class="lang-csharp hljs">public Expression&lt;Func&lt;TRelation, object&gt;&gt; RelationExpression { get; }</code></pre>
   </div>
-  <h5 class="returns">Returns</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -244,13 +188,38 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
+        <td><span class="xref">System.Linq.Expressions.Expression</span>&lt;<span class="xref">System.Func</span>&lt;TRelation, <span class="xref">System.Object</span>&gt;&gt;</td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.Object.ToString()</span></div>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/AttributeMatch.cs&amp;version=GBmaster&amp;line=16">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Model_AttributeMatch_2_SourceExpression_" data-uid="Startitecture.Orm.Model.AttributeMatch`2.SourceExpression*"></a>
+  <h4 id="Startitecture_Orm_Model_AttributeMatch_2_SourceExpression" data-uid="Startitecture.Orm.Model.AttributeMatch`2.SourceExpression">SourceExpression</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Expression&lt;Func&lt;TSource, object&gt;&gt; SourceExpression { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Linq.Expressions.Expression</span>&lt;<span class="xref">System.Func</span>&lt;TSource, <span class="xref">System.Object</span>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 </article>
           </div>
           
@@ -259,7 +228,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/LinkedSelection.cs&amp;version=GBmaster&amp;line=19" class="contribution-link">View Source</a>
+                    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/AttributeMatch.cs&amp;version=GBmaster&amp;line=8" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

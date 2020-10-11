@@ -106,16 +106,19 @@
       <a class="xref" href="Startitecture.Orm.Common.ReadOnlyRepository-2.html#Startitecture_Orm_Common_ReadOnlyRepository_2_FirstOrDefault__1___0_">ReadOnlyRepository&lt;TModel, TEntity&gt;.FirstOrDefault&lt;TItem&gt;(TItem)</a>
     </div>
     <div>
-      <a class="xref" href="Startitecture.Orm.Common.ReadOnlyRepository-2.html#Startitecture_Orm_Common_ReadOnlyRepository_2_FirstOrDefault__1_Startitecture_Orm_Model_EntitySelection___0__">ReadOnlyRepository&lt;TModel, TEntity&gt;.FirstOrDefault&lt;TItem&gt;(EntitySelection&lt;TItem&gt;)</a>
+      <a class="xref" href="Startitecture.Orm.Common.ReadOnlyRepository-2.html#Startitecture_Orm_Common_ReadOnlyRepository_2_FirstOrDefault__1_Startitecture_Orm_Model_EntitySet___0__">ReadOnlyRepository&lt;TModel, TEntity&gt;.FirstOrDefault&lt;TItem&gt;(EntitySet&lt;TItem&gt;)</a>
     </div>
     <div>
-      <a class="xref" href="Startitecture.Orm.Common.ReadOnlyRepository-2.html#Startitecture_Orm_Common_ReadOnlyRepository_2_DynamicFirstOrDefault__1_Startitecture_Orm_Model_EntitySelection___0__">ReadOnlyRepository&lt;TModel, TEntity&gt;.DynamicFirstOrDefault&lt;TItem&gt;(EntitySelection&lt;TItem&gt;)</a>
+      <a class="xref" href="Startitecture.Orm.Common.ReadOnlyRepository-2.html#Startitecture_Orm_Common_ReadOnlyRepository_2_FirstOrDefault_System_Action_Startitecture_Orm_Model_EntitySet__0___">ReadOnlyRepository&lt;TModel, TEntity&gt;.FirstOrDefault(Action&lt;EntitySet&lt;TModel&gt;&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="Startitecture.Orm.Common.ReadOnlyRepository-2.html#Startitecture_Orm_Common_ReadOnlyRepository_2_DynamicFirstOrDefault_Startitecture_Orm_Model_ISelection_">ReadOnlyRepository&lt;TModel, TEntity&gt;.DynamicFirstOrDefault(ISelection)</a>
     </div>
     <div>
       <a class="xref" href="Startitecture.Orm.Common.ReadOnlyRepository-2.html#Startitecture_Orm_Common_ReadOnlyRepository_2_SelectAll">ReadOnlyRepository&lt;TModel, TEntity&gt;.SelectAll()</a>
     </div>
     <div>
-      <a class="xref" href="Startitecture.Orm.Common.ReadOnlyRepository-2.html#Startitecture_Orm_Common_ReadOnlyRepository_2_SelectEntities__1_Startitecture_Orm_Model_EntitySelection___0__">ReadOnlyRepository&lt;TModel, TEntity&gt;.SelectEntities&lt;TItem&gt;(EntitySelection&lt;TItem&gt;)</a>
+      <a class="xref" href="Startitecture.Orm.Common.ReadOnlyRepository-2.html#Startitecture_Orm_Common_ReadOnlyRepository_2_SelectEntities__1_Startitecture_Orm_Model_EntitySet___0__">ReadOnlyRepository&lt;TModel, TEntity&gt;.SelectEntities&lt;TItem&gt;(EntitySet&lt;TItem&gt;)</a>
     </div>
     <div>
       <a class="xref" href="Startitecture.Orm.Common.ReadOnlyRepository-2.html#Startitecture_Orm_Common_ReadOnlyRepository_2_DynamicSelect__1_Startitecture_Orm_Model_EntitySelection___0__">ReadOnlyRepository&lt;TModel, TEntity&gt;.DynamicSelect&lt;TItem&gt;(EntitySelection&lt;TItem&gt;)</a>
@@ -259,7 +262,7 @@ a sliding expiration of 30 seconds.</p>
       <tr>
         <td><span class="xref">System.Collections.Generic.IComparer</span>&lt;TEntity&gt;</td>
         <td><span class="parametername">selectionComparer</span></td>
-        <td><p>The selection comparer for ordering data entities from the repository after being selected from the database.</p>
+        <td><p>The set comparer for ordering data entities from the repository after being selected from the database.</p>
 </td>
       </tr>
     </tbody>
@@ -333,14 +336,14 @@ a sliding expiration of 30 seconds.</p>
   <span class="small pull-right mobile-hide">
     <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/EntityRepository.cs&amp;version=GBmaster&amp;line=99">View Source</a>
   </span>
-  <a id="Startitecture_Orm_Common_EntityRepository_2_Delete_" data-uid="Startitecture.Orm.Common.EntityRepository`2.Delete*"></a>
-  <h4 id="Startitecture_Orm_Common_EntityRepository_2_Delete__1_Startitecture_Orm_Model_EntitySelection___0__" data-uid="Startitecture.Orm.Common.EntityRepository`2.Delete``1(Startitecture.Orm.Model.EntitySelection{``0})">Delete&lt;TItem&gt;(EntitySelection&lt;TItem&gt;)</h4>
-  <div class="markdown level1 summary"><p>Deletes all entities matching the selection.</p>
+  <a id="Startitecture_Orm_Common_EntityRepository_2_DeleteEntities_" data-uid="Startitecture.Orm.Common.EntityRepository`2.DeleteEntities*"></a>
+  <h4 id="Startitecture_Orm_Common_EntityRepository_2_DeleteEntities_System_Action_Startitecture_Orm_Model_EntitySet__0___" data-uid="Startitecture.Orm.Common.EntityRepository`2.DeleteEntities(System.Action{Startitecture.Orm.Model.EntitySet{`0}})">DeleteEntities(Action&lt;EntitySet&lt;TModel&gt;&gt;)</h4>
+  <div class="markdown level1 summary"><p>Delete entities matching the set of <code data-dev-comment-type="typeparamref" class="typeparamref">TModel</code> models in <code data-dev-comment-type="paramref" class="paramref">defineSet</code>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int Delete&lt;TItem&gt;([NotNull] EntitySelection&lt;TItem&gt; selection)</code></pre>
+    <pre><code class="lang-csharp hljs">public int DeleteEntities([NotNull] Action&lt;EntitySet&lt;TModel&gt;&gt; defineSet)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -353,9 +356,9 @@ a sliding expiration of 30 seconds.</p>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Startitecture.Orm.Model.EntitySelection-1.html">EntitySelection</a>&lt;TItem&gt;</td>
-        <td><span class="parametername">selection</span></td>
-        <td><p>The selection to delete.</p>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="Startitecture.Orm.Model.EntitySet-1.html">EntitySet</a>&lt;TModel&gt;&gt;</td>
+        <td><span class="parametername">defineSet</span></td>
+        <td><p>Define the set of entities to delete.</p>
 </td>
       </tr>
     </tbody>
@@ -376,18 +379,49 @@ a sliding expiration of 30 seconds.</p>
       </tr>
     </tbody>
   </table>
-  <h5 class="typeParameters">Type Parameters</h5>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/EntityRepository.cs&amp;version=GBmaster&amp;line=112">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Common_EntityRepository_2_DeleteSelection_" data-uid="Startitecture.Orm.Common.EntityRepository`2.DeleteSelection*"></a>
+  <h4 id="Startitecture_Orm_Common_EntityRepository_2_DeleteSelection_Startitecture_Orm_Model_IEntitySet_" data-uid="Startitecture.Orm.Common.EntityRepository`2.DeleteSelection(Startitecture.Orm.Model.IEntitySet)">DeleteSelection(IEntitySet)</h4>
+  <div class="markdown level1 summary"><p>Deletes all entities matching the entity set.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int DeleteSelection([NotNull] IEntitySet entitySet)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
+        <th>Type</th>
         <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="parametername">TItem</span></td>
-        <td><p>The type of item that contains properties that can be mapped to an item selection for the repository entities.</p>
+        <td><a class="xref" href="Startitecture.Orm.Model.IEntitySet.html">IEntitySet</a></td>
+        <td><span class="parametername">entitySet</span></td>
+        <td><p>The entity set to delete.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>The number of items affected as an <span class="xref">System.Int32</span>.</p>
 </td>
       </tr>
     </tbody>

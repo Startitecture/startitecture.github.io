@@ -372,13 +372,13 @@
     <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/IRepositoryAdapter.cs&amp;version=GBmaster&amp;line=55">View Source</a>
   </span>
   <a id="Startitecture_Orm_Common_IRepositoryAdapter_CreateSelectionStatement_" data-uid="Startitecture.Orm.Common.IRepositoryAdapter.CreateSelectionStatement*"></a>
-  <h4 id="Startitecture_Orm_Common_IRepositoryAdapter_CreateSelectionStatement_Startitecture_Orm_Model_ISelection_" data-uid="Startitecture.Orm.Common.IRepositoryAdapter.CreateSelectionStatement(Startitecture.Orm.Model.ISelection)">CreateSelectionStatement(ISelection)</h4>
-  <div class="markdown level1 summary"><p>Creates a query language selection statement for the specified <code data-dev-comment-type="paramref" class="paramref">selection</code>.</p>
+  <h4 id="Startitecture_Orm_Common_IRepositoryAdapter_CreateSelectionStatement_Startitecture_Orm_Model_IEntitySet_" data-uid="Startitecture.Orm.Common.IRepositoryAdapter.CreateSelectionStatement(Startitecture.Orm.Model.IEntitySet)">CreateSelectionStatement(IEntitySet)</h4>
+  <div class="markdown level1 summary"><p>Creates a query language selection statement for the specified <code data-dev-comment-type="paramref" class="paramref">entitySet</code>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">string CreateSelectionStatement(ISelection selection)</code></pre>
+    <pre><code class="lang-csharp hljs">string CreateSelectionStatement(IEntitySet entitySet)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -391,8 +391,8 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Startitecture.Orm.Model.ISelection.html">ISelection</a></td>
-        <td><span class="parametername">selection</span></td>
+        <td><a class="xref" href="Startitecture.Orm.Model.IEntitySet.html">IEntitySet</a></td>
+        <td><span class="parametername">entitySet</span></td>
         <td><p>The selection to create the statement for.</p>
 </td>
       </tr>

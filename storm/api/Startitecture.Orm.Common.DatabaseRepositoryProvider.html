@@ -362,13 +362,13 @@
     <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/DatabaseRepositoryProvider.cs&amp;version=GBmaster&amp;line=195">View Source</a>
   </span>
   <a id="Startitecture_Orm_Common_DatabaseRepositoryProvider_Contains_" data-uid="Startitecture.Orm.Common.DatabaseRepositoryProvider.Contains*"></a>
-  <h4 id="Startitecture_Orm_Common_DatabaseRepositoryProvider_Contains__1_Startitecture_Orm_Model_EntitySet___0__" data-uid="Startitecture.Orm.Common.DatabaseRepositoryProvider.Contains``1(Startitecture.Orm.Model.EntitySet{``0})">Contains&lt;T&gt;(EntitySet&lt;T&gt;)</h4>
+  <h4 id="Startitecture_Orm_Common_DatabaseRepositoryProvider_Contains_Startitecture_Orm_Model_IEntitySet_" data-uid="Startitecture.Orm.Common.DatabaseRepositoryProvider.Contains(Startitecture.Orm.Model.IEntitySet)">Contains(IEntitySet)</h4>
   <div class="markdown level1 summary"><p>Determines whether an entity exists given the specified unique key.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool Contains&lt;T&gt;(EntitySet&lt;T&gt; selection)</code></pre>
+    <pre><code class="lang-csharp hljs">public bool Contains(IEntitySet selection)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -381,7 +381,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Startitecture.Orm.Model.EntitySet-1.html">EntitySet</a>&lt;T&gt;</td>
+        <td><a class="xref" href="Startitecture.Orm.Model.IEntitySet.html">IEntitySet</a></td>
         <td><span class="parametername">selection</span></td>
         <td><p>A selection for the specified entity or entities to query for existence.</p>
 </td>
@@ -404,34 +404,18 @@
       </tr>
     </tbody>
   </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">T</span></td>
-        <td><p>The type of entity in the repository.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/DatabaseRepositoryProvider.cs&amp;version=GBmaster&amp;line=470">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/DatabaseRepositoryProvider.cs&amp;version=GBmaster&amp;line=471">View Source</a>
   </span>
   <a id="Startitecture_Orm_Common_DatabaseRepositoryProvider_Delete_" data-uid="Startitecture.Orm.Common.DatabaseRepositoryProvider.Delete*"></a>
-  <h4 id="Startitecture_Orm_Common_DatabaseRepositoryProvider_Delete__1_Startitecture_Orm_Model_EntitySelection___0__" data-uid="Startitecture.Orm.Common.DatabaseRepositoryProvider.Delete``1(Startitecture.Orm.Model.EntitySelection{``0})">Delete&lt;T&gt;(EntitySelection&lt;T&gt;)</h4>
-  <div class="markdown level1 summary"><p>Deletes the entities matching the filter.</p>
+  <h4 id="Startitecture_Orm_Common_DatabaseRepositoryProvider_Delete_Startitecture_Orm_Model_IEntitySet_" data-uid="Startitecture.Orm.Common.DatabaseRepositoryProvider.Delete(Startitecture.Orm.Model.IEntitySet)">Delete(IEntitySet)</h4>
+  <div class="markdown level1 summary"><p>Deletes the entities matching the set.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int Delete&lt;T&gt;(EntitySelection&lt;T&gt; selection)</code></pre>
+    <pre><code class="lang-csharp hljs">public int Delete(IEntitySet entitySet)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -444,9 +428,9 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Startitecture.Orm.Model.EntitySelection-1.html">EntitySelection</a>&lt;T&gt;</td>
-        <td><span class="parametername">selection</span></td>
-        <td><p>A selection for the specified entities to delete.</p>
+        <td><a class="xref" href="Startitecture.Orm.Model.IEntitySet.html">IEntitySet</a></td>
+        <td><span class="parametername">entitySet</span></td>
+        <td><p>The entity set to delete.</p>
 </td>
       </tr>
     </tbody>
@@ -463,22 +447,6 @@
       <tr>
         <td><span class="xref">System.Int32</span></td>
         <td><p>The number of deleted entities as an <span class="xref">System.Int32</span>.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">T</span></td>
-        <td><p>The type of entity in the repository.</p>
 </td>
       </tr>
     </tbody>
@@ -591,7 +559,7 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/DatabaseRepositoryProvider.cs&amp;version=GBmaster&amp;line=499">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/DatabaseRepositoryProvider.cs&amp;version=GBmaster&amp;line=500">View Source</a>
   </span>
   <a id="Startitecture_Orm_Common_DatabaseRepositoryProvider_Execute_" data-uid="Startitecture.Orm.Common.DatabaseRepositoryProvider.Execute*"></a>
   <h4 id="Startitecture_Orm_Common_DatabaseRepositoryProvider_Execute_System_String_System_Object___" data-uid="Startitecture.Orm.Common.DatabaseRepositoryProvider.Execute(System.String,System.Object[])">Execute(String, Object[])</h4>
@@ -628,7 +596,7 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/DatabaseRepositoryProvider.cs&amp;version=GBmaster&amp;line=534">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/DatabaseRepositoryProvider.cs&amp;version=GBmaster&amp;line=535">View Source</a>
   </span>
   <a id="Startitecture_Orm_Common_DatabaseRepositoryProvider_ExecuteForResult_" data-uid="Startitecture.Orm.Common.DatabaseRepositoryProvider.ExecuteForResult*"></a>
   <h4 id="Startitecture_Orm_Common_DatabaseRepositoryProvider_ExecuteForResult_System_String_System_Object___" data-uid="Startitecture.Orm.Common.DatabaseRepositoryProvider.ExecuteForResult(System.String,System.Object[])">ExecuteForResult(String, Object[])</h4>
@@ -681,7 +649,7 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/DatabaseRepositoryProvider.cs&amp;version=GBmaster&amp;line=552">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/DatabaseRepositoryProvider.cs&amp;version=GBmaster&amp;line=553">View Source</a>
   </span>
   <a id="Startitecture_Orm_Common_DatabaseRepositoryProvider_ExecuteForResult_" data-uid="Startitecture.Orm.Common.DatabaseRepositoryProvider.ExecuteForResult*"></a>
   <h4 id="Startitecture_Orm_Common_DatabaseRepositoryProvider_ExecuteForResult__1_System_String_System_Object___" data-uid="Startitecture.Orm.Common.DatabaseRepositoryProvider.ExecuteForResult``1(System.String,System.Object[])">ExecuteForResult&lt;T&gt;(String, Object[])</h4>
@@ -750,7 +718,7 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/DatabaseRepositoryProvider.cs&amp;version=GBmaster&amp;line=516">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/DatabaseRepositoryProvider.cs&amp;version=GBmaster&amp;line=517">View Source</a>
   </span>
   <a id="Startitecture_Orm_Common_DatabaseRepositoryProvider_ExecuteScalar_" data-uid="Startitecture.Orm.Common.DatabaseRepositoryProvider.ExecuteScalar*"></a>
   <h4 id="Startitecture_Orm_Common_DatabaseRepositoryProvider_ExecuteScalar__1_System_String_System_Object___" data-uid="Startitecture.Orm.Common.DatabaseRepositoryProvider.ExecuteScalar``1(System.String,System.Object[])">ExecuteScalar&lt;T&gt;(String, Object[])</h4>
@@ -822,13 +790,13 @@
     <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/DatabaseRepositoryProvider.cs&amp;version=GBmaster&amp;line=255">View Source</a>
   </span>
   <a id="Startitecture_Orm_Common_DatabaseRepositoryProvider_FirstOrDefault_" data-uid="Startitecture.Orm.Common.DatabaseRepositoryProvider.FirstOrDefault*"></a>
-  <h4 id="Startitecture_Orm_Common_DatabaseRepositoryProvider_FirstOrDefault__1_Startitecture_Orm_Model_EntitySelection___0__" data-uid="Startitecture.Orm.Common.DatabaseRepositoryProvider.FirstOrDefault``1(Startitecture.Orm.Model.EntitySelection{``0})">FirstOrDefault&lt;T&gt;(EntitySelection&lt;T&gt;)</h4>
+  <h4 id="Startitecture_Orm_Common_DatabaseRepositoryProvider_FirstOrDefault__1_Startitecture_Orm_Model_EntitySet___0__" data-uid="Startitecture.Orm.Common.DatabaseRepositoryProvider.FirstOrDefault``1(Startitecture.Orm.Model.EntitySet{``0})">FirstOrDefault&lt;T&gt;(EntitySet&lt;T&gt;)</h4>
   <div class="markdown level1 summary"><p>Gets the first entity matching the selection, or the default value if the entity cannot be found.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public T FirstOrDefault&lt;T&gt;(EntitySelection&lt;T&gt; selection)</code></pre>
+    <pre><code class="lang-csharp hljs">public T FirstOrDefault&lt;T&gt;(EntitySet&lt;T&gt; entitySet)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -841,8 +809,8 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Startitecture.Orm.Model.EntitySelection-1.html">EntitySelection</a>&lt;T&gt;</td>
-        <td><span class="parametername">selection</span></td>
+        <td><a class="xref" href="Startitecture.Orm.Model.EntitySet-1.html">EntitySet</a>&lt;T&gt;</td>
+        <td><span class="parametername">entitySet</span></td>
         <td><p>A selection for the specified entity to return.</p>
 </td>
       </tr>
@@ -1011,13 +979,13 @@
     <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/DatabaseRepositoryProvider.cs&amp;version=GBmaster&amp;line=301">View Source</a>
   </span>
   <a id="Startitecture_Orm_Common_DatabaseRepositoryProvider_SelectEntities_" data-uid="Startitecture.Orm.Common.DatabaseRepositoryProvider.SelectEntities*"></a>
-  <h4 id="Startitecture_Orm_Common_DatabaseRepositoryProvider_SelectEntities__1_Startitecture_Orm_Model_EntitySelection___0__" data-uid="Startitecture.Orm.Common.DatabaseRepositoryProvider.SelectEntities``1(Startitecture.Orm.Model.EntitySelection{``0})">SelectEntities&lt;T&gt;(EntitySelection&lt;T&gt;)</h4>
+  <h4 id="Startitecture_Orm_Common_DatabaseRepositoryProvider_SelectEntities__1_Startitecture_Orm_Model_EntitySet___0__" data-uid="Startitecture.Orm.Common.DatabaseRepositoryProvider.SelectEntities``1(Startitecture.Orm.Model.EntitySet{``0})">SelectEntities&lt;T&gt;(EntitySet&lt;T&gt;)</h4>
   <div class="markdown level1 summary"><p>Selects a matching list of entities from the repository.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IEnumerable&lt;T&gt; SelectEntities&lt;T&gt;(EntitySelection&lt;T&gt; selection)</code></pre>
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;T&gt; SelectEntities&lt;T&gt;(EntitySet&lt;T&gt; selection)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1030,7 +998,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Startitecture.Orm.Model.EntitySelection-1.html">EntitySelection</a>&lt;T&gt;</td>
+        <td><a class="xref" href="Startitecture.Orm.Model.EntitySet-1.html">EntitySet</a>&lt;T&gt;</td>
         <td><span class="parametername">selection</span></td>
         <td><p>A selection for the specified entities to return.</p>
 </td>
@@ -1147,7 +1115,7 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/DatabaseRepositoryProvider.cs&amp;version=GBmaster&amp;line=576">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/DatabaseRepositoryProvider.cs&amp;version=GBmaster&amp;line=577">View Source</a>
   </span>
   <a id="Startitecture_Orm_Common_DatabaseRepositoryProvider_ToString_" data-uid="Startitecture.Orm.Common.DatabaseRepositoryProvider.ToString*"></a>
   <h4 id="Startitecture_Orm_Common_DatabaseRepositoryProvider_ToString" data-uid="Startitecture.Orm.Common.DatabaseRepositoryProvider.ToString">ToString()</h4>

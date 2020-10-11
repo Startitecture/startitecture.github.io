@@ -87,16 +87,19 @@
       <a class="xref" href="Startitecture.Orm.Model.IReadOnlyRepository-1.html#Startitecture_Orm_Model_IReadOnlyRepository_1_FirstOrDefault__1___0_">IReadOnlyRepository&lt;TModel&gt;.FirstOrDefault&lt;TItem&gt;(TItem)</a>
     </div>
     <div>
-      <a class="xref" href="Startitecture.Orm.Model.IReadOnlyRepository-1.html#Startitecture_Orm_Model_IReadOnlyRepository_1_FirstOrDefault__1_Startitecture_Orm_Model_EntitySelection___0__">IReadOnlyRepository&lt;TModel&gt;.FirstOrDefault&lt;TItem&gt;(EntitySelection&lt;TItem&gt;)</a>
+      <a class="xref" href="Startitecture.Orm.Model.IReadOnlyRepository-1.html#Startitecture_Orm_Model_IReadOnlyRepository_1_FirstOrDefault__1_Startitecture_Orm_Model_EntitySet___0__">IReadOnlyRepository&lt;TModel&gt;.FirstOrDefault&lt;TItem&gt;(EntitySet&lt;TItem&gt;)</a>
     </div>
     <div>
-      <a class="xref" href="Startitecture.Orm.Model.IReadOnlyRepository-1.html#Startitecture_Orm_Model_IReadOnlyRepository_1_DynamicFirstOrDefault__1_Startitecture_Orm_Model_EntitySelection___0__">IReadOnlyRepository&lt;TModel&gt;.DynamicFirstOrDefault&lt;TItem&gt;(EntitySelection&lt;TItem&gt;)</a>
+      <a class="xref" href="Startitecture.Orm.Model.IReadOnlyRepository-1.html#Startitecture_Orm_Model_IReadOnlyRepository_1_FirstOrDefault_System_Action_Startitecture_Orm_Model_EntitySet__0___">IReadOnlyRepository&lt;TModel&gt;.FirstOrDefault(Action&lt;EntitySet&lt;TModel&gt;&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="Startitecture.Orm.Model.IReadOnlyRepository-1.html#Startitecture_Orm_Model_IReadOnlyRepository_1_DynamicFirstOrDefault_Startitecture_Orm_Model_ISelection_">IReadOnlyRepository&lt;TModel&gt;.DynamicFirstOrDefault(ISelection)</a>
     </div>
     <div>
       <a class="xref" href="Startitecture.Orm.Model.IReadOnlyRepository-1.html#Startitecture_Orm_Model_IReadOnlyRepository_1_SelectAll">IReadOnlyRepository&lt;TModel&gt;.SelectAll()</a>
     </div>
     <div>
-      <a class="xref" href="Startitecture.Orm.Model.IReadOnlyRepository-1.html#Startitecture_Orm_Model_IReadOnlyRepository_1_SelectEntities__1_Startitecture_Orm_Model_EntitySelection___0__">IReadOnlyRepository&lt;TModel&gt;.SelectEntities&lt;TItem&gt;(EntitySelection&lt;TItem&gt;)</a>
+      <a class="xref" href="Startitecture.Orm.Model.IReadOnlyRepository-1.html#Startitecture_Orm_Model_IReadOnlyRepository_1_SelectEntities__1_Startitecture_Orm_Model_EntitySet___0__">IReadOnlyRepository&lt;TModel&gt;.SelectEntities&lt;TItem&gt;(EntitySet&lt;TItem&gt;)</a>
     </div>
     <div>
       <a class="xref" href="Startitecture.Orm.Model.IReadOnlyRepository-1.html#Startitecture_Orm_Model_IReadOnlyRepository_1_DynamicSelect__1_Startitecture_Orm_Model_EntitySelection___0__">IReadOnlyRepository&lt;TModel&gt;.DynamicSelect&lt;TItem&gt;(EntitySelection&lt;TItem&gt;)</a>
@@ -128,7 +131,7 @@
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/IEntityRepository.cs&amp;version=GBmaster&amp;line=43">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/IEntityRepository.cs&amp;version=GBmaster&amp;line=45">View Source</a>
   </span>
   <a id="Startitecture_Orm_Model_IEntityRepository_1_Delete_" data-uid="Startitecture.Orm.Model.IEntityRepository`1.Delete*"></a>
   <h4 id="Startitecture_Orm_Model_IEntityRepository_1_Delete__1___0_" data-uid="Startitecture.Orm.Model.IEntityRepository`1.Delete``1(``0)">Delete&lt;TItem&gt;(TItem)</h4>
@@ -191,16 +194,16 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/IEntityRepository.cs&amp;version=GBmaster&amp;line=57">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/IEntityRepository.cs&amp;version=GBmaster&amp;line=56">View Source</a>
   </span>
-  <a id="Startitecture_Orm_Model_IEntityRepository_1_Delete_" data-uid="Startitecture.Orm.Model.IEntityRepository`1.Delete*"></a>
-  <h4 id="Startitecture_Orm_Model_IEntityRepository_1_Delete__1_Startitecture_Orm_Model_EntitySelection___0__" data-uid="Startitecture.Orm.Model.IEntityRepository`1.Delete``1(Startitecture.Orm.Model.EntitySelection{``0})">Delete&lt;TItem&gt;(EntitySelection&lt;TItem&gt;)</h4>
-  <div class="markdown level1 summary"><p>Deletes all entities matching the selection.</p>
+  <a id="Startitecture_Orm_Model_IEntityRepository_1_DeleteEntities_" data-uid="Startitecture.Orm.Model.IEntityRepository`1.DeleteEntities*"></a>
+  <h4 id="Startitecture_Orm_Model_IEntityRepository_1_DeleteEntities_System_Action_Startitecture_Orm_Model_EntitySet__0___" data-uid="Startitecture.Orm.Model.IEntityRepository`1.DeleteEntities(System.Action{Startitecture.Orm.Model.EntitySet{`0}})">DeleteEntities(Action&lt;EntitySet&lt;TModel&gt;&gt;)</h4>
+  <div class="markdown level1 summary"><p>Delete entities matching the set of <code data-dev-comment-type="typeparamref" class="typeparamref">TModel</code> models in <code data-dev-comment-type="paramref" class="paramref">defineSet</code>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">int Delete&lt;TItem&gt;(EntitySelection&lt;TItem&gt; selection)</code></pre>
+    <pre><code class="lang-csharp hljs">int DeleteEntities(Action&lt;EntitySet&lt;TModel&gt;&gt; defineSet)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -213,9 +216,9 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Startitecture.Orm.Model.EntitySelection-1.html">EntitySelection</a>&lt;TItem&gt;</td>
-        <td><span class="parametername">selection</span></td>
-        <td><p>The selection to delete.</p>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="Startitecture.Orm.Model.EntitySet-1.html">EntitySet</a>&lt;TModel&gt;&gt;</td>
+        <td><span class="parametername">defineSet</span></td>
+        <td><p>Define the set of entities to delete.</p>
 </td>
       </tr>
     </tbody>
@@ -236,25 +239,56 @@
       </tr>
     </tbody>
   </table>
-  <h5 class="typeParameters">Type Parameters</h5>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/IEntityRepository.cs&amp;version=GBmaster&amp;line=67">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Model_IEntityRepository_1_DeleteSelection_" data-uid="Startitecture.Orm.Model.IEntityRepository`1.DeleteSelection*"></a>
+  <h4 id="Startitecture_Orm_Model_IEntityRepository_1_DeleteSelection_Startitecture_Orm_Model_IEntitySet_" data-uid="Startitecture.Orm.Model.IEntityRepository`1.DeleteSelection(Startitecture.Orm.Model.IEntitySet)">DeleteSelection(IEntitySet)</h4>
+  <div class="markdown level1 summary"><p>Deletes all entities matching the entity set.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int DeleteSelection(IEntitySet entitySet)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
+        <th>Type</th>
         <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="parametername">TItem</span></td>
-        <td><p>The type of item that contains properties that can be mapped to an item selection for the repository entities.</p>
+        <td><a class="xref" href="Startitecture.Orm.Model.IEntitySet.html">IEntitySet</a></td>
+        <td><span class="parametername">entitySet</span></td>
+        <td><p>The entity set to delete.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>The number of items affected as an <span class="xref">System.Int32</span>.</p>
 </td>
       </tr>
     </tbody>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/IEntityRepository.cs&amp;version=GBmaster&amp;line=29">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/IEntityRepository.cs&amp;version=GBmaster&amp;line=31">View Source</a>
   </span>
   <a id="Startitecture_Orm_Model_IEntityRepository_1_Save_" data-uid="Startitecture.Orm.Model.IEntityRepository`1.Save*"></a>
   <h4 id="Startitecture_Orm_Model_IEntityRepository_1_Save__0_" data-uid="Startitecture.Orm.Model.IEntityRepository`1.Save(`0)">Save(TModel)</h4>
@@ -307,7 +341,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/IEntityRepository.cs&amp;version=GBmaster&amp;line=18" class="contribution-link">View Source</a>
+                    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/IEntityRepository.cs&amp;version=GBmaster&amp;line=20" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

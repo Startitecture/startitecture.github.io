@@ -79,6 +79,7 @@
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
     <div class="level1"><span class="xref">EntitySet&lt;T&gt;</span></div>
+      <div class="level2"><a class="xref" href="Startitecture.Orm.Model.EntitySelection-1.html">EntitySelection</a>&lt;T&gt;</div>
   </div>
   <div classs="implements">
     <h5>Implements</h5>
@@ -103,9 +104,6 @@
     </div>
     <div>
       <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ToString()</span>
     </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Startitecture.Orm.Model.html">Startitecture.Orm.Model</a></h6>
@@ -134,7 +132,7 @@
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySet.cs&amp;version=GBmaster&amp;line=45">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySet.cs&amp;version=GBmaster&amp;line=50">View Source</a>
   </span>
   <a id="Startitecture_Orm_Model_EntitySet_1_EntityType_" data-uid="Startitecture.Orm.Model.EntitySet`1.EntityType*"></a>
   <h4 id="Startitecture_Orm_Model_EntitySet_1_EntityType" data-uid="Startitecture.Orm.Model.EntitySet`1.EntityType">EntityType</h4>
@@ -162,7 +160,7 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySet.cs&amp;version=GBmaster&amp;line=77">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySet.cs&amp;version=GBmaster&amp;line=96">View Source</a>
   </span>
   <a id="Startitecture_Orm_Model_EntitySet_1_Filters_" data-uid="Startitecture.Orm.Model.EntitySet`1.Filters*"></a>
   <h4 id="Startitecture_Orm_Model_EntitySet_1_Filters" data-uid="Startitecture.Orm.Model.EntitySet`1.Filters">Filters</h4>
@@ -171,7 +169,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IEnumerable&lt;ValueFilter&gt; Filters { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;IValueFilter&gt; Filters { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -183,14 +181,14 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Startitecture.Orm.Model.ValueFilter.html">ValueFilter</a>&gt;</td>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Startitecture.Orm.Model.IValueFilter.html">IValueFilter</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySet.cs&amp;version=GBmaster&amp;line=51">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySet.cs&amp;version=GBmaster&amp;line=56">View Source</a>
   </span>
   <a id="Startitecture_Orm_Model_EntitySet_1_LinkedSelection_" data-uid="Startitecture.Orm.Model.EntitySet`1.LinkedSelection*"></a>
   <h4 id="Startitecture_Orm_Model_EntitySet_1_LinkedSelection" data-uid="Startitecture.Orm.Model.EntitySet`1.LinkedSelection">LinkedSelection</h4>
@@ -218,16 +216,16 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySet.cs&amp;version=GBmaster&amp;line=42">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySet.cs&amp;version=GBmaster&amp;line=99">View Source</a>
   </span>
-  <a id="Startitecture_Orm_Model_EntitySet_1_ParentExpression_" data-uid="Startitecture.Orm.Model.EntitySet`1.ParentExpression*"></a>
-  <h4 id="Startitecture_Orm_Model_EntitySet_1_ParentExpression" data-uid="Startitecture.Orm.Model.EntitySet`1.ParentExpression">ParentExpression</h4>
-  <div class="markdown level1 summary"><p>Gets the parent expression for the set operation.</p>
+  <a id="Startitecture_Orm_Model_EntitySet_1_OrderByExpressions_" data-uid="Startitecture.Orm.Model.EntitySet`1.OrderByExpressions*"></a>
+  <h4 id="Startitecture_Orm_Model_EntitySet_1_OrderByExpressions" data-uid="Startitecture.Orm.Model.EntitySet`1.OrderByExpressions">OrderByExpressions</h4>
+  <div class="markdown level1 summary"><p>Gets the ORDER BY expressions for the entity set.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public EntityExpression ParentExpression { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;OrderExpression&gt; OrderByExpressions { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -239,14 +237,70 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Startitecture.Orm.Model.EntityExpression.html">EntityExpression</a></td>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Startitecture.Orm.Model.OrderExpression.html">OrderExpression</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySet.cs&amp;version=GBmaster&amp;line=54">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySet.cs&amp;version=GBmaster&amp;line=102">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Model_EntitySet_1_Page_" data-uid="Startitecture.Orm.Model.EntitySet`1.Page*"></a>
+  <h4 id="Startitecture_Orm_Model_EntitySet_1_Page" data-uid="Startitecture.Orm.Model.EntitySet`1.Page">Page</h4>
+  <div class="markdown level1 summary"><p>Gets the page settings for the entity set.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ResultPage Page { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Model.ResultPage.html">ResultPage</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySet.cs&amp;version=GBmaster&amp;line=47">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Model_EntitySet_1_ParentExpression_" data-uid="Startitecture.Orm.Model.EntitySet`1.ParentExpression*"></a>
+  <h4 id="Startitecture_Orm_Model_EntitySet_1_ParentExpression" data-uid="Startitecture.Orm.Model.EntitySet`1.ParentExpression">ParentExpression</h4>
+  <div class="markdown level1 summary"><p>Gets the parent expression for the set operation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEntityExpression ParentExpression { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Model.IEntityExpression.html">IEntityExpression</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySet.cs&amp;version=GBmaster&amp;line=59">View Source</a>
   </span>
   <a id="Startitecture_Orm_Model_EntitySet_1_PropertyValues_" data-uid="Startitecture.Orm.Model.EntitySet`1.PropertyValues*"></a>
   <h4 id="Startitecture_Orm_Model_EntitySet_1_PropertyValues" data-uid="Startitecture.Orm.Model.EntitySet`1.PropertyValues">PropertyValues</h4>
@@ -274,7 +328,7 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySet.cs&amp;version=GBmaster&amp;line=48">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySet.cs&amp;version=GBmaster&amp;line=53">View Source</a>
   </span>
   <a id="Startitecture_Orm_Model_EntitySet_1_Relations_" data-uid="Startitecture.Orm.Model.EntitySet`1.Relations*"></a>
   <h4 id="Startitecture_Orm_Model_EntitySet_1_Relations" data-uid="Startitecture.Orm.Model.EntitySet`1.Relations">Relations</h4>
@@ -304,16 +358,16 @@
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySet.cs&amp;version=GBmaster&amp;line=1046">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySet.cs&amp;version=GBmaster&amp;line=1290">View Source</a>
   </span>
-  <a id="Startitecture_Orm_Model_EntitySet_1_AddFilter_" data-uid="Startitecture.Orm.Model.EntitySet`1.AddFilter*"></a>
-  <h4 id="Startitecture_Orm_Model_EntitySet_1_AddFilter_Startitecture_Orm_Model_ValueFilter_" data-uid="Startitecture.Orm.Model.EntitySet`1.AddFilter(Startitecture.Orm.Model.ValueFilter)">AddFilter(ValueFilter)</h4>
-  <div class="markdown level1 summary"><p>Adds a <a class="xref" href="Startitecture.Orm.Model.ValueFilter.html">ValueFilter</a> to the selection.</p>
+  <a id="Startitecture_Orm_Model_EntitySet_1_AddRelations_" data-uid="Startitecture.Orm.Model.EntitySet`1.AddRelations*"></a>
+  <h4 id="Startitecture_Orm_Model_EntitySet_1_AddRelations_System_Collections_Generic_IEnumerable_Startitecture_Orm_Model_IEntityRelation__" data-uid="Startitecture.Orm.Model.EntitySet`1.AddRelations(System.Collections.Generic.IEnumerable{Startitecture.Orm.Model.IEntityRelation})">AddRelations(IEnumerable&lt;IEntityRelation&gt;)</h4>
+  <div class="markdown level1 summary"><p>Adds relations to the selection.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected EntitySet&lt;T&gt; AddFilter([NotNull] ValueFilter valueFilter)</code></pre>
+    <pre><code class="lang-csharp hljs">protected void AddRelations([NotNull] IEnumerable&lt;IEntityRelation&gt; entityRelations)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -326,25 +380,9 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Startitecture.Orm.Model.ValueFilter.html">ValueFilter</a></td>
-        <td><span class="parametername">valueFilter</span></td>
-        <td><p>The value filter to add.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Startitecture.Orm.Model.EntitySet-1.html">EntitySet</a>&lt;T&gt;</td>
-        <td><p>The current <a class="xref" href="Startitecture.Orm.Model.EntitySelection-1.html">EntitySelection&lt;T&gt;</a>.</p>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Startitecture.Orm.Model.IEntityRelation.html">IEntityRelation</a>&gt;</td>
+        <td><span class="parametername">entityRelations</span></td>
+        <td><p>The relations.</p>
 </td>
       </tr>
     </tbody>
@@ -360,221 +398,23 @@
     <tbody>
       <tr>
         <td><span class="xref">System.ArgumentNullException</span></td>
-        <td><p><code data-dev-comment-type="paramref" class="paramref">valueFilter</code> is null.</p>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">entityRelations</code> is null.</p>
 </td>
       </tr>
     </tbody>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySet.cs&amp;version=GBmaster&amp;line=537">View Source</a>
-  </span>
-  <a id="Startitecture_Orm_Model_EntitySet_1_AddRelation_" data-uid="Startitecture.Orm.Model.EntitySet`1.AddRelation*"></a>
-  <h4 id="Startitecture_Orm_Model_EntitySet_1_AddRelation_Startitecture_Orm_Model_IEntityRelation_" data-uid="Startitecture.Orm.Model.EntitySet`1.AddRelation(Startitecture.Orm.Model.IEntityRelation)">AddRelation(IEntityRelation)</h4>
-  <div class="markdown level1 summary"><p>Adds a relation to the selection.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public EntitySet&lt;T&gt; AddRelation([NotNull] IEntityRelation relation)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Startitecture.Orm.Model.IEntityRelation.html">IEntityRelation</a></td>
-        <td><span class="parametername">relation</span></td>
-        <td><p>The relation to add.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Startitecture.Orm.Model.EntitySet-1.html">EntitySet</a>&lt;T&gt;</td>
-        <td><p>The current <a class="xref" href="Startitecture.Orm.Model.EntitySelection-1.html">EntitySelection&lt;T&gt;</a>.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySet.cs&amp;version=GBmaster&amp;line=493">View Source</a>
-  </span>
-  <a id="Startitecture_Orm_Model_EntitySet_1_Between_" data-uid="Startitecture.Orm.Model.EntitySet`1.Between*"></a>
-  <h4 id="Startitecture_Orm_Model_EntitySet_1_Between__0__0_System_Linq_Expressions_Expression_System_Func__0_System_Object_____" data-uid="Startitecture.Orm.Model.EntitySet`1.Between(`0,`0,System.Linq.Expressions.Expression{System.Func{`0,System.Object}}[])">Between(T, T, Expression&lt;Func&lt;T, Object&gt;&gt;[])</h4>
-  <div class="markdown level1 summary"><p>Adds a between filter for the specified example item.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public EntitySet&lt;T&gt; Between(T baseline, T boundary, params Expression&lt;Func&lt;T, object&gt;&gt;[] selectors)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">T</span></td>
-        <td><span class="parametername">baseline</span></td>
-        <td><p>The baseline item.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">T</span></td>
-        <td><span class="parametername">boundary</span></td>
-        <td><p>The boundary item.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Linq.Expressions.Expression</span>&lt;<span class="xref">System.Func</span>&lt;T, <span class="xref">System.Object</span>&gt;&gt;[]</td>
-        <td><span class="parametername">selectors</span></td>
-        <td><p>The selectors of the attributes to match.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Startitecture.Orm.Model.EntitySet-1.html">EntitySet</a>&lt;T&gt;</td>
-        <td><p>The current <a class="xref" href="Startitecture.Orm.Model.EntitySelection-1.html">EntitySelection&lt;T&gt;</a>.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySet.cs&amp;version=GBmaster&amp;line=453">View Source</a>
-  </span>
-  <a id="Startitecture_Orm_Model_EntitySet_1_Between_" data-uid="Startitecture.Orm.Model.EntitySet`1.Between*"></a>
-  <h4 id="Startitecture_Orm_Model_EntitySet_1_Between__1_System_Linq_Expressions_Expression_System_Func__0___0_____0___0_" data-uid="Startitecture.Orm.Model.EntitySet`1.Between``1(System.Linq.Expressions.Expression{System.Func{`0,``0}},``0,``0)">Between&lt;TValue&gt;(Expression&lt;Func&lt;T, TValue&gt;&gt;, TValue, TValue)</h4>
-  <div class="markdown level1 summary"><p>Adds a between filter for the specified attribute</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public EntitySet&lt;T&gt; Between&lt;TValue&gt;([NotNull] Expression&lt;Func&lt;T, TValue&gt;&gt; selector, [NotNull] TValue minValue, [NotNull] TValue maxValue)
-    where TValue : IComparable</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Linq.Expressions.Expression</span>&lt;<span class="xref">System.Func</span>&lt;T, TValue&gt;&gt;</td>
-        <td><span class="parametername">selector</span></td>
-        <td><p>The attribute selector.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">TValue</span></td>
-        <td><span class="parametername">minValue</span></td>
-        <td><p>The minimum value.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">TValue</span></td>
-        <td><span class="parametername">maxValue</span></td>
-        <td><p>The maximum value.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Startitecture.Orm.Model.EntitySet-1.html">EntitySet</a>&lt;T&gt;</td>
-        <td><p>The current <a class="xref" href="Startitecture.Orm.Model.EntitySelection-1.html">EntitySelection&lt;T&gt;</a>.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">TValue</span></td>
-        <td><p>The type of the value to compare.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="exceptions">Exceptions</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Condition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.ArgumentNullException</span></td>
-        <td><p><code data-dev-comment-type="paramref" class="paramref">selector</code>, <code data-dev-comment-type="paramref" class="paramref">minValue</code> or <code data-dev-comment-type="paramref" class="paramref">maxValue</code> is null.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySet.cs&amp;version=GBmaster&amp;line=1008">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySet.cs&amp;version=GBmaster&amp;line=1198">View Source</a>
   </span>
   <a id="Startitecture_Orm_Model_EntitySet_1_Except_" data-uid="Startitecture.Orm.Model.EntitySet`1.Except*"></a>
-  <h4 id="Startitecture_Orm_Model_EntitySet_1_Except_Startitecture_Orm_Model_EntitySelection__0__" data-uid="Startitecture.Orm.Model.EntitySet`1.Except(Startitecture.Orm.Model.EntitySelection{`0})">Except(EntitySelection&lt;T&gt;)</h4>
+  <h4 id="Startitecture_Orm_Model_EntitySet_1_Except_Startitecture_Orm_Model_EntitySet__0__" data-uid="Startitecture.Orm.Model.EntitySet`1.Except(Startitecture.Orm.Model.EntitySet{`0})">Except(EntitySet&lt;T&gt;)</h4>
   <div class="markdown level1 summary"><p>Combines the results of the current selection with the specified selection.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public EntitySet&lt;T&gt; Except(EntitySelection&lt;T&gt; selection)</code></pre>
+    <pre><code class="lang-csharp hljs">public EntitySet&lt;T&gt; Except(EntitySet&lt;T&gt; selection)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -587,7 +427,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Startitecture.Orm.Model.EntitySelection-1.html">EntitySelection</a>&lt;T&gt;</td>
+        <td><a class="xref" href="Startitecture.Orm.Model.EntitySet-1.html">EntitySet</a>&lt;T&gt;</td>
         <td><span class="parametername">selection</span></td>
         <td><p>The selection to combine.</p>
 </td>
@@ -612,16 +452,16 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySet.cs&amp;version=GBmaster&amp;line=302">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySet.cs&amp;version=GBmaster&amp;line=650">View Source</a>
   </span>
-  <a id="Startitecture_Orm_Model_EntitySet_1_GreaterThan_" data-uid="Startitecture.Orm.Model.EntitySet`1.GreaterThan*"></a>
-  <h4 id="Startitecture_Orm_Model_EntitySet_1_GreaterThan__1_System_Linq_Expressions_Expression_System_Func__0___0_____0_" data-uid="Startitecture.Orm.Model.EntitySet`1.GreaterThan``1(System.Linq.Expressions.Expression{System.Func{`0,``0}},``0)">GreaterThan&lt;TValue&gt;(Expression&lt;Func&lt;T, TValue&gt;&gt;, TValue)</h4>
-  <div class="markdown level1 summary"><p>Adds a greater than filter for the specified property and <code data-dev-comment-type="paramref" class="paramref">value</code>.</p>
+  <a id="Startitecture_Orm_Model_EntitySet_1_From_" data-uid="Startitecture.Orm.Model.EntitySet`1.From*"></a>
+  <h4 id="Startitecture_Orm_Model_EntitySet_1_From_System_Action_Startitecture_Orm_Model_EntityRelationSet__0___" data-uid="Startitecture.Orm.Model.EntitySet`1.From(System.Action{Startitecture.Orm.Model.EntityRelationSet{`0}})">From(Action&lt;EntityRelationSet&lt;T&gt;&gt;)</h4>
+  <div class="markdown level1 summary"><p>Define the set of relations from which the selection should be taken.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public EntitySet&lt;T&gt; GreaterThan&lt;TValue&gt;([NotNull] Expression&lt;Func&lt;T, TValue&gt;&gt; valueExpression, TValue value)</code></pre>
+    <pre><code class="lang-csharp hljs">public EntitySet&lt;T&gt; From([NotNull] Action&lt;EntityRelationSet&lt;T&gt;&gt; setRelations)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -634,15 +474,9 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Linq.Expressions.Expression</span>&lt;<span class="xref">System.Func</span>&lt;T, TValue&gt;&gt;</td>
-        <td><span class="parametername">valueExpression</span></td>
-        <td><p>The value expression.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">TValue</span></td>
-        <td><span class="parametername">value</span></td>
-        <td><p>The value.</p>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="Startitecture.Orm.Model.EntityRelationSet-1.html">EntityRelationSet</a>&lt;T&gt;&gt;</td>
+        <td><span class="parametername">setRelations</span></td>
+        <td><p>The set of relations to include.</p>
 </td>
       </tr>
     </tbody>
@@ -658,652 +492,23 @@
     <tbody>
       <tr>
         <td><a class="xref" href="Startitecture.Orm.Model.EntitySet-1.html">EntitySet</a>&lt;T&gt;</td>
-        <td><p>The current <a class="xref" href="Startitecture.Orm.Model.EntitySelection-1.html">EntitySelection&lt;T&gt;</a>.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">TValue</span></td>
-        <td><p>The type of value to evaluate.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="exceptions">Exceptions</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Condition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.ArgumentNullException</span></td>
-        <td><p><code data-dev-comment-type="paramref" class="paramref">valueExpression</code> is null.</p>
+        <td><p>The current <a class="xref" href="Startitecture.Orm.Model.EntitySet-1.html">EntitySet&lt;T&gt;</a>.</p>
 </td>
       </tr>
     </tbody>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySet.cs&amp;version=GBmaster&amp;line=331">View Source</a>
-  </span>
-  <a id="Startitecture_Orm_Model_EntitySet_1_GreaterThanOrEqualTo_" data-uid="Startitecture.Orm.Model.EntitySet`1.GreaterThanOrEqualTo*"></a>
-  <h4 id="Startitecture_Orm_Model_EntitySet_1_GreaterThanOrEqualTo__1_System_Linq_Expressions_Expression_System_Func__0___0_____0_" data-uid="Startitecture.Orm.Model.EntitySet`1.GreaterThanOrEqualTo``1(System.Linq.Expressions.Expression{System.Func{`0,``0}},``0)">GreaterThanOrEqualTo&lt;TValue&gt;(Expression&lt;Func&lt;T, TValue&gt;&gt;, TValue)</h4>
-  <div class="markdown level1 summary"><p>Adds a greater than filter for the specified property and <code data-dev-comment-type="paramref" class="paramref">value</code>.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public EntitySet&lt;T&gt; GreaterThanOrEqualTo&lt;TValue&gt;([NotNull] Expression&lt;Func&lt;T, TValue&gt;&gt; valueExpression, TValue value)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Linq.Expressions.Expression</span>&lt;<span class="xref">System.Func</span>&lt;T, TValue&gt;&gt;</td>
-        <td><span class="parametername">valueExpression</span></td>
-        <td><p>The value expression.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">TValue</span></td>
-        <td><span class="parametername">value</span></td>
-        <td><p>The value.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Startitecture.Orm.Model.EntitySet-1.html">EntitySet</a>&lt;T&gt;</td>
-        <td><p>The current <a class="xref" href="Startitecture.Orm.Model.EntitySelection-1.html">EntitySelection&lt;T&gt;</a>.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">TValue</span></td>
-        <td><p>The type of value to evaluate.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="exceptions">Exceptions</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Condition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.ArgumentNullException</span></td>
-        <td><p><code data-dev-comment-type="paramref" class="paramref">valueExpression</code> is null.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySet.cs&amp;version=GBmaster&amp;line=415">View Source</a>
-  </span>
-  <a id="Startitecture_Orm_Model_EntitySet_1_Include_" data-uid="Startitecture.Orm.Model.EntitySet`1.Include*"></a>
-  <h4 id="Startitecture_Orm_Model_EntitySet_1_Include__1_System_Linq_Expressions_Expression_System_Func__0___0_____0___" data-uid="Startitecture.Orm.Model.EntitySet`1.Include``1(System.Linq.Expressions.Expression{System.Func{`0,``0}},``0[])">Include&lt;TValue&gt;(Expression&lt;Func&lt;T, TValue&gt;&gt;, TValue[])</h4>
-  <div class="markdown level1 summary"><p>Adds an inclusion filter for the specified example item.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public EntitySet&lt;T&gt; Include&lt;TValue&gt;(Expression&lt;Func&lt;T, TValue&gt;&gt; selector, params TValue[] inclusionValues)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Linq.Expressions.Expression</span>&lt;<span class="xref">System.Func</span>&lt;T, TValue&gt;&gt;</td>
-        <td><span class="parametername">selector</span></td>
-        <td><p>The property selector.</p>
-</td>
-      </tr>
-      <tr>
-        <td>TValue[]</td>
-        <td><span class="parametername">inclusionValues</span></td>
-        <td><p>The inclusion values.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Startitecture.Orm.Model.EntitySet-1.html">EntitySet</a>&lt;T&gt;</td>
-        <td><p>The current <a class="xref" href="Startitecture.Orm.Model.EntitySelection-1.html">EntitySelection&lt;T&gt;</a>.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">TValue</span></td>
-        <td><p>The type of value specified by the selector.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySet.cs&amp;version=GBmaster&amp;line=560">View Source</a>
-  </span>
-  <a id="Startitecture_Orm_Model_EntitySet_1_InnerJoin_" data-uid="Startitecture.Orm.Model.EntitySet`1.InnerJoin*"></a>
-  <h4 id="Startitecture_Orm_Model_EntitySet_1_InnerJoin_System_Linq_Expressions_Expression_System_Func__0_System_Object___System_Linq_Expressions_Expression_System_Func__0_System_Object___" data-uid="Startitecture.Orm.Model.EntitySet`1.InnerJoin(System.Linq.Expressions.Expression{System.Func{`0,System.Object}},System.Linq.Expressions.Expression{System.Func{`0,System.Object}})">InnerJoin(Expression&lt;Func&lt;T, Object&gt;&gt;, Expression&lt;Func&lt;T, Object&gt;&gt;)</h4>
-  <div class="markdown level1 summary"><p>Appends an INNER JOIN clause to the selection.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public EntitySet&lt;T&gt; InnerJoin([NotNull] Expression&lt;Func&lt;T, object&gt;&gt; leftSelector, [NotNull] Expression&lt;Func&lt;T, object&gt;&gt; rightSelector)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Linq.Expressions.Expression</span>&lt;<span class="xref">System.Func</span>&lt;T, <span class="xref">System.Object</span>&gt;&gt;</td>
-        <td><span class="parametername">leftSelector</span></td>
-        <td><p>The left selector of the JOIN clause.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Linq.Expressions.Expression</span>&lt;<span class="xref">System.Func</span>&lt;T, <span class="xref">System.Object</span>&gt;&gt;</td>
-        <td><span class="parametername">rightSelector</span></td>
-        <td><p>The right selector of the JOIN clause.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Startitecture.Orm.Model.EntitySet-1.html">EntitySet</a>&lt;T&gt;</td>
-        <td><p>The current <a class="xref" href="Startitecture.Orm.Model.EntitySelection-1.html">EntitySelection&lt;T&gt;</a>.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySet.cs&amp;version=GBmaster&amp;line=592">View Source</a>
-  </span>
-  <a id="Startitecture_Orm_Model_EntitySet_1_InnerJoin_" data-uid="Startitecture.Orm.Model.EntitySet`1.InnerJoin*"></a>
-  <h4 id="Startitecture_Orm_Model_EntitySet_1_InnerJoin__1_System_Linq_Expressions_Expression_System_Func__0_System_Object___System_Linq_Expressions_Expression_System_Func___0_System_Object___" data-uid="Startitecture.Orm.Model.EntitySet`1.InnerJoin``1(System.Linq.Expressions.Expression{System.Func{`0,System.Object}},System.Linq.Expressions.Expression{System.Func{``0,System.Object}})">InnerJoin&lt;TRelation&gt;(Expression&lt;Func&lt;T, Object&gt;&gt;, Expression&lt;Func&lt;TRelation, Object&gt;&gt;)</h4>
-  <div class="markdown level1 summary"><p>Appends an INNER JOIN clause to the selection.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public EntitySet&lt;T&gt; InnerJoin&lt;TRelation&gt;(Expression&lt;Func&lt;T, object&gt;&gt; leftSelector, Expression&lt;Func&lt;TRelation, object&gt;&gt; rightSelector)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Linq.Expressions.Expression</span>&lt;<span class="xref">System.Func</span>&lt;T, <span class="xref">System.Object</span>&gt;&gt;</td>
-        <td><span class="parametername">leftSelector</span></td>
-        <td><p>The left selector of the JOIN clause.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Linq.Expressions.Expression</span>&lt;<span class="xref">System.Func</span>&lt;TRelation, <span class="xref">System.Object</span>&gt;&gt;</td>
-        <td><span class="parametername">rightSelector</span></td>
-        <td><p>The right selector of the JOIN clause.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Startitecture.Orm.Model.EntitySet-1.html">EntitySet</a>&lt;T&gt;</td>
-        <td><p>The current <a class="xref" href="Startitecture.Orm.Model.EntitySelection-1.html">EntitySelection&lt;T&gt;</a>.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">TRelation</span></td>
-        <td><p>The type of item on the right side of the INNER JOIN.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySet.cs&amp;version=GBmaster&amp;line=627">View Source</a>
-  </span>
-  <a id="Startitecture_Orm_Model_EntitySet_1_InnerJoin_" data-uid="Startitecture.Orm.Model.EntitySet`1.InnerJoin*"></a>
-  <h4 id="Startitecture_Orm_Model_EntitySet_1_InnerJoin__1_System_Linq_Expressions_Expression_System_Func__0_System_Object___System_Linq_Expressions_Expression_System_Func___0_System_Object___System_String_" data-uid="Startitecture.Orm.Model.EntitySet`1.InnerJoin``1(System.Linq.Expressions.Expression{System.Func{`0,System.Object}},System.Linq.Expressions.Expression{System.Func{``0,System.Object}},System.String)">InnerJoin&lt;TRelation&gt;(Expression&lt;Func&lt;T, Object&gt;&gt;, Expression&lt;Func&lt;TRelation, Object&gt;&gt;, String)</h4>
-  <div class="markdown level1 summary"><p>Appends an INNER JOIN clause to the selection.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public EntitySet&lt;T&gt; InnerJoin&lt;TRelation&gt;(Expression&lt;Func&lt;T, object&gt;&gt; leftSelector, Expression&lt;Func&lt;TRelation, object&gt;&gt; rightSelector, string relationAlias)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Linq.Expressions.Expression</span>&lt;<span class="xref">System.Func</span>&lt;T, <span class="xref">System.Object</span>&gt;&gt;</td>
-        <td><span class="parametername">leftSelector</span></td>
-        <td><p>The left selector of the JOIN clause.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Linq.Expressions.Expression</span>&lt;<span class="xref">System.Func</span>&lt;TRelation, <span class="xref">System.Object</span>&gt;&gt;</td>
-        <td><span class="parametername">rightSelector</span></td>
-        <td><p>The right selector of the JOIN clause.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">relationAlias</span></td>
-        <td><p>The alias for the joined entity.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Startitecture.Orm.Model.EntitySet-1.html">EntitySet</a>&lt;T&gt;</td>
-        <td><p>The current <a class="xref" href="Startitecture.Orm.Model.EntitySelection-1.html">EntitySelection&lt;T&gt;</a>.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">TRelation</span></td>
-        <td><p>The type of item on the right side of the INNER JOIN.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySet.cs&amp;version=GBmaster&amp;line=667">View Source</a>
-  </span>
-  <a id="Startitecture_Orm_Model_EntitySet_1_InnerJoin_" data-uid="Startitecture.Orm.Model.EntitySet`1.InnerJoin*"></a>
-  <h4 id="Startitecture_Orm_Model_EntitySet_1_InnerJoin__2_System_Linq_Expressions_Expression_System_Func___0_System_Object___System_Linq_Expressions_Expression_System_Func___1_System_Object___" data-uid="Startitecture.Orm.Model.EntitySet`1.InnerJoin``2(System.Linq.Expressions.Expression{System.Func{``0,System.Object}},System.Linq.Expressions.Expression{System.Func{``1,System.Object}})">InnerJoin&lt;TSource, TRelation&gt;(Expression&lt;Func&lt;TSource, Object&gt;&gt;, Expression&lt;Func&lt;TRelation, Object&gt;&gt;)</h4>
-  <div class="markdown level1 summary"><p>Appends an INNER JOIN clause to the selection. The table represented by <code data-dev-comment-type="typeparamref" class="typeparamref">TSource</code> must already be
-a
-JOIN member.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public EntitySet&lt;T&gt; InnerJoin&lt;TSource, TRelation&gt;(Expression&lt;Func&lt;TSource, object&gt;&gt; leftSelector, Expression&lt;Func&lt;TRelation, object&gt;&gt; rightSelector)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Linq.Expressions.Expression</span>&lt;<span class="xref">System.Func</span>&lt;TSource, <span class="xref">System.Object</span>&gt;&gt;</td>
-        <td><span class="parametername">leftSelector</span></td>
-        <td><p>The left selector of the JOIN clause.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Linq.Expressions.Expression</span>&lt;<span class="xref">System.Func</span>&lt;TRelation, <span class="xref">System.Object</span>&gt;&gt;</td>
-        <td><span class="parametername">rightSelector</span></td>
-        <td><p>The right selector of the JOIN clause.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Startitecture.Orm.Model.EntitySet-1.html">EntitySet</a>&lt;T&gt;</td>
-        <td><p>The current <a class="xref" href="Startitecture.Orm.Model.EntitySelection-1.html">EntitySelection&lt;T&gt;</a>.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">TSource</span></td>
-        <td><p>The type of item on the left side of the INNER JOIN.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="parametername">TRelation</span></td>
-        <td><p>The type of item on the right side of the INNER JOIN.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySet.cs&amp;version=GBmaster&amp;line=699">View Source</a>
-  </span>
-  <a id="Startitecture_Orm_Model_EntitySet_1_InnerJoin_" data-uid="Startitecture.Orm.Model.EntitySet`1.InnerJoin*"></a>
-  <h4 id="Startitecture_Orm_Model_EntitySet_1_InnerJoin__2_System_Linq_Expressions_Expression_System_Func___0_System_Object___System_Linq_Expressions_Expression_System_Func___1_System_Object___System_String_" data-uid="Startitecture.Orm.Model.EntitySet`1.InnerJoin``2(System.Linq.Expressions.Expression{System.Func{``0,System.Object}},System.Linq.Expressions.Expression{System.Func{``1,System.Object}},System.String)">InnerJoin&lt;TSource, TRelation&gt;(Expression&lt;Func&lt;TSource, Object&gt;&gt;, Expression&lt;Func&lt;TRelation, Object&gt;&gt;, String)</h4>
-  <div class="markdown level1 summary"><p>Appends an INNER JOIN clause to the selection. The table represented by <code data-dev-comment-type="typeparamref" class="typeparamref">TSource</code> must already be
-a
-JOIN member.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public EntitySet&lt;T&gt; InnerJoin&lt;TSource, TRelation&gt;(Expression&lt;Func&lt;TSource, object&gt;&gt; leftSelector, Expression&lt;Func&lt;TRelation, object&gt;&gt; rightSelector, string relationAlias)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Linq.Expressions.Expression</span>&lt;<span class="xref">System.Func</span>&lt;TSource, <span class="xref">System.Object</span>&gt;&gt;</td>
-        <td><span class="parametername">leftSelector</span></td>
-        <td><p>The left selector of the JOIN clause.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Linq.Expressions.Expression</span>&lt;<span class="xref">System.Func</span>&lt;TRelation, <span class="xref">System.Object</span>&gt;&gt;</td>
-        <td><span class="parametername">rightSelector</span></td>
-        <td><p>The right selector of the JOIN clause.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">relationAlias</span></td>
-        <td><p>The alias for the joined entity.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Startitecture.Orm.Model.EntitySet-1.html">EntitySet</a>&lt;T&gt;</td>
-        <td><p>The current <a class="xref" href="Startitecture.Orm.Model.EntitySelection-1.html">EntitySelection&lt;T&gt;</a>.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">TSource</span></td>
-        <td><p>The type of item on the left side of the INNER JOIN.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="parametername">TRelation</span></td>
-        <td><p>The type of item on the right side of the INNER JOIN.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySet.cs&amp;version=GBmaster&amp;line=733">View Source</a>
-  </span>
-  <a id="Startitecture_Orm_Model_EntitySet_1_InnerJoin_" data-uid="Startitecture.Orm.Model.EntitySet`1.InnerJoin*"></a>
-  <h4 id="Startitecture_Orm_Model_EntitySet_1_InnerJoin__2_System_Linq_Expressions_Expression_System_Func___0_System_Object___System_String_System_Linq_Expressions_Expression_System_Func___1_System_Object___System_String_" data-uid="Startitecture.Orm.Model.EntitySet`1.InnerJoin``2(System.Linq.Expressions.Expression{System.Func{``0,System.Object}},System.String,System.Linq.Expressions.Expression{System.Func{``1,System.Object}},System.String)">InnerJoin&lt;TSource, TRelation&gt;(Expression&lt;Func&lt;TSource, Object&gt;&gt;, String, Expression&lt;Func&lt;TRelation, Object&gt;&gt;, String)</h4>
-  <div class="markdown level1 summary"><p>Appends an INNER JOIN clause to the selection. The table represented by <code data-dev-comment-type="typeparamref" class="typeparamref">TSource</code> must already be
-a
-JOIN member.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public EntitySet&lt;T&gt; InnerJoin&lt;TSource, TRelation&gt;(Expression&lt;Func&lt;TSource, object&gt;&gt; leftSelector, string sourceAlias, Expression&lt;Func&lt;TRelation, object&gt;&gt; rightSelector, string relationAlias)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Linq.Expressions.Expression</span>&lt;<span class="xref">System.Func</span>&lt;TSource, <span class="xref">System.Object</span>&gt;&gt;</td>
-        <td><span class="parametername">leftSelector</span></td>
-        <td><p>The left selector of the JOIN clause.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">sourceAlias</span></td>
-        <td><p>The alias for the related entity.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Linq.Expressions.Expression</span>&lt;<span class="xref">System.Func</span>&lt;TRelation, <span class="xref">System.Object</span>&gt;&gt;</td>
-        <td><span class="parametername">rightSelector</span></td>
-        <td><p>The right selector of the JOIN clause.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">relationAlias</span></td>
-        <td><p>The alias for the joined entity.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Startitecture.Orm.Model.EntitySet-1.html">EntitySet</a>&lt;T&gt;</td>
-        <td><p>The current <a class="xref" href="Startitecture.Orm.Model.EntitySelection-1.html">EntitySelection&lt;T&gt;</a>.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">TSource</span></td>
-        <td><p>The type of item on the left side of the INNER JOIN.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="parametername">TRelation</span></td>
-        <td><p>The type of item on the right side of the INNER JOIN.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySet.cs&amp;version=GBmaster&amp;line=993">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySet.cs&amp;version=GBmaster&amp;line=1183">View Source</a>
   </span>
   <a id="Startitecture_Orm_Model_EntitySet_1_Intersect_" data-uid="Startitecture.Orm.Model.EntitySet`1.Intersect*"></a>
-  <h4 id="Startitecture_Orm_Model_EntitySet_1_Intersect_Startitecture_Orm_Model_EntitySelection__0__" data-uid="Startitecture.Orm.Model.EntitySet`1.Intersect(Startitecture.Orm.Model.EntitySelection{`0})">Intersect(EntitySelection&lt;T&gt;)</h4>
+  <h4 id="Startitecture_Orm_Model_EntitySet_1_Intersect_Startitecture_Orm_Model_EntitySet__0__" data-uid="Startitecture.Orm.Model.EntitySet`1.Intersect(Startitecture.Orm.Model.EntitySet{`0})">Intersect(EntitySet&lt;T&gt;)</h4>
   <div class="markdown level1 summary"><p>Combines the results of the current selection with the specified selection.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public EntitySet&lt;T&gt; Intersect(EntitySelection&lt;T&gt; selection)</code></pre>
+    <pre><code class="lang-csharp hljs">public EntitySet&lt;T&gt; Intersect(EntitySet&lt;T&gt; selection)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1316,7 +521,7 @@ JOIN member.</p>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Startitecture.Orm.Model.EntitySelection-1.html">EntitySelection</a>&lt;T&gt;</td>
+        <td><a class="xref" href="Startitecture.Orm.Model.EntitySet-1.html">EntitySet</a>&lt;T&gt;</td>
         <td><span class="parametername">selection</span></td>
         <td><p>The selection to combine.</p>
 </td>
@@ -1341,626 +546,16 @@ JOIN member.</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySet.cs&amp;version=GBmaster&amp;line=770">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySet.cs&amp;version=GBmaster&amp;line=1221">View Source</a>
   </span>
-  <a id="Startitecture_Orm_Model_EntitySet_1_LeftJoin_" data-uid="Startitecture.Orm.Model.EntitySet`1.LeftJoin*"></a>
-  <h4 id="Startitecture_Orm_Model_EntitySet_1_LeftJoin_System_Linq_Expressions_Expression_System_Func__0_System_Object___System_Linq_Expressions_Expression_System_Func__0_System_Object___" data-uid="Startitecture.Orm.Model.EntitySet`1.LeftJoin(System.Linq.Expressions.Expression{System.Func{`0,System.Object}},System.Linq.Expressions.Expression{System.Func{`0,System.Object}})">LeftJoin(Expression&lt;Func&lt;T, Object&gt;&gt;, Expression&lt;Func&lt;T, Object&gt;&gt;)</h4>
-  <div class="markdown level1 summary"><p>Appends a LEFT JOIN clause to the selection.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public EntitySet&lt;T&gt; LeftJoin([NotNull] Expression&lt;Func&lt;T, object&gt;&gt; leftSelector, [NotNull] Expression&lt;Func&lt;T, object&gt;&gt; rightSelector)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Linq.Expressions.Expression</span>&lt;<span class="xref">System.Func</span>&lt;T, <span class="xref">System.Object</span>&gt;&gt;</td>
-        <td><span class="parametername">leftSelector</span></td>
-        <td><p>The left selector of the JOIN clause.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Linq.Expressions.Expression</span>&lt;<span class="xref">System.Func</span>&lt;T, <span class="xref">System.Object</span>&gt;&gt;</td>
-        <td><span class="parametername">rightSelector</span></td>
-        <td><p>The right selector of the JOIN clause.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Startitecture.Orm.Model.EntitySet-1.html">EntitySet</a>&lt;T&gt;</td>
-        <td><p>The current <a class="xref" href="Startitecture.Orm.Model.EntitySelection-1.html">EntitySelection&lt;T&gt;</a>.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySet.cs&amp;version=GBmaster&amp;line=802">View Source</a>
-  </span>
-  <a id="Startitecture_Orm_Model_EntitySet_1_LeftJoin_" data-uid="Startitecture.Orm.Model.EntitySet`1.LeftJoin*"></a>
-  <h4 id="Startitecture_Orm_Model_EntitySet_1_LeftJoin__1_System_Linq_Expressions_Expression_System_Func__0_System_Object___System_Linq_Expressions_Expression_System_Func___0_System_Object___" data-uid="Startitecture.Orm.Model.EntitySet`1.LeftJoin``1(System.Linq.Expressions.Expression{System.Func{`0,System.Object}},System.Linq.Expressions.Expression{System.Func{``0,System.Object}})">LeftJoin&lt;TRelation&gt;(Expression&lt;Func&lt;T, Object&gt;&gt;, Expression&lt;Func&lt;TRelation, Object&gt;&gt;)</h4>
-  <div class="markdown level1 summary"><p>Appends a LEFT JOIN clause to the selection.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public EntitySet&lt;T&gt; LeftJoin&lt;TRelation&gt;(Expression&lt;Func&lt;T, object&gt;&gt; leftSelector, Expression&lt;Func&lt;TRelation, object&gt;&gt; rightSelector)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Linq.Expressions.Expression</span>&lt;<span class="xref">System.Func</span>&lt;T, <span class="xref">System.Object</span>&gt;&gt;</td>
-        <td><span class="parametername">leftSelector</span></td>
-        <td><p>The left selector of the JOIN clause.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Linq.Expressions.Expression</span>&lt;<span class="xref">System.Func</span>&lt;TRelation, <span class="xref">System.Object</span>&gt;&gt;</td>
-        <td><span class="parametername">rightSelector</span></td>
-        <td><p>The right selector of the JOIN clause.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Startitecture.Orm.Model.EntitySet-1.html">EntitySet</a>&lt;T&gt;</td>
-        <td><p>The current <a class="xref" href="Startitecture.Orm.Model.EntitySelection-1.html">EntitySelection&lt;T&gt;</a>.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">TRelation</span></td>
-        <td><p>The type of item on the right side of the LEFT JOIN.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySet.cs&amp;version=GBmaster&amp;line=837">View Source</a>
-  </span>
-  <a id="Startitecture_Orm_Model_EntitySet_1_LeftJoin_" data-uid="Startitecture.Orm.Model.EntitySet`1.LeftJoin*"></a>
-  <h4 id="Startitecture_Orm_Model_EntitySet_1_LeftJoin__1_System_Linq_Expressions_Expression_System_Func__0_System_Object___System_Linq_Expressions_Expression_System_Func___0_System_Object___System_String_" data-uid="Startitecture.Orm.Model.EntitySet`1.LeftJoin``1(System.Linq.Expressions.Expression{System.Func{`0,System.Object}},System.Linq.Expressions.Expression{System.Func{``0,System.Object}},System.String)">LeftJoin&lt;TRelation&gt;(Expression&lt;Func&lt;T, Object&gt;&gt;, Expression&lt;Func&lt;TRelation, Object&gt;&gt;, String)</h4>
-  <div class="markdown level1 summary"><p>Appends a LEFT JOIN clause to the selection.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public EntitySet&lt;T&gt; LeftJoin&lt;TRelation&gt;(Expression&lt;Func&lt;T, object&gt;&gt; leftSelector, Expression&lt;Func&lt;TRelation, object&gt;&gt; rightSelector, string relationAlias)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Linq.Expressions.Expression</span>&lt;<span class="xref">System.Func</span>&lt;T, <span class="xref">System.Object</span>&gt;&gt;</td>
-        <td><span class="parametername">leftSelector</span></td>
-        <td><p>The left selector of the JOIN clause.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Linq.Expressions.Expression</span>&lt;<span class="xref">System.Func</span>&lt;TRelation, <span class="xref">System.Object</span>&gt;&gt;</td>
-        <td><span class="parametername">rightSelector</span></td>
-        <td><p>The right selector of the JOIN clause.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">relationAlias</span></td>
-        <td><p>The alias for the joined entity.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Startitecture.Orm.Model.EntitySet-1.html">EntitySet</a>&lt;T&gt;</td>
-        <td><p>The current <a class="xref" href="Startitecture.Orm.Model.EntitySelection-1.html">EntitySelection&lt;T&gt;</a>.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">TRelation</span></td>
-        <td><p>The type of item on the right side of the LEFT JOIN.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySet.cs&amp;version=GBmaster&amp;line=876">View Source</a>
-  </span>
-  <a id="Startitecture_Orm_Model_EntitySet_1_LeftJoin_" data-uid="Startitecture.Orm.Model.EntitySet`1.LeftJoin*"></a>
-  <h4 id="Startitecture_Orm_Model_EntitySet_1_LeftJoin__2_System_Linq_Expressions_Expression_System_Func___0_System_Object___System_Linq_Expressions_Expression_System_Func___1_System_Object___" data-uid="Startitecture.Orm.Model.EntitySet`1.LeftJoin``2(System.Linq.Expressions.Expression{System.Func{``0,System.Object}},System.Linq.Expressions.Expression{System.Func{``1,System.Object}})">LeftJoin&lt;TSource, TRelation&gt;(Expression&lt;Func&lt;TSource, Object&gt;&gt;, Expression&lt;Func&lt;TRelation, Object&gt;&gt;)</h4>
-  <div class="markdown level1 summary"><p>Appends a LEFT JOIN clause to the selection. The table represented by <code data-dev-comment-type="typeparamref" class="typeparamref">TSource</code> must already be a
-JOIN member.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public EntitySet&lt;T&gt; LeftJoin&lt;TSource, TRelation&gt;(Expression&lt;Func&lt;TSource, object&gt;&gt; leftSelector, Expression&lt;Func&lt;TRelation, object&gt;&gt; rightSelector)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Linq.Expressions.Expression</span>&lt;<span class="xref">System.Func</span>&lt;TSource, <span class="xref">System.Object</span>&gt;&gt;</td>
-        <td><span class="parametername">leftSelector</span></td>
-        <td><p>The left selector of the JOIN clause.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Linq.Expressions.Expression</span>&lt;<span class="xref">System.Func</span>&lt;TRelation, <span class="xref">System.Object</span>&gt;&gt;</td>
-        <td><span class="parametername">rightSelector</span></td>
-        <td><p>The right selector of the JOIN clause.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Startitecture.Orm.Model.EntitySet-1.html">EntitySet</a>&lt;T&gt;</td>
-        <td><p>The current <a class="xref" href="Startitecture.Orm.Model.EntitySelection-1.html">EntitySelection&lt;T&gt;</a>.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">TSource</span></td>
-        <td><p>The type of item on the left side of the LEFT JOIN.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="parametername">TRelation</span></td>
-        <td><p>The type of item on the right side of the LEFT JOIN.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySet.cs&amp;version=GBmaster&amp;line=907">View Source</a>
-  </span>
-  <a id="Startitecture_Orm_Model_EntitySet_1_LeftJoin_" data-uid="Startitecture.Orm.Model.EntitySet`1.LeftJoin*"></a>
-  <h4 id="Startitecture_Orm_Model_EntitySet_1_LeftJoin__2_System_Linq_Expressions_Expression_System_Func___0_System_Object___System_Linq_Expressions_Expression_System_Func___1_System_Object___System_String_" data-uid="Startitecture.Orm.Model.EntitySet`1.LeftJoin``2(System.Linq.Expressions.Expression{System.Func{``0,System.Object}},System.Linq.Expressions.Expression{System.Func{``1,System.Object}},System.String)">LeftJoin&lt;TSource, TRelation&gt;(Expression&lt;Func&lt;TSource, Object&gt;&gt;, Expression&lt;Func&lt;TRelation, Object&gt;&gt;, String)</h4>
-  <div class="markdown level1 summary"><p>Appends a LEFT JOIN clause to the selection. The table represented by <code data-dev-comment-type="typeparamref" class="typeparamref">TSource</code> must already be a
-JOIN member.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public EntitySet&lt;T&gt; LeftJoin&lt;TSource, TRelation&gt;(Expression&lt;Func&lt;TSource, object&gt;&gt; leftSelector, Expression&lt;Func&lt;TRelation, object&gt;&gt; rightSelector, string joinAlias)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Linq.Expressions.Expression</span>&lt;<span class="xref">System.Func</span>&lt;TSource, <span class="xref">System.Object</span>&gt;&gt;</td>
-        <td><span class="parametername">leftSelector</span></td>
-        <td><p>The left selector of the JOIN clause.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Linq.Expressions.Expression</span>&lt;<span class="xref">System.Func</span>&lt;TRelation, <span class="xref">System.Object</span>&gt;&gt;</td>
-        <td><span class="parametername">rightSelector</span></td>
-        <td><p>The right selector of the JOIN clause.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">joinAlias</span></td>
-        <td><p>The join tableAlias.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Startitecture.Orm.Model.EntitySet-1.html">EntitySet</a>&lt;T&gt;</td>
-        <td><p>The current <a class="xref" href="Startitecture.Orm.Model.EntitySelection-1.html">EntitySelection&lt;T&gt;</a>.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">TSource</span></td>
-        <td><p>The type of item on the left side of the LEFT JOIN.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="parametername">TRelation</span></td>
-        <td><p>The type of item on the right side of the LEFT JOIN.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySet.cs&amp;version=GBmaster&amp;line=940">View Source</a>
-  </span>
-  <a id="Startitecture_Orm_Model_EntitySet_1_LeftJoin_" data-uid="Startitecture.Orm.Model.EntitySet`1.LeftJoin*"></a>
-  <h4 id="Startitecture_Orm_Model_EntitySet_1_LeftJoin__2_System_Linq_Expressions_Expression_System_Func___0_System_Object___System_String_System_Linq_Expressions_Expression_System_Func___1_System_Object___System_String_" data-uid="Startitecture.Orm.Model.EntitySet`1.LeftJoin``2(System.Linq.Expressions.Expression{System.Func{``0,System.Object}},System.String,System.Linq.Expressions.Expression{System.Func{``1,System.Object}},System.String)">LeftJoin&lt;TSource, TRelation&gt;(Expression&lt;Func&lt;TSource, Object&gt;&gt;, String, Expression&lt;Func&lt;TRelation, Object&gt;&gt;, String)</h4>
-  <div class="markdown level1 summary"><p>Appends a LEFT JOIN clause to the selection. The table represented by <code data-dev-comment-type="typeparamref" class="typeparamref">TSource</code> must already be a
-JOIN member.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public EntitySet&lt;T&gt; LeftJoin&lt;TSource, TRelation&gt;(Expression&lt;Func&lt;TSource, object&gt;&gt; leftSelector, string sourceAlias, Expression&lt;Func&lt;TRelation, object&gt;&gt; rightSelector, string relationAlias)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Linq.Expressions.Expression</span>&lt;<span class="xref">System.Func</span>&lt;TSource, <span class="xref">System.Object</span>&gt;&gt;</td>
-        <td><span class="parametername">leftSelector</span></td>
-        <td><p>The left selector of the JOIN clause.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">sourceAlias</span></td>
-        <td><p>The relation table alias.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Linq.Expressions.Expression</span>&lt;<span class="xref">System.Func</span>&lt;TRelation, <span class="xref">System.Object</span>&gt;&gt;</td>
-        <td><span class="parametername">rightSelector</span></td>
-        <td><p>The right selector of the JOIN clause.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">relationAlias</span></td>
-        <td><p>The join table alias.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Startitecture.Orm.Model.EntitySet-1.html">EntitySet</a>&lt;T&gt;</td>
-        <td><p>The current <a class="xref" href="Startitecture.Orm.Model.EntitySelection-1.html">EntitySelection&lt;T&gt;</a>.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">TSource</span></td>
-        <td><p>The type of item on the left side of the LEFT JOIN.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="parametername">TRelation</span></td>
-        <td><p>The type of item on the right side of the LEFT JOIN.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySet.cs&amp;version=GBmaster&amp;line=360">View Source</a>
-  </span>
-  <a id="Startitecture_Orm_Model_EntitySet_1_LessThan_" data-uid="Startitecture.Orm.Model.EntitySet`1.LessThan*"></a>
-  <h4 id="Startitecture_Orm_Model_EntitySet_1_LessThan__1_System_Linq_Expressions_Expression_System_Func__0___0_____0_" data-uid="Startitecture.Orm.Model.EntitySet`1.LessThan``1(System.Linq.Expressions.Expression{System.Func{`0,``0}},``0)">LessThan&lt;TValue&gt;(Expression&lt;Func&lt;T, TValue&gt;&gt;, TValue)</h4>
-  <div class="markdown level1 summary"><p>Adds a less than filter for the specified property and <code data-dev-comment-type="paramref" class="paramref">value</code>.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public EntitySet&lt;T&gt; LessThan&lt;TValue&gt;([NotNull] Expression&lt;Func&lt;T, TValue&gt;&gt; valueExpression, TValue value)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Linq.Expressions.Expression</span>&lt;<span class="xref">System.Func</span>&lt;T, TValue&gt;&gt;</td>
-        <td><span class="parametername">valueExpression</span></td>
-        <td><p>The value expression.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">TValue</span></td>
-        <td><span class="parametername">value</span></td>
-        <td><p>The value.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Startitecture.Orm.Model.EntitySet-1.html">EntitySet</a>&lt;T&gt;</td>
-        <td><p>The current <a class="xref" href="Startitecture.Orm.Model.EntitySelection-1.html">EntitySelection&lt;T&gt;</a>.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">TValue</span></td>
-        <td><p>The type of value to evaluate.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="exceptions">Exceptions</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Condition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.ArgumentNullException</span></td>
-        <td><p><code data-dev-comment-type="paramref" class="paramref">valueExpression</code> is null.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySet.cs&amp;version=GBmaster&amp;line=389">View Source</a>
-  </span>
-  <a id="Startitecture_Orm_Model_EntitySet_1_LessThanOrEqualTo_" data-uid="Startitecture.Orm.Model.EntitySet`1.LessThanOrEqualTo*"></a>
-  <h4 id="Startitecture_Orm_Model_EntitySet_1_LessThanOrEqualTo__1_System_Linq_Expressions_Expression_System_Func__0___0_____0_" data-uid="Startitecture.Orm.Model.EntitySet`1.LessThanOrEqualTo``1(System.Linq.Expressions.Expression{System.Func{`0,``0}},``0)">LessThanOrEqualTo&lt;TValue&gt;(Expression&lt;Func&lt;T, TValue&gt;&gt;, TValue)</h4>
-  <div class="markdown level1 summary"><p>Adds a less than or equal to filter for the specified property and <code data-dev-comment-type="paramref" class="paramref">value</code>.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public EntitySet&lt;T&gt; LessThanOrEqualTo&lt;TValue&gt;([NotNull] Expression&lt;Func&lt;T, TValue&gt;&gt; valueExpression, TValue value)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Linq.Expressions.Expression</span>&lt;<span class="xref">System.Func</span>&lt;T, TValue&gt;&gt;</td>
-        <td><span class="parametername">valueExpression</span></td>
-        <td><p>The value expression.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">TValue</span></td>
-        <td><span class="parametername">value</span></td>
-        <td><p>The value.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Startitecture.Orm.Model.EntitySet-1.html">EntitySet</a>&lt;T&gt;</td>
-        <td><p>The current <a class="xref" href="Startitecture.Orm.Model.EntitySelection-1.html">EntitySelection&lt;T&gt;</a>.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">TValue</span></td>
-        <td><p>The type of value to evaluate.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="exceptions">Exceptions</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Condition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.ArgumentNullException</span></td>
-        <td><p><code data-dev-comment-type="paramref" class="paramref">valueExpression</code> is null.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySet.cs&amp;version=GBmaster&amp;line=1025">View Source</a>
-  </span>
-  <a id="Startitecture_Orm_Model_EntitySet_1_MapTo_" data-uid="Startitecture.Orm.Model.EntitySet`1.MapTo*"></a>
-  <h4 id="Startitecture_Orm_Model_EntitySet_1_MapTo__1" data-uid="Startitecture.Orm.Model.EntitySet`1.MapTo``1">MapTo&lt;TDestEntity&gt;()</h4>
+  <a id="Startitecture_Orm_Model_EntitySet_1_MapSet_" data-uid="Startitecture.Orm.Model.EntitySet`1.MapSet*"></a>
+  <h4 id="Startitecture_Orm_Model_EntitySet_1_MapSet__1" data-uid="Startitecture.Orm.Model.EntitySet`1.MapSet``1">MapSet&lt;TDestEntity&gt;()</h4>
   <div class="markdown level1 summary"><p>Maps the current selection to the target selection type.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public EntitySet&lt;TDestEntity&gt; MapTo&lt;TDestEntity&gt;()
+    <pre><code class="lang-csharp hljs">public virtual EntitySet&lt;TDestEntity&gt; MapSet&lt;TDestEntity&gt;()
     where TDestEntity : class, new()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
@@ -1974,7 +569,7 @@ JOIN member.</p>
     <tbody>
       <tr>
         <td><a class="xref" href="Startitecture.Orm.Model.EntitySet-1.html">EntitySet</a>&lt;TDestEntity&gt;</td>
-        <td><p>An <a class="xref" href="Startitecture.Orm.Model.EntitySelection-1.html">EntitySelection&lt;T&gt;</a> for the destination type.</p>
+        <td><p>An <a class="xref" href="Startitecture.Orm.Model.EntitySet-1.html">EntitySet&lt;T&gt;</a> for the destination type.</p>
 </td>
       </tr>
     </tbody>
@@ -1997,16 +592,17 @@ JOIN member.</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySet.cs&amp;version=GBmaster&amp;line=207">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySet.cs&amp;version=GBmaster&amp;line=1332">View Source</a>
   </span>
-  <a id="Startitecture_Orm_Model_EntitySet_1_Matching_" data-uid="Startitecture.Orm.Model.EntitySet`1.Matching*"></a>
-  <h4 id="Startitecture_Orm_Model_EntitySet_1_Matching__0_System_Linq_Expressions_Expression_System_Func__0_System_Object_____" data-uid="Startitecture.Orm.Model.EntitySet`1.Matching(`0,System.Linq.Expressions.Expression{System.Func{`0,System.Object}}[])">Matching(T, Expression&lt;Func&lt;T, Object&gt;&gt;[])</h4>
-  <div class="markdown level1 summary"><p>Adds a match filter for the specified example item.</p>
+  <a id="Startitecture_Orm_Model_EntitySet_1_MapSet_" data-uid="Startitecture.Orm.Model.EntitySet`1.MapSet*"></a>
+  <h4 id="Startitecture_Orm_Model_EntitySet_1_MapSet__1_Startitecture_Orm_Model_IEntitySet_Startitecture_Orm_Model_EntitySet___0__" data-uid="Startitecture.Orm.Model.EntitySet`1.MapSet``1(Startitecture.Orm.Model.IEntitySet,Startitecture.Orm.Model.EntitySet{``0})">MapSet&lt;TDestEntity&gt;(IEntitySet, EntitySet&lt;TDestEntity&gt;)</h4>
+  <div class="markdown level1 summary"><p>Maps an entity set of one type to one of the <code data-dev-comment-type="typeparamref" class="typeparamref">TDestEntity</code> type.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public EntitySet&lt;T&gt; Matching(T example, params Expression&lt;Func&lt;T, object&gt;&gt;[] selectors)</code></pre>
+    <pre><code class="lang-csharp hljs">protected void MapSet&lt;TDestEntity&gt;([NotNull] IEntitySet sourceSet, [NotNull] EntitySet&lt;TDestEntity&gt; targetSet)
+    where TDestEntity : class, new()</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2019,15 +615,62 @@ JOIN member.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">T</span></td>
-        <td><span class="parametername">example</span></td>
-        <td><p>The example to match.</p>
+        <td><a class="xref" href="Startitecture.Orm.Model.IEntitySet.html">IEntitySet</a></td>
+        <td><span class="parametername">sourceSet</span></td>
+        <td><p>The source entity set.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Linq.Expressions.Expression</span>&lt;<span class="xref">System.Func</span>&lt;T, <span class="xref">System.Object</span>&gt;&gt;[]</td>
-        <td><span class="parametername">selectors</span></td>
-        <td><p>The selectors of the attributes to match.</p>
+        <td><a class="xref" href="Startitecture.Orm.Model.EntitySet-1.html">EntitySet</a>&lt;TDestEntity&gt;</td>
+        <td><span class="parametername">targetSet</span></td>
+        <td><p>The target entity set.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TDestEntity</span></td>
+        <td><p>The type of entity to map the entity set to.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySet.cs&amp;version=GBmaster&amp;line=725">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Model_EntitySet_1_Seek_" data-uid="Startitecture.Orm.Model.EntitySet`1.Seek*"></a>
+  <h4 id="Startitecture_Orm_Model_EntitySet_1_Seek_System_Action_Startitecture_Orm_Model_Subset__" data-uid="Startitecture.Orm.Model.EntitySet`1.Seek(System.Action{Startitecture.Orm.Model.Subset})">Seek(Action&lt;Subset&gt;)</h4>
+  <div class="markdown level1 summary"><p>Seeks a subset of results from the matching result set.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EntitySet&lt;T&gt; Seek([NotNull] Action&lt;Subset&gt; limit)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="Startitecture.Orm.Model.Subset.html">Subset</a>&gt;</td>
+        <td><span class="parametername">limit</span></td>
+        <td><p>The result set limits to apply.</p>
 </td>
       </tr>
     </tbody>
@@ -2043,23 +686,39 @@ JOIN member.</p>
     <tbody>
       <tr>
         <td><a class="xref" href="Startitecture.Orm.Model.EntitySet-1.html">EntitySet</a>&lt;T&gt;</td>
-        <td><p>The current <a class="xref" href="Startitecture.Orm.Model.EntitySelection-1.html">EntitySelection&lt;T&gt;</a>.</p>
+        <td><p>The current <a class="xref" href="Startitecture.Orm.Model.EntitySet-1.html">EntitySet&lt;T&gt;</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">limit</code> is null.</p>
 </td>
       </tr>
     </tbody>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySet.cs&amp;version=GBmaster&amp;line=144">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySet.cs&amp;version=GBmaster&amp;line=630">View Source</a>
   </span>
-  <a id="Startitecture_Orm_Model_EntitySet_1_MatchKey_" data-uid="Startitecture.Orm.Model.EntitySet`1.MatchKey*"></a>
-  <h4 id="Startitecture_Orm_Model_EntitySet_1_MatchKey__0_Startitecture_Orm_Model_IEntityDefinitionProvider_" data-uid="Startitecture.Orm.Model.EntitySet`1.MatchKey(`0,Startitecture.Orm.Model.IEntityDefinitionProvider)">MatchKey(T, IEntityDefinitionProvider)</h4>
-  <div class="markdown level1 summary"><p>Matches the primary key of the specified <code data-dev-comment-type="paramref" class="paramref">entity</code>.</p>
+  <a id="Startitecture_Orm_Model_EntitySet_1_SetDefaultRelations_" data-uid="Startitecture.Orm.Model.EntitySet`1.SetDefaultRelations*"></a>
+  <h4 id="Startitecture_Orm_Model_EntitySet_1_SetDefaultRelations_Startitecture_Orm_Model_IEntityDefinitionProvider_" data-uid="Startitecture.Orm.Model.EntitySet`1.SetDefaultRelations(Startitecture.Orm.Model.IEntityDefinitionProvider)">SetDefaultRelations(IEntityDefinitionProvider)</h4>
+  <div class="markdown level1 summary"><p>Sets the default relations for the entity set using the specified <code data-dev-comment-type="paramref" class="paramref">definitionProvider</code>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public EntitySet&lt;T&gt; MatchKey([NotNull] T entity, [NotNull] IEntityDefinitionProvider definitionProvider)</code></pre>
+    <pre><code class="lang-csharp hljs">public void SetDefaultRelations([NotNull] IEntityDefinitionProvider definitionProvider)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2071,16 +730,151 @@ JOIN member.</p>
       </tr>
     </thead>
     <tbody>
-      <tr>
-        <td><span class="xref">T</span></td>
-        <td><span class="parametername">entity</span></td>
-        <td><p>The entity to match the key for.</p>
-</td>
-      </tr>
       <tr>
         <td><a class="xref" href="Startitecture.Orm.Model.IEntityDefinitionProvider.html">IEntityDefinitionProvider</a></td>
         <td><span class="parametername">definitionProvider</span></td>
-        <td><p>The definition provider for the entity.</p>
+        <td><p>The definition provider to get the default relations from.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">definitionProvider</code> is null.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySet.cs&amp;version=GBmaster&amp;line=1250">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Model_EntitySet_1_SetFilters_" data-uid="Startitecture.Orm.Model.EntitySet`1.SetFilters*"></a>
+  <h4 id="Startitecture_Orm_Model_EntitySet_1_SetFilters_Startitecture_Orm_Model_ValueFilterSet__0__" data-uid="Startitecture.Orm.Model.EntitySet`1.SetFilters(Startitecture.Orm.Model.ValueFilterSet{`0})">SetFilters(ValueFilterSet&lt;T&gt;)</h4>
+  <div class="markdown level1 summary"><p>Sets the filters for the result set.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void SetFilters([NotNull] ValueFilterSet&lt;T&gt; filterSet)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Model.ValueFilterSet-1.html">ValueFilterSet</a>&lt;T&gt;</td>
+        <td><span class="parametername">filterSet</span></td>
+        <td><p>The filters to set.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">filterSet</code> is null.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySet.cs&amp;version=GBmaster&amp;line=1270">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Model_EntitySet_1_SetOffsetAndSize_" data-uid="Startitecture.Orm.Model.EntitySet`1.SetOffsetAndSize*"></a>
+  <h4 id="Startitecture_Orm_Model_EntitySet_1_SetOffsetAndSize_Startitecture_Orm_Model_Subset_" data-uid="Startitecture.Orm.Model.EntitySet`1.SetOffsetAndSize(Startitecture.Orm.Model.Subset)">SetOffsetAndSize(Subset)</h4>
+  <div class="markdown level1 summary"><p>Sets the row offset and size values for the entity set.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void SetOffsetAndSize([NotNull] Subset subset)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Model.Subset.html">Subset</a></td>
+        <td><span class="parametername">subset</span></td>
+        <td><p>The subset of rows to return.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">subset</code> is null.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySet.cs&amp;version=GBmaster&amp;line=700">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Model_EntitySet_1_Sort_" data-uid="Startitecture.Orm.Model.EntitySet`1.Sort*"></a>
+  <h4 id="Startitecture_Orm_Model_EntitySet_1_Sort_System_Action_Startitecture_Orm_Model_OrderExpressionSet__0___" data-uid="Startitecture.Orm.Model.EntitySet`1.Sort(System.Action{Startitecture.Orm.Model.OrderExpressionSet{`0}})">Sort(Action&lt;OrderExpressionSet&lt;T&gt;&gt;)</h4>
+  <div class="markdown level1 summary"><p>Sorts the results of the entity selection.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EntitySet&lt;T&gt; Sort([NotNull] Action&lt;OrderExpressionSet&lt;T&gt;&gt; sortOrder)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="Startitecture.Orm.Model.OrderExpressionSet-1.html">OrderExpressionSet</a>&lt;T&gt;&gt;</td>
+        <td><span class="parametername">sortOrder</span></td>
+        <td><p>The sort order to apply.</p>
 </td>
       </tr>
     </tbody>
@@ -2096,26 +890,117 @@ JOIN member.</p>
     <tbody>
       <tr>
         <td><a class="xref" href="Startitecture.Orm.Model.EntitySet-1.html">EntitySet</a>&lt;T&gt;</td>
-        <td><p>The current <a class="xref" href="Startitecture.Orm.Model.EntitySelection-1.html">EntitySelection&lt;T&gt;</a>.</p>
+        <td><p>The current <a class="xref" href="Startitecture.Orm.Model.EntitySet-1.html">EntitySet&lt;T&gt;</a>.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 id="Startitecture_Orm_Model_EntitySet_1_MatchKey__0_Startitecture_Orm_Model_IEntityDefinitionProvider__remarks">Remarks</h5>
-  <div class="markdown level1 remarks"><p>This operation will clear any existing filters.</p>
-</div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">sortOrder</code> is null.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySet.cs&amp;version=GBmaster&amp;line=978">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySet.cs&amp;version=GBmaster&amp;line=1309">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Model_EntitySet_1_SortResults_" data-uid="Startitecture.Orm.Model.EntitySet`1.SortResults*"></a>
+  <h4 id="Startitecture_Orm_Model_EntitySet_1_SortResults_Startitecture_Orm_Model_OrderExpressionSet__0__" data-uid="Startitecture.Orm.Model.EntitySet`1.SortResults(Startitecture.Orm.Model.OrderExpressionSet{`0})">SortResults(OrderExpressionSet&lt;T&gt;)</h4>
+  <div class="markdown level1 summary"><p>Sorts the results of the entity set.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void SortResults([NotNull] OrderExpressionSet&lt;T&gt; order)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Model.OrderExpressionSet-1.html">OrderExpressionSet</a>&lt;T&gt;</td>
+        <td><span class="parametername">order</span></td>
+        <td><p>The set of order expressions that define the sort.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">order</code> is null.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySet.cs&amp;version=GBmaster&amp;line=1236">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Model_EntitySet_1_ToString_" data-uid="Startitecture.Orm.Model.EntitySet`1.ToString*"></a>
+  <h4 id="Startitecture_Orm_Model_EntitySet_1_ToString" data-uid="Startitecture.Orm.Model.EntitySet`1.ToString">ToString()</h4>
+  <div class="markdown level1 summary"><p>Returns a <span class="xref">System.String</span> that represents the current <span class="xref">System.Object</span>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>A <span class="xref">System.String</span> that represents the current <span class="xref">System.Object</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">System.Object.ToString()</span></div>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySet.cs&amp;version=GBmaster&amp;line=1168">View Source</a>
   </span>
   <a id="Startitecture_Orm_Model_EntitySet_1_Union_" data-uid="Startitecture.Orm.Model.EntitySet`1.Union*"></a>
-  <h4 id="Startitecture_Orm_Model_EntitySet_1_Union_Startitecture_Orm_Model_EntitySelection__0__" data-uid="Startitecture.Orm.Model.EntitySet`1.Union(Startitecture.Orm.Model.EntitySelection{`0})">Union(EntitySelection&lt;T&gt;)</h4>
+  <h4 id="Startitecture_Orm_Model_EntitySet_1_Union_Startitecture_Orm_Model_EntitySet__0__" data-uid="Startitecture.Orm.Model.EntitySet`1.Union(Startitecture.Orm.Model.EntitySet{`0})">Union(EntitySet&lt;T&gt;)</h4>
   <div class="markdown level1 summary"><p>Combines the results of the current selection with the specified selection.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public EntitySet&lt;T&gt; Union(EntitySelection&lt;T&gt; selection)</code></pre>
+    <pre><code class="lang-csharp hljs">public EntitySet&lt;T&gt; Union(EntitySet&lt;T&gt; selection)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2128,7 +1013,7 @@ JOIN member.</p>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Startitecture.Orm.Model.EntitySelection-1.html">EntitySelection</a>&lt;T&gt;</td>
+        <td><a class="xref" href="Startitecture.Orm.Model.EntitySet-1.html">EntitySet</a>&lt;T&gt;</td>
         <td><span class="parametername">selection</span></td>
         <td><p>The selection to combine.</p>
 </td>
@@ -2153,16 +1038,16 @@ JOIN member.</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySet.cs&amp;version=GBmaster&amp;line=246">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySet.cs&amp;version=GBmaster&amp;line=675">View Source</a>
   </span>
-  <a id="Startitecture_Orm_Model_EntitySet_1_WhereEqual_" data-uid="Startitecture.Orm.Model.EntitySet`1.WhereEqual*"></a>
-  <h4 id="Startitecture_Orm_Model_EntitySet_1_WhereEqual__1_System_Linq_Expressions_Expression_System_Func__0___0_____0_" data-uid="Startitecture.Orm.Model.EntitySet`1.WhereEqual``1(System.Linq.Expressions.Expression{System.Func{`0,``0}},``0)">WhereEqual&lt;TValue&gt;(Expression&lt;Func&lt;T, TValue&gt;&gt;, TValue)</h4>
-  <div class="markdown level1 summary"><p>Adds a equality filter for the specified property.</p>
+  <a id="Startitecture_Orm_Model_EntitySet_1_Where_" data-uid="Startitecture.Orm.Model.EntitySet`1.Where*"></a>
+  <h4 id="Startitecture_Orm_Model_EntitySet_1_Where_System_Action_Startitecture_Orm_Model_ValueFilterSet__0___" data-uid="Startitecture.Orm.Model.EntitySet`1.Where(System.Action{Startitecture.Orm.Model.ValueFilterSet{`0}})">Where(Action&lt;ValueFilterSet&lt;T&gt;&gt;)</h4>
+  <div class="markdown level1 summary"><p>Defines the filters to restrict results to.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public EntitySet&lt;T&gt; WhereEqual&lt;TValue&gt;([NotNull] Expression&lt;Func&lt;T, TValue&gt;&gt; valueExpression, TValue value)</code></pre>
+    <pre><code class="lang-csharp hljs">public EntitySet&lt;T&gt; Where([NotNull] Action&lt;ValueFilterSet&lt;T&gt;&gt; setFilter)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2175,15 +1060,9 @@ JOIN member.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Linq.Expressions.Expression</span>&lt;<span class="xref">System.Func</span>&lt;T, TValue&gt;&gt;</td>
-        <td><span class="parametername">valueExpression</span></td>
-        <td><p>The value expression.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">TValue</span></td>
-        <td><span class="parametername">value</span></td>
-        <td><p>The value to match.</p>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="Startitecture.Orm.Model.ValueFilterSet-1.html">ValueFilterSet</a>&lt;T&gt;&gt;</td>
+        <td><span class="parametername">setFilter</span></td>
+        <td><p>The entity set filter.</p>
 </td>
       </tr>
     </tbody>
@@ -2199,23 +1078,7 @@ JOIN member.</p>
     <tbody>
       <tr>
         <td><a class="xref" href="Startitecture.Orm.Model.EntitySet-1.html">EntitySet</a>&lt;T&gt;</td>
-        <td><p>The current <a class="xref" href="Startitecture.Orm.Model.EntitySelection-1.html">EntitySelection&lt;T&gt;</a>.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">TValue</span></td>
-        <td><p>The type of the value.</p>
+        <td><p>The current <a class="xref" href="Startitecture.Orm.Model.EntitySet-1.html">EntitySet&lt;T&gt;</a>.</p>
 </td>
       </tr>
     </tbody>
@@ -2231,108 +1094,23 @@ JOIN member.</p>
     <tbody>
       <tr>
         <td><span class="xref">System.ArgumentNullException</span></td>
-        <td><p><code data-dev-comment-type="paramref" class="paramref">valueExpression</code> is null.</p>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">setFilter</code> is null.</p>
 </td>
       </tr>
     </tbody>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySet.cs&amp;version=GBmaster&amp;line=269">View Source</a>
-  </span>
-  <a id="Startitecture_Orm_Model_EntitySet_1_WhereEqual_" data-uid="Startitecture.Orm.Model.EntitySet`1.WhereEqual*"></a>
-  <h4 id="Startitecture_Orm_Model_EntitySet_1_WhereEqual__1_System_Linq_Expressions_LambdaExpression___0_" data-uid="Startitecture.Orm.Model.EntitySet`1.WhereEqual``1(System.Linq.Expressions.LambdaExpression,``0)">WhereEqual&lt;TValue&gt;(LambdaExpression, TValue)</h4>
-  <div class="markdown level1 summary"><p>Adds a equality filter for the specified property.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public EntitySet&lt;T&gt; WhereEqual&lt;TValue&gt;([NotNull] LambdaExpression valueExpression, TValue value)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Linq.Expressions.LambdaExpression</span></td>
-        <td><span class="parametername">valueExpression</span></td>
-        <td><p>The value expression.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">TValue</span></td>
-        <td><span class="parametername">value</span></td>
-        <td><p>The value to match.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Startitecture.Orm.Model.EntitySet-1.html">EntitySet</a>&lt;T&gt;</td>
-        <td><p>The current <a class="xref" href="Startitecture.Orm.Model.EntitySelection-1.html">EntitySelection&lt;T&gt;</a>.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">TValue</span></td>
-        <td><p>The type of the value.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="exceptions">Exceptions</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Condition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.ArgumentNullException</span></td>
-        <td><p><code data-dev-comment-type="paramref" class="paramref">valueExpression</code> is null.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySet.cs&amp;version=GBmaster&amp;line=103">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySet.cs&amp;version=GBmaster&amp;line=1215">View Source</a>
   </span>
   <a id="Startitecture_Orm_Model_EntitySet_1_WithAs_" data-uid="Startitecture.Orm.Model.EntitySet`1.WithAs*"></a>
-  <h4 id="Startitecture_Orm_Model_EntitySet_1_WithAs__1_Startitecture_Orm_Model_EntitySelection___0__System_String_Startitecture_Orm_Model_EntityRelationSet___0__" data-uid="Startitecture.Orm.Model.EntitySet`1.WithAs``1(Startitecture.Orm.Model.EntitySelection{``0},System.String,Startitecture.Orm.Model.EntityRelationSet{``0})">WithAs&lt;TExpression&gt;(EntitySelection&lt;TExpression&gt;, String, EntityRelationSet&lt;TExpression&gt;)</h4>
-  <div class="markdown level1 summary"><p>Creates a table expression for this selection.</p>
+  <h4 id="Startitecture_Orm_Model_EntitySet_1_WithAs__1_Startitecture_Orm_Model_EntityExpression___0__" data-uid="Startitecture.Orm.Model.EntitySet`1.WithAs``1(Startitecture.Orm.Model.EntityExpression{``0})">WithAs&lt;TExpression&gt;(EntityExpression&lt;TExpression&gt;)</h4>
+  <div class="markdown level1 summary"><p>Sets the current entity set's <a class="xref" href="Startitecture.Orm.Model.EntitySet-1.html#Startitecture_Orm_Model_EntitySet_1_ParentExpression">ParentExpression</a> to the specified <code data-dev-comment-type="paramref" class="paramref">expression</code>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public EntitySet&lt;T&gt; WithAs&lt;TExpression&gt;([NotNull] EntitySelection&lt;TExpression&gt; tableExpression, [NotNull] string tableName, [NotNull] EntityRelationSet&lt;TExpression&gt; tableRelationSet)</code></pre>
+    <pre><code class="lang-csharp hljs">public void WithAs&lt;TExpression&gt;(EntityExpression&lt;TExpression&gt; expression)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2345,37 +1123,9 @@ JOIN member.</p>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Startitecture.Orm.Model.EntitySelection-1.html">EntitySelection</a>&lt;TExpression&gt;</td>
-        <td><span class="parametername">tableExpression</span></td>
-        <td><p>The selection for the table expression.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">tableName</span></td>
-        <td><p>The table name.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="Startitecture.Orm.Model.EntityRelationSet-1.html">EntityRelationSet</a>&lt;TExpression&gt;</td>
-        <td><span class="parametername">tableRelationSet</span></td>
-        <td><p>The set of relations between the table expression and this selection.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Startitecture.Orm.Model.EntitySet-1.html">EntitySet</a>&lt;T&gt;</td>
-        <td><p>The current <a class="xref" href="Startitecture.Orm.Model.EntitySelection-1.html">EntitySelection&lt;T&gt;</a>.</p>
+        <td><a class="xref" href="Startitecture.Orm.Model.EntityExpression-1.html">EntityExpression</a>&lt;TExpression&gt;</td>
+        <td><span class="parametername">expression</span></td>
+        <td><p>The expression to set as the parent expression.</p>
 </td>
       </tr>
     </tbody>
@@ -2391,28 +1141,7 @@ JOIN member.</p>
     <tbody>
       <tr>
         <td><span class="parametername">TExpression</span></td>
-        <td><p>The type of entity the table expression will select from.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="exceptions">Exceptions</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Condition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.ArgumentNullException</span></td>
-        <td><p><code data-dev-comment-type="paramref" class="paramref">tableExpression</code> or <code data-dev-comment-type="paramref" class="paramref">tableRelationSet</code> is null.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.ArgumentException</span></td>
-        <td><p><code data-dev-comment-type="paramref" class="paramref">tableName</code> is null or whitespace.</p>
+        <td><p>The type of entity selected by the expression.</p>
 </td>
       </tr>
     </tbody>
@@ -2429,7 +1158,7 @@ JOIN member.</p>
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySet.cs&amp;version=GBmaster&amp;line=29" class="contribution-link">View Source</a>
+                    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/EntitySet.cs&amp;version=GBmaster&amp;line=24" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
