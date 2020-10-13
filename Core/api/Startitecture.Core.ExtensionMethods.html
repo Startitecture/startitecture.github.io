@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class ExtensionMethods
    ">
-    <meta name="generator" content="docfx 2.56.2.0">
+    <meta name="generator" content="docfx 2.56.3.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -115,7 +115,7 @@
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/Core?path=Startitecture.Core/ExtensionMethods.cs&amp;version=GBmaster&amp;line=494">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/Core?path=Startitecture.Core/ExtensionMethods.cs&amp;version=GBmaster&amp;line=496">View Source</a>
   </span>
   <a id="Startitecture_Core_ExtensionMethods_GetDifferences_" data-uid="Startitecture.Core.ExtensionMethods.GetDifferences*"></a>
   <h4 id="Startitecture_Core_ExtensionMethods_GetDifferences__1___0___0_System_String___" data-uid="Startitecture.Core.ExtensionMethods.GetDifferences``1(``0,``0,System.String[])">GetDifferences&lt;TItem&gt;(TItem, TItem, String[])</h4>
@@ -263,7 +263,8 @@ items.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static TValue GetOrLazyAddExisting&lt;TKey, TValue&gt;(this ObjectCache cache, object synchronizationLock, string cacheKey, TKey retrievalKey, Func&lt;TKey, TValue&gt; getValue, CacheItemPolicy policy)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use lazy initialization and ObjectCache.AddOrGetExisting&quot;)]
+public static TValue GetOrLazyAddExisting&lt;TKey, TValue&gt;(this ObjectCache cache, object synchronizationLock, string cacheKey, TKey retrievalKey, Func&lt;TKey, TValue&gt; getValue, CacheItemPolicy policy)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -352,7 +353,7 @@ items.</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/Core?path=Startitecture.Core/ExtensionMethods.cs&amp;version=GBmaster&amp;line=415">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/Core?path=Startitecture.Core/ExtensionMethods.cs&amp;version=GBmaster&amp;line=416">View Source</a>
   </span>
   <a id="Startitecture_Core_ExtensionMethods_GetOrLazyAddExistingWithResult_" data-uid="Startitecture.Core.ExtensionMethods.GetOrLazyAddExistingWithResult*"></a>
   <h4 id="Startitecture_Core_ExtensionMethods_GetOrLazyAddExistingWithResult__2_System_Runtime_Caching_ObjectCache_System_Object_System_String___0_System_Func___0___1__System_Runtime_Caching_CacheItemPolicy_" data-uid="Startitecture.Core.ExtensionMethods.GetOrLazyAddExistingWithResult``2(System.Runtime.Caching.ObjectCache,System.Object,System.String,``0,System.Func{``0,``1},System.Runtime.Caching.CacheItemPolicy)">GetOrLazyAddExistingWithResult&lt;TKey, TValue&gt;(ObjectCache, Object, String, TKey, Func&lt;TKey, TValue&gt;, CacheItemPolicy)</h4>
@@ -361,7 +362,8 @@ items.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static CacheResult&lt;TValue&gt; GetOrLazyAddExistingWithResult&lt;TKey, TValue&gt;(this ObjectCache cache, object synchronizationLock, string cacheKey, TKey retrievalKey, Func&lt;TKey, TValue&gt; getValue, CacheItemPolicy policy)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use lazy initialization and ObjectCache.AddOrGetExisting&quot;)]
+public static CacheResult&lt;TValue&gt; GetOrLazyAddExistingWithResult&lt;TKey, TValue&gt;(this ObjectCache cache, object synchronizationLock, string cacheKey, TKey retrievalKey, Func&lt;TKey, TValue&gt; getValue, CacheItemPolicy policy)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
