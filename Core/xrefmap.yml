@@ -635,6 +635,12 @@ references:
   commentId: M:Startitecture.Core.OperationException.#ctor(System.Object,System.String,System.Exception)
   fullName: Startitecture.Core.OperationException.OperationException(System.Object, System.String, System.Exception)
   nameWithType: OperationException.OperationException(Object, String, Exception)
+- uid: Startitecture.Core.OperationException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  name: OperationException(SerializationInfo, StreamingContext)
+  href: api/Startitecture.Core.OperationException.html#Startitecture_Core_OperationException__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_
+  commentId: M:Startitecture.Core.OperationException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  fullName: Startitecture.Core.OperationException.OperationException(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
+  nameWithType: OperationException.OperationException(SerializationInfo, StreamingContext)
 - uid: Startitecture.Core.OperationException.#ctor(System.String)
   name: OperationException(String)
   href: api/Startitecture.Core.OperationException.html#Startitecture_Core_OperationException__ctor_System_String_
