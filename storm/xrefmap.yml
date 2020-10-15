@@ -2939,6 +2939,55 @@ references:
   isSpec: "True"
   fullName: Startitecture.Orm.Common.RepositoryAdapter.ValueMappers
   nameWithType: RepositoryAdapter.ValueMappers
+- uid: Startitecture.Orm.Common.RepositoryException
+  name: RepositoryException
+  href: api/Startitecture.Orm.Common.RepositoryException.html
+  commentId: T:Startitecture.Orm.Common.RepositoryException
+  fullName: Startitecture.Orm.Common.RepositoryException
+  nameWithType: RepositoryException
+- uid: Startitecture.Orm.Common.RepositoryException.#ctor
+  name: RepositoryException()
+  href: api/Startitecture.Orm.Common.RepositoryException.html#Startitecture_Orm_Common_RepositoryException__ctor
+  commentId: M:Startitecture.Orm.Common.RepositoryException.#ctor
+  fullName: Startitecture.Orm.Common.RepositoryException.RepositoryException()
+  nameWithType: RepositoryException.RepositoryException()
+- uid: Startitecture.Orm.Common.RepositoryException.#ctor(System.Object)
+  name: RepositoryException(Object)
+  href: api/Startitecture.Orm.Common.RepositoryException.html#Startitecture_Orm_Common_RepositoryException__ctor_System_Object_
+  commentId: M:Startitecture.Orm.Common.RepositoryException.#ctor(System.Object)
+  fullName: Startitecture.Orm.Common.RepositoryException.RepositoryException(System.Object)
+  nameWithType: RepositoryException.RepositoryException(Object)
+- uid: Startitecture.Orm.Common.RepositoryException.#ctor(System.Object,System.String)
+  name: RepositoryException(Object, String)
+  href: api/Startitecture.Orm.Common.RepositoryException.html#Startitecture_Orm_Common_RepositoryException__ctor_System_Object_System_String_
+  commentId: M:Startitecture.Orm.Common.RepositoryException.#ctor(System.Object,System.String)
+  fullName: Startitecture.Orm.Common.RepositoryException.RepositoryException(System.Object, System.String)
+  nameWithType: RepositoryException.RepositoryException(Object, String)
+- uid: Startitecture.Orm.Common.RepositoryException.#ctor(System.Object,System.String,System.Exception)
+  name: RepositoryException(Object, String, Exception)
+  href: api/Startitecture.Orm.Common.RepositoryException.html#Startitecture_Orm_Common_RepositoryException__ctor_System_Object_System_String_System_Exception_
+  commentId: M:Startitecture.Orm.Common.RepositoryException.#ctor(System.Object,System.String,System.Exception)
+  fullName: Startitecture.Orm.Common.RepositoryException.RepositoryException(System.Object, System.String, System.Exception)
+  nameWithType: RepositoryException.RepositoryException(Object, String, Exception)
+- uid: Startitecture.Orm.Common.RepositoryException.#ctor(System.String)
+  name: RepositoryException(String)
+  href: api/Startitecture.Orm.Common.RepositoryException.html#Startitecture_Orm_Common_RepositoryException__ctor_System_String_
+  commentId: M:Startitecture.Orm.Common.RepositoryException.#ctor(System.String)
+  fullName: Startitecture.Orm.Common.RepositoryException.RepositoryException(System.String)
+  nameWithType: RepositoryException.RepositoryException(String)
+- uid: Startitecture.Orm.Common.RepositoryException.#ctor(System.String,System.Exception)
+  name: RepositoryException(String, Exception)
+  href: api/Startitecture.Orm.Common.RepositoryException.html#Startitecture_Orm_Common_RepositoryException__ctor_System_String_System_Exception_
+  commentId: M:Startitecture.Orm.Common.RepositoryException.#ctor(System.String,System.Exception)
+  fullName: Startitecture.Orm.Common.RepositoryException.RepositoryException(System.String, System.Exception)
+  nameWithType: RepositoryException.RepositoryException(String, Exception)
+- uid: Startitecture.Orm.Common.RepositoryException.#ctor*
+  name: RepositoryException
+  href: api/Startitecture.Orm.Common.RepositoryException.html#Startitecture_Orm_Common_RepositoryException__ctor_
+  commentId: Overload:Startitecture.Orm.Common.RepositoryException.#ctor
+  isSpec: "True"
+  fullName: Startitecture.Orm.Common.RepositoryException.RepositoryException
+  nameWithType: RepositoryException.RepositoryException
 - uid: Startitecture.Orm.Mapper
   name: Startitecture.Orm.Mapper
   href: api/Startitecture.Orm.Mapper.html
@@ -7566,81 +7615,6 @@ references:
   isSpec: "True"
   fullName: Startitecture.Orm.Model.RelationExpression.Relations
   nameWithType: RelationExpression.Relations
-- uid: Startitecture.Orm.Model.RepositoryException
-  name: RepositoryException
-  href: api/Startitecture.Orm.Model.RepositoryException.html
-  commentId: T:Startitecture.Orm.Model.RepositoryException
-  fullName: Startitecture.Orm.Model.RepositoryException
-  nameWithType: RepositoryException
-- uid: Startitecture.Orm.Model.RepositoryException.#ctor
-  name: RepositoryException()
-  href: api/Startitecture.Orm.Model.RepositoryException.html#Startitecture_Orm_Model_RepositoryException__ctor
-  commentId: M:Startitecture.Orm.Model.RepositoryException.#ctor
-  fullName: Startitecture.Orm.Model.RepositoryException.RepositoryException()
-  nameWithType: RepositoryException.RepositoryException()
-- uid: Startitecture.Orm.Model.RepositoryException.#ctor(System.Object)
-  name: RepositoryException(Object)
-  href: api/Startitecture.Orm.Model.RepositoryException.html#Startitecture_Orm_Model_RepositoryException__ctor_System_Object_
-  commentId: M:Startitecture.Orm.Model.RepositoryException.#ctor(System.Object)
-  fullName: Startitecture.Orm.Model.RepositoryException.RepositoryException(System.Object)
-  nameWithType: RepositoryException.RepositoryException(Object)
-- uid: Startitecture.Orm.Model.RepositoryException.#ctor(System.Object,System.String)
-  name: RepositoryException(Object, String)
-  href: api/Startitecture.Orm.Model.RepositoryException.html#Startitecture_Orm_Model_RepositoryException__ctor_System_Object_System_String_
-  commentId: M:Startitecture.Orm.Model.RepositoryException.#ctor(System.Object,System.String)
-  fullName: Startitecture.Orm.Model.RepositoryException.RepositoryException(System.Object, System.String)
-  nameWithType: RepositoryException.RepositoryException(Object, String)
-- uid: Startitecture.Orm.Model.RepositoryException.#ctor(System.Object,System.String,System.Exception)
-  name: RepositoryException(Object, String, Exception)
-  href: api/Startitecture.Orm.Model.RepositoryException.html#Startitecture_Orm_Model_RepositoryException__ctor_System_Object_System_String_System_Exception_
-  commentId: M:Startitecture.Orm.Model.RepositoryException.#ctor(System.Object,System.String,System.Exception)
-  fullName: Startitecture.Orm.Model.RepositoryException.RepositoryException(System.Object, System.String, System.Exception)
-  nameWithType: RepositoryException.RepositoryException(Object, String, Exception)
-- uid: Startitecture.Orm.Model.RepositoryException.#ctor(System.String)
-  name: RepositoryException(String)
-  href: api/Startitecture.Orm.Model.RepositoryException.html#Startitecture_Orm_Model_RepositoryException__ctor_System_String_
-  commentId: M:Startitecture.Orm.Model.RepositoryException.#ctor(System.String)
-  fullName: Startitecture.Orm.Model.RepositoryException.RepositoryException(System.String)
-  nameWithType: RepositoryException.RepositoryException(String)
-- uid: Startitecture.Orm.Model.RepositoryException.#ctor(System.String,System.Exception)
-  name: RepositoryException(String, Exception)
-  href: api/Startitecture.Orm.Model.RepositoryException.html#Startitecture_Orm_Model_RepositoryException__ctor_System_String_System_Exception_
-  commentId: M:Startitecture.Orm.Model.RepositoryException.#ctor(System.String,System.Exception)
-  fullName: Startitecture.Orm.Model.RepositoryException.RepositoryException(System.String, System.Exception)
-  nameWithType: RepositoryException.RepositoryException(String, Exception)
-- uid: Startitecture.Orm.Model.RepositoryException.#ctor*
-  name: RepositoryException
-  href: api/Startitecture.Orm.Model.RepositoryException.html#Startitecture_Orm_Model_RepositoryException__ctor_
-  commentId: Overload:Startitecture.Orm.Model.RepositoryException.#ctor
-  isSpec: "True"
-  fullName: Startitecture.Orm.Model.RepositoryException.RepositoryException
-  nameWithType: RepositoryException.RepositoryException
-- uid: Startitecture.Orm.Model.RepositoryException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-  name: GetObjectData(SerializationInfo, StreamingContext)
-  href: api/Startitecture.Orm.Model.RepositoryException.html#Startitecture_Orm_Model_RepositoryException_GetObjectData_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_
-  commentId: M:Startitecture.Orm.Model.RepositoryException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-  fullName: Startitecture.Orm.Model.RepositoryException.GetObjectData(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
-  nameWithType: RepositoryException.GetObjectData(SerializationInfo, StreamingContext)
-- uid: Startitecture.Orm.Model.RepositoryException.GetObjectData*
-  name: GetObjectData
-  href: api/Startitecture.Orm.Model.RepositoryException.html#Startitecture_Orm_Model_RepositoryException_GetObjectData_
-  commentId: Overload:Startitecture.Orm.Model.RepositoryException.GetObjectData
-  isSpec: "True"
-  fullName: Startitecture.Orm.Model.RepositoryException.GetObjectData
-  nameWithType: RepositoryException.GetObjectData
-- uid: Startitecture.Orm.Model.RepositoryException.TargetEntity
-  name: TargetEntity
-  href: api/Startitecture.Orm.Model.RepositoryException.html#Startitecture_Orm_Model_RepositoryException_TargetEntity
-  commentId: P:Startitecture.Orm.Model.RepositoryException.TargetEntity
-  fullName: Startitecture.Orm.Model.RepositoryException.TargetEntity
-  nameWithType: RepositoryException.TargetEntity
-- uid: Startitecture.Orm.Model.RepositoryException.TargetEntity*
-  name: TargetEntity
-  href: api/Startitecture.Orm.Model.RepositoryException.html#Startitecture_Orm_Model_RepositoryException_TargetEntity_
-  commentId: Overload:Startitecture.Orm.Model.RepositoryException.TargetEntity
-  isSpec: "True"
-  fullName: Startitecture.Orm.Model.RepositoryException.TargetEntity
-  nameWithType: RepositoryException.TargetEntity
 - uid: Startitecture.Orm.Model.ResolvedAttributeLocation
   name: ResolvedAttributeLocation
   href: api/Startitecture.Orm.Model.ResolvedAttributeLocation.html
