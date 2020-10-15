@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class TransactSqlQualifier
+    <title>Class TableValuedParameterCommandFactory
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class TransactSqlQualifier
+    <meta name="title" content="Class TableValuedParameterCommandFactory
    ">
     <meta name="generator" content="docfx 2.56.3.0">
     
@@ -67,44 +67,25 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Startitecture.Orm.SqlClient.TransactSqlQualifier">
+            <article class="content wrap" id="_content" data-uid="Startitecture.Orm.SqlClient.TableValuedParameterCommandFactory">
   
   
-  <h1 id="Startitecture_Orm_SqlClient_TransactSqlQualifier" data-uid="Startitecture.Orm.SqlClient.TransactSqlQualifier" class="text-break">Class TransactSqlQualifier
+  <h1 id="Startitecture_Orm_SqlClient_TableValuedParameterCommandFactory" data-uid="Startitecture.Orm.SqlClient.TableValuedParameterCommandFactory" class="text-break">Class TableValuedParameterCommandFactory
   </h1>
-  <div class="markdown level0 summary"><p>A name qualifier for Transact-SQL.</p>
+  <div class="markdown level0 summary"><p>Creates <a class="xref" href="Startitecture.Orm.Common.ITableCommand.html">ITableCommand</a> instances for SQL Server using table-valued parameters (TVPs).</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><a class="xref" href="Startitecture.Orm.Common.NameQualifier.html">NameQualifier</a></div>
-    <div class="level2"><span class="xref">TransactSqlQualifier</span></div>
+    <div class="level1"><span class="xref">TableValuedParameterCommandFactory</span></div>
   </div>
   <div classs="implements">
     <h5>Implements</h5>
-    <div><a class="xref" href="Startitecture.Orm.Model.INameQualifier.html">INameQualifier</a></div>
+    <div><a class="xref" href="Startitecture.Orm.Common.IDbTableCommandFactory.html">IDbTableCommandFactory</a></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
-    <div>
-      <a class="xref" href="Startitecture.Orm.Common.NameQualifier.html#Startitecture_Orm_Common_NameQualifier_Qualify_Startitecture_Orm_Model_EntityAttributeDefinition_">NameQualifier.Qualify(EntityAttributeDefinition)</a>
-    </div>
-    <div>
-      <a class="xref" href="Startitecture.Orm.Common.NameQualifier.html#Startitecture_Orm_Common_NameQualifier_Qualify_Startitecture_Orm_Model_EntityAttributeDefinition_Startitecture_Orm_Model_EntityLocation_">NameQualifier.Qualify(EntityAttributeDefinition, EntityLocation)</a>
-    </div>
-    <div>
-      <a class="xref" href="Startitecture.Orm.Common.NameQualifier.html#Startitecture_Orm_Common_NameQualifier_GetReferenceName_Startitecture_Orm_Model_EntityAttributeDefinition_">NameQualifier.GetReferenceName(EntityAttributeDefinition)</a>
-    </div>
-    <div>
-      <a class="xref" href="Startitecture.Orm.Common.NameQualifier.html#Startitecture_Orm_Common_NameQualifier_GetCanonicalName_Startitecture_Orm_Model_EntityAttributeDefinition_">NameQualifier.GetCanonicalName(EntityAttributeDefinition)</a>
-    </div>
-    <div>
-      <a class="xref" href="Startitecture.Orm.Common.NameQualifier.html#Startitecture_Orm_Common_NameQualifier_GetPhysicalName_Startitecture_Orm_Model_EntityLocation_">NameQualifier.GetPhysicalName(EntityLocation)</a>
-    </div>
-    <div>
-      <a class="xref" href="Startitecture.Orm.Common.NameQualifier.html#Startitecture_Orm_Common_NameQualifier_AddParameterPrefix_System_String_">NameQualifier.AddParameterPrefix(String)</a>
-    </div>
     <div>
       <span class="xref">System.Object.Equals(System.Object)</span>
     </div>
@@ -129,24 +110,24 @@
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Startitecture.Orm.SqlClient.html">Startitecture.Orm.SqlClient</a></h6>
   <h6><strong>Assembly</strong>: Startitecture.Orm.SqlClient.dll</h6>
-  <h5 id="Startitecture_Orm_SqlClient_TransactSqlQualifier_syntax">Syntax</h5>
+  <h5 id="Startitecture_Orm_SqlClient_TableValuedParameterCommandFactory_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class TransactSqlQualifier : NameQualifier, INameQualifier</code></pre>
+    <pre><code class="lang-csharp hljs">public class TableValuedParameterCommandFactory : IDbTableCommandFactory</code></pre>
   </div>
-  <h3 id="methods">Methods
+  <h3 id="constructors">Constructors
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.SqlClient/TransactSqlQualifier.cs&amp;version=GBmaster&amp;line=23">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.SqlClient/TableValuedParameterCommandFactory.cs&amp;version=GBmaster&amp;line=39">View Source</a>
   </span>
-  <a id="Startitecture_Orm_SqlClient_TransactSqlQualifier_Escape_" data-uid="Startitecture.Orm.SqlClient.TransactSqlQualifier.Escape*"></a>
-  <h4 id="Startitecture_Orm_SqlClient_TransactSqlQualifier_Escape_System_String_" data-uid="Startitecture.Orm.SqlClient.TransactSqlQualifier.Escape(System.String)">Escape(String)</h4>
-  <div class="markdown level1 summary"><p>Escapes an identifier.</p>
+  <a id="Startitecture_Orm_SqlClient_TableValuedParameterCommandFactory__ctor_" data-uid="Startitecture.Orm.SqlClient.TableValuedParameterCommandFactory.#ctor*"></a>
+  <h4 id="Startitecture_Orm_SqlClient_TableValuedParameterCommandFactory__ctor_Startitecture_Orm_Common_IDatabaseContext_" data-uid="Startitecture.Orm.SqlClient.TableValuedParameterCommandFactory.#ctor(Startitecture.Orm.Common.IDatabaseContext)">TableValuedParameterCommandFactory(IDatabaseContext)</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="Startitecture.Orm.SqlClient.TableValuedParameterCommandFactory.html">TableValuedParameterCommandFactory</a> class.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override string Escape(string identifier)</code></pre>
+    <pre><code class="lang-csharp hljs">public TableValuedParameterCommandFactory([NotNull] IDatabaseContext databaseContext)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -159,9 +140,48 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">identifier</span></td>
-        <td><p>The identifier to escape.</p>
+        <td><a class="xref" href="Startitecture.Orm.Common.IDatabaseContext.html">IDatabaseContext</a></td>
+        <td><span class="parametername">databaseContext</span></td>
+        <td><p>The context provider.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.SqlClient/TableValuedParameterCommandFactory.cs&amp;version=GBmaster&amp;line=62">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_SqlClient_TableValuedParameterCommandFactory_Create_" data-uid="Startitecture.Orm.SqlClient.TableValuedParameterCommandFactory.Create*"></a>
+  <h4 id="Startitecture_Orm_SqlClient_TableValuedParameterCommandFactory_Create__1_Startitecture_Orm_Common_ITableCommand_System_Collections_Generic_IEnumerable___0__" data-uid="Startitecture.Orm.SqlClient.TableValuedParameterCommandFactory.Create``1(Startitecture.Orm.Common.ITableCommand,System.Collections.Generic.IEnumerable{``0})">Create&lt;T&gt;(ITableCommand, IEnumerable&lt;T&gt;)</h4>
+  <div class="markdown level1 summary"><p>Creates an <span class="xref">System.Data.IDbCommand</span> for the specified <code data-dev-comment-type="paramref" class="paramref">tableCommand</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IDbCommand Create&lt;T&gt;(ITableCommand tableCommand, IEnumerable&lt;T&gt; items)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Common.ITableCommand.html">ITableCommand</a></td>
+        <td><span class="parametername">tableCommand</span></td>
+        <td><p>The structured command.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;T&gt;</td>
+        <td><span class="parametername">items</span></td>
+        <td><p>The items to pass to the command.</p>
 </td>
       </tr>
     </tbody>
@@ -176,14 +196,28 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><p>The escaped identifier as a <span class="xref">System.String</span>.</p>
+        <td><span class="xref">System.Data.IDbCommand</span></td>
+        <td><p>An <span class="xref">System.Data.IDbCommand</span> that will execute the structured command.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="Startitecture.Orm.Common.NameQualifier.html#Startitecture_Orm_Common_NameQualifier_Escape_System_String_">NameQualifier.Escape(String)</a></div>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of items in the structured command.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -194,15 +228,15 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.ArgumentException</span></td>
-        <td><p><code data-dev-comment-type="paramref" class="paramref">identifier</code> is null or whitespace.</p>
+        <td><span class="xref">Startitecture.Core.OperationException</span></td>
+        <td><p>The underlying <a class="xref" href="Startitecture.Orm.Common.IRepositoryProvider.html#Startitecture_Orm_Common_IRepositoryProvider_DatabaseContext">DatabaseContext</a> does not contain a <span class="xref">Microsoft.Data.SqlClient.SqlConnection</span>.</p>
 </td>
       </tr>
     </tbody>
   </table>
   <h3 id="implements">Implements</h3>
   <div>
-      <a class="xref" href="Startitecture.Orm.Model.INameQualifier.html">INameQualifier</a>
+      <a class="xref" href="Startitecture.Orm.Common.IDbTableCommandFactory.html">IDbTableCommandFactory</a>
   </div>
 </article>
           </div>
@@ -212,7 +246,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.SqlClient/TransactSqlQualifier.cs&amp;version=GBmaster&amp;line=20" class="contribution-link">View Source</a>
+                    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.SqlClient/TableValuedParameterCommandFactory.cs&amp;version=GBmaster&amp;line=26" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class TableValuedInsert&lt;T&gt;
    ">
-    <meta name="generator" content="docfx 2.56.2.0">
+    <meta name="generator" content="docfx 2.56.3.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -91,7 +91,7 @@
       <a class="xref" href="Startitecture.Orm.Mapper.TableCommand-1.html#Startitecture_Orm_Mapper_TableCommand_1_ParameterName">TableCommand&lt;T&gt;.ParameterName</a>
     </div>
     <div>
-      <a class="xref" href="Startitecture.Orm.Mapper.TableCommand-1.html#Startitecture_Orm_Mapper_TableCommand_1_TableCommandProvider">TableCommand&lt;T&gt;.TableCommandProvider</a>
+      <a class="xref" href="Startitecture.Orm.Mapper.TableCommand-1.html#Startitecture_Orm_Mapper_TableCommand_1_DatabaseContext">TableCommand&lt;T&gt;.DatabaseContext</a>
     </div>
     <div>
       <a class="xref" href="Startitecture.Orm.Mapper.TableCommand-1.html#Startitecture_Orm_Mapper_TableCommand_1_EntityDefinition">TableCommand&lt;T&gt;.EntityDefinition</a>
@@ -106,7 +106,13 @@
       <a class="xref" href="Startitecture.Orm.Mapper.TableCommand-1.html#Startitecture_Orm_Mapper_TableCommand_1_Execute__1_System_Collections_Generic_IEnumerable___0__">TableCommand&lt;T&gt;.Execute&lt;TItem&gt;(IEnumerable&lt;TItem&gt;)</a>
     </div>
     <div>
+      <a class="xref" href="Startitecture.Orm.Mapper.TableCommand-1.html#Startitecture_Orm_Mapper_TableCommand_1_ExecuteAsync__1_System_Collections_Generic_IEnumerable___0__">TableCommand&lt;T&gt;.ExecuteAsync&lt;TItem&gt;(IEnumerable&lt;TItem&gt;)</a>
+    </div>
+    <div>
       <a class="xref" href="Startitecture.Orm.Mapper.TableCommand-1.html#Startitecture_Orm_Mapper_TableCommand_1_ExecuteForResults__1_System_Collections_Generic_IEnumerable___0__">TableCommand&lt;T&gt;.ExecuteForResults&lt;TItem&gt;(IEnumerable&lt;TItem&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="Startitecture.Orm.Mapper.TableCommand-1.html#Startitecture_Orm_Mapper_TableCommand_1_ExecuteForResultsAsync__1_System_Collections_Generic_IEnumerable___0__">TableCommand&lt;T&gt;.ExecuteForResultsAsync&lt;TItem&gt;(IEnumerable&lt;TItem&gt;)</a>
     </div>
     <div>
       <span class="xref">System.Object.Equals(System.Object)</span>
@@ -156,16 +162,16 @@
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.SqlClient/TableValuedInsert.cs&amp;version=GBmaster&amp;line=66">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.SqlClient/TableValuedInsert.cs&amp;version=GBmaster&amp;line=68">View Source</a>
   </span>
   <a id="Startitecture_Orm_SqlClient_TableValuedInsert_1__ctor_" data-uid="Startitecture.Orm.SqlClient.TableValuedInsert`1.#ctor*"></a>
-  <h4 id="Startitecture_Orm_SqlClient_TableValuedInsert_1__ctor_Startitecture_Orm_Common_ITableCommandProvider_" data-uid="Startitecture.Orm.SqlClient.TableValuedInsert`1.#ctor(Startitecture.Orm.Common.ITableCommandProvider)">TableValuedInsert(ITableCommandProvider)</h4>
+  <h4 id="Startitecture_Orm_SqlClient_TableValuedInsert_1__ctor_Startitecture_Orm_Common_IDbTableCommandFactory_Startitecture_Orm_Common_IDatabaseContext_" data-uid="Startitecture.Orm.SqlClient.TableValuedInsert`1.#ctor(Startitecture.Orm.Common.IDbTableCommandFactory,Startitecture.Orm.Common.IDatabaseContext)">TableValuedInsert(IDbTableCommandFactory, IDatabaseContext)</h4>
   <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="Startitecture.Orm.SqlClient.TableValuedInsert-1.html">TableValuedInsert&lt;T&gt;</a> class.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public TableValuedInsert([NotNull] ITableCommandProvider tableCommandProvider)</code></pre>
+    <pre><code class="lang-csharp hljs">public TableValuedInsert([NotNull] IDbTableCommandFactory tableCommandFactory, [NotNull] IDatabaseContext databaseContext)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -178,46 +184,15 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Startitecture.Orm.Common.ITableCommandProvider.html">ITableCommandProvider</a></td>
-        <td><span class="parametername">tableCommandProvider</span></td>
-        <td><p>The structured command provider.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.SqlClient/TableValuedInsert.cs&amp;version=GBmaster&amp;line=82">View Source</a>
-  </span>
-  <a id="Startitecture_Orm_SqlClient_TableValuedInsert_1__ctor_" data-uid="Startitecture.Orm.SqlClient.TableValuedInsert`1.#ctor*"></a>
-  <h4 id="Startitecture_Orm_SqlClient_TableValuedInsert_1__ctor_Startitecture_Orm_Common_ITableCommandProvider_System_Data_IDbTransaction_" data-uid="Startitecture.Orm.SqlClient.TableValuedInsert`1.#ctor(Startitecture.Orm.Common.ITableCommandProvider,System.Data.IDbTransaction)">TableValuedInsert(ITableCommandProvider, IDbTransaction)</h4>
-  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="Startitecture.Orm.SqlClient.TableValuedInsert-1.html">TableValuedInsert&lt;T&gt;</a> class.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public TableValuedInsert([NotNull] ITableCommandProvider tableCommandProvider, IDbTransaction databaseTransaction)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Startitecture.Orm.Common.ITableCommandProvider.html">ITableCommandProvider</a></td>
-        <td><span class="parametername">tableCommandProvider</span></td>
-        <td><p>The structured command provider.</p>
+        <td><a class="xref" href="Startitecture.Orm.Common.IDbTableCommandFactory.html">IDbTableCommandFactory</a></td>
+        <td><span class="parametername">tableCommandFactory</span></td>
+        <td><p>The table command provider.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Data.IDbTransaction</span></td>
-        <td><span class="parametername">databaseTransaction</span></td>
-        <td><p>The database transaction.</p>
+        <td><a class="xref" href="Startitecture.Orm.Common.IDatabaseContext.html">IDatabaseContext</a></td>
+        <td><span class="parametername">databaseContext</span></td>
+        <td><p>The database context.</p>
 </td>
       </tr>
     </tbody>
@@ -226,11 +201,11 @@
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.SqlClient/TableValuedInsert.cs&amp;version=GBmaster&amp;line=90">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.SqlClient/TableValuedInsert.cs&amp;version=GBmaster&amp;line=76">View Source</a>
   </span>
   <a id="Startitecture_Orm_SqlClient_TableValuedInsert_1_CommandText_" data-uid="Startitecture.Orm.SqlClient.TableValuedInsert`1.CommandText*"></a>
   <h4 id="Startitecture_Orm_SqlClient_TableValuedInsert_1_CommandText" data-uid="Startitecture.Orm.SqlClient.TableValuedInsert`1.CommandText">CommandText</h4>
-  <div class="markdown level1 summary"><p>Gets the command text.</p>
+  <div class="markdown level1 summary"><p>Gets the command text to execute.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -258,7 +233,7 @@
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.SqlClient/TableValuedInsert.cs&amp;version=GBmaster&amp;line=128">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.SqlClient/TableValuedInsert.cs&amp;version=GBmaster&amp;line=114">View Source</a>
   </span>
   <a id="Startitecture_Orm_SqlClient_TableValuedInsert_1_From_" data-uid="Startitecture.Orm.SqlClient.TableValuedInsert`1.From*"></a>
   <h4 id="Startitecture_Orm_SqlClient_TableValuedInsert_1_From__1_System_Linq_Expressions_Expression_System_Func___0_System_Object_____" data-uid="Startitecture.Orm.SqlClient.TableValuedInsert`1.From``1(System.Linq.Expressions.Expression{System.Func{``0,System.Object}}[])">From&lt;TItem&gt;(Expression&lt;Func&lt;TItem, Object&gt;&gt;[])</h4>
@@ -337,7 +312,7 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.SqlClient/TableValuedInsert.cs&amp;version=GBmaster&amp;line=101">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.SqlClient/TableValuedInsert.cs&amp;version=GBmaster&amp;line=87">View Source</a>
   </span>
   <a id="Startitecture_Orm_SqlClient_TableValuedInsert_1_InsertInto_" data-uid="Startitecture.Orm.SqlClient.TableValuedInsert`1.InsertInto*"></a>
   <h4 id="Startitecture_Orm_SqlClient_TableValuedInsert_1_InsertInto_System_Linq_Expressions_Expression_System_Func__0_System_Object_____" data-uid="Startitecture.Orm.SqlClient.TableValuedInsert`1.InsertInto(System.Linq.Expressions.Expression{System.Func{`0,System.Object}}[])">InsertInto(Expression&lt;Func&lt;T, Object&gt;&gt;[])</h4>
@@ -384,7 +359,7 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.SqlClient/TableValuedInsert.cs&amp;version=GBmaster&amp;line=149">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.SqlClient/TableValuedInsert.cs&amp;version=GBmaster&amp;line=135">View Source</a>
   </span>
   <a id="Startitecture_Orm_SqlClient_TableValuedInsert_1_SelectResults_" data-uid="Startitecture.Orm.SqlClient.TableValuedInsert`1.SelectResults*"></a>
   <h4 id="Startitecture_Orm_SqlClient_TableValuedInsert_1_SelectResults_System_Linq_Expressions_Expression_System_Func__0_System_Object_____" data-uid="Startitecture.Orm.SqlClient.TableValuedInsert`1.SelectResults(System.Linq.Expressions.Expression{System.Func{`0,System.Object}}[])">SelectResults(Expression&lt;Func&lt;T, Object&gt;&gt;[])</h4>
@@ -441,7 +416,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.SqlClient/TableValuedInsert.cs&amp;version=GBmaster&amp;line=33" class="contribution-link">View Source</a>
+                    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.SqlClient/TableValuedInsert.cs&amp;version=GBmaster&amp;line=32" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

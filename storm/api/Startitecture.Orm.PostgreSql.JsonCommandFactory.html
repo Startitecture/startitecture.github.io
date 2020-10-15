@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class PocoDelegateInfo
+    <title>Class JsonCommandFactory
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class PocoDelegateInfo
+    <meta name="title" content="Class JsonCommandFactory
    ">
     <meta name="generator" content="docfx 2.56.3.0">
     
@@ -67,18 +67,22 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Startitecture.Orm.Mapper.PocoDelegateInfo">
+            <article class="content wrap" id="_content" data-uid="Startitecture.Orm.PostgreSql.JsonCommandFactory">
   
   
-  <h1 id="Startitecture_Orm_Mapper_PocoDelegateInfo" data-uid="Startitecture.Orm.Mapper.PocoDelegateInfo" class="text-break">Class PocoDelegateInfo
+  <h1 id="Startitecture_Orm_PostgreSql_JsonCommandFactory" data-uid="Startitecture.Orm.PostgreSql.JsonCommandFactory" class="text-break">Class JsonCommandFactory
   </h1>
-  <div class="markdown level0 summary"><p>Contains metadata for a POCO delegate.</p>
+  <div class="markdown level0 summary"><p>A command provider for inserting JSON objects into PostgreSQL database tables.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">PocoDelegateInfo</span></div>
+    <div class="level1"><span class="xref">JsonCommandFactory</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="Startitecture.Orm.Common.IDbTableCommandFactory.html">IDbTableCommandFactory</a></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -104,26 +108,26 @@
       <span class="xref">System.Object.ToString()</span>
     </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Startitecture.Orm.Mapper.html">Startitecture.Orm.Mapper</a></h6>
-  <h6><strong>Assembly</strong>: Startitecture.Orm.Mapper.dll</h6>
-  <h5 id="Startitecture_Orm_Mapper_PocoDelegateInfo_syntax">Syntax</h5>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Startitecture.Orm.PostgreSql.html">Startitecture.Orm.PostgreSql</a></h6>
+  <h6><strong>Assembly</strong>: Startitecture.Orm.PostgreSql.dll</h6>
+  <h5 id="Startitecture_Orm_PostgreSql_JsonCommandFactory_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class PocoDelegateInfo</code></pre>
+    <pre><code class="lang-csharp hljs">public class JsonCommandFactory : IDbTableCommandFactory</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Mapper/PocoDelegateInfo.cs&amp;version=GBmaster&amp;line=30">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.PostgreSql/JsonCommandFactory.cs&amp;version=GBmaster&amp;line=38">View Source</a>
   </span>
-  <a id="Startitecture_Orm_Mapper_PocoDelegateInfo__ctor_" data-uid="Startitecture.Orm.Mapper.PocoDelegateInfo.#ctor*"></a>
-  <h4 id="Startitecture_Orm_Mapper_PocoDelegateInfo__ctor_System_Delegate_" data-uid="Startitecture.Orm.Mapper.PocoDelegateInfo.#ctor(System.Delegate)">PocoDelegateInfo(Delegate)</h4>
-  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="Startitecture.Orm.Mapper.PocoDelegateInfo.html">PocoDelegateInfo</a> class.</p>
+  <a id="Startitecture_Orm_PostgreSql_JsonCommandFactory__ctor_" data-uid="Startitecture.Orm.PostgreSql.JsonCommandFactory.#ctor*"></a>
+  <h4 id="Startitecture_Orm_PostgreSql_JsonCommandFactory__ctor_Startitecture_Orm_Common_IDatabaseContext_" data-uid="Startitecture.Orm.PostgreSql.JsonCommandFactory.#ctor(Startitecture.Orm.Common.IDatabaseContext)">JsonCommandFactory(IDatabaseContext)</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="Startitecture.Orm.PostgreSql.JsonCommandFactory.html">JsonCommandFactory</a> class.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public PocoDelegateInfo([NotNull] Delegate mappingDelegate)</code></pre>
+    <pre><code class="lang-csharp hljs">public JsonCommandFactory([NotNull] IDatabaseContext databaseContext)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -136,45 +140,53 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Delegate</span></td>
-        <td><span class="parametername">mappingDelegate</span></td>
-        <td><p>The mapping delegate.</p>
+        <td><a class="xref" href="Startitecture.Orm.Common.IDatabaseContext.html">IDatabaseContext</a></td>
+        <td><span class="parametername">databaseContext</span></td>
+        <td><p>The database context.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="exceptions">Exceptions</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Condition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.ArgumentNullException</span></td>
-        <td><p><code data-dev-comment-type="paramref" class="paramref">mappingDelegate</code> is null.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="properties">Properties
+  <h3 id="methods">Methods
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Mapper/PocoDelegateInfo.cs&amp;version=GBmaster&amp;line=38">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.PostgreSql/JsonCommandFactory.cs&amp;version=GBmaster&amp;line=44">View Source</a>
   </span>
-  <a id="Startitecture_Orm_Mapper_PocoDelegateInfo_MappingDelegate_" data-uid="Startitecture.Orm.Mapper.PocoDelegateInfo.MappingDelegate*"></a>
-  <h4 id="Startitecture_Orm_Mapper_PocoDelegateInfo_MappingDelegate" data-uid="Startitecture.Orm.Mapper.PocoDelegateInfo.MappingDelegate">MappingDelegate</h4>
-  <div class="markdown level1 summary"><p>Gets the mapping delegate.</p>
+  <a id="Startitecture_Orm_PostgreSql_JsonCommandFactory_Create_" data-uid="Startitecture.Orm.PostgreSql.JsonCommandFactory.Create*"></a>
+  <h4 id="Startitecture_Orm_PostgreSql_JsonCommandFactory_Create__1_Startitecture_Orm_Common_ITableCommand_System_Collections_Generic_IEnumerable___0__" data-uid="Startitecture.Orm.PostgreSql.JsonCommandFactory.Create``1(Startitecture.Orm.Common.ITableCommand,System.Collections.Generic.IEnumerable{``0})">Create&lt;T&gt;(ITableCommand, IEnumerable&lt;T&gt;)</h4>
+  <div class="markdown level1 summary"><p>Creates an <span class="xref">System.Data.IDbCommand</span> for the specified <code data-dev-comment-type="paramref" class="paramref">tableCommand</code>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Delegate MappingDelegate { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public IDbCommand Create&lt;T&gt;(ITableCommand tableCommand, IEnumerable&lt;T&gt; items)</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Common.ITableCommand.html">ITableCommand</a></td>
+        <td><span class="parametername">tableCommand</span></td>
+        <td><p>The table command.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;T&gt;</td>
+        <td><span class="parametername">items</span></td>
+        <td><p>The items to pass to the command.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -184,11 +196,32 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Delegate</span></td>
-        <td></td>
+        <td><span class="xref">System.Data.IDbCommand</span></td>
+        <td><p>An <span class="xref">System.Data.IDbCommand</span> that will execute the table command.</p>
+</td>
       </tr>
     </tbody>
   </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of items in the table command.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="Startitecture.Orm.Common.IDbTableCommandFactory.html">IDbTableCommandFactory</a>
+  </div>
 </article>
           </div>
           
@@ -197,7 +230,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Mapper/PocoDelegateInfo.cs&amp;version=GBmaster&amp;line=19" class="contribution-link">View Source</a>
+                    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.PostgreSql/JsonCommandFactory.cs&amp;version=GBmaster&amp;line=28" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

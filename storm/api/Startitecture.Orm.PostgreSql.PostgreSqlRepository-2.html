@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class PostgreSqlRepository&lt;TModel, TEntity&gt;
    ">
-    <meta name="generator" content="docfx 2.56.2.0">
+    <meta name="generator" content="docfx 2.56.3.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -72,7 +72,7 @@
   
   <h1 id="Startitecture_Orm_PostgreSql_PostgreSqlRepository_2" data-uid="Startitecture.Orm.PostgreSql.PostgreSqlRepository`2" class="text-break">Class PostgreSqlRepository&lt;TModel, TEntity&gt;
   </h1>
-  <div class="markdown level0 summary"><p>An <a class="xref" href="Startitecture.Orm.Model.IEntityRepository-1.html">IEntityRepository&lt;TModel&gt;</a> implementation for PostgreSQL.</p>
+  <div class="markdown level0 summary"><p>An <a class="xref" href="Startitecture.Orm.Common.IEntityRepository-1.html">IEntityRepository&lt;TModel&gt;</a> implementation for PostgreSQL.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
@@ -84,8 +84,8 @@
   </div>
   <div classs="implements">
     <h5>Implements</h5>
-    <div><a class="xref" href="Startitecture.Orm.Model.IEntityRepository-1.html">IEntityRepository</a>&lt;TModel&gt;</div>
-    <div><a class="xref" href="Startitecture.Orm.Model.IReadOnlyRepository-1.html">IReadOnlyRepository</a>&lt;TModel&gt;</div>
+    <div><a class="xref" href="Startitecture.Orm.Common.IEntityRepository-1.html">IEntityRepository</a>&lt;TModel&gt;</div>
+    <div><a class="xref" href="Startitecture.Orm.Common.IReadOnlyRepository-1.html">IReadOnlyRepository</a>&lt;TModel&gt;</div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -93,13 +93,28 @@
       <a class="xref" href="Startitecture.Orm.Common.EntityRepository-2.html#Startitecture_Orm_Common_EntityRepository_2_Save__0_">EntityRepository&lt;TModel, TEntity&gt;.Save(TModel)</a>
     </div>
     <div>
+      <a class="xref" href="Startitecture.Orm.Common.EntityRepository-2.html#Startitecture_Orm_Common_EntityRepository_2_SaveAsync__0_">EntityRepository&lt;TModel, TEntity&gt;.SaveAsync(TModel)</a>
+    </div>
+    <div>
       <a class="xref" href="Startitecture.Orm.Common.EntityRepository-2.html#Startitecture_Orm_Common_EntityRepository_2_Delete__1___0_">EntityRepository&lt;TModel, TEntity&gt;.Delete&lt;TItem&gt;(TItem)</a>
+    </div>
+    <div>
+      <a class="xref" href="Startitecture.Orm.Common.EntityRepository-2.html#Startitecture_Orm_Common_EntityRepository_2_DeleteAsync__1___0_">EntityRepository&lt;TModel, TEntity&gt;.DeleteAsync&lt;TItem&gt;(TItem)</a>
     </div>
     <div>
       <a class="xref" href="Startitecture.Orm.Common.EntityRepository-2.html#Startitecture_Orm_Common_EntityRepository_2_DeleteEntities_System_Action_Startitecture_Orm_Model_EntitySet__0___">EntityRepository&lt;TModel, TEntity&gt;.DeleteEntities(Action&lt;EntitySet&lt;TModel&gt;&gt;)</a>
     </div>
     <div>
+      <a class="xref" href="Startitecture.Orm.Common.EntityRepository-2.html#Startitecture_Orm_Common_EntityRepository_2_DeleteEntitiesAsync_System_Action_Startitecture_Orm_Model_EntitySet__0___">EntityRepository&lt;TModel, TEntity&gt;.DeleteEntitiesAsync(Action&lt;EntitySet&lt;TModel&gt;&gt;)</a>
+    </div>
+    <div>
       <a class="xref" href="Startitecture.Orm.Common.EntityRepository-2.html#Startitecture_Orm_Common_EntityRepository_2_DeleteSelection_Startitecture_Orm_Model_IEntitySet_">EntityRepository&lt;TModel, TEntity&gt;.DeleteSelection(IEntitySet)</a>
+    </div>
+    <div>
+      <a class="xref" href="Startitecture.Orm.Common.EntityRepository-2.html#Startitecture_Orm_Common_EntityRepository_2_DeleteSelectionAsync_Startitecture_Orm_Model_IEntitySet_">EntityRepository&lt;TModel, TEntity&gt;.DeleteSelectionAsync(IEntitySet)</a>
+    </div>
+    <div>
+      <a class="xref" href="Startitecture.Orm.Common.EntityRepository-2.html#Startitecture_Orm_Common_EntityRepository_2_GetModelIdentityProperty">EntityRepository&lt;TModel, TEntity&gt;.GetModelIdentityProperty()</a>
     </div>
     <div>
       <a class="xref" href="Startitecture.Orm.Common.ReadOnlyRepository-2.html#Startitecture_Orm_Common_ReadOnlyRepository_2_RepositoryProvider">ReadOnlyRepository&lt;TModel, TEntity&gt;.RepositoryProvider</a>
@@ -111,28 +126,55 @@
       <a class="xref" href="Startitecture.Orm.Common.ReadOnlyRepository-2.html#Startitecture_Orm_Common_ReadOnlyRepository_2_Contains__1___0_">ReadOnlyRepository&lt;TModel, TEntity&gt;.Contains&lt;TItem&gt;(TItem)</a>
     </div>
     <div>
+      <a class="xref" href="Startitecture.Orm.Common.ReadOnlyRepository-2.html#Startitecture_Orm_Common_ReadOnlyRepository_2_ContainsAsync__1___0_">ReadOnlyRepository&lt;TModel, TEntity&gt;.ContainsAsync&lt;TItem&gt;(TItem)</a>
+    </div>
+    <div>
       <a class="xref" href="Startitecture.Orm.Common.ReadOnlyRepository-2.html#Startitecture_Orm_Common_ReadOnlyRepository_2_Contains__1_Startitecture_Orm_Model_EntitySet___0__">ReadOnlyRepository&lt;TModel, TEntity&gt;.Contains&lt;TItem&gt;(EntitySet&lt;TItem&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="Startitecture.Orm.Common.ReadOnlyRepository-2.html#Startitecture_Orm_Common_ReadOnlyRepository_2_ContainsAsync__1_Startitecture_Orm_Model_EntitySet___0__">ReadOnlyRepository&lt;TModel, TEntity&gt;.ContainsAsync&lt;TItem&gt;(EntitySet&lt;TItem&gt;)</a>
     </div>
     <div>
       <a class="xref" href="Startitecture.Orm.Common.ReadOnlyRepository-2.html#Startitecture_Orm_Common_ReadOnlyRepository_2_FirstOrDefault__1___0_">ReadOnlyRepository&lt;TModel, TEntity&gt;.FirstOrDefault&lt;TItem&gt;(TItem)</a>
     </div>
     <div>
+      <a class="xref" href="Startitecture.Orm.Common.ReadOnlyRepository-2.html#Startitecture_Orm_Common_ReadOnlyRepository_2_FirstOrDefaultAsync__1___0_">ReadOnlyRepository&lt;TModel, TEntity&gt;.FirstOrDefaultAsync&lt;TItem&gt;(TItem)</a>
+    </div>
+    <div>
       <a class="xref" href="Startitecture.Orm.Common.ReadOnlyRepository-2.html#Startitecture_Orm_Common_ReadOnlyRepository_2_FirstOrDefault__1_Startitecture_Orm_Model_EntitySet___0__">ReadOnlyRepository&lt;TModel, TEntity&gt;.FirstOrDefault&lt;TItem&gt;(EntitySet&lt;TItem&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="Startitecture.Orm.Common.ReadOnlyRepository-2.html#Startitecture_Orm_Common_ReadOnlyRepository_2_FirstOrDefaultAsync__1_Startitecture_Orm_Model_EntitySet___0__">ReadOnlyRepository&lt;TModel, TEntity&gt;.FirstOrDefaultAsync&lt;TItem&gt;(EntitySet&lt;TItem&gt;)</a>
     </div>
     <div>
       <a class="xref" href="Startitecture.Orm.Common.ReadOnlyRepository-2.html#Startitecture_Orm_Common_ReadOnlyRepository_2_FirstOrDefault_System_Action_Startitecture_Orm_Model_EntitySet__0___">ReadOnlyRepository&lt;TModel, TEntity&gt;.FirstOrDefault(Action&lt;EntitySet&lt;TModel&gt;&gt;)</a>
     </div>
     <div>
+      <a class="xref" href="Startitecture.Orm.Common.ReadOnlyRepository-2.html#Startitecture_Orm_Common_ReadOnlyRepository_2_FirstOrDefaultAsync_System_Action_Startitecture_Orm_Model_EntitySet__0___">ReadOnlyRepository&lt;TModel, TEntity&gt;.FirstOrDefaultAsync(Action&lt;EntitySet&lt;TModel&gt;&gt;)</a>
+    </div>
+    <div>
       <a class="xref" href="Startitecture.Orm.Common.ReadOnlyRepository-2.html#Startitecture_Orm_Common_ReadOnlyRepository_2_DynamicFirstOrDefault_Startitecture_Orm_Model_ISelection_">ReadOnlyRepository&lt;TModel, TEntity&gt;.DynamicFirstOrDefault(ISelection)</a>
+    </div>
+    <div>
+      <a class="xref" href="Startitecture.Orm.Common.ReadOnlyRepository-2.html#Startitecture_Orm_Common_ReadOnlyRepository_2_DynamicFirstOrDefaultAsync_Startitecture_Orm_Model_ISelection_">ReadOnlyRepository&lt;TModel, TEntity&gt;.DynamicFirstOrDefaultAsync(ISelection)</a>
     </div>
     <div>
       <a class="xref" href="Startitecture.Orm.Common.ReadOnlyRepository-2.html#Startitecture_Orm_Common_ReadOnlyRepository_2_SelectAll">ReadOnlyRepository&lt;TModel, TEntity&gt;.SelectAll()</a>
     </div>
     <div>
+      <a class="xref" href="Startitecture.Orm.Common.ReadOnlyRepository-2.html#Startitecture_Orm_Common_ReadOnlyRepository_2_SelectAllAsync">ReadOnlyRepository&lt;TModel, TEntity&gt;.SelectAllAsync()</a>
+    </div>
+    <div>
       <a class="xref" href="Startitecture.Orm.Common.ReadOnlyRepository-2.html#Startitecture_Orm_Common_ReadOnlyRepository_2_SelectEntities__1_Startitecture_Orm_Model_EntitySet___0__">ReadOnlyRepository&lt;TModel, TEntity&gt;.SelectEntities&lt;TItem&gt;(EntitySet&lt;TItem&gt;)</a>
     </div>
     <div>
+      <a class="xref" href="Startitecture.Orm.Common.ReadOnlyRepository-2.html#Startitecture_Orm_Common_ReadOnlyRepository_2_SelectEntitiesAsync__1_Startitecture_Orm_Model_EntitySet___0__">ReadOnlyRepository&lt;TModel, TEntity&gt;.SelectEntitiesAsync&lt;TItem&gt;(EntitySet&lt;TItem&gt;)</a>
+    </div>
+    <div>
       <a class="xref" href="Startitecture.Orm.Common.ReadOnlyRepository-2.html#Startitecture_Orm_Common_ReadOnlyRepository_2_DynamicSelect__1_Startitecture_Orm_Model_EntitySelection___0__">ReadOnlyRepository&lt;TModel, TEntity&gt;.DynamicSelect&lt;TItem&gt;(EntitySelection&lt;TItem&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="Startitecture.Orm.Common.ReadOnlyRepository-2.html#Startitecture_Orm_Common_ReadOnlyRepository_2_DynamicSelectAsync__1_Startitecture_Orm_Model_EntitySelection___0__">ReadOnlyRepository&lt;TModel, TEntity&gt;.DynamicSelectAsync&lt;TItem&gt;(EntitySelection&lt;TItem&gt;)</a>
     </div>
     <div>
       <a class="xref" href="Startitecture.Orm.Common.ReadOnlyRepository-2.html#Startitecture_Orm_Common_ReadOnlyRepository_2_GetUniqueItemSelection__1_">ReadOnlyRepository&lt;TModel, TEntity&gt;.GetUniqueItemSelection(TEntity)</a>
@@ -347,16 +389,16 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.PostgreSql/PostgreSqlRepository.cs&amp;version=GBmaster&amp;line=102">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.PostgreSql/PostgreSqlRepository.cs&amp;version=GBmaster&amp;line=110">View Source</a>
   </span>
-  <a id="Startitecture_Orm_PostgreSql_PostgreSqlRepository_2_Insert_" data-uid="Startitecture.Orm.PostgreSql.PostgreSqlRepository`2.Insert*"></a>
-  <h4 id="Startitecture_Orm_PostgreSql_PostgreSqlRepository_2_Insert__1_System_Collections_Generic_IEnumerable___0__System_Data_IDbTransaction_System_Action_Startitecture_Orm_PostgreSql_JsonInsert__1___" data-uid="Startitecture.Orm.PostgreSql.PostgreSqlRepository`2.Insert``1(System.Collections.Generic.IEnumerable{``0},System.Data.IDbTransaction,System.Action{Startitecture.Orm.PostgreSql.JsonInsert{`1}})">Insert&lt;TItem&gt;(IEnumerable&lt;TItem&gt;, IDbTransaction, Action&lt;JsonInsert&lt;TEntity&gt;&gt;)</h4>
+  <a id="Startitecture_Orm_PostgreSql_PostgreSqlRepository_2_InsertAsync_" data-uid="Startitecture.Orm.PostgreSql.PostgreSqlRepository`2.InsertAsync*"></a>
+  <h4 id="Startitecture_Orm_PostgreSql_PostgreSqlRepository_2_InsertAsync__1_System_Collections_Generic_IEnumerable___0__System_Action_Startitecture_Orm_PostgreSql_JsonInsert__1___" data-uid="Startitecture.Orm.PostgreSql.PostgreSqlRepository`2.InsertAsync``1(System.Collections.Generic.IEnumerable{``0},System.Action{Startitecture.Orm.PostgreSql.JsonInsert{`1}})">InsertAsync&lt;TItem&gt;(IEnumerable&lt;TItem&gt;, Action&lt;JsonInsert&lt;TEntity&gt;&gt;)</h4>
   <div class="markdown level1 summary"><p>Inserts a list of items into the repository.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Insert&lt;TItem&gt;([NotNull] IEnumerable&lt;TItem&gt; items, IDbTransaction transaction, Action&lt;JsonInsert&lt;TEntity&gt;&gt; insertAction)</code></pre>
+    <pre><code class="lang-csharp hljs">public Task InsertAsync&lt;TItem&gt;([NotNull] IEnumerable&lt;TItem&gt; items, Action&lt;JsonInsert&lt;TEntity&gt;&gt; insertAction)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -375,15 +417,25 @@
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Data.IDbTransaction</span></td>
-        <td><span class="parametername">transaction</span></td>
-        <td><p>The transaction for the operation, or null to perform the operation without a transaction.</p>
-</td>
-      </tr>
-      <tr>
         <td><span class="xref">System.Action</span>&lt;<a class="xref" href="Startitecture.Orm.PostgreSql.JsonInsert-1.html">JsonInsert</a>&lt;TEntity&gt;&gt;</td>
         <td><span class="parametername">insertAction</span></td>
         <td><p>The insert action to take, or null to take the default insert action.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td><p>The <span class="xref">System.Threading.Tasks.Task</span> that is performing the insert.</p>
 </td>
       </tr>
     </tbody>
@@ -422,7 +474,7 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.PostgreSql/PostgreSqlRepository.cs&amp;version=GBmaster&amp;line=133">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.PostgreSql/PostgreSqlRepository.cs&amp;version=GBmaster&amp;line=141">View Source</a>
   </span>
   <a id="Startitecture_Orm_PostgreSql_PostgreSqlRepository_2_InsertForResults_" data-uid="Startitecture.Orm.PostgreSql.PostgreSqlRepository`2.InsertForResults*"></a>
   <h4 id="Startitecture_Orm_PostgreSql_PostgreSqlRepository_2_InsertForResults__1_System_Collections_Generic_IEnumerable___0__System_Action_Startitecture_Orm_PostgreSql_JsonInsert__1___" data-uid="Startitecture.Orm.PostgreSql.PostgreSqlRepository`2.InsertForResults``1(System.Collections.Generic.IEnumerable{``0},System.Action{Startitecture.Orm.PostgreSql.JsonInsert{`1}})">InsertForResults&lt;TItem&gt;(IEnumerable&lt;TItem&gt;, Action&lt;JsonInsert&lt;TEntity&gt;&gt;)</h4>
@@ -507,16 +559,16 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.PostgreSql/PostgreSqlRepository.cs&amp;version=GBmaster&amp;line=159">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.PostgreSql/PostgreSqlRepository.cs&amp;version=GBmaster&amp;line=175">View Source</a>
   </span>
-  <a id="Startitecture_Orm_PostgreSql_PostgreSqlRepository_2_InsertForResults_" data-uid="Startitecture.Orm.PostgreSql.PostgreSqlRepository`2.InsertForResults*"></a>
-  <h4 id="Startitecture_Orm_PostgreSql_PostgreSqlRepository_2_InsertForResults__1_System_Collections_Generic_IEnumerable___0__System_Data_IDbTransaction_System_Action_Startitecture_Orm_PostgreSql_JsonInsert__1___" data-uid="Startitecture.Orm.PostgreSql.PostgreSqlRepository`2.InsertForResults``1(System.Collections.Generic.IEnumerable{``0},System.Data.IDbTransaction,System.Action{Startitecture.Orm.PostgreSql.JsonInsert{`1}})">InsertForResults&lt;TItem&gt;(IEnumerable&lt;TItem&gt;, IDbTransaction, Action&lt;JsonInsert&lt;TEntity&gt;&gt;)</h4>
+  <a id="Startitecture_Orm_PostgreSql_PostgreSqlRepository_2_InsertForResultsAsync_" data-uid="Startitecture.Orm.PostgreSql.PostgreSqlRepository`2.InsertForResultsAsync*"></a>
+  <h4 id="Startitecture_Orm_PostgreSql_PostgreSqlRepository_2_InsertForResultsAsync__1_System_Collections_Generic_IEnumerable___0__System_Action_Startitecture_Orm_PostgreSql_JsonInsert__1___" data-uid="Startitecture.Orm.PostgreSql.PostgreSqlRepository`2.InsertForResultsAsync``1(System.Collections.Generic.IEnumerable{``0},System.Action{Startitecture.Orm.PostgreSql.JsonInsert{`1}})">InsertForResultsAsync&lt;TItem&gt;(IEnumerable&lt;TItem&gt;, Action&lt;JsonInsert&lt;TEntity&gt;&gt;)</h4>
   <div class="markdown level1 summary"><p>Inserts a list of items into the repository.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IEnumerable&lt;TItem&gt; InsertForResults&lt;TItem&gt;([NotNull] IEnumerable&lt;TItem&gt; items, IDbTransaction transaction, Action&lt;JsonInsert&lt;TEntity&gt;&gt; insertAction)</code></pre>
+    <pre><code class="lang-csharp hljs">public Task&lt;IEnumerable&lt;TItem&gt;&gt; InsertForResultsAsync&lt;TItem&gt;([NotNull] IEnumerable&lt;TItem&gt; items, Action&lt;JsonInsert&lt;TEntity&gt;&gt; insertAction)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -532,12 +584,6 @@
         <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;TItem&gt;</td>
         <td><span class="parametername">items</span></td>
         <td><p>The items to insert.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Data.IDbTransaction</span></td>
-        <td><span class="parametername">transaction</span></td>
-        <td><p>The transaction for the operation, or null to perform the operation without a transaction.</p>
 </td>
       </tr>
       <tr>
@@ -558,7 +604,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;TItem&gt;</td>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">System.Collections.Generic.IEnumerable</span>&lt;TItem&gt;&gt;</td>
         <td><p>An <span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span> of <code data-dev-comment-type="typeparamref" class="typeparamref">TItem</code> items.</p>
 </td>
       </tr>
@@ -598,10 +644,10 @@
   </table>
   <h3 id="implements">Implements</h3>
   <div>
-      <a class="xref" href="Startitecture.Orm.Model.IEntityRepository-1.html">IEntityRepository&lt;TModel&gt;</a>
+      <a class="xref" href="Startitecture.Orm.Common.IEntityRepository-1.html">IEntityRepository&lt;TModel&gt;</a>
   </div>
   <div>
-      <a class="xref" href="Startitecture.Orm.Model.IReadOnlyRepository-1.html">IReadOnlyRepository&lt;TModel&gt;</a>
+      <a class="xref" href="Startitecture.Orm.Common.IReadOnlyRepository-1.html">IReadOnlyRepository&lt;TModel&gt;</a>
   </div>
 </article>
           </div>

@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class ReadOnlyRepository&lt;TModel, TEntity&gt;
+    <title>Interface IReadOnlyRepository&lt;TModel&gt;
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class ReadOnlyRepository&lt;TModel, TEntity&gt;
+    <meta name="title" content="Interface IReadOnlyRepository&lt;TModel&gt;
    ">
     <meta name="generator" content="docfx 2.56.3.0">
     
@@ -67,53 +67,19 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Startitecture.Orm.Common.ReadOnlyRepository`2">
+            <article class="content wrap" id="_content" data-uid="Startitecture.Orm.Common.IReadOnlyRepository`1">
   
   
-  <h1 id="Startitecture_Orm_Common_ReadOnlyRepository_2" data-uid="Startitecture.Orm.Common.ReadOnlyRepository`2" class="text-break">Class ReadOnlyRepository&lt;TModel, TEntity&gt;
+  <h1 id="Startitecture_Orm_Common_IReadOnlyRepository_1" data-uid="Startitecture.Orm.Common.IReadOnlyRepository`1" class="text-break">Interface IReadOnlyRepository&lt;TModel&gt;
   </h1>
-  <div class="markdown level0 summary"><p>The view repository.</p>
+  <div class="markdown level0 summary"><p>Provides an interface for classes that allow read-only access to repository data.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
-  <div class="inheritance">
-    <h5>Inheritance</h5>
-    <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">ReadOnlyRepository&lt;TModel, TEntity&gt;</span></div>
-      <div class="level2"><a class="xref" href="Startitecture.Orm.Common.EntityRepository-2.html">EntityRepository&lt;TModel, TEntity&gt;</a></div>
-  </div>
-  <div classs="implements">
-    <h5>Implements</h5>
-    <div><a class="xref" href="Startitecture.Orm.Common.IReadOnlyRepository-1.html">IReadOnlyRepository</a>&lt;TModel&gt;</div>
-  </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <span class="xref">System.Object.ToString()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetHashCode()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetType()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.MemberwiseClone()</span>
-    </div>
-  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Startitecture.Orm.Common.html">Startitecture.Orm.Common</a></h6>
   <h6><strong>Assembly</strong>: Startitecture.Orm.Common.dll</h6>
-  <h5 id="Startitecture_Orm_Common_ReadOnlyRepository_2_syntax">Syntax</h5>
+  <h5 id="Startitecture_Orm_Common_IReadOnlyRepository_1_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class ReadOnlyRepository&lt;TModel, TEntity&gt; : IReadOnlyRepository&lt;TModel&gt; where TEntity : class, new()</code></pre>
+    <pre><code class="lang-csharp hljs">public interface IReadOnlyRepository&lt;TModel&gt;</code></pre>
   </div>
   <h5 class="typeParameters">Type Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -126,165 +92,8 @@
     <tbody>
       <tr>
         <td><span class="parametername">TModel</span></td>
-        <td><p>The type of domain model managed by the repository.</p>
+        <td><p>The type of model that the repository reads.</p>
 </td>
-      </tr>
-      <tr>
-        <td><span class="parametername">TEntity</span></td>
-        <td><p>The type of entity stored in the repository.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="constructors">Constructors
-  </h3>
-  
-  <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/ReadOnlyRepository.cs&amp;version=GBmaster&amp;line=84">View Source</a>
-  </span>
-  <a id="Startitecture_Orm_Common_ReadOnlyRepository_2__ctor_" data-uid="Startitecture.Orm.Common.ReadOnlyRepository`2.#ctor*"></a>
-  <h4 id="Startitecture_Orm_Common_ReadOnlyRepository_2__ctor_Startitecture_Orm_Common_IRepositoryProvider_Startitecture_Orm_Model_IEntityMapper_System_Collections_Generic_IComparer__1__System_Linq_Expressions_Expression_System_Func__1_System_Object_____" data-uid="Startitecture.Orm.Common.ReadOnlyRepository`2.#ctor(Startitecture.Orm.Common.IRepositoryProvider,Startitecture.Orm.Model.IEntityMapper,System.Collections.Generic.IComparer{`1},System.Linq.Expressions.Expression{System.Func{`1,System.Object}}[])">ReadOnlyRepository(IRepositoryProvider, IEntityMapper, IComparer&lt;TEntity&gt;, Expression&lt;Func&lt;TEntity, Object&gt;&gt;[])</h4>
-  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="Startitecture.Orm.Common.ReadOnlyRepository-2.html">ReadOnlyRepository&lt;TModel, TEntity&gt;</a> class.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ReadOnlyRepository([NotNull] IRepositoryProvider repositoryProvider, [NotNull] IEntityMapper entityMapper, IComparer&lt;TEntity&gt; selectionComparer, [NotNull] params Expression&lt;Func&lt;TEntity, object&gt;&gt;[] uniqueKeyExpressions)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Startitecture.Orm.Common.IRepositoryProvider.html">IRepositoryProvider</a></td>
-        <td><span class="parametername">repositoryProvider</span></td>
-        <td><p>The repository provider for this repository.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="Startitecture.Orm.Model.IEntityMapper.html">IEntityMapper</a></td>
-        <td><span class="parametername">entityMapper</span></td>
-        <td><p>The entity mapper.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Collections.Generic.IComparer</span>&lt;TEntity&gt;</td>
-        <td><span class="parametername">selectionComparer</span></td>
-        <td><p>The selection comparer for ordering data items from the repository after being selected from the database.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Linq.Expressions.Expression</span>&lt;<span class="xref">System.Func</span>&lt;TEntity, <span class="xref">System.Object</span>&gt;&gt;[]</td>
-        <td><span class="parametername">uniqueKeyExpressions</span></td>
-        <td><p>The unique key expressions for the entity, if any.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/ReadOnlyRepository.cs&amp;version=GBmaster&amp;line=61">View Source</a>
-  </span>
-  <a id="Startitecture_Orm_Common_ReadOnlyRepository_2__ctor_" data-uid="Startitecture.Orm.Common.ReadOnlyRepository`2.#ctor*"></a>
-  <h4 id="Startitecture_Orm_Common_ReadOnlyRepository_2__ctor_Startitecture_Orm_Common_IRepositoryProvider_Startitecture_Orm_Model_IEntityMapper_System_Linq_Expressions_Expression_System_Func__1_System_Object_____" data-uid="Startitecture.Orm.Common.ReadOnlyRepository`2.#ctor(Startitecture.Orm.Common.IRepositoryProvider,Startitecture.Orm.Model.IEntityMapper,System.Linq.Expressions.Expression{System.Func{`1,System.Object}}[])">ReadOnlyRepository(IRepositoryProvider, IEntityMapper, Expression&lt;Func&lt;TEntity, Object&gt;&gt;[])</h4>
-  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="Startitecture.Orm.Common.ReadOnlyRepository-2.html">ReadOnlyRepository&lt;TModel, TEntity&gt;</a> class.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ReadOnlyRepository(IRepositoryProvider repositoryProvider, IEntityMapper entityMapper, params Expression&lt;Func&lt;TEntity, object&gt;&gt;[] uniqueKeyExpressions)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Startitecture.Orm.Common.IRepositoryProvider.html">IRepositoryProvider</a></td>
-        <td><span class="parametername">repositoryProvider</span></td>
-        <td><p>The repository provider for this repository.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="Startitecture.Orm.Model.IEntityMapper.html">IEntityMapper</a></td>
-        <td><span class="parametername">entityMapper</span></td>
-        <td><p>The entity mapper.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Linq.Expressions.Expression</span>&lt;<span class="xref">System.Func</span>&lt;TEntity, <span class="xref">System.Object</span>&gt;&gt;[]</td>
-        <td><span class="parametername">uniqueKeyExpressions</span></td>
-        <td><p>The unique key expressions for the entity, if any.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="properties">Properties
-  </h3>
-  
-  <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/ReadOnlyRepository.cs&amp;version=GBmaster&amp;line=112">View Source</a>
-  </span>
-  <a id="Startitecture_Orm_Common_ReadOnlyRepository_2_EntityMapper_" data-uid="Startitecture.Orm.Common.ReadOnlyRepository`2.EntityMapper*"></a>
-  <h4 id="Startitecture_Orm_Common_ReadOnlyRepository_2_EntityMapper" data-uid="Startitecture.Orm.Common.ReadOnlyRepository`2.EntityMapper">EntityMapper</h4>
-  <div class="markdown level1 summary"><p>Gets the entity mapper.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected IEntityMapper EntityMapper { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Startitecture.Orm.Model.IEntityMapper.html">IEntityMapper</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/ReadOnlyRepository.cs&amp;version=GBmaster&amp;line=107">View Source</a>
-  </span>
-  <a id="Startitecture_Orm_Common_ReadOnlyRepository_2_RepositoryProvider_" data-uid="Startitecture.Orm.Common.ReadOnlyRepository`2.RepositoryProvider*"></a>
-  <h4 id="Startitecture_Orm_Common_ReadOnlyRepository_2_RepositoryProvider" data-uid="Startitecture.Orm.Common.ReadOnlyRepository`2.RepositoryProvider">RepositoryProvider</h4>
-  <div class="markdown level1 summary"><p>Gets the repository provider.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected IRepositoryProvider RepositoryProvider { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Startitecture.Orm.Common.IRepositoryProvider.html">IRepositoryProvider</a></td>
-        <td></td>
       </tr>
     </tbody>
   </table>
@@ -292,63 +101,16 @@
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/ReadOnlyRepository.cs&amp;version=GBmaster&amp;line=391">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/IReadOnlyRepository.cs&amp;version=GBmaster&amp;line=41">View Source</a>
   </span>
-  <a id="Startitecture_Orm_Common_ReadOnlyRepository_2_ConstructEntity_" data-uid="Startitecture.Orm.Common.ReadOnlyRepository`2.ConstructEntity*"></a>
-  <h4 id="Startitecture_Orm_Common_ReadOnlyRepository_2_ConstructEntity__1_" data-uid="Startitecture.Orm.Common.ReadOnlyRepository`2.ConstructEntity(`1)">ConstructEntity(TEntity)</h4>
-  <div class="markdown level1 summary"><p>Constructs the entity for the specified data item.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected virtual TModel ConstructEntity(TEntity entity)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">TEntity</span></td>
-        <td><span class="parametername">entity</span></td>
-        <td><p>The data item to construct an entity for.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">TModel</span></td>
-        <td><p>A new instance of the entity.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/ReadOnlyRepository.cs&amp;version=GBmaster&amp;line=115">View Source</a>
-  </span>
-  <a id="Startitecture_Orm_Common_ReadOnlyRepository_2_Contains_" data-uid="Startitecture.Orm.Common.ReadOnlyRepository`2.Contains*"></a>
-  <h4 id="Startitecture_Orm_Common_ReadOnlyRepository_2_Contains__1___0_" data-uid="Startitecture.Orm.Common.ReadOnlyRepository`2.Contains``1(``0)">Contains&lt;TItem&gt;(TItem)</h4>
+  <a id="Startitecture_Orm_Common_IReadOnlyRepository_1_Contains_" data-uid="Startitecture.Orm.Common.IReadOnlyRepository`1.Contains*"></a>
+  <h4 id="Startitecture_Orm_Common_IReadOnlyRepository_1_Contains__1___0_" data-uid="Startitecture.Orm.Common.IReadOnlyRepository`1.Contains``1(``0)">Contains&lt;TItem&gt;(TItem)</h4>
   <div class="markdown level1 summary"><p>Determines whether an item exists in the repository.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool Contains&lt;TItem&gt;(TItem candidate)</code></pre>
+    <pre><code class="lang-csharp hljs">bool Contains&lt;TItem&gt;(TItem candidate)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -418,16 +180,16 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/ReadOnlyRepository.cs&amp;version=GBmaster&amp;line=149">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/IReadOnlyRepository.cs&amp;version=GBmaster&amp;line=75">View Source</a>
   </span>
-  <a id="Startitecture_Orm_Common_ReadOnlyRepository_2_Contains_" data-uid="Startitecture.Orm.Common.ReadOnlyRepository`2.Contains*"></a>
-  <h4 id="Startitecture_Orm_Common_ReadOnlyRepository_2_Contains__1_Startitecture_Orm_Model_EntitySet___0__" data-uid="Startitecture.Orm.Common.ReadOnlyRepository`2.Contains``1(Startitecture.Orm.Model.EntitySet{``0})">Contains&lt;TItem&gt;(EntitySet&lt;TItem&gt;)</h4>
+  <a id="Startitecture_Orm_Common_IReadOnlyRepository_1_Contains_" data-uid="Startitecture.Orm.Common.IReadOnlyRepository`1.Contains*"></a>
+  <h4 id="Startitecture_Orm_Common_IReadOnlyRepository_1_Contains__1_Startitecture_Orm_Model_EntitySet___0__" data-uid="Startitecture.Orm.Common.IReadOnlyRepository`1.Contains``1(Startitecture.Orm.Model.EntitySet{``0})">Contains&lt;TItem&gt;(EntitySet&lt;TItem&gt;)</h4>
   <div class="markdown level1 summary"><p>Determines whether an item exists in the repository.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool Contains&lt;TItem&gt;([NotNull] EntitySet&lt;TItem&gt; selection)</code></pre>
+    <pre><code class="lang-csharp hljs">bool Contains&lt;TItem&gt;(EntitySet&lt;TItem&gt; selection)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -497,16 +259,16 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/ReadOnlyRepository.cs&amp;version=GBmaster&amp;line=132">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/IReadOnlyRepository.cs&amp;version=GBmaster&amp;line=58">View Source</a>
   </span>
-  <a id="Startitecture_Orm_Common_ReadOnlyRepository_2_ContainsAsync_" data-uid="Startitecture.Orm.Common.ReadOnlyRepository`2.ContainsAsync*"></a>
-  <h4 id="Startitecture_Orm_Common_ReadOnlyRepository_2_ContainsAsync__1___0_" data-uid="Startitecture.Orm.Common.ReadOnlyRepository`2.ContainsAsync``1(``0)">ContainsAsync&lt;TItem&gt;(TItem)</h4>
+  <a id="Startitecture_Orm_Common_IReadOnlyRepository_1_ContainsAsync_" data-uid="Startitecture.Orm.Common.IReadOnlyRepository`1.ContainsAsync*"></a>
+  <h4 id="Startitecture_Orm_Common_IReadOnlyRepository_1_ContainsAsync__1___0_" data-uid="Startitecture.Orm.Common.IReadOnlyRepository`1.ContainsAsync``1(``0)">ContainsAsync&lt;TItem&gt;(TItem)</h4>
   <div class="markdown level1 summary"><p>Determines whether an item exists in the repository.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;bool&gt; ContainsAsync&lt;TItem&gt;(TItem candidate)</code></pre>
+    <pre><code class="lang-csharp hljs">Task&lt;bool&gt; ContainsAsync&lt;TItem&gt;(TItem candidate)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -576,16 +338,16 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/ReadOnlyRepository.cs&amp;version=GBmaster&amp;line=160">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/IReadOnlyRepository.cs&amp;version=GBmaster&amp;line=92">View Source</a>
   </span>
-  <a id="Startitecture_Orm_Common_ReadOnlyRepository_2_ContainsAsync_" data-uid="Startitecture.Orm.Common.ReadOnlyRepository`2.ContainsAsync*"></a>
-  <h4 id="Startitecture_Orm_Common_ReadOnlyRepository_2_ContainsAsync__1_Startitecture_Orm_Model_EntitySet___0__" data-uid="Startitecture.Orm.Common.ReadOnlyRepository`2.ContainsAsync``1(Startitecture.Orm.Model.EntitySet{``0})">ContainsAsync&lt;TItem&gt;(EntitySet&lt;TItem&gt;)</h4>
+  <a id="Startitecture_Orm_Common_IReadOnlyRepository_1_ContainsAsync_" data-uid="Startitecture.Orm.Common.IReadOnlyRepository`1.ContainsAsync*"></a>
+  <h4 id="Startitecture_Orm_Common_IReadOnlyRepository_1_ContainsAsync__1_Startitecture_Orm_Model_EntitySet___0__" data-uid="Startitecture.Orm.Common.IReadOnlyRepository`1.ContainsAsync``1(Startitecture.Orm.Model.EntitySet{``0})">ContainsAsync&lt;TItem&gt;(EntitySet&lt;TItem&gt;)</h4>
   <div class="markdown level1 summary"><p>Determines whether an item exists in the repository.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;bool&gt; ContainsAsync&lt;TItem&gt;(EntitySet&lt;TItem&gt; selection)</code></pre>
+    <pre><code class="lang-csharp hljs">Task&lt;bool&gt; ContainsAsync&lt;TItem&gt;(EntitySet&lt;TItem&gt; selection)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -655,16 +417,16 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/ReadOnlyRepository.cs&amp;version=GBmaster&amp;line=269">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/IReadOnlyRepository.cs&amp;version=GBmaster&amp;line=205">View Source</a>
   </span>
-  <a id="Startitecture_Orm_Common_ReadOnlyRepository_2_DynamicFirstOrDefault_" data-uid="Startitecture.Orm.Common.ReadOnlyRepository`2.DynamicFirstOrDefault*"></a>
-  <h4 id="Startitecture_Orm_Common_ReadOnlyRepository_2_DynamicFirstOrDefault_Startitecture_Orm_Model_ISelection_" data-uid="Startitecture.Orm.Common.ReadOnlyRepository`2.DynamicFirstOrDefault(Startitecture.Orm.Model.ISelection)">DynamicFirstOrDefault(ISelection)</h4>
+  <a id="Startitecture_Orm_Common_IReadOnlyRepository_1_DynamicFirstOrDefault_" data-uid="Startitecture.Orm.Common.IReadOnlyRepository`1.DynamicFirstOrDefault*"></a>
+  <h4 id="Startitecture_Orm_Common_IReadOnlyRepository_1_DynamicFirstOrDefault_Startitecture_Orm_Model_ISelection_" data-uid="Startitecture.Orm.Common.IReadOnlyRepository`1.DynamicFirstOrDefault(Startitecture.Orm.Model.ISelection)">DynamicFirstOrDefault(ISelection)</h4>
   <div class="markdown level1 summary"><p>Gets the first matching result of the <code data-dev-comment-type="paramref" class="paramref">selection</code> as a dynamic object.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public dynamic DynamicFirstOrDefault([NotNull] ISelection selection)</code></pre>
+    <pre><code class="lang-csharp hljs">dynamic DynamicFirstOrDefault(ISelection selection)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -702,16 +464,16 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/ReadOnlyRepository.cs&amp;version=GBmaster&amp;line=280">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/IReadOnlyRepository.cs&amp;version=GBmaster&amp;line=216">View Source</a>
   </span>
-  <a id="Startitecture_Orm_Common_ReadOnlyRepository_2_DynamicFirstOrDefaultAsync_" data-uid="Startitecture.Orm.Common.ReadOnlyRepository`2.DynamicFirstOrDefaultAsync*"></a>
-  <h4 id="Startitecture_Orm_Common_ReadOnlyRepository_2_DynamicFirstOrDefaultAsync_Startitecture_Orm_Model_ISelection_" data-uid="Startitecture.Orm.Common.ReadOnlyRepository`2.DynamicFirstOrDefaultAsync(Startitecture.Orm.Model.ISelection)">DynamicFirstOrDefaultAsync(ISelection)</h4>
+  <a id="Startitecture_Orm_Common_IReadOnlyRepository_1_DynamicFirstOrDefaultAsync_" data-uid="Startitecture.Orm.Common.IReadOnlyRepository`1.DynamicFirstOrDefaultAsync*"></a>
+  <h4 id="Startitecture_Orm_Common_IReadOnlyRepository_1_DynamicFirstOrDefaultAsync_Startitecture_Orm_Model_ISelection_" data-uid="Startitecture.Orm.Common.IReadOnlyRepository`1.DynamicFirstOrDefaultAsync(Startitecture.Orm.Model.ISelection)">DynamicFirstOrDefaultAsync(ISelection)</h4>
   <div class="markdown level1 summary"><p>Gets the first matching result of the <code data-dev-comment-type="paramref" class="paramref">selection</code> as a dynamic object.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;dynamic&gt; DynamicFirstOrDefaultAsync(ISelection selection)</code></pre>
+    <pre><code class="lang-csharp hljs">Task&lt;dynamic&gt; DynamicFirstOrDefaultAsync(ISelection selection)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -749,16 +511,16 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/ReadOnlyRepository.cs&amp;version=GBmaster&amp;line=333">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/IReadOnlyRepository.cs&amp;version=GBmaster&amp;line=280">View Source</a>
   </span>
-  <a id="Startitecture_Orm_Common_ReadOnlyRepository_2_DynamicSelect_" data-uid="Startitecture.Orm.Common.ReadOnlyRepository`2.DynamicSelect*"></a>
-  <h4 id="Startitecture_Orm_Common_ReadOnlyRepository_2_DynamicSelect__1_Startitecture_Orm_Model_EntitySelection___0__" data-uid="Startitecture.Orm.Common.ReadOnlyRepository`2.DynamicSelect``1(Startitecture.Orm.Model.EntitySelection{``0})">DynamicSelect&lt;TItem&gt;(EntitySelection&lt;TItem&gt;)</h4>
+  <a id="Startitecture_Orm_Common_IReadOnlyRepository_1_DynamicSelect_" data-uid="Startitecture.Orm.Common.IReadOnlyRepository`1.DynamicSelect*"></a>
+  <h4 id="Startitecture_Orm_Common_IReadOnlyRepository_1_DynamicSelect__1_Startitecture_Orm_Model_EntitySelection___0__" data-uid="Startitecture.Orm.Common.IReadOnlyRepository`1.DynamicSelect``1(Startitecture.Orm.Model.EntitySelection{``0})">DynamicSelect&lt;TItem&gt;(EntitySelection&lt;TItem&gt;)</h4>
   <div class="markdown level1 summary"><p>Returns a collection of dynamic objects matching the <code data-dev-comment-type="paramref" class="paramref">selection</code>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IEnumerable&lt;dynamic&gt; DynamicSelect&lt;TItem&gt;([NotNull] EntitySelection&lt;TItem&gt; selection)</code></pre>
+    <pre><code class="lang-csharp hljs">IEnumerable&lt;dynamic&gt; DynamicSelect&lt;TItem&gt;(EntitySelection&lt;TItem&gt; selection)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -812,16 +574,16 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/ReadOnlyRepository.cs&amp;version=GBmaster&amp;line=344">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/IReadOnlyRepository.cs&amp;version=GBmaster&amp;line=294">View Source</a>
   </span>
-  <a id="Startitecture_Orm_Common_ReadOnlyRepository_2_DynamicSelectAsync_" data-uid="Startitecture.Orm.Common.ReadOnlyRepository`2.DynamicSelectAsync*"></a>
-  <h4 id="Startitecture_Orm_Common_ReadOnlyRepository_2_DynamicSelectAsync__1_Startitecture_Orm_Model_EntitySelection___0__" data-uid="Startitecture.Orm.Common.ReadOnlyRepository`2.DynamicSelectAsync``1(Startitecture.Orm.Model.EntitySelection{``0})">DynamicSelectAsync&lt;TItem&gt;(EntitySelection&lt;TItem&gt;)</h4>
+  <a id="Startitecture_Orm_Common_IReadOnlyRepository_1_DynamicSelectAsync_" data-uid="Startitecture.Orm.Common.IReadOnlyRepository`1.DynamicSelectAsync*"></a>
+  <h4 id="Startitecture_Orm_Common_IReadOnlyRepository_1_DynamicSelectAsync__1_Startitecture_Orm_Model_EntitySelection___0__" data-uid="Startitecture.Orm.Common.IReadOnlyRepository`1.DynamicSelectAsync``1(Startitecture.Orm.Model.EntitySelection{``0})">DynamicSelectAsync&lt;TItem&gt;(EntitySelection&lt;TItem&gt;)</h4>
   <div class="markdown level1 summary"><p>Returns a collection of dynamic objects matching the <code data-dev-comment-type="paramref" class="paramref">selection</code>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;IEnumerable&lt;dynamic&gt;&gt; DynamicSelectAsync&lt;TItem&gt;(EntitySelection&lt;TItem&gt; selection)</code></pre>
+    <pre><code class="lang-csharp hljs">Task&lt;IEnumerable&lt;dynamic&gt;&gt; DynamicSelectAsync&lt;TItem&gt;(EntitySelection&lt;TItem&gt; selection)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -875,16 +637,16 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/ReadOnlyRepository.cs&amp;version=GBmaster&amp;line=241">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/IReadOnlyRepository.cs&amp;version=GBmaster&amp;line=179">View Source</a>
   </span>
-  <a id="Startitecture_Orm_Common_ReadOnlyRepository_2_FirstOrDefault_" data-uid="Startitecture.Orm.Common.ReadOnlyRepository`2.FirstOrDefault*"></a>
-  <h4 id="Startitecture_Orm_Common_ReadOnlyRepository_2_FirstOrDefault_System_Action_Startitecture_Orm_Model_EntitySet__0___" data-uid="Startitecture.Orm.Common.ReadOnlyRepository`2.FirstOrDefault(System.Action{Startitecture.Orm.Model.EntitySet{`0}})">FirstOrDefault(Action&lt;EntitySet&lt;TModel&gt;&gt;)</h4>
+  <a id="Startitecture_Orm_Common_IReadOnlyRepository_1_FirstOrDefault_" data-uid="Startitecture.Orm.Common.IReadOnlyRepository`1.FirstOrDefault*"></a>
+  <h4 id="Startitecture_Orm_Common_IReadOnlyRepository_1_FirstOrDefault_System_Action_Startitecture_Orm_Model_EntitySet__0___" data-uid="Startitecture.Orm.Common.IReadOnlyRepository`1.FirstOrDefault(System.Action{Startitecture.Orm.Model.EntitySet{`0}})">FirstOrDefault(Action&lt;EntitySet&lt;TModel&gt;&gt;)</h4>
   <div class="markdown level1 summary"><p>Gets the first matching item of the selection. To ensure repeatable results, use unique column criteria.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public TModel FirstOrDefault([NotNull] Action&lt;EntitySet&lt;TModel&gt;&gt; defineSet)</code></pre>
+    <pre><code class="lang-csharp hljs">TModel FirstOrDefault(Action&lt;EntitySet&lt;TModel&gt;&gt; defineSet)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -939,16 +701,16 @@ default value of the <code data-dev-comment-type="typeparamref" class="typeparam
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/ReadOnlyRepository.cs&amp;version=GBmaster&amp;line=171">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/IReadOnlyRepository.cs&amp;version=GBmaster&amp;line=110">View Source</a>
   </span>
-  <a id="Startitecture_Orm_Common_ReadOnlyRepository_2_FirstOrDefault_" data-uid="Startitecture.Orm.Common.ReadOnlyRepository`2.FirstOrDefault*"></a>
-  <h4 id="Startitecture_Orm_Common_ReadOnlyRepository_2_FirstOrDefault__1___0_" data-uid="Startitecture.Orm.Common.ReadOnlyRepository`2.FirstOrDefault``1(``0)">FirstOrDefault&lt;TItem&gt;(TItem)</h4>
+  <a id="Startitecture_Orm_Common_IReadOnlyRepository_1_FirstOrDefault_" data-uid="Startitecture.Orm.Common.IReadOnlyRepository`1.FirstOrDefault*"></a>
+  <h4 id="Startitecture_Orm_Common_IReadOnlyRepository_1_FirstOrDefault__1___0_" data-uid="Startitecture.Orm.Common.IReadOnlyRepository`1.FirstOrDefault``1(``0)">FirstOrDefault&lt;TItem&gt;(TItem)</h4>
   <div class="markdown level1 summary"><p>Gets an item by its identifier or unique key.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public TModel FirstOrDefault&lt;TItem&gt;(TItem candidate)</code></pre>
+    <pre><code class="lang-csharp hljs">TModel FirstOrDefault&lt;TItem&gt;(TItem candidate)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1019,16 +781,16 @@ default value of the <code data-dev-comment-type="typeparamref" class="typeparam
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/ReadOnlyRepository.cs&amp;version=GBmaster&amp;line=217">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/IReadOnlyRepository.cs&amp;version=GBmaster&amp;line=146">View Source</a>
   </span>
-  <a id="Startitecture_Orm_Common_ReadOnlyRepository_2_FirstOrDefault_" data-uid="Startitecture.Orm.Common.ReadOnlyRepository`2.FirstOrDefault*"></a>
-  <h4 id="Startitecture_Orm_Common_ReadOnlyRepository_2_FirstOrDefault__1_Startitecture_Orm_Model_EntitySet___0__" data-uid="Startitecture.Orm.Common.ReadOnlyRepository`2.FirstOrDefault``1(Startitecture.Orm.Model.EntitySet{``0})">FirstOrDefault&lt;TItem&gt;(EntitySet&lt;TItem&gt;)</h4>
+  <a id="Startitecture_Orm_Common_IReadOnlyRepository_1_FirstOrDefault_" data-uid="Startitecture.Orm.Common.IReadOnlyRepository`1.FirstOrDefault*"></a>
+  <h4 id="Startitecture_Orm_Common_IReadOnlyRepository_1_FirstOrDefault__1_Startitecture_Orm_Model_EntitySet___0__" data-uid="Startitecture.Orm.Common.IReadOnlyRepository`1.FirstOrDefault``1(Startitecture.Orm.Model.EntitySet{``0})">FirstOrDefault&lt;TItem&gt;(EntitySet&lt;TItem&gt;)</h4>
   <div class="markdown level1 summary"><p>Gets the first matching item of the selection. To ensure repeatable results, use unique column criteria.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public TModel FirstOrDefault&lt;TItem&gt;([NotNull] EntitySet&lt;TItem&gt; selection)</code></pre>
+    <pre><code class="lang-csharp hljs">TModel FirstOrDefault&lt;TItem&gt;(EntitySet&lt;TItem&gt; selection)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1099,16 +861,16 @@ default value of the <code data-dev-comment-type="typeparamref" class="typeparam
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/ReadOnlyRepository.cs&amp;version=GBmaster&amp;line=255">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/IReadOnlyRepository.cs&amp;version=GBmaster&amp;line=194">View Source</a>
   </span>
-  <a id="Startitecture_Orm_Common_ReadOnlyRepository_2_FirstOrDefaultAsync_" data-uid="Startitecture.Orm.Common.ReadOnlyRepository`2.FirstOrDefaultAsync*"></a>
-  <h4 id="Startitecture_Orm_Common_ReadOnlyRepository_2_FirstOrDefaultAsync_System_Action_Startitecture_Orm_Model_EntitySet__0___" data-uid="Startitecture.Orm.Common.ReadOnlyRepository`2.FirstOrDefaultAsync(System.Action{Startitecture.Orm.Model.EntitySet{`0}})">FirstOrDefaultAsync(Action&lt;EntitySet&lt;TModel&gt;&gt;)</h4>
+  <a id="Startitecture_Orm_Common_IReadOnlyRepository_1_FirstOrDefaultAsync_" data-uid="Startitecture.Orm.Common.IReadOnlyRepository`1.FirstOrDefaultAsync*"></a>
+  <h4 id="Startitecture_Orm_Common_IReadOnlyRepository_1_FirstOrDefaultAsync_System_Action_Startitecture_Orm_Model_EntitySet__0___" data-uid="Startitecture.Orm.Common.IReadOnlyRepository`1.FirstOrDefaultAsync(System.Action{Startitecture.Orm.Model.EntitySet{`0}})">FirstOrDefaultAsync(Action&lt;EntitySet&lt;TModel&gt;&gt;)</h4>
   <div class="markdown level1 summary"><p>Gets the first matching item of the selection. To ensure repeatable results, use unique column criteria.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;TModel&gt; FirstOrDefaultAsync(Action&lt;EntitySet&lt;TModel&gt;&gt; defineSet)</code></pre>
+    <pre><code class="lang-csharp hljs">Task&lt;TModel&gt; FirstOrDefaultAsync(Action&lt;EntitySet&lt;TModel&gt;&gt; defineSet)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1163,16 +925,16 @@ default value of the <code data-dev-comment-type="typeparamref" class="typeparam
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/ReadOnlyRepository.cs&amp;version=GBmaster&amp;line=194">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/IReadOnlyRepository.cs&amp;version=GBmaster&amp;line=128">View Source</a>
   </span>
-  <a id="Startitecture_Orm_Common_ReadOnlyRepository_2_FirstOrDefaultAsync_" data-uid="Startitecture.Orm.Common.ReadOnlyRepository`2.FirstOrDefaultAsync*"></a>
-  <h4 id="Startitecture_Orm_Common_ReadOnlyRepository_2_FirstOrDefaultAsync__1___0_" data-uid="Startitecture.Orm.Common.ReadOnlyRepository`2.FirstOrDefaultAsync``1(``0)">FirstOrDefaultAsync&lt;TItem&gt;(TItem)</h4>
+  <a id="Startitecture_Orm_Common_IReadOnlyRepository_1_FirstOrDefaultAsync_" data-uid="Startitecture.Orm.Common.IReadOnlyRepository`1.FirstOrDefaultAsync*"></a>
+  <h4 id="Startitecture_Orm_Common_IReadOnlyRepository_1_FirstOrDefaultAsync__1___0_" data-uid="Startitecture.Orm.Common.IReadOnlyRepository`1.FirstOrDefaultAsync``1(``0)">FirstOrDefaultAsync&lt;TItem&gt;(TItem)</h4>
   <div class="markdown level1 summary"><p>Gets an item by its identifier or unique key.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;TModel&gt; FirstOrDefaultAsync&lt;TItem&gt;(TItem candidate)</code></pre>
+    <pre><code class="lang-csharp hljs">Task&lt;TModel&gt; FirstOrDefaultAsync&lt;TItem&gt;(TItem candidate)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1243,16 +1005,16 @@ default value of the <code data-dev-comment-type="typeparamref" class="typeparam
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/ReadOnlyRepository.cs&amp;version=GBmaster&amp;line=229">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/IReadOnlyRepository.cs&amp;version=GBmaster&amp;line=164">View Source</a>
   </span>
-  <a id="Startitecture_Orm_Common_ReadOnlyRepository_2_FirstOrDefaultAsync_" data-uid="Startitecture.Orm.Common.ReadOnlyRepository`2.FirstOrDefaultAsync*"></a>
-  <h4 id="Startitecture_Orm_Common_ReadOnlyRepository_2_FirstOrDefaultAsync__1_Startitecture_Orm_Model_EntitySet___0__" data-uid="Startitecture.Orm.Common.ReadOnlyRepository`2.FirstOrDefaultAsync``1(Startitecture.Orm.Model.EntitySet{``0})">FirstOrDefaultAsync&lt;TItem&gt;(EntitySet&lt;TItem&gt;)</h4>
+  <a id="Startitecture_Orm_Common_IReadOnlyRepository_1_FirstOrDefaultAsync_" data-uid="Startitecture.Orm.Common.IReadOnlyRepository`1.FirstOrDefaultAsync*"></a>
+  <h4 id="Startitecture_Orm_Common_IReadOnlyRepository_1_FirstOrDefaultAsync__1_Startitecture_Orm_Model_EntitySet___0__" data-uid="Startitecture.Orm.Common.IReadOnlyRepository`1.FirstOrDefaultAsync``1(Startitecture.Orm.Model.EntitySet{``0})">FirstOrDefaultAsync&lt;TItem&gt;(EntitySet&lt;TItem&gt;)</h4>
   <div class="markdown level1 summary"><p>Gets the first matching item of the selection. To ensure repeatable results, use unique column criteria.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;TModel&gt; FirstOrDefaultAsync&lt;TItem&gt;(EntitySet&lt;TItem&gt; selection)</code></pre>
+    <pre><code class="lang-csharp hljs">Task&lt;TModel&gt; FirstOrDefaultAsync&lt;TItem&gt;(EntitySet&lt;TItem&gt; selection)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1323,150 +1085,16 @@ default value of the <code data-dev-comment-type="typeparamref" class="typeparam
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/ReadOnlyRepository.cs&amp;version=GBmaster&amp;line=417">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/IReadOnlyRepository.cs&amp;version=GBmaster&amp;line=224">View Source</a>
   </span>
-  <a id="Startitecture_Orm_Common_ReadOnlyRepository_2_GetExampleEntity_" data-uid="Startitecture.Orm.Common.ReadOnlyRepository`2.GetExampleEntity*"></a>
-  <h4 id="Startitecture_Orm_Common_ReadOnlyRepository_2_GetExampleEntity__1___0_" data-uid="Startitecture.Orm.Common.ReadOnlyRepository`2.GetExampleEntity``1(``0)">GetExampleEntity&lt;TItem&gt;(TItem)</h4>
-  <div class="markdown level1 summary"><p>Gets an example item from the provided <code data-dev-comment-type="typeparamref" class="typeparamref">TItem</code> key. If the key is a value type or string, an item is created and its
-first unique key property value is set to the key, or first primary key property if no unique keys are specified. If the key is the same
-type as the entity, then the entity is returned directly. If the key is a dynamic, then all matching unique attributes of the specified
-unique key are set from the dynamic, or all matching primary key values if no unique keys are specified.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected TEntity GetExampleEntity&lt;TItem&gt;([NotNull] TItem key)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">TItem</span></td>
-        <td><span class="parametername">key</span></td>
-        <td><p>The key for the example item.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">TEntity</span></td>
-        <td><p>An example of the data row as a <code data-dev-comment-type="typeparamref" class="typeparamref">TEntity</code>.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">TItem</span></td>
-        <td><p>The type of item that represents the key.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="exceptions">Exceptions</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Condition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.ArgumentNullException</span></td>
-        <td><p><code data-dev-comment-type="paramref" class="paramref">key</code> is null.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">Startitecture.Core.OperationException</span></td>
-        <td><p>The key cannot be applied to the <code data-dev-comment-type="typeparamref" class="typeparamref">TEntity</code>. The inner exception contains details as to why.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/ReadOnlyRepository.cs&amp;version=GBmaster&amp;line=363">View Source</a>
-  </span>
-  <a id="Startitecture_Orm_Common_ReadOnlyRepository_2_GetUniqueItemSelection_" data-uid="Startitecture.Orm.Common.ReadOnlyRepository`2.GetUniqueItemSelection*"></a>
-  <h4 id="Startitecture_Orm_Common_ReadOnlyRepository_2_GetUniqueItemSelection__1_" data-uid="Startitecture.Orm.Common.ReadOnlyRepository`2.GetUniqueItemSelection(`1)">GetUniqueItemSelection(TEntity)</h4>
-  <div class="markdown level1 summary"><p>Gets a unique item selection for the specified entity.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected virtual EntitySelection&lt;TEntity&gt; GetUniqueItemSelection(TEntity entity)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">TEntity</span></td>
-        <td><span class="parametername">entity</span></td>
-        <td><p>The entity to create the selection for.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Startitecture.Orm.Model.EntitySelection-1.html">EntitySelection</a>&lt;TEntity&gt;</td>
-        <td><p>A <a class="xref" href="Startitecture.Orm.Model.EntitySelection-1.html">EntitySelection&lt;T&gt;</a> for the specified entity.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/ReadOnlyRepository.cs&amp;version=GBmaster&amp;line=291">View Source</a>
-  </span>
-  <a id="Startitecture_Orm_Common_ReadOnlyRepository_2_SelectAll_" data-uid="Startitecture.Orm.Common.ReadOnlyRepository`2.SelectAll*"></a>
-  <h4 id="Startitecture_Orm_Common_ReadOnlyRepository_2_SelectAll" data-uid="Startitecture.Orm.Common.ReadOnlyRepository`2.SelectAll">SelectAll()</h4>
+  <a id="Startitecture_Orm_Common_IReadOnlyRepository_1_SelectAll_" data-uid="Startitecture.Orm.Common.IReadOnlyRepository`1.SelectAll*"></a>
+  <h4 id="Startitecture_Orm_Common_IReadOnlyRepository_1_SelectAll" data-uid="Startitecture.Orm.Common.IReadOnlyRepository`1.SelectAll">SelectAll()</h4>
   <div class="markdown level1 summary"><p>Selects all the domain models of the type <code data-dev-comment-type="typeparamref" class="typeparamref">TModel</code> in the repository.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IEnumerable&lt;TModel&gt; SelectAll()</code></pre>
+    <pre><code class="lang-csharp hljs">IEnumerable&lt;TModel&gt; SelectAll()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1486,16 +1114,16 @@ unique key are set from the dynamic, or all matching primary key values if no un
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/ReadOnlyRepository.cs&amp;version=GBmaster&amp;line=299">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/IReadOnlyRepository.cs&amp;version=GBmaster&amp;line=232">View Source</a>
   </span>
-  <a id="Startitecture_Orm_Common_ReadOnlyRepository_2_SelectAllAsync_" data-uid="Startitecture.Orm.Common.ReadOnlyRepository`2.SelectAllAsync*"></a>
-  <h4 id="Startitecture_Orm_Common_ReadOnlyRepository_2_SelectAllAsync" data-uid="Startitecture.Orm.Common.ReadOnlyRepository`2.SelectAllAsync">SelectAllAsync()</h4>
+  <a id="Startitecture_Orm_Common_IReadOnlyRepository_1_SelectAllAsync_" data-uid="Startitecture.Orm.Common.IReadOnlyRepository`1.SelectAllAsync*"></a>
+  <h4 id="Startitecture_Orm_Common_IReadOnlyRepository_1_SelectAllAsync" data-uid="Startitecture.Orm.Common.IReadOnlyRepository`1.SelectAllAsync">SelectAllAsync()</h4>
   <div class="markdown level1 summary"><p>Selects all the domain models of the type <code data-dev-comment-type="typeparamref" class="typeparamref">TModel</code> in the repository.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;IEnumerable&lt;TModel&gt;&gt; SelectAllAsync()</code></pre>
+    <pre><code class="lang-csharp hljs">Task&lt;IEnumerable&lt;TModel&gt;&gt; SelectAllAsync()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1515,16 +1143,16 @@ unique key are set from the dynamic, or all matching primary key values if no un
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/ReadOnlyRepository.cs&amp;version=GBmaster&amp;line=307">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/IReadOnlyRepository.cs&amp;version=GBmaster&amp;line=249">View Source</a>
   </span>
-  <a id="Startitecture_Orm_Common_ReadOnlyRepository_2_SelectEntities_" data-uid="Startitecture.Orm.Common.ReadOnlyRepository`2.SelectEntities*"></a>
-  <h4 id="Startitecture_Orm_Common_ReadOnlyRepository_2_SelectEntities__1_Startitecture_Orm_Model_EntitySet___0__" data-uid="Startitecture.Orm.Common.ReadOnlyRepository`2.SelectEntities``1(Startitecture.Orm.Model.EntitySet{``0})">SelectEntities&lt;TItem&gt;(EntitySet&lt;TItem&gt;)</h4>
+  <a id="Startitecture_Orm_Common_IReadOnlyRepository_1_SelectEntities_" data-uid="Startitecture.Orm.Common.IReadOnlyRepository`1.SelectEntities*"></a>
+  <h4 id="Startitecture_Orm_Common_IReadOnlyRepository_1_SelectEntities__1_Startitecture_Orm_Model_EntitySet___0__" data-uid="Startitecture.Orm.Common.IReadOnlyRepository`1.SelectEntities``1(Startitecture.Orm.Model.EntitySet{``0})">SelectEntities&lt;TItem&gt;(EntitySet&lt;TItem&gt;)</h4>
   <div class="markdown level1 summary"><p>Returns a collection of domain models matching the <code data-dev-comment-type="paramref" class="paramref">selection</code> for the specified data item type.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IEnumerable&lt;TModel&gt; SelectEntities&lt;TItem&gt;([NotNull] EntitySet&lt;TItem&gt; selection)</code></pre>
+    <pre><code class="lang-csharp hljs">IEnumerable&lt;TModel&gt; SelectEntities&lt;TItem&gt;(EntitySet&lt;TItem&gt; selection)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1594,16 +1222,16 @@ unique key are set from the dynamic, or all matching primary key values if no un
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/ReadOnlyRepository.cs&amp;version=GBmaster&amp;line=320">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/IReadOnlyRepository.cs&amp;version=GBmaster&amp;line=266">View Source</a>
   </span>
-  <a id="Startitecture_Orm_Common_ReadOnlyRepository_2_SelectEntitiesAsync_" data-uid="Startitecture.Orm.Common.ReadOnlyRepository`2.SelectEntitiesAsync*"></a>
-  <h4 id="Startitecture_Orm_Common_ReadOnlyRepository_2_SelectEntitiesAsync__1_Startitecture_Orm_Model_EntitySet___0__" data-uid="Startitecture.Orm.Common.ReadOnlyRepository`2.SelectEntitiesAsync``1(Startitecture.Orm.Model.EntitySet{``0})">SelectEntitiesAsync&lt;TItem&gt;(EntitySet&lt;TItem&gt;)</h4>
+  <a id="Startitecture_Orm_Common_IReadOnlyRepository_1_SelectEntitiesAsync_" data-uid="Startitecture.Orm.Common.IReadOnlyRepository`1.SelectEntitiesAsync*"></a>
+  <h4 id="Startitecture_Orm_Common_IReadOnlyRepository_1_SelectEntitiesAsync__1_Startitecture_Orm_Model_EntitySet___0__" data-uid="Startitecture.Orm.Common.IReadOnlyRepository`1.SelectEntitiesAsync``1(Startitecture.Orm.Model.EntitySet{``0})">SelectEntitiesAsync&lt;TItem&gt;(EntitySet&lt;TItem&gt;)</h4>
   <div class="markdown level1 summary"><p>Returns a collection of domain models matching the <code data-dev-comment-type="paramref" class="paramref">selection</code> for the specified data item type.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;IEnumerable&lt;TModel&gt;&gt; SelectEntitiesAsync&lt;TItem&gt;(EntitySet&lt;TItem&gt; selection)</code></pre>
+    <pre><code class="lang-csharp hljs">Task&lt;IEnumerable&lt;TModel&gt;&gt; SelectEntitiesAsync&lt;TItem&gt;(EntitySet&lt;TItem&gt; selection)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1671,10 +1299,6 @@ unique key are set from the dynamic, or all matching primary key values if no un
       </tr>
     </tbody>
   </table>
-  <h3 id="implements">Implements</h3>
-  <div>
-      <a class="xref" href="Startitecture.Orm.Common.IReadOnlyRepository-1.html">IReadOnlyRepository&lt;TModel&gt;</a>
-  </div>
 </article>
           </div>
           
@@ -1683,7 +1307,7 @@ unique key are set from the dynamic, or all matching primary key values if no un
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/ReadOnlyRepository.cs&amp;version=GBmaster&amp;line=36" class="contribution-link">View Source</a>
+                    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/IReadOnlyRepository.cs&amp;version=GBmaster&amp;line=24" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

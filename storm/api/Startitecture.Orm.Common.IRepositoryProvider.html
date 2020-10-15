@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Interface IRepositoryProvider
    ">
-    <meta name="generator" content="docfx 2.56.2.0">
+    <meta name="generator" content="docfx 2.56.3.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -80,27 +80,30 @@
     <div>
       <span class="xref">System.IDisposable.Dispose()</span>
     </div>
+    <div>
+      <span class="xref">System.IAsyncDisposable.DisposeAsync()</span>
+    </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Startitecture.Orm.Common.html">Startitecture.Orm.Common</a></h6>
   <h6><strong>Assembly</strong>: Startitecture.Orm.Common.dll</h6>
   <h5 id="Startitecture_Orm_Common_IRepositoryProvider_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public interface IRepositoryProvider : IDisposable</code></pre>
+    <pre><code class="lang-csharp hljs">public interface IRepositoryProvider : IDisposable, IAsyncDisposable</code></pre>
   </div>
   <h3 id="properties">Properties
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/IRepositoryProvider.cs&amp;version=GBmaster&amp;line=54">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/IRepositoryProvider.cs&amp;version=GBmaster&amp;line=49">View Source</a>
   </span>
-  <a id="Startitecture_Orm_Common_IRepositoryProvider_CacheExpiration_" data-uid="Startitecture.Orm.Common.IRepositoryProvider.CacheExpiration*"></a>
-  <h4 id="Startitecture_Orm_Common_IRepositoryProvider_CacheExpiration" data-uid="Startitecture.Orm.Common.IRepositoryProvider.CacheExpiration">CacheExpiration</h4>
-  <div class="markdown level1 summary"><p>Gets or sets the amount of time after which cached entities will expire.</p>
+  <a id="Startitecture_Orm_Common_IRepositoryProvider_CacheItemPolicy_" data-uid="Startitecture.Orm.Common.IRepositoryProvider.CacheItemPolicy*"></a>
+  <h4 id="Startitecture_Orm_Common_IRepositoryProvider_CacheItemPolicy" data-uid="Startitecture.Orm.Common.IRepositoryProvider.CacheItemPolicy">CacheItemPolicy</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the cache item policy for single items retrieved using the FirstOrDefault methods.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">TimeSpan CacheExpiration { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">CacheItemPolicy CacheItemPolicy { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -112,7 +115,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.TimeSpan</span></td>
+        <td><span class="xref">System.Runtime.Caching.CacheItemPolicy</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -141,34 +144,6 @@
     <tbody>
       <tr>
         <td><a class="xref" href="Startitecture.Orm.Common.IDatabaseContext.html">IDatabaseContext</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/IRepositoryProvider.cs&amp;version=GBmaster&amp;line=49">View Source</a>
-  </span>
-  <a id="Startitecture_Orm_Common_IRepositoryProvider_EnableCaching_" data-uid="Startitecture.Orm.Common.IRepositoryProvider.EnableCaching*"></a>
-  <h4 id="Startitecture_Orm_Common_IRepositoryProvider_EnableCaching" data-uid="Startitecture.Orm.Common.IRepositoryProvider.EnableCaching">EnableCaching</h4>
-  <div class="markdown level1 summary"><p>Gets or sets a value indicating whether to enable caching for the current provider.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">bool EnableCaching { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -233,16 +208,45 @@
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/IRepositoryProvider.cs&amp;version=GBmaster&amp;line=62">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/IRepositoryProvider.cs&amp;version=GBmaster&amp;line=57">View Source</a>
   </span>
-  <a id="Startitecture_Orm_Common_IRepositoryProvider_ChangeDatabase_" data-uid="Startitecture.Orm.Common.IRepositoryProvider.ChangeDatabase*"></a>
-  <h4 id="Startitecture_Orm_Common_IRepositoryProvider_ChangeDatabase_System_String_" data-uid="Startitecture.Orm.Common.IRepositoryProvider.ChangeDatabase(System.String)">ChangeDatabase(String)</h4>
-  <div class="markdown level1 summary"><p>Changes the database of the current provider.</p>
+  <a id="Startitecture_Orm_Common_IRepositoryProvider_BeginTransaction_" data-uid="Startitecture.Orm.Common.IRepositoryProvider.BeginTransaction*"></a>
+  <h4 id="Startitecture_Orm_Common_IRepositoryProvider_BeginTransaction" data-uid="Startitecture.Orm.Common.IRepositoryProvider.BeginTransaction">BeginTransaction()</h4>
+  <div class="markdown level1 summary"><p>Starts a transaction in the repository.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void ChangeDatabase(string databaseName)</code></pre>
+    <pre><code class="lang-csharp hljs">ITransactionContext BeginTransaction()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Common.ITransactionContext.html">ITransactionContext</a></td>
+        <td><p>The <span class="xref">System.Data.IDbTransaction</span> started by the provider.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/IRepositoryProvider.cs&amp;version=GBmaster&amp;line=76">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Common_IRepositoryProvider_BeginTransaction_" data-uid="Startitecture.Orm.Common.IRepositoryProvider.BeginTransaction*"></a>
+  <h4 id="Startitecture_Orm_Common_IRepositoryProvider_BeginTransaction_System_Data_IsolationLevel_" data-uid="Startitecture.Orm.Common.IRepositoryProvider.BeginTransaction(System.Data.IsolationLevel)">BeginTransaction(IsolationLevel)</h4>
+  <div class="markdown level1 summary"><p>Start a transaction in the repository.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ITransactionContext BeginTransaction(IsolationLevel isolationLevel)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -255,16 +259,108 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">databaseName</span></td>
-        <td><p>The name of the database to switch to.</p>
+        <td><span class="xref">System.Data.IsolationLevel</span></td>
+        <td><span class="parametername">isolationLevel</span></td>
+        <td><p>The isolation level for the transaction.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Common.ITransactionContext.html">ITransactionContext</a></td>
+        <td><p>The <span class="xref">System.Data.IDbTransaction</span> started by the provider.</p>
 </td>
       </tr>
     </tbody>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/IRepositoryProvider.cs&amp;version=GBmaster&amp;line=92">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/IRepositoryProvider.cs&amp;version=GBmaster&amp;line=65">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Common_IRepositoryProvider_BeginTransactionAsync_" data-uid="Startitecture.Orm.Common.IRepositoryProvider.BeginTransactionAsync*"></a>
+  <h4 id="Startitecture_Orm_Common_IRepositoryProvider_BeginTransactionAsync" data-uid="Startitecture.Orm.Common.IRepositoryProvider.BeginTransactionAsync">BeginTransactionAsync()</h4>
+  <div class="markdown level1 summary"><p>Starts a transaction in the repository.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;ITransactionContext&gt; BeginTransactionAsync()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="Startitecture.Orm.Common.ITransactionContext.html">ITransactionContext</a>&gt;</td>
+        <td><p>The <span class="xref">System.Data.IDbTransaction</span> started by the provider.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/IRepositoryProvider.cs&amp;version=GBmaster&amp;line=87">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Common_IRepositoryProvider_BeginTransactionAsync_" data-uid="Startitecture.Orm.Common.IRepositoryProvider.BeginTransactionAsync*"></a>
+  <h4 id="Startitecture_Orm_Common_IRepositoryProvider_BeginTransactionAsync_System_Data_IsolationLevel_" data-uid="Startitecture.Orm.Common.IRepositoryProvider.BeginTransactionAsync(System.Data.IsolationLevel)">BeginTransactionAsync(IsolationLevel)</h4>
+  <div class="markdown level1 summary"><p>Start a transaction in the repository.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;ITransactionContext&gt; BeginTransactionAsync(IsolationLevel isolationLevel)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.IsolationLevel</span></td>
+        <td><span class="parametername">isolationLevel</span></td>
+        <td><p>The isolation level for the transaction.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="Startitecture.Orm.Common.ITransactionContext.html">ITransactionContext</a>&gt;</td>
+        <td><p>The <span class="xref">System.Data.IDbTransaction</span> started by the provider.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/IRepositoryProvider.cs&amp;version=GBmaster&amp;line=98">View Source</a>
   </span>
   <a id="Startitecture_Orm_Common_IRepositoryProvider_Contains_" data-uid="Startitecture.Orm.Common.IRepositoryProvider.Contains*"></a>
   <h4 id="Startitecture_Orm_Common_IRepositoryProvider_Contains_Startitecture_Orm_Model_IEntitySet_" data-uid="Startitecture.Orm.Common.IRepositoryProvider.Contains(Startitecture.Orm.Model.IEntitySet)">Contains(IEntitySet)</h4>
@@ -311,7 +407,54 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/IRepositoryProvider.cs&amp;version=GBmaster&amp;line=212">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/IRepositoryProvider.cs&amp;version=GBmaster&amp;line=109">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Common_IRepositoryProvider_ContainsAsync_" data-uid="Startitecture.Orm.Common.IRepositoryProvider.ContainsAsync*"></a>
+  <h4 id="Startitecture_Orm_Common_IRepositoryProvider_ContainsAsync_Startitecture_Orm_Model_IEntitySet_" data-uid="Startitecture.Orm.Common.IRepositoryProvider.ContainsAsync(Startitecture.Orm.Model.IEntitySet)">ContainsAsync(IEntitySet)</h4>
+  <div class="markdown level1 summary"><p>Determines whether an entity exists given the specified unique key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;bool&gt; ContainsAsync(IEntitySet selection)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Model.IEntitySet.html">IEntitySet</a></td>
+        <td><span class="parametername">selection</span></td>
+        <td><p>A selection for the specified entity or entities to query for existence.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">System.Boolean</span>&gt;</td>
+        <td><p><code>true</code> if the entity exists; otherwise, <code>false</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/IRepositoryProvider.cs&amp;version=GBmaster&amp;line=341">View Source</a>
   </span>
   <a id="Startitecture_Orm_Common_IRepositoryProvider_Delete_" data-uid="Startitecture.Orm.Common.IRepositoryProvider.Delete*"></a>
   <h4 id="Startitecture_Orm_Common_IRepositoryProvider_Delete_Startitecture_Orm_Model_IEntitySet_" data-uid="Startitecture.Orm.Common.IRepositoryProvider.Delete(Startitecture.Orm.Model.IEntitySet)">Delete(IEntitySet)</h4>
@@ -358,7 +501,54 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/IRepositoryProvider.cs&amp;version=GBmaster&amp;line=131">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/IRepositoryProvider.cs&amp;version=GBmaster&amp;line=352">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Common_IRepositoryProvider_DeleteAsync_" data-uid="Startitecture.Orm.Common.IRepositoryProvider.DeleteAsync*"></a>
+  <h4 id="Startitecture_Orm_Common_IRepositoryProvider_DeleteAsync_Startitecture_Orm_Model_IEntitySet_" data-uid="Startitecture.Orm.Common.IRepositoryProvider.DeleteAsync(Startitecture.Orm.Model.IEntitySet)">DeleteAsync(IEntitySet)</h4>
+  <div class="markdown level1 summary"><p>Deletes the entities matching the set.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;int&gt; DeleteAsync(IEntitySet entitySet)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Model.IEntitySet.html">IEntitySet</a></td>
+        <td><span class="parametername">entitySet</span></td>
+        <td><p>The entity set to delete.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><p>The number of deleted entities as an <span class="xref">System.Int32</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/IRepositoryProvider.cs&amp;version=GBmaster&amp;line=176">View Source</a>
   </span>
   <a id="Startitecture_Orm_Common_IRepositoryProvider_DynamicFirstOrDefault_" data-uid="Startitecture.Orm.Common.IRepositoryProvider.DynamicFirstOrDefault*"></a>
   <h4 id="Startitecture_Orm_Common_IRepositoryProvider_DynamicFirstOrDefault_Startitecture_Orm_Model_ISelection_" data-uid="Startitecture.Orm.Common.IRepositoryProvider.DynamicFirstOrDefault(Startitecture.Orm.Model.ISelection)">DynamicFirstOrDefault(ISelection)</h4>
@@ -405,7 +595,54 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/IRepositoryProvider.cs&amp;version=GBmaster&amp;line=156">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/IRepositoryProvider.cs&amp;version=GBmaster&amp;line=187">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Common_IRepositoryProvider_DynamicFirstOrDefaultAsync_" data-uid="Startitecture.Orm.Common.IRepositoryProvider.DynamicFirstOrDefaultAsync*"></a>
+  <h4 id="Startitecture_Orm_Common_IRepositoryProvider_DynamicFirstOrDefaultAsync_Startitecture_Orm_Model_ISelection_" data-uid="Startitecture.Orm.Common.IRepositoryProvider.DynamicFirstOrDefaultAsync(Startitecture.Orm.Model.ISelection)">DynamicFirstOrDefaultAsync(ISelection)</h4>
+  <div class="markdown level1 summary"><p>Gets the first dynamic result matching the <code data-dev-comment-type="paramref" class="paramref">selection</code>, or the default value if the entity cannot be found.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;dynamic&gt; DynamicFirstOrDefaultAsync(ISelection selection)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Model.ISelection.html">ISelection</a></td>
+        <td><span class="parametername">selection</span></td>
+        <td><p>A selection for the specified result to return.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">System.Object</span>&gt;</td>
+        <td><p>The first dynamic result matching the filter, or null if no matching entity is found.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/IRepositoryProvider.cs&amp;version=GBmaster&amp;line=226">View Source</a>
   </span>
   <a id="Startitecture_Orm_Common_IRepositoryProvider_DynamicSelect_" data-uid="Startitecture.Orm.Common.IRepositoryProvider.DynamicSelect*"></a>
   <h4 id="Startitecture_Orm_Common_IRepositoryProvider_DynamicSelect_Startitecture_Orm_Model_ISelection_" data-uid="Startitecture.Orm.Common.IRepositoryProvider.DynamicSelect(Startitecture.Orm.Model.ISelection)">DynamicSelect(ISelection)</h4>
@@ -452,16 +689,16 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/IRepositoryProvider.cs&amp;version=GBmaster&amp;line=223">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/IRepositoryProvider.cs&amp;version=GBmaster&amp;line=237">View Source</a>
   </span>
-  <a id="Startitecture_Orm_Common_IRepositoryProvider_Execute_" data-uid="Startitecture.Orm.Common.IRepositoryProvider.Execute*"></a>
-  <h4 id="Startitecture_Orm_Common_IRepositoryProvider_Execute_System_String_System_Object___" data-uid="Startitecture.Orm.Common.IRepositoryProvider.Execute(System.String,System.Object[])">Execute(String, Object[])</h4>
-  <div class="markdown level1 summary"><p>Executes the specified operation.</p>
+  <a id="Startitecture_Orm_Common_IRepositoryProvider_DynamicSelectAsync_" data-uid="Startitecture.Orm.Common.IRepositoryProvider.DynamicSelectAsync*"></a>
+  <h4 id="Startitecture_Orm_Common_IRepositoryProvider_DynamicSelectAsync_Startitecture_Orm_Model_ISelection_" data-uid="Startitecture.Orm.Common.IRepositoryProvider.DynamicSelectAsync(Startitecture.Orm.Model.ISelection)">DynamicSelectAsync(ISelection)</h4>
+  <div class="markdown level1 summary"><p>Selects a collection of dynamic objects matching the <code data-dev-comment-type="paramref" class="paramref">selection</code>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void Execute([NotNull] string executionStatement, [NotNull] params object[] parameterValues)</code></pre>
+    <pre><code class="lang-csharp hljs">Task&lt;IEnumerable&lt;dynamic&gt;&gt; DynamicSelectAsync(ISelection selection)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -474,52 +711,9 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">executionStatement</span></td>
-        <td><p>The execution statement.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Object</span>[]</td>
-        <td><span class="parametername">parameterValues</span></td>
-        <td><p>The parameter values.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/IRepositoryProvider.cs&amp;version=GBmaster&amp;line=254">View Source</a>
-  </span>
-  <a id="Startitecture_Orm_Common_IRepositoryProvider_ExecuteForResult_" data-uid="Startitecture.Orm.Common.IRepositoryProvider.ExecuteForResult*"></a>
-  <h4 id="Startitecture_Orm_Common_IRepositoryProvider_ExecuteForResult_System_String_System_Object___" data-uid="Startitecture.Orm.Common.IRepositoryProvider.ExecuteForResult(System.String,System.Object[])">ExecuteForResult(String, Object[])</h4>
-  <div class="markdown level1 summary"><p>Executes the specified operation for a table result.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">IEnumerable&lt;object&gt; ExecuteForResult([NotNull] string executionStatement, [NotNull] params object[] parameterValues)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">executionStatement</span></td>
-        <td><p>The execution statement.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Object</span>[]</td>
-        <td><span class="parametername">parameterValues</span></td>
-        <td><p>The parameter values.</p>
+        <td><a class="xref" href="Startitecture.Orm.Model.ISelection.html">ISelection</a></td>
+        <td><span class="parametername">selection</span></td>
+        <td><p>The selection specifying the results to return.</p>
 </td>
       </tr>
     </tbody>
@@ -534,153 +728,15 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Object</span>&gt;</td>
-        <td><p>An <span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span> of objects returned by the statement.</p>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Object</span>&gt;&gt;</td>
+        <td><p>An <span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span> of dynamic objects matching the selection.</p>
 </td>
       </tr>
     </tbody>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/IRepositoryProvider.cs&amp;version=GBmaster&amp;line=271">View Source</a>
-  </span>
-  <a id="Startitecture_Orm_Common_IRepositoryProvider_ExecuteForResult_" data-uid="Startitecture.Orm.Common.IRepositoryProvider.ExecuteForResult*"></a>
-  <h4 id="Startitecture_Orm_Common_IRepositoryProvider_ExecuteForResult__1_System_String_System_Object___" data-uid="Startitecture.Orm.Common.IRepositoryProvider.ExecuteForResult``1(System.String,System.Object[])">ExecuteForResult&lt;T&gt;(String, Object[])</h4>
-  <div class="markdown level1 summary"><p>Executes the specified operation for a table result.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">IEnumerable&lt;T&gt; ExecuteForResult&lt;T&gt;([NotNull] string executionStatement, [NotNull] params object[] parameterValues)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">executionStatement</span></td>
-        <td><p>The execution statement.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Object</span>[]</td>
-        <td><span class="parametername">parameterValues</span></td>
-        <td><p>The parameter values.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;T&gt;</td>
-        <td><p>An <span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span> of entities in the type of <code data-dev-comment-type="typeparamref" class="typeparamref">T</code>.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">T</span></td>
-        <td><p>The type of the result.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/IRepositoryProvider.cs&amp;version=GBmaster&amp;line=240">View Source</a>
-  </span>
-  <a id="Startitecture_Orm_Common_IRepositoryProvider_ExecuteScalar_" data-uid="Startitecture.Orm.Common.IRepositoryProvider.ExecuteScalar*"></a>
-  <h4 id="Startitecture_Orm_Common_IRepositoryProvider_ExecuteScalar__1_System_String_System_Object___" data-uid="Startitecture.Orm.Common.IRepositoryProvider.ExecuteScalar``1(System.String,System.Object[])">ExecuteScalar&lt;T&gt;(String, Object[])</h4>
-  <div class="markdown level1 summary"><p>Executes the specified operation for a scalar result.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">T ExecuteScalar&lt;T&gt;([NotNull] string executionStatement, [NotNull] params object[] parameterValues)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">executionStatement</span></td>
-        <td><p>The execution statement.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Object</span>[]</td>
-        <td><span class="parametername">parameterValues</span></td>
-        <td><p>The parameter values.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">T</span></td>
-        <td><p>The first column of the first row of the result as a type of <code data-dev-comment-type="typeparamref" class="typeparamref">T</code>.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">T</span></td>
-        <td><p>The type of the result value.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/IRepositoryProvider.cs&amp;version=GBmaster&amp;line=120">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/IRepositoryProvider.cs&amp;version=GBmaster&amp;line=151">View Source</a>
   </span>
   <a id="Startitecture_Orm_Common_IRepositoryProvider_FirstOrDefault_" data-uid="Startitecture.Orm.Common.IRepositoryProvider.FirstOrDefault*"></a>
   <h4 id="Startitecture_Orm_Common_IRepositoryProvider_FirstOrDefault__1_Startitecture_Orm_Model_EntitySet___0__" data-uid="Startitecture.Orm.Common.IRepositoryProvider.FirstOrDefault``1(Startitecture.Orm.Model.EntitySet{``0})">FirstOrDefault&lt;T&gt;(EntitySet&lt;T&gt;)</h4>
@@ -743,7 +799,70 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/IRepositoryProvider.cs&amp;version=GBmaster&amp;line=106">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/IRepositoryProvider.cs&amp;version=GBmaster&amp;line=165">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Common_IRepositoryProvider_FirstOrDefaultAsync_" data-uid="Startitecture.Orm.Common.IRepositoryProvider.FirstOrDefaultAsync*"></a>
+  <h4 id="Startitecture_Orm_Common_IRepositoryProvider_FirstOrDefaultAsync__1_Startitecture_Orm_Model_EntitySet___0__" data-uid="Startitecture.Orm.Common.IRepositoryProvider.FirstOrDefaultAsync``1(Startitecture.Orm.Model.EntitySet{``0})">FirstOrDefaultAsync&lt;T&gt;(EntitySet&lt;T&gt;)</h4>
+  <div class="markdown level1 summary"><p>Gets the first entity matching the selection, or the default value if the entity cannot be found.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;T&gt; FirstOrDefaultAsync&lt;T&gt;(EntitySet&lt;T&gt; entitySet)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Model.EntitySet-1.html">EntitySet</a>&lt;T&gt;</td>
+        <td><span class="parametername">entitySet</span></td>
+        <td><p>A selection for the specified entity to return.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;T&gt;</td>
+        <td><p>The first <code data-dev-comment-type="typeparamref" class="typeparamref">T</code> entity matching the filter, or the default value if no matching entity is found.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of entity in the repository.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/IRepositoryProvider.cs&amp;version=GBmaster&amp;line=123">View Source</a>
   </span>
   <a id="Startitecture_Orm_Common_IRepositoryProvider_GetScalar_" data-uid="Startitecture.Orm.Common.IRepositoryProvider.GetScalar*"></a>
   <h4 id="Startitecture_Orm_Common_IRepositoryProvider_GetScalar__1_Startitecture_Orm_Model_ISelection_" data-uid="Startitecture.Orm.Common.IRepositoryProvider.GetScalar``1(Startitecture.Orm.Model.ISelection)">GetScalar&lt;T&gt;(ISelection)</h4>
@@ -806,7 +925,70 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/IRepositoryProvider.cs&amp;version=GBmaster&amp;line=170">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/IRepositoryProvider.cs&amp;version=GBmaster&amp;line=137">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Common_IRepositoryProvider_GetScalarAsync_" data-uid="Startitecture.Orm.Common.IRepositoryProvider.GetScalarAsync*"></a>
+  <h4 id="Startitecture_Orm_Common_IRepositoryProvider_GetScalarAsync__1_Startitecture_Orm_Model_ISelection_" data-uid="Startitecture.Orm.Common.IRepositoryProvider.GetScalarAsync``1(Startitecture.Orm.Model.ISelection)">GetScalarAsync&lt;T&gt;(ISelection)</h4>
+  <div class="markdown level1 summary"><p>Gets a scalar result from the specified query.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;T&gt; GetScalarAsync&lt;T&gt;(ISelection selection)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Model.ISelection.html">ISelection</a></td>
+        <td><span class="parametername">selection</span></td>
+        <td><p>A selection for the specified scalar to return.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;T&gt;</td>
+        <td><p>The <see cref="!:T"></see>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of scalar to return.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/IRepositoryProvider.cs&amp;version=GBmaster&amp;line=251">View Source</a>
   </span>
   <a id="Startitecture_Orm_Common_IRepositoryProvider_Insert_" data-uid="Startitecture.Orm.Common.IRepositoryProvider.Insert*"></a>
   <h4 id="Startitecture_Orm_Common_IRepositoryProvider_Insert__1___0_" data-uid="Startitecture.Orm.Common.IRepositoryProvider.Insert``1(``0)">Insert&lt;T&gt;(T)</h4>
@@ -869,7 +1051,70 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/IRepositoryProvider.cs&amp;version=GBmaster&amp;line=145">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/IRepositoryProvider.cs&amp;version=GBmaster&amp;line=265">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Common_IRepositoryProvider_InsertAsync_" data-uid="Startitecture.Orm.Common.IRepositoryProvider.InsertAsync*"></a>
+  <h4 id="Startitecture_Orm_Common_IRepositoryProvider_InsertAsync__1___0_" data-uid="Startitecture.Orm.Common.IRepositoryProvider.InsertAsync``1(``0)">InsertAsync&lt;T&gt;(T)</h4>
+  <div class="markdown level1 summary"><p>Inserts an entity into the repository.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;T&gt; InsertAsync&lt;T&gt;(T entity)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">entity</span></td>
+        <td><p>The entity to insert.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;T&gt;</td>
+        <td><p>The inserted <code data-dev-comment-type="typeparamref" class="typeparamref">T</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of entity in the repository.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/IRepositoryProvider.cs&amp;version=GBmaster&amp;line=201">View Source</a>
   </span>
   <a id="Startitecture_Orm_Common_IRepositoryProvider_SelectEntities_" data-uid="Startitecture.Orm.Common.IRepositoryProvider.SelectEntities*"></a>
   <h4 id="Startitecture_Orm_Common_IRepositoryProvider_SelectEntities__1_Startitecture_Orm_Model_EntitySet___0__" data-uid="Startitecture.Orm.Common.IRepositoryProvider.SelectEntities``1(Startitecture.Orm.Model.EntitySet{``0})">SelectEntities&lt;T&gt;(EntitySet&lt;T&gt;)</h4>
@@ -932,45 +1177,16 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/IRepositoryProvider.cs&amp;version=GBmaster&amp;line=70">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/IRepositoryProvider.cs&amp;version=GBmaster&amp;line=215">View Source</a>
   </span>
-  <a id="Startitecture_Orm_Common_IRepositoryProvider_StartTransaction_" data-uid="Startitecture.Orm.Common.IRepositoryProvider.StartTransaction*"></a>
-  <h4 id="Startitecture_Orm_Common_IRepositoryProvider_StartTransaction" data-uid="Startitecture.Orm.Common.IRepositoryProvider.StartTransaction">StartTransaction()</h4>
-  <div class="markdown level1 summary"><p>Starts a transaction in the repository.</p>
+  <a id="Startitecture_Orm_Common_IRepositoryProvider_SelectEntitiesAsync_" data-uid="Startitecture.Orm.Common.IRepositoryProvider.SelectEntitiesAsync*"></a>
+  <h4 id="Startitecture_Orm_Common_IRepositoryProvider_SelectEntitiesAsync__1_Startitecture_Orm_Model_EntitySet___0__" data-uid="Startitecture.Orm.Common.IRepositoryProvider.SelectEntitiesAsync``1(Startitecture.Orm.Model.EntitySet{``0})">SelectEntitiesAsync&lt;T&gt;(EntitySet&lt;T&gt;)</h4>
+  <div class="markdown level1 summary"><p>Selects a matching list of entities from the repository.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">IDbTransaction StartTransaction()</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Data.IDbTransaction</span></td>
-        <td><p>The <span class="xref">System.Data.IDbTransaction</span> started by the provider.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/IRepositoryProvider.cs&amp;version=GBmaster&amp;line=81">View Source</a>
-  </span>
-  <a id="Startitecture_Orm_Common_IRepositoryProvider_StartTransaction_" data-uid="Startitecture.Orm.Common.IRepositoryProvider.StartTransaction*"></a>
-  <h4 id="Startitecture_Orm_Common_IRepositoryProvider_StartTransaction_System_Data_IsolationLevel_" data-uid="Startitecture.Orm.Common.IRepositoryProvider.StartTransaction(System.Data.IsolationLevel)">StartTransaction(IsolationLevel)</h4>
-  <div class="markdown level1 summary"><p>Start a transaction in the repository.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">IDbTransaction StartTransaction(IsolationLevel isolationLevel)</code></pre>
+    <pre><code class="lang-csharp hljs">Task&lt;IEnumerable&lt;T&gt;&gt; SelectEntitiesAsync&lt;T&gt;(EntitySet&lt;T&gt; selection)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -983,9 +1199,9 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Data.IsolationLevel</span></td>
-        <td><span class="parametername">isolationLevel</span></td>
-        <td><p>The isolation level for the transaction.</p>
+        <td><a class="xref" href="Startitecture.Orm.Model.EntitySet-1.html">EntitySet</a>&lt;T&gt;</td>
+        <td><span class="parametername">selection</span></td>
+        <td><p>A selection for the specified entities to return.</p>
 </td>
       </tr>
     </tbody>
@@ -1000,15 +1216,31 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Data.IDbTransaction</span></td>
-        <td><p>The <span class="xref">System.Data.IDbTransaction</span> started by the provider.</p>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">System.Collections.Generic.IEnumerable</span>&lt;T&gt;&gt;</td>
+        <td><p>A collection of entities that match the filter.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of entity in the repository.</p>
 </td>
       </tr>
     </tbody>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/IRepositoryProvider.cs&amp;version=GBmaster&amp;line=187">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/IRepositoryProvider.cs&amp;version=GBmaster&amp;line=282">View Source</a>
   </span>
   <a id="Startitecture_Orm_Common_IRepositoryProvider_Update_" data-uid="Startitecture.Orm.Common.IRepositoryProvider.Update*"></a>
   <h4 id="Startitecture_Orm_Common_IRepositoryProvider_Update__1_Startitecture_Orm_Model_UpdateSet___0__" data-uid="Startitecture.Orm.Common.IRepositoryProvider.Update``1(Startitecture.Orm.Model.UpdateSet{``0})">Update&lt;T&gt;(UpdateSet&lt;T&gt;)</h4>
@@ -1074,7 +1306,73 @@
 </div>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/IRepositoryProvider.cs&amp;version=GBmaster&amp;line=201">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/IRepositoryProvider.cs&amp;version=GBmaster&amp;line=299">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Common_IRepositoryProvider_UpdateAsync_" data-uid="Startitecture.Orm.Common.IRepositoryProvider.UpdateAsync*"></a>
+  <h4 id="Startitecture_Orm_Common_IRepositoryProvider_UpdateAsync__1_Startitecture_Orm_Model_UpdateSet___0__" data-uid="Startitecture.Orm.Common.IRepositoryProvider.UpdateAsync``1(Startitecture.Orm.Model.UpdateSet{``0})">UpdateAsync&lt;T&gt;(UpdateSet&lt;T&gt;)</h4>
+  <div class="markdown level1 summary"><p>Updates a set of entities in the repository.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;int&gt; UpdateAsync&lt;T&gt;(UpdateSet&lt;T&gt; updateSet)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Model.UpdateSet-1.html">UpdateSet</a>&lt;T&gt;</td>
+        <td><span class="parametername">updateSet</span></td>
+        <td><p>The update set that defines the entities and entity attributes to update.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><p>The number of affected entities as an <span class="xref">System.Int32</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of entity to update.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Startitecture_Orm_Common_IRepositoryProvider_UpdateAsync__1_Startitecture_Orm_Model_UpdateSet___0___remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>The number of affected entities can include rows affected by triggers on the target table.</p>
+</div>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/IRepositoryProvider.cs&amp;version=GBmaster&amp;line=313">View Source</a>
   </span>
   <a id="Startitecture_Orm_Common_IRepositoryProvider_UpdateSingle_" data-uid="Startitecture.Orm.Common.IRepositoryProvider.UpdateSingle*"></a>
   <h4 id="Startitecture_Orm_Common_IRepositoryProvider_UpdateSingle__1___0_System_Linq_Expressions_Expression_System_Func___0_System_Object_____" data-uid="Startitecture.Orm.Common.IRepositoryProvider.UpdateSingle``1(``0,System.Linq.Expressions.Expression{System.Func{``0,System.Object}}[])">UpdateSingle&lt;T&gt;(T, Expression&lt;Func&lt;T, Object&gt;&gt;[])</h4>
@@ -1105,6 +1403,75 @@
         <td><span class="xref">System.Linq.Expressions.Expression</span>&lt;<span class="xref">System.Func</span>&lt;T, <span class="xref">System.Object</span>&gt;&gt;[]</td>
         <td><span class="parametername">setExpressions</span></td>
         <td><p>A optional set of expressions that explicitly select the columns to update. If empty, all non-key columns are updated.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of entity in the repository.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/IRepositoryProvider.cs&amp;version=GBmaster&amp;line=330">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Common_IRepositoryProvider_UpdateSingleAsync_" data-uid="Startitecture.Orm.Common.IRepositoryProvider.UpdateSingleAsync*"></a>
+  <h4 id="Startitecture_Orm_Common_IRepositoryProvider_UpdateSingleAsync__1___0_System_Linq_Expressions_Expression_System_Func___0_System_Object_____" data-uid="Startitecture.Orm.Common.IRepositoryProvider.UpdateSingleAsync``1(``0,System.Linq.Expressions.Expression{System.Func{``0,System.Object}}[])">UpdateSingleAsync&lt;T&gt;(T, Expression&lt;Func&lt;T, Object&gt;&gt;[])</h4>
+  <div class="markdown level1 summary"><p>Updates a selection of entities in the repository.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task UpdateSingleAsync&lt;T&gt;(T entity, params Expression&lt;Func&lt;T, object&gt;&gt;[] setExpressions)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">entity</span></td>
+        <td><p>The entity that contains the update.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Linq.Expressions.Expression</span>&lt;<span class="xref">System.Func</span>&lt;T, <span class="xref">System.Object</span>&gt;&gt;[]</td>
+        <td><span class="parametername">setExpressions</span></td>
+        <td><p>A optional set of expressions that explicitly select the columns to update. If empty, all non-key columns are updated.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td><p>The <span class="xref">System.Threading.Tasks.Task</span> that is performing the update.</p>
 </td>
       </tr>
     </tbody>
