@@ -9,19 +9,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Core.BusinessException.html",
-          "hash": "8kBatIV4xMqk9yTGVqWcPw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Startitecture.Core.CacheResult-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Startitecture.Core.CacheResult-1.html",
-          "hash": "WttAer1tqp6ryMeDTuVw/g=="
+          "hash": "6+5WfyXK/riO/zV2eskymQ=="
         }
       },
       "is_incremental": false,
@@ -45,7 +33,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Core.DomainException.html",
-          "hash": "F4vYRkw67MrwjS5nqKYWEA=="
+          "hash": "GeaKG4gWY/vTKt5AVuFO7g=="
         }
       },
       "is_incremental": false,
@@ -57,7 +45,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Core.Evaluate.html",
-          "hash": "/GEv6DyMJQdjSG4scKaFzA=="
+          "hash": "zBKGRSVUB+W7MiPtJY3Vrw=="
         }
       },
       "is_incremental": false,
@@ -69,19 +57,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Core.ExtensionMethods.html",
-          "hash": "q10Y08FLImm0qyOJ0qsFcA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Startitecture.Core.MemoryCache-2.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Startitecture.Core.MemoryCache-2.html",
-          "hash": "7sCpTvsoypdTzYS5xIvUiA=="
+          "hash": "tOa9A9RyH+bGRUpHCv3vAg=="
         }
       },
       "is_incremental": false,
@@ -105,7 +81,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Core.PropertyComparisonResult.html",
-          "hash": "GOF178QEF5ghs7N5nNkCQQ=="
+          "hash": "OewmsieNobznE+MAHRjd6w=="
         }
       },
       "is_incremental": false,
@@ -117,7 +93,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Core.Singleton-1.html",
-          "hash": "eYn3HJBUEzCs/921IYhaJg=="
+          "hash": "gxND3QuQ59VLrEJIRBMXxQ=="
         }
       },
       "is_incremental": false,
@@ -141,7 +117,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Core.html",
-          "hash": "dcsyvoEQeSX6CdXPAl0Xew=="
+          "hash": "cJrWA29xZFyCM7xXUVGQ2A=="
         }
       },
       "is_incremental": false,
@@ -201,7 +177,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "Z90RyKzJuocKftOV1DKZrA=="
+          "hash": "Hsc40ssV2yr/deUUIY9JaA=="
         }
       },
       "is_incremental": false,
@@ -303,7 +279,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 15,
+          "total_file_count": 13,
           "skipped_file_count": 0
         },
         "TocDocumentProcessor": {

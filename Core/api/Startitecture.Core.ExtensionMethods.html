@@ -115,7 +115,7 @@
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/Core?path=Startitecture.Core/ExtensionMethods.cs&amp;version=GBmaster&amp;line=496">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/Core?path=Startitecture.Core/ExtensionMethods.cs&amp;version=GBmaster&amp;line=309">View Source</a>
   </span>
   <a id="Startitecture_Core_ExtensionMethods_GetDifferences_" data-uid="Startitecture.Core.ExtensionMethods.GetDifferences*"></a>
   <h4 id="Startitecture_Core_ExtensionMethods_GetDifferences__1___0___0_System_String___" data-uid="Startitecture.Core.ExtensionMethods.GetDifferences``1(``0,``0,System.String[])">GetDifferences&lt;TItem&gt;(TItem, TItem, String[])</h4>
@@ -191,7 +191,7 @@ items.</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/Core?path=Startitecture.Core/ExtensionMethods.cs&amp;version=GBmaster&amp;line=201">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/Core?path=Startitecture.Core/ExtensionMethods.cs&amp;version=GBmaster&amp;line=196">View Source</a>
   </span>
   <a id="Startitecture_Core_ExtensionMethods_GetMember_" data-uid="Startitecture.Core.ExtensionMethods.GetMember*"></a>
   <h4 id="Startitecture_Core_ExtensionMethods_GetMember_System_Linq_Expressions_LambdaExpression_" data-uid="Startitecture.Core.ExtensionMethods.GetMember(System.Linq.Expressions.LambdaExpression)">GetMember(LambdaExpression)</h4>
@@ -254,205 +254,7 @@ items.</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/Core?path=Startitecture.Core/ExtensionMethods.cs&amp;version=GBmaster&amp;line=325">View Source</a>
-  </span>
-  <a id="Startitecture_Core_ExtensionMethods_GetOrLazyAddExisting_" data-uid="Startitecture.Core.ExtensionMethods.GetOrLazyAddExisting*"></a>
-  <h4 id="Startitecture_Core_ExtensionMethods_GetOrLazyAddExisting__2_System_Runtime_Caching_ObjectCache_System_Object_System_String___0_System_Func___0___1__System_Runtime_Caching_CacheItemPolicy_" data-uid="Startitecture.Core.ExtensionMethods.GetOrLazyAddExisting``2(System.Runtime.Caching.ObjectCache,System.Object,System.String,``0,System.Func{``0,``1},System.Runtime.Caching.CacheItemPolicy)">GetOrLazyAddExisting&lt;TKey, TValue&gt;(ObjectCache, Object, String, TKey, Func&lt;TKey, TValue&gt;, CacheItemPolicy)</h4>
-  <div class="markdown level1 summary"><p>Gets a value from the cache or lazily adds an existing value.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use lazy initialization and ObjectCache.AddOrGetExisting&quot;)]
-public static TValue GetOrLazyAddExisting&lt;TKey, TValue&gt;(this ObjectCache cache, object synchronizationLock, string cacheKey, TKey retrievalKey, Func&lt;TKey, TValue&gt; getValue, CacheItemPolicy policy)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Runtime.Caching.ObjectCache</span></td>
-        <td><span class="parametername">cache</span></td>
-        <td><p>The cache to retrieve or store the value in.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Object</span></td>
-        <td><span class="parametername">synchronizationLock</span></td>
-        <td><p>The synchronization lock for the cache.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">cacheKey</span></td>
-        <td><p>The cache key.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">TKey</span></td>
-        <td><span class="parametername">retrievalKey</span></td>
-        <td><p>The retrieval key.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Func</span>&lt;TKey, TValue&gt;</td>
-        <td><span class="parametername">getValue</span></td>
-        <td><p>A function that retrieves the value from the real store.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Runtime.Caching.CacheItemPolicy</span></td>
-        <td><span class="parametername">policy</span></td>
-        <td><p>The policy to apply.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">TValue</span></td>
-        <td><p>A <code data-dev-comment-type="typeparamref" class="typeparamref">TValue</code> instance, either from the cache or from the retrieval function <code data-dev-comment-type="paramref" class="paramref">getValue</code>.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">TKey</span></td>
-        <td><p>The type of key that retrieves the value.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="parametername">TValue</span></td>
-        <td><p>The type of value stored in the cache.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/Core?path=Startitecture.Core/ExtensionMethods.cs&amp;version=GBmaster&amp;line=416">View Source</a>
-  </span>
-  <a id="Startitecture_Core_ExtensionMethods_GetOrLazyAddExistingWithResult_" data-uid="Startitecture.Core.ExtensionMethods.GetOrLazyAddExistingWithResult*"></a>
-  <h4 id="Startitecture_Core_ExtensionMethods_GetOrLazyAddExistingWithResult__2_System_Runtime_Caching_ObjectCache_System_Object_System_String___0_System_Func___0___1__System_Runtime_Caching_CacheItemPolicy_" data-uid="Startitecture.Core.ExtensionMethods.GetOrLazyAddExistingWithResult``2(System.Runtime.Caching.ObjectCache,System.Object,System.String,``0,System.Func{``0,``1},System.Runtime.Caching.CacheItemPolicy)">GetOrLazyAddExistingWithResult&lt;TKey, TValue&gt;(ObjectCache, Object, String, TKey, Func&lt;TKey, TValue&gt;, CacheItemPolicy)</h4>
-  <div class="markdown level1 summary"><p>Gets a value from the cache or lazily adds an existing value.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use lazy initialization and ObjectCache.AddOrGetExisting&quot;)]
-public static CacheResult&lt;TValue&gt; GetOrLazyAddExistingWithResult&lt;TKey, TValue&gt;(this ObjectCache cache, object synchronizationLock, string cacheKey, TKey retrievalKey, Func&lt;TKey, TValue&gt; getValue, CacheItemPolicy policy)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Runtime.Caching.ObjectCache</span></td>
-        <td><span class="parametername">cache</span></td>
-        <td><p>The cache to retrieve or store the value in.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Object</span></td>
-        <td><span class="parametername">synchronizationLock</span></td>
-        <td><p>The synchronization lock for the cache.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">cacheKey</span></td>
-        <td><p>The cache key.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">TKey</span></td>
-        <td><span class="parametername">retrievalKey</span></td>
-        <td><p>The retrieval key.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Func</span>&lt;TKey, TValue&gt;</td>
-        <td><span class="parametername">getValue</span></td>
-        <td><p>A function that retrieves the value from the real store.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Runtime.Caching.CacheItemPolicy</span></td>
-        <td><span class="parametername">policy</span></td>
-        <td><p>The policy to apply.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Startitecture.Core.CacheResult-1.html">CacheResult</a>&lt;TValue&gt;</td>
-        <td><p>A <code data-dev-comment-type="typeparamref" class="typeparamref">TValue</code> instance, either from the cache or from the retrieval function <code data-dev-comment-type="paramref" class="paramref">getValue</code>.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">TKey</span></td>
-        <td><p>The type of key that retrieves the value.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="parametername">TValue</span></td>
-        <td><p>The type of value stored in the cache.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/Core?path=Startitecture.Core/ExtensionMethods.cs&amp;version=GBmaster&amp;line=132">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/Core?path=Startitecture.Core/ExtensionMethods.cs&amp;version=GBmaster&amp;line=127">View Source</a>
   </span>
   <a id="Startitecture_Core_ExtensionMethods_GetProperty_" data-uid="Startitecture.Core.ExtensionMethods.GetProperty*"></a>
   <h4 id="Startitecture_Core_ExtensionMethods_GetProperty_System_Linq_Expressions_LambdaExpression_" data-uid="Startitecture.Core.ExtensionMethods.GetProperty(System.Linq.Expressions.LambdaExpression)">GetProperty(LambdaExpression)</h4>
@@ -515,7 +317,7 @@ public static CacheResult&lt;TValue&gt; GetOrLazyAddExistingWithResult&lt;TKey, 
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/Core?path=Startitecture.Core/ExtensionMethods.cs&amp;version=GBmaster&amp;line=240">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/Core?path=Startitecture.Core/ExtensionMethods.cs&amp;version=GBmaster&amp;line=235">View Source</a>
   </span>
   <a id="Startitecture_Core_ExtensionMethods_GetPropertyName_" data-uid="Startitecture.Core.ExtensionMethods.GetPropertyName*"></a>
   <h4 id="Startitecture_Core_ExtensionMethods_GetPropertyName_System_Linq_Expressions_LambdaExpression_" data-uid="Startitecture.Core.ExtensionMethods.GetPropertyName(System.Linq.Expressions.LambdaExpression)">GetPropertyName(LambdaExpression)</h4>
@@ -578,7 +380,7 @@ public static CacheResult&lt;TValue&gt; GetOrLazyAddExistingWithResult&lt;TKey, 
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/Core?path=Startitecture.Core/ExtensionMethods.cs&amp;version=GBmaster&amp;line=66">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/Core?path=Startitecture.Core/ExtensionMethods.cs&amp;version=GBmaster&amp;line=61">View Source</a>
   </span>
   <a id="Startitecture_Core_ExtensionMethods_GetPropertyValue_" data-uid="Startitecture.Core.ExtensionMethods.GetPropertyValue*"></a>
   <h4 id="Startitecture_Core_ExtensionMethods_GetPropertyValue_System_Reflection_PropertyInfo_System_Object_" data-uid="Startitecture.Core.ExtensionMethods.GetPropertyValue(System.Reflection.PropertyInfo,System.Object)">GetPropertyValue(PropertyInfo, Object)</h4>
@@ -652,7 +454,7 @@ public static CacheResult&lt;TValue&gt; GetOrLazyAddExistingWithResult&lt;TKey, 
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/Core?path=Startitecture.Core/ExtensionMethods.cs&amp;version=GBmaster&amp;line=271">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/Core?path=Startitecture.Core/ExtensionMethods.cs&amp;version=GBmaster&amp;line=266">View Source</a>
   </span>
   <a id="Startitecture_Core_ExtensionMethods_GetPropertyValue_" data-uid="Startitecture.Core.ExtensionMethods.GetPropertyValue*"></a>
   <h4 id="Startitecture_Core_ExtensionMethods_GetPropertyValue__1___0_System_String_" data-uid="Startitecture.Core.ExtensionMethods.GetPropertyValue``1(``0,System.String)">GetPropertyValue&lt;T&gt;(T, String)</h4>
@@ -742,7 +544,7 @@ public static CacheResult&lt;TValue&gt; GetOrLazyAddExistingWithResult&lt;TKey, 
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/Core?path=Startitecture.Core/ExtensionMethods.cs&amp;version=GBmaster&amp;line=99">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/Core?path=Startitecture.Core/ExtensionMethods.cs&amp;version=GBmaster&amp;line=94">View Source</a>
   </span>
   <a id="Startitecture_Core_ExtensionMethods_PopulateDictionary_" data-uid="Startitecture.Core.ExtensionMethods.PopulateDictionary*"></a>
   <h4 id="Startitecture_Core_ExtensionMethods_PopulateDictionary_System_Collections_IDictionary_System_Object_" data-uid="Startitecture.Core.ExtensionMethods.PopulateDictionary(System.Collections.IDictionary,System.Object)">PopulateDictionary(IDictionary, Object)</h4>
@@ -796,7 +598,7 @@ not implement the <span class="xref">System.Runtime.Serialization.ISerializable<
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/Core?path=Startitecture.Core/ExtensionMethods.cs&amp;version=GBmaster&amp;line=173">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/Core?path=Startitecture.Core/ExtensionMethods.cs&amp;version=GBmaster&amp;line=168">View Source</a>
   </span>
   <a id="Startitecture_Core_ExtensionMethods_ToRuntimeName_" data-uid="Startitecture.Core.ExtensionMethods.ToRuntimeName*"></a>
   <h4 id="Startitecture_Core_ExtensionMethods_ToRuntimeName_System_Type_" data-uid="Startitecture.Core.ExtensionMethods.ToRuntimeName(System.Type)">ToRuntimeName(Type)</h4>
@@ -849,7 +651,7 @@ not implement the <span class="xref">System.Runtime.Serialization.ISerializable<
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://dev.azure.com/startitecture/storm/_git/Core?path=Startitecture.Core/ExtensionMethods.cs&amp;version=GBmaster&amp;line=26" class="contribution-link">View Source</a>
+                    <a href="https://dev.azure.com/startitecture/storm/_git/Core?path=Startitecture.Core/ExtensionMethods.cs&amp;version=GBmaster&amp;line=21" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
