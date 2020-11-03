@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class SqlClientRepository&lt;TModel, TEntity&gt;
    ">
-    <meta name="generator" content="docfx 2.56.3.0">
+    <meta name="generator" content="docfx 2.56.4.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -238,7 +238,7 @@
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.SqlClient/SqlClientRepository.cs&amp;version=GBmaster&amp;line=43">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.SqlClient/SqlClientRepository.cs&amp;version=GBmaster&amp;line=44">View Source</a>
   </span>
   <a id="Startitecture_Orm_SqlClient_SqlClientRepository_2__ctor_" data-uid="Startitecture.Orm.SqlClient.SqlClientRepository`2.#ctor*"></a>
   <h4 id="Startitecture_Orm_SqlClient_SqlClientRepository_2__ctor_Startitecture_Orm_Common_IRepositoryProvider_Startitecture_Orm_Model_IEntityMapper_" data-uid="Startitecture.Orm.SqlClient.SqlClientRepository`2.#ctor(Startitecture.Orm.Common.IRepositoryProvider,Startitecture.Orm.Model.IEntityMapper)">SqlClientRepository(IRepositoryProvider, IEntityMapper)</h4>
@@ -275,7 +275,7 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.SqlClient/SqlClientRepository.cs&amp;version=GBmaster&amp;line=60">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.SqlClient/SqlClientRepository.cs&amp;version=GBmaster&amp;line=61">View Source</a>
   </span>
   <a id="Startitecture_Orm_SqlClient_SqlClientRepository_2__ctor_" data-uid="Startitecture.Orm.SqlClient.SqlClientRepository`2.#ctor*"></a>
   <h4 id="Startitecture_Orm_SqlClient_SqlClientRepository_2__ctor_Startitecture_Orm_Common_IRepositoryProvider_Startitecture_Orm_Model_IEntityMapper_System_Collections_Generic_IComparer__1__" data-uid="Startitecture.Orm.SqlClient.SqlClientRepository`2.#ctor(Startitecture.Orm.Common.IRepositoryProvider,Startitecture.Orm.Model.IEntityMapper,System.Collections.Generic.IComparer{`1})">SqlClientRepository(IRepositoryProvider, IEntityMapper, IComparer&lt;TEntity&gt;)</h4>
@@ -320,16 +320,16 @@
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.SqlClient/SqlClientRepository.cs&amp;version=GBmaster&amp;line=80">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.SqlClient/SqlClientRepository.cs&amp;version=GBmaster&amp;line=81">View Source</a>
   </span>
   <a id="Startitecture_Orm_SqlClient_SqlClientRepository_2_Insert_" data-uid="Startitecture.Orm.SqlClient.SqlClientRepository`2.Insert*"></a>
-  <h4 id="Startitecture_Orm_SqlClient_SqlClientRepository_2_Insert__1_System_Collections_Generic_IEnumerable___0__System_Action_Startitecture_Orm_SqlClient_TableValuedInsert__1___" data-uid="Startitecture.Orm.SqlClient.SqlClientRepository`2.Insert``1(System.Collections.Generic.IEnumerable{``0},System.Action{Startitecture.Orm.SqlClient.TableValuedInsert{`1}})">Insert&lt;TItem&gt;(IEnumerable&lt;TItem&gt;, Action&lt;TableValuedInsert&lt;TEntity&gt;&gt;)</h4>
+  <h4 id="Startitecture_Orm_SqlClient_SqlClientRepository_2_Insert__1_System_Collections_Generic_IEnumerable___0__System_Action_Startitecture_Orm_SqlClient_TransactSqlInsertBase__1___" data-uid="Startitecture.Orm.SqlClient.SqlClientRepository`2.Insert``1(System.Collections.Generic.IEnumerable{``0},System.Action{Startitecture.Orm.SqlClient.TransactSqlInsertBase{`1}})">Insert&lt;TItem&gt;(IEnumerable&lt;TItem&gt;, Action&lt;TransactSqlInsertBase&lt;TEntity&gt;&gt;)</h4>
   <div class="markdown level1 summary"><p>Inserts a set of items into the repository then maps the results back to the <code data-dev-comment-type="typeparamref" class="typeparamref">TItem</code> type.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Insert&lt;TItem&gt;([NotNull] IEnumerable&lt;TItem&gt; items, Action&lt;TableValuedInsert&lt;TEntity&gt;&gt; insertAction)</code></pre>
+    <pre><code class="lang-csharp hljs">public void Insert&lt;TItem&gt;([NotNull] IEnumerable&lt;TItem&gt; items, Action&lt;TransactSqlInsertBase&lt;TEntity&gt;&gt; insertAction)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -348,7 +348,7 @@
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="Startitecture.Orm.SqlClient.TableValuedInsert-1.html">TableValuedInsert</a>&lt;TEntity&gt;&gt;</td>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="Startitecture.Orm.SqlClient.TransactSqlInsertBase-1.html">TransactSqlInsertBase</a>&lt;TEntity&gt;&gt;</td>
         <td><span class="parametername">insertAction</span></td>
         <td><p>The insert action to take, or null to take the default insert action.</p>
 </td>
@@ -389,16 +389,16 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.SqlClient/SqlClientRepository.cs&amp;version=GBmaster&amp;line=111">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.SqlClient/SqlClientRepository.cs&amp;version=GBmaster&amp;line=123">View Source</a>
   </span>
   <a id="Startitecture_Orm_SqlClient_SqlClientRepository_2_InsertAsync_" data-uid="Startitecture.Orm.SqlClient.SqlClientRepository`2.InsertAsync*"></a>
-  <h4 id="Startitecture_Orm_SqlClient_SqlClientRepository_2_InsertAsync__1_System_Collections_Generic_IEnumerable___0__System_Action_Startitecture_Orm_SqlClient_TableValuedInsert__1___" data-uid="Startitecture.Orm.SqlClient.SqlClientRepository`2.InsertAsync``1(System.Collections.Generic.IEnumerable{``0},System.Action{Startitecture.Orm.SqlClient.TableValuedInsert{`1}})">InsertAsync&lt;TItem&gt;(IEnumerable&lt;TItem&gt;, Action&lt;TableValuedInsert&lt;TEntity&gt;&gt;)</h4>
+  <h4 id="Startitecture_Orm_SqlClient_SqlClientRepository_2_InsertAsync__1_System_Collections_Generic_IEnumerable___0__System_Action_Startitecture_Orm_SqlClient_TransactSqlInsertBase__1___" data-uid="Startitecture.Orm.SqlClient.SqlClientRepository`2.InsertAsync``1(System.Collections.Generic.IEnumerable{``0},System.Action{Startitecture.Orm.SqlClient.TransactSqlInsertBase{`1}})">InsertAsync&lt;TItem&gt;(IEnumerable&lt;TItem&gt;, Action&lt;TransactSqlInsertBase&lt;TEntity&gt;&gt;)</h4>
   <div class="markdown level1 summary"><p>Inserts a set of items into the repository then maps the results back to the <code data-dev-comment-type="typeparamref" class="typeparamref">TItem</code> type.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task InsertAsync&lt;TItem&gt;([NotNull] IEnumerable&lt;TItem&gt; items, Action&lt;TableValuedInsert&lt;TEntity&gt;&gt; insertAction)</code></pre>
+    <pre><code class="lang-csharp hljs">public Task InsertAsync&lt;TItem&gt;([NotNull] IEnumerable&lt;TItem&gt; items, Action&lt;TransactSqlInsertBase&lt;TEntity&gt;&gt; insertAction)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -417,7 +417,7 @@
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="Startitecture.Orm.SqlClient.TableValuedInsert-1.html">TableValuedInsert</a>&lt;TEntity&gt;&gt;</td>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="Startitecture.Orm.SqlClient.TransactSqlInsertBase-1.html">TransactSqlInsertBase</a>&lt;TEntity&gt;&gt;</td>
         <td><span class="parametername">insertAction</span></td>
         <td><p>The insert action to take, or null to take the default insert action.</p>
 </td>
@@ -474,16 +474,16 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.SqlClient/SqlClientRepository.cs&amp;version=GBmaster&amp;line=142">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.SqlClient/SqlClientRepository.cs&amp;version=GBmaster&amp;line=170">View Source</a>
   </span>
   <a id="Startitecture_Orm_SqlClient_SqlClientRepository_2_InsertForResults_" data-uid="Startitecture.Orm.SqlClient.SqlClientRepository`2.InsertForResults*"></a>
-  <h4 id="Startitecture_Orm_SqlClient_SqlClientRepository_2_InsertForResults__1_System_Collections_Generic_IEnumerable___0__System_Action_Startitecture_Orm_SqlClient_TableValuedInsert__1___" data-uid="Startitecture.Orm.SqlClient.SqlClientRepository`2.InsertForResults``1(System.Collections.Generic.IEnumerable{``0},System.Action{Startitecture.Orm.SqlClient.TableValuedInsert{`1}})">InsertForResults&lt;TItem&gt;(IEnumerable&lt;TItem&gt;, Action&lt;TableValuedInsert&lt;TEntity&gt;&gt;)</h4>
+  <h4 id="Startitecture_Orm_SqlClient_SqlClientRepository_2_InsertForResults__1_System_Collections_Generic_IEnumerable___0__System_Action_Startitecture_Orm_SqlClient_TransactSqlInsertBase__1___" data-uid="Startitecture.Orm.SqlClient.SqlClientRepository`2.InsertForResults``1(System.Collections.Generic.IEnumerable{``0},System.Action{Startitecture.Orm.SqlClient.TransactSqlInsertBase{`1}})">InsertForResults&lt;TItem&gt;(IEnumerable&lt;TItem&gt;, Action&lt;TransactSqlInsertBase&lt;TEntity&gt;&gt;)</h4>
   <div class="markdown level1 summary"><p>Inserts a set of items into the repository then maps the results back to the <code data-dev-comment-type="typeparamref" class="typeparamref">TItem</code> type.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IEnumerable&lt;TItem&gt; InsertForResults&lt;TItem&gt;([NotNull] IEnumerable&lt;TItem&gt; items, Action&lt;TableValuedInsert&lt;TEntity&gt;&gt; insertAction)</code></pre>
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;TItem&gt; InsertForResults&lt;TItem&gt;([NotNull] IEnumerable&lt;TItem&gt; items, Action&lt;TransactSqlInsertBase&lt;TEntity&gt;&gt; insertAction)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -502,7 +502,7 @@
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="Startitecture.Orm.SqlClient.TableValuedInsert-1.html">TableValuedInsert</a>&lt;TEntity&gt;&gt;</td>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="Startitecture.Orm.SqlClient.TransactSqlInsertBase-1.html">TransactSqlInsertBase</a>&lt;TEntity&gt;&gt;</td>
         <td><span class="parametername">insertAction</span></td>
         <td><p>The insert action to take, or null to take the default insert action.</p>
 </td>
@@ -559,16 +559,16 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.SqlClient/SqlClientRepository.cs&amp;version=GBmaster&amp;line=176">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.SqlClient/SqlClientRepository.cs&amp;version=GBmaster&amp;line=220">View Source</a>
   </span>
   <a id="Startitecture_Orm_SqlClient_SqlClientRepository_2_InsertForResultsAsync_" data-uid="Startitecture.Orm.SqlClient.SqlClientRepository`2.InsertForResultsAsync*"></a>
-  <h4 id="Startitecture_Orm_SqlClient_SqlClientRepository_2_InsertForResultsAsync__1_System_Collections_Generic_IEnumerable___0__System_Action_Startitecture_Orm_SqlClient_TableValuedInsert__1___" data-uid="Startitecture.Orm.SqlClient.SqlClientRepository`2.InsertForResultsAsync``1(System.Collections.Generic.IEnumerable{``0},System.Action{Startitecture.Orm.SqlClient.TableValuedInsert{`1}})">InsertForResultsAsync&lt;TItem&gt;(IEnumerable&lt;TItem&gt;, Action&lt;TableValuedInsert&lt;TEntity&gt;&gt;)</h4>
+  <h4 id="Startitecture_Orm_SqlClient_SqlClientRepository_2_InsertForResultsAsync__1_System_Collections_Generic_IEnumerable___0__System_Action_Startitecture_Orm_SqlClient_TransactSqlInsertBase__1___" data-uid="Startitecture.Orm.SqlClient.SqlClientRepository`2.InsertForResultsAsync``1(System.Collections.Generic.IEnumerable{``0},System.Action{Startitecture.Orm.SqlClient.TransactSqlInsertBase{`1}})">InsertForResultsAsync&lt;TItem&gt;(IEnumerable&lt;TItem&gt;, Action&lt;TransactSqlInsertBase&lt;TEntity&gt;&gt;)</h4>
   <div class="markdown level1 summary"><p>Inserts a set of items into the repository then maps the results back to the <code data-dev-comment-type="typeparamref" class="typeparamref">TItem</code> type.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;IEnumerable&lt;TItem&gt;&gt; InsertForResultsAsync&lt;TItem&gt;([NotNull] IEnumerable&lt;TItem&gt; items, Action&lt;TableValuedInsert&lt;TEntity&gt;&gt; insertAction)</code></pre>
+    <pre><code class="lang-csharp hljs">public Task&lt;IEnumerable&lt;TItem&gt;&gt; InsertForResultsAsync&lt;TItem&gt;([NotNull] IEnumerable&lt;TItem&gt; items, Action&lt;TransactSqlInsertBase&lt;TEntity&gt;&gt; insertAction)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -587,7 +587,7 @@
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="Startitecture.Orm.SqlClient.TableValuedInsert-1.html">TableValuedInsert</a>&lt;TEntity&gt;&gt;</td>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="Startitecture.Orm.SqlClient.TransactSqlInsertBase-1.html">TransactSqlInsertBase</a>&lt;TEntity&gt;&gt;</td>
         <td><span class="parametername">insertAction</span></td>
         <td><p>The insert action to take, or null to take the default insert action.</p>
 </td>
@@ -644,16 +644,16 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.SqlClient/SqlClientRepository.cs&amp;version=GBmaster&amp;line=210">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.SqlClient/SqlClientRepository.cs&amp;version=GBmaster&amp;line=270">View Source</a>
   </span>
   <a id="Startitecture_Orm_SqlClient_SqlClientRepository_2_Merge_" data-uid="Startitecture.Orm.SqlClient.SqlClientRepository`2.Merge*"></a>
-  <h4 id="Startitecture_Orm_SqlClient_SqlClientRepository_2_Merge__1_System_Collections_Generic_IEnumerable___0__System_Action_Startitecture_Orm_SqlClient_TableValuedMerge__1___" data-uid="Startitecture.Orm.SqlClient.SqlClientRepository`2.Merge``1(System.Collections.Generic.IEnumerable{``0},System.Action{Startitecture.Orm.SqlClient.TableValuedMerge{`1}})">Merge&lt;TItem&gt;(IEnumerable&lt;TItem&gt;, Action&lt;TableValuedMerge&lt;TEntity&gt;&gt;)</h4>
+  <h4 id="Startitecture_Orm_SqlClient_SqlClientRepository_2_Merge__1_System_Collections_Generic_IEnumerable___0__System_Action_Startitecture_Orm_SqlClient_TransactSqlMergeBase__1___" data-uid="Startitecture.Orm.SqlClient.SqlClientRepository`2.Merge``1(System.Collections.Generic.IEnumerable{``0},System.Action{Startitecture.Orm.SqlClient.TransactSqlMergeBase{`1}})">Merge&lt;TItem&gt;(IEnumerable&lt;TItem&gt;, Action&lt;TransactSqlMergeBase&lt;TEntity&gt;&gt;)</h4>
   <div class="markdown level1 summary"><p>Merges a set of items into the repository.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Merge&lt;TItem&gt;([NotNull] IEnumerable&lt;TItem&gt; items, Action&lt;TableValuedMerge&lt;TEntity&gt;&gt; mergeAction)</code></pre>
+    <pre><code class="lang-csharp hljs">public void Merge&lt;TItem&gt;([NotNull] IEnumerable&lt;TItem&gt; items, Action&lt;TransactSqlMergeBase&lt;TEntity&gt;&gt; mergeAction)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -672,7 +672,7 @@
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="Startitecture.Orm.SqlClient.TableValuedMerge-1.html">TableValuedMerge</a>&lt;TEntity&gt;&gt;</td>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="Startitecture.Orm.SqlClient.TransactSqlMergeBase-1.html">TransactSqlMergeBase</a>&lt;TEntity&gt;&gt;</td>
         <td><span class="parametername">mergeAction</span></td>
         <td><p>The merge action to take, or null to take the default merge action.</p>
 </td>
@@ -695,7 +695,7 @@
       </tr>
     </tbody>
   </table>
-  <h5 id="Startitecture_Orm_SqlClient_SqlClientRepository_2_Merge__1_System_Collections_Generic_IEnumerable___0__System_Action_Startitecture_Orm_SqlClient_TableValuedMerge__1____remarks">Remarks</h5>
+  <h5 id="Startitecture_Orm_SqlClient_SqlClientRepository_2_Merge__1_System_Collections_Generic_IEnumerable___0__System_Action_Startitecture_Orm_SqlClient_TransactSqlMergeBase__1____remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>In SQL Server, MERGE operations are not guaranteed to be atomic.</p>
 </div>
   <h5 class="exceptions">Exceptions</h5>
@@ -716,16 +716,16 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.SqlClient/SqlClientRepository.cs&amp;version=GBmaster&amp;line=244">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.SqlClient/SqlClientRepository.cs&amp;version=GBmaster&amp;line=315">View Source</a>
   </span>
   <a id="Startitecture_Orm_SqlClient_SqlClientRepository_2_MergeAsync_" data-uid="Startitecture.Orm.SqlClient.SqlClientRepository`2.MergeAsync*"></a>
-  <h4 id="Startitecture_Orm_SqlClient_SqlClientRepository_2_MergeAsync__1_System_Collections_Generic_IEnumerable___0__System_Action_Startitecture_Orm_SqlClient_TableValuedMerge__1___" data-uid="Startitecture.Orm.SqlClient.SqlClientRepository`2.MergeAsync``1(System.Collections.Generic.IEnumerable{``0},System.Action{Startitecture.Orm.SqlClient.TableValuedMerge{`1}})">MergeAsync&lt;TItem&gt;(IEnumerable&lt;TItem&gt;, Action&lt;TableValuedMerge&lt;TEntity&gt;&gt;)</h4>
+  <h4 id="Startitecture_Orm_SqlClient_SqlClientRepository_2_MergeAsync__1_System_Collections_Generic_IEnumerable___0__System_Action_Startitecture_Orm_SqlClient_TransactSqlMergeBase__1___" data-uid="Startitecture.Orm.SqlClient.SqlClientRepository`2.MergeAsync``1(System.Collections.Generic.IEnumerable{``0},System.Action{Startitecture.Orm.SqlClient.TransactSqlMergeBase{`1}})">MergeAsync&lt;TItem&gt;(IEnumerable&lt;TItem&gt;, Action&lt;TransactSqlMergeBase&lt;TEntity&gt;&gt;)</h4>
   <div class="markdown level1 summary"><p>Merges a set of items into the repository.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task MergeAsync&lt;TItem&gt;([NotNull] IEnumerable&lt;TItem&gt; items, Action&lt;TableValuedMerge&lt;TEntity&gt;&gt; mergeAction)</code></pre>
+    <pre><code class="lang-csharp hljs">public Task MergeAsync&lt;TItem&gt;([NotNull] IEnumerable&lt;TItem&gt; items, Action&lt;TransactSqlMergeBase&lt;TEntity&gt;&gt; mergeAction)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -744,7 +744,7 @@
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="Startitecture.Orm.SqlClient.TableValuedMerge-1.html">TableValuedMerge</a>&lt;TEntity&gt;&gt;</td>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="Startitecture.Orm.SqlClient.TransactSqlMergeBase-1.html">TransactSqlMergeBase</a>&lt;TEntity&gt;&gt;</td>
         <td><span class="parametername">mergeAction</span></td>
         <td><p>The merge action to take, or null to take the default merge action.</p>
 </td>
@@ -783,7 +783,7 @@
       </tr>
     </tbody>
   </table>
-  <h5 id="Startitecture_Orm_SqlClient_SqlClientRepository_2_MergeAsync__1_System_Collections_Generic_IEnumerable___0__System_Action_Startitecture_Orm_SqlClient_TableValuedMerge__1____remarks">Remarks</h5>
+  <h5 id="Startitecture_Orm_SqlClient_SqlClientRepository_2_MergeAsync__1_System_Collections_Generic_IEnumerable___0__System_Action_Startitecture_Orm_SqlClient_TransactSqlMergeBase__1____remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>In SQL Server, MERGE operations are not guaranteed to be atomic.</p>
 </div>
   <h5 class="exceptions">Exceptions</h5>
@@ -804,16 +804,16 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.SqlClient/SqlClientRepository.cs&amp;version=GBmaster&amp;line=278">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.SqlClient/SqlClientRepository.cs&amp;version=GBmaster&amp;line=360">View Source</a>
   </span>
   <a id="Startitecture_Orm_SqlClient_SqlClientRepository_2_MergeForResults_" data-uid="Startitecture.Orm.SqlClient.SqlClientRepository`2.MergeForResults*"></a>
-  <h4 id="Startitecture_Orm_SqlClient_SqlClientRepository_2_MergeForResults__1_System_Collections_Generic_IEnumerable___0__System_Action_Startitecture_Orm_SqlClient_TableValuedMerge__1___" data-uid="Startitecture.Orm.SqlClient.SqlClientRepository`2.MergeForResults``1(System.Collections.Generic.IEnumerable{``0},System.Action{Startitecture.Orm.SqlClient.TableValuedMerge{`1}})">MergeForResults&lt;TItem&gt;(IEnumerable&lt;TItem&gt;, Action&lt;TableValuedMerge&lt;TEntity&gt;&gt;)</h4>
+  <h4 id="Startitecture_Orm_SqlClient_SqlClientRepository_2_MergeForResults__1_System_Collections_Generic_IEnumerable___0__System_Action_Startitecture_Orm_SqlClient_TransactSqlMergeBase__1___" data-uid="Startitecture.Orm.SqlClient.SqlClientRepository`2.MergeForResults``1(System.Collections.Generic.IEnumerable{``0},System.Action{Startitecture.Orm.SqlClient.TransactSqlMergeBase{`1}})">MergeForResults&lt;TItem&gt;(IEnumerable&lt;TItem&gt;, Action&lt;TransactSqlMergeBase&lt;TEntity&gt;&gt;)</h4>
   <div class="markdown level1 summary"><p>Merges a set of items into the repository then maps the results back to the <code data-dev-comment-type="typeparamref" class="typeparamref">TItem</code> type.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IEnumerable&lt;TItem&gt; MergeForResults&lt;TItem&gt;([NotNull] IEnumerable&lt;TItem&gt; items, Action&lt;TableValuedMerge&lt;TEntity&gt;&gt; mergeAction)</code></pre>
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;TItem&gt; MergeForResults&lt;TItem&gt;([NotNull] IEnumerable&lt;TItem&gt; items, Action&lt;TransactSqlMergeBase&lt;TEntity&gt;&gt; mergeAction)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -832,7 +832,7 @@
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="Startitecture.Orm.SqlClient.TableValuedMerge-1.html">TableValuedMerge</a>&lt;TEntity&gt;&gt;</td>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="Startitecture.Orm.SqlClient.TransactSqlMergeBase-1.html">TransactSqlMergeBase</a>&lt;TEntity&gt;&gt;</td>
         <td><span class="parametername">mergeAction</span></td>
         <td><p>The merge action to take, or null to take the default merge action.</p>
 </td>
@@ -871,7 +871,7 @@
       </tr>
     </tbody>
   </table>
-  <h5 id="Startitecture_Orm_SqlClient_SqlClientRepository_2_MergeForResults__1_System_Collections_Generic_IEnumerable___0__System_Action_Startitecture_Orm_SqlClient_TableValuedMerge__1____remarks">Remarks</h5>
+  <h5 id="Startitecture_Orm_SqlClient_SqlClientRepository_2_MergeForResults__1_System_Collections_Generic_IEnumerable___0__System_Action_Startitecture_Orm_SqlClient_TransactSqlMergeBase__1____remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>In SQL Server, MERGE operations are not guaranteed to be atomic.</p>
 </div>
   <h5 class="exceptions">Exceptions</h5>
@@ -892,16 +892,16 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.SqlClient/SqlClientRepository.cs&amp;version=GBmaster&amp;line=315">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.SqlClient/SqlClientRepository.cs&amp;version=GBmaster&amp;line=408">View Source</a>
   </span>
   <a id="Startitecture_Orm_SqlClient_SqlClientRepository_2_MergeForResultsAsync_" data-uid="Startitecture.Orm.SqlClient.SqlClientRepository`2.MergeForResultsAsync*"></a>
-  <h4 id="Startitecture_Orm_SqlClient_SqlClientRepository_2_MergeForResultsAsync__1_System_Collections_Generic_IEnumerable___0__System_Action_Startitecture_Orm_SqlClient_TableValuedMerge__1___" data-uid="Startitecture.Orm.SqlClient.SqlClientRepository`2.MergeForResultsAsync``1(System.Collections.Generic.IEnumerable{``0},System.Action{Startitecture.Orm.SqlClient.TableValuedMerge{`1}})">MergeForResultsAsync&lt;TItem&gt;(IEnumerable&lt;TItem&gt;, Action&lt;TableValuedMerge&lt;TEntity&gt;&gt;)</h4>
+  <h4 id="Startitecture_Orm_SqlClient_SqlClientRepository_2_MergeForResultsAsync__1_System_Collections_Generic_IEnumerable___0__System_Action_Startitecture_Orm_SqlClient_TransactSqlMergeBase__1___" data-uid="Startitecture.Orm.SqlClient.SqlClientRepository`2.MergeForResultsAsync``1(System.Collections.Generic.IEnumerable{``0},System.Action{Startitecture.Orm.SqlClient.TransactSqlMergeBase{`1}})">MergeForResultsAsync&lt;TItem&gt;(IEnumerable&lt;TItem&gt;, Action&lt;TransactSqlMergeBase&lt;TEntity&gt;&gt;)</h4>
   <div class="markdown level1 summary"><p>Merges a set of items into the repository then maps the results back to the <code data-dev-comment-type="typeparamref" class="typeparamref">TItem</code> type.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;IEnumerable&lt;TItem&gt;&gt; MergeForResultsAsync&lt;TItem&gt;([NotNull] IEnumerable&lt;TItem&gt; items, Action&lt;TableValuedMerge&lt;TEntity&gt;&gt; mergeAction)</code></pre>
+    <pre><code class="lang-csharp hljs">public Task&lt;IEnumerable&lt;TItem&gt;&gt; MergeForResultsAsync&lt;TItem&gt;([NotNull] IEnumerable&lt;TItem&gt; items, Action&lt;TransactSqlMergeBase&lt;TEntity&gt;&gt; mergeAction)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -920,7 +920,7 @@
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="Startitecture.Orm.SqlClient.TableValuedMerge-1.html">TableValuedMerge</a>&lt;TEntity&gt;&gt;</td>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="Startitecture.Orm.SqlClient.TransactSqlMergeBase-1.html">TransactSqlMergeBase</a>&lt;TEntity&gt;&gt;</td>
         <td><span class="parametername">mergeAction</span></td>
         <td><p>The merge action to take, or null to take the default merge action.</p>
 </td>
@@ -959,7 +959,7 @@
       </tr>
     </tbody>
   </table>
-  <h5 id="Startitecture_Orm_SqlClient_SqlClientRepository_2_MergeForResultsAsync__1_System_Collections_Generic_IEnumerable___0__System_Action_Startitecture_Orm_SqlClient_TableValuedMerge__1____remarks">Remarks</h5>
+  <h5 id="Startitecture_Orm_SqlClient_SqlClientRepository_2_MergeForResultsAsync__1_System_Collections_Generic_IEnumerable___0__System_Action_Startitecture_Orm_SqlClient_TransactSqlMergeBase__1____remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>In SQL Server, MERGE operations are not guaranteed to be atomic.</p>
 </div>
   <h5 class="exceptions">Exceptions</h5>
@@ -993,7 +993,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.SqlClient/SqlClientRepository.cs&amp;version=GBmaster&amp;line=31" class="contribution-link">View Source</a>
+                    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.SqlClient/SqlClientRepository.cs&amp;version=GBmaster&amp;line=32" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

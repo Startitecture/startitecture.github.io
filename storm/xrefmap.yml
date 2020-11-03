@@ -3796,6 +3796,59 @@ references:
   fullName.vb: Startitecture.Orm.Mapper.TableCommand(Of T).ExecuteForResultsAsync(Of TItem)(System.Collections.Generic.IEnumerable(Of TItem))
   nameWithType: TableCommand<T>.ExecuteForResultsAsync<TItem>(IEnumerable<TItem>)
   nameWithType.vb: TableCommand(Of T).ExecuteForResultsAsync(Of TItem)(IEnumerable(Of TItem))
+- uid: Startitecture.Orm.Mapper.TableCommand`1.FromColumnExpressions
+  name: FromColumnExpressions
+  href: api/Startitecture.Orm.Mapper.TableCommand-1.html#Startitecture_Orm_Mapper_TableCommand_1_FromColumnExpressions
+  commentId: P:Startitecture.Orm.Mapper.TableCommand`1.FromColumnExpressions
+  fullName: Startitecture.Orm.Mapper.TableCommand<T>.FromColumnExpressions
+  fullName.vb: Startitecture.Orm.Mapper.TableCommand(Of T).FromColumnExpressions
+  nameWithType: TableCommand<T>.FromColumnExpressions
+  nameWithType.vb: TableCommand(Of T).FromColumnExpressions
+- uid: Startitecture.Orm.Mapper.TableCommand`1.FromColumnExpressions*
+  name: FromColumnExpressions
+  href: api/Startitecture.Orm.Mapper.TableCommand-1.html#Startitecture_Orm_Mapper_TableCommand_1_FromColumnExpressions_
+  commentId: Overload:Startitecture.Orm.Mapper.TableCommand`1.FromColumnExpressions
+  isSpec: "True"
+  fullName: Startitecture.Orm.Mapper.TableCommand<T>.FromColumnExpressions
+  fullName.vb: Startitecture.Orm.Mapper.TableCommand(Of T).FromColumnExpressions
+  nameWithType: TableCommand<T>.FromColumnExpressions
+  nameWithType.vb: TableCommand(Of T).FromColumnExpressions
+- uid: Startitecture.Orm.Mapper.TableCommand`1.GetInsertedAttributes(System.Collections.Generic.IEnumerable{Startitecture.Orm.Model.EntityAttributeDefinition})
+  name: GetInsertedAttributes(IEnumerable<EntityAttributeDefinition>)
+  href: api/Startitecture.Orm.Mapper.TableCommand-1.html#Startitecture_Orm_Mapper_TableCommand_1_GetInsertedAttributes_System_Collections_Generic_IEnumerable_Startitecture_Orm_Model_EntityAttributeDefinition__
+  commentId: M:Startitecture.Orm.Mapper.TableCommand`1.GetInsertedAttributes(System.Collections.Generic.IEnumerable{Startitecture.Orm.Model.EntityAttributeDefinition})
+  name.vb: GetInsertedAttributes(IEnumerable(Of EntityAttributeDefinition))
+  fullName: Startitecture.Orm.Mapper.TableCommand<T>.GetInsertedAttributes(System.Collections.Generic.IEnumerable<Startitecture.Orm.Model.EntityAttributeDefinition>)
+  fullName.vb: Startitecture.Orm.Mapper.TableCommand(Of T).GetInsertedAttributes(System.Collections.Generic.IEnumerable(Of Startitecture.Orm.Model.EntityAttributeDefinition))
+  nameWithType: TableCommand<T>.GetInsertedAttributes(IEnumerable<EntityAttributeDefinition>)
+  nameWithType.vb: TableCommand(Of T).GetInsertedAttributes(IEnumerable(Of EntityAttributeDefinition))
+- uid: Startitecture.Orm.Mapper.TableCommand`1.GetInsertedAttributes*
+  name: GetInsertedAttributes
+  href: api/Startitecture.Orm.Mapper.TableCommand-1.html#Startitecture_Orm_Mapper_TableCommand_1_GetInsertedAttributes_
+  commentId: Overload:Startitecture.Orm.Mapper.TableCommand`1.GetInsertedAttributes
+  isSpec: "True"
+  fullName: Startitecture.Orm.Mapper.TableCommand<T>.GetInsertedAttributes
+  fullName.vb: Startitecture.Orm.Mapper.TableCommand(Of T).GetInsertedAttributes
+  nameWithType: TableCommand<T>.GetInsertedAttributes
+  nameWithType.vb: TableCommand(Of T).GetInsertedAttributes
+- uid: Startitecture.Orm.Mapper.TableCommand`1.GetMatchedAttributes(System.Collections.Generic.IEnumerable{Startitecture.Orm.Model.EntityAttributeDefinition})
+  name: GetMatchedAttributes(IEnumerable<EntityAttributeDefinition>)
+  href: api/Startitecture.Orm.Mapper.TableCommand-1.html#Startitecture_Orm_Mapper_TableCommand_1_GetMatchedAttributes_System_Collections_Generic_IEnumerable_Startitecture_Orm_Model_EntityAttributeDefinition__
+  commentId: M:Startitecture.Orm.Mapper.TableCommand`1.GetMatchedAttributes(System.Collections.Generic.IEnumerable{Startitecture.Orm.Model.EntityAttributeDefinition})
+  name.vb: GetMatchedAttributes(IEnumerable(Of EntityAttributeDefinition))
+  fullName: Startitecture.Orm.Mapper.TableCommand<T>.GetMatchedAttributes(System.Collections.Generic.IEnumerable<Startitecture.Orm.Model.EntityAttributeDefinition>)
+  fullName.vb: Startitecture.Orm.Mapper.TableCommand(Of T).GetMatchedAttributes(System.Collections.Generic.IEnumerable(Of Startitecture.Orm.Model.EntityAttributeDefinition))
+  nameWithType: TableCommand<T>.GetMatchedAttributes(IEnumerable<EntityAttributeDefinition>)
+  nameWithType.vb: TableCommand(Of T).GetMatchedAttributes(IEnumerable(Of EntityAttributeDefinition))
+- uid: Startitecture.Orm.Mapper.TableCommand`1.GetMatchedAttributes*
+  name: GetMatchedAttributes
+  href: api/Startitecture.Orm.Mapper.TableCommand-1.html#Startitecture_Orm_Mapper_TableCommand_1_GetMatchedAttributes_
+  commentId: Overload:Startitecture.Orm.Mapper.TableCommand`1.GetMatchedAttributes
+  isSpec: "True"
+  fullName: Startitecture.Orm.Mapper.TableCommand<T>.GetMatchedAttributes
+  fullName.vb: Startitecture.Orm.Mapper.TableCommand(Of T).GetMatchedAttributes
+  nameWithType: TableCommand<T>.GetMatchedAttributes
+  nameWithType.vb: TableCommand(Of T).GetMatchedAttributes
 - uid: Startitecture.Orm.Mapper.TableCommand`1.ItemDefinition
   name: ItemDefinition
   href: api/Startitecture.Orm.Mapper.TableCommand-1.html#Startitecture_Orm_Mapper_TableCommand_1_ItemDefinition
@@ -3813,23 +3866,23 @@ references:
   fullName.vb: Startitecture.Orm.Mapper.TableCommand(Of T).ItemDefinition
   nameWithType: TableCommand<T>.ItemDefinition
   nameWithType.vb: TableCommand(Of T).ItemDefinition
-- uid: Startitecture.Orm.Mapper.TableCommand`1.ItemType
-  name: ItemType
-  href: api/Startitecture.Orm.Mapper.TableCommand-1.html#Startitecture_Orm_Mapper_TableCommand_1_ItemType
-  commentId: P:Startitecture.Orm.Mapper.TableCommand`1.ItemType
-  fullName: Startitecture.Orm.Mapper.TableCommand<T>.ItemType
-  fullName.vb: Startitecture.Orm.Mapper.TableCommand(Of T).ItemType
-  nameWithType: TableCommand<T>.ItemType
-  nameWithType.vb: TableCommand(Of T).ItemType
-- uid: Startitecture.Orm.Mapper.TableCommand`1.ItemType*
-  name: ItemType
-  href: api/Startitecture.Orm.Mapper.TableCommand-1.html#Startitecture_Orm_Mapper_TableCommand_1_ItemType_
-  commentId: Overload:Startitecture.Orm.Mapper.TableCommand`1.ItemType
+- uid: Startitecture.Orm.Mapper.TableCommand`1.NameQualifier
+  name: NameQualifier
+  href: api/Startitecture.Orm.Mapper.TableCommand-1.html#Startitecture_Orm_Mapper_TableCommand_1_NameQualifier
+  commentId: P:Startitecture.Orm.Mapper.TableCommand`1.NameQualifier
+  fullName: Startitecture.Orm.Mapper.TableCommand<T>.NameQualifier
+  fullName.vb: Startitecture.Orm.Mapper.TableCommand(Of T).NameQualifier
+  nameWithType: TableCommand<T>.NameQualifier
+  nameWithType.vb: TableCommand(Of T).NameQualifier
+- uid: Startitecture.Orm.Mapper.TableCommand`1.NameQualifier*
+  name: NameQualifier
+  href: api/Startitecture.Orm.Mapper.TableCommand-1.html#Startitecture_Orm_Mapper_TableCommand_1_NameQualifier_
+  commentId: Overload:Startitecture.Orm.Mapper.TableCommand`1.NameQualifier
   isSpec: "True"
-  fullName: Startitecture.Orm.Mapper.TableCommand<T>.ItemType
-  fullName.vb: Startitecture.Orm.Mapper.TableCommand(Of T).ItemType
-  nameWithType: TableCommand<T>.ItemType
-  nameWithType.vb: TableCommand(Of T).ItemType
+  fullName: Startitecture.Orm.Mapper.TableCommand<T>.NameQualifier
+  fullName.vb: Startitecture.Orm.Mapper.TableCommand(Of T).NameQualifier
+  nameWithType: TableCommand<T>.NameQualifier
+  nameWithType.vb: TableCommand(Of T).NameQualifier
 - uid: Startitecture.Orm.Mapper.TableCommand`1.ParameterName
   name: ParameterName
   href: api/Startitecture.Orm.Mapper.TableCommand-1.html#Startitecture_Orm_Mapper_TableCommand_1_ParameterName
@@ -10000,6 +10053,257 @@ references:
   fullName.vb: Startitecture.Orm.SqlClient.DataTableLoader(Of T).Load
   nameWithType: DataTableLoader<T>.Load
   nameWithType.vb: DataTableLoader(Of T).Load
+- uid: Startitecture.Orm.SqlClient.JsonInsert`1
+  name: JsonInsert<T>
+  href: api/Startitecture.Orm.SqlClient.JsonInsert-1.html
+  commentId: T:Startitecture.Orm.SqlClient.JsonInsert`1
+  name.vb: JsonInsert(Of T)
+  fullName: Startitecture.Orm.SqlClient.JsonInsert<T>
+  fullName.vb: Startitecture.Orm.SqlClient.JsonInsert(Of T)
+  nameWithType: JsonInsert<T>
+  nameWithType.vb: JsonInsert(Of T)
+- uid: Startitecture.Orm.SqlClient.JsonInsert`1.#ctor(Startitecture.Orm.Common.IDbTableCommandFactory,Startitecture.Orm.Common.IDatabaseContext)
+  name: JsonInsert(IDbTableCommandFactory, IDatabaseContext)
+  href: api/Startitecture.Orm.SqlClient.JsonInsert-1.html#Startitecture_Orm_SqlClient_JsonInsert_1__ctor_Startitecture_Orm_Common_IDbTableCommandFactory_Startitecture_Orm_Common_IDatabaseContext_
+  commentId: M:Startitecture.Orm.SqlClient.JsonInsert`1.#ctor(Startitecture.Orm.Common.IDbTableCommandFactory,Startitecture.Orm.Common.IDatabaseContext)
+  fullName: Startitecture.Orm.SqlClient.JsonInsert<T>.JsonInsert(Startitecture.Orm.Common.IDbTableCommandFactory, Startitecture.Orm.Common.IDatabaseContext)
+  fullName.vb: Startitecture.Orm.SqlClient.JsonInsert(Of T).JsonInsert(Startitecture.Orm.Common.IDbTableCommandFactory, Startitecture.Orm.Common.IDatabaseContext)
+  nameWithType: JsonInsert<T>.JsonInsert(IDbTableCommandFactory, IDatabaseContext)
+  nameWithType.vb: JsonInsert(Of T).JsonInsert(IDbTableCommandFactory, IDatabaseContext)
+- uid: Startitecture.Orm.SqlClient.JsonInsert`1.#ctor*
+  name: JsonInsert
+  href: api/Startitecture.Orm.SqlClient.JsonInsert-1.html#Startitecture_Orm_SqlClient_JsonInsert_1__ctor_
+  commentId: Overload:Startitecture.Orm.SqlClient.JsonInsert`1.#ctor
+  isSpec: "True"
+  fullName: Startitecture.Orm.SqlClient.JsonInsert<T>.JsonInsert
+  fullName.vb: Startitecture.Orm.SqlClient.JsonInsert(Of T).JsonInsert
+  nameWithType: JsonInsert<T>.JsonInsert
+  nameWithType.vb: JsonInsert(Of T).JsonInsert
+- uid: Startitecture.Orm.SqlClient.JsonInsert`1.DeclareInsertedTable(System.Collections.Generic.IEnumerable{Startitecture.Orm.Model.EntityAttributeDefinition})
+  name: DeclareInsertedTable(IEnumerable<EntityAttributeDefinition>)
+  href: api/Startitecture.Orm.SqlClient.JsonInsert-1.html#Startitecture_Orm_SqlClient_JsonInsert_1_DeclareInsertedTable_System_Collections_Generic_IEnumerable_Startitecture_Orm_Model_EntityAttributeDefinition__
+  commentId: M:Startitecture.Orm.SqlClient.JsonInsert`1.DeclareInsertedTable(System.Collections.Generic.IEnumerable{Startitecture.Orm.Model.EntityAttributeDefinition})
+  name.vb: DeclareInsertedTable(IEnumerable(Of EntityAttributeDefinition))
+  fullName: Startitecture.Orm.SqlClient.JsonInsert<T>.DeclareInsertedTable(System.Collections.Generic.IEnumerable<Startitecture.Orm.Model.EntityAttributeDefinition>)
+  fullName.vb: Startitecture.Orm.SqlClient.JsonInsert(Of T).DeclareInsertedTable(System.Collections.Generic.IEnumerable(Of Startitecture.Orm.Model.EntityAttributeDefinition))
+  nameWithType: JsonInsert<T>.DeclareInsertedTable(IEnumerable<EntityAttributeDefinition>)
+  nameWithType.vb: JsonInsert(Of T).DeclareInsertedTable(IEnumerable(Of EntityAttributeDefinition))
+- uid: Startitecture.Orm.SqlClient.JsonInsert`1.DeclareInsertedTable*
+  name: DeclareInsertedTable
+  href: api/Startitecture.Orm.SqlClient.JsonInsert-1.html#Startitecture_Orm_SqlClient_JsonInsert_1_DeclareInsertedTable_
+  commentId: Overload:Startitecture.Orm.SqlClient.JsonInsert`1.DeclareInsertedTable
+  isSpec: "True"
+  fullName: Startitecture.Orm.SqlClient.JsonInsert<T>.DeclareInsertedTable
+  fullName.vb: Startitecture.Orm.SqlClient.JsonInsert(Of T).DeclareInsertedTable
+  nameWithType: JsonInsert<T>.DeclareInsertedTable
+  nameWithType.vb: JsonInsert(Of T).DeclareInsertedTable
+- uid: Startitecture.Orm.SqlClient.JsonInsert`1.DeclareSourceTable(System.Collections.Generic.IEnumerable{Startitecture.Orm.Model.EntityAttributeDefinition})
+  name: DeclareSourceTable(IEnumerable<EntityAttributeDefinition>)
+  href: api/Startitecture.Orm.SqlClient.JsonInsert-1.html#Startitecture_Orm_SqlClient_JsonInsert_1_DeclareSourceTable_System_Collections_Generic_IEnumerable_Startitecture_Orm_Model_EntityAttributeDefinition__
+  commentId: M:Startitecture.Orm.SqlClient.JsonInsert`1.DeclareSourceTable(System.Collections.Generic.IEnumerable{Startitecture.Orm.Model.EntityAttributeDefinition})
+  name.vb: DeclareSourceTable(IEnumerable(Of EntityAttributeDefinition))
+  fullName: Startitecture.Orm.SqlClient.JsonInsert<T>.DeclareSourceTable(System.Collections.Generic.IEnumerable<Startitecture.Orm.Model.EntityAttributeDefinition>)
+  fullName.vb: Startitecture.Orm.SqlClient.JsonInsert(Of T).DeclareSourceTable(System.Collections.Generic.IEnumerable(Of Startitecture.Orm.Model.EntityAttributeDefinition))
+  nameWithType: JsonInsert<T>.DeclareSourceTable(IEnumerable<EntityAttributeDefinition>)
+  nameWithType.vb: JsonInsert(Of T).DeclareSourceTable(IEnumerable(Of EntityAttributeDefinition))
+- uid: Startitecture.Orm.SqlClient.JsonInsert`1.DeclareSourceTable*
+  name: DeclareSourceTable
+  href: api/Startitecture.Orm.SqlClient.JsonInsert-1.html#Startitecture_Orm_SqlClient_JsonInsert_1_DeclareSourceTable_
+  commentId: Overload:Startitecture.Orm.SqlClient.JsonInsert`1.DeclareSourceTable
+  isSpec: "True"
+  fullName: Startitecture.Orm.SqlClient.JsonInsert<T>.DeclareSourceTable
+  fullName.vb: Startitecture.Orm.SqlClient.JsonInsert(Of T).DeclareSourceTable
+  nameWithType: JsonInsert<T>.DeclareSourceTable
+  nameWithType.vb: JsonInsert(Of T).DeclareSourceTable
+- uid: Startitecture.Orm.SqlClient.JsonInsert`1.SourceSelection(System.Collections.Generic.IReadOnlyDictionary{Startitecture.Orm.Model.EntityAttributeDefinition,Startitecture.Orm.Model.EntityAttributeDefinition})
+  name: SourceSelection(IReadOnlyDictionary<EntityAttributeDefinition, EntityAttributeDefinition>)
+  href: api/Startitecture.Orm.SqlClient.JsonInsert-1.html#Startitecture_Orm_SqlClient_JsonInsert_1_SourceSelection_System_Collections_Generic_IReadOnlyDictionary_Startitecture_Orm_Model_EntityAttributeDefinition_Startitecture_Orm_Model_EntityAttributeDefinition__
+  commentId: M:Startitecture.Orm.SqlClient.JsonInsert`1.SourceSelection(System.Collections.Generic.IReadOnlyDictionary{Startitecture.Orm.Model.EntityAttributeDefinition,Startitecture.Orm.Model.EntityAttributeDefinition})
+  name.vb: SourceSelection(IReadOnlyDictionary(Of EntityAttributeDefinition, EntityAttributeDefinition))
+  fullName: Startitecture.Orm.SqlClient.JsonInsert<T>.SourceSelection(System.Collections.Generic.IReadOnlyDictionary<Startitecture.Orm.Model.EntityAttributeDefinition, Startitecture.Orm.Model.EntityAttributeDefinition>)
+  fullName.vb: Startitecture.Orm.SqlClient.JsonInsert(Of T).SourceSelection(System.Collections.Generic.IReadOnlyDictionary(Of Startitecture.Orm.Model.EntityAttributeDefinition, Startitecture.Orm.Model.EntityAttributeDefinition))
+  nameWithType: JsonInsert<T>.SourceSelection(IReadOnlyDictionary<EntityAttributeDefinition, EntityAttributeDefinition>)
+  nameWithType.vb: JsonInsert(Of T).SourceSelection(IReadOnlyDictionary(Of EntityAttributeDefinition, EntityAttributeDefinition))
+- uid: Startitecture.Orm.SqlClient.JsonInsert`1.SourceSelection*
+  name: SourceSelection
+  href: api/Startitecture.Orm.SqlClient.JsonInsert-1.html#Startitecture_Orm_SqlClient_JsonInsert_1_SourceSelection_
+  commentId: Overload:Startitecture.Orm.SqlClient.JsonInsert`1.SourceSelection
+  isSpec: "True"
+  fullName: Startitecture.Orm.SqlClient.JsonInsert<T>.SourceSelection
+  fullName.vb: Startitecture.Orm.SqlClient.JsonInsert(Of T).SourceSelection
+  nameWithType: JsonInsert<T>.SourceSelection
+  nameWithType.vb: JsonInsert(Of T).SourceSelection
+- uid: Startitecture.Orm.SqlClient.JsonInsert`1.SourceTableReference(System.Collections.Generic.IEnumerable{Startitecture.Orm.Model.EntityAttributeDefinition})
+  name: SourceTableReference(IEnumerable<EntityAttributeDefinition>)
+  href: api/Startitecture.Orm.SqlClient.JsonInsert-1.html#Startitecture_Orm_SqlClient_JsonInsert_1_SourceTableReference_System_Collections_Generic_IEnumerable_Startitecture_Orm_Model_EntityAttributeDefinition__
+  commentId: M:Startitecture.Orm.SqlClient.JsonInsert`1.SourceTableReference(System.Collections.Generic.IEnumerable{Startitecture.Orm.Model.EntityAttributeDefinition})
+  name.vb: SourceTableReference(IEnumerable(Of EntityAttributeDefinition))
+  fullName: Startitecture.Orm.SqlClient.JsonInsert<T>.SourceTableReference(System.Collections.Generic.IEnumerable<Startitecture.Orm.Model.EntityAttributeDefinition>)
+  fullName.vb: Startitecture.Orm.SqlClient.JsonInsert(Of T).SourceTableReference(System.Collections.Generic.IEnumerable(Of Startitecture.Orm.Model.EntityAttributeDefinition))
+  nameWithType: JsonInsert<T>.SourceTableReference(IEnumerable<EntityAttributeDefinition>)
+  nameWithType.vb: JsonInsert(Of T).SourceTableReference(IEnumerable(Of EntityAttributeDefinition))
+- uid: Startitecture.Orm.SqlClient.JsonInsert`1.SourceTableReference*
+  name: SourceTableReference
+  href: api/Startitecture.Orm.SqlClient.JsonInsert-1.html#Startitecture_Orm_SqlClient_JsonInsert_1_SourceTableReference_
+  commentId: Overload:Startitecture.Orm.SqlClient.JsonInsert`1.SourceTableReference
+  isSpec: "True"
+  fullName: Startitecture.Orm.SqlClient.JsonInsert<T>.SourceTableReference
+  fullName.vb: Startitecture.Orm.SqlClient.JsonInsert(Of T).SourceTableReference
+  nameWithType: JsonInsert<T>.SourceTableReference
+  nameWithType.vb: JsonInsert(Of T).SourceTableReference
+- uid: Startitecture.Orm.SqlClient.JsonMerge`1
+  name: JsonMerge<T>
+  href: api/Startitecture.Orm.SqlClient.JsonMerge-1.html
+  commentId: T:Startitecture.Orm.SqlClient.JsonMerge`1
+  name.vb: JsonMerge(Of T)
+  fullName: Startitecture.Orm.SqlClient.JsonMerge<T>
+  fullName.vb: Startitecture.Orm.SqlClient.JsonMerge(Of T)
+  nameWithType: JsonMerge<T>
+  nameWithType.vb: JsonMerge(Of T)
+- uid: Startitecture.Orm.SqlClient.JsonMerge`1.#ctor(Startitecture.Orm.Common.IDbTableCommandFactory,Startitecture.Orm.Common.IDatabaseContext)
+  name: JsonMerge(IDbTableCommandFactory, IDatabaseContext)
+  href: api/Startitecture.Orm.SqlClient.JsonMerge-1.html#Startitecture_Orm_SqlClient_JsonMerge_1__ctor_Startitecture_Orm_Common_IDbTableCommandFactory_Startitecture_Orm_Common_IDatabaseContext_
+  commentId: M:Startitecture.Orm.SqlClient.JsonMerge`1.#ctor(Startitecture.Orm.Common.IDbTableCommandFactory,Startitecture.Orm.Common.IDatabaseContext)
+  fullName: Startitecture.Orm.SqlClient.JsonMerge<T>.JsonMerge(Startitecture.Orm.Common.IDbTableCommandFactory, Startitecture.Orm.Common.IDatabaseContext)
+  fullName.vb: Startitecture.Orm.SqlClient.JsonMerge(Of T).JsonMerge(Startitecture.Orm.Common.IDbTableCommandFactory, Startitecture.Orm.Common.IDatabaseContext)
+  nameWithType: JsonMerge<T>.JsonMerge(IDbTableCommandFactory, IDatabaseContext)
+  nameWithType.vb: JsonMerge(Of T).JsonMerge(IDbTableCommandFactory, IDatabaseContext)
+- uid: Startitecture.Orm.SqlClient.JsonMerge`1.#ctor*
+  name: JsonMerge
+  href: api/Startitecture.Orm.SqlClient.JsonMerge-1.html#Startitecture_Orm_SqlClient_JsonMerge_1__ctor_
+  commentId: Overload:Startitecture.Orm.SqlClient.JsonMerge`1.#ctor
+  isSpec: "True"
+  fullName: Startitecture.Orm.SqlClient.JsonMerge<T>.JsonMerge
+  fullName.vb: Startitecture.Orm.SqlClient.JsonMerge(Of T).JsonMerge
+  nameWithType: JsonMerge<T>.JsonMerge
+  nameWithType.vb: JsonMerge(Of T).JsonMerge
+- uid: Startitecture.Orm.SqlClient.JsonMerge`1.DeclareInsertedTable(System.Collections.Generic.IEnumerable{Startitecture.Orm.Model.EntityAttributeDefinition})
+  name: DeclareInsertedTable(IEnumerable<EntityAttributeDefinition>)
+  href: api/Startitecture.Orm.SqlClient.JsonMerge-1.html#Startitecture_Orm_SqlClient_JsonMerge_1_DeclareInsertedTable_System_Collections_Generic_IEnumerable_Startitecture_Orm_Model_EntityAttributeDefinition__
+  commentId: M:Startitecture.Orm.SqlClient.JsonMerge`1.DeclareInsertedTable(System.Collections.Generic.IEnumerable{Startitecture.Orm.Model.EntityAttributeDefinition})
+  name.vb: DeclareInsertedTable(IEnumerable(Of EntityAttributeDefinition))
+  fullName: Startitecture.Orm.SqlClient.JsonMerge<T>.DeclareInsertedTable(System.Collections.Generic.IEnumerable<Startitecture.Orm.Model.EntityAttributeDefinition>)
+  fullName.vb: Startitecture.Orm.SqlClient.JsonMerge(Of T).DeclareInsertedTable(System.Collections.Generic.IEnumerable(Of Startitecture.Orm.Model.EntityAttributeDefinition))
+  nameWithType: JsonMerge<T>.DeclareInsertedTable(IEnumerable<EntityAttributeDefinition>)
+  nameWithType.vb: JsonMerge(Of T).DeclareInsertedTable(IEnumerable(Of EntityAttributeDefinition))
+- uid: Startitecture.Orm.SqlClient.JsonMerge`1.DeclareInsertedTable*
+  name: DeclareInsertedTable
+  href: api/Startitecture.Orm.SqlClient.JsonMerge-1.html#Startitecture_Orm_SqlClient_JsonMerge_1_DeclareInsertedTable_
+  commentId: Overload:Startitecture.Orm.SqlClient.JsonMerge`1.DeclareInsertedTable
+  isSpec: "True"
+  fullName: Startitecture.Orm.SqlClient.JsonMerge<T>.DeclareInsertedTable
+  fullName.vb: Startitecture.Orm.SqlClient.JsonMerge(Of T).DeclareInsertedTable
+  nameWithType: JsonMerge<T>.DeclareInsertedTable
+  nameWithType.vb: JsonMerge(Of T).DeclareInsertedTable
+- uid: Startitecture.Orm.SqlClient.JsonMerge`1.DeclareSourceTable(System.Collections.Generic.IEnumerable{Startitecture.Orm.Model.EntityAttributeDefinition})
+  name: DeclareSourceTable(IEnumerable<EntityAttributeDefinition>)
+  href: api/Startitecture.Orm.SqlClient.JsonMerge-1.html#Startitecture_Orm_SqlClient_JsonMerge_1_DeclareSourceTable_System_Collections_Generic_IEnumerable_Startitecture_Orm_Model_EntityAttributeDefinition__
+  commentId: M:Startitecture.Orm.SqlClient.JsonMerge`1.DeclareSourceTable(System.Collections.Generic.IEnumerable{Startitecture.Orm.Model.EntityAttributeDefinition})
+  name.vb: DeclareSourceTable(IEnumerable(Of EntityAttributeDefinition))
+  fullName: Startitecture.Orm.SqlClient.JsonMerge<T>.DeclareSourceTable(System.Collections.Generic.IEnumerable<Startitecture.Orm.Model.EntityAttributeDefinition>)
+  fullName.vb: Startitecture.Orm.SqlClient.JsonMerge(Of T).DeclareSourceTable(System.Collections.Generic.IEnumerable(Of Startitecture.Orm.Model.EntityAttributeDefinition))
+  nameWithType: JsonMerge<T>.DeclareSourceTable(IEnumerable<EntityAttributeDefinition>)
+  nameWithType.vb: JsonMerge(Of T).DeclareSourceTable(IEnumerable(Of EntityAttributeDefinition))
+- uid: Startitecture.Orm.SqlClient.JsonMerge`1.DeclareSourceTable*
+  name: DeclareSourceTable
+  href: api/Startitecture.Orm.SqlClient.JsonMerge-1.html#Startitecture_Orm_SqlClient_JsonMerge_1_DeclareSourceTable_
+  commentId: Overload:Startitecture.Orm.SqlClient.JsonMerge`1.DeclareSourceTable
+  isSpec: "True"
+  fullName: Startitecture.Orm.SqlClient.JsonMerge<T>.DeclareSourceTable
+  fullName.vb: Startitecture.Orm.SqlClient.JsonMerge(Of T).DeclareSourceTable
+  nameWithType: JsonMerge<T>.DeclareSourceTable
+  nameWithType.vb: JsonMerge(Of T).DeclareSourceTable
+- uid: Startitecture.Orm.SqlClient.JsonMerge`1.SourceSelection(System.Collections.Generic.Dictionary{Startitecture.Orm.Model.EntityAttributeDefinition,Startitecture.Orm.Model.EntityAttributeDefinition})
+  name: SourceSelection(Dictionary<EntityAttributeDefinition, EntityAttributeDefinition>)
+  href: api/Startitecture.Orm.SqlClient.JsonMerge-1.html#Startitecture_Orm_SqlClient_JsonMerge_1_SourceSelection_System_Collections_Generic_Dictionary_Startitecture_Orm_Model_EntityAttributeDefinition_Startitecture_Orm_Model_EntityAttributeDefinition__
+  commentId: M:Startitecture.Orm.SqlClient.JsonMerge`1.SourceSelection(System.Collections.Generic.Dictionary{Startitecture.Orm.Model.EntityAttributeDefinition,Startitecture.Orm.Model.EntityAttributeDefinition})
+  name.vb: SourceSelection(Dictionary(Of EntityAttributeDefinition, EntityAttributeDefinition))
+  fullName: Startitecture.Orm.SqlClient.JsonMerge<T>.SourceSelection(System.Collections.Generic.Dictionary<Startitecture.Orm.Model.EntityAttributeDefinition, Startitecture.Orm.Model.EntityAttributeDefinition>)
+  fullName.vb: Startitecture.Orm.SqlClient.JsonMerge(Of T).SourceSelection(System.Collections.Generic.Dictionary(Of Startitecture.Orm.Model.EntityAttributeDefinition, Startitecture.Orm.Model.EntityAttributeDefinition))
+  nameWithType: JsonMerge<T>.SourceSelection(Dictionary<EntityAttributeDefinition, EntityAttributeDefinition>)
+  nameWithType.vb: JsonMerge(Of T).SourceSelection(Dictionary(Of EntityAttributeDefinition, EntityAttributeDefinition))
+- uid: Startitecture.Orm.SqlClient.JsonMerge`1.SourceSelection*
+  name: SourceSelection
+  href: api/Startitecture.Orm.SqlClient.JsonMerge-1.html#Startitecture_Orm_SqlClient_JsonMerge_1_SourceSelection_
+  commentId: Overload:Startitecture.Orm.SqlClient.JsonMerge`1.SourceSelection
+  isSpec: "True"
+  fullName: Startitecture.Orm.SqlClient.JsonMerge<T>.SourceSelection
+  fullName.vb: Startitecture.Orm.SqlClient.JsonMerge(Of T).SourceSelection
+  nameWithType: JsonMerge<T>.SourceSelection
+  nameWithType.vb: JsonMerge(Of T).SourceSelection
+- uid: Startitecture.Orm.SqlClient.JsonParameterCommandFactory
+  name: JsonParameterCommandFactory
+  href: api/Startitecture.Orm.SqlClient.JsonParameterCommandFactory.html
+  commentId: T:Startitecture.Orm.SqlClient.JsonParameterCommandFactory
+  fullName: Startitecture.Orm.SqlClient.JsonParameterCommandFactory
+  nameWithType: JsonParameterCommandFactory
+- uid: Startitecture.Orm.SqlClient.JsonParameterCommandFactory.#ctor(Startitecture.Orm.Common.IDatabaseContext)
+  name: JsonParameterCommandFactory(IDatabaseContext)
+  href: api/Startitecture.Orm.SqlClient.JsonParameterCommandFactory.html#Startitecture_Orm_SqlClient_JsonParameterCommandFactory__ctor_Startitecture_Orm_Common_IDatabaseContext_
+  commentId: M:Startitecture.Orm.SqlClient.JsonParameterCommandFactory.#ctor(Startitecture.Orm.Common.IDatabaseContext)
+  fullName: Startitecture.Orm.SqlClient.JsonParameterCommandFactory.JsonParameterCommandFactory(Startitecture.Orm.Common.IDatabaseContext)
+  nameWithType: JsonParameterCommandFactory.JsonParameterCommandFactory(IDatabaseContext)
+- uid: Startitecture.Orm.SqlClient.JsonParameterCommandFactory.#ctor*
+  name: JsonParameterCommandFactory
+  href: api/Startitecture.Orm.SqlClient.JsonParameterCommandFactory.html#Startitecture_Orm_SqlClient_JsonParameterCommandFactory__ctor_
+  commentId: Overload:Startitecture.Orm.SqlClient.JsonParameterCommandFactory.#ctor
+  isSpec: "True"
+  fullName: Startitecture.Orm.SqlClient.JsonParameterCommandFactory.JsonParameterCommandFactory
+  nameWithType: JsonParameterCommandFactory.JsonParameterCommandFactory
+- uid: Startitecture.Orm.SqlClient.JsonParameterCommandFactory.Create*
+  name: Create
+  href: api/Startitecture.Orm.SqlClient.JsonParameterCommandFactory.html#Startitecture_Orm_SqlClient_JsonParameterCommandFactory_Create_
+  commentId: Overload:Startitecture.Orm.SqlClient.JsonParameterCommandFactory.Create
+  isSpec: "True"
+  fullName: Startitecture.Orm.SqlClient.JsonParameterCommandFactory.Create
+  nameWithType: JsonParameterCommandFactory.Create
+- uid: Startitecture.Orm.SqlClient.JsonParameterCommandFactory.Create``1(Startitecture.Orm.Common.ITableCommand,System.Collections.Generic.IEnumerable{``0})
+  name: Create<T>(ITableCommand, IEnumerable<T>)
+  href: api/Startitecture.Orm.SqlClient.JsonParameterCommandFactory.html#Startitecture_Orm_SqlClient_JsonParameterCommandFactory_Create__1_Startitecture_Orm_Common_ITableCommand_System_Collections_Generic_IEnumerable___0__
+  commentId: M:Startitecture.Orm.SqlClient.JsonParameterCommandFactory.Create``1(Startitecture.Orm.Common.ITableCommand,System.Collections.Generic.IEnumerable{``0})
+  name.vb: Create(Of T)(ITableCommand, IEnumerable(Of T))
+  fullName: Startitecture.Orm.SqlClient.JsonParameterCommandFactory.Create<T>(Startitecture.Orm.Common.ITableCommand, System.Collections.Generic.IEnumerable<T>)
+  fullName.vb: Startitecture.Orm.SqlClient.JsonParameterCommandFactory.Create(Of T)(Startitecture.Orm.Common.ITableCommand, System.Collections.Generic.IEnumerable(Of T))
+  nameWithType: JsonParameterCommandFactory.Create<T>(ITableCommand, IEnumerable<T>)
+  nameWithType.vb: JsonParameterCommandFactory.Create(Of T)(ITableCommand, IEnumerable(Of T))
+- uid: Startitecture.Orm.SqlClient.MoneyConverter
+  name: MoneyConverter
+  href: api/Startitecture.Orm.SqlClient.MoneyConverter.html
+  commentId: T:Startitecture.Orm.SqlClient.MoneyConverter
+  fullName: Startitecture.Orm.SqlClient.MoneyConverter
+  nameWithType: MoneyConverter
+- uid: Startitecture.Orm.SqlClient.MoneyConverter.Read(System.Text.Json.Utf8JsonReader@,System.Type,System.Text.Json.JsonSerializerOptions)
+  name: Read(ref Utf8JsonReader, Type, JsonSerializerOptions)
+  href: api/Startitecture.Orm.SqlClient.MoneyConverter.html#Startitecture_Orm_SqlClient_MoneyConverter_Read_System_Text_Json_Utf8JsonReader__System_Type_System_Text_Json_JsonSerializerOptions_
+  commentId: M:Startitecture.Orm.SqlClient.MoneyConverter.Read(System.Text.Json.Utf8JsonReader@,System.Type,System.Text.Json.JsonSerializerOptions)
+  name.vb: Read(ByRef Utf8JsonReader, Type, JsonSerializerOptions)
+  fullName: Startitecture.Orm.SqlClient.MoneyConverter.Read(ref System.Text.Json.Utf8JsonReader, System.Type, System.Text.Json.JsonSerializerOptions)
+  fullName.vb: Startitecture.Orm.SqlClient.MoneyConverter.Read(ByRef System.Text.Json.Utf8JsonReader, System.Type, System.Text.Json.JsonSerializerOptions)
+  nameWithType: MoneyConverter.Read(ref Utf8JsonReader, Type, JsonSerializerOptions)
+  nameWithType.vb: MoneyConverter.Read(ByRef Utf8JsonReader, Type, JsonSerializerOptions)
+- uid: Startitecture.Orm.SqlClient.MoneyConverter.Read*
+  name: Read
+  href: api/Startitecture.Orm.SqlClient.MoneyConverter.html#Startitecture_Orm_SqlClient_MoneyConverter_Read_
+  commentId: Overload:Startitecture.Orm.SqlClient.MoneyConverter.Read
+  isSpec: "True"
+  fullName: Startitecture.Orm.SqlClient.MoneyConverter.Read
+  nameWithType: MoneyConverter.Read
+- uid: Startitecture.Orm.SqlClient.MoneyConverter.Write(System.Text.Json.Utf8JsonWriter,System.Nullable{System.Data.SqlTypes.SqlMoney},System.Text.Json.JsonSerializerOptions)
+  name: Write(Utf8JsonWriter, Nullable<SqlMoney>, JsonSerializerOptions)
+  href: api/Startitecture.Orm.SqlClient.MoneyConverter.html#Startitecture_Orm_SqlClient_MoneyConverter_Write_System_Text_Json_Utf8JsonWriter_System_Nullable_System_Data_SqlTypes_SqlMoney__System_Text_Json_JsonSerializerOptions_
+  commentId: M:Startitecture.Orm.SqlClient.MoneyConverter.Write(System.Text.Json.Utf8JsonWriter,System.Nullable{System.Data.SqlTypes.SqlMoney},System.Text.Json.JsonSerializerOptions)
+  name.vb: Write(Utf8JsonWriter, Nullable(Of SqlMoney), JsonSerializerOptions)
+  fullName: Startitecture.Orm.SqlClient.MoneyConverter.Write(System.Text.Json.Utf8JsonWriter, System.Nullable<System.Data.SqlTypes.SqlMoney>, System.Text.Json.JsonSerializerOptions)
+  fullName.vb: Startitecture.Orm.SqlClient.MoneyConverter.Write(System.Text.Json.Utf8JsonWriter, System.Nullable(Of System.Data.SqlTypes.SqlMoney), System.Text.Json.JsonSerializerOptions)
+  nameWithType: MoneyConverter.Write(Utf8JsonWriter, Nullable<SqlMoney>, JsonSerializerOptions)
+  nameWithType.vb: MoneyConverter.Write(Utf8JsonWriter, Nullable(Of SqlMoney), JsonSerializerOptions)
+- uid: Startitecture.Orm.SqlClient.MoneyConverter.Write*
+  name: Write
+  href: api/Startitecture.Orm.SqlClient.MoneyConverter.html#Startitecture_Orm_SqlClient_MoneyConverter_Write_
+  commentId: Overload:Startitecture.Orm.SqlClient.MoneyConverter.Write
+  isSpec: "True"
+  fullName: Startitecture.Orm.SqlClient.MoneyConverter.Write
+  nameWithType: MoneyConverter.Write
 - uid: Startitecture.Orm.SqlClient.SqlClientProviderFactory
   name: SqlClientProviderFactory
   href: api/Startitecture.Orm.SqlClient.SqlClientProviderFactory.html
@@ -10076,15 +10380,15 @@ references:
   fullName.vb: Startitecture.Orm.SqlClient.SqlClientRepository(Of TModel, TEntity).Insert
   nameWithType: SqlClientRepository<TModel, TEntity>.Insert
   nameWithType.vb: SqlClientRepository(Of TModel, TEntity).Insert
-- uid: Startitecture.Orm.SqlClient.SqlClientRepository`2.Insert``1(System.Collections.Generic.IEnumerable{``0},System.Action{Startitecture.Orm.SqlClient.TableValuedInsert{`1}})
-  name: Insert<TItem>(IEnumerable<TItem>, Action<TableValuedInsert<TEntity>>)
-  href: api/Startitecture.Orm.SqlClient.SqlClientRepository-2.html#Startitecture_Orm_SqlClient_SqlClientRepository_2_Insert__1_System_Collections_Generic_IEnumerable___0__System_Action_Startitecture_Orm_SqlClient_TableValuedInsert__1___
-  commentId: M:Startitecture.Orm.SqlClient.SqlClientRepository`2.Insert``1(System.Collections.Generic.IEnumerable{``0},System.Action{Startitecture.Orm.SqlClient.TableValuedInsert{`1}})
-  name.vb: Insert(Of TItem)(IEnumerable(Of TItem), Action(Of TableValuedInsert(Of TEntity)))
-  fullName: Startitecture.Orm.SqlClient.SqlClientRepository<TModel, TEntity>.Insert<TItem>(System.Collections.Generic.IEnumerable<TItem>, System.Action<Startitecture.Orm.SqlClient.TableValuedInsert<TEntity>>)
-  fullName.vb: Startitecture.Orm.SqlClient.SqlClientRepository(Of TModel, TEntity).Insert(Of TItem)(System.Collections.Generic.IEnumerable(Of TItem), System.Action(Of Startitecture.Orm.SqlClient.TableValuedInsert(Of TEntity)))
-  nameWithType: SqlClientRepository<TModel, TEntity>.Insert<TItem>(IEnumerable<TItem>, Action<TableValuedInsert<TEntity>>)
-  nameWithType.vb: SqlClientRepository(Of TModel, TEntity).Insert(Of TItem)(IEnumerable(Of TItem), Action(Of TableValuedInsert(Of TEntity)))
+- uid: Startitecture.Orm.SqlClient.SqlClientRepository`2.Insert``1(System.Collections.Generic.IEnumerable{``0},System.Action{Startitecture.Orm.SqlClient.TransactSqlInsertBase{`1}})
+  name: Insert<TItem>(IEnumerable<TItem>, Action<TransactSqlInsertBase<TEntity>>)
+  href: api/Startitecture.Orm.SqlClient.SqlClientRepository-2.html#Startitecture_Orm_SqlClient_SqlClientRepository_2_Insert__1_System_Collections_Generic_IEnumerable___0__System_Action_Startitecture_Orm_SqlClient_TransactSqlInsertBase__1___
+  commentId: M:Startitecture.Orm.SqlClient.SqlClientRepository`2.Insert``1(System.Collections.Generic.IEnumerable{``0},System.Action{Startitecture.Orm.SqlClient.TransactSqlInsertBase{`1}})
+  name.vb: Insert(Of TItem)(IEnumerable(Of TItem), Action(Of TransactSqlInsertBase(Of TEntity)))
+  fullName: Startitecture.Orm.SqlClient.SqlClientRepository<TModel, TEntity>.Insert<TItem>(System.Collections.Generic.IEnumerable<TItem>, System.Action<Startitecture.Orm.SqlClient.TransactSqlInsertBase<TEntity>>)
+  fullName.vb: Startitecture.Orm.SqlClient.SqlClientRepository(Of TModel, TEntity).Insert(Of TItem)(System.Collections.Generic.IEnumerable(Of TItem), System.Action(Of Startitecture.Orm.SqlClient.TransactSqlInsertBase(Of TEntity)))
+  nameWithType: SqlClientRepository<TModel, TEntity>.Insert<TItem>(IEnumerable<TItem>, Action<TransactSqlInsertBase<TEntity>>)
+  nameWithType.vb: SqlClientRepository(Of TModel, TEntity).Insert(Of TItem)(IEnumerable(Of TItem), Action(Of TransactSqlInsertBase(Of TEntity)))
 - uid: Startitecture.Orm.SqlClient.SqlClientRepository`2.InsertAsync*
   name: InsertAsync
   href: api/Startitecture.Orm.SqlClient.SqlClientRepository-2.html#Startitecture_Orm_SqlClient_SqlClientRepository_2_InsertAsync_
@@ -10094,15 +10398,15 @@ references:
   fullName.vb: Startitecture.Orm.SqlClient.SqlClientRepository(Of TModel, TEntity).InsertAsync
   nameWithType: SqlClientRepository<TModel, TEntity>.InsertAsync
   nameWithType.vb: SqlClientRepository(Of TModel, TEntity).InsertAsync
-- uid: Startitecture.Orm.SqlClient.SqlClientRepository`2.InsertAsync``1(System.Collections.Generic.IEnumerable{``0},System.Action{Startitecture.Orm.SqlClient.TableValuedInsert{`1}})
-  name: InsertAsync<TItem>(IEnumerable<TItem>, Action<TableValuedInsert<TEntity>>)
-  href: api/Startitecture.Orm.SqlClient.SqlClientRepository-2.html#Startitecture_Orm_SqlClient_SqlClientRepository_2_InsertAsync__1_System_Collections_Generic_IEnumerable___0__System_Action_Startitecture_Orm_SqlClient_TableValuedInsert__1___
-  commentId: M:Startitecture.Orm.SqlClient.SqlClientRepository`2.InsertAsync``1(System.Collections.Generic.IEnumerable{``0},System.Action{Startitecture.Orm.SqlClient.TableValuedInsert{`1}})
-  name.vb: InsertAsync(Of TItem)(IEnumerable(Of TItem), Action(Of TableValuedInsert(Of TEntity)))
-  fullName: Startitecture.Orm.SqlClient.SqlClientRepository<TModel, TEntity>.InsertAsync<TItem>(System.Collections.Generic.IEnumerable<TItem>, System.Action<Startitecture.Orm.SqlClient.TableValuedInsert<TEntity>>)
-  fullName.vb: Startitecture.Orm.SqlClient.SqlClientRepository(Of TModel, TEntity).InsertAsync(Of TItem)(System.Collections.Generic.IEnumerable(Of TItem), System.Action(Of Startitecture.Orm.SqlClient.TableValuedInsert(Of TEntity)))
-  nameWithType: SqlClientRepository<TModel, TEntity>.InsertAsync<TItem>(IEnumerable<TItem>, Action<TableValuedInsert<TEntity>>)
-  nameWithType.vb: SqlClientRepository(Of TModel, TEntity).InsertAsync(Of TItem)(IEnumerable(Of TItem), Action(Of TableValuedInsert(Of TEntity)))
+- uid: Startitecture.Orm.SqlClient.SqlClientRepository`2.InsertAsync``1(System.Collections.Generic.IEnumerable{``0},System.Action{Startitecture.Orm.SqlClient.TransactSqlInsertBase{`1}})
+  name: InsertAsync<TItem>(IEnumerable<TItem>, Action<TransactSqlInsertBase<TEntity>>)
+  href: api/Startitecture.Orm.SqlClient.SqlClientRepository-2.html#Startitecture_Orm_SqlClient_SqlClientRepository_2_InsertAsync__1_System_Collections_Generic_IEnumerable___0__System_Action_Startitecture_Orm_SqlClient_TransactSqlInsertBase__1___
+  commentId: M:Startitecture.Orm.SqlClient.SqlClientRepository`2.InsertAsync``1(System.Collections.Generic.IEnumerable{``0},System.Action{Startitecture.Orm.SqlClient.TransactSqlInsertBase{`1}})
+  name.vb: InsertAsync(Of TItem)(IEnumerable(Of TItem), Action(Of TransactSqlInsertBase(Of TEntity)))
+  fullName: Startitecture.Orm.SqlClient.SqlClientRepository<TModel, TEntity>.InsertAsync<TItem>(System.Collections.Generic.IEnumerable<TItem>, System.Action<Startitecture.Orm.SqlClient.TransactSqlInsertBase<TEntity>>)
+  fullName.vb: Startitecture.Orm.SqlClient.SqlClientRepository(Of TModel, TEntity).InsertAsync(Of TItem)(System.Collections.Generic.IEnumerable(Of TItem), System.Action(Of Startitecture.Orm.SqlClient.TransactSqlInsertBase(Of TEntity)))
+  nameWithType: SqlClientRepository<TModel, TEntity>.InsertAsync<TItem>(IEnumerable<TItem>, Action<TransactSqlInsertBase<TEntity>>)
+  nameWithType.vb: SqlClientRepository(Of TModel, TEntity).InsertAsync(Of TItem)(IEnumerable(Of TItem), Action(Of TransactSqlInsertBase(Of TEntity)))
 - uid: Startitecture.Orm.SqlClient.SqlClientRepository`2.InsertForResults*
   name: InsertForResults
   href: api/Startitecture.Orm.SqlClient.SqlClientRepository-2.html#Startitecture_Orm_SqlClient_SqlClientRepository_2_InsertForResults_
@@ -10112,15 +10416,15 @@ references:
   fullName.vb: Startitecture.Orm.SqlClient.SqlClientRepository(Of TModel, TEntity).InsertForResults
   nameWithType: SqlClientRepository<TModel, TEntity>.InsertForResults
   nameWithType.vb: SqlClientRepository(Of TModel, TEntity).InsertForResults
-- uid: Startitecture.Orm.SqlClient.SqlClientRepository`2.InsertForResults``1(System.Collections.Generic.IEnumerable{``0},System.Action{Startitecture.Orm.SqlClient.TableValuedInsert{`1}})
-  name: InsertForResults<TItem>(IEnumerable<TItem>, Action<TableValuedInsert<TEntity>>)
-  href: api/Startitecture.Orm.SqlClient.SqlClientRepository-2.html#Startitecture_Orm_SqlClient_SqlClientRepository_2_InsertForResults__1_System_Collections_Generic_IEnumerable___0__System_Action_Startitecture_Orm_SqlClient_TableValuedInsert__1___
-  commentId: M:Startitecture.Orm.SqlClient.SqlClientRepository`2.InsertForResults``1(System.Collections.Generic.IEnumerable{``0},System.Action{Startitecture.Orm.SqlClient.TableValuedInsert{`1}})
-  name.vb: InsertForResults(Of TItem)(IEnumerable(Of TItem), Action(Of TableValuedInsert(Of TEntity)))
-  fullName: Startitecture.Orm.SqlClient.SqlClientRepository<TModel, TEntity>.InsertForResults<TItem>(System.Collections.Generic.IEnumerable<TItem>, System.Action<Startitecture.Orm.SqlClient.TableValuedInsert<TEntity>>)
-  fullName.vb: Startitecture.Orm.SqlClient.SqlClientRepository(Of TModel, TEntity).InsertForResults(Of TItem)(System.Collections.Generic.IEnumerable(Of TItem), System.Action(Of Startitecture.Orm.SqlClient.TableValuedInsert(Of TEntity)))
-  nameWithType: SqlClientRepository<TModel, TEntity>.InsertForResults<TItem>(IEnumerable<TItem>, Action<TableValuedInsert<TEntity>>)
-  nameWithType.vb: SqlClientRepository(Of TModel, TEntity).InsertForResults(Of TItem)(IEnumerable(Of TItem), Action(Of TableValuedInsert(Of TEntity)))
+- uid: Startitecture.Orm.SqlClient.SqlClientRepository`2.InsertForResults``1(System.Collections.Generic.IEnumerable{``0},System.Action{Startitecture.Orm.SqlClient.TransactSqlInsertBase{`1}})
+  name: InsertForResults<TItem>(IEnumerable<TItem>, Action<TransactSqlInsertBase<TEntity>>)
+  href: api/Startitecture.Orm.SqlClient.SqlClientRepository-2.html#Startitecture_Orm_SqlClient_SqlClientRepository_2_InsertForResults__1_System_Collections_Generic_IEnumerable___0__System_Action_Startitecture_Orm_SqlClient_TransactSqlInsertBase__1___
+  commentId: M:Startitecture.Orm.SqlClient.SqlClientRepository`2.InsertForResults``1(System.Collections.Generic.IEnumerable{``0},System.Action{Startitecture.Orm.SqlClient.TransactSqlInsertBase{`1}})
+  name.vb: InsertForResults(Of TItem)(IEnumerable(Of TItem), Action(Of TransactSqlInsertBase(Of TEntity)))
+  fullName: Startitecture.Orm.SqlClient.SqlClientRepository<TModel, TEntity>.InsertForResults<TItem>(System.Collections.Generic.IEnumerable<TItem>, System.Action<Startitecture.Orm.SqlClient.TransactSqlInsertBase<TEntity>>)
+  fullName.vb: Startitecture.Orm.SqlClient.SqlClientRepository(Of TModel, TEntity).InsertForResults(Of TItem)(System.Collections.Generic.IEnumerable(Of TItem), System.Action(Of Startitecture.Orm.SqlClient.TransactSqlInsertBase(Of TEntity)))
+  nameWithType: SqlClientRepository<TModel, TEntity>.InsertForResults<TItem>(IEnumerable<TItem>, Action<TransactSqlInsertBase<TEntity>>)
+  nameWithType.vb: SqlClientRepository(Of TModel, TEntity).InsertForResults(Of TItem)(IEnumerable(Of TItem), Action(Of TransactSqlInsertBase(Of TEntity)))
 - uid: Startitecture.Orm.SqlClient.SqlClientRepository`2.InsertForResultsAsync*
   name: InsertForResultsAsync
   href: api/Startitecture.Orm.SqlClient.SqlClientRepository-2.html#Startitecture_Orm_SqlClient_SqlClientRepository_2_InsertForResultsAsync_
@@ -10130,15 +10434,15 @@ references:
   fullName.vb: Startitecture.Orm.SqlClient.SqlClientRepository(Of TModel, TEntity).InsertForResultsAsync
   nameWithType: SqlClientRepository<TModel, TEntity>.InsertForResultsAsync
   nameWithType.vb: SqlClientRepository(Of TModel, TEntity).InsertForResultsAsync
-- uid: Startitecture.Orm.SqlClient.SqlClientRepository`2.InsertForResultsAsync``1(System.Collections.Generic.IEnumerable{``0},System.Action{Startitecture.Orm.SqlClient.TableValuedInsert{`1}})
-  name: InsertForResultsAsync<TItem>(IEnumerable<TItem>, Action<TableValuedInsert<TEntity>>)
-  href: api/Startitecture.Orm.SqlClient.SqlClientRepository-2.html#Startitecture_Orm_SqlClient_SqlClientRepository_2_InsertForResultsAsync__1_System_Collections_Generic_IEnumerable___0__System_Action_Startitecture_Orm_SqlClient_TableValuedInsert__1___
-  commentId: M:Startitecture.Orm.SqlClient.SqlClientRepository`2.InsertForResultsAsync``1(System.Collections.Generic.IEnumerable{``0},System.Action{Startitecture.Orm.SqlClient.TableValuedInsert{`1}})
-  name.vb: InsertForResultsAsync(Of TItem)(IEnumerable(Of TItem), Action(Of TableValuedInsert(Of TEntity)))
-  fullName: Startitecture.Orm.SqlClient.SqlClientRepository<TModel, TEntity>.InsertForResultsAsync<TItem>(System.Collections.Generic.IEnumerable<TItem>, System.Action<Startitecture.Orm.SqlClient.TableValuedInsert<TEntity>>)
-  fullName.vb: Startitecture.Orm.SqlClient.SqlClientRepository(Of TModel, TEntity).InsertForResultsAsync(Of TItem)(System.Collections.Generic.IEnumerable(Of TItem), System.Action(Of Startitecture.Orm.SqlClient.TableValuedInsert(Of TEntity)))
-  nameWithType: SqlClientRepository<TModel, TEntity>.InsertForResultsAsync<TItem>(IEnumerable<TItem>, Action<TableValuedInsert<TEntity>>)
-  nameWithType.vb: SqlClientRepository(Of TModel, TEntity).InsertForResultsAsync(Of TItem)(IEnumerable(Of TItem), Action(Of TableValuedInsert(Of TEntity)))
+- uid: Startitecture.Orm.SqlClient.SqlClientRepository`2.InsertForResultsAsync``1(System.Collections.Generic.IEnumerable{``0},System.Action{Startitecture.Orm.SqlClient.TransactSqlInsertBase{`1}})
+  name: InsertForResultsAsync<TItem>(IEnumerable<TItem>, Action<TransactSqlInsertBase<TEntity>>)
+  href: api/Startitecture.Orm.SqlClient.SqlClientRepository-2.html#Startitecture_Orm_SqlClient_SqlClientRepository_2_InsertForResultsAsync__1_System_Collections_Generic_IEnumerable___0__System_Action_Startitecture_Orm_SqlClient_TransactSqlInsertBase__1___
+  commentId: M:Startitecture.Orm.SqlClient.SqlClientRepository`2.InsertForResultsAsync``1(System.Collections.Generic.IEnumerable{``0},System.Action{Startitecture.Orm.SqlClient.TransactSqlInsertBase{`1}})
+  name.vb: InsertForResultsAsync(Of TItem)(IEnumerable(Of TItem), Action(Of TransactSqlInsertBase(Of TEntity)))
+  fullName: Startitecture.Orm.SqlClient.SqlClientRepository<TModel, TEntity>.InsertForResultsAsync<TItem>(System.Collections.Generic.IEnumerable<TItem>, System.Action<Startitecture.Orm.SqlClient.TransactSqlInsertBase<TEntity>>)
+  fullName.vb: Startitecture.Orm.SqlClient.SqlClientRepository(Of TModel, TEntity).InsertForResultsAsync(Of TItem)(System.Collections.Generic.IEnumerable(Of TItem), System.Action(Of Startitecture.Orm.SqlClient.TransactSqlInsertBase(Of TEntity)))
+  nameWithType: SqlClientRepository<TModel, TEntity>.InsertForResultsAsync<TItem>(IEnumerable<TItem>, Action<TransactSqlInsertBase<TEntity>>)
+  nameWithType.vb: SqlClientRepository(Of TModel, TEntity).InsertForResultsAsync(Of TItem)(IEnumerable(Of TItem), Action(Of TransactSqlInsertBase(Of TEntity)))
 - uid: Startitecture.Orm.SqlClient.SqlClientRepository`2.Merge*
   name: Merge
   href: api/Startitecture.Orm.SqlClient.SqlClientRepository-2.html#Startitecture_Orm_SqlClient_SqlClientRepository_2_Merge_
@@ -10148,15 +10452,15 @@ references:
   fullName.vb: Startitecture.Orm.SqlClient.SqlClientRepository(Of TModel, TEntity).Merge
   nameWithType: SqlClientRepository<TModel, TEntity>.Merge
   nameWithType.vb: SqlClientRepository(Of TModel, TEntity).Merge
-- uid: Startitecture.Orm.SqlClient.SqlClientRepository`2.Merge``1(System.Collections.Generic.IEnumerable{``0},System.Action{Startitecture.Orm.SqlClient.TableValuedMerge{`1}})
-  name: Merge<TItem>(IEnumerable<TItem>, Action<TableValuedMerge<TEntity>>)
-  href: api/Startitecture.Orm.SqlClient.SqlClientRepository-2.html#Startitecture_Orm_SqlClient_SqlClientRepository_2_Merge__1_System_Collections_Generic_IEnumerable___0__System_Action_Startitecture_Orm_SqlClient_TableValuedMerge__1___
-  commentId: M:Startitecture.Orm.SqlClient.SqlClientRepository`2.Merge``1(System.Collections.Generic.IEnumerable{``0},System.Action{Startitecture.Orm.SqlClient.TableValuedMerge{`1}})
-  name.vb: Merge(Of TItem)(IEnumerable(Of TItem), Action(Of TableValuedMerge(Of TEntity)))
-  fullName: Startitecture.Orm.SqlClient.SqlClientRepository<TModel, TEntity>.Merge<TItem>(System.Collections.Generic.IEnumerable<TItem>, System.Action<Startitecture.Orm.SqlClient.TableValuedMerge<TEntity>>)
-  fullName.vb: Startitecture.Orm.SqlClient.SqlClientRepository(Of TModel, TEntity).Merge(Of TItem)(System.Collections.Generic.IEnumerable(Of TItem), System.Action(Of Startitecture.Orm.SqlClient.TableValuedMerge(Of TEntity)))
-  nameWithType: SqlClientRepository<TModel, TEntity>.Merge<TItem>(IEnumerable<TItem>, Action<TableValuedMerge<TEntity>>)
-  nameWithType.vb: SqlClientRepository(Of TModel, TEntity).Merge(Of TItem)(IEnumerable(Of TItem), Action(Of TableValuedMerge(Of TEntity)))
+- uid: Startitecture.Orm.SqlClient.SqlClientRepository`2.Merge``1(System.Collections.Generic.IEnumerable{``0},System.Action{Startitecture.Orm.SqlClient.TransactSqlMergeBase{`1}})
+  name: Merge<TItem>(IEnumerable<TItem>, Action<TransactSqlMergeBase<TEntity>>)
+  href: api/Startitecture.Orm.SqlClient.SqlClientRepository-2.html#Startitecture_Orm_SqlClient_SqlClientRepository_2_Merge__1_System_Collections_Generic_IEnumerable___0__System_Action_Startitecture_Orm_SqlClient_TransactSqlMergeBase__1___
+  commentId: M:Startitecture.Orm.SqlClient.SqlClientRepository`2.Merge``1(System.Collections.Generic.IEnumerable{``0},System.Action{Startitecture.Orm.SqlClient.TransactSqlMergeBase{`1}})
+  name.vb: Merge(Of TItem)(IEnumerable(Of TItem), Action(Of TransactSqlMergeBase(Of TEntity)))
+  fullName: Startitecture.Orm.SqlClient.SqlClientRepository<TModel, TEntity>.Merge<TItem>(System.Collections.Generic.IEnumerable<TItem>, System.Action<Startitecture.Orm.SqlClient.TransactSqlMergeBase<TEntity>>)
+  fullName.vb: Startitecture.Orm.SqlClient.SqlClientRepository(Of TModel, TEntity).Merge(Of TItem)(System.Collections.Generic.IEnumerable(Of TItem), System.Action(Of Startitecture.Orm.SqlClient.TransactSqlMergeBase(Of TEntity)))
+  nameWithType: SqlClientRepository<TModel, TEntity>.Merge<TItem>(IEnumerable<TItem>, Action<TransactSqlMergeBase<TEntity>>)
+  nameWithType.vb: SqlClientRepository(Of TModel, TEntity).Merge(Of TItem)(IEnumerable(Of TItem), Action(Of TransactSqlMergeBase(Of TEntity)))
 - uid: Startitecture.Orm.SqlClient.SqlClientRepository`2.MergeAsync*
   name: MergeAsync
   href: api/Startitecture.Orm.SqlClient.SqlClientRepository-2.html#Startitecture_Orm_SqlClient_SqlClientRepository_2_MergeAsync_
@@ -10166,15 +10470,15 @@ references:
   fullName.vb: Startitecture.Orm.SqlClient.SqlClientRepository(Of TModel, TEntity).MergeAsync
   nameWithType: SqlClientRepository<TModel, TEntity>.MergeAsync
   nameWithType.vb: SqlClientRepository(Of TModel, TEntity).MergeAsync
-- uid: Startitecture.Orm.SqlClient.SqlClientRepository`2.MergeAsync``1(System.Collections.Generic.IEnumerable{``0},System.Action{Startitecture.Orm.SqlClient.TableValuedMerge{`1}})
-  name: MergeAsync<TItem>(IEnumerable<TItem>, Action<TableValuedMerge<TEntity>>)
-  href: api/Startitecture.Orm.SqlClient.SqlClientRepository-2.html#Startitecture_Orm_SqlClient_SqlClientRepository_2_MergeAsync__1_System_Collections_Generic_IEnumerable___0__System_Action_Startitecture_Orm_SqlClient_TableValuedMerge__1___
-  commentId: M:Startitecture.Orm.SqlClient.SqlClientRepository`2.MergeAsync``1(System.Collections.Generic.IEnumerable{``0},System.Action{Startitecture.Orm.SqlClient.TableValuedMerge{`1}})
-  name.vb: MergeAsync(Of TItem)(IEnumerable(Of TItem), Action(Of TableValuedMerge(Of TEntity)))
-  fullName: Startitecture.Orm.SqlClient.SqlClientRepository<TModel, TEntity>.MergeAsync<TItem>(System.Collections.Generic.IEnumerable<TItem>, System.Action<Startitecture.Orm.SqlClient.TableValuedMerge<TEntity>>)
-  fullName.vb: Startitecture.Orm.SqlClient.SqlClientRepository(Of TModel, TEntity).MergeAsync(Of TItem)(System.Collections.Generic.IEnumerable(Of TItem), System.Action(Of Startitecture.Orm.SqlClient.TableValuedMerge(Of TEntity)))
-  nameWithType: SqlClientRepository<TModel, TEntity>.MergeAsync<TItem>(IEnumerable<TItem>, Action<TableValuedMerge<TEntity>>)
-  nameWithType.vb: SqlClientRepository(Of TModel, TEntity).MergeAsync(Of TItem)(IEnumerable(Of TItem), Action(Of TableValuedMerge(Of TEntity)))
+- uid: Startitecture.Orm.SqlClient.SqlClientRepository`2.MergeAsync``1(System.Collections.Generic.IEnumerable{``0},System.Action{Startitecture.Orm.SqlClient.TransactSqlMergeBase{`1}})
+  name: MergeAsync<TItem>(IEnumerable<TItem>, Action<TransactSqlMergeBase<TEntity>>)
+  href: api/Startitecture.Orm.SqlClient.SqlClientRepository-2.html#Startitecture_Orm_SqlClient_SqlClientRepository_2_MergeAsync__1_System_Collections_Generic_IEnumerable___0__System_Action_Startitecture_Orm_SqlClient_TransactSqlMergeBase__1___
+  commentId: M:Startitecture.Orm.SqlClient.SqlClientRepository`2.MergeAsync``1(System.Collections.Generic.IEnumerable{``0},System.Action{Startitecture.Orm.SqlClient.TransactSqlMergeBase{`1}})
+  name.vb: MergeAsync(Of TItem)(IEnumerable(Of TItem), Action(Of TransactSqlMergeBase(Of TEntity)))
+  fullName: Startitecture.Orm.SqlClient.SqlClientRepository<TModel, TEntity>.MergeAsync<TItem>(System.Collections.Generic.IEnumerable<TItem>, System.Action<Startitecture.Orm.SqlClient.TransactSqlMergeBase<TEntity>>)
+  fullName.vb: Startitecture.Orm.SqlClient.SqlClientRepository(Of TModel, TEntity).MergeAsync(Of TItem)(System.Collections.Generic.IEnumerable(Of TItem), System.Action(Of Startitecture.Orm.SqlClient.TransactSqlMergeBase(Of TEntity)))
+  nameWithType: SqlClientRepository<TModel, TEntity>.MergeAsync<TItem>(IEnumerable<TItem>, Action<TransactSqlMergeBase<TEntity>>)
+  nameWithType.vb: SqlClientRepository(Of TModel, TEntity).MergeAsync(Of TItem)(IEnumerable(Of TItem), Action(Of TransactSqlMergeBase(Of TEntity)))
 - uid: Startitecture.Orm.SqlClient.SqlClientRepository`2.MergeForResults*
   name: MergeForResults
   href: api/Startitecture.Orm.SqlClient.SqlClientRepository-2.html#Startitecture_Orm_SqlClient_SqlClientRepository_2_MergeForResults_
@@ -10184,15 +10488,15 @@ references:
   fullName.vb: Startitecture.Orm.SqlClient.SqlClientRepository(Of TModel, TEntity).MergeForResults
   nameWithType: SqlClientRepository<TModel, TEntity>.MergeForResults
   nameWithType.vb: SqlClientRepository(Of TModel, TEntity).MergeForResults
-- uid: Startitecture.Orm.SqlClient.SqlClientRepository`2.MergeForResults``1(System.Collections.Generic.IEnumerable{``0},System.Action{Startitecture.Orm.SqlClient.TableValuedMerge{`1}})
-  name: MergeForResults<TItem>(IEnumerable<TItem>, Action<TableValuedMerge<TEntity>>)
-  href: api/Startitecture.Orm.SqlClient.SqlClientRepository-2.html#Startitecture_Orm_SqlClient_SqlClientRepository_2_MergeForResults__1_System_Collections_Generic_IEnumerable___0__System_Action_Startitecture_Orm_SqlClient_TableValuedMerge__1___
-  commentId: M:Startitecture.Orm.SqlClient.SqlClientRepository`2.MergeForResults``1(System.Collections.Generic.IEnumerable{``0},System.Action{Startitecture.Orm.SqlClient.TableValuedMerge{`1}})
-  name.vb: MergeForResults(Of TItem)(IEnumerable(Of TItem), Action(Of TableValuedMerge(Of TEntity)))
-  fullName: Startitecture.Orm.SqlClient.SqlClientRepository<TModel, TEntity>.MergeForResults<TItem>(System.Collections.Generic.IEnumerable<TItem>, System.Action<Startitecture.Orm.SqlClient.TableValuedMerge<TEntity>>)
-  fullName.vb: Startitecture.Orm.SqlClient.SqlClientRepository(Of TModel, TEntity).MergeForResults(Of TItem)(System.Collections.Generic.IEnumerable(Of TItem), System.Action(Of Startitecture.Orm.SqlClient.TableValuedMerge(Of TEntity)))
-  nameWithType: SqlClientRepository<TModel, TEntity>.MergeForResults<TItem>(IEnumerable<TItem>, Action<TableValuedMerge<TEntity>>)
-  nameWithType.vb: SqlClientRepository(Of TModel, TEntity).MergeForResults(Of TItem)(IEnumerable(Of TItem), Action(Of TableValuedMerge(Of TEntity)))
+- uid: Startitecture.Orm.SqlClient.SqlClientRepository`2.MergeForResults``1(System.Collections.Generic.IEnumerable{``0},System.Action{Startitecture.Orm.SqlClient.TransactSqlMergeBase{`1}})
+  name: MergeForResults<TItem>(IEnumerable<TItem>, Action<TransactSqlMergeBase<TEntity>>)
+  href: api/Startitecture.Orm.SqlClient.SqlClientRepository-2.html#Startitecture_Orm_SqlClient_SqlClientRepository_2_MergeForResults__1_System_Collections_Generic_IEnumerable___0__System_Action_Startitecture_Orm_SqlClient_TransactSqlMergeBase__1___
+  commentId: M:Startitecture.Orm.SqlClient.SqlClientRepository`2.MergeForResults``1(System.Collections.Generic.IEnumerable{``0},System.Action{Startitecture.Orm.SqlClient.TransactSqlMergeBase{`1}})
+  name.vb: MergeForResults(Of TItem)(IEnumerable(Of TItem), Action(Of TransactSqlMergeBase(Of TEntity)))
+  fullName: Startitecture.Orm.SqlClient.SqlClientRepository<TModel, TEntity>.MergeForResults<TItem>(System.Collections.Generic.IEnumerable<TItem>, System.Action<Startitecture.Orm.SqlClient.TransactSqlMergeBase<TEntity>>)
+  fullName.vb: Startitecture.Orm.SqlClient.SqlClientRepository(Of TModel, TEntity).MergeForResults(Of TItem)(System.Collections.Generic.IEnumerable(Of TItem), System.Action(Of Startitecture.Orm.SqlClient.TransactSqlMergeBase(Of TEntity)))
+  nameWithType: SqlClientRepository<TModel, TEntity>.MergeForResults<TItem>(IEnumerable<TItem>, Action<TransactSqlMergeBase<TEntity>>)
+  nameWithType.vb: SqlClientRepository(Of TModel, TEntity).MergeForResults(Of TItem)(IEnumerable(Of TItem), Action(Of TransactSqlMergeBase(Of TEntity)))
 - uid: Startitecture.Orm.SqlClient.SqlClientRepository`2.MergeForResultsAsync*
   name: MergeForResultsAsync
   href: api/Startitecture.Orm.SqlClient.SqlClientRepository-2.html#Startitecture_Orm_SqlClient_SqlClientRepository_2_MergeForResultsAsync_
@@ -10202,15 +10506,15 @@ references:
   fullName.vb: Startitecture.Orm.SqlClient.SqlClientRepository(Of TModel, TEntity).MergeForResultsAsync
   nameWithType: SqlClientRepository<TModel, TEntity>.MergeForResultsAsync
   nameWithType.vb: SqlClientRepository(Of TModel, TEntity).MergeForResultsAsync
-- uid: Startitecture.Orm.SqlClient.SqlClientRepository`2.MergeForResultsAsync``1(System.Collections.Generic.IEnumerable{``0},System.Action{Startitecture.Orm.SqlClient.TableValuedMerge{`1}})
-  name: MergeForResultsAsync<TItem>(IEnumerable<TItem>, Action<TableValuedMerge<TEntity>>)
-  href: api/Startitecture.Orm.SqlClient.SqlClientRepository-2.html#Startitecture_Orm_SqlClient_SqlClientRepository_2_MergeForResultsAsync__1_System_Collections_Generic_IEnumerable___0__System_Action_Startitecture_Orm_SqlClient_TableValuedMerge__1___
-  commentId: M:Startitecture.Orm.SqlClient.SqlClientRepository`2.MergeForResultsAsync``1(System.Collections.Generic.IEnumerable{``0},System.Action{Startitecture.Orm.SqlClient.TableValuedMerge{`1}})
-  name.vb: MergeForResultsAsync(Of TItem)(IEnumerable(Of TItem), Action(Of TableValuedMerge(Of TEntity)))
-  fullName: Startitecture.Orm.SqlClient.SqlClientRepository<TModel, TEntity>.MergeForResultsAsync<TItem>(System.Collections.Generic.IEnumerable<TItem>, System.Action<Startitecture.Orm.SqlClient.TableValuedMerge<TEntity>>)
-  fullName.vb: Startitecture.Orm.SqlClient.SqlClientRepository(Of TModel, TEntity).MergeForResultsAsync(Of TItem)(System.Collections.Generic.IEnumerable(Of TItem), System.Action(Of Startitecture.Orm.SqlClient.TableValuedMerge(Of TEntity)))
-  nameWithType: SqlClientRepository<TModel, TEntity>.MergeForResultsAsync<TItem>(IEnumerable<TItem>, Action<TableValuedMerge<TEntity>>)
-  nameWithType.vb: SqlClientRepository(Of TModel, TEntity).MergeForResultsAsync(Of TItem)(IEnumerable(Of TItem), Action(Of TableValuedMerge(Of TEntity)))
+- uid: Startitecture.Orm.SqlClient.SqlClientRepository`2.MergeForResultsAsync``1(System.Collections.Generic.IEnumerable{``0},System.Action{Startitecture.Orm.SqlClient.TransactSqlMergeBase{`1}})
+  name: MergeForResultsAsync<TItem>(IEnumerable<TItem>, Action<TransactSqlMergeBase<TEntity>>)
+  href: api/Startitecture.Orm.SqlClient.SqlClientRepository-2.html#Startitecture_Orm_SqlClient_SqlClientRepository_2_MergeForResultsAsync__1_System_Collections_Generic_IEnumerable___0__System_Action_Startitecture_Orm_SqlClient_TransactSqlMergeBase__1___
+  commentId: M:Startitecture.Orm.SqlClient.SqlClientRepository`2.MergeForResultsAsync``1(System.Collections.Generic.IEnumerable{``0},System.Action{Startitecture.Orm.SqlClient.TransactSqlMergeBase{`1}})
+  name.vb: MergeForResultsAsync(Of TItem)(IEnumerable(Of TItem), Action(Of TransactSqlMergeBase(Of TEntity)))
+  fullName: Startitecture.Orm.SqlClient.SqlClientRepository<TModel, TEntity>.MergeForResultsAsync<TItem>(System.Collections.Generic.IEnumerable<TItem>, System.Action<Startitecture.Orm.SqlClient.TransactSqlMergeBase<TEntity>>)
+  fullName.vb: Startitecture.Orm.SqlClient.SqlClientRepository(Of TModel, TEntity).MergeForResultsAsync(Of TItem)(System.Collections.Generic.IEnumerable(Of TItem), System.Action(Of Startitecture.Orm.SqlClient.TransactSqlMergeBase(Of TEntity)))
+  nameWithType: SqlClientRepository<TModel, TEntity>.MergeForResultsAsync<TItem>(IEnumerable<TItem>, Action<TransactSqlMergeBase<TEntity>>)
+  nameWithType.vb: SqlClientRepository(Of TModel, TEntity).MergeForResultsAsync(Of TItem)(IEnumerable(Of TItem), Action(Of TransactSqlMergeBase(Of TEntity)))
 - uid: Startitecture.Orm.SqlClient.TableValuedInsert`1
   name: TableValuedInsert<T>
   href: api/Startitecture.Orm.SqlClient.TableValuedInsert-1.html
@@ -10237,77 +10541,78 @@ references:
   fullName.vb: Startitecture.Orm.SqlClient.TableValuedInsert(Of T).TableValuedInsert
   nameWithType: TableValuedInsert<T>.TableValuedInsert
   nameWithType.vb: TableValuedInsert(Of T).TableValuedInsert
-- uid: Startitecture.Orm.SqlClient.TableValuedInsert`1.CommandText
-  name: CommandText
-  href: api/Startitecture.Orm.SqlClient.TableValuedInsert-1.html#Startitecture_Orm_SqlClient_TableValuedInsert_1_CommandText
-  commentId: P:Startitecture.Orm.SqlClient.TableValuedInsert`1.CommandText
-  fullName: Startitecture.Orm.SqlClient.TableValuedInsert<T>.CommandText
-  fullName.vb: Startitecture.Orm.SqlClient.TableValuedInsert(Of T).CommandText
-  nameWithType: TableValuedInsert<T>.CommandText
-  nameWithType.vb: TableValuedInsert(Of T).CommandText
-- uid: Startitecture.Orm.SqlClient.TableValuedInsert`1.CommandText*
-  name: CommandText
-  href: api/Startitecture.Orm.SqlClient.TableValuedInsert-1.html#Startitecture_Orm_SqlClient_TableValuedInsert_1_CommandText_
-  commentId: Overload:Startitecture.Orm.SqlClient.TableValuedInsert`1.CommandText
+- uid: Startitecture.Orm.SqlClient.TableValuedInsert`1.DeclareInsertedTable(System.Collections.Generic.IEnumerable{Startitecture.Orm.Model.EntityAttributeDefinition})
+  name: DeclareInsertedTable(IEnumerable<EntityAttributeDefinition>)
+  href: api/Startitecture.Orm.SqlClient.TableValuedInsert-1.html#Startitecture_Orm_SqlClient_TableValuedInsert_1_DeclareInsertedTable_System_Collections_Generic_IEnumerable_Startitecture_Orm_Model_EntityAttributeDefinition__
+  commentId: M:Startitecture.Orm.SqlClient.TableValuedInsert`1.DeclareInsertedTable(System.Collections.Generic.IEnumerable{Startitecture.Orm.Model.EntityAttributeDefinition})
+  name.vb: DeclareInsertedTable(IEnumerable(Of EntityAttributeDefinition))
+  fullName: Startitecture.Orm.SqlClient.TableValuedInsert<T>.DeclareInsertedTable(System.Collections.Generic.IEnumerable<Startitecture.Orm.Model.EntityAttributeDefinition>)
+  fullName.vb: Startitecture.Orm.SqlClient.TableValuedInsert(Of T).DeclareInsertedTable(System.Collections.Generic.IEnumerable(Of Startitecture.Orm.Model.EntityAttributeDefinition))
+  nameWithType: TableValuedInsert<T>.DeclareInsertedTable(IEnumerable<EntityAttributeDefinition>)
+  nameWithType.vb: TableValuedInsert(Of T).DeclareInsertedTable(IEnumerable(Of EntityAttributeDefinition))
+- uid: Startitecture.Orm.SqlClient.TableValuedInsert`1.DeclareInsertedTable*
+  name: DeclareInsertedTable
+  href: api/Startitecture.Orm.SqlClient.TableValuedInsert-1.html#Startitecture_Orm_SqlClient_TableValuedInsert_1_DeclareInsertedTable_
+  commentId: Overload:Startitecture.Orm.SqlClient.TableValuedInsert`1.DeclareInsertedTable
   isSpec: "True"
-  fullName: Startitecture.Orm.SqlClient.TableValuedInsert<T>.CommandText
-  fullName.vb: Startitecture.Orm.SqlClient.TableValuedInsert(Of T).CommandText
-  nameWithType: TableValuedInsert<T>.CommandText
-  nameWithType.vb: TableValuedInsert(Of T).CommandText
-- uid: Startitecture.Orm.SqlClient.TableValuedInsert`1.From*
-  name: From
-  href: api/Startitecture.Orm.SqlClient.TableValuedInsert-1.html#Startitecture_Orm_SqlClient_TableValuedInsert_1_From_
-  commentId: Overload:Startitecture.Orm.SqlClient.TableValuedInsert`1.From
+  fullName: Startitecture.Orm.SqlClient.TableValuedInsert<T>.DeclareInsertedTable
+  fullName.vb: Startitecture.Orm.SqlClient.TableValuedInsert(Of T).DeclareInsertedTable
+  nameWithType: TableValuedInsert<T>.DeclareInsertedTable
+  nameWithType.vb: TableValuedInsert(Of T).DeclareInsertedTable
+- uid: Startitecture.Orm.SqlClient.TableValuedInsert`1.DeclareSourceTable(System.Collections.Generic.IEnumerable{Startitecture.Orm.Model.EntityAttributeDefinition})
+  name: DeclareSourceTable(IEnumerable<EntityAttributeDefinition>)
+  href: api/Startitecture.Orm.SqlClient.TableValuedInsert-1.html#Startitecture_Orm_SqlClient_TableValuedInsert_1_DeclareSourceTable_System_Collections_Generic_IEnumerable_Startitecture_Orm_Model_EntityAttributeDefinition__
+  commentId: M:Startitecture.Orm.SqlClient.TableValuedInsert`1.DeclareSourceTable(System.Collections.Generic.IEnumerable{Startitecture.Orm.Model.EntityAttributeDefinition})
+  name.vb: DeclareSourceTable(IEnumerable(Of EntityAttributeDefinition))
+  fullName: Startitecture.Orm.SqlClient.TableValuedInsert<T>.DeclareSourceTable(System.Collections.Generic.IEnumerable<Startitecture.Orm.Model.EntityAttributeDefinition>)
+  fullName.vb: Startitecture.Orm.SqlClient.TableValuedInsert(Of T).DeclareSourceTable(System.Collections.Generic.IEnumerable(Of Startitecture.Orm.Model.EntityAttributeDefinition))
+  nameWithType: TableValuedInsert<T>.DeclareSourceTable(IEnumerable<EntityAttributeDefinition>)
+  nameWithType.vb: TableValuedInsert(Of T).DeclareSourceTable(IEnumerable(Of EntityAttributeDefinition))
+- uid: Startitecture.Orm.SqlClient.TableValuedInsert`1.DeclareSourceTable*
+  name: DeclareSourceTable
+  href: api/Startitecture.Orm.SqlClient.TableValuedInsert-1.html#Startitecture_Orm_SqlClient_TableValuedInsert_1_DeclareSourceTable_
+  commentId: Overload:Startitecture.Orm.SqlClient.TableValuedInsert`1.DeclareSourceTable
   isSpec: "True"
-  fullName: Startitecture.Orm.SqlClient.TableValuedInsert<T>.From
-  fullName.vb: Startitecture.Orm.SqlClient.TableValuedInsert(Of T).From
-  nameWithType: TableValuedInsert<T>.From
-  nameWithType.vb: TableValuedInsert(Of T).From
-- uid: Startitecture.Orm.SqlClient.TableValuedInsert`1.From``1(System.Linq.Expressions.Expression{System.Func{``0,System.Object}}[])
-  name: From<TItem>(Expression<Func<TItem, Object>>[])
-  href: api/Startitecture.Orm.SqlClient.TableValuedInsert-1.html#Startitecture_Orm_SqlClient_TableValuedInsert_1_From__1_System_Linq_Expressions_Expression_System_Func___0_System_Object_____
-  commentId: M:Startitecture.Orm.SqlClient.TableValuedInsert`1.From``1(System.Linq.Expressions.Expression{System.Func{``0,System.Object}}[])
-  name.vb: From(Of TItem)(Expression(Of Func(Of TItem, Object))())
-  fullName: Startitecture.Orm.SqlClient.TableValuedInsert<T>.From<TItem>(System.Linq.Expressions.Expression<System.Func<TItem, System.Object>>[])
-  fullName.vb: Startitecture.Orm.SqlClient.TableValuedInsert(Of T).From(Of TItem)(System.Linq.Expressions.Expression(Of System.Func(Of TItem, System.Object))())
-  nameWithType: TableValuedInsert<T>.From<TItem>(Expression<Func<TItem, Object>>[])
-  nameWithType.vb: TableValuedInsert(Of T).From(Of TItem)(Expression(Of Func(Of TItem, Object))())
-- uid: Startitecture.Orm.SqlClient.TableValuedInsert`1.InsertInto(System.Linq.Expressions.Expression{System.Func{`0,System.Object}}[])
-  name: InsertInto(Expression<Func<T, Object>>[])
-  href: api/Startitecture.Orm.SqlClient.TableValuedInsert-1.html#Startitecture_Orm_SqlClient_TableValuedInsert_1_InsertInto_System_Linq_Expressions_Expression_System_Func__0_System_Object_____
-  commentId: M:Startitecture.Orm.SqlClient.TableValuedInsert`1.InsertInto(System.Linq.Expressions.Expression{System.Func{`0,System.Object}}[])
-  name.vb: InsertInto(Expression(Of Func(Of T, Object))())
-  fullName: Startitecture.Orm.SqlClient.TableValuedInsert<T>.InsertInto(System.Linq.Expressions.Expression<System.Func<T, System.Object>>[])
-  fullName.vb: Startitecture.Orm.SqlClient.TableValuedInsert(Of T).InsertInto(System.Linq.Expressions.Expression(Of System.Func(Of T, System.Object))())
-  nameWithType: TableValuedInsert<T>.InsertInto(Expression<Func<T, Object>>[])
-  nameWithType.vb: TableValuedInsert(Of T).InsertInto(Expression(Of Func(Of T, Object))())
-- uid: Startitecture.Orm.SqlClient.TableValuedInsert`1.InsertInto*
-  name: InsertInto
-  href: api/Startitecture.Orm.SqlClient.TableValuedInsert-1.html#Startitecture_Orm_SqlClient_TableValuedInsert_1_InsertInto_
-  commentId: Overload:Startitecture.Orm.SqlClient.TableValuedInsert`1.InsertInto
+  fullName: Startitecture.Orm.SqlClient.TableValuedInsert<T>.DeclareSourceTable
+  fullName.vb: Startitecture.Orm.SqlClient.TableValuedInsert(Of T).DeclareSourceTable
+  nameWithType: TableValuedInsert<T>.DeclareSourceTable
+  nameWithType.vb: TableValuedInsert(Of T).DeclareSourceTable
+- uid: Startitecture.Orm.SqlClient.TableValuedInsert`1.SourceSelection(System.Collections.Generic.IReadOnlyDictionary{Startitecture.Orm.Model.EntityAttributeDefinition,Startitecture.Orm.Model.EntityAttributeDefinition})
+  name: SourceSelection(IReadOnlyDictionary<EntityAttributeDefinition, EntityAttributeDefinition>)
+  href: api/Startitecture.Orm.SqlClient.TableValuedInsert-1.html#Startitecture_Orm_SqlClient_TableValuedInsert_1_SourceSelection_System_Collections_Generic_IReadOnlyDictionary_Startitecture_Orm_Model_EntityAttributeDefinition_Startitecture_Orm_Model_EntityAttributeDefinition__
+  commentId: M:Startitecture.Orm.SqlClient.TableValuedInsert`1.SourceSelection(System.Collections.Generic.IReadOnlyDictionary{Startitecture.Orm.Model.EntityAttributeDefinition,Startitecture.Orm.Model.EntityAttributeDefinition})
+  name.vb: SourceSelection(IReadOnlyDictionary(Of EntityAttributeDefinition, EntityAttributeDefinition))
+  fullName: Startitecture.Orm.SqlClient.TableValuedInsert<T>.SourceSelection(System.Collections.Generic.IReadOnlyDictionary<Startitecture.Orm.Model.EntityAttributeDefinition, Startitecture.Orm.Model.EntityAttributeDefinition>)
+  fullName.vb: Startitecture.Orm.SqlClient.TableValuedInsert(Of T).SourceSelection(System.Collections.Generic.IReadOnlyDictionary(Of Startitecture.Orm.Model.EntityAttributeDefinition, Startitecture.Orm.Model.EntityAttributeDefinition))
+  nameWithType: TableValuedInsert<T>.SourceSelection(IReadOnlyDictionary<EntityAttributeDefinition, EntityAttributeDefinition>)
+  nameWithType.vb: TableValuedInsert(Of T).SourceSelection(IReadOnlyDictionary(Of EntityAttributeDefinition, EntityAttributeDefinition))
+- uid: Startitecture.Orm.SqlClient.TableValuedInsert`1.SourceSelection*
+  name: SourceSelection
+  href: api/Startitecture.Orm.SqlClient.TableValuedInsert-1.html#Startitecture_Orm_SqlClient_TableValuedInsert_1_SourceSelection_
+  commentId: Overload:Startitecture.Orm.SqlClient.TableValuedInsert`1.SourceSelection
   isSpec: "True"
-  fullName: Startitecture.Orm.SqlClient.TableValuedInsert<T>.InsertInto
-  fullName.vb: Startitecture.Orm.SqlClient.TableValuedInsert(Of T).InsertInto
-  nameWithType: TableValuedInsert<T>.InsertInto
-  nameWithType.vb: TableValuedInsert(Of T).InsertInto
-- uid: Startitecture.Orm.SqlClient.TableValuedInsert`1.SelectResults(System.Linq.Expressions.Expression{System.Func{`0,System.Object}}[])
-  name: SelectResults(Expression<Func<T, Object>>[])
-  href: api/Startitecture.Orm.SqlClient.TableValuedInsert-1.html#Startitecture_Orm_SqlClient_TableValuedInsert_1_SelectResults_System_Linq_Expressions_Expression_System_Func__0_System_Object_____
-  commentId: M:Startitecture.Orm.SqlClient.TableValuedInsert`1.SelectResults(System.Linq.Expressions.Expression{System.Func{`0,System.Object}}[])
-  name.vb: SelectResults(Expression(Of Func(Of T, Object))())
-  fullName: Startitecture.Orm.SqlClient.TableValuedInsert<T>.SelectResults(System.Linq.Expressions.Expression<System.Func<T, System.Object>>[])
-  fullName.vb: Startitecture.Orm.SqlClient.TableValuedInsert(Of T).SelectResults(System.Linq.Expressions.Expression(Of System.Func(Of T, System.Object))())
-  nameWithType: TableValuedInsert<T>.SelectResults(Expression<Func<T, Object>>[])
-  nameWithType.vb: TableValuedInsert(Of T).SelectResults(Expression(Of Func(Of T, Object))())
-- uid: Startitecture.Orm.SqlClient.TableValuedInsert`1.SelectResults*
-  name: SelectResults
-  href: api/Startitecture.Orm.SqlClient.TableValuedInsert-1.html#Startitecture_Orm_SqlClient_TableValuedInsert_1_SelectResults_
-  commentId: Overload:Startitecture.Orm.SqlClient.TableValuedInsert`1.SelectResults
+  fullName: Startitecture.Orm.SqlClient.TableValuedInsert<T>.SourceSelection
+  fullName.vb: Startitecture.Orm.SqlClient.TableValuedInsert(Of T).SourceSelection
+  nameWithType: TableValuedInsert<T>.SourceSelection
+  nameWithType.vb: TableValuedInsert(Of T).SourceSelection
+- uid: Startitecture.Orm.SqlClient.TableValuedInsert`1.SourceTableReference(System.Collections.Generic.IEnumerable{Startitecture.Orm.Model.EntityAttributeDefinition})
+  name: SourceTableReference(IEnumerable<EntityAttributeDefinition>)
+  href: api/Startitecture.Orm.SqlClient.TableValuedInsert-1.html#Startitecture_Orm_SqlClient_TableValuedInsert_1_SourceTableReference_System_Collections_Generic_IEnumerable_Startitecture_Orm_Model_EntityAttributeDefinition__
+  commentId: M:Startitecture.Orm.SqlClient.TableValuedInsert`1.SourceTableReference(System.Collections.Generic.IEnumerable{Startitecture.Orm.Model.EntityAttributeDefinition})
+  name.vb: SourceTableReference(IEnumerable(Of EntityAttributeDefinition))
+  fullName: Startitecture.Orm.SqlClient.TableValuedInsert<T>.SourceTableReference(System.Collections.Generic.IEnumerable<Startitecture.Orm.Model.EntityAttributeDefinition>)
+  fullName.vb: Startitecture.Orm.SqlClient.TableValuedInsert(Of T).SourceTableReference(System.Collections.Generic.IEnumerable(Of Startitecture.Orm.Model.EntityAttributeDefinition))
+  nameWithType: TableValuedInsert<T>.SourceTableReference(IEnumerable<EntityAttributeDefinition>)
+  nameWithType.vb: TableValuedInsert(Of T).SourceTableReference(IEnumerable(Of EntityAttributeDefinition))
+- uid: Startitecture.Orm.SqlClient.TableValuedInsert`1.SourceTableReference*
+  name: SourceTableReference
+  href: api/Startitecture.Orm.SqlClient.TableValuedInsert-1.html#Startitecture_Orm_SqlClient_TableValuedInsert_1_SourceTableReference_
+  commentId: Overload:Startitecture.Orm.SqlClient.TableValuedInsert`1.SourceTableReference
   isSpec: "True"
-  fullName: Startitecture.Orm.SqlClient.TableValuedInsert<T>.SelectResults
-  fullName.vb: Startitecture.Orm.SqlClient.TableValuedInsert(Of T).SelectResults
-  nameWithType: TableValuedInsert<T>.SelectResults
-  nameWithType.vb: TableValuedInsert(Of T).SelectResults
+  fullName: Startitecture.Orm.SqlClient.TableValuedInsert<T>.SourceTableReference
+  fullName.vb: Startitecture.Orm.SqlClient.TableValuedInsert(Of T).SourceTableReference
+  nameWithType: TableValuedInsert<T>.SourceTableReference
+  nameWithType.vb: TableValuedInsert(Of T).SourceTableReference
 - uid: Startitecture.Orm.SqlClient.TableValuedMerge`1
   name: TableValuedMerge<T>
   href: api/Startitecture.Orm.SqlClient.TableValuedMerge-1.html
@@ -10334,113 +10639,60 @@ references:
   fullName.vb: Startitecture.Orm.SqlClient.TableValuedMerge(Of T).TableValuedMerge
   nameWithType: TableValuedMerge<T>.TableValuedMerge
   nameWithType.vb: TableValuedMerge(Of T).TableValuedMerge
-- uid: Startitecture.Orm.SqlClient.TableValuedMerge`1.CommandText
-  name: CommandText
-  href: api/Startitecture.Orm.SqlClient.TableValuedMerge-1.html#Startitecture_Orm_SqlClient_TableValuedMerge_1_CommandText
-  commentId: P:Startitecture.Orm.SqlClient.TableValuedMerge`1.CommandText
-  fullName: Startitecture.Orm.SqlClient.TableValuedMerge<T>.CommandText
-  fullName.vb: Startitecture.Orm.SqlClient.TableValuedMerge(Of T).CommandText
-  nameWithType: TableValuedMerge<T>.CommandText
-  nameWithType.vb: TableValuedMerge(Of T).CommandText
-- uid: Startitecture.Orm.SqlClient.TableValuedMerge`1.CommandText*
-  name: CommandText
-  href: api/Startitecture.Orm.SqlClient.TableValuedMerge-1.html#Startitecture_Orm_SqlClient_TableValuedMerge_1_CommandText_
-  commentId: Overload:Startitecture.Orm.SqlClient.TableValuedMerge`1.CommandText
+- uid: Startitecture.Orm.SqlClient.TableValuedMerge`1.DeclareInsertedTable(System.Collections.Generic.IEnumerable{Startitecture.Orm.Model.EntityAttributeDefinition})
+  name: DeclareInsertedTable(IEnumerable<EntityAttributeDefinition>)
+  href: api/Startitecture.Orm.SqlClient.TableValuedMerge-1.html#Startitecture_Orm_SqlClient_TableValuedMerge_1_DeclareInsertedTable_System_Collections_Generic_IEnumerable_Startitecture_Orm_Model_EntityAttributeDefinition__
+  commentId: M:Startitecture.Orm.SqlClient.TableValuedMerge`1.DeclareInsertedTable(System.Collections.Generic.IEnumerable{Startitecture.Orm.Model.EntityAttributeDefinition})
+  name.vb: DeclareInsertedTable(IEnumerable(Of EntityAttributeDefinition))
+  fullName: Startitecture.Orm.SqlClient.TableValuedMerge<T>.DeclareInsertedTable(System.Collections.Generic.IEnumerable<Startitecture.Orm.Model.EntityAttributeDefinition>)
+  fullName.vb: Startitecture.Orm.SqlClient.TableValuedMerge(Of T).DeclareInsertedTable(System.Collections.Generic.IEnumerable(Of Startitecture.Orm.Model.EntityAttributeDefinition))
+  nameWithType: TableValuedMerge<T>.DeclareInsertedTable(IEnumerable<EntityAttributeDefinition>)
+  nameWithType.vb: TableValuedMerge(Of T).DeclareInsertedTable(IEnumerable(Of EntityAttributeDefinition))
+- uid: Startitecture.Orm.SqlClient.TableValuedMerge`1.DeclareInsertedTable*
+  name: DeclareInsertedTable
+  href: api/Startitecture.Orm.SqlClient.TableValuedMerge-1.html#Startitecture_Orm_SqlClient_TableValuedMerge_1_DeclareInsertedTable_
+  commentId: Overload:Startitecture.Orm.SqlClient.TableValuedMerge`1.DeclareInsertedTable
   isSpec: "True"
-  fullName: Startitecture.Orm.SqlClient.TableValuedMerge<T>.CommandText
-  fullName.vb: Startitecture.Orm.SqlClient.TableValuedMerge(Of T).CommandText
-  nameWithType: TableValuedMerge<T>.CommandText
-  nameWithType.vb: TableValuedMerge(Of T).CommandText
-- uid: Startitecture.Orm.SqlClient.TableValuedMerge`1.DeleteUnmatchedInSource*
-  name: DeleteUnmatchedInSource
-  href: api/Startitecture.Orm.SqlClient.TableValuedMerge-1.html#Startitecture_Orm_SqlClient_TableValuedMerge_1_DeleteUnmatchedInSource_
-  commentId: Overload:Startitecture.Orm.SqlClient.TableValuedMerge`1.DeleteUnmatchedInSource
+  fullName: Startitecture.Orm.SqlClient.TableValuedMerge<T>.DeclareInsertedTable
+  fullName.vb: Startitecture.Orm.SqlClient.TableValuedMerge(Of T).DeclareInsertedTable
+  nameWithType: TableValuedMerge<T>.DeclareInsertedTable
+  nameWithType.vb: TableValuedMerge(Of T).DeclareInsertedTable
+- uid: Startitecture.Orm.SqlClient.TableValuedMerge`1.DeclareSourceTable(System.Collections.Generic.IEnumerable{Startitecture.Orm.Model.EntityAttributeDefinition})
+  name: DeclareSourceTable(IEnumerable<EntityAttributeDefinition>)
+  href: api/Startitecture.Orm.SqlClient.TableValuedMerge-1.html#Startitecture_Orm_SqlClient_TableValuedMerge_1_DeclareSourceTable_System_Collections_Generic_IEnumerable_Startitecture_Orm_Model_EntityAttributeDefinition__
+  commentId: M:Startitecture.Orm.SqlClient.TableValuedMerge`1.DeclareSourceTable(System.Collections.Generic.IEnumerable{Startitecture.Orm.Model.EntityAttributeDefinition})
+  name.vb: DeclareSourceTable(IEnumerable(Of EntityAttributeDefinition))
+  fullName: Startitecture.Orm.SqlClient.TableValuedMerge<T>.DeclareSourceTable(System.Collections.Generic.IEnumerable<Startitecture.Orm.Model.EntityAttributeDefinition>)
+  fullName.vb: Startitecture.Orm.SqlClient.TableValuedMerge(Of T).DeclareSourceTable(System.Collections.Generic.IEnumerable(Of Startitecture.Orm.Model.EntityAttributeDefinition))
+  nameWithType: TableValuedMerge<T>.DeclareSourceTable(IEnumerable<EntityAttributeDefinition>)
+  nameWithType.vb: TableValuedMerge(Of T).DeclareSourceTable(IEnumerable(Of EntityAttributeDefinition))
+- uid: Startitecture.Orm.SqlClient.TableValuedMerge`1.DeclareSourceTable*
+  name: DeclareSourceTable
+  href: api/Startitecture.Orm.SqlClient.TableValuedMerge-1.html#Startitecture_Orm_SqlClient_TableValuedMerge_1_DeclareSourceTable_
+  commentId: Overload:Startitecture.Orm.SqlClient.TableValuedMerge`1.DeclareSourceTable
   isSpec: "True"
-  fullName: Startitecture.Orm.SqlClient.TableValuedMerge<T>.DeleteUnmatchedInSource
-  fullName.vb: Startitecture.Orm.SqlClient.TableValuedMerge(Of T).DeleteUnmatchedInSource
-  nameWithType: TableValuedMerge<T>.DeleteUnmatchedInSource
-  nameWithType.vb: TableValuedMerge(Of T).DeleteUnmatchedInSource
-- uid: Startitecture.Orm.SqlClient.TableValuedMerge`1.DeleteUnmatchedInSource``1(System.Linq.Expressions.Expression{System.Func{``0,System.Object}}[])
-  name: DeleteUnmatchedInSource<TItem>(Expression<Func<TItem, Object>>[])
-  href: api/Startitecture.Orm.SqlClient.TableValuedMerge-1.html#Startitecture_Orm_SqlClient_TableValuedMerge_1_DeleteUnmatchedInSource__1_System_Linq_Expressions_Expression_System_Func___0_System_Object_____
-  commentId: M:Startitecture.Orm.SqlClient.TableValuedMerge`1.DeleteUnmatchedInSource``1(System.Linq.Expressions.Expression{System.Func{``0,System.Object}}[])
-  name.vb: DeleteUnmatchedInSource(Of TItem)(Expression(Of Func(Of TItem, Object))())
-  fullName: Startitecture.Orm.SqlClient.TableValuedMerge<T>.DeleteUnmatchedInSource<TItem>(System.Linq.Expressions.Expression<System.Func<TItem, System.Object>>[])
-  fullName.vb: Startitecture.Orm.SqlClient.TableValuedMerge(Of T).DeleteUnmatchedInSource(Of TItem)(System.Linq.Expressions.Expression(Of System.Func(Of TItem, System.Object))())
-  nameWithType: TableValuedMerge<T>.DeleteUnmatchedInSource<TItem>(Expression<Func<TItem, Object>>[])
-  nameWithType.vb: TableValuedMerge(Of T).DeleteUnmatchedInSource(Of TItem)(Expression(Of Func(Of TItem, Object))())
-- uid: Startitecture.Orm.SqlClient.TableValuedMerge`1.From*
-  name: From
-  href: api/Startitecture.Orm.SqlClient.TableValuedMerge-1.html#Startitecture_Orm_SqlClient_TableValuedMerge_1_From_
-  commentId: Overload:Startitecture.Orm.SqlClient.TableValuedMerge`1.From
+  fullName: Startitecture.Orm.SqlClient.TableValuedMerge<T>.DeclareSourceTable
+  fullName.vb: Startitecture.Orm.SqlClient.TableValuedMerge(Of T).DeclareSourceTable
+  nameWithType: TableValuedMerge<T>.DeclareSourceTable
+  nameWithType.vb: TableValuedMerge(Of T).DeclareSourceTable
+- uid: Startitecture.Orm.SqlClient.TableValuedMerge`1.SourceSelection(System.Collections.Generic.Dictionary{Startitecture.Orm.Model.EntityAttributeDefinition,Startitecture.Orm.Model.EntityAttributeDefinition})
+  name: SourceSelection(Dictionary<EntityAttributeDefinition, EntityAttributeDefinition>)
+  href: api/Startitecture.Orm.SqlClient.TableValuedMerge-1.html#Startitecture_Orm_SqlClient_TableValuedMerge_1_SourceSelection_System_Collections_Generic_Dictionary_Startitecture_Orm_Model_EntityAttributeDefinition_Startitecture_Orm_Model_EntityAttributeDefinition__
+  commentId: M:Startitecture.Orm.SqlClient.TableValuedMerge`1.SourceSelection(System.Collections.Generic.Dictionary{Startitecture.Orm.Model.EntityAttributeDefinition,Startitecture.Orm.Model.EntityAttributeDefinition})
+  name.vb: SourceSelection(Dictionary(Of EntityAttributeDefinition, EntityAttributeDefinition))
+  fullName: Startitecture.Orm.SqlClient.TableValuedMerge<T>.SourceSelection(System.Collections.Generic.Dictionary<Startitecture.Orm.Model.EntityAttributeDefinition, Startitecture.Orm.Model.EntityAttributeDefinition>)
+  fullName.vb: Startitecture.Orm.SqlClient.TableValuedMerge(Of T).SourceSelection(System.Collections.Generic.Dictionary(Of Startitecture.Orm.Model.EntityAttributeDefinition, Startitecture.Orm.Model.EntityAttributeDefinition))
+  nameWithType: TableValuedMerge<T>.SourceSelection(Dictionary<EntityAttributeDefinition, EntityAttributeDefinition>)
+  nameWithType.vb: TableValuedMerge(Of T).SourceSelection(Dictionary(Of EntityAttributeDefinition, EntityAttributeDefinition))
+- uid: Startitecture.Orm.SqlClient.TableValuedMerge`1.SourceSelection*
+  name: SourceSelection
+  href: api/Startitecture.Orm.SqlClient.TableValuedMerge-1.html#Startitecture_Orm_SqlClient_TableValuedMerge_1_SourceSelection_
+  commentId: Overload:Startitecture.Orm.SqlClient.TableValuedMerge`1.SourceSelection
   isSpec: "True"
-  fullName: Startitecture.Orm.SqlClient.TableValuedMerge<T>.From
-  fullName.vb: Startitecture.Orm.SqlClient.TableValuedMerge(Of T).From
-  nameWithType: TableValuedMerge<T>.From
-  nameWithType.vb: TableValuedMerge(Of T).From
-- uid: Startitecture.Orm.SqlClient.TableValuedMerge`1.From``1(System.Linq.Expressions.Expression{System.Func{``0,System.Object}}[])
-  name: From<TStructure>(Expression<Func<TStructure, Object>>[])
-  href: api/Startitecture.Orm.SqlClient.TableValuedMerge-1.html#Startitecture_Orm_SqlClient_TableValuedMerge_1_From__1_System_Linq_Expressions_Expression_System_Func___0_System_Object_____
-  commentId: M:Startitecture.Orm.SqlClient.TableValuedMerge`1.From``1(System.Linq.Expressions.Expression{System.Func{``0,System.Object}}[])
-  name.vb: From(Of TStructure)(Expression(Of Func(Of TStructure, Object))())
-  fullName: Startitecture.Orm.SqlClient.TableValuedMerge<T>.From<TStructure>(System.Linq.Expressions.Expression<System.Func<TStructure, System.Object>>[])
-  fullName.vb: Startitecture.Orm.SqlClient.TableValuedMerge(Of T).From(Of TStructure)(System.Linq.Expressions.Expression(Of System.Func(Of TStructure, System.Object))())
-  nameWithType: TableValuedMerge<T>.From<TStructure>(Expression<Func<TStructure, Object>>[])
-  nameWithType.vb: TableValuedMerge(Of T).From(Of TStructure)(Expression(Of Func(Of TStructure, Object))())
-- uid: Startitecture.Orm.SqlClient.TableValuedMerge`1.On*
-  name: On
-  href: api/Startitecture.Orm.SqlClient.TableValuedMerge-1.html#Startitecture_Orm_SqlClient_TableValuedMerge_1_On_
-  commentId: Overload:Startitecture.Orm.SqlClient.TableValuedMerge`1.On
-  isSpec: "True"
-  fullName: Startitecture.Orm.SqlClient.TableValuedMerge<T>.On
-  fullName.vb: Startitecture.Orm.SqlClient.TableValuedMerge(Of T).On
-  nameWithType: TableValuedMerge<T>.On
-  nameWithType.vb: TableValuedMerge(Of T).On
-- uid: Startitecture.Orm.SqlClient.TableValuedMerge`1.On``1(System.Linq.Expressions.Expression{System.Func{``0,System.Object}},System.Linq.Expressions.Expression{System.Func{`0,System.Object}})
-  name: On<TItem>(Expression<Func<TItem, Object>>, Expression<Func<T, Object>>)
-  href: api/Startitecture.Orm.SqlClient.TableValuedMerge-1.html#Startitecture_Orm_SqlClient_TableValuedMerge_1_On__1_System_Linq_Expressions_Expression_System_Func___0_System_Object___System_Linq_Expressions_Expression_System_Func__0_System_Object___
-  commentId: M:Startitecture.Orm.SqlClient.TableValuedMerge`1.On``1(System.Linq.Expressions.Expression{System.Func{``0,System.Object}},System.Linq.Expressions.Expression{System.Func{`0,System.Object}})
-  name.vb: On(Of TItem)(Expression(Of Func(Of TItem, Object)), Expression(Of Func(Of T, Object)))
-  fullName: Startitecture.Orm.SqlClient.TableValuedMerge<T>.On<TItem>(System.Linq.Expressions.Expression<System.Func<TItem, System.Object>>, System.Linq.Expressions.Expression<System.Func<T, System.Object>>)
-  fullName.vb: Startitecture.Orm.SqlClient.TableValuedMerge(Of T).On(Of TItem)(System.Linq.Expressions.Expression(Of System.Func(Of TItem, System.Object)), System.Linq.Expressions.Expression(Of System.Func(Of T, System.Object)))
-  nameWithType: TableValuedMerge<T>.On<TItem>(Expression<Func<TItem, Object>>, Expression<Func<T, Object>>)
-  nameWithType.vb: TableValuedMerge(Of T).On(Of TItem)(Expression(Of Func(Of TItem, Object)), Expression(Of Func(Of T, Object)))
-- uid: Startitecture.Orm.SqlClient.TableValuedMerge`1.OnImplicit(System.Linq.Expressions.Expression{System.Func{`0,System.Object}}[])
-  name: OnImplicit(Expression<Func<T, Object>>[])
-  href: api/Startitecture.Orm.SqlClient.TableValuedMerge-1.html#Startitecture_Orm_SqlClient_TableValuedMerge_1_OnImplicit_System_Linq_Expressions_Expression_System_Func__0_System_Object_____
-  commentId: M:Startitecture.Orm.SqlClient.TableValuedMerge`1.OnImplicit(System.Linq.Expressions.Expression{System.Func{`0,System.Object}}[])
-  name.vb: OnImplicit(Expression(Of Func(Of T, Object))())
-  fullName: Startitecture.Orm.SqlClient.TableValuedMerge<T>.OnImplicit(System.Linq.Expressions.Expression<System.Func<T, System.Object>>[])
-  fullName.vb: Startitecture.Orm.SqlClient.TableValuedMerge(Of T).OnImplicit(System.Linq.Expressions.Expression(Of System.Func(Of T, System.Object))())
-  nameWithType: TableValuedMerge<T>.OnImplicit(Expression<Func<T, Object>>[])
-  nameWithType.vb: TableValuedMerge(Of T).OnImplicit(Expression(Of Func(Of T, Object))())
-- uid: Startitecture.Orm.SqlClient.TableValuedMerge`1.OnImplicit*
-  name: OnImplicit
-  href: api/Startitecture.Orm.SqlClient.TableValuedMerge-1.html#Startitecture_Orm_SqlClient_TableValuedMerge_1_OnImplicit_
-  commentId: Overload:Startitecture.Orm.SqlClient.TableValuedMerge`1.OnImplicit
-  isSpec: "True"
-  fullName: Startitecture.Orm.SqlClient.TableValuedMerge<T>.OnImplicit
-  fullName.vb: Startitecture.Orm.SqlClient.TableValuedMerge(Of T).OnImplicit
-  nameWithType: TableValuedMerge<T>.OnImplicit
-  nameWithType.vb: TableValuedMerge(Of T).OnImplicit
-- uid: Startitecture.Orm.SqlClient.TableValuedMerge`1.SelectFromInserted(System.Linq.Expressions.Expression{System.Func{`0,System.Object}}[])
-  name: SelectFromInserted(Expression<Func<T, Object>>[])
-  href: api/Startitecture.Orm.SqlClient.TableValuedMerge-1.html#Startitecture_Orm_SqlClient_TableValuedMerge_1_SelectFromInserted_System_Linq_Expressions_Expression_System_Func__0_System_Object_____
-  commentId: M:Startitecture.Orm.SqlClient.TableValuedMerge`1.SelectFromInserted(System.Linq.Expressions.Expression{System.Func{`0,System.Object}}[])
-  name.vb: SelectFromInserted(Expression(Of Func(Of T, Object))())
-  fullName: Startitecture.Orm.SqlClient.TableValuedMerge<T>.SelectFromInserted(System.Linq.Expressions.Expression<System.Func<T, System.Object>>[])
-  fullName.vb: Startitecture.Orm.SqlClient.TableValuedMerge(Of T).SelectFromInserted(System.Linq.Expressions.Expression(Of System.Func(Of T, System.Object))())
-  nameWithType: TableValuedMerge<T>.SelectFromInserted(Expression<Func<T, Object>>[])
-  nameWithType.vb: TableValuedMerge(Of T).SelectFromInserted(Expression(Of Func(Of T, Object))())
-- uid: Startitecture.Orm.SqlClient.TableValuedMerge`1.SelectFromInserted*
-  name: SelectFromInserted
-  href: api/Startitecture.Orm.SqlClient.TableValuedMerge-1.html#Startitecture_Orm_SqlClient_TableValuedMerge_1_SelectFromInserted_
-  commentId: Overload:Startitecture.Orm.SqlClient.TableValuedMerge`1.SelectFromInserted
-  isSpec: "True"
-  fullName: Startitecture.Orm.SqlClient.TableValuedMerge<T>.SelectFromInserted
-  fullName.vb: Startitecture.Orm.SqlClient.TableValuedMerge(Of T).SelectFromInserted
-  nameWithType: TableValuedMerge<T>.SelectFromInserted
-  nameWithType.vb: TableValuedMerge(Of T).SelectFromInserted
+  fullName: Startitecture.Orm.SqlClient.TableValuedMerge<T>.SourceSelection
+  fullName.vb: Startitecture.Orm.SqlClient.TableValuedMerge(Of T).SourceSelection
+  nameWithType: TableValuedMerge<T>.SourceSelection
+  nameWithType.vb: TableValuedMerge(Of T).SourceSelection
 - uid: Startitecture.Orm.SqlClient.TableValuedParameterCommandFactory
   name: TableValuedParameterCommandFactory
   href: api/Startitecture.Orm.SqlClient.TableValuedParameterCommandFactory.html
@@ -10534,6 +10786,398 @@ references:
   isSpec: "True"
   fullName: Startitecture.Orm.SqlClient.TransactSqlAdapter.ValueMappers
   nameWithType: TransactSqlAdapter.ValueMappers
+- uid: Startitecture.Orm.SqlClient.TransactSqlInsertBase`1
+  name: TransactSqlInsertBase<T>
+  href: api/Startitecture.Orm.SqlClient.TransactSqlInsertBase-1.html
+  commentId: T:Startitecture.Orm.SqlClient.TransactSqlInsertBase`1
+  name.vb: TransactSqlInsertBase(Of T)
+  fullName: Startitecture.Orm.SqlClient.TransactSqlInsertBase<T>
+  fullName.vb: Startitecture.Orm.SqlClient.TransactSqlInsertBase(Of T)
+  nameWithType: TransactSqlInsertBase<T>
+  nameWithType.vb: TransactSqlInsertBase(Of T)
+- uid: Startitecture.Orm.SqlClient.TransactSqlInsertBase`1.#ctor(Startitecture.Orm.Common.IDbTableCommandFactory,Startitecture.Orm.Common.IDatabaseContext)
+  name: TransactSqlInsertBase(IDbTableCommandFactory, IDatabaseContext)
+  href: api/Startitecture.Orm.SqlClient.TransactSqlInsertBase-1.html#Startitecture_Orm_SqlClient_TransactSqlInsertBase_1__ctor_Startitecture_Orm_Common_IDbTableCommandFactory_Startitecture_Orm_Common_IDatabaseContext_
+  commentId: M:Startitecture.Orm.SqlClient.TransactSqlInsertBase`1.#ctor(Startitecture.Orm.Common.IDbTableCommandFactory,Startitecture.Orm.Common.IDatabaseContext)
+  fullName: Startitecture.Orm.SqlClient.TransactSqlInsertBase<T>.TransactSqlInsertBase(Startitecture.Orm.Common.IDbTableCommandFactory, Startitecture.Orm.Common.IDatabaseContext)
+  fullName.vb: Startitecture.Orm.SqlClient.TransactSqlInsertBase(Of T).TransactSqlInsertBase(Startitecture.Orm.Common.IDbTableCommandFactory, Startitecture.Orm.Common.IDatabaseContext)
+  nameWithType: TransactSqlInsertBase<T>.TransactSqlInsertBase(IDbTableCommandFactory, IDatabaseContext)
+  nameWithType.vb: TransactSqlInsertBase(Of T).TransactSqlInsertBase(IDbTableCommandFactory, IDatabaseContext)
+- uid: Startitecture.Orm.SqlClient.TransactSqlInsertBase`1.#ctor*
+  name: TransactSqlInsertBase
+  href: api/Startitecture.Orm.SqlClient.TransactSqlInsertBase-1.html#Startitecture_Orm_SqlClient_TransactSqlInsertBase_1__ctor_
+  commentId: Overload:Startitecture.Orm.SqlClient.TransactSqlInsertBase`1.#ctor
+  isSpec: "True"
+  fullName: Startitecture.Orm.SqlClient.TransactSqlInsertBase<T>.TransactSqlInsertBase
+  fullName.vb: Startitecture.Orm.SqlClient.TransactSqlInsertBase(Of T).TransactSqlInsertBase
+  nameWithType: TransactSqlInsertBase<T>.TransactSqlInsertBase
+  nameWithType.vb: TransactSqlInsertBase(Of T).TransactSqlInsertBase
+- uid: Startitecture.Orm.SqlClient.TransactSqlInsertBase`1.CommandText
+  name: CommandText
+  href: api/Startitecture.Orm.SqlClient.TransactSqlInsertBase-1.html#Startitecture_Orm_SqlClient_TransactSqlInsertBase_1_CommandText
+  commentId: P:Startitecture.Orm.SqlClient.TransactSqlInsertBase`1.CommandText
+  fullName: Startitecture.Orm.SqlClient.TransactSqlInsertBase<T>.CommandText
+  fullName.vb: Startitecture.Orm.SqlClient.TransactSqlInsertBase(Of T).CommandText
+  nameWithType: TransactSqlInsertBase<T>.CommandText
+  nameWithType.vb: TransactSqlInsertBase(Of T).CommandText
+- uid: Startitecture.Orm.SqlClient.TransactSqlInsertBase`1.CommandText*
+  name: CommandText
+  href: api/Startitecture.Orm.SqlClient.TransactSqlInsertBase-1.html#Startitecture_Orm_SqlClient_TransactSqlInsertBase_1_CommandText_
+  commentId: Overload:Startitecture.Orm.SqlClient.TransactSqlInsertBase`1.CommandText
+  isSpec: "True"
+  fullName: Startitecture.Orm.SqlClient.TransactSqlInsertBase<T>.CommandText
+  fullName.vb: Startitecture.Orm.SqlClient.TransactSqlInsertBase(Of T).CommandText
+  nameWithType: TransactSqlInsertBase<T>.CommandText
+  nameWithType.vb: TransactSqlInsertBase(Of T).CommandText
+- uid: Startitecture.Orm.SqlClient.TransactSqlInsertBase`1.DeclareInsertedTable(System.Collections.Generic.IEnumerable{Startitecture.Orm.Model.EntityAttributeDefinition})
+  name: DeclareInsertedTable(IEnumerable<EntityAttributeDefinition>)
+  href: api/Startitecture.Orm.SqlClient.TransactSqlInsertBase-1.html#Startitecture_Orm_SqlClient_TransactSqlInsertBase_1_DeclareInsertedTable_System_Collections_Generic_IEnumerable_Startitecture_Orm_Model_EntityAttributeDefinition__
+  commentId: M:Startitecture.Orm.SqlClient.TransactSqlInsertBase`1.DeclareInsertedTable(System.Collections.Generic.IEnumerable{Startitecture.Orm.Model.EntityAttributeDefinition})
+  name.vb: DeclareInsertedTable(IEnumerable(Of EntityAttributeDefinition))
+  fullName: Startitecture.Orm.SqlClient.TransactSqlInsertBase<T>.DeclareInsertedTable(System.Collections.Generic.IEnumerable<Startitecture.Orm.Model.EntityAttributeDefinition>)
+  fullName.vb: Startitecture.Orm.SqlClient.TransactSqlInsertBase(Of T).DeclareInsertedTable(System.Collections.Generic.IEnumerable(Of Startitecture.Orm.Model.EntityAttributeDefinition))
+  nameWithType: TransactSqlInsertBase<T>.DeclareInsertedTable(IEnumerable<EntityAttributeDefinition>)
+  nameWithType.vb: TransactSqlInsertBase(Of T).DeclareInsertedTable(IEnumerable(Of EntityAttributeDefinition))
+- uid: Startitecture.Orm.SqlClient.TransactSqlInsertBase`1.DeclareInsertedTable*
+  name: DeclareInsertedTable
+  href: api/Startitecture.Orm.SqlClient.TransactSqlInsertBase-1.html#Startitecture_Orm_SqlClient_TransactSqlInsertBase_1_DeclareInsertedTable_
+  commentId: Overload:Startitecture.Orm.SqlClient.TransactSqlInsertBase`1.DeclareInsertedTable
+  isSpec: "True"
+  fullName: Startitecture.Orm.SqlClient.TransactSqlInsertBase<T>.DeclareInsertedTable
+  fullName.vb: Startitecture.Orm.SqlClient.TransactSqlInsertBase(Of T).DeclareInsertedTable
+  nameWithType: TransactSqlInsertBase<T>.DeclareInsertedTable
+  nameWithType.vb: TransactSqlInsertBase(Of T).DeclareInsertedTable
+- uid: Startitecture.Orm.SqlClient.TransactSqlInsertBase`1.DeclareSourceTable(System.Collections.Generic.IEnumerable{Startitecture.Orm.Model.EntityAttributeDefinition})
+  name: DeclareSourceTable(IEnumerable<EntityAttributeDefinition>)
+  href: api/Startitecture.Orm.SqlClient.TransactSqlInsertBase-1.html#Startitecture_Orm_SqlClient_TransactSqlInsertBase_1_DeclareSourceTable_System_Collections_Generic_IEnumerable_Startitecture_Orm_Model_EntityAttributeDefinition__
+  commentId: M:Startitecture.Orm.SqlClient.TransactSqlInsertBase`1.DeclareSourceTable(System.Collections.Generic.IEnumerable{Startitecture.Orm.Model.EntityAttributeDefinition})
+  name.vb: DeclareSourceTable(IEnumerable(Of EntityAttributeDefinition))
+  fullName: Startitecture.Orm.SqlClient.TransactSqlInsertBase<T>.DeclareSourceTable(System.Collections.Generic.IEnumerable<Startitecture.Orm.Model.EntityAttributeDefinition>)
+  fullName.vb: Startitecture.Orm.SqlClient.TransactSqlInsertBase(Of T).DeclareSourceTable(System.Collections.Generic.IEnumerable(Of Startitecture.Orm.Model.EntityAttributeDefinition))
+  nameWithType: TransactSqlInsertBase<T>.DeclareSourceTable(IEnumerable<EntityAttributeDefinition>)
+  nameWithType.vb: TransactSqlInsertBase(Of T).DeclareSourceTable(IEnumerable(Of EntityAttributeDefinition))
+- uid: Startitecture.Orm.SqlClient.TransactSqlInsertBase`1.DeclareSourceTable*
+  name: DeclareSourceTable
+  href: api/Startitecture.Orm.SqlClient.TransactSqlInsertBase-1.html#Startitecture_Orm_SqlClient_TransactSqlInsertBase_1_DeclareSourceTable_
+  commentId: Overload:Startitecture.Orm.SqlClient.TransactSqlInsertBase`1.DeclareSourceTable
+  isSpec: "True"
+  fullName: Startitecture.Orm.SqlClient.TransactSqlInsertBase<T>.DeclareSourceTable
+  fullName.vb: Startitecture.Orm.SqlClient.TransactSqlInsertBase(Of T).DeclareSourceTable
+  nameWithType: TransactSqlInsertBase<T>.DeclareSourceTable
+  nameWithType.vb: TransactSqlInsertBase(Of T).DeclareSourceTable
+- uid: Startitecture.Orm.SqlClient.TransactSqlInsertBase`1.From*
+  name: From
+  href: api/Startitecture.Orm.SqlClient.TransactSqlInsertBase-1.html#Startitecture_Orm_SqlClient_TransactSqlInsertBase_1_From_
+  commentId: Overload:Startitecture.Orm.SqlClient.TransactSqlInsertBase`1.From
+  isSpec: "True"
+  fullName: Startitecture.Orm.SqlClient.TransactSqlInsertBase<T>.From
+  fullName.vb: Startitecture.Orm.SqlClient.TransactSqlInsertBase(Of T).From
+  nameWithType: TransactSqlInsertBase<T>.From
+  nameWithType.vb: TransactSqlInsertBase(Of T).From
+- uid: Startitecture.Orm.SqlClient.TransactSqlInsertBase`1.From``1(System.Linq.Expressions.Expression{System.Func{``0,System.Object}}[])
+  name: From<TItem>(Expression<Func<TItem, Object>>[])
+  href: api/Startitecture.Orm.SqlClient.TransactSqlInsertBase-1.html#Startitecture_Orm_SqlClient_TransactSqlInsertBase_1_From__1_System_Linq_Expressions_Expression_System_Func___0_System_Object_____
+  commentId: M:Startitecture.Orm.SqlClient.TransactSqlInsertBase`1.From``1(System.Linq.Expressions.Expression{System.Func{``0,System.Object}}[])
+  name.vb: From(Of TItem)(Expression(Of Func(Of TItem, Object))())
+  fullName: Startitecture.Orm.SqlClient.TransactSqlInsertBase<T>.From<TItem>(System.Linq.Expressions.Expression<System.Func<TItem, System.Object>>[])
+  fullName.vb: Startitecture.Orm.SqlClient.TransactSqlInsertBase(Of T).From(Of TItem)(System.Linq.Expressions.Expression(Of System.Func(Of TItem, System.Object))())
+  nameWithType: TransactSqlInsertBase<T>.From<TItem>(Expression<Func<TItem, Object>>[])
+  nameWithType.vb: TransactSqlInsertBase(Of T).From(Of TItem)(Expression(Of Func(Of TItem, Object))())
+- uid: Startitecture.Orm.SqlClient.TransactSqlInsertBase`1.InsertInto(System.Linq.Expressions.Expression{System.Func{`0,System.Object}}[])
+  name: InsertInto(Expression<Func<T, Object>>[])
+  href: api/Startitecture.Orm.SqlClient.TransactSqlInsertBase-1.html#Startitecture_Orm_SqlClient_TransactSqlInsertBase_1_InsertInto_System_Linq_Expressions_Expression_System_Func__0_System_Object_____
+  commentId: M:Startitecture.Orm.SqlClient.TransactSqlInsertBase`1.InsertInto(System.Linq.Expressions.Expression{System.Func{`0,System.Object}}[])
+  name.vb: InsertInto(Expression(Of Func(Of T, Object))())
+  fullName: Startitecture.Orm.SqlClient.TransactSqlInsertBase<T>.InsertInto(System.Linq.Expressions.Expression<System.Func<T, System.Object>>[])
+  fullName.vb: Startitecture.Orm.SqlClient.TransactSqlInsertBase(Of T).InsertInto(System.Linq.Expressions.Expression(Of System.Func(Of T, System.Object))())
+  nameWithType: TransactSqlInsertBase<T>.InsertInto(Expression<Func<T, Object>>[])
+  nameWithType.vb: TransactSqlInsertBase(Of T).InsertInto(Expression(Of Func(Of T, Object))())
+- uid: Startitecture.Orm.SqlClient.TransactSqlInsertBase`1.InsertInto*
+  name: InsertInto
+  href: api/Startitecture.Orm.SqlClient.TransactSqlInsertBase-1.html#Startitecture_Orm_SqlClient_TransactSqlInsertBase_1_InsertInto_
+  commentId: Overload:Startitecture.Orm.SqlClient.TransactSqlInsertBase`1.InsertInto
+  isSpec: "True"
+  fullName: Startitecture.Orm.SqlClient.TransactSqlInsertBase<T>.InsertInto
+  fullName.vb: Startitecture.Orm.SqlClient.TransactSqlInsertBase(Of T).InsertInto
+  nameWithType: TransactSqlInsertBase<T>.InsertInto
+  nameWithType.vb: TransactSqlInsertBase(Of T).InsertInto
+- uid: Startitecture.Orm.SqlClient.TransactSqlInsertBase`1.SelectFromInserted(System.Linq.Expressions.Expression{System.Func{`0,System.Object}}[])
+  name: SelectFromInserted(Expression<Func<T, Object>>[])
+  href: api/Startitecture.Orm.SqlClient.TransactSqlInsertBase-1.html#Startitecture_Orm_SqlClient_TransactSqlInsertBase_1_SelectFromInserted_System_Linq_Expressions_Expression_System_Func__0_System_Object_____
+  commentId: M:Startitecture.Orm.SqlClient.TransactSqlInsertBase`1.SelectFromInserted(System.Linq.Expressions.Expression{System.Func{`0,System.Object}}[])
+  name.vb: SelectFromInserted(Expression(Of Func(Of T, Object))())
+  fullName: Startitecture.Orm.SqlClient.TransactSqlInsertBase<T>.SelectFromInserted(System.Linq.Expressions.Expression<System.Func<T, System.Object>>[])
+  fullName.vb: Startitecture.Orm.SqlClient.TransactSqlInsertBase(Of T).SelectFromInserted(System.Linq.Expressions.Expression(Of System.Func(Of T, System.Object))())
+  nameWithType: TransactSqlInsertBase<T>.SelectFromInserted(Expression<Func<T, Object>>[])
+  nameWithType.vb: TransactSqlInsertBase(Of T).SelectFromInserted(Expression(Of Func(Of T, Object))())
+- uid: Startitecture.Orm.SqlClient.TransactSqlInsertBase`1.SelectFromInserted*
+  name: SelectFromInserted
+  href: api/Startitecture.Orm.SqlClient.TransactSqlInsertBase-1.html#Startitecture_Orm_SqlClient_TransactSqlInsertBase_1_SelectFromInserted_
+  commentId: Overload:Startitecture.Orm.SqlClient.TransactSqlInsertBase`1.SelectFromInserted
+  isSpec: "True"
+  fullName: Startitecture.Orm.SqlClient.TransactSqlInsertBase<T>.SelectFromInserted
+  fullName.vb: Startitecture.Orm.SqlClient.TransactSqlInsertBase(Of T).SelectFromInserted
+  nameWithType: TransactSqlInsertBase<T>.SelectFromInserted
+  nameWithType.vb: TransactSqlInsertBase(Of T).SelectFromInserted
+- uid: Startitecture.Orm.SqlClient.TransactSqlInsertBase`1.SelectFromSource*
+  name: SelectFromSource
+  href: api/Startitecture.Orm.SqlClient.TransactSqlInsertBase-1.html#Startitecture_Orm_SqlClient_TransactSqlInsertBase_1_SelectFromSource_
+  commentId: Overload:Startitecture.Orm.SqlClient.TransactSqlInsertBase`1.SelectFromSource
+  isSpec: "True"
+  fullName: Startitecture.Orm.SqlClient.TransactSqlInsertBase<T>.SelectFromSource
+  fullName.vb: Startitecture.Orm.SqlClient.TransactSqlInsertBase(Of T).SelectFromSource
+  nameWithType: TransactSqlInsertBase<T>.SelectFromSource
+  nameWithType.vb: TransactSqlInsertBase(Of T).SelectFromSource
+- uid: Startitecture.Orm.SqlClient.TransactSqlInsertBase`1.SelectFromSource``1(System.Action{Startitecture.Orm.Model.AttributeMatchSet{`0,``0}},System.Linq.Expressions.Expression{System.Func{``0,System.Object}}[])
+  name: SelectFromSource<TItem>(Action<AttributeMatchSet<T, TItem>>, Expression<Func<TItem, Object>>[])
+  href: api/Startitecture.Orm.SqlClient.TransactSqlInsertBase-1.html#Startitecture_Orm_SqlClient_TransactSqlInsertBase_1_SelectFromSource__1_System_Action_Startitecture_Orm_Model_AttributeMatchSet__0___0___System_Linq_Expressions_Expression_System_Func___0_System_Object_____
+  commentId: M:Startitecture.Orm.SqlClient.TransactSqlInsertBase`1.SelectFromSource``1(System.Action{Startitecture.Orm.Model.AttributeMatchSet{`0,``0}},System.Linq.Expressions.Expression{System.Func{``0,System.Object}}[])
+  name.vb: SelectFromSource(Of TItem)(Action(Of AttributeMatchSet(Of T, TItem)), Expression(Of Func(Of TItem, Object))())
+  fullName: Startitecture.Orm.SqlClient.TransactSqlInsertBase<T>.SelectFromSource<TItem>(System.Action<Startitecture.Orm.Model.AttributeMatchSet<T, TItem>>, System.Linq.Expressions.Expression<System.Func<TItem, System.Object>>[])
+  fullName.vb: Startitecture.Orm.SqlClient.TransactSqlInsertBase(Of T).SelectFromSource(Of TItem)(System.Action(Of Startitecture.Orm.Model.AttributeMatchSet(Of T, TItem)), System.Linq.Expressions.Expression(Of System.Func(Of TItem, System.Object))())
+  nameWithType: TransactSqlInsertBase<T>.SelectFromSource<TItem>(Action<AttributeMatchSet<T, TItem>>, Expression<Func<TItem, Object>>[])
+  nameWithType.vb: TransactSqlInsertBase(Of T).SelectFromSource(Of TItem)(Action(Of AttributeMatchSet(Of T, TItem)), Expression(Of Func(Of TItem, Object))())
+- uid: Startitecture.Orm.SqlClient.TransactSqlInsertBase`1.SourceSelection(System.Collections.Generic.IReadOnlyDictionary{Startitecture.Orm.Model.EntityAttributeDefinition,Startitecture.Orm.Model.EntityAttributeDefinition})
+  name: SourceSelection(IReadOnlyDictionary<EntityAttributeDefinition, EntityAttributeDefinition>)
+  href: api/Startitecture.Orm.SqlClient.TransactSqlInsertBase-1.html#Startitecture_Orm_SqlClient_TransactSqlInsertBase_1_SourceSelection_System_Collections_Generic_IReadOnlyDictionary_Startitecture_Orm_Model_EntityAttributeDefinition_Startitecture_Orm_Model_EntityAttributeDefinition__
+  commentId: M:Startitecture.Orm.SqlClient.TransactSqlInsertBase`1.SourceSelection(System.Collections.Generic.IReadOnlyDictionary{Startitecture.Orm.Model.EntityAttributeDefinition,Startitecture.Orm.Model.EntityAttributeDefinition})
+  name.vb: SourceSelection(IReadOnlyDictionary(Of EntityAttributeDefinition, EntityAttributeDefinition))
+  fullName: Startitecture.Orm.SqlClient.TransactSqlInsertBase<T>.SourceSelection(System.Collections.Generic.IReadOnlyDictionary<Startitecture.Orm.Model.EntityAttributeDefinition, Startitecture.Orm.Model.EntityAttributeDefinition>)
+  fullName.vb: Startitecture.Orm.SqlClient.TransactSqlInsertBase(Of T).SourceSelection(System.Collections.Generic.IReadOnlyDictionary(Of Startitecture.Orm.Model.EntityAttributeDefinition, Startitecture.Orm.Model.EntityAttributeDefinition))
+  nameWithType: TransactSqlInsertBase<T>.SourceSelection(IReadOnlyDictionary<EntityAttributeDefinition, EntityAttributeDefinition>)
+  nameWithType.vb: TransactSqlInsertBase(Of T).SourceSelection(IReadOnlyDictionary(Of EntityAttributeDefinition, EntityAttributeDefinition))
+- uid: Startitecture.Orm.SqlClient.TransactSqlInsertBase`1.SourceSelection*
+  name: SourceSelection
+  href: api/Startitecture.Orm.SqlClient.TransactSqlInsertBase-1.html#Startitecture_Orm_SqlClient_TransactSqlInsertBase_1_SourceSelection_
+  commentId: Overload:Startitecture.Orm.SqlClient.TransactSqlInsertBase`1.SourceSelection
+  isSpec: "True"
+  fullName: Startitecture.Orm.SqlClient.TransactSqlInsertBase<T>.SourceSelection
+  fullName.vb: Startitecture.Orm.SqlClient.TransactSqlInsertBase(Of T).SourceSelection
+  nameWithType: TransactSqlInsertBase<T>.SourceSelection
+  nameWithType.vb: TransactSqlInsertBase(Of T).SourceSelection
+- uid: Startitecture.Orm.SqlClient.TransactSqlInsertBase`1.SourceTableReference(System.Collections.Generic.IEnumerable{Startitecture.Orm.Model.EntityAttributeDefinition})
+  name: SourceTableReference(IEnumerable<EntityAttributeDefinition>)
+  href: api/Startitecture.Orm.SqlClient.TransactSqlInsertBase-1.html#Startitecture_Orm_SqlClient_TransactSqlInsertBase_1_SourceTableReference_System_Collections_Generic_IEnumerable_Startitecture_Orm_Model_EntityAttributeDefinition__
+  commentId: M:Startitecture.Orm.SqlClient.TransactSqlInsertBase`1.SourceTableReference(System.Collections.Generic.IEnumerable{Startitecture.Orm.Model.EntityAttributeDefinition})
+  name.vb: SourceTableReference(IEnumerable(Of EntityAttributeDefinition))
+  fullName: Startitecture.Orm.SqlClient.TransactSqlInsertBase<T>.SourceTableReference(System.Collections.Generic.IEnumerable<Startitecture.Orm.Model.EntityAttributeDefinition>)
+  fullName.vb: Startitecture.Orm.SqlClient.TransactSqlInsertBase(Of T).SourceTableReference(System.Collections.Generic.IEnumerable(Of Startitecture.Orm.Model.EntityAttributeDefinition))
+  nameWithType: TransactSqlInsertBase<T>.SourceTableReference(IEnumerable<EntityAttributeDefinition>)
+  nameWithType.vb: TransactSqlInsertBase(Of T).SourceTableReference(IEnumerable(Of EntityAttributeDefinition))
+- uid: Startitecture.Orm.SqlClient.TransactSqlInsertBase`1.SourceTableReference*
+  name: SourceTableReference
+  href: api/Startitecture.Orm.SqlClient.TransactSqlInsertBase-1.html#Startitecture_Orm_SqlClient_TransactSqlInsertBase_1_SourceTableReference_
+  commentId: Overload:Startitecture.Orm.SqlClient.TransactSqlInsertBase`1.SourceTableReference
+  isSpec: "True"
+  fullName: Startitecture.Orm.SqlClient.TransactSqlInsertBase<T>.SourceTableReference
+  fullName.vb: Startitecture.Orm.SqlClient.TransactSqlInsertBase(Of T).SourceTableReference
+  nameWithType: TransactSqlInsertBase<T>.SourceTableReference
+  nameWithType.vb: TransactSqlInsertBase(Of T).SourceTableReference
+- uid: Startitecture.Orm.SqlClient.TransactSqlMergeBase`1
+  name: TransactSqlMergeBase<T>
+  href: api/Startitecture.Orm.SqlClient.TransactSqlMergeBase-1.html
+  commentId: T:Startitecture.Orm.SqlClient.TransactSqlMergeBase`1
+  name.vb: TransactSqlMergeBase(Of T)
+  fullName: Startitecture.Orm.SqlClient.TransactSqlMergeBase<T>
+  fullName.vb: Startitecture.Orm.SqlClient.TransactSqlMergeBase(Of T)
+  nameWithType: TransactSqlMergeBase<T>
+  nameWithType.vb: TransactSqlMergeBase(Of T)
+- uid: Startitecture.Orm.SqlClient.TransactSqlMergeBase`1.#ctor(Startitecture.Orm.Common.IDbTableCommandFactory,Startitecture.Orm.Common.IDatabaseContext)
+  name: TransactSqlMergeBase(IDbTableCommandFactory, IDatabaseContext)
+  href: api/Startitecture.Orm.SqlClient.TransactSqlMergeBase-1.html#Startitecture_Orm_SqlClient_TransactSqlMergeBase_1__ctor_Startitecture_Orm_Common_IDbTableCommandFactory_Startitecture_Orm_Common_IDatabaseContext_
+  commentId: M:Startitecture.Orm.SqlClient.TransactSqlMergeBase`1.#ctor(Startitecture.Orm.Common.IDbTableCommandFactory,Startitecture.Orm.Common.IDatabaseContext)
+  fullName: Startitecture.Orm.SqlClient.TransactSqlMergeBase<T>.TransactSqlMergeBase(Startitecture.Orm.Common.IDbTableCommandFactory, Startitecture.Orm.Common.IDatabaseContext)
+  fullName.vb: Startitecture.Orm.SqlClient.TransactSqlMergeBase(Of T).TransactSqlMergeBase(Startitecture.Orm.Common.IDbTableCommandFactory, Startitecture.Orm.Common.IDatabaseContext)
+  nameWithType: TransactSqlMergeBase<T>.TransactSqlMergeBase(IDbTableCommandFactory, IDatabaseContext)
+  nameWithType.vb: TransactSqlMergeBase(Of T).TransactSqlMergeBase(IDbTableCommandFactory, IDatabaseContext)
+- uid: Startitecture.Orm.SqlClient.TransactSqlMergeBase`1.#ctor*
+  name: TransactSqlMergeBase
+  href: api/Startitecture.Orm.SqlClient.TransactSqlMergeBase-1.html#Startitecture_Orm_SqlClient_TransactSqlMergeBase_1__ctor_
+  commentId: Overload:Startitecture.Orm.SqlClient.TransactSqlMergeBase`1.#ctor
+  isSpec: "True"
+  fullName: Startitecture.Orm.SqlClient.TransactSqlMergeBase<T>.TransactSqlMergeBase
+  fullName.vb: Startitecture.Orm.SqlClient.TransactSqlMergeBase(Of T).TransactSqlMergeBase
+  nameWithType: TransactSqlMergeBase<T>.TransactSqlMergeBase
+  nameWithType.vb: TransactSqlMergeBase(Of T).TransactSqlMergeBase
+- uid: Startitecture.Orm.SqlClient.TransactSqlMergeBase`1.CommandText
+  name: CommandText
+  href: api/Startitecture.Orm.SqlClient.TransactSqlMergeBase-1.html#Startitecture_Orm_SqlClient_TransactSqlMergeBase_1_CommandText
+  commentId: P:Startitecture.Orm.SqlClient.TransactSqlMergeBase`1.CommandText
+  fullName: Startitecture.Orm.SqlClient.TransactSqlMergeBase<T>.CommandText
+  fullName.vb: Startitecture.Orm.SqlClient.TransactSqlMergeBase(Of T).CommandText
+  nameWithType: TransactSqlMergeBase<T>.CommandText
+  nameWithType.vb: TransactSqlMergeBase(Of T).CommandText
+- uid: Startitecture.Orm.SqlClient.TransactSqlMergeBase`1.CommandText*
+  name: CommandText
+  href: api/Startitecture.Orm.SqlClient.TransactSqlMergeBase-1.html#Startitecture_Orm_SqlClient_TransactSqlMergeBase_1_CommandText_
+  commentId: Overload:Startitecture.Orm.SqlClient.TransactSqlMergeBase`1.CommandText
+  isSpec: "True"
+  fullName: Startitecture.Orm.SqlClient.TransactSqlMergeBase<T>.CommandText
+  fullName.vb: Startitecture.Orm.SqlClient.TransactSqlMergeBase(Of T).CommandText
+  nameWithType: TransactSqlMergeBase<T>.CommandText
+  nameWithType.vb: TransactSqlMergeBase(Of T).CommandText
+- uid: Startitecture.Orm.SqlClient.TransactSqlMergeBase`1.DeclareInsertedTable(System.Collections.Generic.IEnumerable{Startitecture.Orm.Model.EntityAttributeDefinition})
+  name: DeclareInsertedTable(IEnumerable<EntityAttributeDefinition>)
+  href: api/Startitecture.Orm.SqlClient.TransactSqlMergeBase-1.html#Startitecture_Orm_SqlClient_TransactSqlMergeBase_1_DeclareInsertedTable_System_Collections_Generic_IEnumerable_Startitecture_Orm_Model_EntityAttributeDefinition__
+  commentId: M:Startitecture.Orm.SqlClient.TransactSqlMergeBase`1.DeclareInsertedTable(System.Collections.Generic.IEnumerable{Startitecture.Orm.Model.EntityAttributeDefinition})
+  name.vb: DeclareInsertedTable(IEnumerable(Of EntityAttributeDefinition))
+  fullName: Startitecture.Orm.SqlClient.TransactSqlMergeBase<T>.DeclareInsertedTable(System.Collections.Generic.IEnumerable<Startitecture.Orm.Model.EntityAttributeDefinition>)
+  fullName.vb: Startitecture.Orm.SqlClient.TransactSqlMergeBase(Of T).DeclareInsertedTable(System.Collections.Generic.IEnumerable(Of Startitecture.Orm.Model.EntityAttributeDefinition))
+  nameWithType: TransactSqlMergeBase<T>.DeclareInsertedTable(IEnumerable<EntityAttributeDefinition>)
+  nameWithType.vb: TransactSqlMergeBase(Of T).DeclareInsertedTable(IEnumerable(Of EntityAttributeDefinition))
+- uid: Startitecture.Orm.SqlClient.TransactSqlMergeBase`1.DeclareInsertedTable*
+  name: DeclareInsertedTable
+  href: api/Startitecture.Orm.SqlClient.TransactSqlMergeBase-1.html#Startitecture_Orm_SqlClient_TransactSqlMergeBase_1_DeclareInsertedTable_
+  commentId: Overload:Startitecture.Orm.SqlClient.TransactSqlMergeBase`1.DeclareInsertedTable
+  isSpec: "True"
+  fullName: Startitecture.Orm.SqlClient.TransactSqlMergeBase<T>.DeclareInsertedTable
+  fullName.vb: Startitecture.Orm.SqlClient.TransactSqlMergeBase(Of T).DeclareInsertedTable
+  nameWithType: TransactSqlMergeBase<T>.DeclareInsertedTable
+  nameWithType.vb: TransactSqlMergeBase(Of T).DeclareInsertedTable
+- uid: Startitecture.Orm.SqlClient.TransactSqlMergeBase`1.DeclareSourceTable(System.Collections.Generic.IEnumerable{Startitecture.Orm.Model.EntityAttributeDefinition})
+  name: DeclareSourceTable(IEnumerable<EntityAttributeDefinition>)
+  href: api/Startitecture.Orm.SqlClient.TransactSqlMergeBase-1.html#Startitecture_Orm_SqlClient_TransactSqlMergeBase_1_DeclareSourceTable_System_Collections_Generic_IEnumerable_Startitecture_Orm_Model_EntityAttributeDefinition__
+  commentId: M:Startitecture.Orm.SqlClient.TransactSqlMergeBase`1.DeclareSourceTable(System.Collections.Generic.IEnumerable{Startitecture.Orm.Model.EntityAttributeDefinition})
+  name.vb: DeclareSourceTable(IEnumerable(Of EntityAttributeDefinition))
+  fullName: Startitecture.Orm.SqlClient.TransactSqlMergeBase<T>.DeclareSourceTable(System.Collections.Generic.IEnumerable<Startitecture.Orm.Model.EntityAttributeDefinition>)
+  fullName.vb: Startitecture.Orm.SqlClient.TransactSqlMergeBase(Of T).DeclareSourceTable(System.Collections.Generic.IEnumerable(Of Startitecture.Orm.Model.EntityAttributeDefinition))
+  nameWithType: TransactSqlMergeBase<T>.DeclareSourceTable(IEnumerable<EntityAttributeDefinition>)
+  nameWithType.vb: TransactSqlMergeBase(Of T).DeclareSourceTable(IEnumerable(Of EntityAttributeDefinition))
+- uid: Startitecture.Orm.SqlClient.TransactSqlMergeBase`1.DeclareSourceTable*
+  name: DeclareSourceTable
+  href: api/Startitecture.Orm.SqlClient.TransactSqlMergeBase-1.html#Startitecture_Orm_SqlClient_TransactSqlMergeBase_1_DeclareSourceTable_
+  commentId: Overload:Startitecture.Orm.SqlClient.TransactSqlMergeBase`1.DeclareSourceTable
+  isSpec: "True"
+  fullName: Startitecture.Orm.SqlClient.TransactSqlMergeBase<T>.DeclareSourceTable
+  fullName.vb: Startitecture.Orm.SqlClient.TransactSqlMergeBase(Of T).DeclareSourceTable
+  nameWithType: TransactSqlMergeBase<T>.DeclareSourceTable
+  nameWithType.vb: TransactSqlMergeBase(Of T).DeclareSourceTable
+- uid: Startitecture.Orm.SqlClient.TransactSqlMergeBase`1.DeleteUnmatchedInSource*
+  name: DeleteUnmatchedInSource
+  href: api/Startitecture.Orm.SqlClient.TransactSqlMergeBase-1.html#Startitecture_Orm_SqlClient_TransactSqlMergeBase_1_DeleteUnmatchedInSource_
+  commentId: Overload:Startitecture.Orm.SqlClient.TransactSqlMergeBase`1.DeleteUnmatchedInSource
+  isSpec: "True"
+  fullName: Startitecture.Orm.SqlClient.TransactSqlMergeBase<T>.DeleteUnmatchedInSource
+  fullName.vb: Startitecture.Orm.SqlClient.TransactSqlMergeBase(Of T).DeleteUnmatchedInSource
+  nameWithType: TransactSqlMergeBase<T>.DeleteUnmatchedInSource
+  nameWithType.vb: TransactSqlMergeBase(Of T).DeleteUnmatchedInSource
+- uid: Startitecture.Orm.SqlClient.TransactSqlMergeBase`1.DeleteUnmatchedInSource``1(System.Linq.Expressions.Expression{System.Func{``0,System.Object}}[])
+  name: DeleteUnmatchedInSource<TItem>(Expression<Func<TItem, Object>>[])
+  href: api/Startitecture.Orm.SqlClient.TransactSqlMergeBase-1.html#Startitecture_Orm_SqlClient_TransactSqlMergeBase_1_DeleteUnmatchedInSource__1_System_Linq_Expressions_Expression_System_Func___0_System_Object_____
+  commentId: M:Startitecture.Orm.SqlClient.TransactSqlMergeBase`1.DeleteUnmatchedInSource``1(System.Linq.Expressions.Expression{System.Func{``0,System.Object}}[])
+  name.vb: DeleteUnmatchedInSource(Of TItem)(Expression(Of Func(Of TItem, Object))())
+  fullName: Startitecture.Orm.SqlClient.TransactSqlMergeBase<T>.DeleteUnmatchedInSource<TItem>(System.Linq.Expressions.Expression<System.Func<TItem, System.Object>>[])
+  fullName.vb: Startitecture.Orm.SqlClient.TransactSqlMergeBase(Of T).DeleteUnmatchedInSource(Of TItem)(System.Linq.Expressions.Expression(Of System.Func(Of TItem, System.Object))())
+  nameWithType: TransactSqlMergeBase<T>.DeleteUnmatchedInSource<TItem>(Expression<Func<TItem, Object>>[])
+  nameWithType.vb: TransactSqlMergeBase(Of T).DeleteUnmatchedInSource(Of TItem)(Expression(Of Func(Of TItem, Object))())
+- uid: Startitecture.Orm.SqlClient.TransactSqlMergeBase`1.From*
+  name: From
+  href: api/Startitecture.Orm.SqlClient.TransactSqlMergeBase-1.html#Startitecture_Orm_SqlClient_TransactSqlMergeBase_1_From_
+  commentId: Overload:Startitecture.Orm.SqlClient.TransactSqlMergeBase`1.From
+  isSpec: "True"
+  fullName: Startitecture.Orm.SqlClient.TransactSqlMergeBase<T>.From
+  fullName.vb: Startitecture.Orm.SqlClient.TransactSqlMergeBase(Of T).From
+  nameWithType: TransactSqlMergeBase<T>.From
+  nameWithType.vb: TransactSqlMergeBase(Of T).From
+- uid: Startitecture.Orm.SqlClient.TransactSqlMergeBase`1.From``1(System.Linq.Expressions.Expression{System.Func{``0,System.Object}}[])
+  name: From<TStructure>(Expression<Func<TStructure, Object>>[])
+  href: api/Startitecture.Orm.SqlClient.TransactSqlMergeBase-1.html#Startitecture_Orm_SqlClient_TransactSqlMergeBase_1_From__1_System_Linq_Expressions_Expression_System_Func___0_System_Object_____
+  commentId: M:Startitecture.Orm.SqlClient.TransactSqlMergeBase`1.From``1(System.Linq.Expressions.Expression{System.Func{``0,System.Object}}[])
+  name.vb: From(Of TStructure)(Expression(Of Func(Of TStructure, Object))())
+  fullName: Startitecture.Orm.SqlClient.TransactSqlMergeBase<T>.From<TStructure>(System.Linq.Expressions.Expression<System.Func<TStructure, System.Object>>[])
+  fullName.vb: Startitecture.Orm.SqlClient.TransactSqlMergeBase(Of T).From(Of TStructure)(System.Linq.Expressions.Expression(Of System.Func(Of TStructure, System.Object))())
+  nameWithType: TransactSqlMergeBase<T>.From<TStructure>(Expression<Func<TStructure, Object>>[])
+  nameWithType.vb: TransactSqlMergeBase(Of T).From(Of TStructure)(Expression(Of Func(Of TStructure, Object))())
+- uid: Startitecture.Orm.SqlClient.TransactSqlMergeBase`1.On*
+  name: On
+  href: api/Startitecture.Orm.SqlClient.TransactSqlMergeBase-1.html#Startitecture_Orm_SqlClient_TransactSqlMergeBase_1_On_
+  commentId: Overload:Startitecture.Orm.SqlClient.TransactSqlMergeBase`1.On
+  isSpec: "True"
+  fullName: Startitecture.Orm.SqlClient.TransactSqlMergeBase<T>.On
+  fullName.vb: Startitecture.Orm.SqlClient.TransactSqlMergeBase(Of T).On
+  nameWithType: TransactSqlMergeBase<T>.On
+  nameWithType.vb: TransactSqlMergeBase(Of T).On
+- uid: Startitecture.Orm.SqlClient.TransactSqlMergeBase`1.On``1(System.Linq.Expressions.Expression{System.Func{``0,System.Object}},System.Linq.Expressions.Expression{System.Func{`0,System.Object}})
+  name: On<TItem>(Expression<Func<TItem, Object>>, Expression<Func<T, Object>>)
+  href: api/Startitecture.Orm.SqlClient.TransactSqlMergeBase-1.html#Startitecture_Orm_SqlClient_TransactSqlMergeBase_1_On__1_System_Linq_Expressions_Expression_System_Func___0_System_Object___System_Linq_Expressions_Expression_System_Func__0_System_Object___
+  commentId: M:Startitecture.Orm.SqlClient.TransactSqlMergeBase`1.On``1(System.Linq.Expressions.Expression{System.Func{``0,System.Object}},System.Linq.Expressions.Expression{System.Func{`0,System.Object}})
+  name.vb: On(Of TItem)(Expression(Of Func(Of TItem, Object)), Expression(Of Func(Of T, Object)))
+  fullName: Startitecture.Orm.SqlClient.TransactSqlMergeBase<T>.On<TItem>(System.Linq.Expressions.Expression<System.Func<TItem, System.Object>>, System.Linq.Expressions.Expression<System.Func<T, System.Object>>)
+  fullName.vb: Startitecture.Orm.SqlClient.TransactSqlMergeBase(Of T).On(Of TItem)(System.Linq.Expressions.Expression(Of System.Func(Of TItem, System.Object)), System.Linq.Expressions.Expression(Of System.Func(Of T, System.Object)))
+  nameWithType: TransactSqlMergeBase<T>.On<TItem>(Expression<Func<TItem, Object>>, Expression<Func<T, Object>>)
+  nameWithType.vb: TransactSqlMergeBase(Of T).On(Of TItem)(Expression(Of Func(Of TItem, Object)), Expression(Of Func(Of T, Object)))
+- uid: Startitecture.Orm.SqlClient.TransactSqlMergeBase`1.OnImplicit(System.Linq.Expressions.Expression{System.Func{`0,System.Object}}[])
+  name: OnImplicit(Expression<Func<T, Object>>[])
+  href: api/Startitecture.Orm.SqlClient.TransactSqlMergeBase-1.html#Startitecture_Orm_SqlClient_TransactSqlMergeBase_1_OnImplicit_System_Linq_Expressions_Expression_System_Func__0_System_Object_____
+  commentId: M:Startitecture.Orm.SqlClient.TransactSqlMergeBase`1.OnImplicit(System.Linq.Expressions.Expression{System.Func{`0,System.Object}}[])
+  name.vb: OnImplicit(Expression(Of Func(Of T, Object))())
+  fullName: Startitecture.Orm.SqlClient.TransactSqlMergeBase<T>.OnImplicit(System.Linq.Expressions.Expression<System.Func<T, System.Object>>[])
+  fullName.vb: Startitecture.Orm.SqlClient.TransactSqlMergeBase(Of T).OnImplicit(System.Linq.Expressions.Expression(Of System.Func(Of T, System.Object))())
+  nameWithType: TransactSqlMergeBase<T>.OnImplicit(Expression<Func<T, Object>>[])
+  nameWithType.vb: TransactSqlMergeBase(Of T).OnImplicit(Expression(Of Func(Of T, Object))())
+- uid: Startitecture.Orm.SqlClient.TransactSqlMergeBase`1.OnImplicit*
+  name: OnImplicit
+  href: api/Startitecture.Orm.SqlClient.TransactSqlMergeBase-1.html#Startitecture_Orm_SqlClient_TransactSqlMergeBase_1_OnImplicit_
+  commentId: Overload:Startitecture.Orm.SqlClient.TransactSqlMergeBase`1.OnImplicit
+  isSpec: "True"
+  fullName: Startitecture.Orm.SqlClient.TransactSqlMergeBase<T>.OnImplicit
+  fullName.vb: Startitecture.Orm.SqlClient.TransactSqlMergeBase(Of T).OnImplicit
+  nameWithType: TransactSqlMergeBase<T>.OnImplicit
+  nameWithType.vb: TransactSqlMergeBase(Of T).OnImplicit
+- uid: Startitecture.Orm.SqlClient.TransactSqlMergeBase`1.SelectFromInserted(System.Linq.Expressions.Expression{System.Func{`0,System.Object}}[])
+  name: SelectFromInserted(Expression<Func<T, Object>>[])
+  href: api/Startitecture.Orm.SqlClient.TransactSqlMergeBase-1.html#Startitecture_Orm_SqlClient_TransactSqlMergeBase_1_SelectFromInserted_System_Linq_Expressions_Expression_System_Func__0_System_Object_____
+  commentId: M:Startitecture.Orm.SqlClient.TransactSqlMergeBase`1.SelectFromInserted(System.Linq.Expressions.Expression{System.Func{`0,System.Object}}[])
+  name.vb: SelectFromInserted(Expression(Of Func(Of T, Object))())
+  fullName: Startitecture.Orm.SqlClient.TransactSqlMergeBase<T>.SelectFromInserted(System.Linq.Expressions.Expression<System.Func<T, System.Object>>[])
+  fullName.vb: Startitecture.Orm.SqlClient.TransactSqlMergeBase(Of T).SelectFromInserted(System.Linq.Expressions.Expression(Of System.Func(Of T, System.Object))())
+  nameWithType: TransactSqlMergeBase<T>.SelectFromInserted(Expression<Func<T, Object>>[])
+  nameWithType.vb: TransactSqlMergeBase(Of T).SelectFromInserted(Expression(Of Func(Of T, Object))())
+- uid: Startitecture.Orm.SqlClient.TransactSqlMergeBase`1.SelectFromInserted*
+  name: SelectFromInserted
+  href: api/Startitecture.Orm.SqlClient.TransactSqlMergeBase-1.html#Startitecture_Orm_SqlClient_TransactSqlMergeBase_1_SelectFromInserted_
+  commentId: Overload:Startitecture.Orm.SqlClient.TransactSqlMergeBase`1.SelectFromInserted
+  isSpec: "True"
+  fullName: Startitecture.Orm.SqlClient.TransactSqlMergeBase<T>.SelectFromInserted
+  fullName.vb: Startitecture.Orm.SqlClient.TransactSqlMergeBase(Of T).SelectFromInserted
+  nameWithType: TransactSqlMergeBase<T>.SelectFromInserted
+  nameWithType.vb: TransactSqlMergeBase(Of T).SelectFromInserted
+- uid: Startitecture.Orm.SqlClient.TransactSqlMergeBase`1.SelectFromSource*
+  name: SelectFromSource
+  href: api/Startitecture.Orm.SqlClient.TransactSqlMergeBase-1.html#Startitecture_Orm_SqlClient_TransactSqlMergeBase_1_SelectFromSource_
+  commentId: Overload:Startitecture.Orm.SqlClient.TransactSqlMergeBase`1.SelectFromSource
+  isSpec: "True"
+  fullName: Startitecture.Orm.SqlClient.TransactSqlMergeBase<T>.SelectFromSource
+  fullName.vb: Startitecture.Orm.SqlClient.TransactSqlMergeBase(Of T).SelectFromSource
+  nameWithType: TransactSqlMergeBase<T>.SelectFromSource
+  nameWithType.vb: TransactSqlMergeBase(Of T).SelectFromSource
+- uid: Startitecture.Orm.SqlClient.TransactSqlMergeBase`1.SelectFromSource``1(System.Action{Startitecture.Orm.Model.AttributeMatchSet{`0,``0}},System.Linq.Expressions.Expression{System.Func{``0,System.Object}}[])
+  name: SelectFromSource<TItem>(Action<AttributeMatchSet<T, TItem>>, Expression<Func<TItem, Object>>[])
+  href: api/Startitecture.Orm.SqlClient.TransactSqlMergeBase-1.html#Startitecture_Orm_SqlClient_TransactSqlMergeBase_1_SelectFromSource__1_System_Action_Startitecture_Orm_Model_AttributeMatchSet__0___0___System_Linq_Expressions_Expression_System_Func___0_System_Object_____
+  commentId: M:Startitecture.Orm.SqlClient.TransactSqlMergeBase`1.SelectFromSource``1(System.Action{Startitecture.Orm.Model.AttributeMatchSet{`0,``0}},System.Linq.Expressions.Expression{System.Func{``0,System.Object}}[])
+  name.vb: SelectFromSource(Of TItem)(Action(Of AttributeMatchSet(Of T, TItem)), Expression(Of Func(Of TItem, Object))())
+  fullName: Startitecture.Orm.SqlClient.TransactSqlMergeBase<T>.SelectFromSource<TItem>(System.Action<Startitecture.Orm.Model.AttributeMatchSet<T, TItem>>, System.Linq.Expressions.Expression<System.Func<TItem, System.Object>>[])
+  fullName.vb: Startitecture.Orm.SqlClient.TransactSqlMergeBase(Of T).SelectFromSource(Of TItem)(System.Action(Of Startitecture.Orm.Model.AttributeMatchSet(Of T, TItem)), System.Linq.Expressions.Expression(Of System.Func(Of TItem, System.Object))())
+  nameWithType: TransactSqlMergeBase<T>.SelectFromSource<TItem>(Action<AttributeMatchSet<T, TItem>>, Expression<Func<TItem, Object>>[])
+  nameWithType.vb: TransactSqlMergeBase(Of T).SelectFromSource(Of TItem)(Action(Of AttributeMatchSet(Of T, TItem)), Expression(Of Func(Of TItem, Object))())
+- uid: Startitecture.Orm.SqlClient.TransactSqlMergeBase`1.SourceSelection(System.Collections.Generic.Dictionary{Startitecture.Orm.Model.EntityAttributeDefinition,Startitecture.Orm.Model.EntityAttributeDefinition})
+  name: SourceSelection(Dictionary<EntityAttributeDefinition, EntityAttributeDefinition>)
+  href: api/Startitecture.Orm.SqlClient.TransactSqlMergeBase-1.html#Startitecture_Orm_SqlClient_TransactSqlMergeBase_1_SourceSelection_System_Collections_Generic_Dictionary_Startitecture_Orm_Model_EntityAttributeDefinition_Startitecture_Orm_Model_EntityAttributeDefinition__
+  commentId: M:Startitecture.Orm.SqlClient.TransactSqlMergeBase`1.SourceSelection(System.Collections.Generic.Dictionary{Startitecture.Orm.Model.EntityAttributeDefinition,Startitecture.Orm.Model.EntityAttributeDefinition})
+  name.vb: SourceSelection(Dictionary(Of EntityAttributeDefinition, EntityAttributeDefinition))
+  fullName: Startitecture.Orm.SqlClient.TransactSqlMergeBase<T>.SourceSelection(System.Collections.Generic.Dictionary<Startitecture.Orm.Model.EntityAttributeDefinition, Startitecture.Orm.Model.EntityAttributeDefinition>)
+  fullName.vb: Startitecture.Orm.SqlClient.TransactSqlMergeBase(Of T).SourceSelection(System.Collections.Generic.Dictionary(Of Startitecture.Orm.Model.EntityAttributeDefinition, Startitecture.Orm.Model.EntityAttributeDefinition))
+  nameWithType: TransactSqlMergeBase<T>.SourceSelection(Dictionary<EntityAttributeDefinition, EntityAttributeDefinition>)
+  nameWithType.vb: TransactSqlMergeBase(Of T).SourceSelection(Dictionary(Of EntityAttributeDefinition, EntityAttributeDefinition))
+- uid: Startitecture.Orm.SqlClient.TransactSqlMergeBase`1.SourceSelection*
+  name: SourceSelection
+  href: api/Startitecture.Orm.SqlClient.TransactSqlMergeBase-1.html#Startitecture_Orm_SqlClient_TransactSqlMergeBase_1_SourceSelection_
+  commentId: Overload:Startitecture.Orm.SqlClient.TransactSqlMergeBase`1.SourceSelection
+  isSpec: "True"
+  fullName: Startitecture.Orm.SqlClient.TransactSqlMergeBase<T>.SourceSelection
+  fullName.vb: Startitecture.Orm.SqlClient.TransactSqlMergeBase(Of T).SourceSelection
+  nameWithType: TransactSqlMergeBase<T>.SourceSelection
+  nameWithType.vb: TransactSqlMergeBase(Of T).SourceSelection
 - uid: Startitecture.Orm.SqlClient.TransactSqlQualifier
   name: TransactSqlQualifier
   href: api/Startitecture.Orm.SqlClient.TransactSqlQualifier.html

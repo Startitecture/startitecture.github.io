@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class TableCommand&lt;T&gt;
    ">
-    <meta name="generator" content="docfx 2.56.3.0">
+    <meta name="generator" content="docfx 2.56.4.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -80,8 +80,8 @@
     <div class="level0"><span class="xref">System.Object</span></div>
     <div class="level1"><span class="xref">TableCommand&lt;T&gt;</span></div>
       <div class="level2"><a class="xref" href="Startitecture.Orm.PostgreSql.JsonInsert-1.html">JsonInsert&lt;T&gt;</a></div>
-      <div class="level2"><a class="xref" href="Startitecture.Orm.SqlClient.TableValuedInsert-1.html">TableValuedInsert&lt;T&gt;</a></div>
-      <div class="level2"><a class="xref" href="Startitecture.Orm.SqlClient.TableValuedMerge-1.html">TableValuedMerge&lt;T&gt;</a></div>
+      <div class="level2"><a class="xref" href="Startitecture.Orm.SqlClient.TransactSqlInsertBase-1.html">TransactSqlInsertBase&lt;T&gt;</a></div>
+      <div class="level2"><a class="xref" href="Startitecture.Orm.SqlClient.TransactSqlMergeBase-1.html">TransactSqlMergeBase&lt;T&gt;</a></div>
   </div>
   <div classs="implements">
     <h5>Implements</h5>
@@ -137,7 +137,7 @@
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Mapper/TableCommand.cs&amp;version=GBmaster&amp;line=51">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Mapper/TableCommand.cs&amp;version=GBmaster&amp;line=53">View Source</a>
   </span>
   <a id="Startitecture_Orm_Mapper_TableCommand_1__ctor_" data-uid="Startitecture.Orm.Mapper.TableCommand`1.#ctor*"></a>
   <h4 id="Startitecture_Orm_Mapper_TableCommand_1__ctor_Startitecture_Orm_Common_IDbTableCommandFactory_Startitecture_Orm_Common_IDatabaseContext_" data-uid="Startitecture.Orm.Mapper.TableCommand`1.#ctor(Startitecture.Orm.Common.IDbTableCommandFactory,Startitecture.Orm.Common.IDatabaseContext)">TableCommand(IDbTableCommandFactory, IDatabaseContext)</h4>
@@ -146,7 +146,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected TableCommand([NotNull] IDbTableCommandFactory tableCommandFactory, IDatabaseContext databaseContext)</code></pre>
+    <pre><code class="lang-csharp hljs">protected TableCommand([NotNull] IDbTableCommandFactory tableCommandFactory, [NotNull] IDatabaseContext databaseContext)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -192,7 +192,7 @@
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Mapper/TableCommand.cs&amp;version=GBmaster&amp;line=66">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Mapper/TableCommand.cs&amp;version=GBmaster&amp;line=69">View Source</a>
   </span>
   <a id="Startitecture_Orm_Mapper_TableCommand_1_CommandText_" data-uid="Startitecture.Orm.Mapper.TableCommand`1.CommandText*"></a>
   <h4 id="Startitecture_Orm_Mapper_TableCommand_1_CommandText" data-uid="Startitecture.Orm.Mapper.TableCommand`1.CommandText">CommandText</h4>
@@ -220,7 +220,7 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Mapper/TableCommand.cs&amp;version=GBmaster&amp;line=71">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Mapper/TableCommand.cs&amp;version=GBmaster&amp;line=74">View Source</a>
   </span>
   <a id="Startitecture_Orm_Mapper_TableCommand_1_DatabaseContext_" data-uid="Startitecture.Orm.Mapper.TableCommand`1.DatabaseContext*"></a>
   <h4 id="Startitecture_Orm_Mapper_TableCommand_1_DatabaseContext" data-uid="Startitecture.Orm.Mapper.TableCommand`1.DatabaseContext">DatabaseContext</h4>
@@ -248,7 +248,7 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Mapper/TableCommand.cs&amp;version=GBmaster&amp;line=76">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Mapper/TableCommand.cs&amp;version=GBmaster&amp;line=79">View Source</a>
   </span>
   <a id="Startitecture_Orm_Mapper_TableCommand_1_EntityDefinition_" data-uid="Startitecture.Orm.Mapper.TableCommand`1.EntityDefinition*"></a>
   <h4 id="Startitecture_Orm_Mapper_TableCommand_1_EntityDefinition" data-uid="Startitecture.Orm.Mapper.TableCommand`1.EntityDefinition">EntityDefinition</h4>
@@ -276,7 +276,35 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Mapper/TableCommand.cs&amp;version=GBmaster&amp;line=85">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Mapper/TableCommand.cs&amp;version=GBmaster&amp;line=98">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Mapper_TableCommand_1_FromColumnExpressions_" data-uid="Startitecture.Orm.Mapper.TableCommand`1.FromColumnExpressions*"></a>
+  <h4 id="Startitecture_Orm_Mapper_TableCommand_1_FromColumnExpressions" data-uid="Startitecture.Orm.Mapper.TableCommand`1.FromColumnExpressions">FromColumnExpressions</h4>
+  <div class="markdown level1 summary"><p>Gets the from expressions declared by the caller, if any.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected List&lt;LambdaExpression&gt; FromColumnExpressions { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">System.Linq.Expressions.LambdaExpression</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Mapper/TableCommand.cs&amp;version=GBmaster&amp;line=88">View Source</a>
   </span>
   <a id="Startitecture_Orm_Mapper_TableCommand_1_ItemDefinition_" data-uid="Startitecture.Orm.Mapper.TableCommand`1.ItemDefinition*"></a>
   <h4 id="Startitecture_Orm_Mapper_TableCommand_1_ItemDefinition" data-uid="Startitecture.Orm.Mapper.TableCommand`1.ItemDefinition">ItemDefinition</h4>
@@ -308,16 +336,16 @@ called.</p>
 </div>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Mapper/TableCommand.cs&amp;version=GBmaster&amp;line=94">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Mapper/TableCommand.cs&amp;version=GBmaster&amp;line=93">View Source</a>
   </span>
-  <a id="Startitecture_Orm_Mapper_TableCommand_1_ItemType_" data-uid="Startitecture.Orm.Mapper.TableCommand`1.ItemType*"></a>
-  <h4 id="Startitecture_Orm_Mapper_TableCommand_1_ItemType" data-uid="Startitecture.Orm.Mapper.TableCommand`1.ItemType">ItemType</h4>
-  <div class="markdown level1 summary"><p>Gets the item type passed to <a class="xref" href="Startitecture.Orm.Mapper.TableCommand-1.html#Startitecture_Orm_Mapper_TableCommand_1_Execute__1_System_Collections_Generic_IEnumerable___0__">Execute&lt;TItem&gt;(IEnumerable&lt;TItem&gt;)</a> or <a class="xref" href="Startitecture.Orm.Mapper.TableCommand-1.html#Startitecture_Orm_Mapper_TableCommand_1_ExecuteForResults__1_System_Collections_Generic_IEnumerable___0__">ExecuteForResults&lt;TItem&gt;(IEnumerable&lt;TItem&gt;)</a>.</p>
+  <a id="Startitecture_Orm_Mapper_TableCommand_1_NameQualifier_" data-uid="Startitecture.Orm.Mapper.TableCommand`1.NameQualifier*"></a>
+  <h4 id="Startitecture_Orm_Mapper_TableCommand_1_NameQualifier" data-uid="Startitecture.Orm.Mapper.TableCommand`1.NameQualifier">NameQualifier</h4>
+  <div class="markdown level1 summary"><p>Gets the name qualifier for this command.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected Type ItemType { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">protected INameQualifier NameQualifier { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -329,18 +357,14 @@ called.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Type</span></td>
+        <td><a class="xref" href="Startitecture.Orm.Model.INameQualifier.html">INameQualifier</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h5 id="Startitecture_Orm_Mapper_TableCommand_1_ItemType_remarks">Remarks</h5>
-  <div class="markdown level1 remarks"><p>For implementers: This property is not set until the <a class="xref" href="Startitecture.Orm.Mapper.TableCommand-1.html#Startitecture_Orm_Mapper_TableCommand_1_Execute__1_System_Collections_Generic_IEnumerable___0__">Execute&lt;TItem&gt;(IEnumerable&lt;TItem&gt;)</a> or <a class="xref" href="Startitecture.Orm.Mapper.TableCommand-1.html#Startitecture_Orm_Mapper_TableCommand_1_ExecuteForResults__1_System_Collections_Generic_IEnumerable___0__">ExecuteForResults&lt;TItem&gt;(IEnumerable&lt;TItem&gt;)</a> methods are
-called.</p>
-</div>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Mapper/TableCommand.cs&amp;version=GBmaster&amp;line=61">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Mapper/TableCommand.cs&amp;version=GBmaster&amp;line=64">View Source</a>
   </span>
   <a id="Startitecture_Orm_Mapper_TableCommand_1_ParameterName_" data-uid="Startitecture.Orm.Mapper.TableCommand`1.ParameterName*"></a>
   <h4 id="Startitecture_Orm_Mapper_TableCommand_1_ParameterName" data-uid="Startitecture.Orm.Mapper.TableCommand`1.ParameterName">ParameterName</h4>
@@ -370,7 +394,7 @@ called.</p>
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Mapper/TableCommand.cs&amp;version=GBmaster&amp;line=105">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Mapper/TableCommand.cs&amp;version=GBmaster&amp;line=109">View Source</a>
   </span>
   <a id="Startitecture_Orm_Mapper_TableCommand_1_Execute_" data-uid="Startitecture.Orm.Mapper.TableCommand`1.Execute*"></a>
   <h4 id="Startitecture_Orm_Mapper_TableCommand_1_Execute__1_System_Collections_Generic_IEnumerable___0__" data-uid="Startitecture.Orm.Mapper.TableCommand`1.Execute``1(System.Collections.Generic.IEnumerable{``0})">Execute&lt;TItem&gt;(IEnumerable&lt;TItem&gt;)</h4>
@@ -417,7 +441,7 @@ called.</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Mapper/TableCommand.cs&amp;version=GBmaster&amp;line=134">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Mapper/TableCommand.cs&amp;version=GBmaster&amp;line=138">View Source</a>
   </span>
   <a id="Startitecture_Orm_Mapper_TableCommand_1_ExecuteAsync_" data-uid="Startitecture.Orm.Mapper.TableCommand`1.ExecuteAsync*"></a>
   <h4 id="Startitecture_Orm_Mapper_TableCommand_1_ExecuteAsync__1_System_Collections_Generic_IEnumerable___0__" data-uid="Startitecture.Orm.Mapper.TableCommand`1.ExecuteAsync``1(System.Collections.Generic.IEnumerable{``0})">ExecuteAsync&lt;TItem&gt;(IEnumerable&lt;TItem&gt;)</h4>
@@ -480,7 +504,7 @@ called.</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Mapper/TableCommand.cs&amp;version=GBmaster&amp;line=170">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Mapper/TableCommand.cs&amp;version=GBmaster&amp;line=174">View Source</a>
   </span>
   <a id="Startitecture_Orm_Mapper_TableCommand_1_ExecuteForResults_" data-uid="Startitecture.Orm.Mapper.TableCommand`1.ExecuteForResults*"></a>
   <h4 id="Startitecture_Orm_Mapper_TableCommand_1_ExecuteForResults__1_System_Collections_Generic_IEnumerable___0__" data-uid="Startitecture.Orm.Mapper.TableCommand`1.ExecuteForResults``1(System.Collections.Generic.IEnumerable{``0})">ExecuteForResults&lt;TItem&gt;(IEnumerable&lt;TItem&gt;)</h4>
@@ -543,7 +567,7 @@ called.</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Mapper/TableCommand.cs&amp;version=GBmaster&amp;line=207">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Mapper/TableCommand.cs&amp;version=GBmaster&amp;line=211">View Source</a>
   </span>
   <a id="Startitecture_Orm_Mapper_TableCommand_1_ExecuteForResultsAsync_" data-uid="Startitecture.Orm.Mapper.TableCommand`1.ExecuteForResultsAsync*"></a>
   <h4 id="Startitecture_Orm_Mapper_TableCommand_1_ExecuteForResultsAsync__1_System_Collections_Generic_IEnumerable___0__" data-uid="Startitecture.Orm.Mapper.TableCommand`1.ExecuteForResultsAsync``1(System.Collections.Generic.IEnumerable{``0})">ExecuteForResultsAsync&lt;TItem&gt;(IEnumerable&lt;TItem&gt;)</h4>
@@ -604,6 +628,108 @@ called.</p>
       </tr>
     </tbody>
   </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Mapper/TableCommand.cs&amp;version=GBmaster&amp;line=292">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Mapper_TableCommand_1_GetInsertedAttributes_" data-uid="Startitecture.Orm.Mapper.TableCommand`1.GetInsertedAttributes*"></a>
+  <h4 id="Startitecture_Orm_Mapper_TableCommand_1_GetInsertedAttributes_System_Collections_Generic_IEnumerable_Startitecture_Orm_Model_EntityAttributeDefinition__" data-uid="Startitecture.Orm.Mapper.TableCommand`1.GetInsertedAttributes(System.Collections.Generic.IEnumerable{Startitecture.Orm.Model.EntityAttributeDefinition})">GetInsertedAttributes(IEnumerable&lt;EntityAttributeDefinition&gt;)</h4>
+  <div class="markdown level1 summary"><p>Gets the attributes to select out of the INSERTED table.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected IEnumerable&lt;EntityAttributeDefinition&gt; GetInsertedAttributes(IEnumerable&lt;EntityAttributeDefinition&gt; insertAttributes)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Startitecture.Orm.Model.EntityAttributeDefinition.html">EntityAttributeDefinition</a>&gt;</td>
+        <td><span class="parametername">insertAttributes</span></td>
+        <td><p>The attributes that will be inserted into the table.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Startitecture.Orm.Model.EntityAttributeDefinition.html">EntityAttributeDefinition</a>&gt;</td>
+        <td><p>An <span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span> of attributes that will be inserted into the INSERTED table.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Startitecture_Orm_Mapper_TableCommand_1_GetInsertedAttributes_System_Collections_Generic_IEnumerable_Startitecture_Orm_Model_EntityAttributeDefinition___remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method will automatically add IDENTITY columns. If an IDENTITY column is already present, then it is detected so that there are no
+duplicate attributes.</p>
+</div>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Mapper/TableCommand.cs&amp;version=GBmaster&amp;line=259">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Mapper_TableCommand_1_GetMatchedAttributes_" data-uid="Startitecture.Orm.Mapper.TableCommand`1.GetMatchedAttributes*"></a>
+  <h4 id="Startitecture_Orm_Mapper_TableCommand_1_GetMatchedAttributes_System_Collections_Generic_IEnumerable_Startitecture_Orm_Model_EntityAttributeDefinition__" data-uid="Startitecture.Orm.Mapper.TableCommand`1.GetMatchedAttributes(System.Collections.Generic.IEnumerable{Startitecture.Orm.Model.EntityAttributeDefinition})">GetMatchedAttributes(IEnumerable&lt;EntityAttributeDefinition&gt;)</h4>
+  <div class="markdown level1 summary"><p>Gets the matched attributes between the source and target definitions.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected Dictionary&lt;EntityAttributeDefinition, EntityAttributeDefinition&gt; GetMatchedAttributes(IEnumerable&lt;EntityAttributeDefinition&gt; insertAttributes)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Startitecture.Orm.Model.EntityAttributeDefinition.html">EntityAttributeDefinition</a>&gt;</td>
+        <td><span class="parametername">insertAttributes</span></td>
+        <td><p>The attributes to be inserted into the target table.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.Dictionary</span>&lt;<a class="xref" href="Startitecture.Orm.Model.EntityAttributeDefinition.html">EntityAttributeDefinition</a>, <a class="xref" href="Startitecture.Orm.Model.EntityAttributeDefinition.html">EntityAttributeDefinition</a>&gt;</td>
+        <td><p>A <span class="xref">System.Collections.Generic.Dictionary&lt;TKey, TValue&gt;</span> of source attributes indexed by target attributes.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Startitecture_Orm_Mapper_TableCommand_1_GetMatchedAttributes_System_Collections_Generic_IEnumerable_Startitecture_Orm_Model_EntityAttributeDefinition___remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>If there is no declaration of source attributes to insert from, then they are implicitly matched using
+<a class="xref" href="Startitecture.Orm.Model.EntityAttributeDefinition.html#Startitecture_Orm_Model_EntityAttributeDefinition_PhysicalName">PhysicalName</a>.</p>
+</div>
   <h3 id="implements">Implements</h3>
   <div>
       <a class="xref" href="Startitecture.Orm.Common.ITableCommand.html">ITableCommand</a>
@@ -616,7 +742,7 @@ called.</p>
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Mapper/TableCommand.cs&amp;version=GBmaster&amp;line=32" class="contribution-link">View Source</a>
+                    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Mapper/TableCommand.cs&amp;version=GBmaster&amp;line=34" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

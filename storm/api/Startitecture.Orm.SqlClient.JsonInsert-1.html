@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class TableValuedMerge&lt;T&gt;
+    <title>Class JsonInsert&lt;T&gt;
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class TableValuedMerge&lt;T&gt;
+    <meta name="title" content="Class JsonInsert&lt;T&gt;
    ">
     <meta name="generator" content="docfx 2.56.4.0">
     
@@ -67,20 +67,20 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Startitecture.Orm.SqlClient.TableValuedMerge`1">
+            <article class="content wrap" id="_content" data-uid="Startitecture.Orm.SqlClient.JsonInsert`1">
   
   
-  <h1 id="Startitecture_Orm_SqlClient_TableValuedMerge_1" data-uid="Startitecture.Orm.SqlClient.TableValuedMerge`1" class="text-break">Class TableValuedMerge&lt;T&gt;
+  <h1 id="Startitecture_Orm_SqlClient_JsonInsert_1" data-uid="Startitecture.Orm.SqlClient.JsonInsert`1" class="text-break">Class JsonInsert&lt;T&gt;
   </h1>
-  <div class="markdown level0 summary"><p>A MERGE command that uses a table-valued parameter (TVP) to merge multiple rows of data.</p>
+  <div class="markdown level0 summary"><p>Builds a command to insert multiple rows using JSON.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
     <div class="level1"><a class="xref" href="Startitecture.Orm.Mapper.TableCommand-1.html">TableCommand</a>&lt;T&gt;</div>
-    <div class="level2"><a class="xref" href="Startitecture.Orm.SqlClient.TransactSqlMergeBase-1.html">TransactSqlMergeBase</a>&lt;T&gt;</div>
-    <div class="level3"><span class="xref">TableValuedMerge&lt;T&gt;</span></div>
+    <div class="level2"><a class="xref" href="Startitecture.Orm.SqlClient.TransactSqlInsertBase-1.html">TransactSqlInsertBase</a>&lt;T&gt;</div>
+    <div class="level3"><span class="xref">JsonInsert&lt;T&gt;</span></div>
   </div>
   <div classs="implements">
     <h5>Implements</h5>
@@ -89,25 +89,19 @@
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
-      <a class="xref" href="Startitecture.Orm.SqlClient.TransactSqlMergeBase-1.html#Startitecture_Orm_SqlClient_TransactSqlMergeBase_1_CommandText">TransactSqlMergeBase&lt;T&gt;.CommandText</a>
+      <a class="xref" href="Startitecture.Orm.SqlClient.TransactSqlInsertBase-1.html#Startitecture_Orm_SqlClient_TransactSqlInsertBase_1_CommandText">TransactSqlInsertBase&lt;T&gt;.CommandText</a>
     </div>
     <div>
-      <a class="xref" href="Startitecture.Orm.SqlClient.TransactSqlMergeBase-1.html#Startitecture_Orm_SqlClient_TransactSqlMergeBase_1_From__1_System_Linq_Expressions_Expression_System_Func___0_System_Object_____">TransactSqlMergeBase&lt;T&gt;.From&lt;TStructure&gt;(Expression&lt;Func&lt;TStructure, Object&gt;&gt;[])</a>
+      <a class="xref" href="Startitecture.Orm.SqlClient.TransactSqlInsertBase-1.html#Startitecture_Orm_SqlClient_TransactSqlInsertBase_1_InsertInto_System_Linq_Expressions_Expression_System_Func__0_System_Object_____">TransactSqlInsertBase&lt;T&gt;.InsertInto(Expression&lt;Func&lt;T, Object&gt;&gt;[])</a>
     </div>
     <div>
-      <a class="xref" href="Startitecture.Orm.SqlClient.TransactSqlMergeBase-1.html#Startitecture_Orm_SqlClient_TransactSqlMergeBase_1_OnImplicit_System_Linq_Expressions_Expression_System_Func__0_System_Object_____">TransactSqlMergeBase&lt;T&gt;.OnImplicit(Expression&lt;Func&lt;T, Object&gt;&gt;[])</a>
+      <a class="xref" href="Startitecture.Orm.SqlClient.TransactSqlInsertBase-1.html#Startitecture_Orm_SqlClient_TransactSqlInsertBase_1_From__1_System_Linq_Expressions_Expression_System_Func___0_System_Object_____">TransactSqlInsertBase&lt;T&gt;.From&lt;TItem&gt;(Expression&lt;Func&lt;TItem, Object&gt;&gt;[])</a>
     </div>
     <div>
-      <a class="xref" href="Startitecture.Orm.SqlClient.TransactSqlMergeBase-1.html#Startitecture_Orm_SqlClient_TransactSqlMergeBase_1_On__1_System_Linq_Expressions_Expression_System_Func___0_System_Object___System_Linq_Expressions_Expression_System_Func__0_System_Object___">TransactSqlMergeBase&lt;T&gt;.On&lt;TItem&gt;(Expression&lt;Func&lt;TItem, Object&gt;&gt;, Expression&lt;Func&lt;T, Object&gt;&gt;)</a>
+      <a class="xref" href="Startitecture.Orm.SqlClient.TransactSqlInsertBase-1.html#Startitecture_Orm_SqlClient_TransactSqlInsertBase_1_SelectFromInserted_System_Linq_Expressions_Expression_System_Func__0_System_Object_____">TransactSqlInsertBase&lt;T&gt;.SelectFromInserted(Expression&lt;Func&lt;T, Object&gt;&gt;[])</a>
     </div>
     <div>
-      <a class="xref" href="Startitecture.Orm.SqlClient.TransactSqlMergeBase-1.html#Startitecture_Orm_SqlClient_TransactSqlMergeBase_1_DeleteUnmatchedInSource__1_System_Linq_Expressions_Expression_System_Func___0_System_Object_____">TransactSqlMergeBase&lt;T&gt;.DeleteUnmatchedInSource&lt;TItem&gt;(Expression&lt;Func&lt;TItem, Object&gt;&gt;[])</a>
-    </div>
-    <div>
-      <a class="xref" href="Startitecture.Orm.SqlClient.TransactSqlMergeBase-1.html#Startitecture_Orm_SqlClient_TransactSqlMergeBase_1_SelectFromInserted_System_Linq_Expressions_Expression_System_Func__0_System_Object_____">TransactSqlMergeBase&lt;T&gt;.SelectFromInserted(Expression&lt;Func&lt;T, Object&gt;&gt;[])</a>
-    </div>
-    <div>
-      <a class="xref" href="Startitecture.Orm.SqlClient.TransactSqlMergeBase-1.html#Startitecture_Orm_SqlClient_TransactSqlMergeBase_1_SelectFromSource__1_System_Action_Startitecture_Orm_Model_AttributeMatchSet__0___0___System_Linq_Expressions_Expression_System_Func___0_System_Object_____">TransactSqlMergeBase&lt;T&gt;.SelectFromSource&lt;TItem&gt;(Action&lt;AttributeMatchSet&lt;T, TItem&gt;&gt;, Expression&lt;Func&lt;TItem, Object&gt;&gt;[])</a>
+      <a class="xref" href="Startitecture.Orm.SqlClient.TransactSqlInsertBase-1.html#Startitecture_Orm_SqlClient_TransactSqlInsertBase_1_SelectFromSource__1_System_Action_Startitecture_Orm_Model_AttributeMatchSet__0___0___System_Linq_Expressions_Expression_System_Func___0_System_Object_____">TransactSqlInsertBase&lt;T&gt;.SelectFromSource&lt;TItem&gt;(Action&lt;AttributeMatchSet&lt;T, TItem&gt;&gt;, Expression&lt;Func&lt;TItem, Object&gt;&gt;[])</a>
     </div>
     <div>
       <a class="xref" href="Startitecture.Orm.Mapper.TableCommand-1.html#Startitecture_Orm_Mapper_TableCommand_1_ParameterName">TableCommand&lt;T&gt;.ParameterName</a>
@@ -169,9 +163,9 @@
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Startitecture.Orm.SqlClient.html">Startitecture.Orm.SqlClient</a></h6>
   <h6><strong>Assembly</strong>: Startitecture.Orm.SqlClient.dll</h6>
-  <h5 id="Startitecture_Orm_SqlClient_TableValuedMerge_1_syntax">Syntax</h5>
+  <h5 id="Startitecture_Orm_SqlClient_JsonInsert_1_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class TableValuedMerge&lt;T&gt; : TransactSqlMergeBase&lt;T&gt;, ITableCommand</code></pre>
+    <pre><code class="lang-csharp hljs">public class JsonInsert&lt;T&gt; : TransactSqlInsertBase&lt;T&gt;, ITableCommand</code></pre>
   </div>
   <h5 class="typeParameters">Type Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -184,7 +178,7 @@
     <tbody>
       <tr>
         <td><span class="parametername">T</span></td>
-        <td><p>The type of table to use as the source of the merge.</p>
+        <td><p>The type that represents the JSON data.</p>
 </td>
       </tr>
     </tbody>
@@ -193,16 +187,16 @@
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.SqlClient/TableValuedMerge.cs&amp;version=GBmaster&amp;line=38">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.SqlClient/JsonInsert.cs&amp;version=GBmaster&amp;line=36">View Source</a>
   </span>
-  <a id="Startitecture_Orm_SqlClient_TableValuedMerge_1__ctor_" data-uid="Startitecture.Orm.SqlClient.TableValuedMerge`1.#ctor*"></a>
-  <h4 id="Startitecture_Orm_SqlClient_TableValuedMerge_1__ctor_Startitecture_Orm_Common_IDbTableCommandFactory_Startitecture_Orm_Common_IDatabaseContext_" data-uid="Startitecture.Orm.SqlClient.TableValuedMerge`1.#ctor(Startitecture.Orm.Common.IDbTableCommandFactory,Startitecture.Orm.Common.IDatabaseContext)">TableValuedMerge(IDbTableCommandFactory, IDatabaseContext)</h4>
-  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="Startitecture.Orm.SqlClient.TableValuedMerge-1.html">TableValuedMerge&lt;T&gt;</a> class.</p>
+  <a id="Startitecture_Orm_SqlClient_JsonInsert_1__ctor_" data-uid="Startitecture.Orm.SqlClient.JsonInsert`1.#ctor*"></a>
+  <h4 id="Startitecture_Orm_SqlClient_JsonInsert_1__ctor_Startitecture_Orm_Common_IDbTableCommandFactory_Startitecture_Orm_Common_IDatabaseContext_" data-uid="Startitecture.Orm.SqlClient.JsonInsert`1.#ctor(Startitecture.Orm.Common.IDbTableCommandFactory,Startitecture.Orm.Common.IDatabaseContext)">JsonInsert(IDbTableCommandFactory, IDatabaseContext)</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="Startitecture.Orm.SqlClient.JsonInsert-1.html">JsonInsert&lt;T&gt;</a> class.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public TableValuedMerge([NotNull] IDbTableCommandFactory tableCommandFactory, IDatabaseContext databaseContext)</code></pre>
+    <pre><code class="lang-csharp hljs">public JsonInsert([NotNull] IDbTableCommandFactory tableCommandFactory, IDatabaseContext databaseContext)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -217,7 +211,7 @@
       <tr>
         <td><a class="xref" href="Startitecture.Orm.Common.IDbTableCommandFactory.html">IDbTableCommandFactory</a></td>
         <td><span class="parametername">tableCommandFactory</span></td>
-        <td><p>The table command provider.</p>
+        <td><p>The table command factory.</p>
 </td>
       </tr>
       <tr>
@@ -232,16 +226,16 @@
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.SqlClient/TableValuedMerge.cs&amp;version=GBmaster&amp;line=51">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.SqlClient/JsonInsert.cs&amp;version=GBmaster&amp;line=72">View Source</a>
   </span>
-  <a id="Startitecture_Orm_SqlClient_TableValuedMerge_1_DeclareInsertedTable_" data-uid="Startitecture.Orm.SqlClient.TableValuedMerge`1.DeclareInsertedTable*"></a>
-  <h4 id="Startitecture_Orm_SqlClient_TableValuedMerge_1_DeclareInsertedTable_System_Collections_Generic_IEnumerable_Startitecture_Orm_Model_EntityAttributeDefinition__" data-uid="Startitecture.Orm.SqlClient.TableValuedMerge`1.DeclareInsertedTable(System.Collections.Generic.IEnumerable{Startitecture.Orm.Model.EntityAttributeDefinition})">DeclareInsertedTable(IEnumerable&lt;EntityAttributeDefinition&gt;)</h4>
+  <a id="Startitecture_Orm_SqlClient_JsonInsert_1_DeclareInsertedTable_" data-uid="Startitecture.Orm.SqlClient.JsonInsert`1.DeclareInsertedTable*"></a>
+  <h4 id="Startitecture_Orm_SqlClient_JsonInsert_1_DeclareInsertedTable_System_Collections_Generic_IEnumerable_Startitecture_Orm_Model_EntityAttributeDefinition__" data-uid="Startitecture.Orm.SqlClient.JsonInsert`1.DeclareInsertedTable(System.Collections.Generic.IEnumerable{Startitecture.Orm.Model.EntityAttributeDefinition})">DeclareInsertedTable(IEnumerable&lt;EntityAttributeDefinition&gt;)</h4>
   <div class="markdown level1 summary"><p>Builds the table declaration statement. Called only if the caller indicates that inserted values should be selected.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override string DeclareInsertedTable(IEnumerable&lt;EntityAttributeDefinition&gt; insertedAttributes)</code></pre>
+    <pre><code class="lang-csharp hljs">protected override string DeclareInsertedTable([NotNull] IEnumerable&lt;EntityAttributeDefinition&gt; insertedAttributes)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -278,19 +272,19 @@
     </tbody>
   </table>
   <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">Startitecture.Orm.SqlClient.TransactSqlMergeBase&lt;T&gt;.DeclareInsertedTable(System.Collections.Generic.IEnumerable&lt;Startitecture.Orm.Model.EntityAttributeDefinition&gt;)</span></div>
+  <div><span class="xref">Startitecture.Orm.SqlClient.TransactSqlInsertBase&lt;T&gt;.DeclareInsertedTable(System.Collections.Generic.IEnumerable&lt;Startitecture.Orm.Model.EntityAttributeDefinition&gt;)</span></div>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.SqlClient/TableValuedMerge.cs&amp;version=GBmaster&amp;line=45">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.SqlClient/JsonInsert.cs&amp;version=GBmaster&amp;line=42">View Source</a>
   </span>
-  <a id="Startitecture_Orm_SqlClient_TableValuedMerge_1_DeclareSourceTable_" data-uid="Startitecture.Orm.SqlClient.TableValuedMerge`1.DeclareSourceTable*"></a>
-  <h4 id="Startitecture_Orm_SqlClient_TableValuedMerge_1_DeclareSourceTable_System_Collections_Generic_IEnumerable_Startitecture_Orm_Model_EntityAttributeDefinition__" data-uid="Startitecture.Orm.SqlClient.TableValuedMerge`1.DeclareSourceTable(System.Collections.Generic.IEnumerable{Startitecture.Orm.Model.EntityAttributeDefinition})">DeclareSourceTable(IEnumerable&lt;EntityAttributeDefinition&gt;)</h4>
+  <a id="Startitecture_Orm_SqlClient_JsonInsert_1_DeclareSourceTable_" data-uid="Startitecture.Orm.SqlClient.JsonInsert`1.DeclareSourceTable*"></a>
+  <h4 id="Startitecture_Orm_SqlClient_JsonInsert_1_DeclareSourceTable_System_Collections_Generic_IEnumerable_Startitecture_Orm_Model_EntityAttributeDefinition__" data-uid="Startitecture.Orm.SqlClient.JsonInsert`1.DeclareSourceTable(System.Collections.Generic.IEnumerable{Startitecture.Orm.Model.EntityAttributeDefinition})">DeclareSourceTable(IEnumerable&lt;EntityAttributeDefinition&gt;)</h4>
   <div class="markdown level1 summary"><p>Builds the source table declaration statement.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override string DeclareSourceTable(IEnumerable&lt;EntityAttributeDefinition&gt; sourceAttributes)</code></pre>
+    <pre><code class="lang-csharp hljs">protected override string DeclareSourceTable([NotNull] IEnumerable&lt;EntityAttributeDefinition&gt; sourceAttributes)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -327,19 +321,19 @@
     </tbody>
   </table>
   <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">Startitecture.Orm.SqlClient.TransactSqlMergeBase&lt;T&gt;.DeclareSourceTable(System.Collections.Generic.IEnumerable&lt;Startitecture.Orm.Model.EntityAttributeDefinition&gt;)</span></div>
+  <div><span class="xref">Startitecture.Orm.SqlClient.TransactSqlInsertBase&lt;T&gt;.DeclareSourceTable(System.Collections.Generic.IEnumerable&lt;Startitecture.Orm.Model.EntityAttributeDefinition&gt;)</span></div>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.SqlClient/TableValuedMerge.cs&amp;version=GBmaster&amp;line=65">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.SqlClient/JsonInsert.cs&amp;version=GBmaster&amp;line=86">View Source</a>
   </span>
-  <a id="Startitecture_Orm_SqlClient_TableValuedMerge_1_SourceSelection_" data-uid="Startitecture.Orm.SqlClient.TableValuedMerge`1.SourceSelection*"></a>
-  <h4 id="Startitecture_Orm_SqlClient_TableValuedMerge_1_SourceSelection_System_Collections_Generic_Dictionary_Startitecture_Orm_Model_EntityAttributeDefinition_Startitecture_Orm_Model_EntityAttributeDefinition__" data-uid="Startitecture.Orm.SqlClient.TableValuedMerge`1.SourceSelection(System.Collections.Generic.Dictionary{Startitecture.Orm.Model.EntityAttributeDefinition,Startitecture.Orm.Model.EntityAttributeDefinition})">SourceSelection(Dictionary&lt;EntityAttributeDefinition, EntityAttributeDefinition&gt;)</h4>
+  <a id="Startitecture_Orm_SqlClient_JsonInsert_1_SourceSelection_" data-uid="Startitecture.Orm.SqlClient.JsonInsert`1.SourceSelection*"></a>
+  <h4 id="Startitecture_Orm_SqlClient_JsonInsert_1_SourceSelection_System_Collections_Generic_IReadOnlyDictionary_Startitecture_Orm_Model_EntityAttributeDefinition_Startitecture_Orm_Model_EntityAttributeDefinition__" data-uid="Startitecture.Orm.SqlClient.JsonInsert`1.SourceSelection(System.Collections.Generic.IReadOnlyDictionary{Startitecture.Orm.Model.EntityAttributeDefinition,Startitecture.Orm.Model.EntityAttributeDefinition})">SourceSelection(IReadOnlyDictionary&lt;EntityAttributeDefinition, EntityAttributeDefinition&gt;)</h4>
   <div class="markdown level1 summary"><p>Builds the source selection statement.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override string SourceSelection(Dictionary&lt;EntityAttributeDefinition, EntityAttributeDefinition&gt; matchedAttributes)</code></pre>
+    <pre><code class="lang-csharp hljs">protected override string SourceSelection([NotNull] IReadOnlyDictionary&lt;EntityAttributeDefinition, EntityAttributeDefinition&gt; matchedAttributes)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -352,9 +346,9 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.Dictionary</span>&lt;<a class="xref" href="Startitecture.Orm.Model.EntityAttributeDefinition.html">EntityAttributeDefinition</a>, <a class="xref" href="Startitecture.Orm.Model.EntityAttributeDefinition.html">EntityAttributeDefinition</a>&gt;</td>
+        <td><span class="xref">System.Collections.Generic.IReadOnlyDictionary</span>&lt;<a class="xref" href="Startitecture.Orm.Model.EntityAttributeDefinition.html">EntityAttributeDefinition</a>, <a class="xref" href="Startitecture.Orm.Model.EntityAttributeDefinition.html">EntityAttributeDefinition</a>&gt;</td>
         <td><span class="parametername">matchedAttributes</span></td>
-        <td><p>A dictionary where the inserted attributes are the key and the source attributes are the value.</p>
+        <td><p>A dictionary where the target attributes are the key and the source attributes are the value.</p>
 </td>
       </tr>
     </tbody>
@@ -376,7 +370,56 @@
     </tbody>
   </table>
   <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">Startitecture.Orm.SqlClient.TransactSqlMergeBase&lt;T&gt;.SourceSelection(System.Collections.Generic.Dictionary&lt;Startitecture.Orm.Model.EntityAttributeDefinition, Startitecture.Orm.Model.EntityAttributeDefinition&gt;)</span></div>
+  <div><span class="xref">Startitecture.Orm.SqlClient.TransactSqlInsertBase&lt;T&gt;.SourceSelection(System.Collections.Generic.IReadOnlyDictionary&lt;Startitecture.Orm.Model.EntityAttributeDefinition, Startitecture.Orm.Model.EntityAttributeDefinition&gt;)</span></div>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.SqlClient/JsonInsert.cs&amp;version=GBmaster&amp;line=99">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_SqlClient_JsonInsert_1_SourceTableReference_" data-uid="Startitecture.Orm.SqlClient.JsonInsert`1.SourceTableReference*"></a>
+  <h4 id="Startitecture_Orm_SqlClient_JsonInsert_1_SourceTableReference_System_Collections_Generic_IEnumerable_Startitecture_Orm_Model_EntityAttributeDefinition__" data-uid="Startitecture.Orm.SqlClient.JsonInsert`1.SourceTableReference(System.Collections.Generic.IEnumerable{Startitecture.Orm.Model.EntityAttributeDefinition})">SourceTableReference(IEnumerable&lt;EntityAttributeDefinition&gt;)</h4>
+  <div class="markdown level1 summary"><p>Gets a reference to the source table.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override string SourceTableReference(IEnumerable&lt;EntityAttributeDefinition&gt; sourceAttributes)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Startitecture.Orm.Model.EntityAttributeDefinition.html">EntityAttributeDefinition</a>&gt;</td>
+        <td><span class="parametername">sourceAttributes</span></td>
+        <td><p>The attributes of the source table.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>A statement for referencing the source table.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">Startitecture.Orm.SqlClient.TransactSqlInsertBase&lt;T&gt;.SourceTableReference(System.Collections.Generic.IEnumerable&lt;Startitecture.Orm.Model.EntityAttributeDefinition&gt;)</span></div>
   <h3 id="implements">Implements</h3>
   <div>
       <a class="xref" href="Startitecture.Orm.Common.ITableCommand.html">ITableCommand</a>
@@ -389,7 +432,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.SqlClient/TableValuedMerge.cs&amp;version=GBmaster&amp;line=27" class="contribution-link">View Source</a>
+                    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.SqlClient/JsonInsert.cs&amp;version=GBmaster&amp;line=25" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

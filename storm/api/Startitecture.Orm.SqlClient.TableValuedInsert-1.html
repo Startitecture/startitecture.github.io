@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class TableValuedInsert&lt;T&gt;
    ">
-    <meta name="generator" content="docfx 2.56.3.0">
+    <meta name="generator" content="docfx 2.56.4.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -79,7 +79,8 @@
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
     <div class="level1"><a class="xref" href="Startitecture.Orm.Mapper.TableCommand-1.html">TableCommand</a>&lt;T&gt;</div>
-    <div class="level2"><span class="xref">TableValuedInsert&lt;T&gt;</span></div>
+    <div class="level2"><a class="xref" href="Startitecture.Orm.SqlClient.TransactSqlInsertBase-1.html">TransactSqlInsertBase</a>&lt;T&gt;</div>
+    <div class="level3"><span class="xref">TableValuedInsert&lt;T&gt;</span></div>
   </div>
   <div classs="implements">
     <h5>Implements</h5>
@@ -87,6 +88,21 @@
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Startitecture.Orm.SqlClient.TransactSqlInsertBase-1.html#Startitecture_Orm_SqlClient_TransactSqlInsertBase_1_CommandText">TransactSqlInsertBase&lt;T&gt;.CommandText</a>
+    </div>
+    <div>
+      <a class="xref" href="Startitecture.Orm.SqlClient.TransactSqlInsertBase-1.html#Startitecture_Orm_SqlClient_TransactSqlInsertBase_1_InsertInto_System_Linq_Expressions_Expression_System_Func__0_System_Object_____">TransactSqlInsertBase&lt;T&gt;.InsertInto(Expression&lt;Func&lt;T, Object&gt;&gt;[])</a>
+    </div>
+    <div>
+      <a class="xref" href="Startitecture.Orm.SqlClient.TransactSqlInsertBase-1.html#Startitecture_Orm_SqlClient_TransactSqlInsertBase_1_From__1_System_Linq_Expressions_Expression_System_Func___0_System_Object_____">TransactSqlInsertBase&lt;T&gt;.From&lt;TItem&gt;(Expression&lt;Func&lt;TItem, Object&gt;&gt;[])</a>
+    </div>
+    <div>
+      <a class="xref" href="Startitecture.Orm.SqlClient.TransactSqlInsertBase-1.html#Startitecture_Orm_SqlClient_TransactSqlInsertBase_1_SelectFromInserted_System_Linq_Expressions_Expression_System_Func__0_System_Object_____">TransactSqlInsertBase&lt;T&gt;.SelectFromInserted(Expression&lt;Func&lt;T, Object&gt;&gt;[])</a>
+    </div>
+    <div>
+      <a class="xref" href="Startitecture.Orm.SqlClient.TransactSqlInsertBase-1.html#Startitecture_Orm_SqlClient_TransactSqlInsertBase_1_SelectFromSource__1_System_Action_Startitecture_Orm_Model_AttributeMatchSet__0___0___System_Linq_Expressions_Expression_System_Func___0_System_Object_____">TransactSqlInsertBase&lt;T&gt;.SelectFromSource&lt;TItem&gt;(Action&lt;AttributeMatchSet&lt;T, TItem&gt;&gt;, Expression&lt;Func&lt;TItem, Object&gt;&gt;[])</a>
+    </div>
     <div>
       <a class="xref" href="Startitecture.Orm.Mapper.TableCommand-1.html#Startitecture_Orm_Mapper_TableCommand_1_ParameterName">TableCommand&lt;T&gt;.ParameterName</a>
     </div>
@@ -100,7 +116,10 @@
       <a class="xref" href="Startitecture.Orm.Mapper.TableCommand-1.html#Startitecture_Orm_Mapper_TableCommand_1_ItemDefinition">TableCommand&lt;T&gt;.ItemDefinition</a>
     </div>
     <div>
-      <a class="xref" href="Startitecture.Orm.Mapper.TableCommand-1.html#Startitecture_Orm_Mapper_TableCommand_1_ItemType">TableCommand&lt;T&gt;.ItemType</a>
+      <a class="xref" href="Startitecture.Orm.Mapper.TableCommand-1.html#Startitecture_Orm_Mapper_TableCommand_1_NameQualifier">TableCommand&lt;T&gt;.NameQualifier</a>
+    </div>
+    <div>
+      <a class="xref" href="Startitecture.Orm.Mapper.TableCommand-1.html#Startitecture_Orm_Mapper_TableCommand_1_FromColumnExpressions">TableCommand&lt;T&gt;.FromColumnExpressions</a>
     </div>
     <div>
       <a class="xref" href="Startitecture.Orm.Mapper.TableCommand-1.html#Startitecture_Orm_Mapper_TableCommand_1_Execute__1_System_Collections_Generic_IEnumerable___0__">TableCommand&lt;T&gt;.Execute&lt;TItem&gt;(IEnumerable&lt;TItem&gt;)</a>
@@ -113,6 +132,12 @@
     </div>
     <div>
       <a class="xref" href="Startitecture.Orm.Mapper.TableCommand-1.html#Startitecture_Orm_Mapper_TableCommand_1_ExecuteForResultsAsync__1_System_Collections_Generic_IEnumerable___0__">TableCommand&lt;T&gt;.ExecuteForResultsAsync&lt;TItem&gt;(IEnumerable&lt;TItem&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="Startitecture.Orm.Mapper.TableCommand-1.html#Startitecture_Orm_Mapper_TableCommand_1_GetMatchedAttributes_System_Collections_Generic_IEnumerable_Startitecture_Orm_Model_EntityAttributeDefinition__">TableCommand&lt;T&gt;.GetMatchedAttributes(IEnumerable&lt;EntityAttributeDefinition&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="Startitecture.Orm.Mapper.TableCommand-1.html#Startitecture_Orm_Mapper_TableCommand_1_GetInsertedAttributes_System_Collections_Generic_IEnumerable_Startitecture_Orm_Model_EntityAttributeDefinition__">TableCommand&lt;T&gt;.GetInsertedAttributes(IEnumerable&lt;EntityAttributeDefinition&gt;)</a>
     </div>
     <div>
       <span class="xref">System.Object.Equals(System.Object)</span>
@@ -140,7 +165,7 @@
   <h6><strong>Assembly</strong>: Startitecture.Orm.SqlClient.dll</h6>
   <h5 id="Startitecture_Orm_SqlClient_TableValuedInsert_1_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class TableValuedInsert&lt;T&gt; : TableCommand&lt;T&gt;, ITableCommand</code></pre>
+    <pre><code class="lang-csharp hljs">public class TableValuedInsert&lt;T&gt; : TransactSqlInsertBase&lt;T&gt;, ITableCommand</code></pre>
   </div>
   <h5 class="typeParameters">Type Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -162,7 +187,7 @@
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.SqlClient/TableValuedInsert.cs&amp;version=GBmaster&amp;line=68">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.SqlClient/TableValuedInsert.cs&amp;version=GBmaster&amp;line=39">View Source</a>
   </span>
   <a id="Startitecture_Orm_SqlClient_TableValuedInsert_1__ctor_" data-uid="Startitecture.Orm.SqlClient.TableValuedInsert`1.#ctor*"></a>
   <h4 id="Startitecture_Orm_SqlClient_TableValuedInsert_1__ctor_Startitecture_Orm_Common_IDbTableCommandFactory_Startitecture_Orm_Common_IDatabaseContext_" data-uid="Startitecture.Orm.SqlClient.TableValuedInsert`1.#ctor(Startitecture.Orm.Common.IDbTableCommandFactory,Startitecture.Orm.Common.IDatabaseContext)">TableValuedInsert(IDbTableCommandFactory, IDatabaseContext)</h4>
@@ -197,22 +222,40 @@
       </tr>
     </tbody>
   </table>
-  <h3 id="properties">Properties
+  <h3 id="methods">Methods
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.SqlClient/TableValuedInsert.cs&amp;version=GBmaster&amp;line=76">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.SqlClient/TableValuedInsert.cs&amp;version=GBmaster&amp;line=51">View Source</a>
   </span>
-  <a id="Startitecture_Orm_SqlClient_TableValuedInsert_1_CommandText_" data-uid="Startitecture.Orm.SqlClient.TableValuedInsert`1.CommandText*"></a>
-  <h4 id="Startitecture_Orm_SqlClient_TableValuedInsert_1_CommandText" data-uid="Startitecture.Orm.SqlClient.TableValuedInsert`1.CommandText">CommandText</h4>
-  <div class="markdown level1 summary"><p>Gets the command text to execute.</p>
+  <a id="Startitecture_Orm_SqlClient_TableValuedInsert_1_DeclareInsertedTable_" data-uid="Startitecture.Orm.SqlClient.TableValuedInsert`1.DeclareInsertedTable*"></a>
+  <h4 id="Startitecture_Orm_SqlClient_TableValuedInsert_1_DeclareInsertedTable_System_Collections_Generic_IEnumerable_Startitecture_Orm_Model_EntityAttributeDefinition__" data-uid="Startitecture.Orm.SqlClient.TableValuedInsert`1.DeclareInsertedTable(System.Collections.Generic.IEnumerable{Startitecture.Orm.Model.EntityAttributeDefinition})">DeclareInsertedTable(IEnumerable&lt;EntityAttributeDefinition&gt;)</h4>
+  <div class="markdown level1 summary"><p>Builds the table declaration statement. Called only if the caller indicates that inserted values should be selected.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override string CommandText { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">protected override string DeclareInsertedTable([NotNull] IEnumerable&lt;EntityAttributeDefinition&gt; insertedAttributes)</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Startitecture.Orm.Model.EntityAttributeDefinition.html">EntityAttributeDefinition</a>&gt;</td>
+        <td><span class="parametername">insertedAttributes</span></td>
+        <td><p>A dictionary where the inserted attributes are the key and the source attributes are the value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -223,26 +266,25 @@
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td></td>
+        <td><p>A statement for declaring the inserted table.</p>
+</td>
       </tr>
     </tbody>
   </table>
   <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">Startitecture.Orm.Mapper.TableCommand&lt;T&gt;.CommandText</span></div>
-  <h3 id="methods">Methods
-  </h3>
+  <div><span class="xref">Startitecture.Orm.SqlClient.TransactSqlInsertBase&lt;T&gt;.DeclareInsertedTable(System.Collections.Generic.IEnumerable&lt;Startitecture.Orm.Model.EntityAttributeDefinition&gt;)</span></div>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.SqlClient/TableValuedInsert.cs&amp;version=GBmaster&amp;line=114">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.SqlClient/TableValuedInsert.cs&amp;version=GBmaster&amp;line=45">View Source</a>
   </span>
-  <a id="Startitecture_Orm_SqlClient_TableValuedInsert_1_From_" data-uid="Startitecture.Orm.SqlClient.TableValuedInsert`1.From*"></a>
-  <h4 id="Startitecture_Orm_SqlClient_TableValuedInsert_1_From__1_System_Linq_Expressions_Expression_System_Func___0_System_Object_____" data-uid="Startitecture.Orm.SqlClient.TableValuedInsert`1.From``1(System.Linq.Expressions.Expression{System.Func{``0,System.Object}}[])">From&lt;TItem&gt;(Expression&lt;Func&lt;TItem, Object&gt;&gt;[])</h4>
-  <div class="markdown level1 summary"><p>Specifies the columns to select into the table.</p>
+  <a id="Startitecture_Orm_SqlClient_TableValuedInsert_1_DeclareSourceTable_" data-uid="Startitecture.Orm.SqlClient.TableValuedInsert`1.DeclareSourceTable*"></a>
+  <h4 id="Startitecture_Orm_SqlClient_TableValuedInsert_1_DeclareSourceTable_System_Collections_Generic_IEnumerable_Startitecture_Orm_Model_EntityAttributeDefinition__" data-uid="Startitecture.Orm.SqlClient.TableValuedInsert`1.DeclareSourceTable(System.Collections.Generic.IEnumerable{Startitecture.Orm.Model.EntityAttributeDefinition})">DeclareSourceTable(IEnumerable&lt;EntityAttributeDefinition&gt;)</h4>
+  <div class="markdown level1 summary"><p>Builds the source table declaration statement.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public TableValuedInsert&lt;T&gt; From&lt;TItem&gt;([NotNull] params Expression&lt;Func&lt;TItem, object&gt;&gt;[] fromColumns)</code></pre>
+    <pre><code class="lang-csharp hljs">protected override string DeclareSourceTable(IEnumerable&lt;EntityAttributeDefinition&gt; sourceAttributes)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -255,9 +297,9 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Linq.Expressions.Expression</span>&lt;<span class="xref">System.Func</span>&lt;TItem, <span class="xref">System.Object</span>&gt;&gt;[]</td>
-        <td><span class="parametername">fromColumns</span></td>
-        <td><p>The columns to select into the table. These must be the same number of columns as target columns..</p>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Startitecture.Orm.Model.EntityAttributeDefinition.html">EntityAttributeDefinition</a>&gt;</td>
+        <td><span class="parametername">sourceAttributes</span></td>
+        <td><p>The attributes of the source table.</p>
 </td>
       </tr>
     </tbody>
@@ -272,56 +314,26 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Startitecture.Orm.SqlClient.TableValuedInsert-1.html">TableValuedInsert</a>&lt;T&gt;</td>
-        <td><p>The current <a class="xref" href="Startitecture.Orm.SqlClient.TableValuedInsert-1.html">TableValuedInsert&lt;T&gt;</a>.</p>
+        <td><span class="xref">System.String</span></td>
+        <td><p>A statement for declaring the source table.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">TItem</span></td>
-        <td><p>The type of items that will be inserted into the table.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="exceptions">Exceptions</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Condition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.ArgumentNullException</span></td>
-        <td><p><code data-dev-comment-type="paramref" class="paramref">fromColumns</code> is null.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">Startitecture.Orm.SqlClient.TransactSqlInsertBase&lt;T&gt;.DeclareSourceTable(System.Collections.Generic.IEnumerable&lt;Startitecture.Orm.Model.EntityAttributeDefinition&gt;)</span></div>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.SqlClient/TableValuedInsert.cs&amp;version=GBmaster&amp;line=87">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.SqlClient/TableValuedInsert.cs&amp;version=GBmaster&amp;line=65">View Source</a>
   </span>
-  <a id="Startitecture_Orm_SqlClient_TableValuedInsert_1_InsertInto_" data-uid="Startitecture.Orm.SqlClient.TableValuedInsert`1.InsertInto*"></a>
-  <h4 id="Startitecture_Orm_SqlClient_TableValuedInsert_1_InsertInto_System_Linq_Expressions_Expression_System_Func__0_System_Object_____" data-uid="Startitecture.Orm.SqlClient.TableValuedInsert`1.InsertInto(System.Linq.Expressions.Expression{System.Func{`0,System.Object}}[])">InsertInto(Expression&lt;Func&lt;T, Object&gt;&gt;[])</h4>
-  <div class="markdown level1 summary"><p>Declares the table to insert into.</p>
+  <a id="Startitecture_Orm_SqlClient_TableValuedInsert_1_SourceSelection_" data-uid="Startitecture.Orm.SqlClient.TableValuedInsert`1.SourceSelection*"></a>
+  <h4 id="Startitecture_Orm_SqlClient_TableValuedInsert_1_SourceSelection_System_Collections_Generic_IReadOnlyDictionary_Startitecture_Orm_Model_EntityAttributeDefinition_Startitecture_Orm_Model_EntityAttributeDefinition__" data-uid="Startitecture.Orm.SqlClient.TableValuedInsert`1.SourceSelection(System.Collections.Generic.IReadOnlyDictionary{Startitecture.Orm.Model.EntityAttributeDefinition,Startitecture.Orm.Model.EntityAttributeDefinition})">SourceSelection(IReadOnlyDictionary&lt;EntityAttributeDefinition, EntityAttributeDefinition&gt;)</h4>
+  <div class="markdown level1 summary"><p>Builds the source selection statement.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public TableValuedInsert&lt;T&gt; InsertInto([NotNull] params Expression&lt;Func&lt;T, object&gt;&gt;[] targetColumns)</code></pre>
+    <pre><code class="lang-csharp hljs">protected override string SourceSelection([NotNull] IReadOnlyDictionary&lt;EntityAttributeDefinition, EntityAttributeDefinition&gt; matchedAttributes)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -334,9 +346,9 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Linq.Expressions.Expression</span>&lt;<span class="xref">System.Func</span>&lt;T, <span class="xref">System.Object</span>&gt;&gt;[]</td>
-        <td><span class="parametername">targetColumns</span></td>
-        <td><p>The target columns of the insert table.</p>
+        <td><span class="xref">System.Collections.Generic.IReadOnlyDictionary</span>&lt;<a class="xref" href="Startitecture.Orm.Model.EntityAttributeDefinition.html">EntityAttributeDefinition</a>, <a class="xref" href="Startitecture.Orm.Model.EntityAttributeDefinition.html">EntityAttributeDefinition</a>&gt;</td>
+        <td><span class="parametername">matchedAttributes</span></td>
+        <td><p>A dictionary where the target attributes are the key and the source attributes are the value.</p>
 </td>
       </tr>
     </tbody>
@@ -351,24 +363,26 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Startitecture.Orm.SqlClient.TableValuedInsert-1.html">TableValuedInsert</a>&lt;T&gt;</td>
-        <td><p>The current <a class="xref" href="Startitecture.Orm.SqlClient.TableValuedInsert-1.html">TableValuedInsert&lt;T&gt;</a>.</p>
+        <td><span class="xref">System.String</span></td>
+        <td><p>A statement for building the source selection.</p>
 </td>
       </tr>
     </tbody>
   </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">Startitecture.Orm.SqlClient.TransactSqlInsertBase&lt;T&gt;.SourceSelection(System.Collections.Generic.IReadOnlyDictionary&lt;Startitecture.Orm.Model.EntityAttributeDefinition, Startitecture.Orm.Model.EntityAttributeDefinition&gt;)</span></div>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.SqlClient/TableValuedInsert.cs&amp;version=GBmaster&amp;line=135">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.SqlClient/TableValuedInsert.cs&amp;version=GBmaster&amp;line=78">View Source</a>
   </span>
-  <a id="Startitecture_Orm_SqlClient_TableValuedInsert_1_SelectResults_" data-uid="Startitecture.Orm.SqlClient.TableValuedInsert`1.SelectResults*"></a>
-  <h4 id="Startitecture_Orm_SqlClient_TableValuedInsert_1_SelectResults_System_Linq_Expressions_Expression_System_Func__0_System_Object_____" data-uid="Startitecture.Orm.SqlClient.TableValuedInsert`1.SelectResults(System.Linq.Expressions.Expression{System.Func{`0,System.Object}}[])">SelectResults(Expression&lt;Func&lt;T, Object&gt;&gt;[])</h4>
-  <div class="markdown level1 summary"><p>Select the results of the insert, using the specified match keys to link the inserted values with the original values.</p>
+  <a id="Startitecture_Orm_SqlClient_TableValuedInsert_1_SourceTableReference_" data-uid="Startitecture.Orm.SqlClient.TableValuedInsert`1.SourceTableReference*"></a>
+  <h4 id="Startitecture_Orm_SqlClient_TableValuedInsert_1_SourceTableReference_System_Collections_Generic_IEnumerable_Startitecture_Orm_Model_EntityAttributeDefinition__" data-uid="Startitecture.Orm.SqlClient.TableValuedInsert`1.SourceTableReference(System.Collections.Generic.IEnumerable{Startitecture.Orm.Model.EntityAttributeDefinition})">SourceTableReference(IEnumerable&lt;EntityAttributeDefinition&gt;)</h4>
+  <div class="markdown level1 summary"><p>Gets a reference to the source table.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public TableValuedInsert&lt;T&gt; SelectResults([NotNull] params Expression&lt;Func&lt;T, object&gt;&gt;[] matchProperties)</code></pre>
+    <pre><code class="lang-csharp hljs">protected override string SourceTableReference(IEnumerable&lt;EntityAttributeDefinition&gt; sourceAttributes)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -381,9 +395,9 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Linq.Expressions.Expression</span>&lt;<span class="xref">System.Func</span>&lt;T, <span class="xref">System.Object</span>&gt;&gt;[]</td>
-        <td><span class="parametername">matchProperties</span></td>
-        <td><p>The match properties.</p>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Startitecture.Orm.Model.EntityAttributeDefinition.html">EntityAttributeDefinition</a>&gt;</td>
+        <td><span class="parametername">sourceAttributes</span></td>
+        <td><p>The attributes of the source table.</p>
 </td>
       </tr>
     </tbody>
@@ -398,12 +412,14 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Startitecture.Orm.SqlClient.TableValuedInsert-1.html">TableValuedInsert</a>&lt;T&gt;</td>
-        <td><p>The current <a class="xref" href="Startitecture.Orm.SqlClient.TableValuedInsert-1.html">TableValuedInsert&lt;T&gt;</a>.</p>
+        <td><span class="xref">System.String</span></td>
+        <td><p>A statement for referencing the source table.</p>
 </td>
       </tr>
     </tbody>
   </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">Startitecture.Orm.SqlClient.TransactSqlInsertBase&lt;T&gt;.SourceTableReference(System.Collections.Generic.IEnumerable&lt;Startitecture.Orm.Model.EntityAttributeDefinition&gt;)</span></div>
   <h3 id="implements">Implements</h3>
   <div>
       <a class="xref" href="Startitecture.Orm.Common.ITableCommand.html">ITableCommand</a>
@@ -416,7 +432,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.SqlClient/TableValuedInsert.cs&amp;version=GBmaster&amp;line=32" class="contribution-link">View Source</a>
+                    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.SqlClient/TableValuedInsert.cs&amp;version=GBmaster&amp;line=28" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
