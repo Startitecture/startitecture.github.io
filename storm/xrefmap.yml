@@ -8787,6 +8787,87 @@ references:
   commentId: F:Startitecture.Orm.PostgreSql.InsertConflictAction.Update
   fullName: Startitecture.Orm.PostgreSql.InsertConflictAction.Update
   nameWithType: InsertConflictAction.Update
+- uid: Startitecture.Orm.PostgreSql.IPostgreSqlRepository`2
+  name: IPostgreSqlRepository<TModel, TEntity>
+  href: api/Startitecture.Orm.PostgreSql.IPostgreSqlRepository-2.html
+  commentId: T:Startitecture.Orm.PostgreSql.IPostgreSqlRepository`2
+  name.vb: IPostgreSqlRepository(Of TModel, TEntity)
+  fullName: Startitecture.Orm.PostgreSql.IPostgreSqlRepository<TModel, TEntity>
+  fullName.vb: Startitecture.Orm.PostgreSql.IPostgreSqlRepository(Of TModel, TEntity)
+  nameWithType: IPostgreSqlRepository<TModel, TEntity>
+  nameWithType.vb: IPostgreSqlRepository(Of TModel, TEntity)
+- uid: Startitecture.Orm.PostgreSql.IPostgreSqlRepository`2.Insert*
+  name: Insert
+  href: api/Startitecture.Orm.PostgreSql.IPostgreSqlRepository-2.html#Startitecture_Orm_PostgreSql_IPostgreSqlRepository_2_Insert_
+  commentId: Overload:Startitecture.Orm.PostgreSql.IPostgreSqlRepository`2.Insert
+  isSpec: "True"
+  fullName: Startitecture.Orm.PostgreSql.IPostgreSqlRepository<TModel, TEntity>.Insert
+  fullName.vb: Startitecture.Orm.PostgreSql.IPostgreSqlRepository(Of TModel, TEntity).Insert
+  nameWithType: IPostgreSqlRepository<TModel, TEntity>.Insert
+  nameWithType.vb: IPostgreSqlRepository(Of TModel, TEntity).Insert
+- uid: Startitecture.Orm.PostgreSql.IPostgreSqlRepository`2.Insert``1(System.Collections.Generic.IEnumerable{``0},System.Action{Startitecture.Orm.PostgreSql.JsonInsert{`1}})
+  name: Insert<TItem>(IEnumerable<TItem>, Action<JsonInsert<TEntity>>)
+  href: api/Startitecture.Orm.PostgreSql.IPostgreSqlRepository-2.html#Startitecture_Orm_PostgreSql_IPostgreSqlRepository_2_Insert__1_System_Collections_Generic_IEnumerable___0__System_Action_Startitecture_Orm_PostgreSql_JsonInsert__1___
+  commentId: M:Startitecture.Orm.PostgreSql.IPostgreSqlRepository`2.Insert``1(System.Collections.Generic.IEnumerable{``0},System.Action{Startitecture.Orm.PostgreSql.JsonInsert{`1}})
+  name.vb: Insert(Of TItem)(IEnumerable(Of TItem), Action(Of JsonInsert(Of TEntity)))
+  fullName: Startitecture.Orm.PostgreSql.IPostgreSqlRepository<TModel, TEntity>.Insert<TItem>(System.Collections.Generic.IEnumerable<TItem>, System.Action<Startitecture.Orm.PostgreSql.JsonInsert<TEntity>>)
+  fullName.vb: Startitecture.Orm.PostgreSql.IPostgreSqlRepository(Of TModel, TEntity).Insert(Of TItem)(System.Collections.Generic.IEnumerable(Of TItem), System.Action(Of Startitecture.Orm.PostgreSql.JsonInsert(Of TEntity)))
+  nameWithType: IPostgreSqlRepository<TModel, TEntity>.Insert<TItem>(IEnumerable<TItem>, Action<JsonInsert<TEntity>>)
+  nameWithType.vb: IPostgreSqlRepository(Of TModel, TEntity).Insert(Of TItem)(IEnumerable(Of TItem), Action(Of JsonInsert(Of TEntity)))
+- uid: Startitecture.Orm.PostgreSql.IPostgreSqlRepository`2.InsertAsync*
+  name: InsertAsync
+  href: api/Startitecture.Orm.PostgreSql.IPostgreSqlRepository-2.html#Startitecture_Orm_PostgreSql_IPostgreSqlRepository_2_InsertAsync_
+  commentId: Overload:Startitecture.Orm.PostgreSql.IPostgreSqlRepository`2.InsertAsync
+  isSpec: "True"
+  fullName: Startitecture.Orm.PostgreSql.IPostgreSqlRepository<TModel, TEntity>.InsertAsync
+  fullName.vb: Startitecture.Orm.PostgreSql.IPostgreSqlRepository(Of TModel, TEntity).InsertAsync
+  nameWithType: IPostgreSqlRepository<TModel, TEntity>.InsertAsync
+  nameWithType.vb: IPostgreSqlRepository(Of TModel, TEntity).InsertAsync
+- uid: Startitecture.Orm.PostgreSql.IPostgreSqlRepository`2.InsertAsync``1(System.Collections.Generic.IEnumerable{``0},System.Action{Startitecture.Orm.PostgreSql.JsonInsert{`1}})
+  name: InsertAsync<TItem>(IEnumerable<TItem>, Action<JsonInsert<TEntity>>)
+  href: api/Startitecture.Orm.PostgreSql.IPostgreSqlRepository-2.html#Startitecture_Orm_PostgreSql_IPostgreSqlRepository_2_InsertAsync__1_System_Collections_Generic_IEnumerable___0__System_Action_Startitecture_Orm_PostgreSql_JsonInsert__1___
+  commentId: M:Startitecture.Orm.PostgreSql.IPostgreSqlRepository`2.InsertAsync``1(System.Collections.Generic.IEnumerable{``0},System.Action{Startitecture.Orm.PostgreSql.JsonInsert{`1}})
+  name.vb: InsertAsync(Of TItem)(IEnumerable(Of TItem), Action(Of JsonInsert(Of TEntity)))
+  fullName: Startitecture.Orm.PostgreSql.IPostgreSqlRepository<TModel, TEntity>.InsertAsync<TItem>(System.Collections.Generic.IEnumerable<TItem>, System.Action<Startitecture.Orm.PostgreSql.JsonInsert<TEntity>>)
+  fullName.vb: Startitecture.Orm.PostgreSql.IPostgreSqlRepository(Of TModel, TEntity).InsertAsync(Of TItem)(System.Collections.Generic.IEnumerable(Of TItem), System.Action(Of Startitecture.Orm.PostgreSql.JsonInsert(Of TEntity)))
+  nameWithType: IPostgreSqlRepository<TModel, TEntity>.InsertAsync<TItem>(IEnumerable<TItem>, Action<JsonInsert<TEntity>>)
+  nameWithType.vb: IPostgreSqlRepository(Of TModel, TEntity).InsertAsync(Of TItem)(IEnumerable(Of TItem), Action(Of JsonInsert(Of TEntity)))
+- uid: Startitecture.Orm.PostgreSql.IPostgreSqlRepository`2.InsertForResults*
+  name: InsertForResults
+  href: api/Startitecture.Orm.PostgreSql.IPostgreSqlRepository-2.html#Startitecture_Orm_PostgreSql_IPostgreSqlRepository_2_InsertForResults_
+  commentId: Overload:Startitecture.Orm.PostgreSql.IPostgreSqlRepository`2.InsertForResults
+  isSpec: "True"
+  fullName: Startitecture.Orm.PostgreSql.IPostgreSqlRepository<TModel, TEntity>.InsertForResults
+  fullName.vb: Startitecture.Orm.PostgreSql.IPostgreSqlRepository(Of TModel, TEntity).InsertForResults
+  nameWithType: IPostgreSqlRepository<TModel, TEntity>.InsertForResults
+  nameWithType.vb: IPostgreSqlRepository(Of TModel, TEntity).InsertForResults
+- uid: Startitecture.Orm.PostgreSql.IPostgreSqlRepository`2.InsertForResults``1(System.Collections.Generic.IEnumerable{``0},System.Action{Startitecture.Orm.PostgreSql.JsonInsert{`1}})
+  name: InsertForResults<TItem>(IEnumerable<TItem>, Action<JsonInsert<TEntity>>)
+  href: api/Startitecture.Orm.PostgreSql.IPostgreSqlRepository-2.html#Startitecture_Orm_PostgreSql_IPostgreSqlRepository_2_InsertForResults__1_System_Collections_Generic_IEnumerable___0__System_Action_Startitecture_Orm_PostgreSql_JsonInsert__1___
+  commentId: M:Startitecture.Orm.PostgreSql.IPostgreSqlRepository`2.InsertForResults``1(System.Collections.Generic.IEnumerable{``0},System.Action{Startitecture.Orm.PostgreSql.JsonInsert{`1}})
+  name.vb: InsertForResults(Of TItem)(IEnumerable(Of TItem), Action(Of JsonInsert(Of TEntity)))
+  fullName: Startitecture.Orm.PostgreSql.IPostgreSqlRepository<TModel, TEntity>.InsertForResults<TItem>(System.Collections.Generic.IEnumerable<TItem>, System.Action<Startitecture.Orm.PostgreSql.JsonInsert<TEntity>>)
+  fullName.vb: Startitecture.Orm.PostgreSql.IPostgreSqlRepository(Of TModel, TEntity).InsertForResults(Of TItem)(System.Collections.Generic.IEnumerable(Of TItem), System.Action(Of Startitecture.Orm.PostgreSql.JsonInsert(Of TEntity)))
+  nameWithType: IPostgreSqlRepository<TModel, TEntity>.InsertForResults<TItem>(IEnumerable<TItem>, Action<JsonInsert<TEntity>>)
+  nameWithType.vb: IPostgreSqlRepository(Of TModel, TEntity).InsertForResults(Of TItem)(IEnumerable(Of TItem), Action(Of JsonInsert(Of TEntity)))
+- uid: Startitecture.Orm.PostgreSql.IPostgreSqlRepository`2.InsertForResultsAsync*
+  name: InsertForResultsAsync
+  href: api/Startitecture.Orm.PostgreSql.IPostgreSqlRepository-2.html#Startitecture_Orm_PostgreSql_IPostgreSqlRepository_2_InsertForResultsAsync_
+  commentId: Overload:Startitecture.Orm.PostgreSql.IPostgreSqlRepository`2.InsertForResultsAsync
+  isSpec: "True"
+  fullName: Startitecture.Orm.PostgreSql.IPostgreSqlRepository<TModel, TEntity>.InsertForResultsAsync
+  fullName.vb: Startitecture.Orm.PostgreSql.IPostgreSqlRepository(Of TModel, TEntity).InsertForResultsAsync
+  nameWithType: IPostgreSqlRepository<TModel, TEntity>.InsertForResultsAsync
+  nameWithType.vb: IPostgreSqlRepository(Of TModel, TEntity).InsertForResultsAsync
+- uid: Startitecture.Orm.PostgreSql.IPostgreSqlRepository`2.InsertForResultsAsync``1(System.Collections.Generic.IEnumerable{``0},System.Action{Startitecture.Orm.PostgreSql.JsonInsert{`1}})
+  name: InsertForResultsAsync<TItem>(IEnumerable<TItem>, Action<JsonInsert<TEntity>>)
+  href: api/Startitecture.Orm.PostgreSql.IPostgreSqlRepository-2.html#Startitecture_Orm_PostgreSql_IPostgreSqlRepository_2_InsertForResultsAsync__1_System_Collections_Generic_IEnumerable___0__System_Action_Startitecture_Orm_PostgreSql_JsonInsert__1___
+  commentId: M:Startitecture.Orm.PostgreSql.IPostgreSqlRepository`2.InsertForResultsAsync``1(System.Collections.Generic.IEnumerable{``0},System.Action{Startitecture.Orm.PostgreSql.JsonInsert{`1}})
+  name.vb: InsertForResultsAsync(Of TItem)(IEnumerable(Of TItem), Action(Of JsonInsert(Of TEntity)))
+  fullName: Startitecture.Orm.PostgreSql.IPostgreSqlRepository<TModel, TEntity>.InsertForResultsAsync<TItem>(System.Collections.Generic.IEnumerable<TItem>, System.Action<Startitecture.Orm.PostgreSql.JsonInsert<TEntity>>)
+  fullName.vb: Startitecture.Orm.PostgreSql.IPostgreSqlRepository(Of TModel, TEntity).InsertForResultsAsync(Of TItem)(System.Collections.Generic.IEnumerable(Of TItem), System.Action(Of Startitecture.Orm.PostgreSql.JsonInsert(Of TEntity)))
+  nameWithType: IPostgreSqlRepository<TModel, TEntity>.InsertForResultsAsync<TItem>(IEnumerable<TItem>, Action<JsonInsert<TEntity>>)
+  nameWithType.vb: IPostgreSqlRepository(Of TModel, TEntity).InsertForResultsAsync(Of TItem)(IEnumerable(Of TItem), Action(Of JsonInsert(Of TEntity)))
 - uid: Startitecture.Orm.PostgreSql.JsonCommandFactory
   name: JsonCommandFactory
   href: api/Startitecture.Orm.PostgreSql.JsonCommandFactory.html
@@ -10053,6 +10134,159 @@ references:
   fullName.vb: Startitecture.Orm.SqlClient.DataTableLoader(Of T).Load
   nameWithType: DataTableLoader<T>.Load
   nameWithType.vb: DataTableLoader(Of T).Load
+- uid: Startitecture.Orm.SqlClient.ISqlClientRepository`2
+  name: ISqlClientRepository<TModel, TEntity>
+  href: api/Startitecture.Orm.SqlClient.ISqlClientRepository-2.html
+  commentId: T:Startitecture.Orm.SqlClient.ISqlClientRepository`2
+  name.vb: ISqlClientRepository(Of TModel, TEntity)
+  fullName: Startitecture.Orm.SqlClient.ISqlClientRepository<TModel, TEntity>
+  fullName.vb: Startitecture.Orm.SqlClient.ISqlClientRepository(Of TModel, TEntity)
+  nameWithType: ISqlClientRepository<TModel, TEntity>
+  nameWithType.vb: ISqlClientRepository(Of TModel, TEntity)
+- uid: Startitecture.Orm.SqlClient.ISqlClientRepository`2.Insert*
+  name: Insert
+  href: api/Startitecture.Orm.SqlClient.ISqlClientRepository-2.html#Startitecture_Orm_SqlClient_ISqlClientRepository_2_Insert_
+  commentId: Overload:Startitecture.Orm.SqlClient.ISqlClientRepository`2.Insert
+  isSpec: "True"
+  fullName: Startitecture.Orm.SqlClient.ISqlClientRepository<TModel, TEntity>.Insert
+  fullName.vb: Startitecture.Orm.SqlClient.ISqlClientRepository(Of TModel, TEntity).Insert
+  nameWithType: ISqlClientRepository<TModel, TEntity>.Insert
+  nameWithType.vb: ISqlClientRepository(Of TModel, TEntity).Insert
+- uid: Startitecture.Orm.SqlClient.ISqlClientRepository`2.Insert``1(System.Collections.Generic.IEnumerable{``0},System.Action{Startitecture.Orm.SqlClient.TransactSqlInsertBase{`1}})
+  name: Insert<TItem>(IEnumerable<TItem>, Action<TransactSqlInsertBase<TEntity>>)
+  href: api/Startitecture.Orm.SqlClient.ISqlClientRepository-2.html#Startitecture_Orm_SqlClient_ISqlClientRepository_2_Insert__1_System_Collections_Generic_IEnumerable___0__System_Action_Startitecture_Orm_SqlClient_TransactSqlInsertBase__1___
+  commentId: M:Startitecture.Orm.SqlClient.ISqlClientRepository`2.Insert``1(System.Collections.Generic.IEnumerable{``0},System.Action{Startitecture.Orm.SqlClient.TransactSqlInsertBase{`1}})
+  name.vb: Insert(Of TItem)(IEnumerable(Of TItem), Action(Of TransactSqlInsertBase(Of TEntity)))
+  fullName: Startitecture.Orm.SqlClient.ISqlClientRepository<TModel, TEntity>.Insert<TItem>(System.Collections.Generic.IEnumerable<TItem>, System.Action<Startitecture.Orm.SqlClient.TransactSqlInsertBase<TEntity>>)
+  fullName.vb: Startitecture.Orm.SqlClient.ISqlClientRepository(Of TModel, TEntity).Insert(Of TItem)(System.Collections.Generic.IEnumerable(Of TItem), System.Action(Of Startitecture.Orm.SqlClient.TransactSqlInsertBase(Of TEntity)))
+  nameWithType: ISqlClientRepository<TModel, TEntity>.Insert<TItem>(IEnumerable<TItem>, Action<TransactSqlInsertBase<TEntity>>)
+  nameWithType.vb: ISqlClientRepository(Of TModel, TEntity).Insert(Of TItem)(IEnumerable(Of TItem), Action(Of TransactSqlInsertBase(Of TEntity)))
+- uid: Startitecture.Orm.SqlClient.ISqlClientRepository`2.InsertAsync*
+  name: InsertAsync
+  href: api/Startitecture.Orm.SqlClient.ISqlClientRepository-2.html#Startitecture_Orm_SqlClient_ISqlClientRepository_2_InsertAsync_
+  commentId: Overload:Startitecture.Orm.SqlClient.ISqlClientRepository`2.InsertAsync
+  isSpec: "True"
+  fullName: Startitecture.Orm.SqlClient.ISqlClientRepository<TModel, TEntity>.InsertAsync
+  fullName.vb: Startitecture.Orm.SqlClient.ISqlClientRepository(Of TModel, TEntity).InsertAsync
+  nameWithType: ISqlClientRepository<TModel, TEntity>.InsertAsync
+  nameWithType.vb: ISqlClientRepository(Of TModel, TEntity).InsertAsync
+- uid: Startitecture.Orm.SqlClient.ISqlClientRepository`2.InsertAsync``1(System.Collections.Generic.IEnumerable{``0},System.Action{Startitecture.Orm.SqlClient.TransactSqlInsertBase{`1}})
+  name: InsertAsync<TItem>(IEnumerable<TItem>, Action<TransactSqlInsertBase<TEntity>>)
+  href: api/Startitecture.Orm.SqlClient.ISqlClientRepository-2.html#Startitecture_Orm_SqlClient_ISqlClientRepository_2_InsertAsync__1_System_Collections_Generic_IEnumerable___0__System_Action_Startitecture_Orm_SqlClient_TransactSqlInsertBase__1___
+  commentId: M:Startitecture.Orm.SqlClient.ISqlClientRepository`2.InsertAsync``1(System.Collections.Generic.IEnumerable{``0},System.Action{Startitecture.Orm.SqlClient.TransactSqlInsertBase{`1}})
+  name.vb: InsertAsync(Of TItem)(IEnumerable(Of TItem), Action(Of TransactSqlInsertBase(Of TEntity)))
+  fullName: Startitecture.Orm.SqlClient.ISqlClientRepository<TModel, TEntity>.InsertAsync<TItem>(System.Collections.Generic.IEnumerable<TItem>, System.Action<Startitecture.Orm.SqlClient.TransactSqlInsertBase<TEntity>>)
+  fullName.vb: Startitecture.Orm.SqlClient.ISqlClientRepository(Of TModel, TEntity).InsertAsync(Of TItem)(System.Collections.Generic.IEnumerable(Of TItem), System.Action(Of Startitecture.Orm.SqlClient.TransactSqlInsertBase(Of TEntity)))
+  nameWithType: ISqlClientRepository<TModel, TEntity>.InsertAsync<TItem>(IEnumerable<TItem>, Action<TransactSqlInsertBase<TEntity>>)
+  nameWithType.vb: ISqlClientRepository(Of TModel, TEntity).InsertAsync(Of TItem)(IEnumerable(Of TItem), Action(Of TransactSqlInsertBase(Of TEntity)))
+- uid: Startitecture.Orm.SqlClient.ISqlClientRepository`2.InsertForResults*
+  name: InsertForResults
+  href: api/Startitecture.Orm.SqlClient.ISqlClientRepository-2.html#Startitecture_Orm_SqlClient_ISqlClientRepository_2_InsertForResults_
+  commentId: Overload:Startitecture.Orm.SqlClient.ISqlClientRepository`2.InsertForResults
+  isSpec: "True"
+  fullName: Startitecture.Orm.SqlClient.ISqlClientRepository<TModel, TEntity>.InsertForResults
+  fullName.vb: Startitecture.Orm.SqlClient.ISqlClientRepository(Of TModel, TEntity).InsertForResults
+  nameWithType: ISqlClientRepository<TModel, TEntity>.InsertForResults
+  nameWithType.vb: ISqlClientRepository(Of TModel, TEntity).InsertForResults
+- uid: Startitecture.Orm.SqlClient.ISqlClientRepository`2.InsertForResults``1(System.Collections.Generic.IEnumerable{``0},System.Action{Startitecture.Orm.SqlClient.TransactSqlInsertBase{`1}})
+  name: InsertForResults<TItem>(IEnumerable<TItem>, Action<TransactSqlInsertBase<TEntity>>)
+  href: api/Startitecture.Orm.SqlClient.ISqlClientRepository-2.html#Startitecture_Orm_SqlClient_ISqlClientRepository_2_InsertForResults__1_System_Collections_Generic_IEnumerable___0__System_Action_Startitecture_Orm_SqlClient_TransactSqlInsertBase__1___
+  commentId: M:Startitecture.Orm.SqlClient.ISqlClientRepository`2.InsertForResults``1(System.Collections.Generic.IEnumerable{``0},System.Action{Startitecture.Orm.SqlClient.TransactSqlInsertBase{`1}})
+  name.vb: InsertForResults(Of TItem)(IEnumerable(Of TItem), Action(Of TransactSqlInsertBase(Of TEntity)))
+  fullName: Startitecture.Orm.SqlClient.ISqlClientRepository<TModel, TEntity>.InsertForResults<TItem>(System.Collections.Generic.IEnumerable<TItem>, System.Action<Startitecture.Orm.SqlClient.TransactSqlInsertBase<TEntity>>)
+  fullName.vb: Startitecture.Orm.SqlClient.ISqlClientRepository(Of TModel, TEntity).InsertForResults(Of TItem)(System.Collections.Generic.IEnumerable(Of TItem), System.Action(Of Startitecture.Orm.SqlClient.TransactSqlInsertBase(Of TEntity)))
+  nameWithType: ISqlClientRepository<TModel, TEntity>.InsertForResults<TItem>(IEnumerable<TItem>, Action<TransactSqlInsertBase<TEntity>>)
+  nameWithType.vb: ISqlClientRepository(Of TModel, TEntity).InsertForResults(Of TItem)(IEnumerable(Of TItem), Action(Of TransactSqlInsertBase(Of TEntity)))
+- uid: Startitecture.Orm.SqlClient.ISqlClientRepository`2.InsertForResultsAsync*
+  name: InsertForResultsAsync
+  href: api/Startitecture.Orm.SqlClient.ISqlClientRepository-2.html#Startitecture_Orm_SqlClient_ISqlClientRepository_2_InsertForResultsAsync_
+  commentId: Overload:Startitecture.Orm.SqlClient.ISqlClientRepository`2.InsertForResultsAsync
+  isSpec: "True"
+  fullName: Startitecture.Orm.SqlClient.ISqlClientRepository<TModel, TEntity>.InsertForResultsAsync
+  fullName.vb: Startitecture.Orm.SqlClient.ISqlClientRepository(Of TModel, TEntity).InsertForResultsAsync
+  nameWithType: ISqlClientRepository<TModel, TEntity>.InsertForResultsAsync
+  nameWithType.vb: ISqlClientRepository(Of TModel, TEntity).InsertForResultsAsync
+- uid: Startitecture.Orm.SqlClient.ISqlClientRepository`2.InsertForResultsAsync``1(System.Collections.Generic.IEnumerable{``0},System.Action{Startitecture.Orm.SqlClient.TransactSqlInsertBase{`1}})
+  name: InsertForResultsAsync<TItem>(IEnumerable<TItem>, Action<TransactSqlInsertBase<TEntity>>)
+  href: api/Startitecture.Orm.SqlClient.ISqlClientRepository-2.html#Startitecture_Orm_SqlClient_ISqlClientRepository_2_InsertForResultsAsync__1_System_Collections_Generic_IEnumerable___0__System_Action_Startitecture_Orm_SqlClient_TransactSqlInsertBase__1___
+  commentId: M:Startitecture.Orm.SqlClient.ISqlClientRepository`2.InsertForResultsAsync``1(System.Collections.Generic.IEnumerable{``0},System.Action{Startitecture.Orm.SqlClient.TransactSqlInsertBase{`1}})
+  name.vb: InsertForResultsAsync(Of TItem)(IEnumerable(Of TItem), Action(Of TransactSqlInsertBase(Of TEntity)))
+  fullName: Startitecture.Orm.SqlClient.ISqlClientRepository<TModel, TEntity>.InsertForResultsAsync<TItem>(System.Collections.Generic.IEnumerable<TItem>, System.Action<Startitecture.Orm.SqlClient.TransactSqlInsertBase<TEntity>>)
+  fullName.vb: Startitecture.Orm.SqlClient.ISqlClientRepository(Of TModel, TEntity).InsertForResultsAsync(Of TItem)(System.Collections.Generic.IEnumerable(Of TItem), System.Action(Of Startitecture.Orm.SqlClient.TransactSqlInsertBase(Of TEntity)))
+  nameWithType: ISqlClientRepository<TModel, TEntity>.InsertForResultsAsync<TItem>(IEnumerable<TItem>, Action<TransactSqlInsertBase<TEntity>>)
+  nameWithType.vb: ISqlClientRepository(Of TModel, TEntity).InsertForResultsAsync(Of TItem)(IEnumerable(Of TItem), Action(Of TransactSqlInsertBase(Of TEntity)))
+- uid: Startitecture.Orm.SqlClient.ISqlClientRepository`2.Merge*
+  name: Merge
+  href: api/Startitecture.Orm.SqlClient.ISqlClientRepository-2.html#Startitecture_Orm_SqlClient_ISqlClientRepository_2_Merge_
+  commentId: Overload:Startitecture.Orm.SqlClient.ISqlClientRepository`2.Merge
+  isSpec: "True"
+  fullName: Startitecture.Orm.SqlClient.ISqlClientRepository<TModel, TEntity>.Merge
+  fullName.vb: Startitecture.Orm.SqlClient.ISqlClientRepository(Of TModel, TEntity).Merge
+  nameWithType: ISqlClientRepository<TModel, TEntity>.Merge
+  nameWithType.vb: ISqlClientRepository(Of TModel, TEntity).Merge
+- uid: Startitecture.Orm.SqlClient.ISqlClientRepository`2.Merge``1(System.Collections.Generic.IEnumerable{``0},System.Action{Startitecture.Orm.SqlClient.TransactSqlMergeBase{`1}})
+  name: Merge<TItem>(IEnumerable<TItem>, Action<TransactSqlMergeBase<TEntity>>)
+  href: api/Startitecture.Orm.SqlClient.ISqlClientRepository-2.html#Startitecture_Orm_SqlClient_ISqlClientRepository_2_Merge__1_System_Collections_Generic_IEnumerable___0__System_Action_Startitecture_Orm_SqlClient_TransactSqlMergeBase__1___
+  commentId: M:Startitecture.Orm.SqlClient.ISqlClientRepository`2.Merge``1(System.Collections.Generic.IEnumerable{``0},System.Action{Startitecture.Orm.SqlClient.TransactSqlMergeBase{`1}})
+  name.vb: Merge(Of TItem)(IEnumerable(Of TItem), Action(Of TransactSqlMergeBase(Of TEntity)))
+  fullName: Startitecture.Orm.SqlClient.ISqlClientRepository<TModel, TEntity>.Merge<TItem>(System.Collections.Generic.IEnumerable<TItem>, System.Action<Startitecture.Orm.SqlClient.TransactSqlMergeBase<TEntity>>)
+  fullName.vb: Startitecture.Orm.SqlClient.ISqlClientRepository(Of TModel, TEntity).Merge(Of TItem)(System.Collections.Generic.IEnumerable(Of TItem), System.Action(Of Startitecture.Orm.SqlClient.TransactSqlMergeBase(Of TEntity)))
+  nameWithType: ISqlClientRepository<TModel, TEntity>.Merge<TItem>(IEnumerable<TItem>, Action<TransactSqlMergeBase<TEntity>>)
+  nameWithType.vb: ISqlClientRepository(Of TModel, TEntity).Merge(Of TItem)(IEnumerable(Of TItem), Action(Of TransactSqlMergeBase(Of TEntity)))
+- uid: Startitecture.Orm.SqlClient.ISqlClientRepository`2.MergeAsync*
+  name: MergeAsync
+  href: api/Startitecture.Orm.SqlClient.ISqlClientRepository-2.html#Startitecture_Orm_SqlClient_ISqlClientRepository_2_MergeAsync_
+  commentId: Overload:Startitecture.Orm.SqlClient.ISqlClientRepository`2.MergeAsync
+  isSpec: "True"
+  fullName: Startitecture.Orm.SqlClient.ISqlClientRepository<TModel, TEntity>.MergeAsync
+  fullName.vb: Startitecture.Orm.SqlClient.ISqlClientRepository(Of TModel, TEntity).MergeAsync
+  nameWithType: ISqlClientRepository<TModel, TEntity>.MergeAsync
+  nameWithType.vb: ISqlClientRepository(Of TModel, TEntity).MergeAsync
+- uid: Startitecture.Orm.SqlClient.ISqlClientRepository`2.MergeAsync``1(System.Collections.Generic.IEnumerable{``0},System.Action{Startitecture.Orm.SqlClient.TransactSqlMergeBase{`1}})
+  name: MergeAsync<TItem>(IEnumerable<TItem>, Action<TransactSqlMergeBase<TEntity>>)
+  href: api/Startitecture.Orm.SqlClient.ISqlClientRepository-2.html#Startitecture_Orm_SqlClient_ISqlClientRepository_2_MergeAsync__1_System_Collections_Generic_IEnumerable___0__System_Action_Startitecture_Orm_SqlClient_TransactSqlMergeBase__1___
+  commentId: M:Startitecture.Orm.SqlClient.ISqlClientRepository`2.MergeAsync``1(System.Collections.Generic.IEnumerable{``0},System.Action{Startitecture.Orm.SqlClient.TransactSqlMergeBase{`1}})
+  name.vb: MergeAsync(Of TItem)(IEnumerable(Of TItem), Action(Of TransactSqlMergeBase(Of TEntity)))
+  fullName: Startitecture.Orm.SqlClient.ISqlClientRepository<TModel, TEntity>.MergeAsync<TItem>(System.Collections.Generic.IEnumerable<TItem>, System.Action<Startitecture.Orm.SqlClient.TransactSqlMergeBase<TEntity>>)
+  fullName.vb: Startitecture.Orm.SqlClient.ISqlClientRepository(Of TModel, TEntity).MergeAsync(Of TItem)(System.Collections.Generic.IEnumerable(Of TItem), System.Action(Of Startitecture.Orm.SqlClient.TransactSqlMergeBase(Of TEntity)))
+  nameWithType: ISqlClientRepository<TModel, TEntity>.MergeAsync<TItem>(IEnumerable<TItem>, Action<TransactSqlMergeBase<TEntity>>)
+  nameWithType.vb: ISqlClientRepository(Of TModel, TEntity).MergeAsync(Of TItem)(IEnumerable(Of TItem), Action(Of TransactSqlMergeBase(Of TEntity)))
+- uid: Startitecture.Orm.SqlClient.ISqlClientRepository`2.MergeForResults*
+  name: MergeForResults
+  href: api/Startitecture.Orm.SqlClient.ISqlClientRepository-2.html#Startitecture_Orm_SqlClient_ISqlClientRepository_2_MergeForResults_
+  commentId: Overload:Startitecture.Orm.SqlClient.ISqlClientRepository`2.MergeForResults
+  isSpec: "True"
+  fullName: Startitecture.Orm.SqlClient.ISqlClientRepository<TModel, TEntity>.MergeForResults
+  fullName.vb: Startitecture.Orm.SqlClient.ISqlClientRepository(Of TModel, TEntity).MergeForResults
+  nameWithType: ISqlClientRepository<TModel, TEntity>.MergeForResults
+  nameWithType.vb: ISqlClientRepository(Of TModel, TEntity).MergeForResults
+- uid: Startitecture.Orm.SqlClient.ISqlClientRepository`2.MergeForResults``1(System.Collections.Generic.IEnumerable{``0},System.Action{Startitecture.Orm.SqlClient.TransactSqlMergeBase{`1}})
+  name: MergeForResults<TItem>(IEnumerable<TItem>, Action<TransactSqlMergeBase<TEntity>>)
+  href: api/Startitecture.Orm.SqlClient.ISqlClientRepository-2.html#Startitecture_Orm_SqlClient_ISqlClientRepository_2_MergeForResults__1_System_Collections_Generic_IEnumerable___0__System_Action_Startitecture_Orm_SqlClient_TransactSqlMergeBase__1___
+  commentId: M:Startitecture.Orm.SqlClient.ISqlClientRepository`2.MergeForResults``1(System.Collections.Generic.IEnumerable{``0},System.Action{Startitecture.Orm.SqlClient.TransactSqlMergeBase{`1}})
+  name.vb: MergeForResults(Of TItem)(IEnumerable(Of TItem), Action(Of TransactSqlMergeBase(Of TEntity)))
+  fullName: Startitecture.Orm.SqlClient.ISqlClientRepository<TModel, TEntity>.MergeForResults<TItem>(System.Collections.Generic.IEnumerable<TItem>, System.Action<Startitecture.Orm.SqlClient.TransactSqlMergeBase<TEntity>>)
+  fullName.vb: Startitecture.Orm.SqlClient.ISqlClientRepository(Of TModel, TEntity).MergeForResults(Of TItem)(System.Collections.Generic.IEnumerable(Of TItem), System.Action(Of Startitecture.Orm.SqlClient.TransactSqlMergeBase(Of TEntity)))
+  nameWithType: ISqlClientRepository<TModel, TEntity>.MergeForResults<TItem>(IEnumerable<TItem>, Action<TransactSqlMergeBase<TEntity>>)
+  nameWithType.vb: ISqlClientRepository(Of TModel, TEntity).MergeForResults(Of TItem)(IEnumerable(Of TItem), Action(Of TransactSqlMergeBase(Of TEntity)))
+- uid: Startitecture.Orm.SqlClient.ISqlClientRepository`2.MergeForResultsAsync*
+  name: MergeForResultsAsync
+  href: api/Startitecture.Orm.SqlClient.ISqlClientRepository-2.html#Startitecture_Orm_SqlClient_ISqlClientRepository_2_MergeForResultsAsync_
+  commentId: Overload:Startitecture.Orm.SqlClient.ISqlClientRepository`2.MergeForResultsAsync
+  isSpec: "True"
+  fullName: Startitecture.Orm.SqlClient.ISqlClientRepository<TModel, TEntity>.MergeForResultsAsync
+  fullName.vb: Startitecture.Orm.SqlClient.ISqlClientRepository(Of TModel, TEntity).MergeForResultsAsync
+  nameWithType: ISqlClientRepository<TModel, TEntity>.MergeForResultsAsync
+  nameWithType.vb: ISqlClientRepository(Of TModel, TEntity).MergeForResultsAsync
+- uid: Startitecture.Orm.SqlClient.ISqlClientRepository`2.MergeForResultsAsync``1(System.Collections.Generic.IEnumerable{``0},System.Action{Startitecture.Orm.SqlClient.TransactSqlMergeBase{`1}})
+  name: MergeForResultsAsync<TItem>(IEnumerable<TItem>, Action<TransactSqlMergeBase<TEntity>>)
+  href: api/Startitecture.Orm.SqlClient.ISqlClientRepository-2.html#Startitecture_Orm_SqlClient_ISqlClientRepository_2_MergeForResultsAsync__1_System_Collections_Generic_IEnumerable___0__System_Action_Startitecture_Orm_SqlClient_TransactSqlMergeBase__1___
+  commentId: M:Startitecture.Orm.SqlClient.ISqlClientRepository`2.MergeForResultsAsync``1(System.Collections.Generic.IEnumerable{``0},System.Action{Startitecture.Orm.SqlClient.TransactSqlMergeBase{`1}})
+  name.vb: MergeForResultsAsync(Of TItem)(IEnumerable(Of TItem), Action(Of TransactSqlMergeBase(Of TEntity)))
+  fullName: Startitecture.Orm.SqlClient.ISqlClientRepository<TModel, TEntity>.MergeForResultsAsync<TItem>(System.Collections.Generic.IEnumerable<TItem>, System.Action<Startitecture.Orm.SqlClient.TransactSqlMergeBase<TEntity>>)
+  fullName.vb: Startitecture.Orm.SqlClient.ISqlClientRepository(Of TModel, TEntity).MergeForResultsAsync(Of TItem)(System.Collections.Generic.IEnumerable(Of TItem), System.Action(Of Startitecture.Orm.SqlClient.TransactSqlMergeBase(Of TEntity)))
+  nameWithType: ISqlClientRepository<TModel, TEntity>.MergeForResultsAsync<TItem>(IEnumerable<TItem>, Action<TransactSqlMergeBase<TEntity>>)
+  nameWithType.vb: ISqlClientRepository(Of TModel, TEntity).MergeForResultsAsync(Of TItem)(IEnumerable(Of TItem), Action(Of TransactSqlMergeBase(Of TEntity)))
 - uid: Startitecture.Orm.SqlClient.JsonInsert`1
   name: JsonInsert<T>
   href: api/Startitecture.Orm.SqlClient.JsonInsert-1.html

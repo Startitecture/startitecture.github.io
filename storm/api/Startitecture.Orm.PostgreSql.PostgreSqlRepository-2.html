@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class PostgreSqlRepository&lt;TModel, TEntity&gt;
    ">
-    <meta name="generator" content="docfx 2.56.4.0">
+    <meta name="generator" content="docfx 2.56.6.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -84,6 +84,7 @@
   </div>
   <div classs="implements">
     <h5>Implements</h5>
+    <div><a class="xref" href="Startitecture.Orm.PostgreSql.IPostgreSqlRepository-2.html">IPostgreSqlRepository</a>&lt;TModel, TEntity&gt;</div>
     <div><a class="xref" href="Startitecture.Orm.Common.IEntityRepository-1.html">IEntityRepository</a>&lt;TModel&gt;</div>
     <div><a class="xref" href="Startitecture.Orm.Common.IReadOnlyRepository-1.html">IReadOnlyRepository</a>&lt;TModel&gt;</div>
   </div>
@@ -211,7 +212,7 @@
   <h6><strong>Assembly</strong>: Startitecture.Orm.PostgreSql.dll</h6>
   <h5 id="Startitecture_Orm_PostgreSql_PostgreSqlRepository_2_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class PostgreSqlRepository&lt;TModel, TEntity&gt; : EntityRepository&lt;TModel, TEntity&gt;, IEntityRepository&lt;TModel&gt;, IReadOnlyRepository&lt;TModel&gt; where TEntity : class, new()</code></pre>
+    <pre><code class="lang-csharp hljs">public class PostgreSqlRepository&lt;TModel, TEntity&gt; : EntityRepository&lt;TModel, TEntity&gt;, IPostgreSqlRepository&lt;TModel, TEntity&gt;, IEntityRepository&lt;TModel&gt;, IReadOnlyRepository&lt;TModel&gt; where TEntity : class, new()</code></pre>
   </div>
   <h5 class="typeParameters">Type Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -238,7 +239,7 @@
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.PostgreSql/PostgreSqlRepository.cs&amp;version=GBmaster&amp;line=42">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.PostgreSql/PostgreSqlRepository.cs&amp;version=GBmaster&amp;line=40">View Source</a>
   </span>
   <a id="Startitecture_Orm_PostgreSql_PostgreSqlRepository_2__ctor_" data-uid="Startitecture.Orm.PostgreSql.PostgreSqlRepository`2.#ctor*"></a>
   <h4 id="Startitecture_Orm_PostgreSql_PostgreSqlRepository_2__ctor_Startitecture_Orm_Common_IRepositoryProvider_Startitecture_Orm_Model_IEntityMapper_" data-uid="Startitecture.Orm.PostgreSql.PostgreSqlRepository`2.#ctor(Startitecture.Orm.Common.IRepositoryProvider,Startitecture.Orm.Model.IEntityMapper)">PostgreSqlRepository(IRepositoryProvider, IEntityMapper)</h4>
@@ -275,7 +276,7 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.PostgreSql/PostgreSqlRepository.cs&amp;version=GBmaster&amp;line=59">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.PostgreSql/PostgreSqlRepository.cs&amp;version=GBmaster&amp;line=57">View Source</a>
   </span>
   <a id="Startitecture_Orm_PostgreSql_PostgreSqlRepository_2__ctor_" data-uid="Startitecture.Orm.PostgreSql.PostgreSqlRepository`2.#ctor*"></a>
   <h4 id="Startitecture_Orm_PostgreSql_PostgreSqlRepository_2__ctor_Startitecture_Orm_Common_IRepositoryProvider_Startitecture_Orm_Model_IEntityMapper_System_Collections_Generic_IComparer__1__" data-uid="Startitecture.Orm.PostgreSql.PostgreSqlRepository`2.#ctor(Startitecture.Orm.Common.IRepositoryProvider,Startitecture.Orm.Model.IEntityMapper,System.Collections.Generic.IComparer{`1})">PostgreSqlRepository(IRepositoryProvider, IEntityMapper, IComparer&lt;TEntity&gt;)</h4>
@@ -320,7 +321,7 @@
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.PostgreSql/PostgreSqlRepository.cs&amp;version=GBmaster&amp;line=79">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.PostgreSql/PostgreSqlRepository.cs&amp;version=GBmaster&amp;line=77">View Source</a>
   </span>
   <a id="Startitecture_Orm_PostgreSql_PostgreSqlRepository_2_Insert_" data-uid="Startitecture.Orm.PostgreSql.PostgreSqlRepository`2.Insert*"></a>
   <h4 id="Startitecture_Orm_PostgreSql_PostgreSqlRepository_2_Insert__1_System_Collections_Generic_IEnumerable___0__System_Action_Startitecture_Orm_PostgreSql_JsonInsert__1___" data-uid="Startitecture.Orm.PostgreSql.PostgreSqlRepository`2.Insert``1(System.Collections.Generic.IEnumerable{``0},System.Action{Startitecture.Orm.PostgreSql.JsonInsert{`1}})">Insert&lt;TItem&gt;(IEnumerable&lt;TItem&gt;, Action&lt;JsonInsert&lt;TEntity&gt;&gt;)</h4>
@@ -329,7 +330,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Insert&lt;TItem&gt;([NotNull] IEnumerable&lt;TItem&gt; items, Action&lt;JsonInsert&lt;TEntity&gt;&gt; insertAction)</code></pre>
+    <pre><code class="lang-csharp hljs">public void Insert&lt;TItem&gt;(IEnumerable&lt;TItem&gt; items, Action&lt;JsonInsert&lt;TEntity&gt;&gt; insertAction)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -389,7 +390,7 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.PostgreSql/PostgreSqlRepository.cs&amp;version=GBmaster&amp;line=110">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.PostgreSql/PostgreSqlRepository.cs&amp;version=GBmaster&amp;line=108">View Source</a>
   </span>
   <a id="Startitecture_Orm_PostgreSql_PostgreSqlRepository_2_InsertAsync_" data-uid="Startitecture.Orm.PostgreSql.PostgreSqlRepository`2.InsertAsync*"></a>
   <h4 id="Startitecture_Orm_PostgreSql_PostgreSqlRepository_2_InsertAsync__1_System_Collections_Generic_IEnumerable___0__System_Action_Startitecture_Orm_PostgreSql_JsonInsert__1___" data-uid="Startitecture.Orm.PostgreSql.PostgreSqlRepository`2.InsertAsync``1(System.Collections.Generic.IEnumerable{``0},System.Action{Startitecture.Orm.PostgreSql.JsonInsert{`1}})">InsertAsync&lt;TItem&gt;(IEnumerable&lt;TItem&gt;, Action&lt;JsonInsert&lt;TEntity&gt;&gt;)</h4>
@@ -398,7 +399,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task InsertAsync&lt;TItem&gt;([NotNull] IEnumerable&lt;TItem&gt; items, Action&lt;JsonInsert&lt;TEntity&gt;&gt; insertAction)</code></pre>
+    <pre><code class="lang-csharp hljs">public Task InsertAsync&lt;TItem&gt;(IEnumerable&lt;TItem&gt; items, Action&lt;JsonInsert&lt;TEntity&gt;&gt; insertAction)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -474,7 +475,7 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.PostgreSql/PostgreSqlRepository.cs&amp;version=GBmaster&amp;line=141">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.PostgreSql/PostgreSqlRepository.cs&amp;version=GBmaster&amp;line=139">View Source</a>
   </span>
   <a id="Startitecture_Orm_PostgreSql_PostgreSqlRepository_2_InsertForResults_" data-uid="Startitecture.Orm.PostgreSql.PostgreSqlRepository`2.InsertForResults*"></a>
   <h4 id="Startitecture_Orm_PostgreSql_PostgreSqlRepository_2_InsertForResults__1_System_Collections_Generic_IEnumerable___0__System_Action_Startitecture_Orm_PostgreSql_JsonInsert__1___" data-uid="Startitecture.Orm.PostgreSql.PostgreSqlRepository`2.InsertForResults``1(System.Collections.Generic.IEnumerable{``0},System.Action{Startitecture.Orm.PostgreSql.JsonInsert{`1}})">InsertForResults&lt;TItem&gt;(IEnumerable&lt;TItem&gt;, Action&lt;JsonInsert&lt;TEntity&gt;&gt;)</h4>
@@ -483,7 +484,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IEnumerable&lt;TItem&gt; InsertForResults&lt;TItem&gt;([NotNull] IEnumerable&lt;TItem&gt; items, Action&lt;JsonInsert&lt;TEntity&gt;&gt; insertAction)</code></pre>
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;TItem&gt; InsertForResults&lt;TItem&gt;(IEnumerable&lt;TItem&gt; items, Action&lt;JsonInsert&lt;TEntity&gt;&gt; insertAction)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -559,7 +560,7 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.PostgreSql/PostgreSqlRepository.cs&amp;version=GBmaster&amp;line=175">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.PostgreSql/PostgreSqlRepository.cs&amp;version=GBmaster&amp;line=173">View Source</a>
   </span>
   <a id="Startitecture_Orm_PostgreSql_PostgreSqlRepository_2_InsertForResultsAsync_" data-uid="Startitecture.Orm.PostgreSql.PostgreSqlRepository`2.InsertForResultsAsync*"></a>
   <h4 id="Startitecture_Orm_PostgreSql_PostgreSqlRepository_2_InsertForResultsAsync__1_System_Collections_Generic_IEnumerable___0__System_Action_Startitecture_Orm_PostgreSql_JsonInsert__1___" data-uid="Startitecture.Orm.PostgreSql.PostgreSqlRepository`2.InsertForResultsAsync``1(System.Collections.Generic.IEnumerable{``0},System.Action{Startitecture.Orm.PostgreSql.JsonInsert{`1}})">InsertForResultsAsync&lt;TItem&gt;(IEnumerable&lt;TItem&gt;, Action&lt;JsonInsert&lt;TEntity&gt;&gt;)</h4>
@@ -568,7 +569,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;IEnumerable&lt;TItem&gt;&gt; InsertForResultsAsync&lt;TItem&gt;([NotNull] IEnumerable&lt;TItem&gt; items, Action&lt;JsonInsert&lt;TEntity&gt;&gt; insertAction)</code></pre>
+    <pre><code class="lang-csharp hljs">public Task&lt;IEnumerable&lt;TItem&gt;&gt; InsertForResultsAsync&lt;TItem&gt;(IEnumerable&lt;TItem&gt; items, Action&lt;JsonInsert&lt;TEntity&gt;&gt; insertAction)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -644,6 +645,9 @@
   </table>
   <h3 id="implements">Implements</h3>
   <div>
+      <a class="xref" href="Startitecture.Orm.PostgreSql.IPostgreSqlRepository-2.html">IPostgreSqlRepository&lt;TModel, TEntity&gt;</a>
+  </div>
+  <div>
       <a class="xref" href="Startitecture.Orm.Common.IEntityRepository-1.html">IEntityRepository&lt;TModel&gt;</a>
   </div>
   <div>
@@ -657,7 +661,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.PostgreSql/PostgreSqlRepository.cs&amp;version=GBmaster&amp;line=30" class="contribution-link">View Source</a>
+                    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.PostgreSql/PostgreSqlRepository.cs&amp;version=GBmaster&amp;line=28" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

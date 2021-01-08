@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Interface IEntityRepository&lt;TModel&gt;
+    <title>Interface IPostgreSqlRepository&lt;TModel, TEntity&gt;
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Interface IEntityRepository&lt;TModel&gt;
+    <meta name="title" content="Interface IPostgreSqlRepository&lt;TModel, TEntity&gt;
    ">
     <meta name="generator" content="docfx 2.56.6.0">
     
@@ -67,16 +67,40 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Startitecture.Orm.Common.IEntityRepository`1">
+            <article class="content wrap" id="_content" data-uid="Startitecture.Orm.PostgreSql.IPostgreSqlRepository`2">
   
   
-  <h1 id="Startitecture_Orm_Common_IEntityRepository_1" data-uid="Startitecture.Orm.Common.IEntityRepository`1" class="text-break">Interface IEntityRepository&lt;TModel&gt;
+  <h1 id="Startitecture_Orm_PostgreSql_IPostgreSqlRepository_2" data-uid="Startitecture.Orm.PostgreSql.IPostgreSqlRepository`2" class="text-break">Interface IPostgreSqlRepository&lt;TModel, TEntity&gt;
   </h1>
-  <div class="markdown level0 summary"><p>Provides an interface to an entity repository.</p>
+  <div class="markdown level0 summary"><p>Provides an interface to a PostgreSQL repository.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Startitecture.Orm.Common.IEntityRepository-1.html#Startitecture_Orm_Common_IEntityRepository_1_Save__0_">IEntityRepository&lt;TModel&gt;.Save(TModel)</a>
+    </div>
+    <div>
+      <a class="xref" href="Startitecture.Orm.Common.IEntityRepository-1.html#Startitecture_Orm_Common_IEntityRepository_1_SaveAsync__0_">IEntityRepository&lt;TModel&gt;.SaveAsync(TModel)</a>
+    </div>
+    <div>
+      <a class="xref" href="Startitecture.Orm.Common.IEntityRepository-1.html#Startitecture_Orm_Common_IEntityRepository_1_Delete__1___0_">IEntityRepository&lt;TModel&gt;.Delete&lt;TItem&gt;(TItem)</a>
+    </div>
+    <div>
+      <a class="xref" href="Startitecture.Orm.Common.IEntityRepository-1.html#Startitecture_Orm_Common_IEntityRepository_1_DeleteAsync__1___0_">IEntityRepository&lt;TModel&gt;.DeleteAsync&lt;TItem&gt;(TItem)</a>
+    </div>
+    <div>
+      <a class="xref" href="Startitecture.Orm.Common.IEntityRepository-1.html#Startitecture_Orm_Common_IEntityRepository_1_DeleteEntities_System_Action_Startitecture_Orm_Model_EntitySet__0___">IEntityRepository&lt;TModel&gt;.DeleteEntities(Action&lt;EntitySet&lt;TModel&gt;&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="Startitecture.Orm.Common.IEntityRepository-1.html#Startitecture_Orm_Common_IEntityRepository_1_DeleteEntitiesAsync_System_Action_Startitecture_Orm_Model_EntitySet__0___">IEntityRepository&lt;TModel&gt;.DeleteEntitiesAsync(Action&lt;EntitySet&lt;TModel&gt;&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="Startitecture.Orm.Common.IEntityRepository-1.html#Startitecture_Orm_Common_IEntityRepository_1_DeleteSelection_Startitecture_Orm_Model_IEntitySet_">IEntityRepository&lt;TModel&gt;.DeleteSelection(IEntitySet)</a>
+    </div>
+    <div>
+      <a class="xref" href="Startitecture.Orm.Common.IEntityRepository-1.html#Startitecture_Orm_Common_IEntityRepository_1_DeleteSelectionAsync_Startitecture_Orm_Model_IEntitySet_">IEntityRepository&lt;TModel&gt;.DeleteSelectionAsync(IEntitySet)</a>
+    </div>
     <div>
       <a class="xref" href="Startitecture.Orm.Common.IReadOnlyRepository-1.html#Startitecture_Orm_Common_IReadOnlyRepository_1_Contains__1___0_">IReadOnlyRepository&lt;TModel&gt;.Contains&lt;TItem&gt;(TItem)</a>
     </div>
@@ -132,11 +156,11 @@
       <a class="xref" href="Startitecture.Orm.Common.IReadOnlyRepository-1.html#Startitecture_Orm_Common_IReadOnlyRepository_1_DynamicSelectAsync__1_Startitecture_Orm_Model_EntitySelection___0__">IReadOnlyRepository&lt;TModel&gt;.DynamicSelectAsync&lt;TItem&gt;(EntitySelection&lt;TItem&gt;)</a>
     </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Startitecture.Orm.Common.html">Startitecture.Orm.Common</a></h6>
-  <h6><strong>Assembly</strong>: Startitecture.Orm.Common.dll</h6>
-  <h5 id="Startitecture_Orm_Common_IEntityRepository_1_syntax">Syntax</h5>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Startitecture.Orm.PostgreSql.html">Startitecture.Orm.PostgreSql</a></h6>
+  <h6><strong>Assembly</strong>: Startitecture.Orm.PostgreSql.dll</h6>
+  <h5 id="Startitecture_Orm_PostgreSql_IPostgreSqlRepository_2_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public interface IEntityRepository&lt;TModel&gt; : IReadOnlyRepository&lt;TModel&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">public interface IPostgreSqlRepository&lt;TModel, TEntity&gt; : IEntityRepository&lt;TModel&gt;, IReadOnlyRepository&lt;TModel&gt; where TEntity : class, new()</code></pre>
   </div>
   <h5 class="typeParameters">Type Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -149,7 +173,12 @@
     <tbody>
       <tr>
         <td><span class="parametername">TModel</span></td>
-        <td><p>The type of model managed by the repository.</p>
+        <td><p>The type of model represented by the repository.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TEntity</span></td>
+        <td><p>The type of entity stored in the repository.</p>
 </td>
       </tr>
     </tbody>
@@ -158,16 +187,16 @@
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/IEntityRepository.cs&amp;version=GBmaster&amp;line=59">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.PostgreSql/IPostgreSqlRepository.cs&amp;version=GBmaster&amp;line=44">View Source</a>
   </span>
-  <a id="Startitecture_Orm_Common_IEntityRepository_1_Delete_" data-uid="Startitecture.Orm.Common.IEntityRepository`1.Delete*"></a>
-  <h4 id="Startitecture_Orm_Common_IEntityRepository_1_Delete__1___0_" data-uid="Startitecture.Orm.Common.IEntityRepository`1.Delete``1(``0)">Delete&lt;TItem&gt;(TItem)</h4>
-  <div class="markdown level1 summary"><p>Deletes a single item in the database.</p>
+  <a id="Startitecture_Orm_PostgreSql_IPostgreSqlRepository_2_Insert_" data-uid="Startitecture.Orm.PostgreSql.IPostgreSqlRepository`2.Insert*"></a>
+  <h4 id="Startitecture_Orm_PostgreSql_IPostgreSqlRepository_2_Insert__1_System_Collections_Generic_IEnumerable___0__System_Action_Startitecture_Orm_PostgreSql_JsonInsert__1___" data-uid="Startitecture.Orm.PostgreSql.IPostgreSqlRepository`2.Insert``1(System.Collections.Generic.IEnumerable{``0},System.Action{Startitecture.Orm.PostgreSql.JsonInsert{`1}})">Insert&lt;TItem&gt;(IEnumerable&lt;TItem&gt;, Action&lt;JsonInsert&lt;TEntity&gt;&gt;)</h4>
+  <div class="markdown level1 summary"><p>Inserts a list of items into the repository.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">int Delete&lt;TItem&gt;(TItem example)</code></pre>
+    <pre><code class="lang-csharp hljs">void Insert&lt;TItem&gt;([NotNull] IEnumerable&lt;TItem&gt; items, Action&lt;JsonInsert&lt;TEntity&gt;&gt; insertAction)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -180,25 +209,15 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">TItem</span></td>
-        <td><span class="parametername">example</span></td>
-        <td><p>The example item.</p>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;TItem&gt;</td>
+        <td><span class="parametername">items</span></td>
+        <td><p>The items to insert.</p>
 </td>
       </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
       <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><p>The number of items affected as an <span class="xref">System.Int32</span>.</p>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="Startitecture.Orm.PostgreSql.JsonInsert-1.html">JsonInsert</a>&lt;TEntity&gt;&gt;</td>
+        <td><span class="parametername">insertAction</span></td>
+        <td><p>The insert action to take, or null to take the default insert action.</p>
 </td>
       </tr>
     </tbody>
@@ -214,23 +233,39 @@
     <tbody>
       <tr>
         <td><span class="parametername">TItem</span></td>
-        <td><p>The type of item that can be mapped to a unique repository entity.</p>
+        <td><p>The type of item to insert..</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">items</code> is null.</p>
 </td>
       </tr>
     </tbody>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/IEntityRepository.cs&amp;version=GBmaster&amp;line=73">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.PostgreSql/IPostgreSqlRepository.cs&amp;version=GBmaster&amp;line=64">View Source</a>
   </span>
-  <a id="Startitecture_Orm_Common_IEntityRepository_1_DeleteAsync_" data-uid="Startitecture.Orm.Common.IEntityRepository`1.DeleteAsync*"></a>
-  <h4 id="Startitecture_Orm_Common_IEntityRepository_1_DeleteAsync__1___0_" data-uid="Startitecture.Orm.Common.IEntityRepository`1.DeleteAsync``1(``0)">DeleteAsync&lt;TItem&gt;(TItem)</h4>
-  <div class="markdown level1 summary"><p>Deletes a single item in the database.</p>
+  <a id="Startitecture_Orm_PostgreSql_IPostgreSqlRepository_2_InsertAsync_" data-uid="Startitecture.Orm.PostgreSql.IPostgreSqlRepository`2.InsertAsync*"></a>
+  <h4 id="Startitecture_Orm_PostgreSql_IPostgreSqlRepository_2_InsertAsync__1_System_Collections_Generic_IEnumerable___0__System_Action_Startitecture_Orm_PostgreSql_JsonInsert__1___" data-uid="Startitecture.Orm.PostgreSql.IPostgreSqlRepository`2.InsertAsync``1(System.Collections.Generic.IEnumerable{``0},System.Action{Startitecture.Orm.PostgreSql.JsonInsert{`1}})">InsertAsync&lt;TItem&gt;(IEnumerable&lt;TItem&gt;, Action&lt;JsonInsert&lt;TEntity&gt;&gt;)</h4>
+  <div class="markdown level1 summary"><p>Inserts a list of items into the repository.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">Task&lt;int&gt; DeleteAsync&lt;TItem&gt;(TItem example)</code></pre>
+    <pre><code class="lang-csharp hljs">Task InsertAsync&lt;TItem&gt;([NotNull] IEnumerable&lt;TItem&gt; items, Action&lt;JsonInsert&lt;TEntity&gt;&gt; insertAction)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -243,9 +278,15 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">TItem</span></td>
-        <td><span class="parametername">example</span></td>
-        <td><p>The example item.</p>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;TItem&gt;</td>
+        <td><span class="parametername">items</span></td>
+        <td><p>The items to insert.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="Startitecture.Orm.PostgreSql.JsonInsert-1.html">JsonInsert</a>&lt;TEntity&gt;&gt;</td>
+        <td><span class="parametername">insertAction</span></td>
+        <td><p>The insert action to take, or null to take the default insert action.</p>
 </td>
       </tr>
     </tbody>
@@ -260,8 +301,8 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
-        <td><p>The number of items affected as an <span class="xref">System.Int32</span>.</p>
+        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td><p>The <span class="xref">System.Threading.Tasks.Task</span> that is performing the insert.</p>
 </td>
       </tr>
     </tbody>
@@ -277,23 +318,39 @@
     <tbody>
       <tr>
         <td><span class="parametername">TItem</span></td>
-        <td><p>The type of item that can be mapped to a unique repository entity.</p>
+        <td><p>The type of item to insert..</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">items</code> is null.</p>
 </td>
       </tr>
     </tbody>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/IEntityRepository.cs&amp;version=GBmaster&amp;line=84">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.PostgreSql/IPostgreSqlRepository.cs&amp;version=GBmaster&amp;line=84">View Source</a>
   </span>
-  <a id="Startitecture_Orm_Common_IEntityRepository_1_DeleteEntities_" data-uid="Startitecture.Orm.Common.IEntityRepository`1.DeleteEntities*"></a>
-  <h4 id="Startitecture_Orm_Common_IEntityRepository_1_DeleteEntities_System_Action_Startitecture_Orm_Model_EntitySet__0___" data-uid="Startitecture.Orm.Common.IEntityRepository`1.DeleteEntities(System.Action{Startitecture.Orm.Model.EntitySet{`0}})">DeleteEntities(Action&lt;EntitySet&lt;TModel&gt;&gt;)</h4>
-  <div class="markdown level1 summary"><p>Delete entities matching the set of <code data-dev-comment-type="typeparamref" class="typeparamref">TModel</code> models in <code data-dev-comment-type="paramref" class="paramref">defineSet</code>.</p>
+  <a id="Startitecture_Orm_PostgreSql_IPostgreSqlRepository_2_InsertForResults_" data-uid="Startitecture.Orm.PostgreSql.IPostgreSqlRepository`2.InsertForResults*"></a>
+  <h4 id="Startitecture_Orm_PostgreSql_IPostgreSqlRepository_2_InsertForResults__1_System_Collections_Generic_IEnumerable___0__System_Action_Startitecture_Orm_PostgreSql_JsonInsert__1___" data-uid="Startitecture.Orm.PostgreSql.IPostgreSqlRepository`2.InsertForResults``1(System.Collections.Generic.IEnumerable{``0},System.Action{Startitecture.Orm.PostgreSql.JsonInsert{`1}})">InsertForResults&lt;TItem&gt;(IEnumerable&lt;TItem&gt;, Action&lt;JsonInsert&lt;TEntity&gt;&gt;)</h4>
+  <div class="markdown level1 summary"><p>Inserts a list of items into the repository.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">int DeleteEntities(Action&lt;EntitySet&lt;TModel&gt;&gt; defineSet)</code></pre>
+    <pre><code class="lang-csharp hljs">IEnumerable&lt;TItem&gt; InsertForResults&lt;TItem&gt;([NotNull] IEnumerable&lt;TItem&gt; items, Action&lt;JsonInsert&lt;TEntity&gt;&gt; insertAction)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -306,9 +363,15 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="Startitecture.Orm.Model.EntitySet-1.html">EntitySet</a>&lt;TModel&gt;&gt;</td>
-        <td><span class="parametername">defineSet</span></td>
-        <td><p>Define the set of entities to delete.</p>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;TItem&gt;</td>
+        <td><span class="parametername">items</span></td>
+        <td><p>The items to insert.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="Startitecture.Orm.PostgreSql.JsonInsert-1.html">JsonInsert</a>&lt;TEntity&gt;&gt;</td>
+        <td><span class="parametername">insertAction</span></td>
+        <td><p>The insert action to take, or null to take the default insert action.</p>
 </td>
       </tr>
     </tbody>
@@ -323,24 +386,56 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><p>The number of items affected as an <span class="xref">System.Int32</span>.</p>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;TItem&gt;</td>
+        <td><p>An <span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span> of <code data-dev-comment-type="typeparamref" class="typeparamref">TItem</code> items.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TItem</span></td>
+        <td><p>The type of item to insert..</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">items</code> is null.</p>
 </td>
       </tr>
     </tbody>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/IEntityRepository.cs&amp;version=GBmaster&amp;line=95">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.PostgreSql/IPostgreSqlRepository.cs&amp;version=GBmaster&amp;line=106">View Source</a>
   </span>
-  <a id="Startitecture_Orm_Common_IEntityRepository_1_DeleteEntitiesAsync_" data-uid="Startitecture.Orm.Common.IEntityRepository`1.DeleteEntitiesAsync*"></a>
-  <h4 id="Startitecture_Orm_Common_IEntityRepository_1_DeleteEntitiesAsync_System_Action_Startitecture_Orm_Model_EntitySet__0___" data-uid="Startitecture.Orm.Common.IEntityRepository`1.DeleteEntitiesAsync(System.Action{Startitecture.Orm.Model.EntitySet{`0}})">DeleteEntitiesAsync(Action&lt;EntitySet&lt;TModel&gt;&gt;)</h4>
-  <div class="markdown level1 summary"><p>Delete entities matching the set of <code data-dev-comment-type="typeparamref" class="typeparamref">TModel</code> models in <code data-dev-comment-type="paramref" class="paramref">defineSet</code>.</p>
+  <a id="Startitecture_Orm_PostgreSql_IPostgreSqlRepository_2_InsertForResultsAsync_" data-uid="Startitecture.Orm.PostgreSql.IPostgreSqlRepository`2.InsertForResultsAsync*"></a>
+  <h4 id="Startitecture_Orm_PostgreSql_IPostgreSqlRepository_2_InsertForResultsAsync__1_System_Collections_Generic_IEnumerable___0__System_Action_Startitecture_Orm_PostgreSql_JsonInsert__1___" data-uid="Startitecture.Orm.PostgreSql.IPostgreSqlRepository`2.InsertForResultsAsync``1(System.Collections.Generic.IEnumerable{``0},System.Action{Startitecture.Orm.PostgreSql.JsonInsert{`1}})">InsertForResultsAsync&lt;TItem&gt;(IEnumerable&lt;TItem&gt;, Action&lt;JsonInsert&lt;TEntity&gt;&gt;)</h4>
+  <div class="markdown level1 summary"><p>Inserts a list of items into the repository.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">Task&lt;int&gt; DeleteEntitiesAsync(Action&lt;EntitySet&lt;TModel&gt;&gt; defineSet)</code></pre>
+    <pre><code class="lang-csharp hljs">Task&lt;IEnumerable&lt;TItem&gt;&gt; InsertForResultsAsync&lt;TItem&gt;([NotNull] IEnumerable&lt;TItem&gt; items, Action&lt;JsonInsert&lt;TEntity&gt;&gt; insertAction)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -353,9 +448,15 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="Startitecture.Orm.Model.EntitySet-1.html">EntitySet</a>&lt;TModel&gt;&gt;</td>
-        <td><span class="parametername">defineSet</span></td>
-        <td><p>Define the set of entities to delete.</p>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;TItem&gt;</td>
+        <td><span class="parametername">items</span></td>
+        <td><p>The items to insert.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="Startitecture.Orm.PostgreSql.JsonInsert-1.html">JsonInsert</a>&lt;TEntity&gt;&gt;</td>
+        <td><span class="parametername">insertAction</span></td>
+        <td><p>The insert action to take, or null to take the default insert action.</p>
 </td>
       </tr>
     </tbody>
@@ -370,196 +471,40 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
-        <td><p>The number of items affected as an <span class="xref">System.Int32</span>.</p>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">System.Collections.Generic.IEnumerable</span>&lt;TItem&gt;&gt;</td>
+        <td><p>An <span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span> of <code data-dev-comment-type="typeparamref" class="typeparamref">TItem</code> items.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  
-  <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/IEntityRepository.cs&amp;version=GBmaster&amp;line=106">View Source</a>
-  </span>
-  <a id="Startitecture_Orm_Common_IEntityRepository_1_DeleteSelection_" data-uid="Startitecture.Orm.Common.IEntityRepository`1.DeleteSelection*"></a>
-  <h4 id="Startitecture_Orm_Common_IEntityRepository_1_DeleteSelection_Startitecture_Orm_Model_IEntitySet_" data-uid="Startitecture.Orm.Common.IEntityRepository`1.DeleteSelection(Startitecture.Orm.Model.IEntitySet)">DeleteSelection(IEntitySet)</h4>
-  <div class="markdown level1 summary"><p>Deletes all entities matching the entity set.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">int DeleteSelection(IEntitySet entitySet)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
+  <h5 class="typeParameters">Type Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
         <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Startitecture.Orm.Model.IEntitySet.html">IEntitySet</a></td>
-        <td><span class="parametername">entitySet</span></td>
-        <td><p>The entity set to delete.</p>
+        <td><span class="parametername">TItem</span></td>
+        <td><p>The type of item to insert..</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
+  <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
-        <th>Description</th>
+        <th>Condition</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><p>The number of items affected as an <span class="xref">System.Int32</span>.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/IEntityRepository.cs&amp;version=GBmaster&amp;line=117">View Source</a>
-  </span>
-  <a id="Startitecture_Orm_Common_IEntityRepository_1_DeleteSelectionAsync_" data-uid="Startitecture.Orm.Common.IEntityRepository`1.DeleteSelectionAsync*"></a>
-  <h4 id="Startitecture_Orm_Common_IEntityRepository_1_DeleteSelectionAsync_Startitecture_Orm_Model_IEntitySet_" data-uid="Startitecture.Orm.Common.IEntityRepository`1.DeleteSelectionAsync(Startitecture.Orm.Model.IEntitySet)">DeleteSelectionAsync(IEntitySet)</h4>
-  <div class="markdown level1 summary"><p>Deletes all entities matching the entity set.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">Task&lt;int&gt; DeleteSelectionAsync(IEntitySet entitySet)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Startitecture.Orm.Model.IEntitySet.html">IEntitySet</a></td>
-        <td><span class="parametername">entitySet</span></td>
-        <td><p>The entity set to delete.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
-        <td><p>The number of items affected as an <span class="xref">System.Int32</span>.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/IEntityRepository.cs&amp;version=GBmaster&amp;line=34">View Source</a>
-  </span>
-  <a id="Startitecture_Orm_Common_IEntityRepository_1_Save_" data-uid="Startitecture.Orm.Common.IEntityRepository`1.Save*"></a>
-  <h4 id="Startitecture_Orm_Common_IEntityRepository_1_Save__0_" data-uid="Startitecture.Orm.Common.IEntityRepository`1.Save(`0)">Save(TModel)</h4>
-  <div class="markdown level1 summary"><p>Saves a domain model to the database.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">TModel Save(TModel model)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">TModel</span></td>
-        <td><span class="parametername">model</span></td>
-        <td><p>The domain model to save.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">TModel</span></td>
-        <td><p>The saved <code data-dev-comment-type="typeparamref" class="typeparamref">TModel</code> instance.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/IEntityRepository.cs&amp;version=GBmaster&amp;line=45">View Source</a>
-  </span>
-  <a id="Startitecture_Orm_Common_IEntityRepository_1_SaveAsync_" data-uid="Startitecture.Orm.Common.IEntityRepository`1.SaveAsync*"></a>
-  <h4 id="Startitecture_Orm_Common_IEntityRepository_1_SaveAsync__0_" data-uid="Startitecture.Orm.Common.IEntityRepository`1.SaveAsync(`0)">SaveAsync(TModel)</h4>
-  <div class="markdown level1 summary"><p>Saves a domain model to the database.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">Task&lt;TModel&gt; SaveAsync(TModel model)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">TModel</span></td>
-        <td><span class="parametername">model</span></td>
-        <td><p>The domain model to save.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;TModel&gt;</td>
-        <td><p>The saved <code data-dev-comment-type="typeparamref" class="typeparamref">TModel</code> instance.</p>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">items</code> is null.</p>
 </td>
       </tr>
     </tbody>
@@ -572,7 +517,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/IEntityRepository.cs&amp;version=GBmaster&amp;line=23" class="contribution-link">View Source</a>
+                    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.PostgreSql/IPostgreSqlRepository.cs&amp;version=GBmaster&amp;line=26" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
