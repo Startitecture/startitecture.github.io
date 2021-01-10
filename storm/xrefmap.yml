@@ -781,6 +781,78 @@ references:
   fullName.vb: Startitecture.Orm.Common.EntityRepository(Of TModel, TEntity).SaveAsync
   nameWithType: EntityRepository<TModel, TEntity>.SaveAsync
   nameWithType.vb: EntityRepository(Of TModel, TEntity).SaveAsync
+- uid: Startitecture.Orm.Common.EntityRepository`2.Update*
+  name: Update
+  href: api/Startitecture.Orm.Common.EntityRepository-2.html#Startitecture_Orm_Common_EntityRepository_2_Update_
+  commentId: Overload:Startitecture.Orm.Common.EntityRepository`2.Update
+  isSpec: "True"
+  fullName: Startitecture.Orm.Common.EntityRepository<TModel, TEntity>.Update
+  fullName.vb: Startitecture.Orm.Common.EntityRepository(Of TModel, TEntity).Update
+  nameWithType: EntityRepository<TModel, TEntity>.Update
+  nameWithType.vb: EntityRepository(Of TModel, TEntity).Update
+- uid: Startitecture.Orm.Common.EntityRepository`2.Update``1(Startitecture.Orm.Model.UpdateSet{``0})
+  name: Update<TItem>(UpdateSet<TItem>)
+  href: api/Startitecture.Orm.Common.EntityRepository-2.html#Startitecture_Orm_Common_EntityRepository_2_Update__1_Startitecture_Orm_Model_UpdateSet___0__
+  commentId: M:Startitecture.Orm.Common.EntityRepository`2.Update``1(Startitecture.Orm.Model.UpdateSet{``0})
+  name.vb: Update(Of TItem)(UpdateSet(Of TItem))
+  fullName: Startitecture.Orm.Common.EntityRepository<TModel, TEntity>.Update<TItem>(Startitecture.Orm.Model.UpdateSet<TItem>)
+  fullName.vb: Startitecture.Orm.Common.EntityRepository(Of TModel, TEntity).Update(Of TItem)(Startitecture.Orm.Model.UpdateSet(Of TItem))
+  nameWithType: EntityRepository<TModel, TEntity>.Update<TItem>(UpdateSet<TItem>)
+  nameWithType.vb: EntityRepository(Of TModel, TEntity).Update(Of TItem)(UpdateSet(Of TItem))
+- uid: Startitecture.Orm.Common.EntityRepository`2.UpdateAsync*
+  name: UpdateAsync
+  href: api/Startitecture.Orm.Common.EntityRepository-2.html#Startitecture_Orm_Common_EntityRepository_2_UpdateAsync_
+  commentId: Overload:Startitecture.Orm.Common.EntityRepository`2.UpdateAsync
+  isSpec: "True"
+  fullName: Startitecture.Orm.Common.EntityRepository<TModel, TEntity>.UpdateAsync
+  fullName.vb: Startitecture.Orm.Common.EntityRepository(Of TModel, TEntity).UpdateAsync
+  nameWithType: EntityRepository<TModel, TEntity>.UpdateAsync
+  nameWithType.vb: EntityRepository(Of TModel, TEntity).UpdateAsync
+- uid: Startitecture.Orm.Common.EntityRepository`2.UpdateAsync``1(Startitecture.Orm.Model.UpdateSet{``0})
+  name: UpdateAsync<TItem>(UpdateSet<TItem>)
+  href: api/Startitecture.Orm.Common.EntityRepository-2.html#Startitecture_Orm_Common_EntityRepository_2_UpdateAsync__1_Startitecture_Orm_Model_UpdateSet___0__
+  commentId: M:Startitecture.Orm.Common.EntityRepository`2.UpdateAsync``1(Startitecture.Orm.Model.UpdateSet{``0})
+  name.vb: UpdateAsync(Of TItem)(UpdateSet(Of TItem))
+  fullName: Startitecture.Orm.Common.EntityRepository<TModel, TEntity>.UpdateAsync<TItem>(Startitecture.Orm.Model.UpdateSet<TItem>)
+  fullName.vb: Startitecture.Orm.Common.EntityRepository(Of TModel, TEntity).UpdateAsync(Of TItem)(Startitecture.Orm.Model.UpdateSet(Of TItem))
+  nameWithType: EntityRepository<TModel, TEntity>.UpdateAsync<TItem>(UpdateSet<TItem>)
+  nameWithType.vb: EntityRepository(Of TModel, TEntity).UpdateAsync(Of TItem)(UpdateSet(Of TItem))
+- uid: Startitecture.Orm.Common.EntityRepository`2.UpdateSingle*
+  name: UpdateSingle
+  href: api/Startitecture.Orm.Common.EntityRepository-2.html#Startitecture_Orm_Common_EntityRepository_2_UpdateSingle_
+  commentId: Overload:Startitecture.Orm.Common.EntityRepository`2.UpdateSingle
+  isSpec: "True"
+  fullName: Startitecture.Orm.Common.EntityRepository<TModel, TEntity>.UpdateSingle
+  fullName.vb: Startitecture.Orm.Common.EntityRepository(Of TModel, TEntity).UpdateSingle
+  nameWithType: EntityRepository<TModel, TEntity>.UpdateSingle
+  nameWithType.vb: EntityRepository(Of TModel, TEntity).UpdateSingle
+- uid: Startitecture.Orm.Common.EntityRepository`2.UpdateSingle``2(``0,``1,System.Linq.Expressions.Expression{System.Func{``1,System.Object}}[])
+  name: UpdateSingle<TKey, TItem>(TKey, TItem, Expression<Func<TItem, Object>>[])
+  href: api/Startitecture.Orm.Common.EntityRepository-2.html#Startitecture_Orm_Common_EntityRepository_2_UpdateSingle__2___0___1_System_Linq_Expressions_Expression_System_Func___1_System_Object_____
+  commentId: M:Startitecture.Orm.Common.EntityRepository`2.UpdateSingle``2(``0,``1,System.Linq.Expressions.Expression{System.Func{``1,System.Object}}[])
+  name.vb: UpdateSingle(Of TKey, TItem)(TKey, TItem, Expression(Of Func(Of TItem, Object))())
+  fullName: Startitecture.Orm.Common.EntityRepository<TModel, TEntity>.UpdateSingle<TKey, TItem>(TKey, TItem, System.Linq.Expressions.Expression<System.Func<TItem, System.Object>>[])
+  fullName.vb: Startitecture.Orm.Common.EntityRepository(Of TModel, TEntity).UpdateSingle(Of TKey, TItem)(TKey, TItem, System.Linq.Expressions.Expression(Of System.Func(Of TItem, System.Object))())
+  nameWithType: EntityRepository<TModel, TEntity>.UpdateSingle<TKey, TItem>(TKey, TItem, Expression<Func<TItem, Object>>[])
+  nameWithType.vb: EntityRepository(Of TModel, TEntity).UpdateSingle(Of TKey, TItem)(TKey, TItem, Expression(Of Func(Of TItem, Object))())
+- uid: Startitecture.Orm.Common.EntityRepository`2.UpdateSingleAsync*
+  name: UpdateSingleAsync
+  href: api/Startitecture.Orm.Common.EntityRepository-2.html#Startitecture_Orm_Common_EntityRepository_2_UpdateSingleAsync_
+  commentId: Overload:Startitecture.Orm.Common.EntityRepository`2.UpdateSingleAsync
+  isSpec: "True"
+  fullName: Startitecture.Orm.Common.EntityRepository<TModel, TEntity>.UpdateSingleAsync
+  fullName.vb: Startitecture.Orm.Common.EntityRepository(Of TModel, TEntity).UpdateSingleAsync
+  nameWithType: EntityRepository<TModel, TEntity>.UpdateSingleAsync
+  nameWithType.vb: EntityRepository(Of TModel, TEntity).UpdateSingleAsync
+- uid: Startitecture.Orm.Common.EntityRepository`2.UpdateSingleAsync``2(``0,``1,System.Linq.Expressions.Expression{System.Func{``1,System.Object}}[])
+  name: UpdateSingleAsync<TKey, TItem>(TKey, TItem, Expression<Func<TItem, Object>>[])
+  href: api/Startitecture.Orm.Common.EntityRepository-2.html#Startitecture_Orm_Common_EntityRepository_2_UpdateSingleAsync__2___0___1_System_Linq_Expressions_Expression_System_Func___1_System_Object_____
+  commentId: M:Startitecture.Orm.Common.EntityRepository`2.UpdateSingleAsync``2(``0,``1,System.Linq.Expressions.Expression{System.Func{``1,System.Object}}[])
+  name.vb: UpdateSingleAsync(Of TKey, TItem)(TKey, TItem, Expression(Of Func(Of TItem, Object))())
+  fullName: Startitecture.Orm.Common.EntityRepository<TModel, TEntity>.UpdateSingleAsync<TKey, TItem>(TKey, TItem, System.Linq.Expressions.Expression<System.Func<TItem, System.Object>>[])
+  fullName.vb: Startitecture.Orm.Common.EntityRepository(Of TModel, TEntity).UpdateSingleAsync(Of TKey, TItem)(TKey, TItem, System.Linq.Expressions.Expression(Of System.Func(Of TItem, System.Object))())
+  nameWithType: EntityRepository<TModel, TEntity>.UpdateSingleAsync<TKey, TItem>(TKey, TItem, Expression<Func<TItem, Object>>[])
+  nameWithType.vb: EntityRepository(Of TModel, TEntity).UpdateSingleAsync(Of TKey, TItem)(TKey, TItem, Expression(Of Func(Of TItem, Object))())
 - uid: Startitecture.Orm.Common.IDatabaseContext
   name: IDatabaseContext
   href: api/Startitecture.Orm.Common.IDatabaseContext.html
@@ -1241,6 +1313,78 @@ references:
   fullName.vb: Startitecture.Orm.Common.IEntityRepository(Of TModel).SaveAsync
   nameWithType: IEntityRepository<TModel>.SaveAsync
   nameWithType.vb: IEntityRepository(Of TModel).SaveAsync
+- uid: Startitecture.Orm.Common.IEntityRepository`1.Update*
+  name: Update
+  href: api/Startitecture.Orm.Common.IEntityRepository-1.html#Startitecture_Orm_Common_IEntityRepository_1_Update_
+  commentId: Overload:Startitecture.Orm.Common.IEntityRepository`1.Update
+  isSpec: "True"
+  fullName: Startitecture.Orm.Common.IEntityRepository<TModel>.Update
+  fullName.vb: Startitecture.Orm.Common.IEntityRepository(Of TModel).Update
+  nameWithType: IEntityRepository<TModel>.Update
+  nameWithType.vb: IEntityRepository(Of TModel).Update
+- uid: Startitecture.Orm.Common.IEntityRepository`1.Update``1(Startitecture.Orm.Model.UpdateSet{``0})
+  name: Update<TItem>(UpdateSet<TItem>)
+  href: api/Startitecture.Orm.Common.IEntityRepository-1.html#Startitecture_Orm_Common_IEntityRepository_1_Update__1_Startitecture_Orm_Model_UpdateSet___0__
+  commentId: M:Startitecture.Orm.Common.IEntityRepository`1.Update``1(Startitecture.Orm.Model.UpdateSet{``0})
+  name.vb: Update(Of TItem)(UpdateSet(Of TItem))
+  fullName: Startitecture.Orm.Common.IEntityRepository<TModel>.Update<TItem>(Startitecture.Orm.Model.UpdateSet<TItem>)
+  fullName.vb: Startitecture.Orm.Common.IEntityRepository(Of TModel).Update(Of TItem)(Startitecture.Orm.Model.UpdateSet(Of TItem))
+  nameWithType: IEntityRepository<TModel>.Update<TItem>(UpdateSet<TItem>)
+  nameWithType.vb: IEntityRepository(Of TModel).Update(Of TItem)(UpdateSet(Of TItem))
+- uid: Startitecture.Orm.Common.IEntityRepository`1.UpdateAsync*
+  name: UpdateAsync
+  href: api/Startitecture.Orm.Common.IEntityRepository-1.html#Startitecture_Orm_Common_IEntityRepository_1_UpdateAsync_
+  commentId: Overload:Startitecture.Orm.Common.IEntityRepository`1.UpdateAsync
+  isSpec: "True"
+  fullName: Startitecture.Orm.Common.IEntityRepository<TModel>.UpdateAsync
+  fullName.vb: Startitecture.Orm.Common.IEntityRepository(Of TModel).UpdateAsync
+  nameWithType: IEntityRepository<TModel>.UpdateAsync
+  nameWithType.vb: IEntityRepository(Of TModel).UpdateAsync
+- uid: Startitecture.Orm.Common.IEntityRepository`1.UpdateAsync``1(Startitecture.Orm.Model.UpdateSet{``0})
+  name: UpdateAsync<TItem>(UpdateSet<TItem>)
+  href: api/Startitecture.Orm.Common.IEntityRepository-1.html#Startitecture_Orm_Common_IEntityRepository_1_UpdateAsync__1_Startitecture_Orm_Model_UpdateSet___0__
+  commentId: M:Startitecture.Orm.Common.IEntityRepository`1.UpdateAsync``1(Startitecture.Orm.Model.UpdateSet{``0})
+  name.vb: UpdateAsync(Of TItem)(UpdateSet(Of TItem))
+  fullName: Startitecture.Orm.Common.IEntityRepository<TModel>.UpdateAsync<TItem>(Startitecture.Orm.Model.UpdateSet<TItem>)
+  fullName.vb: Startitecture.Orm.Common.IEntityRepository(Of TModel).UpdateAsync(Of TItem)(Startitecture.Orm.Model.UpdateSet(Of TItem))
+  nameWithType: IEntityRepository<TModel>.UpdateAsync<TItem>(UpdateSet<TItem>)
+  nameWithType.vb: IEntityRepository(Of TModel).UpdateAsync(Of TItem)(UpdateSet(Of TItem))
+- uid: Startitecture.Orm.Common.IEntityRepository`1.UpdateSingle*
+  name: UpdateSingle
+  href: api/Startitecture.Orm.Common.IEntityRepository-1.html#Startitecture_Orm_Common_IEntityRepository_1_UpdateSingle_
+  commentId: Overload:Startitecture.Orm.Common.IEntityRepository`1.UpdateSingle
+  isSpec: "True"
+  fullName: Startitecture.Orm.Common.IEntityRepository<TModel>.UpdateSingle
+  fullName.vb: Startitecture.Orm.Common.IEntityRepository(Of TModel).UpdateSingle
+  nameWithType: IEntityRepository<TModel>.UpdateSingle
+  nameWithType.vb: IEntityRepository(Of TModel).UpdateSingle
+- uid: Startitecture.Orm.Common.IEntityRepository`1.UpdateSingle``2(``0,``1,System.Linq.Expressions.Expression{System.Func{``1,System.Object}}[])
+  name: UpdateSingle<TKey, TItem>(TKey, TItem, Expression<Func<TItem, Object>>[])
+  href: api/Startitecture.Orm.Common.IEntityRepository-1.html#Startitecture_Orm_Common_IEntityRepository_1_UpdateSingle__2___0___1_System_Linq_Expressions_Expression_System_Func___1_System_Object_____
+  commentId: M:Startitecture.Orm.Common.IEntityRepository`1.UpdateSingle``2(``0,``1,System.Linq.Expressions.Expression{System.Func{``1,System.Object}}[])
+  name.vb: UpdateSingle(Of TKey, TItem)(TKey, TItem, Expression(Of Func(Of TItem, Object))())
+  fullName: Startitecture.Orm.Common.IEntityRepository<TModel>.UpdateSingle<TKey, TItem>(TKey, TItem, System.Linq.Expressions.Expression<System.Func<TItem, System.Object>>[])
+  fullName.vb: Startitecture.Orm.Common.IEntityRepository(Of TModel).UpdateSingle(Of TKey, TItem)(TKey, TItem, System.Linq.Expressions.Expression(Of System.Func(Of TItem, System.Object))())
+  nameWithType: IEntityRepository<TModel>.UpdateSingle<TKey, TItem>(TKey, TItem, Expression<Func<TItem, Object>>[])
+  nameWithType.vb: IEntityRepository(Of TModel).UpdateSingle(Of TKey, TItem)(TKey, TItem, Expression(Of Func(Of TItem, Object))())
+- uid: Startitecture.Orm.Common.IEntityRepository`1.UpdateSingleAsync*
+  name: UpdateSingleAsync
+  href: api/Startitecture.Orm.Common.IEntityRepository-1.html#Startitecture_Orm_Common_IEntityRepository_1_UpdateSingleAsync_
+  commentId: Overload:Startitecture.Orm.Common.IEntityRepository`1.UpdateSingleAsync
+  isSpec: "True"
+  fullName: Startitecture.Orm.Common.IEntityRepository<TModel>.UpdateSingleAsync
+  fullName.vb: Startitecture.Orm.Common.IEntityRepository(Of TModel).UpdateSingleAsync
+  nameWithType: IEntityRepository<TModel>.UpdateSingleAsync
+  nameWithType.vb: IEntityRepository(Of TModel).UpdateSingleAsync
+- uid: Startitecture.Orm.Common.IEntityRepository`1.UpdateSingleAsync``2(``0,``1,System.Linq.Expressions.Expression{System.Func{``1,System.Object}}[])
+  name: UpdateSingleAsync<TKey, TItem>(TKey, TItem, Expression<Func<TItem, Object>>[])
+  href: api/Startitecture.Orm.Common.IEntityRepository-1.html#Startitecture_Orm_Common_IEntityRepository_1_UpdateSingleAsync__2___0___1_System_Linq_Expressions_Expression_System_Func___1_System_Object_____
+  commentId: M:Startitecture.Orm.Common.IEntityRepository`1.UpdateSingleAsync``2(``0,``1,System.Linq.Expressions.Expression{System.Func{``1,System.Object}}[])
+  name.vb: UpdateSingleAsync(Of TKey, TItem)(TKey, TItem, Expression(Of Func(Of TItem, Object))())
+  fullName: Startitecture.Orm.Common.IEntityRepository<TModel>.UpdateSingleAsync<TKey, TItem>(TKey, TItem, System.Linq.Expressions.Expression<System.Func<TItem, System.Object>>[])
+  fullName.vb: Startitecture.Orm.Common.IEntityRepository(Of TModel).UpdateSingleAsync(Of TKey, TItem)(TKey, TItem, System.Linq.Expressions.Expression(Of System.Func(Of TItem, System.Object))())
+  nameWithType: IEntityRepository<TModel>.UpdateSingleAsync<TKey, TItem>(TKey, TItem, Expression<Func<TItem, Object>>[])
+  nameWithType.vb: IEntityRepository(Of TModel).UpdateSingleAsync(Of TKey, TItem)(TKey, TItem, Expression(Of Func(Of TItem, Object))())
 - uid: Startitecture.Orm.Common.IReadOnlyRepository`1
   name: IReadOnlyRepository<TModel>
   href: api/Startitecture.Orm.Common.IReadOnlyRepository-1.html
@@ -2261,6 +2405,67 @@ references:
   isSpec: "True"
   fullName: Startitecture.Orm.Common.JoinClause.Indent
   nameWithType: JoinClause.Indent
+- uid: Startitecture.Orm.Common.MapResult`1
+  name: MapResult<T>
+  href: api/Startitecture.Orm.Common.MapResult-1.html
+  commentId: T:Startitecture.Orm.Common.MapResult`1
+  name.vb: MapResult(Of T)
+  fullName: Startitecture.Orm.Common.MapResult<T>
+  fullName.vb: Startitecture.Orm.Common.MapResult(Of T)
+  nameWithType: MapResult<T>
+  nameWithType.vb: MapResult(Of T)
+- uid: Startitecture.Orm.Common.MapResult`1.#ctor(`0,System.Collections.Generic.Dictionary{System.String,System.Object})
+  name: MapResult(T, Dictionary<String, Object>)
+  href: api/Startitecture.Orm.Common.MapResult-1.html#Startitecture_Orm_Common_MapResult_1__ctor__0_System_Collections_Generic_Dictionary_System_String_System_Object__
+  commentId: M:Startitecture.Orm.Common.MapResult`1.#ctor(`0,System.Collections.Generic.Dictionary{System.String,System.Object})
+  name.vb: MapResult(T, Dictionary(Of String, Object))
+  fullName: Startitecture.Orm.Common.MapResult<T>.MapResult(T, System.Collections.Generic.Dictionary<System.String, System.Object>)
+  fullName.vb: Startitecture.Orm.Common.MapResult(Of T).MapResult(T, System.Collections.Generic.Dictionary(Of System.String, System.Object))
+  nameWithType: MapResult<T>.MapResult(T, Dictionary<String, Object>)
+  nameWithType.vb: MapResult(Of T).MapResult(T, Dictionary(Of String, Object))
+- uid: Startitecture.Orm.Common.MapResult`1.#ctor*
+  name: MapResult
+  href: api/Startitecture.Orm.Common.MapResult-1.html#Startitecture_Orm_Common_MapResult_1__ctor_
+  commentId: Overload:Startitecture.Orm.Common.MapResult`1.#ctor
+  isSpec: "True"
+  fullName: Startitecture.Orm.Common.MapResult<T>.MapResult
+  fullName.vb: Startitecture.Orm.Common.MapResult(Of T).MapResult
+  nameWithType: MapResult<T>.MapResult
+  nameWithType.vb: MapResult(Of T).MapResult
+- uid: Startitecture.Orm.Common.MapResult`1.Item
+  name: Item
+  href: api/Startitecture.Orm.Common.MapResult-1.html#Startitecture_Orm_Common_MapResult_1_Item
+  commentId: P:Startitecture.Orm.Common.MapResult`1.Item
+  fullName: Startitecture.Orm.Common.MapResult<T>.Item
+  fullName.vb: Startitecture.Orm.Common.MapResult(Of T).Item
+  nameWithType: MapResult<T>.Item
+  nameWithType.vb: MapResult(Of T).Item
+- uid: Startitecture.Orm.Common.MapResult`1.Item*
+  name: Item
+  href: api/Startitecture.Orm.Common.MapResult-1.html#Startitecture_Orm_Common_MapResult_1_Item_
+  commentId: Overload:Startitecture.Orm.Common.MapResult`1.Item
+  isSpec: "True"
+  fullName: Startitecture.Orm.Common.MapResult<T>.Item
+  fullName.vb: Startitecture.Orm.Common.MapResult(Of T).Item
+  nameWithType: MapResult<T>.Item
+  nameWithType.vb: MapResult(Of T).Item
+- uid: Startitecture.Orm.Common.MapResult`1.Values
+  name: Values
+  href: api/Startitecture.Orm.Common.MapResult-1.html#Startitecture_Orm_Common_MapResult_1_Values
+  commentId: P:Startitecture.Orm.Common.MapResult`1.Values
+  fullName: Startitecture.Orm.Common.MapResult<T>.Values
+  fullName.vb: Startitecture.Orm.Common.MapResult(Of T).Values
+  nameWithType: MapResult<T>.Values
+  nameWithType.vb: MapResult(Of T).Values
+- uid: Startitecture.Orm.Common.MapResult`1.Values*
+  name: Values
+  href: api/Startitecture.Orm.Common.MapResult-1.html#Startitecture_Orm_Common_MapResult_1_Values_
+  commentId: Overload:Startitecture.Orm.Common.MapResult`1.Values
+  isSpec: "True"
+  fullName: Startitecture.Orm.Common.MapResult<T>.Values
+  fullName.vb: Startitecture.Orm.Common.MapResult(Of T).Values
+  nameWithType: MapResult<T>.Values
+  nameWithType.vb: MapResult(Of T).Values
 - uid: Startitecture.Orm.Common.NameQualifier
   name: NameQualifier
   href: api/Startitecture.Orm.Common.NameQualifier.html
@@ -2360,24 +2565,23 @@ references:
   fullName.vb: Startitecture.Orm.Common.ReadOnlyRepository(Of TModel, TEntity)
   nameWithType: ReadOnlyRepository<TModel, TEntity>
   nameWithType.vb: ReadOnlyRepository(Of TModel, TEntity)
-- uid: Startitecture.Orm.Common.ReadOnlyRepository`2.#ctor(Startitecture.Orm.Common.IRepositoryProvider,Startitecture.Orm.Model.IEntityMapper,System.Collections.Generic.IComparer{`1},System.Linq.Expressions.Expression{System.Func{`1,System.Object}}[])
-  name: ReadOnlyRepository(IRepositoryProvider, IEntityMapper, IComparer<TEntity>, Expression<Func<TEntity, Object>>[])
-  href: api/Startitecture.Orm.Common.ReadOnlyRepository-2.html#Startitecture_Orm_Common_ReadOnlyRepository_2__ctor_Startitecture_Orm_Common_IRepositoryProvider_Startitecture_Orm_Model_IEntityMapper_System_Collections_Generic_IComparer__1__System_Linq_Expressions_Expression_System_Func__1_System_Object_____
-  commentId: M:Startitecture.Orm.Common.ReadOnlyRepository`2.#ctor(Startitecture.Orm.Common.IRepositoryProvider,Startitecture.Orm.Model.IEntityMapper,System.Collections.Generic.IComparer{`1},System.Linq.Expressions.Expression{System.Func{`1,System.Object}}[])
-  name.vb: ReadOnlyRepository(IRepositoryProvider, IEntityMapper, IComparer(Of TEntity), Expression(Of Func(Of TEntity, Object))())
-  fullName: Startitecture.Orm.Common.ReadOnlyRepository<TModel, TEntity>.ReadOnlyRepository(Startitecture.Orm.Common.IRepositoryProvider, Startitecture.Orm.Model.IEntityMapper, System.Collections.Generic.IComparer<TEntity>, System.Linq.Expressions.Expression<System.Func<TEntity, System.Object>>[])
-  fullName.vb: Startitecture.Orm.Common.ReadOnlyRepository(Of TModel, TEntity).ReadOnlyRepository(Startitecture.Orm.Common.IRepositoryProvider, Startitecture.Orm.Model.IEntityMapper, System.Collections.Generic.IComparer(Of TEntity), System.Linq.Expressions.Expression(Of System.Func(Of TEntity, System.Object))())
-  nameWithType: ReadOnlyRepository<TModel, TEntity>.ReadOnlyRepository(IRepositoryProvider, IEntityMapper, IComparer<TEntity>, Expression<Func<TEntity, Object>>[])
-  nameWithType.vb: ReadOnlyRepository(Of TModel, TEntity).ReadOnlyRepository(IRepositoryProvider, IEntityMapper, IComparer(Of TEntity), Expression(Of Func(Of TEntity, Object))())
-- uid: Startitecture.Orm.Common.ReadOnlyRepository`2.#ctor(Startitecture.Orm.Common.IRepositoryProvider,Startitecture.Orm.Model.IEntityMapper,System.Linq.Expressions.Expression{System.Func{`1,System.Object}}[])
-  name: ReadOnlyRepository(IRepositoryProvider, IEntityMapper, Expression<Func<TEntity, Object>>[])
-  href: api/Startitecture.Orm.Common.ReadOnlyRepository-2.html#Startitecture_Orm_Common_ReadOnlyRepository_2__ctor_Startitecture_Orm_Common_IRepositoryProvider_Startitecture_Orm_Model_IEntityMapper_System_Linq_Expressions_Expression_System_Func__1_System_Object_____
-  commentId: M:Startitecture.Orm.Common.ReadOnlyRepository`2.#ctor(Startitecture.Orm.Common.IRepositoryProvider,Startitecture.Orm.Model.IEntityMapper,System.Linq.Expressions.Expression{System.Func{`1,System.Object}}[])
-  name.vb: ReadOnlyRepository(IRepositoryProvider, IEntityMapper, Expression(Of Func(Of TEntity, Object))())
-  fullName: Startitecture.Orm.Common.ReadOnlyRepository<TModel, TEntity>.ReadOnlyRepository(Startitecture.Orm.Common.IRepositoryProvider, Startitecture.Orm.Model.IEntityMapper, System.Linq.Expressions.Expression<System.Func<TEntity, System.Object>>[])
-  fullName.vb: Startitecture.Orm.Common.ReadOnlyRepository(Of TModel, TEntity).ReadOnlyRepository(Startitecture.Orm.Common.IRepositoryProvider, Startitecture.Orm.Model.IEntityMapper, System.Linq.Expressions.Expression(Of System.Func(Of TEntity, System.Object))())
-  nameWithType: ReadOnlyRepository<TModel, TEntity>.ReadOnlyRepository(IRepositoryProvider, IEntityMapper, Expression<Func<TEntity, Object>>[])
-  nameWithType.vb: ReadOnlyRepository(Of TModel, TEntity).ReadOnlyRepository(IRepositoryProvider, IEntityMapper, Expression(Of Func(Of TEntity, Object))())
+- uid: Startitecture.Orm.Common.ReadOnlyRepository`2.#ctor(Startitecture.Orm.Common.IRepositoryProvider,Startitecture.Orm.Model.IEntityMapper)
+  name: ReadOnlyRepository(IRepositoryProvider, IEntityMapper)
+  href: api/Startitecture.Orm.Common.ReadOnlyRepository-2.html#Startitecture_Orm_Common_ReadOnlyRepository_2__ctor_Startitecture_Orm_Common_IRepositoryProvider_Startitecture_Orm_Model_IEntityMapper_
+  commentId: M:Startitecture.Orm.Common.ReadOnlyRepository`2.#ctor(Startitecture.Orm.Common.IRepositoryProvider,Startitecture.Orm.Model.IEntityMapper)
+  fullName: Startitecture.Orm.Common.ReadOnlyRepository<TModel, TEntity>.ReadOnlyRepository(Startitecture.Orm.Common.IRepositoryProvider, Startitecture.Orm.Model.IEntityMapper)
+  fullName.vb: Startitecture.Orm.Common.ReadOnlyRepository(Of TModel, TEntity).ReadOnlyRepository(Startitecture.Orm.Common.IRepositoryProvider, Startitecture.Orm.Model.IEntityMapper)
+  nameWithType: ReadOnlyRepository<TModel, TEntity>.ReadOnlyRepository(IRepositoryProvider, IEntityMapper)
+  nameWithType.vb: ReadOnlyRepository(Of TModel, TEntity).ReadOnlyRepository(IRepositoryProvider, IEntityMapper)
+- uid: Startitecture.Orm.Common.ReadOnlyRepository`2.#ctor(Startitecture.Orm.Common.IRepositoryProvider,Startitecture.Orm.Model.IEntityMapper,System.Collections.Generic.IComparer{`1})
+  name: ReadOnlyRepository(IRepositoryProvider, IEntityMapper, IComparer<TEntity>)
+  href: api/Startitecture.Orm.Common.ReadOnlyRepository-2.html#Startitecture_Orm_Common_ReadOnlyRepository_2__ctor_Startitecture_Orm_Common_IRepositoryProvider_Startitecture_Orm_Model_IEntityMapper_System_Collections_Generic_IComparer__1__
+  commentId: M:Startitecture.Orm.Common.ReadOnlyRepository`2.#ctor(Startitecture.Orm.Common.IRepositoryProvider,Startitecture.Orm.Model.IEntityMapper,System.Collections.Generic.IComparer{`1})
+  name.vb: ReadOnlyRepository(IRepositoryProvider, IEntityMapper, IComparer(Of TEntity))
+  fullName: Startitecture.Orm.Common.ReadOnlyRepository<TModel, TEntity>.ReadOnlyRepository(Startitecture.Orm.Common.IRepositoryProvider, Startitecture.Orm.Model.IEntityMapper, System.Collections.Generic.IComparer<TEntity>)
+  fullName.vb: Startitecture.Orm.Common.ReadOnlyRepository(Of TModel, TEntity).ReadOnlyRepository(Startitecture.Orm.Common.IRepositoryProvider, Startitecture.Orm.Model.IEntityMapper, System.Collections.Generic.IComparer(Of TEntity))
+  nameWithType: ReadOnlyRepository<TModel, TEntity>.ReadOnlyRepository(IRepositoryProvider, IEntityMapper, IComparer<TEntity>)
+  nameWithType.vb: ReadOnlyRepository(Of TModel, TEntity).ReadOnlyRepository(IRepositoryProvider, IEntityMapper, IComparer(Of TEntity))
 - uid: Startitecture.Orm.Common.ReadOnlyRepository`2.#ctor*
   name: ReadOnlyRepository
   href: api/Startitecture.Orm.Common.ReadOnlyRepository-2.html#Startitecture_Orm_Common_ReadOnlyRepository_2__ctor_
@@ -2635,23 +2839,24 @@ references:
   fullName.vb: Startitecture.Orm.Common.ReadOnlyRepository(Of TModel, TEntity).GetExampleEntity(Of TItem)(TItem)
   nameWithType: ReadOnlyRepository<TModel, TEntity>.GetExampleEntity<TItem>(TItem)
   nameWithType.vb: ReadOnlyRepository(Of TModel, TEntity).GetExampleEntity(Of TItem)(TItem)
-- uid: Startitecture.Orm.Common.ReadOnlyRepository`2.GetUniqueItemSelection(`1)
-  name: GetUniqueItemSelection(TEntity)
-  href: api/Startitecture.Orm.Common.ReadOnlyRepository-2.html#Startitecture_Orm_Common_ReadOnlyRepository_2_GetUniqueItemSelection__1_
-  commentId: M:Startitecture.Orm.Common.ReadOnlyRepository`2.GetUniqueItemSelection(`1)
-  fullName: Startitecture.Orm.Common.ReadOnlyRepository<TModel, TEntity>.GetUniqueItemSelection(TEntity)
-  fullName.vb: Startitecture.Orm.Common.ReadOnlyRepository(Of TModel, TEntity).GetUniqueItemSelection(TEntity)
-  nameWithType: ReadOnlyRepository<TModel, TEntity>.GetUniqueItemSelection(TEntity)
-  nameWithType.vb: ReadOnlyRepository(Of TModel, TEntity).GetUniqueItemSelection(TEntity)
-- uid: Startitecture.Orm.Common.ReadOnlyRepository`2.GetUniqueItemSelection*
-  name: GetUniqueItemSelection
-  href: api/Startitecture.Orm.Common.ReadOnlyRepository-2.html#Startitecture_Orm_Common_ReadOnlyRepository_2_GetUniqueItemSelection_
-  commentId: Overload:Startitecture.Orm.Common.ReadOnlyRepository`2.GetUniqueItemSelection
+- uid: Startitecture.Orm.Common.ReadOnlyRepository`2.GetUniqueSet*
+  name: GetUniqueSet
+  href: api/Startitecture.Orm.Common.ReadOnlyRepository-2.html#Startitecture_Orm_Common_ReadOnlyRepository_2_GetUniqueSet_
+  commentId: Overload:Startitecture.Orm.Common.ReadOnlyRepository`2.GetUniqueSet
   isSpec: "True"
-  fullName: Startitecture.Orm.Common.ReadOnlyRepository<TModel, TEntity>.GetUniqueItemSelection
-  fullName.vb: Startitecture.Orm.Common.ReadOnlyRepository(Of TModel, TEntity).GetUniqueItemSelection
-  nameWithType: ReadOnlyRepository<TModel, TEntity>.GetUniqueItemSelection
-  nameWithType.vb: ReadOnlyRepository(Of TModel, TEntity).GetUniqueItemSelection
+  fullName: Startitecture.Orm.Common.ReadOnlyRepository<TModel, TEntity>.GetUniqueSet
+  fullName.vb: Startitecture.Orm.Common.ReadOnlyRepository(Of TModel, TEntity).GetUniqueSet
+  nameWithType: ReadOnlyRepository<TModel, TEntity>.GetUniqueSet
+  nameWithType.vb: ReadOnlyRepository(Of TModel, TEntity).GetUniqueSet
+- uid: Startitecture.Orm.Common.ReadOnlyRepository`2.GetUniqueSet``1(``0,Startitecture.Orm.Model.ValueFilterSet{`1})
+  name: GetUniqueSet<TItem>(TItem, ValueFilterSet<TEntity>)
+  href: api/Startitecture.Orm.Common.ReadOnlyRepository-2.html#Startitecture_Orm_Common_ReadOnlyRepository_2_GetUniqueSet__1___0_Startitecture_Orm_Model_ValueFilterSet__1__
+  commentId: M:Startitecture.Orm.Common.ReadOnlyRepository`2.GetUniqueSet``1(``0,Startitecture.Orm.Model.ValueFilterSet{`1})
+  name.vb: GetUniqueSet(Of TItem)(TItem, ValueFilterSet(Of TEntity))
+  fullName: Startitecture.Orm.Common.ReadOnlyRepository<TModel, TEntity>.GetUniqueSet<TItem>(TItem, Startitecture.Orm.Model.ValueFilterSet<TEntity>)
+  fullName.vb: Startitecture.Orm.Common.ReadOnlyRepository(Of TModel, TEntity).GetUniqueSet(Of TItem)(TItem, Startitecture.Orm.Model.ValueFilterSet(Of TEntity))
+  nameWithType: ReadOnlyRepository<TModel, TEntity>.GetUniqueSet<TItem>(TItem, ValueFilterSet<TEntity>)
+  nameWithType.vb: ReadOnlyRepository(Of TModel, TEntity).GetUniqueSet(Of TItem)(TItem, ValueFilterSet(Of TEntity))
 - uid: Startitecture.Orm.Common.ReadOnlyRepository`2.RepositoryProvider
   name: RepositoryProvider
   href: api/Startitecture.Orm.Common.ReadOnlyRepository-2.html#Startitecture_Orm_Common_ReadOnlyRepository_2_RepositoryProvider
@@ -7219,6 +7424,22 @@ references:
   isSpec: "True"
   fullName: Startitecture.Orm.Model.IUpdateSet.Filters
   nameWithType: IUpdateSet.Filters
+- uid: Startitecture.Orm.Model.IUpdateSet.MapSet*
+  name: MapSet
+  href: api/Startitecture.Orm.Model.IUpdateSet.html#Startitecture_Orm_Model_IUpdateSet_MapSet_
+  commentId: Overload:Startitecture.Orm.Model.IUpdateSet.MapSet
+  isSpec: "True"
+  fullName: Startitecture.Orm.Model.IUpdateSet.MapSet
+  nameWithType: IUpdateSet.MapSet
+- uid: Startitecture.Orm.Model.IUpdateSet.MapSet``1
+  name: MapSet<TDestEntity>()
+  href: api/Startitecture.Orm.Model.IUpdateSet.html#Startitecture_Orm_Model_IUpdateSet_MapSet__1
+  commentId: M:Startitecture.Orm.Model.IUpdateSet.MapSet``1
+  name.vb: MapSet(Of TDestEntity)()
+  fullName: Startitecture.Orm.Model.IUpdateSet.MapSet<TDestEntity>()
+  fullName.vb: Startitecture.Orm.Model.IUpdateSet.MapSet(Of TDestEntity)()
+  nameWithType: IUpdateSet.MapSet<TDestEntity>()
+  nameWithType.vb: IUpdateSet.MapSet(Of TDestEntity)()
 - uid: Startitecture.Orm.Model.IUpdateSet.ParentExpression
   name: ParentExpression
   href: api/Startitecture.Orm.Model.IUpdateSet.html#Startitecture_Orm_Model_IUpdateSet_ParentExpression
@@ -8086,6 +8307,24 @@ references:
   fullName.vb: Startitecture.Orm.Model.UpdateSet(Of T).From
   nameWithType: UpdateSet<T>.From
   nameWithType.vb: UpdateSet(Of T).From
+- uid: Startitecture.Orm.Model.UpdateSet`1.MapSet*
+  name: MapSet
+  href: api/Startitecture.Orm.Model.UpdateSet-1.html#Startitecture_Orm_Model_UpdateSet_1_MapSet_
+  commentId: Overload:Startitecture.Orm.Model.UpdateSet`1.MapSet
+  isSpec: "True"
+  fullName: Startitecture.Orm.Model.UpdateSet<T>.MapSet
+  fullName.vb: Startitecture.Orm.Model.UpdateSet(Of T).MapSet
+  nameWithType: UpdateSet<T>.MapSet
+  nameWithType.vb: UpdateSet(Of T).MapSet
+- uid: Startitecture.Orm.Model.UpdateSet`1.MapSet``1
+  name: MapSet<TDestEntity>()
+  href: api/Startitecture.Orm.Model.UpdateSet-1.html#Startitecture_Orm_Model_UpdateSet_1_MapSet__1
+  commentId: M:Startitecture.Orm.Model.UpdateSet`1.MapSet``1
+  name.vb: MapSet(Of TDestEntity)()
+  fullName: Startitecture.Orm.Model.UpdateSet<T>.MapSet<TDestEntity>()
+  fullName.vb: Startitecture.Orm.Model.UpdateSet(Of T).MapSet(Of TDestEntity)()
+  nameWithType: UpdateSet<T>.MapSet<TDestEntity>()
+  nameWithType.vb: UpdateSet(Of T).MapSet(Of TDestEntity)()
 - uid: Startitecture.Orm.Model.UpdateSet`1.ParentExpression
   name: ParentExpression
   href: api/Startitecture.Orm.Model.UpdateSet-1.html#Startitecture_Orm_Model_UpdateSet_1_ParentExpression
@@ -8364,6 +8603,23 @@ references:
   fullName.vb: Startitecture.Orm.Model.ValueFilterSet(Of T)
   nameWithType: ValueFilterSet<T>
   nameWithType.vb: ValueFilterSet(Of T)
+- uid: Startitecture.Orm.Model.ValueFilterSet`1.Add(Startitecture.Orm.Model.IValueFilter)
+  name: Add(IValueFilter)
+  href: api/Startitecture.Orm.Model.ValueFilterSet-1.html#Startitecture_Orm_Model_ValueFilterSet_1_Add_Startitecture_Orm_Model_IValueFilter_
+  commentId: M:Startitecture.Orm.Model.ValueFilterSet`1.Add(Startitecture.Orm.Model.IValueFilter)
+  fullName: Startitecture.Orm.Model.ValueFilterSet<T>.Add(Startitecture.Orm.Model.IValueFilter)
+  fullName.vb: Startitecture.Orm.Model.ValueFilterSet(Of T).Add(Startitecture.Orm.Model.IValueFilter)
+  nameWithType: ValueFilterSet<T>.Add(IValueFilter)
+  nameWithType.vb: ValueFilterSet(Of T).Add(IValueFilter)
+- uid: Startitecture.Orm.Model.ValueFilterSet`1.Add*
+  name: Add
+  href: api/Startitecture.Orm.Model.ValueFilterSet-1.html#Startitecture_Orm_Model_ValueFilterSet_1_Add_
+  commentId: Overload:Startitecture.Orm.Model.ValueFilterSet`1.Add
+  isSpec: "True"
+  fullName: Startitecture.Orm.Model.ValueFilterSet<T>.Add
+  fullName.vb: Startitecture.Orm.Model.ValueFilterSet(Of T).Add
+  nameWithType: ValueFilterSet<T>.Add
+  nameWithType.vb: ValueFilterSet(Of T).Add
 - uid: Startitecture.Orm.Model.ValueFilterSet`1.AreEqual*
   name: AreEqual
   href: api/Startitecture.Orm.Model.ValueFilterSet-1.html#Startitecture_Orm_Model_ValueFilterSet_1_AreEqual_
@@ -8382,15 +8638,6 @@ references:
   fullName.vb: Startitecture.Orm.Model.ValueFilterSet(Of T).AreEqual(Of TValue)(System.Linq.Expressions.Expression(Of System.Func(Of T, TValue)), TValue)
   nameWithType: ValueFilterSet<T>.AreEqual<TValue>(Expression<Func<T, TValue>>, TValue)
   nameWithType.vb: ValueFilterSet(Of T).AreEqual(Of TValue)(Expression(Of Func(Of T, TValue)), TValue)
-- uid: Startitecture.Orm.Model.ValueFilterSet`1.AreEqual``1(System.Linq.Expressions.LambdaExpression,``0)
-  name: AreEqual<TValue>(LambdaExpression, TValue)
-  href: api/Startitecture.Orm.Model.ValueFilterSet-1.html#Startitecture_Orm_Model_ValueFilterSet_1_AreEqual__1_System_Linq_Expressions_LambdaExpression___0_
-  commentId: M:Startitecture.Orm.Model.ValueFilterSet`1.AreEqual``1(System.Linq.Expressions.LambdaExpression,``0)
-  name.vb: AreEqual(Of TValue)(LambdaExpression, TValue)
-  fullName: Startitecture.Orm.Model.ValueFilterSet<T>.AreEqual<TValue>(System.Linq.Expressions.LambdaExpression, TValue)
-  fullName.vb: Startitecture.Orm.Model.ValueFilterSet(Of T).AreEqual(Of TValue)(System.Linq.Expressions.LambdaExpression, TValue)
-  nameWithType: ValueFilterSet<T>.AreEqual<TValue>(LambdaExpression, TValue)
-  nameWithType.vb: ValueFilterSet(Of T).AreEqual(Of TValue)(LambdaExpression, TValue)
 - uid: Startitecture.Orm.Model.ValueFilterSet`1.AreEqual``2(System.Linq.Expressions.Expression{System.Func{``0,``1}},``1)
   name: AreEqual<TEntity, TValue>(Expression<Func<TEntity, TValue>>, TValue)
   href: api/Startitecture.Orm.Model.ValueFilterSet-1.html#Startitecture_Orm_Model_ValueFilterSet_1_AreEqual__2_System_Linq_Expressions_Expression_System_Func___0___1_____1_
@@ -8607,14 +8854,15 @@ references:
   fullName.vb: Startitecture.Orm.Model.ValueFilterSet(Of T).Matching
   nameWithType: ValueFilterSet<T>.Matching
   nameWithType.vb: ValueFilterSet(Of T).Matching
-- uid: Startitecture.Orm.Model.ValueFilterSet`1.MatchKey(`0,Startitecture.Orm.Model.IEntityDefinitionProvider)
-  name: MatchKey(T, IEntityDefinitionProvider)
-  href: api/Startitecture.Orm.Model.ValueFilterSet-1.html#Startitecture_Orm_Model_ValueFilterSet_1_MatchKey__0_Startitecture_Orm_Model_IEntityDefinitionProvider_
-  commentId: M:Startitecture.Orm.Model.ValueFilterSet`1.MatchKey(`0,Startitecture.Orm.Model.IEntityDefinitionProvider)
-  fullName: Startitecture.Orm.Model.ValueFilterSet<T>.MatchKey(T, Startitecture.Orm.Model.IEntityDefinitionProvider)
-  fullName.vb: Startitecture.Orm.Model.ValueFilterSet(Of T).MatchKey(T, Startitecture.Orm.Model.IEntityDefinitionProvider)
-  nameWithType: ValueFilterSet<T>.MatchKey(T, IEntityDefinitionProvider)
-  nameWithType.vb: ValueFilterSet(Of T).MatchKey(T, IEntityDefinitionProvider)
+- uid: Startitecture.Orm.Model.ValueFilterSet`1.MatchKey(`0,Startitecture.Orm.Model.IEntityDefinitionProvider,System.Linq.Expressions.Expression{System.Func{`0,System.Object}}[])
+  name: MatchKey(T, IEntityDefinitionProvider, Expression<Func<T, Object>>[])
+  href: api/Startitecture.Orm.Model.ValueFilterSet-1.html#Startitecture_Orm_Model_ValueFilterSet_1_MatchKey__0_Startitecture_Orm_Model_IEntityDefinitionProvider_System_Linq_Expressions_Expression_System_Func__0_System_Object_____
+  commentId: M:Startitecture.Orm.Model.ValueFilterSet`1.MatchKey(`0,Startitecture.Orm.Model.IEntityDefinitionProvider,System.Linq.Expressions.Expression{System.Func{`0,System.Object}}[])
+  name.vb: MatchKey(T, IEntityDefinitionProvider, Expression(Of Func(Of T, Object))())
+  fullName: Startitecture.Orm.Model.ValueFilterSet<T>.MatchKey(T, Startitecture.Orm.Model.IEntityDefinitionProvider, System.Linq.Expressions.Expression<System.Func<T, System.Object>>[])
+  fullName.vb: Startitecture.Orm.Model.ValueFilterSet(Of T).MatchKey(T, Startitecture.Orm.Model.IEntityDefinitionProvider, System.Linq.Expressions.Expression(Of System.Func(Of T, System.Object))())
+  nameWithType: ValueFilterSet<T>.MatchKey(T, IEntityDefinitionProvider, Expression<Func<T, Object>>[])
+  nameWithType.vb: ValueFilterSet(Of T).MatchKey(T, IEntityDefinitionProvider, Expression(Of Func(Of T, Object))())
 - uid: Startitecture.Orm.Model.ValueFilterSet`1.MatchKey*
   name: MatchKey
   href: api/Startitecture.Orm.Model.ValueFilterSet-1.html#Startitecture_Orm_Model_ValueFilterSet_1_MatchKey_

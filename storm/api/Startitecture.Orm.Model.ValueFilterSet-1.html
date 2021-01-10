@@ -160,7 +160,54 @@
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/ValueFilterSet.cs&amp;version=GBmaster&amp;line=155">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/ValueFilterSet.cs&amp;version=GBmaster&amp;line=47">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Model_ValueFilterSet_1_Add_" data-uid="Startitecture.Orm.Model.ValueFilterSet`1.Add*"></a>
+  <h4 id="Startitecture_Orm_Model_ValueFilterSet_1_Add_Startitecture_Orm_Model_IValueFilter_" data-uid="Startitecture.Orm.Model.ValueFilterSet`1.Add(Startitecture.Orm.Model.IValueFilter)">Add(IValueFilter)</h4>
+  <div class="markdown level1 summary"><p>Adds an <a class="xref" href="Startitecture.Orm.Model.IValueFilter.html">IValueFilter</a> to the value filter set.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ValueFilterSet&lt;T&gt; Add([NotNull] IValueFilter valueFilter)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Model.IValueFilter.html">IValueFilter</a></td>
+        <td><span class="parametername">valueFilter</span></td>
+        <td><p>The filter to add.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Startitecture.Orm.Model.ValueFilterSet-1.html">ValueFilterSet</a>&lt;T&gt;</td>
+        <td><p>The current <a class="xref" href="Startitecture.Orm.Model.ValueFilterSet-1.html">ValueFilterSet&lt;T&gt;</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/ValueFilterSet.cs&amp;version=GBmaster&amp;line=189">View Source</a>
   </span>
   <a id="Startitecture_Orm_Model_ValueFilterSet_1_AreEqual_" data-uid="Startitecture.Orm.Model.ValueFilterSet`1.AreEqual*"></a>
   <h4 id="Startitecture_Orm_Model_ValueFilterSet_1_AreEqual__1_System_Linq_Expressions_Expression_System_Func__0___0_____0_" data-uid="Startitecture.Orm.Model.ValueFilterSet`1.AreEqual``1(System.Linq.Expressions.Expression{System.Func{`0,``0}},``0)">AreEqual&lt;TValue&gt;(Expression&lt;Func&lt;T, TValue&gt;&gt;, TValue)</h4>
@@ -206,7 +253,7 @@
     <tbody>
       <tr>
         <td><a class="xref" href="Startitecture.Orm.Model.ValueFilterSet-1.html">ValueFilterSet</a>&lt;T&gt;</td>
-        <td><p>The current <a class="xref" href="Startitecture.Orm.Model.EntitySelection-1.html">EntitySelection&lt;T&gt;</a>.</p>
+        <td><p>The current <a class="xref" href="Startitecture.Orm.Model.ValueFilterSet-1.html">ValueFilterSet&lt;T&gt;</a>.</p>
 </td>
       </tr>
     </tbody>
@@ -245,92 +292,7 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/ValueFilterSet.cs&amp;version=GBmaster&amp;line=204">View Source</a>
-  </span>
-  <a id="Startitecture_Orm_Model_ValueFilterSet_1_AreEqual_" data-uid="Startitecture.Orm.Model.ValueFilterSet`1.AreEqual*"></a>
-  <h4 id="Startitecture_Orm_Model_ValueFilterSet_1_AreEqual__1_System_Linq_Expressions_LambdaExpression___0_" data-uid="Startitecture.Orm.Model.ValueFilterSet`1.AreEqual``1(System.Linq.Expressions.LambdaExpression,``0)">AreEqual&lt;TValue&gt;(LambdaExpression, TValue)</h4>
-  <div class="markdown level1 summary"><p>Adds a equality filter for the specified property.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ValueFilterSet&lt;T&gt; AreEqual&lt;TValue&gt;([NotNull] LambdaExpression valueExpression, TValue value)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Linq.Expressions.LambdaExpression</span></td>
-        <td><span class="parametername">valueExpression</span></td>
-        <td><p>The value expression.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">TValue</span></td>
-        <td><span class="parametername">value</span></td>
-        <td><p>The value to match.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Startitecture.Orm.Model.ValueFilterSet-1.html">ValueFilterSet</a>&lt;T&gt;</td>
-        <td><p>The current <a class="xref" href="Startitecture.Orm.Model.EntitySelection-1.html">EntitySelection&lt;T&gt;</a>.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">TValue</span></td>
-        <td><p>The type of the value.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="exceptions">Exceptions</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Condition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.ArgumentNullException</span></td>
-        <td><p><code data-dev-comment-type="paramref" class="paramref">valueExpression</code> is null.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/ValueFilterSet.cs&amp;version=GBmaster&amp;line=181">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/ValueFilterSet.cs&amp;version=GBmaster&amp;line=215">View Source</a>
   </span>
   <a id="Startitecture_Orm_Model_ValueFilterSet_1_AreEqual_" data-uid="Startitecture.Orm.Model.ValueFilterSet`1.AreEqual*"></a>
   <h4 id="Startitecture_Orm_Model_ValueFilterSet_1_AreEqual__2_System_Linq_Expressions_Expression_System_Func___0___1_____1_" data-uid="Startitecture.Orm.Model.ValueFilterSet`1.AreEqual``2(System.Linq.Expressions.Expression{System.Func{``0,``1}},``1)">AreEqual&lt;TEntity, TValue&gt;(Expression&lt;Func&lt;TEntity, TValue&gt;&gt;, TValue)</h4>
@@ -376,7 +338,7 @@
     <tbody>
       <tr>
         <td><a class="xref" href="Startitecture.Orm.Model.ValueFilterSet-1.html">ValueFilterSet</a>&lt;T&gt;</td>
-        <td><p>The current <a class="xref" href="Startitecture.Orm.Model.EntitySelection-1.html">EntitySelection&lt;T&gt;</a>.</p>
+        <td><p>The current <a class="xref" href="Startitecture.Orm.Model.ValueFilterSet-1.html">ValueFilterSet&lt;T&gt;</a>.</p>
 </td>
       </tr>
     </tbody>
@@ -420,7 +382,7 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/ValueFilterSet.cs&amp;version=GBmaster&amp;line=645">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/ValueFilterSet.cs&amp;version=GBmaster&amp;line=646">View Source</a>
   </span>
   <a id="Startitecture_Orm_Model_ValueFilterSet_1_Between_" data-uid="Startitecture.Orm.Model.ValueFilterSet`1.Between*"></a>
   <h4 id="Startitecture_Orm_Model_ValueFilterSet_1_Between__0__0_System_Linq_Expressions_Expression_System_Func__0_System_Object_____" data-uid="Startitecture.Orm.Model.ValueFilterSet`1.Between(`0,`0,System.Linq.Expressions.Expression{System.Func{`0,System.Object}}[])">Between(T, T, Expression&lt;Func&lt;T, Object&gt;&gt;[])</h4>
@@ -472,14 +434,14 @@
     <tbody>
       <tr>
         <td><a class="xref" href="Startitecture.Orm.Model.ValueFilterSet-1.html">ValueFilterSet</a>&lt;T&gt;</td>
-        <td><p>The current <a class="xref" href="Startitecture.Orm.Model.EntitySelection-1.html">EntitySelection&lt;T&gt;</a>.</p>
+        <td><p>The current <a class="xref" href="Startitecture.Orm.Model.ValueFilterSet-1.html">ValueFilterSet&lt;T&gt;</a>.</p>
 </td>
       </tr>
     </tbody>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/ValueFilterSet.cs&amp;version=GBmaster&amp;line=551">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/ValueFilterSet.cs&amp;version=GBmaster&amp;line=552">View Source</a>
   </span>
   <a id="Startitecture_Orm_Model_ValueFilterSet_1_Between_" data-uid="Startitecture.Orm.Model.ValueFilterSet`1.Between*"></a>
   <h4 id="Startitecture_Orm_Model_ValueFilterSet_1_Between__1_System_Linq_Expressions_Expression_System_Func__0___0_____0___0_" data-uid="Startitecture.Orm.Model.ValueFilterSet`1.Between``1(System.Linq.Expressions.Expression{System.Func{`0,``0}},``0,``0)">Between&lt;TValue&gt;(Expression&lt;Func&lt;T, TValue&gt;&gt;, TValue, TValue)</h4>
@@ -532,7 +494,7 @@
     <tbody>
       <tr>
         <td><a class="xref" href="Startitecture.Orm.Model.ValueFilterSet-1.html">ValueFilterSet</a>&lt;T&gt;</td>
-        <td><p>The current <a class="xref" href="Startitecture.Orm.Model.EntitySelection-1.html">EntitySelection&lt;T&gt;</a>.</p>
+        <td><p>The current <a class="xref" href="Startitecture.Orm.Model.ValueFilterSet-1.html">ValueFilterSet&lt;T&gt;</a>.</p>
 </td>
       </tr>
     </tbody>
@@ -571,7 +533,7 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/ValueFilterSet.cs&amp;version=GBmaster&amp;line=601">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/ValueFilterSet.cs&amp;version=GBmaster&amp;line=602">View Source</a>
   </span>
   <a id="Startitecture_Orm_Model_ValueFilterSet_1_Between_" data-uid="Startitecture.Orm.Model.ValueFilterSet`1.Between*"></a>
   <h4 id="Startitecture_Orm_Model_ValueFilterSet_1_Between__2_System_Linq_Expressions_Expression_System_Func___0___1_____1___1_" data-uid="Startitecture.Orm.Model.ValueFilterSet`1.Between``2(System.Linq.Expressions.Expression{System.Func{``0,``1}},``1,``1)">Between&lt;TEntity, TValue&gt;(Expression&lt;Func&lt;TEntity, TValue&gt;&gt;, TValue, TValue)</h4>
@@ -624,7 +586,7 @@
     <tbody>
       <tr>
         <td><a class="xref" href="Startitecture.Orm.Model.ValueFilterSet-1.html">ValueFilterSet</a>&lt;T&gt;</td>
-        <td><p>The current <a class="xref" href="Startitecture.Orm.Model.EntitySelection-1.html">EntitySelection&lt;T&gt;</a>.</p>
+        <td><p>The current <a class="xref" href="Startitecture.Orm.Model.ValueFilterSet-1.html">ValueFilterSet&lt;T&gt;</a>.</p>
 </td>
       </tr>
     </tbody>
@@ -668,7 +630,7 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/ValueFilterSet.cs&amp;version=GBmaster&amp;line=699">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/ValueFilterSet.cs&amp;version=GBmaster&amp;line=700">View Source</a>
   </span>
   <a id="Startitecture_Orm_Model_ValueFilterSet_1_ExistsIn_" data-uid="Startitecture.Orm.Model.ValueFilterSet`1.ExistsIn*"></a>
   <h4 id="Startitecture_Orm_Model_ValueFilterSet_1_ExistsIn__1_System_Linq_Expressions_Expression_System_Func__0_System_Object___Startitecture_Orm_Model_EntitySet___0__System_Linq_Expressions_Expression_System_Func___0_System_Object___" data-uid="Startitecture.Orm.Model.ValueFilterSet`1.ExistsIn``1(System.Linq.Expressions.Expression{System.Func{`0,System.Object}},Startitecture.Orm.Model.EntitySet{``0},System.Linq.Expressions.Expression{System.Func{``0,System.Object}})">ExistsIn&lt;TSet&gt;(Expression&lt;Func&lt;T, Object&gt;&gt;, EntitySet&lt;TSet&gt;, Expression&lt;Func&lt;TSet, Object&gt;&gt;)</h4>
@@ -722,7 +684,7 @@ represented by <code data-dev-comment-type="paramref" class="paramref">entitySet
     <tbody>
       <tr>
         <td><a class="xref" href="Startitecture.Orm.Model.ValueFilterSet-1.html">ValueFilterSet</a>&lt;T&gt;</td>
-        <td><p>The current <a class="xref" href="Startitecture.Orm.Model.EntitySelection-1.html">EntitySelection&lt;T&gt;</a>.</p>
+        <td><p>The current <a class="xref" href="Startitecture.Orm.Model.ValueFilterSet-1.html">ValueFilterSet&lt;T&gt;</a>.</p>
 </td>
       </tr>
     </tbody>
@@ -761,7 +723,7 @@ represented by <code data-dev-comment-type="paramref" class="paramref">entitySet
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/ValueFilterSet.cs&amp;version=GBmaster&amp;line=237">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/ValueFilterSet.cs&amp;version=GBmaster&amp;line=238">View Source</a>
   </span>
   <a id="Startitecture_Orm_Model_ValueFilterSet_1_GreaterThan_" data-uid="Startitecture.Orm.Model.ValueFilterSet`1.GreaterThan*"></a>
   <h4 id="Startitecture_Orm_Model_ValueFilterSet_1_GreaterThan__1_System_Linq_Expressions_Expression_System_Func__0___0_____0_" data-uid="Startitecture.Orm.Model.ValueFilterSet`1.GreaterThan``1(System.Linq.Expressions.Expression{System.Func{`0,``0}},``0)">GreaterThan&lt;TValue&gt;(Expression&lt;Func&lt;T, TValue&gt;&gt;, TValue)</h4>
@@ -807,7 +769,7 @@ represented by <code data-dev-comment-type="paramref" class="paramref">entitySet
     <tbody>
       <tr>
         <td><a class="xref" href="Startitecture.Orm.Model.ValueFilterSet-1.html">ValueFilterSet</a>&lt;T&gt;</td>
-        <td><p>The current <a class="xref" href="Startitecture.Orm.Model.EntitySelection-1.html">EntitySelection&lt;T&gt;</a>.</p>
+        <td><p>The current <a class="xref" href="Startitecture.Orm.Model.ValueFilterSet-1.html">ValueFilterSet&lt;T&gt;</a>.</p>
 </td>
       </tr>
     </tbody>
@@ -846,7 +808,7 @@ represented by <code data-dev-comment-type="paramref" class="paramref">entitySet
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/ValueFilterSet.cs&amp;version=GBmaster&amp;line=269">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/ValueFilterSet.cs&amp;version=GBmaster&amp;line=270">View Source</a>
   </span>
   <a id="Startitecture_Orm_Model_ValueFilterSet_1_GreaterThan_" data-uid="Startitecture.Orm.Model.ValueFilterSet`1.GreaterThan*"></a>
   <h4 id="Startitecture_Orm_Model_ValueFilterSet_1_GreaterThan__2_System_Linq_Expressions_Expression_System_Func___0___1_____1_" data-uid="Startitecture.Orm.Model.ValueFilterSet`1.GreaterThan``2(System.Linq.Expressions.Expression{System.Func{``0,``1}},``1)">GreaterThan&lt;TEntity, TValue&gt;(Expression&lt;Func&lt;TEntity, TValue&gt;&gt;, TValue)</h4>
@@ -892,7 +854,7 @@ represented by <code data-dev-comment-type="paramref" class="paramref">entitySet
     <tbody>
       <tr>
         <td><a class="xref" href="Startitecture.Orm.Model.ValueFilterSet-1.html">ValueFilterSet</a>&lt;T&gt;</td>
-        <td><p>The current <a class="xref" href="Startitecture.Orm.Model.EntitySelection-1.html">EntitySelection&lt;T&gt;</a>.</p>
+        <td><p>The current <a class="xref" href="Startitecture.Orm.Model.ValueFilterSet-1.html">ValueFilterSet&lt;T&gt;</a>.</p>
 </td>
       </tr>
     </tbody>
@@ -936,7 +898,7 @@ represented by <code data-dev-comment-type="paramref" class="paramref">entitySet
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/ValueFilterSet.cs&amp;version=GBmaster&amp;line=298">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/ValueFilterSet.cs&amp;version=GBmaster&amp;line=299">View Source</a>
   </span>
   <a id="Startitecture_Orm_Model_ValueFilterSet_1_GreaterThanOrEqualTo_" data-uid="Startitecture.Orm.Model.ValueFilterSet`1.GreaterThanOrEqualTo*"></a>
   <h4 id="Startitecture_Orm_Model_ValueFilterSet_1_GreaterThanOrEqualTo__1_System_Linq_Expressions_Expression_System_Func__0___0_____0_" data-uid="Startitecture.Orm.Model.ValueFilterSet`1.GreaterThanOrEqualTo``1(System.Linq.Expressions.Expression{System.Func{`0,``0}},``0)">GreaterThanOrEqualTo&lt;TValue&gt;(Expression&lt;Func&lt;T, TValue&gt;&gt;, TValue)</h4>
@@ -982,7 +944,7 @@ represented by <code data-dev-comment-type="paramref" class="paramref">entitySet
     <tbody>
       <tr>
         <td><a class="xref" href="Startitecture.Orm.Model.ValueFilterSet-1.html">ValueFilterSet</a>&lt;T&gt;</td>
-        <td><p>The current <a class="xref" href="Startitecture.Orm.Model.EntitySelection-1.html">EntitySelection&lt;T&gt;</a>.</p>
+        <td><p>The current <a class="xref" href="Startitecture.Orm.Model.ValueFilterSet-1.html">ValueFilterSet&lt;T&gt;</a>.</p>
 </td>
       </tr>
     </tbody>
@@ -1021,7 +983,7 @@ represented by <code data-dev-comment-type="paramref" class="paramref">entitySet
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/ValueFilterSet.cs&amp;version=GBmaster&amp;line=330">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/ValueFilterSet.cs&amp;version=GBmaster&amp;line=331">View Source</a>
   </span>
   <a id="Startitecture_Orm_Model_ValueFilterSet_1_GreaterThanOrEqualTo_" data-uid="Startitecture.Orm.Model.ValueFilterSet`1.GreaterThanOrEqualTo*"></a>
   <h4 id="Startitecture_Orm_Model_ValueFilterSet_1_GreaterThanOrEqualTo__2_System_Linq_Expressions_Expression_System_Func___0___1_____1_" data-uid="Startitecture.Orm.Model.ValueFilterSet`1.GreaterThanOrEqualTo``2(System.Linq.Expressions.Expression{System.Func{``0,``1}},``1)">GreaterThanOrEqualTo&lt;TEntity, TValue&gt;(Expression&lt;Func&lt;TEntity, TValue&gt;&gt;, TValue)</h4>
@@ -1067,7 +1029,7 @@ represented by <code data-dev-comment-type="paramref" class="paramref">entitySet
     <tbody>
       <tr>
         <td><a class="xref" href="Startitecture.Orm.Model.ValueFilterSet-1.html">ValueFilterSet</a>&lt;T&gt;</td>
-        <td><p>The current <a class="xref" href="Startitecture.Orm.Model.EntitySelection-1.html">EntitySelection&lt;T&gt;</a>.</p>
+        <td><p>The current <a class="xref" href="Startitecture.Orm.Model.ValueFilterSet-1.html">ValueFilterSet&lt;T&gt;</a>.</p>
 </td>
       </tr>
     </tbody>
@@ -1111,7 +1073,7 @@ represented by <code data-dev-comment-type="paramref" class="paramref">entitySet
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/ValueFilterSet.cs&amp;version=GBmaster&amp;line=478">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/ValueFilterSet.cs&amp;version=GBmaster&amp;line=479">View Source</a>
   </span>
   <a id="Startitecture_Orm_Model_ValueFilterSet_1_Include_" data-uid="Startitecture.Orm.Model.ValueFilterSet`1.Include*"></a>
   <h4 id="Startitecture_Orm_Model_ValueFilterSet_1_Include__1_System_Linq_Expressions_Expression_System_Func__0___0_____0___" data-uid="Startitecture.Orm.Model.ValueFilterSet`1.Include``1(System.Linq.Expressions.Expression{System.Func{`0,``0}},``0[])">Include&lt;TValue&gt;(Expression&lt;Func&lt;T, TValue&gt;&gt;, TValue[])</h4>
@@ -1157,7 +1119,7 @@ represented by <code data-dev-comment-type="paramref" class="paramref">entitySet
     <tbody>
       <tr>
         <td><a class="xref" href="Startitecture.Orm.Model.ValueFilterSet-1.html">ValueFilterSet</a>&lt;T&gt;</td>
-        <td><p>The current <a class="xref" href="Startitecture.Orm.Model.EntitySelection-1.html">EntitySelection&lt;T&gt;</a>.</p>
+        <td><p>The current <a class="xref" href="Startitecture.Orm.Model.ValueFilterSet-1.html">ValueFilterSet&lt;T&gt;</a>.</p>
 </td>
       </tr>
     </tbody>
@@ -1180,7 +1142,7 @@ represented by <code data-dev-comment-type="paramref" class="paramref">entitySet
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/ValueFilterSet.cs&amp;version=GBmaster&amp;line=513">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/ValueFilterSet.cs&amp;version=GBmaster&amp;line=514">View Source</a>
   </span>
   <a id="Startitecture_Orm_Model_ValueFilterSet_1_Include_" data-uid="Startitecture.Orm.Model.ValueFilterSet`1.Include*"></a>
   <h4 id="Startitecture_Orm_Model_ValueFilterSet_1_Include__2_System_Linq_Expressions_Expression_System_Func___0___1_____1___" data-uid="Startitecture.Orm.Model.ValueFilterSet`1.Include``2(System.Linq.Expressions.Expression{System.Func{``0,``1}},``1[])">Include&lt;TEntity, TValue&gt;(Expression&lt;Func&lt;TEntity, TValue&gt;&gt;, TValue[])</h4>
@@ -1226,7 +1188,7 @@ represented by <code data-dev-comment-type="paramref" class="paramref">entitySet
     <tbody>
       <tr>
         <td><a class="xref" href="Startitecture.Orm.Model.ValueFilterSet-1.html">ValueFilterSet</a>&lt;T&gt;</td>
-        <td><p>The current <a class="xref" href="Startitecture.Orm.Model.EntitySelection-1.html">EntitySelection&lt;T&gt;</a>.</p>
+        <td><p>The current <a class="xref" href="Startitecture.Orm.Model.ValueFilterSet-1.html">ValueFilterSet&lt;T&gt;</a>.</p>
 </td>
       </tr>
     </tbody>
@@ -1254,7 +1216,7 @@ represented by <code data-dev-comment-type="paramref" class="paramref">entitySet
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/ValueFilterSet.cs&amp;version=GBmaster&amp;line=359">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/ValueFilterSet.cs&amp;version=GBmaster&amp;line=360">View Source</a>
   </span>
   <a id="Startitecture_Orm_Model_ValueFilterSet_1_LessThan_" data-uid="Startitecture.Orm.Model.ValueFilterSet`1.LessThan*"></a>
   <h4 id="Startitecture_Orm_Model_ValueFilterSet_1_LessThan__1_System_Linq_Expressions_Expression_System_Func__0___0_____0_" data-uid="Startitecture.Orm.Model.ValueFilterSet`1.LessThan``1(System.Linq.Expressions.Expression{System.Func{`0,``0}},``0)">LessThan&lt;TValue&gt;(Expression&lt;Func&lt;T, TValue&gt;&gt;, TValue)</h4>
@@ -1300,7 +1262,7 @@ represented by <code data-dev-comment-type="paramref" class="paramref">entitySet
     <tbody>
       <tr>
         <td><a class="xref" href="Startitecture.Orm.Model.ValueFilterSet-1.html">ValueFilterSet</a>&lt;T&gt;</td>
-        <td><p>The current <a class="xref" href="Startitecture.Orm.Model.EntitySelection-1.html">EntitySelection&lt;T&gt;</a>.</p>
+        <td><p>The current <a class="xref" href="Startitecture.Orm.Model.ValueFilterSet-1.html">ValueFilterSet&lt;T&gt;</a>.</p>
 </td>
       </tr>
     </tbody>
@@ -1339,7 +1301,7 @@ represented by <code data-dev-comment-type="paramref" class="paramref">entitySet
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/ValueFilterSet.cs&amp;version=GBmaster&amp;line=391">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/ValueFilterSet.cs&amp;version=GBmaster&amp;line=392">View Source</a>
   </span>
   <a id="Startitecture_Orm_Model_ValueFilterSet_1_LessThan_" data-uid="Startitecture.Orm.Model.ValueFilterSet`1.LessThan*"></a>
   <h4 id="Startitecture_Orm_Model_ValueFilterSet_1_LessThan__2_System_Linq_Expressions_Expression_System_Func___0___1_____1_" data-uid="Startitecture.Orm.Model.ValueFilterSet`1.LessThan``2(System.Linq.Expressions.Expression{System.Func{``0,``1}},``1)">LessThan&lt;TEntity, TValue&gt;(Expression&lt;Func&lt;TEntity, TValue&gt;&gt;, TValue)</h4>
@@ -1385,7 +1347,7 @@ represented by <code data-dev-comment-type="paramref" class="paramref">entitySet
     <tbody>
       <tr>
         <td><a class="xref" href="Startitecture.Orm.Model.ValueFilterSet-1.html">ValueFilterSet</a>&lt;T&gt;</td>
-        <td><p>The current <a class="xref" href="Startitecture.Orm.Model.EntitySelection-1.html">EntitySelection&lt;T&gt;</a>.</p>
+        <td><p>The current <a class="xref" href="Startitecture.Orm.Model.ValueFilterSet-1.html">ValueFilterSet&lt;T&gt;</a>.</p>
 </td>
       </tr>
     </tbody>
@@ -1429,7 +1391,7 @@ represented by <code data-dev-comment-type="paramref" class="paramref">entitySet
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/ValueFilterSet.cs&amp;version=GBmaster&amp;line=420">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/ValueFilterSet.cs&amp;version=GBmaster&amp;line=421">View Source</a>
   </span>
   <a id="Startitecture_Orm_Model_ValueFilterSet_1_LessThanOrEqualTo_" data-uid="Startitecture.Orm.Model.ValueFilterSet`1.LessThanOrEqualTo*"></a>
   <h4 id="Startitecture_Orm_Model_ValueFilterSet_1_LessThanOrEqualTo__1_System_Linq_Expressions_Expression_System_Func__0___0_____0_" data-uid="Startitecture.Orm.Model.ValueFilterSet`1.LessThanOrEqualTo``1(System.Linq.Expressions.Expression{System.Func{`0,``0}},``0)">LessThanOrEqualTo&lt;TValue&gt;(Expression&lt;Func&lt;T, TValue&gt;&gt;, TValue)</h4>
@@ -1475,7 +1437,7 @@ represented by <code data-dev-comment-type="paramref" class="paramref">entitySet
     <tbody>
       <tr>
         <td><a class="xref" href="Startitecture.Orm.Model.ValueFilterSet-1.html">ValueFilterSet</a>&lt;T&gt;</td>
-        <td><p>The current <a class="xref" href="Startitecture.Orm.Model.EntitySelection-1.html">EntitySelection&lt;T&gt;</a>.</p>
+        <td><p>The current <a class="xref" href="Startitecture.Orm.Model.ValueFilterSet-1.html">ValueFilterSet&lt;T&gt;</a>.</p>
 </td>
       </tr>
     </tbody>
@@ -1514,7 +1476,7 @@ represented by <code data-dev-comment-type="paramref" class="paramref">entitySet
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/ValueFilterSet.cs&amp;version=GBmaster&amp;line=452">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/ValueFilterSet.cs&amp;version=GBmaster&amp;line=453">View Source</a>
   </span>
   <a id="Startitecture_Orm_Model_ValueFilterSet_1_LessThanOrEqualTo_" data-uid="Startitecture.Orm.Model.ValueFilterSet`1.LessThanOrEqualTo*"></a>
   <h4 id="Startitecture_Orm_Model_ValueFilterSet_1_LessThanOrEqualTo__2_System_Linq_Expressions_Expression_System_Func___0___1_____1_" data-uid="Startitecture.Orm.Model.ValueFilterSet`1.LessThanOrEqualTo``2(System.Linq.Expressions.Expression{System.Func{``0,``1}},``1)">LessThanOrEqualTo&lt;TEntity, TValue&gt;(Expression&lt;Func&lt;TEntity, TValue&gt;&gt;, TValue)</h4>
@@ -1560,7 +1522,7 @@ represented by <code data-dev-comment-type="paramref" class="paramref">entitySet
     <tbody>
       <tr>
         <td><a class="xref" href="Startitecture.Orm.Model.ValueFilterSet-1.html">ValueFilterSet</a>&lt;T&gt;</td>
-        <td><p>The current <a class="xref" href="Startitecture.Orm.Model.EntitySelection-1.html">EntitySelection&lt;T&gt;</a>.</p>
+        <td><p>The current <a class="xref" href="Startitecture.Orm.Model.ValueFilterSet-1.html">ValueFilterSet&lt;T&gt;</a>.</p>
 </td>
       </tr>
     </tbody>
@@ -1604,7 +1566,7 @@ represented by <code data-dev-comment-type="paramref" class="paramref">entitySet
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/ValueFilterSet.cs&amp;version=GBmaster&amp;line=116">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/ValueFilterSet.cs&amp;version=GBmaster&amp;line=150">View Source</a>
   </span>
   <a id="Startitecture_Orm_Model_ValueFilterSet_1_Matching_" data-uid="Startitecture.Orm.Model.ValueFilterSet`1.Matching*"></a>
   <h4 id="Startitecture_Orm_Model_ValueFilterSet_1_Matching__0_System_Linq_Expressions_Expression_System_Func__0_System_Object_____" data-uid="Startitecture.Orm.Model.ValueFilterSet`1.Matching(`0,System.Linq.Expressions.Expression{System.Func{`0,System.Object}}[])">Matching(T, Expression&lt;Func&lt;T, Object&gt;&gt;[])</h4>
@@ -1650,23 +1612,23 @@ represented by <code data-dev-comment-type="paramref" class="paramref">entitySet
     <tbody>
       <tr>
         <td><a class="xref" href="Startitecture.Orm.Model.ValueFilterSet-1.html">ValueFilterSet</a>&lt;T&gt;</td>
-        <td><p>The current <a class="xref" href="Startitecture.Orm.Model.EntitySelection-1.html">EntitySelection&lt;T&gt;</a>.</p>
+        <td><p>The current <a class="xref" href="Startitecture.Orm.Model.ValueFilterSet-1.html">ValueFilterSet&lt;T&gt;</a>.</p>
 </td>
       </tr>
     </tbody>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/ValueFilterSet.cs&amp;version=GBmaster&amp;line=53">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Model/ValueFilterSet.cs&amp;version=GBmaster&amp;line=76">View Source</a>
   </span>
   <a id="Startitecture_Orm_Model_ValueFilterSet_1_MatchKey_" data-uid="Startitecture.Orm.Model.ValueFilterSet`1.MatchKey*"></a>
-  <h4 id="Startitecture_Orm_Model_ValueFilterSet_1_MatchKey__0_Startitecture_Orm_Model_IEntityDefinitionProvider_" data-uid="Startitecture.Orm.Model.ValueFilterSet`1.MatchKey(`0,Startitecture.Orm.Model.IEntityDefinitionProvider)">MatchKey(T, IEntityDefinitionProvider)</h4>
+  <h4 id="Startitecture_Orm_Model_ValueFilterSet_1_MatchKey__0_Startitecture_Orm_Model_IEntityDefinitionProvider_System_Linq_Expressions_Expression_System_Func__0_System_Object_____" data-uid="Startitecture.Orm.Model.ValueFilterSet`1.MatchKey(`0,Startitecture.Orm.Model.IEntityDefinitionProvider,System.Linq.Expressions.Expression{System.Func{`0,System.Object}}[])">MatchKey(T, IEntityDefinitionProvider, Expression&lt;Func&lt;T, Object&gt;&gt;[])</h4>
   <div class="markdown level1 summary"><p>Matches the primary key of the specified <code data-dev-comment-type="paramref" class="paramref">entity</code>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ValueFilterSet&lt;T&gt; MatchKey([NotNull] T entity, [NotNull] IEntityDefinitionProvider definitionProvider)</code></pre>
+    <pre><code class="lang-csharp hljs">public ValueFilterSet&lt;T&gt; MatchKey([NotNull] T entity, [NotNull] IEntityDefinitionProvider definitionProvider, [NotNull] params Expression&lt;Func&lt;T, object&gt;&gt;[] explicitKeyAttributes)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1690,6 +1652,12 @@ represented by <code data-dev-comment-type="paramref" class="paramref">entitySet
         <td><p>The definition provider for the entity.</p>
 </td>
       </tr>
+      <tr>
+        <td><span class="xref">System.Linq.Expressions.Expression</span>&lt;<span class="xref">System.Func</span>&lt;T, <span class="xref">System.Object</span>&gt;&gt;[]</td>
+        <td><span class="parametername">explicitKeyAttributes</span></td>
+        <td><p>The explicit key attributes for this match.</p>
+</td>
+      </tr>
     </tbody>
   </table>
   <h5 class="returns">Returns</h5>
@@ -1703,12 +1671,12 @@ represented by <code data-dev-comment-type="paramref" class="paramref">entitySet
     <tbody>
       <tr>
         <td><a class="xref" href="Startitecture.Orm.Model.ValueFilterSet-1.html">ValueFilterSet</a>&lt;T&gt;</td>
-        <td><p>The current <a class="xref" href="Startitecture.Orm.Model.EntitySelection-1.html">EntitySelection&lt;T&gt;</a>.</p>
+        <td><p>The current <a class="xref" href="Startitecture.Orm.Model.ValueFilterSet-1.html">ValueFilterSet&lt;T&gt;</a>.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 id="Startitecture_Orm_Model_ValueFilterSet_1_MatchKey__0_Startitecture_Orm_Model_IEntityDefinitionProvider__remarks">Remarks</h5>
+  <h5 id="Startitecture_Orm_Model_ValueFilterSet_1_MatchKey__0_Startitecture_Orm_Model_IEntityDefinitionProvider_System_Linq_Expressions_Expression_System_Func__0_System_Object______remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>This operation will clear any existing filters.</p>
 </div>
 </article>
