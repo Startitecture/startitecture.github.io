@@ -1398,7 +1398,7 @@ unique key are set from the dynamic, or all matching primary key values if no un
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/ReadOnlyRepository.cs&amp;version=GBmaster&amp;line=561">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/ReadOnlyRepository.cs&amp;version=GBmaster&amp;line=560">View Source</a>
   </span>
   <a id="Startitecture_Orm_Common_ReadOnlyRepository_2_GetUniqueSet_" data-uid="Startitecture.Orm.Common.ReadOnlyRepository`2.GetUniqueSet*"></a>
   <h4 id="Startitecture_Orm_Common_ReadOnlyRepository_2_GetUniqueSet__1___0_Startitecture_Orm_Model_ValueFilterSet__1__" data-uid="Startitecture.Orm.Common.ReadOnlyRepository`2.GetUniqueSet``1(``0,Startitecture.Orm.Model.ValueFilterSet{`1})">GetUniqueSet&lt;TItem&gt;(TItem, ValueFilterSet&lt;TEntity&gt;)</h4>
@@ -1407,7 +1407,7 @@ unique key are set from the dynamic, or all matching primary key values if no un
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected void GetUniqueSet&lt;TItem&gt;(TItem candidate, ValueFilterSet&lt;TEntity&gt; valueFilterSet)</code></pre>
+    <pre><code class="lang-csharp hljs">protected void GetUniqueSet&lt;TItem&gt;([NotNull] TItem candidate, [NotNull] ValueFilterSet&lt;TEntity&gt; valueFilterSet)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1428,7 +1428,8 @@ unique key are set from the dynamic, or all matching primary key values if no un
       <tr>
         <td><a class="xref" href="Startitecture.Orm.Model.ValueFilterSet-1.html">ValueFilterSet</a>&lt;TEntity&gt;</td>
         <td><span class="parametername">valueFilterSet</span></td>
-        <td></td>
+        <td><p>The filters that define the unique set.</p>
+</td>
       </tr>
     </tbody>
   </table>
