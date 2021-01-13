@@ -1590,6 +1590,42 @@ references:
   fullName.vb: Startitecture.Orm.Common.IReadOnlyRepository(Of TModel).FirstOrDefaultAsync(Of TItem)(Startitecture.Orm.Model.EntitySet(Of TItem))
   nameWithType: IReadOnlyRepository<TModel>.FirstOrDefaultAsync<TItem>(EntitySet<TItem>)
   nameWithType.vb: IReadOnlyRepository(Of TModel).FirstOrDefaultAsync(Of TItem)(EntitySet(Of TItem))
+- uid: Startitecture.Orm.Common.IReadOnlyRepository`1.GetScalar*
+  name: GetScalar
+  href: api/Startitecture.Orm.Common.IReadOnlyRepository-1.html#Startitecture_Orm_Common_IReadOnlyRepository_1_GetScalar_
+  commentId: Overload:Startitecture.Orm.Common.IReadOnlyRepository`1.GetScalar
+  isSpec: "True"
+  fullName: Startitecture.Orm.Common.IReadOnlyRepository<TModel>.GetScalar
+  fullName.vb: Startitecture.Orm.Common.IReadOnlyRepository(Of TModel).GetScalar
+  nameWithType: IReadOnlyRepository<TModel>.GetScalar
+  nameWithType.vb: IReadOnlyRepository(Of TModel).GetScalar
+- uid: Startitecture.Orm.Common.IReadOnlyRepository`1.GetScalar``1(Startitecture.Orm.Model.ISelection)
+  name: GetScalar<T>(ISelection)
+  href: api/Startitecture.Orm.Common.IReadOnlyRepository-1.html#Startitecture_Orm_Common_IReadOnlyRepository_1_GetScalar__1_Startitecture_Orm_Model_ISelection_
+  commentId: M:Startitecture.Orm.Common.IReadOnlyRepository`1.GetScalar``1(Startitecture.Orm.Model.ISelection)
+  name.vb: GetScalar(Of T)(ISelection)
+  fullName: Startitecture.Orm.Common.IReadOnlyRepository<TModel>.GetScalar<T>(Startitecture.Orm.Model.ISelection)
+  fullName.vb: Startitecture.Orm.Common.IReadOnlyRepository(Of TModel).GetScalar(Of T)(Startitecture.Orm.Model.ISelection)
+  nameWithType: IReadOnlyRepository<TModel>.GetScalar<T>(ISelection)
+  nameWithType.vb: IReadOnlyRepository(Of TModel).GetScalar(Of T)(ISelection)
+- uid: Startitecture.Orm.Common.IReadOnlyRepository`1.GetScalarAsync*
+  name: GetScalarAsync
+  href: api/Startitecture.Orm.Common.IReadOnlyRepository-1.html#Startitecture_Orm_Common_IReadOnlyRepository_1_GetScalarAsync_
+  commentId: Overload:Startitecture.Orm.Common.IReadOnlyRepository`1.GetScalarAsync
+  isSpec: "True"
+  fullName: Startitecture.Orm.Common.IReadOnlyRepository<TModel>.GetScalarAsync
+  fullName.vb: Startitecture.Orm.Common.IReadOnlyRepository(Of TModel).GetScalarAsync
+  nameWithType: IReadOnlyRepository<TModel>.GetScalarAsync
+  nameWithType.vb: IReadOnlyRepository(Of TModel).GetScalarAsync
+- uid: Startitecture.Orm.Common.IReadOnlyRepository`1.GetScalarAsync``1(Startitecture.Orm.Model.ISelection)
+  name: GetScalarAsync<T>(ISelection)
+  href: api/Startitecture.Orm.Common.IReadOnlyRepository-1.html#Startitecture_Orm_Common_IReadOnlyRepository_1_GetScalarAsync__1_Startitecture_Orm_Model_ISelection_
+  commentId: M:Startitecture.Orm.Common.IReadOnlyRepository`1.GetScalarAsync``1(Startitecture.Orm.Model.ISelection)
+  name.vb: GetScalarAsync(Of T)(ISelection)
+  fullName: Startitecture.Orm.Common.IReadOnlyRepository<TModel>.GetScalarAsync<T>(Startitecture.Orm.Model.ISelection)
+  fullName.vb: Startitecture.Orm.Common.IReadOnlyRepository(Of TModel).GetScalarAsync(Of T)(Startitecture.Orm.Model.ISelection)
+  nameWithType: IReadOnlyRepository<TModel>.GetScalarAsync<T>(ISelection)
+  nameWithType.vb: IReadOnlyRepository(Of TModel).GetScalarAsync(Of T)(ISelection)
 - uid: Startitecture.Orm.Common.IReadOnlyRepository`1.SelectAll
   name: SelectAll()
   href: api/Startitecture.Orm.Common.IReadOnlyRepository-1.html#Startitecture_Orm_Common_IReadOnlyRepository_1_SelectAll
@@ -2839,6 +2875,42 @@ references:
   fullName.vb: Startitecture.Orm.Common.ReadOnlyRepository(Of TModel, TEntity).GetExampleEntity(Of TItem)(TItem)
   nameWithType: ReadOnlyRepository<TModel, TEntity>.GetExampleEntity<TItem>(TItem)
   nameWithType.vb: ReadOnlyRepository(Of TModel, TEntity).GetExampleEntity(Of TItem)(TItem)
+- uid: Startitecture.Orm.Common.ReadOnlyRepository`2.GetScalar*
+  name: GetScalar
+  href: api/Startitecture.Orm.Common.ReadOnlyRepository-2.html#Startitecture_Orm_Common_ReadOnlyRepository_2_GetScalar_
+  commentId: Overload:Startitecture.Orm.Common.ReadOnlyRepository`2.GetScalar
+  isSpec: "True"
+  fullName: Startitecture.Orm.Common.ReadOnlyRepository<TModel, TEntity>.GetScalar
+  fullName.vb: Startitecture.Orm.Common.ReadOnlyRepository(Of TModel, TEntity).GetScalar
+  nameWithType: ReadOnlyRepository<TModel, TEntity>.GetScalar
+  nameWithType.vb: ReadOnlyRepository(Of TModel, TEntity).GetScalar
+- uid: Startitecture.Orm.Common.ReadOnlyRepository`2.GetScalar``1(Startitecture.Orm.Model.ISelection)
+  name: GetScalar<T>(ISelection)
+  href: api/Startitecture.Orm.Common.ReadOnlyRepository-2.html#Startitecture_Orm_Common_ReadOnlyRepository_2_GetScalar__1_Startitecture_Orm_Model_ISelection_
+  commentId: M:Startitecture.Orm.Common.ReadOnlyRepository`2.GetScalar``1(Startitecture.Orm.Model.ISelection)
+  name.vb: GetScalar(Of T)(ISelection)
+  fullName: Startitecture.Orm.Common.ReadOnlyRepository<TModel, TEntity>.GetScalar<T>(Startitecture.Orm.Model.ISelection)
+  fullName.vb: Startitecture.Orm.Common.ReadOnlyRepository(Of TModel, TEntity).GetScalar(Of T)(Startitecture.Orm.Model.ISelection)
+  nameWithType: ReadOnlyRepository<TModel, TEntity>.GetScalar<T>(ISelection)
+  nameWithType.vb: ReadOnlyRepository(Of TModel, TEntity).GetScalar(Of T)(ISelection)
+- uid: Startitecture.Orm.Common.ReadOnlyRepository`2.GetScalarAsync*
+  name: GetScalarAsync
+  href: api/Startitecture.Orm.Common.ReadOnlyRepository-2.html#Startitecture_Orm_Common_ReadOnlyRepository_2_GetScalarAsync_
+  commentId: Overload:Startitecture.Orm.Common.ReadOnlyRepository`2.GetScalarAsync
+  isSpec: "True"
+  fullName: Startitecture.Orm.Common.ReadOnlyRepository<TModel, TEntity>.GetScalarAsync
+  fullName.vb: Startitecture.Orm.Common.ReadOnlyRepository(Of TModel, TEntity).GetScalarAsync
+  nameWithType: ReadOnlyRepository<TModel, TEntity>.GetScalarAsync
+  nameWithType.vb: ReadOnlyRepository(Of TModel, TEntity).GetScalarAsync
+- uid: Startitecture.Orm.Common.ReadOnlyRepository`2.GetScalarAsync``1(Startitecture.Orm.Model.ISelection)
+  name: GetScalarAsync<T>(ISelection)
+  href: api/Startitecture.Orm.Common.ReadOnlyRepository-2.html#Startitecture_Orm_Common_ReadOnlyRepository_2_GetScalarAsync__1_Startitecture_Orm_Model_ISelection_
+  commentId: M:Startitecture.Orm.Common.ReadOnlyRepository`2.GetScalarAsync``1(Startitecture.Orm.Model.ISelection)
+  name.vb: GetScalarAsync(Of T)(ISelection)
+  fullName: Startitecture.Orm.Common.ReadOnlyRepository<TModel, TEntity>.GetScalarAsync<T>(Startitecture.Orm.Model.ISelection)
+  fullName.vb: Startitecture.Orm.Common.ReadOnlyRepository(Of TModel, TEntity).GetScalarAsync(Of T)(Startitecture.Orm.Model.ISelection)
+  nameWithType: ReadOnlyRepository<TModel, TEntity>.GetScalarAsync<T>(ISelection)
+  nameWithType.vb: ReadOnlyRepository(Of TModel, TEntity).GetScalarAsync(Of T)(ISelection)
 - uid: Startitecture.Orm.Common.ReadOnlyRepository`2.GetUniqueSet*
   name: GetUniqueSet
   href: api/Startitecture.Orm.Common.ReadOnlyRepository-2.html#Startitecture_Orm_Common_ReadOnlyRepository_2_GetUniqueSet_
