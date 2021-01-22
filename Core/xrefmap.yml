@@ -343,22 +343,6 @@ references:
   isSpec: "True"
   fullName: Startitecture.Core.Evaluate.RecursiveEquals
   nameWithType: Evaluate.RecursiveEquals
-- uid: Startitecture.Core.Evaluate.SequenceEqual(System.ReadOnlySpan{System.Byte},System.ReadOnlySpan{System.Byte})
-  name: SequenceEqual(ReadOnlySpan<Byte>, ReadOnlySpan<Byte>)
-  href: api/Startitecture.Core.Evaluate.html#Startitecture_Core_Evaluate_SequenceEqual_System_ReadOnlySpan_System_Byte__System_ReadOnlySpan_System_Byte__
-  commentId: M:Startitecture.Core.Evaluate.SequenceEqual(System.ReadOnlySpan{System.Byte},System.ReadOnlySpan{System.Byte})
-  name.vb: SequenceEqual(ReadOnlySpan(Of Byte), ReadOnlySpan(Of Byte))
-  fullName: Startitecture.Core.Evaluate.SequenceEqual(System.ReadOnlySpan<System.Byte>, System.ReadOnlySpan<System.Byte>)
-  fullName.vb: Startitecture.Core.Evaluate.SequenceEqual(System.ReadOnlySpan(Of System.Byte), System.ReadOnlySpan(Of System.Byte))
-  nameWithType: Evaluate.SequenceEqual(ReadOnlySpan<Byte>, ReadOnlySpan<Byte>)
-  nameWithType.vb: Evaluate.SequenceEqual(ReadOnlySpan(Of Byte), ReadOnlySpan(Of Byte))
-- uid: Startitecture.Core.Evaluate.SequenceEqual*
-  name: SequenceEqual
-  href: api/Startitecture.Core.Evaluate.html#Startitecture_Core_Evaluate_SequenceEqual_
-  commentId: Overload:Startitecture.Core.Evaluate.SequenceEqual
-  isSpec: "True"
-  fullName: Startitecture.Core.Evaluate.SequenceEqual
-  nameWithType: Evaluate.SequenceEqual
 - uid: Startitecture.Core.ExtensionMethods
   name: ExtensionMethods
   href: api/Startitecture.Core.ExtensionMethods.html
