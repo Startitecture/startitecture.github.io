@@ -5338,6 +5338,19 @@ references:
   isSpec: "True"
   fullName: Startitecture.Orm.Model.EntityDefinition.RowIdentity
   nameWithType: EntityDefinition.RowIdentity
+- uid: Startitecture.Orm.Model.EntityDefinition.ToString
+  name: ToString()
+  href: api/Startitecture.Orm.Model.EntityDefinition.html#Startitecture_Orm_Model_EntityDefinition_ToString
+  commentId: M:Startitecture.Orm.Model.EntityDefinition.ToString
+  fullName: Startitecture.Orm.Model.EntityDefinition.ToString()
+  nameWithType: EntityDefinition.ToString()
+- uid: Startitecture.Orm.Model.EntityDefinition.ToString*
+  name: ToString
+  href: api/Startitecture.Orm.Model.EntityDefinition.html#Startitecture_Orm_Model_EntityDefinition_ToString_
+  commentId: Overload:Startitecture.Orm.Model.EntityDefinition.ToString
+  isSpec: "True"
+  fullName: Startitecture.Orm.Model.EntityDefinition.ToString
+  nameWithType: EntityDefinition.ToString
 - uid: Startitecture.Orm.Model.EntityDefinition.UpdateableAttributes
   name: UpdateableAttributes
   href: api/Startitecture.Orm.Model.EntityDefinition.html#Startitecture_Orm_Model_EntityDefinition_UpdateableAttributes
