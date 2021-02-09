@@ -86,7 +86,6 @@
   <div classs="implements">
     <h5>Implements</h5>
     <div><span class="xref">System.Runtime.Serialization.ISerializable</span></div>
-    <div><span class="xref">System.Runtime.InteropServices._Exception</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -103,34 +102,34 @@
       <span class="xref">System.Exception.GetBaseException()</span>
     </div>
     <div>
-      <span class="xref">System.Exception.ToString()</span>
-    </div>
-    <div>
       <span class="xref">System.Exception.GetType()</span>
     </div>
     <div>
-      <span class="xref">System.Exception.Message</span>
+      <span class="xref">System.Exception.ToString()</span>
     </div>
     <div>
       <span class="xref">System.Exception.Data</span>
     </div>
     <div>
+      <span class="xref">System.Exception.HelpLink</span>
+    </div>
+    <div>
+      <span class="xref">System.Exception.HResult</span>
+    </div>
+    <div>
       <span class="xref">System.Exception.InnerException</span>
     </div>
     <div>
-      <span class="xref">System.Exception.TargetSite</span>
-    </div>
-    <div>
-      <span class="xref">System.Exception.StackTrace</span>
-    </div>
-    <div>
-      <span class="xref">System.Exception.HelpLink</span>
+      <span class="xref">System.Exception.Message</span>
     </div>
     <div>
       <span class="xref">System.Exception.Source</span>
     </div>
     <div>
-      <span class="xref">System.Exception.HResult</span>
+      <span class="xref">System.Exception.StackTrace</span>
+    </div>
+    <div>
+      <span class="xref">System.Exception.TargetSite</span>
     </div>
     <div>
       <span class="xref">System.Exception.SerializeObjectState</span>
@@ -142,13 +141,13 @@
       <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
     </div>
     <div>
-      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-    </div>
-    <div>
       <span class="xref">System.Object.GetHashCode()</span>
     </div>
     <div>
       <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
     </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Startitecture.Orm.Common.html">Startitecture.Orm.Common</a></h6>
@@ -156,7 +155,7 @@
   <h5 id="Startitecture_Orm_Common_RepositoryException_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[Serializable]
-public sealed class RepositoryException : OperationException, ISerializable, _Exception</code></pre>
+public sealed class RepositoryException : OperationException, ISerializable</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
@@ -361,9 +360,6 @@ the exception and the underlying exception that caused the <span class="xref">St
   <h3 id="implements">Implements</h3>
   <div>
       <span class="xref">System.Runtime.Serialization.ISerializable</span>
-  </div>
-  <div>
-      <span class="xref">System.Runtime.InteropServices._Exception</span>
   </div>
 </article>
           </div>
