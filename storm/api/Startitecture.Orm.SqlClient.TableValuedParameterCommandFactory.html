@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class TableValuedParameterCommandFactory
    ">
-    <meta name="generator" content="docfx 2.56.6.0">
+    <meta name="generator" content="docfx 2.59.2.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -72,7 +72,7 @@
   
   <h1 id="Startitecture_Orm_SqlClient_TableValuedParameterCommandFactory" data-uid="Startitecture.Orm.SqlClient.TableValuedParameterCommandFactory" class="text-break">Class TableValuedParameterCommandFactory
   </h1>
-  <div class="markdown level0 summary"><p>Creates <a class="xref" href="Startitecture.Orm.Common.ITableCommand.html">ITableCommand</a> instances for SQL Server using table-valued parameters (TVPs).</p>
+  <div class="markdown level0 summary"><p>Creates <span class="xref">System.Data.IDbCommand</span> instances for SQL Server using table-valued parameters (TVPs).</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
@@ -114,20 +114,20 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public class TableValuedParameterCommandFactory : IDbTableCommandFactory</code></pre>
   </div>
-  <h3 id="constructors">Constructors
+  <h3 id="methods">Methods
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.SqlClient/TableValuedParameterCommandFactory.cs&amp;version=GBmaster&amp;line=39">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.SqlClient/TableValuedParameterCommandFactory.cs&amp;version=GBmaster&amp;line=32">View Source</a>
   </span>
-  <a id="Startitecture_Orm_SqlClient_TableValuedParameterCommandFactory__ctor_" data-uid="Startitecture.Orm.SqlClient.TableValuedParameterCommandFactory.#ctor*"></a>
-  <h4 id="Startitecture_Orm_SqlClient_TableValuedParameterCommandFactory__ctor_Startitecture_Orm_Common_IDatabaseContext_" data-uid="Startitecture.Orm.SqlClient.TableValuedParameterCommandFactory.#ctor(Startitecture.Orm.Common.IDatabaseContext)">TableValuedParameterCommandFactory(IDatabaseContext)</h4>
-  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="Startitecture.Orm.SqlClient.TableValuedParameterCommandFactory.html">TableValuedParameterCommandFactory</a> class.</p>
+  <a id="Startitecture_Orm_SqlClient_TableValuedParameterCommandFactory_Create_" data-uid="Startitecture.Orm.SqlClient.TableValuedParameterCommandFactory.Create*"></a>
+  <h4 id="Startitecture_Orm_SqlClient_TableValuedParameterCommandFactory_Create__1_Startitecture_Orm_Common_IDatabaseContext_System_String_System_String_System_Collections_Generic_IEnumerable___0__" data-uid="Startitecture.Orm.SqlClient.TableValuedParameterCommandFactory.Create``1(Startitecture.Orm.Common.IDatabaseContext,System.String,System.String,System.Collections.Generic.IEnumerable{``0})">Create&lt;T&gt;(IDatabaseContext, String, String, IEnumerable&lt;T&gt;)</h4>
+  <div class="markdown level1 summary"><p>Creates an <span class="xref">System.Data.IDbCommand</span> for the specified <code data-dev-comment-type="paramref" class="paramref">items</code>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public TableValuedParameterCommandFactory([NotNull] IDatabaseContext databaseContext)</code></pre>
+    <pre><code class="lang-csharp hljs">public IDbCommand Create&lt;T&gt;(IDatabaseContext databaseContext, string commandText, string parameterName, IEnumerable&lt;T&gt; items)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -142,40 +142,19 @@
       <tr>
         <td><a class="xref" href="Startitecture.Orm.Common.IDatabaseContext.html">IDatabaseContext</a></td>
         <td><span class="parametername">databaseContext</span></td>
-        <td><p>The context provider.</p>
+        <td><p>The database context in which to create the command.</p>
 </td>
       </tr>
-    </tbody>
-  </table>
-  <h3 id="methods">Methods
-  </h3>
-  
-  <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.SqlClient/TableValuedParameterCommandFactory.cs&amp;version=GBmaster&amp;line=62">View Source</a>
-  </span>
-  <a id="Startitecture_Orm_SqlClient_TableValuedParameterCommandFactory_Create_" data-uid="Startitecture.Orm.SqlClient.TableValuedParameterCommandFactory.Create*"></a>
-  <h4 id="Startitecture_Orm_SqlClient_TableValuedParameterCommandFactory_Create__1_Startitecture_Orm_Common_ITableCommand_System_Collections_Generic_IEnumerable___0__" data-uid="Startitecture.Orm.SqlClient.TableValuedParameterCommandFactory.Create``1(Startitecture.Orm.Common.ITableCommand,System.Collections.Generic.IEnumerable{``0})">Create&lt;T&gt;(ITableCommand, IEnumerable&lt;T&gt;)</h4>
-  <div class="markdown level1 summary"><p>Creates an <span class="xref">System.Data.IDbCommand</span> for the specified <code data-dev-comment-type="paramref" class="paramref">tableCommand</code>.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IDbCommand Create&lt;T&gt;(ITableCommand tableCommand, IEnumerable&lt;T&gt; items)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
       <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">commandText</span></td>
+        <td><p>The command text to execute.</p>
+</td>
       </tr>
-    </thead>
-    <tbody>
       <tr>
-        <td><a class="xref" href="Startitecture.Orm.Common.ITableCommand.html">ITableCommand</a></td>
-        <td><span class="parametername">tableCommand</span></td>
-        <td><p>The structured command.</p>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">parameterName</span></td>
+        <td><p>The name to use for the table parameter.</p>
 </td>
       </tr>
       <tr>
@@ -197,7 +176,7 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Data.IDbCommand</span></td>
-        <td><p>An <span class="xref">System.Data.IDbCommand</span> that will execute the structured command.</p>
+        <td><p>An <span class="xref">System.Data.IDbCommand</span> that will execute with <code data-dev-comment-type="paramref" class="paramref">items</code> as the parameter <code data-dev-comment-type="paramref" class="paramref">parameterName</code>.</p>
 </td>
       </tr>
     </tbody>
@@ -213,7 +192,7 @@
     <tbody>
       <tr>
         <td><span class="parametername">T</span></td>
-        <td><p>The type of items in the structured command.</p>
+        <td><p>The type of items in the table command.</p>
 </td>
       </tr>
     </tbody>
@@ -229,7 +208,7 @@
     <tbody>
       <tr>
         <td><span class="xref">Startitecture.Core.OperationException</span></td>
-        <td><p>The underlying <a class="xref" href="Startitecture.Orm.Common.IRepositoryProvider.html#Startitecture_Orm_Common_IRepositoryProvider_DatabaseContext">DatabaseContext</a> does not contain a <span class="xref">Microsoft.Data.SqlClient.SqlConnection</span>.</p>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">databaseContext</code> does not have a <a class="xref" href="Startitecture.Orm.Common.IDatabaseContext.html#Startitecture_Orm_Common_IDatabaseContext_Connection">Connection</a> of type <span class="xref">Microsoft.Data.SqlClient.SqlConnection</span>.</p>
 </td>
       </tr>
     </tbody>

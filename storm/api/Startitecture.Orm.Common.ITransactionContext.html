@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Interface ITransactionContext
    ">
-    <meta name="generator" content="docfx 2.56.6.0">
+    <meta name="generator" content="docfx 2.59.2.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -94,7 +94,7 @@
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/ITransactionContext.cs&amp;version=GBmaster&amp;line=24">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/ITransactionContext.cs&amp;version=GBmaster&amp;line=25">View Source</a>
   </span>
   <a id="Startitecture_Orm_Common_ITransactionContext_IsDisposed_" data-uid="Startitecture.Orm.Common.ITransactionContext.IsDisposed*"></a>
   <h4 id="Startitecture_Orm_Common_ITransactionContext_IsDisposed" data-uid="Startitecture.Orm.Common.ITransactionContext.IsDisposed">IsDisposed</h4>
@@ -122,7 +122,7 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/ITransactionContext.cs&amp;version=GBmaster&amp;line=29">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/ITransactionContext.cs&amp;version=GBmaster&amp;line=30">View Source</a>
   </span>
   <a id="Startitecture_Orm_Common_ITransactionContext_IsolationLevel_" data-uid="Startitecture.Orm.Common.ITransactionContext.IsolationLevel*"></a>
   <h4 id="Startitecture_Orm_Common_ITransactionContext_IsolationLevel" data-uid="Startitecture.Orm.Common.ITransactionContext.IsolationLevel">IsolationLevel</h4>
@@ -152,7 +152,7 @@
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/ITransactionContext.cs&amp;version=GBmaster&amp;line=34">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/ITransactionContext.cs&amp;version=GBmaster&amp;line=35">View Source</a>
   </span>
   <a id="Startitecture_Orm_Common_ITransactionContext_Commit_" data-uid="Startitecture.Orm.Common.ITransactionContext.Commit*"></a>
   <h4 id="Startitecture_Orm_Common_ITransactionContext_Commit" data-uid="Startitecture.Orm.Common.ITransactionContext.Commit">Commit()</h4>
@@ -165,7 +165,7 @@
   </div>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/ITransactionContext.cs&amp;version=GBmaster&amp;line=42">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/ITransactionContext.cs&amp;version=GBmaster&amp;line=43">View Source</a>
   </span>
   <a id="Startitecture_Orm_Common_ITransactionContext_CommitAsync_" data-uid="Startitecture.Orm.Common.ITransactionContext.CommitAsync*"></a>
   <h4 id="Startitecture_Orm_Common_ITransactionContext_CommitAsync" data-uid="Startitecture.Orm.Common.ITransactionContext.CommitAsync">CommitAsync()</h4>
@@ -194,7 +194,54 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/ITransactionContext.cs&amp;version=GBmaster&amp;line=47">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/ITransactionContext.cs&amp;version=GBmaster&amp;line=54">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Common_ITransactionContext_CommitAsync_" data-uid="Startitecture.Orm.Common.ITransactionContext.CommitAsync*"></a>
+  <h4 id="Startitecture_Orm_Common_ITransactionContext_CommitAsync_System_Threading_CancellationToken_" data-uid="Startitecture.Orm.Common.ITransactionContext.CommitAsync(System.Threading.CancellationToken)">CommitAsync(CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Commits the underlying transaction.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task CommitAsync(CancellationToken cancellationToken)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.CancellationToken</span></td>
+        <td><span class="parametername">cancellationToken</span></td>
+        <td><p>The cancellation token for this task.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td><p>The <span class="xref">System.Threading.Tasks.Task</span> that is committing the transaction.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/ITransactionContext.cs&amp;version=GBmaster&amp;line=59">View Source</a>
   </span>
   <a id="Startitecture_Orm_Common_ITransactionContext_Rollback_" data-uid="Startitecture.Orm.Common.ITransactionContext.Rollback*"></a>
   <h4 id="Startitecture_Orm_Common_ITransactionContext_Rollback" data-uid="Startitecture.Orm.Common.ITransactionContext.Rollback">Rollback()</h4>
@@ -207,7 +254,7 @@
   </div>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/ITransactionContext.cs&amp;version=GBmaster&amp;line=55">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/ITransactionContext.cs&amp;version=GBmaster&amp;line=67">View Source</a>
   </span>
   <a id="Startitecture_Orm_Common_ITransactionContext_RollbackAsync_" data-uid="Startitecture.Orm.Common.ITransactionContext.RollbackAsync*"></a>
   <h4 id="Startitecture_Orm_Common_ITransactionContext_RollbackAsync" data-uid="Startitecture.Orm.Common.ITransactionContext.RollbackAsync">RollbackAsync()</h4>
@@ -234,11 +281,58 @@
       </tr>
     </tbody>
   </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/ITransactionContext.cs&amp;version=GBmaster&amp;line=78">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Common_ITransactionContext_RollbackAsync_" data-uid="Startitecture.Orm.Common.ITransactionContext.RollbackAsync*"></a>
+  <h4 id="Startitecture_Orm_Common_ITransactionContext_RollbackAsync_System_Threading_CancellationToken_" data-uid="Startitecture.Orm.Common.ITransactionContext.RollbackAsync(System.Threading.CancellationToken)">RollbackAsync(CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Rolls back the underlying transaction.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task RollbackAsync(CancellationToken cancellationToken)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.CancellationToken</span></td>
+        <td><span class="parametername">cancellationToken</span></td>
+        <td><p>The cancellation token for this task.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td><p>The <span class="xref">System.Threading.Tasks.Task</span> that is rolling back the transaction.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="events">Events
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/ITransactionContext.cs&amp;version=GBmaster&amp;line=19">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/ITransactionContext.cs&amp;version=GBmaster&amp;line=20">View Source</a>
   </span>
   <h4 id="Startitecture_Orm_Common_ITransactionContext_Disposed" data-uid="Startitecture.Orm.Common.ITransactionContext.Disposed">Disposed</h4>
   <div class="markdown level1 summary"><p>Triggered when the transaction context is disposed.</p>
@@ -271,7 +365,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/ITransactionContext.cs&amp;version=GBmaster&amp;line=14" class="contribution-link">View Source</a>
+                    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Common/ITransactionContext.cs&amp;version=GBmaster&amp;line=15" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

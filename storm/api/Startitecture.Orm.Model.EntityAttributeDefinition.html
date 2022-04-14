@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Struct EntityAttributeDefinition
    ">
-    <meta name="generator" content="docfx 2.56.6.0">
+    <meta name="generator" content="docfx 2.59.2.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -97,7 +97,7 @@
   <h6><strong>Assembly</strong>: Startitecture.Orm.Model.dll</h6>
   <h5 id="Startitecture_Orm_Model_EntityAttributeDefinition_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public struct EntityAttributeDefinition : IEquatable&lt;EntityAttributeDefinition&gt;, IComparable, IComparable&lt;EntityAttributeDefinition&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">public readonly struct EntityAttributeDefinition : IEquatable&lt;EntityAttributeDefinition&gt;, IComparable, IComparable&lt;EntityAttributeDefinition&gt;</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
@@ -262,7 +262,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Alias { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public readonly string Alias { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -290,7 +290,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public EntityAttributeTypes AttributeTypes { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public readonly EntityAttributeTypes AttributeTypes { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -318,7 +318,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public EntityLocation Entity { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public readonly EntityLocation Entity { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -346,7 +346,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public LinkedListNode&lt;EntityLocation&gt; EntityNode { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public readonly LinkedListNode&lt;EntityLocation&gt; EntityNode { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -374,7 +374,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Delegate GetValueDelegate { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public readonly Delegate GetValueDelegate { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -402,7 +402,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public MethodInfo GetValueMethod { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public readonly MethodInfo GetValueMethod { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -430,7 +430,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool IsComputed { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public readonly bool IsComputed { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -458,7 +458,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool IsDirect { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public readonly bool IsDirect { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -486,7 +486,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool IsIdentityColumn { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public readonly bool IsIdentityColumn { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -514,7 +514,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool IsMetadata { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public readonly bool IsMetadata { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -542,7 +542,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool IsPrimaryKey { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public readonly bool IsPrimaryKey { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -570,7 +570,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool IsReferencedDirect { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public readonly bool IsReferencedDirect { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -598,7 +598,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int Ordinal { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public readonly int Ordinal { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -626,7 +626,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string PhysicalName { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public readonly string PhysicalName { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -654,7 +654,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public PropertyInfo PropertyInfo { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public readonly PropertyInfo PropertyInfo { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -682,7 +682,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string PropertyName { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public readonly string PropertyName { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -710,7 +710,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string ReferenceName { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public readonly string ReferenceName { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -738,7 +738,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public LinkedListNode&lt;EntityLocation&gt; ReferenceNode { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public readonly LinkedListNode&lt;EntityLocation&gt; ReferenceNode { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -766,7 +766,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ResolvedAttributeLocation ResolvedLocation { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public readonly ResolvedAttributeLocation ResolvedLocation { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -794,7 +794,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Delegate SetValueDelegate { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public readonly Delegate SetValueDelegate { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -822,7 +822,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public MethodInfo SetValueMethod { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public readonly MethodInfo SetValueMethod { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -852,7 +852,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int CompareTo(EntityAttributeDefinition other)</code></pre>
+    <pre><code class="lang-csharp hljs">public readonly int CompareTo(EntityAttributeDefinition other)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -902,7 +902,7 @@ whether the current instance precedes, follows, or occurs in the same position i
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int CompareTo(object obj)</code></pre>
+    <pre><code class="lang-csharp hljs">public readonly int CompareTo(object obj)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -968,7 +968,7 @@ occurs in the same position in the sort order as <code data-dev-comment-type="pa
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool Equals(EntityAttributeDefinition other)</code></pre>
+    <pre><code class="lang-csharp hljs">public readonly bool Equals(EntityAttributeDefinition other)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1015,7 +1015,7 @@ occurs in the same position in the sort order as <code data-dev-comment-type="pa
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override bool Equals(object obj)</code></pre>
+    <pre><code class="lang-csharp hljs">public override readonly bool Equals(object obj)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1064,7 +1064,7 @@ occurs in the same position in the sort order as <code data-dev-comment-type="pa
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
+    <pre><code class="lang-csharp hljs">public override readonly int GetHashCode()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1095,7 +1095,7 @@ occurs in the same position in the sort order as <code data-dev-comment-type="pa
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+    <pre><code class="lang-csharp hljs">public override readonly string ToString()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">

@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class DefaultDatabaseContextFactory
    ">
-    <meta name="generator" content="docfx 2.56.6.0">
+    <meta name="generator" content="docfx 2.59.2.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -118,7 +118,7 @@
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Mapper/DefaultDatabaseContextFactory.cs&amp;version=GBmaster&amp;line=58">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Mapper/DefaultDatabaseContextFactory.cs&amp;version=GBmaster&amp;line=60">View Source</a>
   </span>
   <a id="Startitecture_Orm_Mapper_DefaultDatabaseContextFactory__ctor_" data-uid="Startitecture.Orm.Mapper.DefaultDatabaseContextFactory.#ctor*"></a>
   <h4 id="Startitecture_Orm_Mapper_DefaultDatabaseContextFactory__ctor_System_String_System_String_Startitecture_Orm_Common_IRepositoryAdapter_" data-uid="Startitecture.Orm.Mapper.DefaultDatabaseContextFactory.#ctor(System.String,System.String,Startitecture.Orm.Common.IRepositoryAdapter)">DefaultDatabaseContextFactory(String, String, IRepositoryAdapter)</h4>
@@ -184,11 +184,11 @@
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Mapper/DefaultDatabaseContextFactory.cs&amp;version=GBmaster&amp;line=79">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Mapper/DefaultDatabaseContextFactory.cs&amp;version=GBmaster&amp;line=81">View Source</a>
   </span>
   <a id="Startitecture_Orm_Mapper_DefaultDatabaseContextFactory_Create_" data-uid="Startitecture.Orm.Mapper.DefaultDatabaseContextFactory.Create*"></a>
   <h4 id="Startitecture_Orm_Mapper_DefaultDatabaseContextFactory_Create" data-uid="Startitecture.Orm.Mapper.DefaultDatabaseContextFactory.Create">Create()</h4>
-  <div class="markdown level1 summary"><p>Creates a new database instance.</p>
+  <div class="markdown level1 summary"><p>Creates a new database context instance.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -211,6 +211,82 @@
       </tr>
     </tbody>
   </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Mapper/DefaultDatabaseContextFactory.cs&amp;version=GBmaster&amp;line=88">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Mapper_DefaultDatabaseContextFactory_CreateAsync_" data-uid="Startitecture.Orm.Mapper.DefaultDatabaseContextFactory.CreateAsync*"></a>
+  <h4 id="Startitecture_Orm_Mapper_DefaultDatabaseContextFactory_CreateAsync" data-uid="Startitecture.Orm.Mapper.DefaultDatabaseContextFactory.CreateAsync">CreateAsync()</h4>
+  <div class="markdown level1 summary"><p>Asynchronously creates a new database context instance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public async Task&lt;IDatabaseContext&gt; CreateAsync()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="Startitecture.Orm.Common.IDatabaseContext.html">IDatabaseContext</a>&gt;</td>
+        <td><p>The <span class="xref">System.Threading.Tasks.Task</span> that is creating a new <a class="xref" href="Startitecture.Orm.Common.IDatabaseContext.html">IDatabaseContext</a> instance.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Mapper/DefaultDatabaseContextFactory.cs&amp;version=GBmaster&amp;line=94">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_Mapper_DefaultDatabaseContextFactory_CreateAsync_" data-uid="Startitecture.Orm.Mapper.DefaultDatabaseContextFactory.CreateAsync*"></a>
+  <h4 id="Startitecture_Orm_Mapper_DefaultDatabaseContextFactory_CreateAsync_System_Threading_CancellationToken_" data-uid="Startitecture.Orm.Mapper.DefaultDatabaseContextFactory.CreateAsync(System.Threading.CancellationToken)">CreateAsync(CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Asynchronously creates a new database context instance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public async Task&lt;IDatabaseContext&gt; CreateAsync(CancellationToken cancellationToken)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.CancellationToken</span></td>
+        <td><span class="parametername">cancellationToken</span></td>
+        <td><p>The cancellation token for the asynchronous operation.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="Startitecture.Orm.Common.IDatabaseContext.html">IDatabaseContext</a>&gt;</td>
+        <td><p>The <span class="xref">System.Threading.Tasks.Task</span> that is creating a new <a class="xref" href="Startitecture.Orm.Common.IDatabaseContext.html">IDatabaseContext</a> instance.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="implements">Implements</h3>
   <div>
       <a class="xref" href="Startitecture.Orm.Common.IDatabaseContextFactory.html">IDatabaseContextFactory</a>
@@ -223,7 +299,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Mapper/DefaultDatabaseContextFactory.cs&amp;version=GBmaster&amp;line=23" class="contribution-link">View Source</a>
+                    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.Mapper/DefaultDatabaseContextFactory.cs&amp;version=GBmaster&amp;line=25" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

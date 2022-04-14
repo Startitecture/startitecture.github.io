@@ -9,7 +9,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.AutoMapper.AutoMapperEntityMapper.html",
-          "hash": "kdFmhhob+LdIrx7ct7PS1w=="
+          "hash": "2vkab3udzn+kAe+rAUuBqAlsU3KL98GQJGCyKDcFybk="
         }
       },
       "is_incremental": false,
@@ -21,7 +21,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.AutoMapper.ExtensionMethods.html",
-          "hash": "Paih0zxqLr9MyN2ZQjWLXQ=="
+          "hash": "/sQaxuO8so2VppKzMNPjTbzBpvG7KWdudaebKX02n7g="
         }
       },
       "is_incremental": false,
@@ -33,7 +33,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.AutoMapper.html",
-          "hash": "KZik21/keLgBmEvLkyT15g=="
+          "hash": "mOZ68uvusF29Zk+FuGXwNuJcRwsqK6F4oONHC6KCAs0="
         }
       },
       "is_incremental": false,
@@ -45,7 +45,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.Common.AnsiString.html",
-          "hash": "76St8qX+3bZghA4FgiouvQ=="
+          "hash": "A1veDHoLjmlNOtvOLWD8yFcoMtnfMWW617qs+dbTUCg="
         }
       },
       "is_incremental": false,
@@ -57,7 +57,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.Common.DatabaseRepositoryProvider.html",
-          "hash": "vyfPMemcWBHgDGaFUJhXAQ=="
+          "hash": "9RXokNVKIHeJ52pb7KWJYmIQYy7gMkmm5L2T/i+WRGA="
         }
       },
       "is_incremental": false,
@@ -69,7 +69,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.Common.EntityBase.html",
-          "hash": "PZEn8U80fUVCXfhdLou31A=="
+          "hash": "JmtGu6uXPe04W7T49NfnzgaIHMiVCiRLlaf/VLgp5N0="
         }
       },
       "is_incremental": false,
@@ -81,7 +81,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.Common.EntityRepository-2.html",
-          "hash": "hIKPMmFshkLHE/RVls2r9g=="
+          "hash": "vez4MP0Rr/R6KDnpPiRzU6sTpkXVop4n4V7Fh4uRdJ4="
         }
       },
       "is_incremental": false,
@@ -93,7 +93,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.Common.IDatabaseContext.html",
-          "hash": "jdGR4rOMVfsD7cIed5kUoA=="
+          "hash": "gEmmQzFtnNfIs5UgShL2JTQclHXw+gnjGFM3BY9auuk="
         }
       },
       "is_incremental": false,
@@ -105,7 +105,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.Common.IDatabaseContextFactory.html",
-          "hash": "Yx2UmhagJAyH7DPe1BnFrQ=="
+          "hash": "kfcyI3OFygp94GM241gF6CCCtmR5JyZ3uBKrzk3shKc="
         }
       },
       "is_incremental": false,
@@ -117,7 +117,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.Common.IDbTableCommandFactory.html",
-          "hash": "Jcj1+VSe58inlEOF1c66mw=="
+          "hash": "2HfaqFMPO3Cnu/gEv/aNb1vnL/PmR6g54ihMfvO2tSA="
         }
       },
       "is_incremental": false,
@@ -129,7 +129,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.Common.IEntityRepository-1.html",
-          "hash": "nw2Yx2ZMc015SLzGaBQBcQ=="
+          "hash": "D/52kG/al1igVUNczmYaw+8cSVOiZ2REIotGxeSpamA="
         }
       },
       "is_incremental": false,
@@ -141,7 +141,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.Common.IReadOnlyRepository-1.html",
-          "hash": "JRf1LJzWCARvyzIZbqvzfg=="
+          "hash": "VOhOhyOv2OvFaSaBFpu6D0Or8TrdZfpMsz6DIZy07JM="
         }
       },
       "is_incremental": false,
@@ -153,7 +153,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.Common.IRepositoryAdapter.html",
-          "hash": "wJyCWEArtC2UzD4FD82Erg=="
+          "hash": "WBsQuQ66PjkOHkROTW7zaZ1WFej9vEtoCajnZwjSH8g="
         }
       },
       "is_incremental": false,
@@ -165,7 +165,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.Common.IRepositoryProvider.html",
-          "hash": "cGrWckDSJK7B/xyWcoVbjA=="
+          "hash": "DChpkJi82sidZiKowUta/iLOM+x00TCx79Sahwem+f4="
         }
       },
       "is_incremental": false,
@@ -177,19 +177,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.Common.IRepositoryProviderFactory.html",
-          "hash": "LYnqHv8ikYoHENqszy5pFw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Startitecture.Orm.Common.ITableCommand.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Startitecture.Orm.Common.ITableCommand.html",
-          "hash": "UAd0bnqeCtLpJKJQxcN5uQ=="
+          "hash": "bcPG/9hOarHRSxyOMZmXPKscYCi5LvP9Wg4ohRIaYCM="
         }
       },
       "is_incremental": false,
@@ -201,7 +189,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.Common.ITransactionContext.html",
-          "hash": "WzwWAtbtzfoREgVMoIfj2g=="
+          "hash": "7+D4mfj6R3H2Na86DE35aR+6NcEiCUyF+4jPQVWk4oM="
         }
       },
       "is_incremental": false,
@@ -213,7 +201,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.Common.IValueMapper.html",
-          "hash": "G/3hiU3TIdAANsaPNW0SKA=="
+          "hash": "5ffnAJx5x9rUFSPa5GPmwakWnROoD04z5jP+LIjN738="
         }
       },
       "is_incremental": false,
@@ -225,7 +213,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.Common.JoinClause.html",
-          "hash": "d8jBT9I6WHDoNI7V+QI9vA=="
+          "hash": "EIp7MiIq38NIwcpjE38GL2KH0ke71x2/xUaq39WZ9x8="
         }
       },
       "is_incremental": false,
@@ -237,7 +225,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.Common.MapResult-1.html",
-          "hash": "sI6A4yhjPqQg/YyKC6NLow=="
+          "hash": "Kue7eLvDb7Lk7j3SZfxoQmQX0YpTR67LebJy0AilRQQ="
         }
       },
       "is_incremental": false,
@@ -249,7 +237,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.Common.NameQualifier.html",
-          "hash": "GQZkmQtQ9o3sAEQlTueSwQ=="
+          "hash": "Uws/v+h34y7j/lWISCh4TPYfEXsS0DwagY1D4JiFQNE="
         }
       },
       "is_incremental": false,
@@ -261,7 +249,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.Common.ReadOnlyRepository-2.html",
-          "hash": "LbeiS5MrDpZMY0P7rq4ceg=="
+          "hash": "ZddgCxeOKtb+h5EnSCaGip5Cv+ShvP4kcsM9kaM1TGY="
         }
       },
       "is_incremental": false,
@@ -273,7 +261,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.Common.RepositoryAdapter.html",
-          "hash": "yZsLwt/u0rCwRntt4hpoiA=="
+          "hash": "xyuaTufnW7pzl9D2kaa1Nsno8hLz5a8FMzwm4AGZeNs="
         }
       },
       "is_incremental": false,
@@ -285,7 +273,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.Common.RepositoryException.html",
-          "hash": "0qf2ctV/o8WvOTKoa7c9IQ=="
+          "hash": "ppDWCfVP5ajgZCe/qUrpKdkje3nN2QozPQgS9UP8+n0="
         }
       },
       "is_incremental": false,
@@ -297,7 +285,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.Common.html",
-          "hash": "MQJ8Fpc+CJDE+o/mYhJysw=="
+          "hash": "v8SYIA9j1A76J3WKNH8CyBqnVJ2iwCAK6dKDeWloUvg="
         }
       },
       "is_incremental": false,
@@ -309,7 +297,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.Mapper.DatabaseContext.html",
-          "hash": "lb38PiSoG8WdyBMrzHfD8A=="
+          "hash": "n346nqO8mNIlwvyWfVIJtiB6Q/Wdm08VajWx7Ixeln8="
         }
       },
       "is_incremental": false,
@@ -321,7 +309,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.Mapper.DefaultDatabaseContextFactory.html",
-          "hash": "NrcLW5mw+yFufHYe8f9hpA=="
+          "hash": "dSjrXu9YoRreZcuJoxnRVuWqu19LuYcAy8xpvvfiiBo="
         }
       },
       "is_incremental": false,
@@ -333,7 +321,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.Mapper.FlatPocoFactory.html",
-          "hash": "VdGFhZO+bO3a7TuDWcSVPw=="
+          "hash": "pMC+LErP8MYCB52izO8fXgUXOfttJpBzyWV/sHA3V/E="
         }
       },
       "is_incremental": false,
@@ -345,7 +333,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.Mapper.PocoDataRequest.html",
-          "hash": "LXOOOLuXbYaQeXM4hS5U4g=="
+          "hash": "9udLAQnGZ9mxp7LYEUGw4/7BqTtRM3CHb/1KqHwz5zQ="
         }
       },
       "is_incremental": false,
@@ -357,7 +345,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.Mapper.PocoDelegateInfo.html",
-          "hash": "d4DRn1fmKQFbsHBOuWuUOA=="
+          "hash": "HrEQ2dpkcT58E5lVIeYWMe/vKoWf69qSvUfwSsXeRfw="
         }
       },
       "is_incremental": false,
@@ -369,7 +357,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.Mapper.RaisedPocoFactory.html",
-          "hash": "HLYR0h1NkezE8968qw8ouA=="
+          "hash": "z9CshkrLvuhX3YkSu8o0U3eaIkHTLLO9gDoZswGwU2c="
         }
       },
       "is_incremental": false,
@@ -381,7 +369,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.Mapper.TableCommand-1.html",
-          "hash": "LFfN2Z1wfEfDVB2NCzAjYw=="
+          "hash": "QTIXumujEyav8LGjWA1tRB6ucPZhnRNn2BRb/M/6uCE="
         }
       },
       "is_incremental": false,
@@ -393,7 +381,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.Mapper.TransactionContext.html",
-          "hash": "mj6PC+FqJ3kJoNBxtuVq7Q=="
+          "hash": "QYe9cMvTvyZ3d3qlrEDO0OnCfP4BtV916acpS1ZXfV4="
         }
       },
       "is_incremental": false,
@@ -405,7 +393,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.Mapper.html",
-          "hash": "OlzVIOlHRb/IQAjUD9pEug=="
+          "hash": "pCp1UPbloEwJ/yhDZW38RQEsrsRHsePoH5TasKntwsc="
         }
       },
       "is_incremental": false,
@@ -417,7 +405,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.Model.AggregateFunction.html",
-          "hash": "Jnal228u5SqiPzBsjzJoMQ=="
+          "hash": "n5K+QsdH6RL4jeUOcEqVKM0yPGLNiupaP8lt2vzBe8I="
         }
       },
       "is_incremental": false,
@@ -429,7 +417,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.Model.AttributeLocation.html",
-          "hash": "a4EPUDF8jQB8OMRfIt2pww=="
+          "hash": "HsQ9tUg5hZv9R2n6vY129Qio2QLwg1ywmGnFxPjctBw="
         }
       },
       "is_incremental": false,
@@ -441,7 +429,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.Model.AttributeMatch-2.html",
-          "hash": "7u2izyiuJhqCxIFP10j0gw=="
+          "hash": "3aqfwpVOPlHYOhDrkhiR72FCKR+LzXYfZsssO9mbEpg="
         }
       },
       "is_incremental": false,
@@ -453,7 +441,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.Model.AttributeMatchSet-2.html",
-          "hash": "Fcccxn+eD8S4eoWxvKJOcg=="
+          "hash": "/2tSA587ICVEsWHbHTuPdxWFaAyOk3YdVZ9rhrnpZMQ="
         }
       },
       "is_incremental": false,
@@ -465,7 +453,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.Model.AttributeReference.html",
-          "hash": "sV/sLwJ4cW/AW9r++WWhng=="
+          "hash": "dkA0vZgrGaPKYN0AuCjTVyQdkIicpiHZYHBnTr/CnEU="
         }
       },
       "is_incremental": false,
@@ -477,7 +465,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.Model.EntityAttributeDefinition.html",
-          "hash": "/46qrWWZ4yIDU6IuHHOQ+g=="
+          "hash": "hYXyurovxqfWbKziSm2RYbcRWY88ZMIoJeVCdkGyp9U="
         }
       },
       "is_incremental": false,
@@ -489,7 +477,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.Model.EntityAttributeTypes.html",
-          "hash": "OWdUPVnNMUVdB3ENfMiGWg=="
+          "hash": "BEPIY4g42U8DWqs8FAKRFJ+VcW8hUuqPRObTmeJCaP4="
         }
       },
       "is_incremental": false,
@@ -501,7 +489,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.Model.EntityDefinition.html",
-          "hash": "15sgCqV10UFfPIKnZvIpRQ=="
+          "hash": "I0pq8VrFsrdXmggg75kvdSewo9VTDpRFtAdNJupyA3Q="
         }
       },
       "is_incremental": false,
@@ -513,7 +501,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.Model.EntityExpression-1.html",
-          "hash": "UgKi5siDJNirMF8mGizMZw=="
+          "hash": "y+XL8f+obHZmtk34yHhRWav9dlZD2LgQ4wUPKtJjdB4="
         }
       },
       "is_incremental": false,
@@ -525,7 +513,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.Model.EntityLocation.html",
-          "hash": "hhADCqvwRgrlhEM3CH7OrA=="
+          "hash": "gclDzkRxEhCS4lD7vRcQij8T6asDuzAplxwOhBdtt+g="
         }
       },
       "is_incremental": false,
@@ -537,7 +525,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.Model.EntityReference.html",
-          "hash": "rxB6mqZnzJyVo4KhGl1RGw=="
+          "hash": "Ab5dsGdfNV0dY4aE1Mc//qesldk1B0qJnEoSQRNmy7g="
         }
       },
       "is_incremental": false,
@@ -549,7 +537,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.Model.EntityRelation.html",
-          "hash": "g/qIXhHeXaoxhD7Tf7KHEg=="
+          "hash": "B7vrsnn340eB7ooDAJNMgFhjAwhLCg1KW5MNtIm+hiU="
         }
       },
       "is_incremental": false,
@@ -561,7 +549,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.Model.EntityRelationSet-1.html",
-          "hash": "ozoGrr6w/4WIPTOY4w9PKw=="
+          "hash": "RkPXFatAxkZYQjYyaRQ9T0qFXGMdrG07vgRuO9pqaEk="
         }
       },
       "is_incremental": false,
@@ -573,7 +561,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.Model.EntityRelationType.html",
-          "hash": "ACPfAi+AZSYjGDi2Fsw7bg=="
+          "hash": "gpafpQ9cr6lQK2/y9xgAzpTC86i5/AfxcGRy67hnQ2c="
         }
       },
       "is_incremental": false,
@@ -585,7 +573,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.Model.EntitySelection-1.html",
-          "hash": "JRhRM/MUPl6pdjNMsEjvkg=="
+          "hash": "Cpqu3Swxr0Z7lplZfFMBWGlXU9jzuhxP0Xh/ptXZwTg="
         }
       },
       "is_incremental": false,
@@ -597,7 +585,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.Model.EntitySet-1.html",
-          "hash": "5XzlplwcOHFC7m2mq4wxDA=="
+          "hash": "uJQoHOY8coReuwV4ewedGyzZy3XuugQTrm+H7Xq0ECY="
         }
       },
       "is_incremental": false,
@@ -609,7 +597,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.Model.FilterType.html",
-          "hash": "MAehnv+kSxKmqq4lzX60VA=="
+          "hash": "goG83zmJJUg1Y/r4oT2W0laLZ8zzXKAsYp+1Kv9E6Fg="
         }
       },
       "is_incremental": false,
@@ -621,7 +609,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.Model.IEntityAggregate.html",
-          "hash": "+SNAdvOnJeQUsdh+KNRYmQ=="
+          "hash": "J2zXrsm4LoSnkjxblHxqXL3dkB2aM0h6M4s0d8Rsrss="
         }
       },
       "is_incremental": false,
@@ -633,7 +621,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.Model.IEntityDefinition.html",
-          "hash": "ZC2URXKCC3YB0y44zHiwww=="
+          "hash": "bqKInRHcBC39sNewX/RcBO5myudWLrNcNhCxIlkXcmM="
         }
       },
       "is_incremental": false,
@@ -645,7 +633,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.Model.IEntityDefinitionProvider.html",
-          "hash": "zF0SR08Sfkm4E7SfXnJOfQ=="
+          "hash": "mRvH7v1LnuZdtu+syYrEHqPG9Wf4r8Tz/bUIxnCKE5M="
         }
       },
       "is_incremental": false,
@@ -657,7 +645,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.Model.IEntityExpression.html",
-          "hash": "4ivQTwOkjF94lzjDQ9A75Q=="
+          "hash": "jkGbyUwLDQ90UxOA972rtkGvCWyyJyW/HU+F51CD/J8="
         }
       },
       "is_incremental": false,
@@ -669,7 +657,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.Model.IEntityMapper.html",
-          "hash": "k57F6d0BZkl3ISKvG1Bo3g=="
+          "hash": "WUjXxdV3v0nNic4Lg3bAVpXCp/Rg+J8u0jTMoED1y4o="
         }
       },
       "is_incremental": false,
@@ -681,7 +669,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.Model.IEntityMapperFactory.html",
-          "hash": "k3LbgOJZf0nlLDWlwEv/fQ=="
+          "hash": "lIBsOh+DP2hNwWy2OJQ2E/3NolKJsHbUWie84bQi4Jo="
         }
       },
       "is_incremental": false,
@@ -693,7 +681,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.Model.IEntityRelation.html",
-          "hash": "QVvxqHCfdT1dLPvKCcjCBA=="
+          "hash": "DCNGwKhWaaGuTlG84gfuD2ggaId2Yxla6mvpApDiu0E="
         }
       },
       "is_incremental": false,
@@ -705,7 +693,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.Model.IEntitySet.html",
-          "hash": "6c1jX61k6HlsEFGkITYGNQ=="
+          "hash": "2GXcNNPbJlXAHayvOshWHmIxuKQPg8bEL64t5foRI+0="
         }
       },
       "is_incremental": false,
@@ -717,7 +705,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.Model.INameQualifier.html",
-          "hash": "QGK+FnWpMIGNYCwTJcTOpA=="
+          "hash": "RrfbgvRIFuf7ncqyACrbFWtF8p548ZjT+WphX5m4hLs="
         }
       },
       "is_incremental": false,
@@ -729,7 +717,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.Model.ISelection.html",
-          "hash": "3IuuHP45wNXR96P90XickA=="
+          "hash": "aLJqzNCcXhY8L4xI7kUhYm/04sVwk0yafqxrBfJfc7U="
         }
       },
       "is_incremental": false,
@@ -741,7 +729,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.Model.IUpdateSet.html",
-          "hash": "3w6jBuNWanGsZWSkUt70iw=="
+          "hash": "xnvjPXd2oRNQgQ4OQY+jwLWvle0A6pTgyWCZ9aa0MYQ="
         }
       },
       "is_incremental": false,
@@ -753,7 +741,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.Model.IValueFilter.html",
-          "hash": "tR5sxKfDLSVJbKOlSPd1ag=="
+          "hash": "Xl2Vf2H2jE47L7NDmDochMMjwy3vlec34aSGlzIomHY="
         }
       },
       "is_incremental": false,
@@ -765,7 +753,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.Model.LinkedSelection.html",
-          "hash": "bXgexT4z532PuvNMsGJlrA=="
+          "hash": "CaLIoKTd4r6NwAF7w6hhXQBq7+WSjFU2v5FLFmh8NxA="
         }
       },
       "is_incremental": false,
@@ -777,7 +765,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.Model.OrderExpression.html",
-          "hash": "CxrUBOeBcG9iD7z1mkH3xg=="
+          "hash": "Ft5ajZ5oCkt3J08/dp9ksG/7WJ8jBSAN7gPaw+ER4vg="
         }
       },
       "is_incremental": false,
@@ -789,7 +777,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.Model.OrderExpressionSet-1.html",
-          "hash": "uDqgoL62oImFSMeAhYxjHg=="
+          "hash": "p586KVIVvGkXFfMmJruEfhgQFgSjk3p6Yy61F1dCfFE="
         }
       },
       "is_incremental": false,
@@ -801,7 +789,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.Model.Query.html",
-          "hash": "eqESg4qNsD9MbNWmxZoXLg=="
+          "hash": "I3oOHOgua13lBS5vm6sam/1MH3CYKLPkxxL1mKtAATQ="
         }
       },
       "is_incremental": false,
@@ -813,7 +801,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.Model.RelationExpression.html",
-          "hash": "88/ABn1I247v5SHZ1WulFA=="
+          "hash": "DrkYka7UN8UHKqqIYNt1/tXHyM67ei/PLRiJ4chwOcE="
         }
       },
       "is_incremental": false,
@@ -825,7 +813,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.Model.ResolvedAttributeLocation.html",
-          "hash": "9h4qPFw3zJYvFBrOLmzO2w=="
+          "hash": "wuUs+zlIUS0tB4+T4TssFAAjmzC2JNr6qRWGz4G7fUo="
         }
       },
       "is_incremental": false,
@@ -837,7 +825,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.Model.ResultPage.html",
-          "hash": "xw3jf6vAXnnFdFt1j9dKgQ=="
+          "hash": "zlevbuMpeEnCQ+q1jIU33fdGobJwALY/e4POuRuhMKc="
         }
       },
       "is_incremental": false,
@@ -849,7 +837,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.Model.SelectExpression.html",
-          "hash": "jKtJd4ETuMNjHiLWHnY/eQ=="
+          "hash": "1T29CKrfF7V6iePCzAgGA/KbmJfC2KSOtM5Xvt1+5Jg="
         }
       },
       "is_incremental": false,
@@ -861,7 +849,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.Model.SelectionLinkType.html",
-          "hash": "nG60MFLc8hwEK8982wS1lw=="
+          "hash": "6HzP/zyGkgKgti4S5R/rH8JXl3OOnHoI1P1imcBY9EU="
         }
       },
       "is_incremental": false,
@@ -873,7 +861,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.Model.Subset.html",
-          "hash": "ul0drEEVRMsZfmcGmK2AmQ=="
+          "hash": "3waAFgY/lYisXn64k8yICbdPa7mmwB+G8slL4SHle9U="
         }
       },
       "is_incremental": false,
@@ -885,7 +873,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.Model.UpdateSet-1.html",
-          "hash": "pZxHRCbsmNoee6tZgthdkg=="
+          "hash": "XXVFRA+fQMO2tXxfAbQ5Wkf1MXTcKMrFTgOM8cn4Ayw="
         }
       },
       "is_incremental": false,
@@ -897,7 +885,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.Model.ValueFilter.html",
-          "hash": "o3+FgssranINgTC3jL6MmA=="
+          "hash": "9gi4bvHZk+4wXW8DdpTl9wXZvU4oDNjclPPY96ANSjg="
         }
       },
       "is_incremental": false,
@@ -909,7 +897,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.Model.ValueFilterSet-1.html",
-          "hash": "FaA6ryR1BclKNzXFoOwfLg=="
+          "hash": "r3YBEu58r0Vb0w7LbiO/6gjwOdwNJRjJR07A24KuBQo="
         }
       },
       "is_incremental": false,
@@ -921,7 +909,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.Model.ValueState.html",
-          "hash": "jj7tv8Y82aKRv2WvjQZReA=="
+          "hash": "hBxupEFkcQ3nW9obuiAhe3UazU0ghYHzGbhExbSzdys="
         }
       },
       "is_incremental": false,
@@ -933,7 +921,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.Model.html",
-          "hash": "f0ft07qOKZ2SX5HDd5CsiQ=="
+          "hash": "KhW/aFBwPi2KdHEPYdt3/55ZTwVgWQqOm3VP4EajXeE="
         }
       },
       "is_incremental": false,
@@ -945,7 +933,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.PostgreSql.IPostgreSqlRepository-2.html",
-          "hash": "jgi4RgomV9uNdd/Bna7vFQ=="
+          "hash": "cmVKiN1MKWv5zfIf1g85OwcnWz1VN/CG6BK0R29UmVs="
         }
       },
       "is_incremental": false,
@@ -957,7 +945,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.PostgreSql.InsertConflictAction.html",
-          "hash": "wxKp24m4QcBUerTITo9vcA=="
+          "hash": "ce0KvGv+h9vkHvizzhTh3CJurbnt6kZcWSoPppqG9do="
         }
       },
       "is_incremental": false,
@@ -969,7 +957,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.PostgreSql.JsonCommandFactory.html",
-          "hash": "6JtfLxjFxo+5hnNRUPWAsg=="
+          "hash": "bapi2sEnpoMxSM1WXK5Haf1dnw5KZ5aWI94z3/du/2Y="
         }
       },
       "is_incremental": false,
@@ -981,7 +969,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.PostgreSql.JsonInsert-1.html",
-          "hash": "NazUVhfjE35RJiv0n4kMGQ=="
+          "hash": "eyD1bRMaHzYi9+FFb9qJNiKnW2cphjcHk/4ymsFxVNU="
         }
       },
       "is_incremental": false,
@@ -993,7 +981,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.PostgreSql.PostgreSqlAdapter.html",
-          "hash": "ZdyvX8RpGzE6pnAr/dQpKQ=="
+          "hash": "E3PzHjq4Mi0g/Lu7MCcKczdIU/gqCTUhkZt55CB3pw0="
         }
       },
       "is_incremental": false,
@@ -1005,7 +993,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.PostgreSql.PostgreSqlProviderFactory.html",
-          "hash": "Li20IjaYkYZDzlDdk8Il3A=="
+          "hash": "wXEtaDLAdM71LgyB6Q/SFW0Ru8aaFNYqhbxLwHSV0iQ="
         }
       },
       "is_incremental": false,
@@ -1017,7 +1005,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.PostgreSql.PostgreSqlQualifier.html",
-          "hash": "R/Auujt7aFFf9ktdmp1AoQ=="
+          "hash": "b+cLD9WyQrQFobI7vXOVpMjK7R2AGWi/8Qm/b4LsaWk="
         }
       },
       "is_incremental": false,
@@ -1029,7 +1017,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.PostgreSql.PostgreSqlRepository-2.html",
-          "hash": "FsFVV5GeVltYkWkvEKGH6Q=="
+          "hash": "zlFhYJXZqcB7F+M4b8JjL4VuALsYfEADq2yFlbHJ8b8="
         }
       },
       "is_incremental": false,
@@ -1041,7 +1029,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.PostgreSql.html",
-          "hash": "P31QRUquLOq+/uL6OkAfqA=="
+          "hash": "a1ZmJdN57N1J0ALqbQSWYagqbAcvUs8zOu5vT5PI0lo="
         }
       },
       "is_incremental": false,
@@ -1053,7 +1041,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.Schema.DataAnnotationsDefinitionProvider.html",
-          "hash": "c2D6fSFDCJm1KmkpSHfFhg=="
+          "hash": "oDNRyikBgQMj6FvBsImEFjl7XWdfAsrR79YqbKW59rc="
         }
       },
       "is_incremental": false,
@@ -1065,7 +1053,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.Schema.DefinitionProviderBase.html",
-          "hash": "MX2D2oJ+UFpTuDsO3XfleA=="
+          "hash": "zeQcpHNGaoqxPMQrRr6KCZDCXwcm6OuYyFlitOfFhoM="
         }
       },
       "is_incremental": false,
@@ -1077,7 +1065,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.Schema.ExtensionMethods.html",
-          "hash": "IgQcvHD/viChi0zrmiOKXQ=="
+          "hash": "71D5E1iLfM2h6OiBuTfdiK/6T07SZgq4YqGOcfqPU8k="
         }
       },
       "is_incremental": false,
@@ -1089,7 +1077,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.Schema.IgnoreAttribute.html",
-          "hash": "8I7VzeQFtFab6vVGS/VAOA=="
+          "hash": "My8V+ZXNWHg44tPbcHp8Gnz7M3gisJgWyw1wpWh0Q4I="
         }
       },
       "is_incremental": false,
@@ -1101,7 +1089,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.Schema.IndexAttribute.html",
-          "hash": "ngCbD2seFUzwehVUU5mZVQ=="
+          "hash": "4zoo+Td+Sn0hFG4pDozpm3UE5Suo46RPx501uzpdYBY="
         }
       },
       "is_incremental": false,
@@ -1113,7 +1101,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.Schema.QualifiedName.html",
-          "hash": "2+enx7fahgw1PQTBxwRxfQ=="
+          "hash": "wXvt7mm6FO00tZpdzqcRuAbz0NCL2snDpl8xrmMcgCk="
         }
       },
       "is_incremental": false,
@@ -1125,7 +1113,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.Schema.RelatedEntityAttribute.html",
-          "hash": "gAWtqafwW9XLQxXAuNbI3Q=="
+          "hash": "ZdxR6Tzi1y1BjkAj7jrLtTVttBK3yhps4TyaKRgtZ5E="
         }
       },
       "is_incremental": false,
@@ -1137,7 +1125,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.Schema.RelationAttribute.html",
-          "hash": "LJIUAZGb5cHiQOgiAuXxcw=="
+          "hash": "vtGN8tNKvFo3aQaV0Ss/FPfL0aJO7lsh2JTHn9nr2og="
         }
       },
       "is_incremental": false,
@@ -1149,7 +1137,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.Schema.TableTypeAttribute.html",
-          "hash": "47pQ1R8v4RoNfIdDB35IhA=="
+          "hash": "pJZY549T64biAUCFJujHJbKLw1ajF4DHzj2Kba9h5uk="
         }
       },
       "is_incremental": false,
@@ -1161,7 +1149,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.Schema.html",
-          "hash": "zbAWlgrgYVlBK+YxqCZbvg=="
+          "hash": "umx9neUFCAmEtvwrPAZLzT3xV2HC052xheI5qTzBfW8="
         }
       },
       "is_incremental": false,
@@ -1173,7 +1161,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.SqlClient.DataTableLoader-1.html",
-          "hash": "0OrkDAhhyrjPNJW+JHMyuw=="
+          "hash": "eY3uBs03S7tN6UBhzDFAi+S4KwAoru16r64X/2C8qGg="
         }
       },
       "is_incremental": false,
@@ -1185,7 +1173,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.SqlClient.ISqlClientRepository-2.html",
-          "hash": "of5DzPsUXZ+uNsm4I9WQjQ=="
+          "hash": "CIwxUTsjz/ao0Rf97s/L0nxtFmn2hc7M9P67rUVjg28="
         }
       },
       "is_incremental": false,
@@ -1197,7 +1185,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.SqlClient.JsonInsert-1.html",
-          "hash": "QGTnAGURQnWBtLxt0Bdq7A=="
+          "hash": "9i7p5n4YtWHDdw3rZcmVbDBTprmxSuxad/mbrUNwT8g="
         }
       },
       "is_incremental": false,
@@ -1209,7 +1197,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.SqlClient.JsonMerge-1.html",
-          "hash": "AuVQLP59CaKTNGczEjyATg=="
+          "hash": "4ExaW02QJCNGr3UkVvXaW1UW9vXJAm8aU5gMc+a6aP8="
         }
       },
       "is_incremental": false,
@@ -1221,7 +1209,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.SqlClient.JsonParameterCommandFactory.html",
-          "hash": "6ewHGM6ZkwSSCl03/L60Mg=="
+          "hash": "zAd+zErYw74KpUIGu8h5d2p9gcvLvedEYJZvgrsUGas="
         }
       },
       "is_incremental": false,
@@ -1233,7 +1221,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.SqlClient.MoneyConverter.html",
-          "hash": "FqWkFNjt6C3E13Q9U5lv7g=="
+          "hash": "E59DuuxZlbt/peBN7ZQ1MsVn/UuErNxAi+/1iBU4Fto="
         }
       },
       "is_incremental": false,
@@ -1245,7 +1233,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.SqlClient.SqlClientProviderFactory.html",
-          "hash": "FxQYaE62fl88Fa0lAAPyuA=="
+          "hash": "ziu26d5/YHbxd3lD/Moa1zLyNMyyGjzX5KiWSHlpb/k="
         }
       },
       "is_incremental": false,
@@ -1257,7 +1245,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.SqlClient.SqlClientRepository-2.html",
-          "hash": "hJ/nWWRrrVyevWyrEupRqA=="
+          "hash": "Kp3VMd1M0psZCbsYTELYH8wRIOpmVJ8VZcmCy4Arxps="
         }
       },
       "is_incremental": false,
@@ -1269,7 +1257,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.SqlClient.TableValuedInsert-1.html",
-          "hash": "JHhe6ie25ttjYAX/W0TjkA=="
+          "hash": "gLqTbv2xy7WLyPgkkmnzv2Thyzpt027G63NhyLMTosk="
         }
       },
       "is_incremental": false,
@@ -1281,7 +1269,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.SqlClient.TableValuedMerge-1.html",
-          "hash": "5qPh5ZWD9K+HvP/K1XB8eg=="
+          "hash": "22+pImLgWR+epD1HOeGCdk2hS+XLKIgSnnQEV+FH+p8="
         }
       },
       "is_incremental": false,
@@ -1293,7 +1281,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.SqlClient.TableValuedParameterCommandFactory.html",
-          "hash": "vziY2WB3cJkMxIpSRguOcg=="
+          "hash": "Xl23cHoCDnTxHvKmAnH4+8lln6kBOPzjy71ULvWibmg="
         }
       },
       "is_incremental": false,
@@ -1305,7 +1293,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.SqlClient.TransactSqlAdapter.html",
-          "hash": "jXq2Kbj1LMJOCBN3KAAY7w=="
+          "hash": "f74c9KWHbXGh4dZFOsmkf3HlZH5zRgW1dSv0RFJYUdw="
         }
       },
       "is_incremental": false,
@@ -1317,7 +1305,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.SqlClient.TransactSqlInsertBase-1.html",
-          "hash": "KVqU0e6lWFmZpGjUI0jmZA=="
+          "hash": "7hkeSduIpksI3RkovWMkYYiv+Z9IZhjuIehtM19tU44="
         }
       },
       "is_incremental": false,
@@ -1329,7 +1317,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.SqlClient.TransactSqlMergeBase-1.html",
-          "hash": "eAVRRopUeq8qQ/SSDf2YKA=="
+          "hash": "mHIv59R2Bqzy7h1cFwv2HThrLUBmdiz01xQuwp7YxcI="
         }
       },
       "is_incremental": false,
@@ -1341,7 +1329,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.SqlClient.TransactSqlQualifier.html",
-          "hash": "QPnUB7+nRlYrBHGerfgB5w=="
+          "hash": "4otSWC/1nlMEmbNclfGk019/LFhCLwI6OF3CwnwSeMw="
         }
       },
       "is_incremental": false,
@@ -1353,7 +1341,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Startitecture.Orm.SqlClient.html",
-          "hash": "p7Aqrqpw+05ona11VIhAaQ=="
+          "hash": "EEkBxeCo/Td8sPPoTESUVl9WH7o5vhULRyH72DRSVLM="
         }
       },
       "is_incremental": false,
@@ -1365,7 +1353,7 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "fkoTI5Du3vSS8TINrs42EQ=="
+          "hash": "9QA6yRM7Py8TSFWf+Zt4tbG1b0FTILose3CO+QSx9Ok="
         }
       },
       "is_incremental": false,
@@ -1377,7 +1365,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "WyIUuG21lZYtXLpudN8/7g=="
+          "hash": "dzG6uZqG1nfPuIXzBeIYmBDebcL7Erxt2GPFMaS+rkw="
         }
       },
       "is_incremental": false,
@@ -1389,7 +1377,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/index.html",
-          "hash": "3xKq4giZGmE6+1u//FJPYw=="
+          "hash": "6BZ6xWKhBCrVFnViEN7uSkeXMXCHmXPUAGSUjGTLHps="
         }
       },
       "is_incremental": false,
@@ -1404,7 +1392,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/intro.html",
-          "hash": "rwbfYzbmMbZ4Iu7nc4RcKg=="
+          "hash": "Rw5FoaHTL8eULrcFgfwIlXigSmGbxN81I7W3TVfpaZ4="
         }
       },
       "is_incremental": false,
@@ -1416,7 +1404,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/toc.html",
-          "hash": "gB8AESyvNru97tzIZofEEg=="
+          "hash": "BlPxk5mtl2kgfcZUgkEguqiSAR/EUyUTT4EdebwkQvs="
         }
       },
       "is_incremental": false,
@@ -1428,7 +1416,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "t8b09Yau5f8cJIYiivd//A=="
+          "hash": "8KCz3goqjXLWwjcNY9ldPTo/MYjQKic8NMUfhCuuIKI="
         }
       },
       "is_incremental": false,
@@ -1440,7 +1428,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "4U5SuMhFU7uDg0xrAeTXFQ=="
+          "hash": "oTURDwgwfWcgGnkMfPIFGUWw9jF6WwZuYd0QxVje1KU="
         }
       },
       "is_incremental": false,
@@ -1467,7 +1455,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 113,
+          "total_file_count": 112,
           "skipped_file_count": 0
         },
         "TocDocumentProcessor": {
