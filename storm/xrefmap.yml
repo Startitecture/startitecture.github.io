@@ -9697,6 +9697,15 @@ references:
   fullName.vb: Startitecture.Orm.PostgreSql.IPostgreSqlRepository(Of TModel, TEntity).InsertAsync
   nameWithType: IPostgreSqlRepository<TModel, TEntity>.InsertAsync
   nameWithType.vb: IPostgreSqlRepository(Of TModel, TEntity).InsertAsync
+- uid: Startitecture.Orm.PostgreSql.IPostgreSqlRepository`2.InsertAsync``1(System.Collections.Generic.IEnumerable{``0},System.Action{Startitecture.Orm.PostgreSql.JsonInsert{`1}})
+  name: InsertAsync<TItem>(IEnumerable<TItem>, Action<JsonInsert<TEntity>>)
+  href: api/Startitecture.Orm.PostgreSql.IPostgreSqlRepository-2.html#Startitecture_Orm_PostgreSql_IPostgreSqlRepository_2_InsertAsync__1_System_Collections_Generic_IEnumerable___0__System_Action_Startitecture_Orm_PostgreSql_JsonInsert__1___
+  commentId: M:Startitecture.Orm.PostgreSql.IPostgreSqlRepository`2.InsertAsync``1(System.Collections.Generic.IEnumerable{``0},System.Action{Startitecture.Orm.PostgreSql.JsonInsert{`1}})
+  name.vb: InsertAsync(Of TItem)(IEnumerable(Of TItem), Action(Of JsonInsert(Of TEntity)))
+  fullName: Startitecture.Orm.PostgreSql.IPostgreSqlRepository<TModel, TEntity>.InsertAsync<TItem>(System.Collections.Generic.IEnumerable<TItem>, System.Action<Startitecture.Orm.PostgreSql.JsonInsert<TEntity>>)
+  fullName.vb: Startitecture.Orm.PostgreSql.IPostgreSqlRepository(Of TModel, TEntity).InsertAsync(Of TItem)(System.Collections.Generic.IEnumerable(Of TItem), System.Action(Of Startitecture.Orm.PostgreSql.JsonInsert(Of TEntity)))
+  nameWithType: IPostgreSqlRepository<TModel, TEntity>.InsertAsync<TItem>(IEnumerable<TItem>, Action<JsonInsert<TEntity>>)
+  nameWithType.vb: IPostgreSqlRepository(Of TModel, TEntity).InsertAsync(Of TItem)(IEnumerable(Of TItem), Action(Of JsonInsert(Of TEntity)))
 - uid: Startitecture.Orm.PostgreSql.IPostgreSqlRepository`2.InsertAsync``1(System.Collections.Generic.IEnumerable{``0},System.Action{Startitecture.Orm.PostgreSql.JsonInsert{`1}},System.Threading.CancellationToken)
   name: InsertAsync<TItem>(IEnumerable<TItem>, Action<JsonInsert<TEntity>>, CancellationToken)
   href: api/Startitecture.Orm.PostgreSql.IPostgreSqlRepository-2.html#Startitecture_Orm_PostgreSql_IPostgreSqlRepository_2_InsertAsync__1_System_Collections_Generic_IEnumerable___0__System_Action_Startitecture_Orm_PostgreSql_JsonInsert__1___System_Threading_CancellationToken_
@@ -9733,6 +9742,15 @@ references:
   fullName.vb: Startitecture.Orm.PostgreSql.IPostgreSqlRepository(Of TModel, TEntity).InsertForResultsAsync
   nameWithType: IPostgreSqlRepository<TModel, TEntity>.InsertForResultsAsync
   nameWithType.vb: IPostgreSqlRepository(Of TModel, TEntity).InsertForResultsAsync
+- uid: Startitecture.Orm.PostgreSql.IPostgreSqlRepository`2.InsertForResultsAsync``1(System.Collections.Generic.IEnumerable{``0},System.Action{Startitecture.Orm.PostgreSql.JsonInsert{`1}})
+  name: InsertForResultsAsync<TItem>(IEnumerable<TItem>, Action<JsonInsert<TEntity>>)
+  href: api/Startitecture.Orm.PostgreSql.IPostgreSqlRepository-2.html#Startitecture_Orm_PostgreSql_IPostgreSqlRepository_2_InsertForResultsAsync__1_System_Collections_Generic_IEnumerable___0__System_Action_Startitecture_Orm_PostgreSql_JsonInsert__1___
+  commentId: M:Startitecture.Orm.PostgreSql.IPostgreSqlRepository`2.InsertForResultsAsync``1(System.Collections.Generic.IEnumerable{``0},System.Action{Startitecture.Orm.PostgreSql.JsonInsert{`1}})
+  name.vb: InsertForResultsAsync(Of TItem)(IEnumerable(Of TItem), Action(Of JsonInsert(Of TEntity)))
+  fullName: Startitecture.Orm.PostgreSql.IPostgreSqlRepository<TModel, TEntity>.InsertForResultsAsync<TItem>(System.Collections.Generic.IEnumerable<TItem>, System.Action<Startitecture.Orm.PostgreSql.JsonInsert<TEntity>>)
+  fullName.vb: Startitecture.Orm.PostgreSql.IPostgreSqlRepository(Of TModel, TEntity).InsertForResultsAsync(Of TItem)(System.Collections.Generic.IEnumerable(Of TItem), System.Action(Of Startitecture.Orm.PostgreSql.JsonInsert(Of TEntity)))
+  nameWithType: IPostgreSqlRepository<TModel, TEntity>.InsertForResultsAsync<TItem>(IEnumerable<TItem>, Action<JsonInsert<TEntity>>)
+  nameWithType.vb: IPostgreSqlRepository(Of TModel, TEntity).InsertForResultsAsync(Of TItem)(IEnumerable(Of TItem), Action(Of JsonInsert(Of TEntity)))
 - uid: Startitecture.Orm.PostgreSql.IPostgreSqlRepository`2.InsertForResultsAsync``1(System.Collections.Generic.IEnumerable{``0},System.Action{Startitecture.Orm.PostgreSql.JsonInsert{`1}},System.Threading.CancellationToken)
   name: InsertForResultsAsync<TItem>(IEnumerable<TItem>, Action<JsonInsert<TEntity>>, CancellationToken)
   href: api/Startitecture.Orm.PostgreSql.IPostgreSqlRepository-2.html#Startitecture_Orm_PostgreSql_IPostgreSqlRepository_2_InsertForResultsAsync__1_System_Collections_Generic_IEnumerable___0__System_Action_Startitecture_Orm_PostgreSql_JsonInsert__1___System_Threading_CancellationToken_
@@ -10090,6 +10108,15 @@ references:
   fullName.vb: Startitecture.Orm.PostgreSql.PostgreSqlRepository(Of TModel, TEntity).InsertAsync
   nameWithType: PostgreSqlRepository<TModel, TEntity>.InsertAsync
   nameWithType.vb: PostgreSqlRepository(Of TModel, TEntity).InsertAsync
+- uid: Startitecture.Orm.PostgreSql.PostgreSqlRepository`2.InsertAsync``1(System.Collections.Generic.IEnumerable{``0},System.Action{Startitecture.Orm.PostgreSql.JsonInsert{`1}})
+  name: InsertAsync<TItem>(IEnumerable<TItem>, Action<JsonInsert<TEntity>>)
+  href: api/Startitecture.Orm.PostgreSql.PostgreSqlRepository-2.html#Startitecture_Orm_PostgreSql_PostgreSqlRepository_2_InsertAsync__1_System_Collections_Generic_IEnumerable___0__System_Action_Startitecture_Orm_PostgreSql_JsonInsert__1___
+  commentId: M:Startitecture.Orm.PostgreSql.PostgreSqlRepository`2.InsertAsync``1(System.Collections.Generic.IEnumerable{``0},System.Action{Startitecture.Orm.PostgreSql.JsonInsert{`1}})
+  name.vb: InsertAsync(Of TItem)(IEnumerable(Of TItem), Action(Of JsonInsert(Of TEntity)))
+  fullName: Startitecture.Orm.PostgreSql.PostgreSqlRepository<TModel, TEntity>.InsertAsync<TItem>(System.Collections.Generic.IEnumerable<TItem>, System.Action<Startitecture.Orm.PostgreSql.JsonInsert<TEntity>>)
+  fullName.vb: Startitecture.Orm.PostgreSql.PostgreSqlRepository(Of TModel, TEntity).InsertAsync(Of TItem)(System.Collections.Generic.IEnumerable(Of TItem), System.Action(Of Startitecture.Orm.PostgreSql.JsonInsert(Of TEntity)))
+  nameWithType: PostgreSqlRepository<TModel, TEntity>.InsertAsync<TItem>(IEnumerable<TItem>, Action<JsonInsert<TEntity>>)
+  nameWithType.vb: PostgreSqlRepository(Of TModel, TEntity).InsertAsync(Of TItem)(IEnumerable(Of TItem), Action(Of JsonInsert(Of TEntity)))
 - uid: Startitecture.Orm.PostgreSql.PostgreSqlRepository`2.InsertAsync``1(System.Collections.Generic.IEnumerable{``0},System.Action{Startitecture.Orm.PostgreSql.JsonInsert{`1}},System.Threading.CancellationToken)
   name: InsertAsync<TItem>(IEnumerable<TItem>, Action<JsonInsert<TEntity>>, CancellationToken)
   href: api/Startitecture.Orm.PostgreSql.PostgreSqlRepository-2.html#Startitecture_Orm_PostgreSql_PostgreSqlRepository_2_InsertAsync__1_System_Collections_Generic_IEnumerable___0__System_Action_Startitecture_Orm_PostgreSql_JsonInsert__1___System_Threading_CancellationToken_
@@ -10126,6 +10153,15 @@ references:
   fullName.vb: Startitecture.Orm.PostgreSql.PostgreSqlRepository(Of TModel, TEntity).InsertForResultsAsync
   nameWithType: PostgreSqlRepository<TModel, TEntity>.InsertForResultsAsync
   nameWithType.vb: PostgreSqlRepository(Of TModel, TEntity).InsertForResultsAsync
+- uid: Startitecture.Orm.PostgreSql.PostgreSqlRepository`2.InsertForResultsAsync``1(System.Collections.Generic.IEnumerable{``0},System.Action{Startitecture.Orm.PostgreSql.JsonInsert{`1}})
+  name: InsertForResultsAsync<TItem>(IEnumerable<TItem>, Action<JsonInsert<TEntity>>)
+  href: api/Startitecture.Orm.PostgreSql.PostgreSqlRepository-2.html#Startitecture_Orm_PostgreSql_PostgreSqlRepository_2_InsertForResultsAsync__1_System_Collections_Generic_IEnumerable___0__System_Action_Startitecture_Orm_PostgreSql_JsonInsert__1___
+  commentId: M:Startitecture.Orm.PostgreSql.PostgreSqlRepository`2.InsertForResultsAsync``1(System.Collections.Generic.IEnumerable{``0},System.Action{Startitecture.Orm.PostgreSql.JsonInsert{`1}})
+  name.vb: InsertForResultsAsync(Of TItem)(IEnumerable(Of TItem), Action(Of JsonInsert(Of TEntity)))
+  fullName: Startitecture.Orm.PostgreSql.PostgreSqlRepository<TModel, TEntity>.InsertForResultsAsync<TItem>(System.Collections.Generic.IEnumerable<TItem>, System.Action<Startitecture.Orm.PostgreSql.JsonInsert<TEntity>>)
+  fullName.vb: Startitecture.Orm.PostgreSql.PostgreSqlRepository(Of TModel, TEntity).InsertForResultsAsync(Of TItem)(System.Collections.Generic.IEnumerable(Of TItem), System.Action(Of Startitecture.Orm.PostgreSql.JsonInsert(Of TEntity)))
+  nameWithType: PostgreSqlRepository<TModel, TEntity>.InsertForResultsAsync<TItem>(IEnumerable<TItem>, Action<JsonInsert<TEntity>>)
+  nameWithType.vb: PostgreSqlRepository(Of TModel, TEntity).InsertForResultsAsync(Of TItem)(IEnumerable(Of TItem), Action(Of JsonInsert(Of TEntity)))
 - uid: Startitecture.Orm.PostgreSql.PostgreSqlRepository`2.InsertForResultsAsync``1(System.Collections.Generic.IEnumerable{``0},System.Action{Startitecture.Orm.PostgreSql.JsonInsert{`1}},System.Threading.CancellationToken)
   name: InsertForResultsAsync<TItem>(IEnumerable<TItem>, Action<JsonInsert<TEntity>>, CancellationToken)
   href: api/Startitecture.Orm.PostgreSql.PostgreSqlRepository-2.html#Startitecture_Orm_PostgreSql_PostgreSqlRepository_2_InsertForResultsAsync__1_System_Collections_Generic_IEnumerable___0__System_Action_Startitecture_Orm_PostgreSql_JsonInsert__1___System_Threading_CancellationToken_
@@ -11036,6 +11072,15 @@ references:
   fullName.vb: Startitecture.Orm.SqlClient.ISqlClientRepository(Of TModel, TEntity).InsertAsync
   nameWithType: ISqlClientRepository<TModel, TEntity>.InsertAsync
   nameWithType.vb: ISqlClientRepository(Of TModel, TEntity).InsertAsync
+- uid: Startitecture.Orm.SqlClient.ISqlClientRepository`2.InsertAsync``1(System.Collections.Generic.IEnumerable{``0},System.Action{Startitecture.Orm.SqlClient.TransactSqlInsertBase{`1}})
+  name: InsertAsync<TItem>(IEnumerable<TItem>, Action<TransactSqlInsertBase<TEntity>>)
+  href: api/Startitecture.Orm.SqlClient.ISqlClientRepository-2.html#Startitecture_Orm_SqlClient_ISqlClientRepository_2_InsertAsync__1_System_Collections_Generic_IEnumerable___0__System_Action_Startitecture_Orm_SqlClient_TransactSqlInsertBase__1___
+  commentId: M:Startitecture.Orm.SqlClient.ISqlClientRepository`2.InsertAsync``1(System.Collections.Generic.IEnumerable{``0},System.Action{Startitecture.Orm.SqlClient.TransactSqlInsertBase{`1}})
+  name.vb: InsertAsync(Of TItem)(IEnumerable(Of TItem), Action(Of TransactSqlInsertBase(Of TEntity)))
+  fullName: Startitecture.Orm.SqlClient.ISqlClientRepository<TModel, TEntity>.InsertAsync<TItem>(System.Collections.Generic.IEnumerable<TItem>, System.Action<Startitecture.Orm.SqlClient.TransactSqlInsertBase<TEntity>>)
+  fullName.vb: Startitecture.Orm.SqlClient.ISqlClientRepository(Of TModel, TEntity).InsertAsync(Of TItem)(System.Collections.Generic.IEnumerable(Of TItem), System.Action(Of Startitecture.Orm.SqlClient.TransactSqlInsertBase(Of TEntity)))
+  nameWithType: ISqlClientRepository<TModel, TEntity>.InsertAsync<TItem>(IEnumerable<TItem>, Action<TransactSqlInsertBase<TEntity>>)
+  nameWithType.vb: ISqlClientRepository(Of TModel, TEntity).InsertAsync(Of TItem)(IEnumerable(Of TItem), Action(Of TransactSqlInsertBase(Of TEntity)))
 - uid: Startitecture.Orm.SqlClient.ISqlClientRepository`2.InsertAsync``1(System.Collections.Generic.IEnumerable{``0},System.Action{Startitecture.Orm.SqlClient.TransactSqlInsertBase{`1}},System.Threading.CancellationToken)
   name: InsertAsync<TItem>(IEnumerable<TItem>, Action<TransactSqlInsertBase<TEntity>>, CancellationToken)
   href: api/Startitecture.Orm.SqlClient.ISqlClientRepository-2.html#Startitecture_Orm_SqlClient_ISqlClientRepository_2_InsertAsync__1_System_Collections_Generic_IEnumerable___0__System_Action_Startitecture_Orm_SqlClient_TransactSqlInsertBase__1___System_Threading_CancellationToken_
@@ -11072,6 +11117,15 @@ references:
   fullName.vb: Startitecture.Orm.SqlClient.ISqlClientRepository(Of TModel, TEntity).InsertForResultsAsync
   nameWithType: ISqlClientRepository<TModel, TEntity>.InsertForResultsAsync
   nameWithType.vb: ISqlClientRepository(Of TModel, TEntity).InsertForResultsAsync
+- uid: Startitecture.Orm.SqlClient.ISqlClientRepository`2.InsertForResultsAsync``1(System.Collections.Generic.IEnumerable{``0},System.Action{Startitecture.Orm.SqlClient.TransactSqlInsertBase{`1}})
+  name: InsertForResultsAsync<TItem>(IEnumerable<TItem>, Action<TransactSqlInsertBase<TEntity>>)
+  href: api/Startitecture.Orm.SqlClient.ISqlClientRepository-2.html#Startitecture_Orm_SqlClient_ISqlClientRepository_2_InsertForResultsAsync__1_System_Collections_Generic_IEnumerable___0__System_Action_Startitecture_Orm_SqlClient_TransactSqlInsertBase__1___
+  commentId: M:Startitecture.Orm.SqlClient.ISqlClientRepository`2.InsertForResultsAsync``1(System.Collections.Generic.IEnumerable{``0},System.Action{Startitecture.Orm.SqlClient.TransactSqlInsertBase{`1}})
+  name.vb: InsertForResultsAsync(Of TItem)(IEnumerable(Of TItem), Action(Of TransactSqlInsertBase(Of TEntity)))
+  fullName: Startitecture.Orm.SqlClient.ISqlClientRepository<TModel, TEntity>.InsertForResultsAsync<TItem>(System.Collections.Generic.IEnumerable<TItem>, System.Action<Startitecture.Orm.SqlClient.TransactSqlInsertBase<TEntity>>)
+  fullName.vb: Startitecture.Orm.SqlClient.ISqlClientRepository(Of TModel, TEntity).InsertForResultsAsync(Of TItem)(System.Collections.Generic.IEnumerable(Of TItem), System.Action(Of Startitecture.Orm.SqlClient.TransactSqlInsertBase(Of TEntity)))
+  nameWithType: ISqlClientRepository<TModel, TEntity>.InsertForResultsAsync<TItem>(IEnumerable<TItem>, Action<TransactSqlInsertBase<TEntity>>)
+  nameWithType.vb: ISqlClientRepository(Of TModel, TEntity).InsertForResultsAsync(Of TItem)(IEnumerable(Of TItem), Action(Of TransactSqlInsertBase(Of TEntity)))
 - uid: Startitecture.Orm.SqlClient.ISqlClientRepository`2.InsertForResultsAsync``1(System.Collections.Generic.IEnumerable{``0},System.Action{Startitecture.Orm.SqlClient.TransactSqlInsertBase{`1}},System.Threading.CancellationToken)
   name: InsertForResultsAsync<TItem>(IEnumerable<TItem>, Action<TransactSqlInsertBase<TEntity>>, CancellationToken)
   href: api/Startitecture.Orm.SqlClient.ISqlClientRepository-2.html#Startitecture_Orm_SqlClient_ISqlClientRepository_2_InsertForResultsAsync__1_System_Collections_Generic_IEnumerable___0__System_Action_Startitecture_Orm_SqlClient_TransactSqlInsertBase__1___System_Threading_CancellationToken_
@@ -11144,6 +11198,15 @@ references:
   fullName.vb: Startitecture.Orm.SqlClient.ISqlClientRepository(Of TModel, TEntity).MergeForResultsAsync
   nameWithType: ISqlClientRepository<TModel, TEntity>.MergeForResultsAsync
   nameWithType.vb: ISqlClientRepository(Of TModel, TEntity).MergeForResultsAsync
+- uid: Startitecture.Orm.SqlClient.ISqlClientRepository`2.MergeForResultsAsync``1(System.Collections.Generic.IEnumerable{``0},System.Action{Startitecture.Orm.SqlClient.TransactSqlMergeBase{`1}})
+  name: MergeForResultsAsync<TItem>(IEnumerable<TItem>, Action<TransactSqlMergeBase<TEntity>>)
+  href: api/Startitecture.Orm.SqlClient.ISqlClientRepository-2.html#Startitecture_Orm_SqlClient_ISqlClientRepository_2_MergeForResultsAsync__1_System_Collections_Generic_IEnumerable___0__System_Action_Startitecture_Orm_SqlClient_TransactSqlMergeBase__1___
+  commentId: M:Startitecture.Orm.SqlClient.ISqlClientRepository`2.MergeForResultsAsync``1(System.Collections.Generic.IEnumerable{``0},System.Action{Startitecture.Orm.SqlClient.TransactSqlMergeBase{`1}})
+  name.vb: MergeForResultsAsync(Of TItem)(IEnumerable(Of TItem), Action(Of TransactSqlMergeBase(Of TEntity)))
+  fullName: Startitecture.Orm.SqlClient.ISqlClientRepository<TModel, TEntity>.MergeForResultsAsync<TItem>(System.Collections.Generic.IEnumerable<TItem>, System.Action<Startitecture.Orm.SqlClient.TransactSqlMergeBase<TEntity>>)
+  fullName.vb: Startitecture.Orm.SqlClient.ISqlClientRepository(Of TModel, TEntity).MergeForResultsAsync(Of TItem)(System.Collections.Generic.IEnumerable(Of TItem), System.Action(Of Startitecture.Orm.SqlClient.TransactSqlMergeBase(Of TEntity)))
+  nameWithType: ISqlClientRepository<TModel, TEntity>.MergeForResultsAsync<TItem>(IEnumerable<TItem>, Action<TransactSqlMergeBase<TEntity>>)
+  nameWithType.vb: ISqlClientRepository(Of TModel, TEntity).MergeForResultsAsync(Of TItem)(IEnumerable(Of TItem), Action(Of TransactSqlMergeBase(Of TEntity)))
 - uid: Startitecture.Orm.SqlClient.ISqlClientRepository`2.MergeForResultsAsync``1(System.Collections.Generic.IEnumerable{``0},System.Action{Startitecture.Orm.SqlClient.TransactSqlMergeBase{`1}},System.Threading.CancellationToken)
   name: MergeForResultsAsync<TItem>(IEnumerable<TItem>, Action<TransactSqlMergeBase<TEntity>>, CancellationToken)
   href: api/Startitecture.Orm.SqlClient.ISqlClientRepository-2.html#Startitecture_Orm_SqlClient_ISqlClientRepository_2_MergeForResultsAsync__1_System_Collections_Generic_IEnumerable___0__System_Action_Startitecture_Orm_SqlClient_TransactSqlMergeBase__1___System_Threading_CancellationToken_
@@ -11484,6 +11547,15 @@ references:
   fullName.vb: Startitecture.Orm.SqlClient.SqlClientRepository(Of TModel, TEntity).InsertAsync
   nameWithType: SqlClientRepository<TModel, TEntity>.InsertAsync
   nameWithType.vb: SqlClientRepository(Of TModel, TEntity).InsertAsync
+- uid: Startitecture.Orm.SqlClient.SqlClientRepository`2.InsertAsync``1(System.Collections.Generic.IEnumerable{``0},System.Action{Startitecture.Orm.SqlClient.TransactSqlInsertBase{`1}})
+  name: InsertAsync<TItem>(IEnumerable<TItem>, Action<TransactSqlInsertBase<TEntity>>)
+  href: api/Startitecture.Orm.SqlClient.SqlClientRepository-2.html#Startitecture_Orm_SqlClient_SqlClientRepository_2_InsertAsync__1_System_Collections_Generic_IEnumerable___0__System_Action_Startitecture_Orm_SqlClient_TransactSqlInsertBase__1___
+  commentId: M:Startitecture.Orm.SqlClient.SqlClientRepository`2.InsertAsync``1(System.Collections.Generic.IEnumerable{``0},System.Action{Startitecture.Orm.SqlClient.TransactSqlInsertBase{`1}})
+  name.vb: InsertAsync(Of TItem)(IEnumerable(Of TItem), Action(Of TransactSqlInsertBase(Of TEntity)))
+  fullName: Startitecture.Orm.SqlClient.SqlClientRepository<TModel, TEntity>.InsertAsync<TItem>(System.Collections.Generic.IEnumerable<TItem>, System.Action<Startitecture.Orm.SqlClient.TransactSqlInsertBase<TEntity>>)
+  fullName.vb: Startitecture.Orm.SqlClient.SqlClientRepository(Of TModel, TEntity).InsertAsync(Of TItem)(System.Collections.Generic.IEnumerable(Of TItem), System.Action(Of Startitecture.Orm.SqlClient.TransactSqlInsertBase(Of TEntity)))
+  nameWithType: SqlClientRepository<TModel, TEntity>.InsertAsync<TItem>(IEnumerable<TItem>, Action<TransactSqlInsertBase<TEntity>>)
+  nameWithType.vb: SqlClientRepository(Of TModel, TEntity).InsertAsync(Of TItem)(IEnumerable(Of TItem), Action(Of TransactSqlInsertBase(Of TEntity)))
 - uid: Startitecture.Orm.SqlClient.SqlClientRepository`2.InsertAsync``1(System.Collections.Generic.IEnumerable{``0},System.Action{Startitecture.Orm.SqlClient.TransactSqlInsertBase{`1}},System.Threading.CancellationToken)
   name: InsertAsync<TItem>(IEnumerable<TItem>, Action<TransactSqlInsertBase<TEntity>>, CancellationToken)
   href: api/Startitecture.Orm.SqlClient.SqlClientRepository-2.html#Startitecture_Orm_SqlClient_SqlClientRepository_2_InsertAsync__1_System_Collections_Generic_IEnumerable___0__System_Action_Startitecture_Orm_SqlClient_TransactSqlInsertBase__1___System_Threading_CancellationToken_
@@ -11520,6 +11592,15 @@ references:
   fullName.vb: Startitecture.Orm.SqlClient.SqlClientRepository(Of TModel, TEntity).InsertForResultsAsync
   nameWithType: SqlClientRepository<TModel, TEntity>.InsertForResultsAsync
   nameWithType.vb: SqlClientRepository(Of TModel, TEntity).InsertForResultsAsync
+- uid: Startitecture.Orm.SqlClient.SqlClientRepository`2.InsertForResultsAsync``1(System.Collections.Generic.IEnumerable{``0},System.Action{Startitecture.Orm.SqlClient.TransactSqlInsertBase{`1}})
+  name: InsertForResultsAsync<TItem>(IEnumerable<TItem>, Action<TransactSqlInsertBase<TEntity>>)
+  href: api/Startitecture.Orm.SqlClient.SqlClientRepository-2.html#Startitecture_Orm_SqlClient_SqlClientRepository_2_InsertForResultsAsync__1_System_Collections_Generic_IEnumerable___0__System_Action_Startitecture_Orm_SqlClient_TransactSqlInsertBase__1___
+  commentId: M:Startitecture.Orm.SqlClient.SqlClientRepository`2.InsertForResultsAsync``1(System.Collections.Generic.IEnumerable{``0},System.Action{Startitecture.Orm.SqlClient.TransactSqlInsertBase{`1}})
+  name.vb: InsertForResultsAsync(Of TItem)(IEnumerable(Of TItem), Action(Of TransactSqlInsertBase(Of TEntity)))
+  fullName: Startitecture.Orm.SqlClient.SqlClientRepository<TModel, TEntity>.InsertForResultsAsync<TItem>(System.Collections.Generic.IEnumerable<TItem>, System.Action<Startitecture.Orm.SqlClient.TransactSqlInsertBase<TEntity>>)
+  fullName.vb: Startitecture.Orm.SqlClient.SqlClientRepository(Of TModel, TEntity).InsertForResultsAsync(Of TItem)(System.Collections.Generic.IEnumerable(Of TItem), System.Action(Of Startitecture.Orm.SqlClient.TransactSqlInsertBase(Of TEntity)))
+  nameWithType: SqlClientRepository<TModel, TEntity>.InsertForResultsAsync<TItem>(IEnumerable<TItem>, Action<TransactSqlInsertBase<TEntity>>)
+  nameWithType.vb: SqlClientRepository(Of TModel, TEntity).InsertForResultsAsync(Of TItem)(IEnumerable(Of TItem), Action(Of TransactSqlInsertBase(Of TEntity)))
 - uid: Startitecture.Orm.SqlClient.SqlClientRepository`2.InsertForResultsAsync``1(System.Collections.Generic.IEnumerable{``0},System.Action{Startitecture.Orm.SqlClient.TransactSqlInsertBase{`1}},System.Threading.CancellationToken)
   name: InsertForResultsAsync<TItem>(IEnumerable<TItem>, Action<TransactSqlInsertBase<TEntity>>, CancellationToken)
   href: api/Startitecture.Orm.SqlClient.SqlClientRepository-2.html#Startitecture_Orm_SqlClient_SqlClientRepository_2_InsertForResultsAsync__1_System_Collections_Generic_IEnumerable___0__System_Action_Startitecture_Orm_SqlClient_TransactSqlInsertBase__1___System_Threading_CancellationToken_
@@ -11592,6 +11673,15 @@ references:
   fullName.vb: Startitecture.Orm.SqlClient.SqlClientRepository(Of TModel, TEntity).MergeForResultsAsync
   nameWithType: SqlClientRepository<TModel, TEntity>.MergeForResultsAsync
   nameWithType.vb: SqlClientRepository(Of TModel, TEntity).MergeForResultsAsync
+- uid: Startitecture.Orm.SqlClient.SqlClientRepository`2.MergeForResultsAsync``1(System.Collections.Generic.IEnumerable{``0},System.Action{Startitecture.Orm.SqlClient.TransactSqlMergeBase{`1}})
+  name: MergeForResultsAsync<TItem>(IEnumerable<TItem>, Action<TransactSqlMergeBase<TEntity>>)
+  href: api/Startitecture.Orm.SqlClient.SqlClientRepository-2.html#Startitecture_Orm_SqlClient_SqlClientRepository_2_MergeForResultsAsync__1_System_Collections_Generic_IEnumerable___0__System_Action_Startitecture_Orm_SqlClient_TransactSqlMergeBase__1___
+  commentId: M:Startitecture.Orm.SqlClient.SqlClientRepository`2.MergeForResultsAsync``1(System.Collections.Generic.IEnumerable{``0},System.Action{Startitecture.Orm.SqlClient.TransactSqlMergeBase{`1}})
+  name.vb: MergeForResultsAsync(Of TItem)(IEnumerable(Of TItem), Action(Of TransactSqlMergeBase(Of TEntity)))
+  fullName: Startitecture.Orm.SqlClient.SqlClientRepository<TModel, TEntity>.MergeForResultsAsync<TItem>(System.Collections.Generic.IEnumerable<TItem>, System.Action<Startitecture.Orm.SqlClient.TransactSqlMergeBase<TEntity>>)
+  fullName.vb: Startitecture.Orm.SqlClient.SqlClientRepository(Of TModel, TEntity).MergeForResultsAsync(Of TItem)(System.Collections.Generic.IEnumerable(Of TItem), System.Action(Of Startitecture.Orm.SqlClient.TransactSqlMergeBase(Of TEntity)))
+  nameWithType: SqlClientRepository<TModel, TEntity>.MergeForResultsAsync<TItem>(IEnumerable<TItem>, Action<TransactSqlMergeBase<TEntity>>)
+  nameWithType.vb: SqlClientRepository(Of TModel, TEntity).MergeForResultsAsync(Of TItem)(IEnumerable(Of TItem), Action(Of TransactSqlMergeBase(Of TEntity)))
 - uid: Startitecture.Orm.SqlClient.SqlClientRepository`2.MergeForResultsAsync``1(System.Collections.Generic.IEnumerable{``0},System.Action{Startitecture.Orm.SqlClient.TransactSqlMergeBase{`1}},System.Threading.CancellationToken)
   name: MergeForResultsAsync<TItem>(IEnumerable<TItem>, Action<TransactSqlMergeBase<TEntity>>, CancellationToken)
   href: api/Startitecture.Orm.SqlClient.SqlClientRepository-2.html#Startitecture_Orm_SqlClient_SqlClientRepository_2_MergeForResultsAsync__1_System_Collections_Generic_IEnumerable___0__System_Action_Startitecture_Orm_SqlClient_TransactSqlMergeBase__1___System_Threading_CancellationToken_

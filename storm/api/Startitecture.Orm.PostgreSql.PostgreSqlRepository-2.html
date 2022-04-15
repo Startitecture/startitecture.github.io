@@ -416,6 +416,91 @@
     <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.PostgreSql/PostgreSqlRepository.cs&amp;version=GBmaster&amp;line=75">View Source</a>
   </span>
   <a id="Startitecture_Orm_PostgreSql_PostgreSqlRepository_2_InsertAsync_" data-uid="Startitecture.Orm.PostgreSql.PostgreSqlRepository`2.InsertAsync*"></a>
+  <h4 id="Startitecture_Orm_PostgreSql_PostgreSqlRepository_2_InsertAsync__1_System_Collections_Generic_IEnumerable___0__System_Action_Startitecture_Orm_PostgreSql_JsonInsert__1___" data-uid="Startitecture.Orm.PostgreSql.PostgreSqlRepository`2.InsertAsync``1(System.Collections.Generic.IEnumerable{``0},System.Action{Startitecture.Orm.PostgreSql.JsonInsert{`1}})">InsertAsync&lt;TItem&gt;(IEnumerable&lt;TItem&gt;, Action&lt;JsonInsert&lt;TEntity&gt;&gt;)</h4>
+  <div class="markdown level1 summary"><p>Inserts a list of items into the repository.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public async Task InsertAsync&lt;TItem&gt;(IEnumerable&lt;TItem&gt; items, Action&lt;JsonInsert&lt;TEntity&gt;&gt; insertAction)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;TItem&gt;</td>
+        <td><span class="parametername">items</span></td>
+        <td><p>The items to insert.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="Startitecture.Orm.PostgreSql.JsonInsert-1.html">JsonInsert</a>&lt;TEntity&gt;&gt;</td>
+        <td><span class="parametername">insertAction</span></td>
+        <td><p>The insert action to take, or null to take the default insert action.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td><p>The <span class="xref">System.Threading.Tasks.Task</span> that is performing the insert.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TItem</span></td>
+        <td><p>The type of item to insert.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">items</code> is null.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.PostgreSql/PostgreSqlRepository.cs&amp;version=GBmaster&amp;line=81">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_PostgreSql_PostgreSqlRepository_2_InsertAsync_" data-uid="Startitecture.Orm.PostgreSql.PostgreSqlRepository`2.InsertAsync*"></a>
   <h4 id="Startitecture_Orm_PostgreSql_PostgreSqlRepository_2_InsertAsync__1_System_Collections_Generic_IEnumerable___0__System_Action_Startitecture_Orm_PostgreSql_JsonInsert__1___System_Threading_CancellationToken_" data-uid="Startitecture.Orm.PostgreSql.PostgreSqlRepository`2.InsertAsync``1(System.Collections.Generic.IEnumerable{``0},System.Action{Startitecture.Orm.PostgreSql.JsonInsert{`1}},System.Threading.CancellationToken)">InsertAsync&lt;TItem&gt;(IEnumerable&lt;TItem&gt;, Action&lt;JsonInsert&lt;TEntity&gt;&gt;, CancellationToken)</h4>
   <div class="markdown level1 summary"><p>Inserts a list of items into the repository.</p>
 </div>
@@ -481,7 +566,7 @@
     <tbody>
       <tr>
         <td><span class="parametername">TItem</span></td>
-        <td><p>The type of item to insert..</p>
+        <td><p>The type of item to insert.</p>
 </td>
       </tr>
     </tbody>
@@ -504,7 +589,7 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.PostgreSql/PostgreSqlRepository.cs&amp;version=GBmaster&amp;line=105">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.PostgreSql/PostgreSqlRepository.cs&amp;version=GBmaster&amp;line=111">View Source</a>
   </span>
   <a id="Startitecture_Orm_PostgreSql_PostgreSqlRepository_2_InsertForResults_" data-uid="Startitecture.Orm.PostgreSql.PostgreSqlRepository`2.InsertForResults*"></a>
   <h4 id="Startitecture_Orm_PostgreSql_PostgreSqlRepository_2_InsertForResults__1_System_Collections_Generic_IEnumerable___0__System_Action_Startitecture_Orm_PostgreSql_JsonInsert__1___" data-uid="Startitecture.Orm.PostgreSql.PostgreSqlRepository`2.InsertForResults``1(System.Collections.Generic.IEnumerable{``0},System.Action{Startitecture.Orm.PostgreSql.JsonInsert{`1}})">InsertForResults&lt;TItem&gt;(IEnumerable&lt;TItem&gt;, Action&lt;JsonInsert&lt;TEntity&gt;&gt;)</h4>
@@ -589,7 +674,92 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.PostgreSql/PostgreSqlRepository.cs&amp;version=GBmaster&amp;line=121">View Source</a>
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.PostgreSql/PostgreSqlRepository.cs&amp;version=GBmaster&amp;line=127">View Source</a>
+  </span>
+  <a id="Startitecture_Orm_PostgreSql_PostgreSqlRepository_2_InsertForResultsAsync_" data-uid="Startitecture.Orm.PostgreSql.PostgreSqlRepository`2.InsertForResultsAsync*"></a>
+  <h4 id="Startitecture_Orm_PostgreSql_PostgreSqlRepository_2_InsertForResultsAsync__1_System_Collections_Generic_IEnumerable___0__System_Action_Startitecture_Orm_PostgreSql_JsonInsert__1___" data-uid="Startitecture.Orm.PostgreSql.PostgreSqlRepository`2.InsertForResultsAsync``1(System.Collections.Generic.IEnumerable{``0},System.Action{Startitecture.Orm.PostgreSql.JsonInsert{`1}})">InsertForResultsAsync&lt;TItem&gt;(IEnumerable&lt;TItem&gt;, Action&lt;JsonInsert&lt;TEntity&gt;&gt;)</h4>
+  <div class="markdown level1 summary"><p>Inserts a list of items into the repository.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public async IAsyncEnumerable&lt;TItem&gt; InsertForResultsAsync&lt;TItem&gt;(IEnumerable&lt;TItem&gt; items, Action&lt;JsonInsert&lt;TEntity&gt;&gt; insertAction)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;TItem&gt;</td>
+        <td><span class="parametername">items</span></td>
+        <td><p>The items to insert.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="Startitecture.Orm.PostgreSql.JsonInsert-1.html">JsonInsert</a>&lt;TEntity&gt;&gt;</td>
+        <td><span class="parametername">insertAction</span></td>
+        <td><p>The insert action to take, or null to take the default insert action.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IAsyncEnumerable</span>&lt;TItem&gt;</td>
+        <td><p>An <span class="xref">System.Collections.Generic.IAsyncEnumerable&lt;T&gt;</span> of <code data-dev-comment-type="typeparamref" class="typeparamref">TItem</code> items.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TItem</span></td>
+        <td><p>The type of item to insert.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">items</code> is null.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/startitecture/storm/_git/storm?path=Startitecture.Orm.PostgreSql/PostgreSqlRepository.cs&amp;version=GBmaster&amp;line=136">View Source</a>
   </span>
   <a id="Startitecture_Orm_PostgreSql_PostgreSqlRepository_2_InsertForResultsAsync_" data-uid="Startitecture.Orm.PostgreSql.PostgreSqlRepository`2.InsertForResultsAsync*"></a>
   <h4 id="Startitecture_Orm_PostgreSql_PostgreSqlRepository_2_InsertForResultsAsync__1_System_Collections_Generic_IEnumerable___0__System_Action_Startitecture_Orm_PostgreSql_JsonInsert__1___System_Threading_CancellationToken_" data-uid="Startitecture.Orm.PostgreSql.PostgreSqlRepository`2.InsertForResultsAsync``1(System.Collections.Generic.IEnumerable{``0},System.Action{Startitecture.Orm.PostgreSql.JsonInsert{`1}},System.Threading.CancellationToken)">InsertForResultsAsync&lt;TItem&gt;(IEnumerable&lt;TItem&gt;, Action&lt;JsonInsert&lt;TEntity&gt;&gt;, CancellationToken)</h4>
@@ -641,7 +811,7 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Collections.Generic.IAsyncEnumerable</span>&lt;TItem&gt;</td>
-        <td><p>An <span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span> of <code data-dev-comment-type="typeparamref" class="typeparamref">TItem</code> items.</p>
+        <td><p>An <span class="xref">System.Collections.Generic.IAsyncEnumerable&lt;T&gt;</span> of <code data-dev-comment-type="typeparamref" class="typeparamref">TItem</code> items.</p>
 </td>
       </tr>
     </tbody>
@@ -657,7 +827,7 @@
     <tbody>
       <tr>
         <td><span class="parametername">TItem</span></td>
-        <td><p>The type of item to insert..</p>
+        <td><p>The type of item to insert.</p>
 </td>
       </tr>
     </tbody>
